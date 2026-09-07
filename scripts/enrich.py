@@ -4,10 +4,12 @@
 from __future__ import annotations
 
 import json
+import re
 from collections import defaultdict
 from urllib.parse import quote, urlparse
 
 import m3u
+import urlcheck
 
 CHANNELS_API = "https://iptv-org.github.io/api/channels.json"
 LOGOS_API = "https://iptv-org.github.io/api/logos.json"
@@ -21,24 +23,12 @@ MJH_WORLD_EPG = "https://i.mjh.nz/world/epg.xml.gz"
 CN_CODES = {"CN", "HK", "MO", "TW"}
 GB_TO_UK = {"GB": "UK"}
 FORMAT_SCORE = {"SVG": 4, "PNG": 3, "WEBP": 2, "JPEG": 1, "JPG": 1, "GIF": 0}
-EPGSHARE_COUNTRY_RE = __import__("re").compile(r"epg_ripper_([A-Z]{2})\d+\.xml\.gz$", re.I)
-
-
-def is_cjk(text: str) -> bool:
-    return bool(CJK_RE.search(text or ""))
+EPGSHARE_COUNTRY_RE = re.compile(r"epg_ripper_([A-Z]{2})\d+\.xml\.gz$", re.I)
 
 
 def canon_country(code: str) -> str:
     value = (code or "").upper()
     return GB_TO_UK.get(value, value)
-
-
-def norm_name(text: str) -> str:
-    cleaned = m3u.clean_name(text)
-    cleaned = cleaned.replace("综合", "").replace("频道", "")
-    cleaned = re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", cleaned.lower())
-    cleaned = re.sub(r"^cctv0*", "cctv", cleaned)
-    return cleaned
 
 
 def load_channels() -> dict[str, dict]:
@@ -62,7 +52,7 @@ def name_index(channels: dict[str, dict]) -> dict[str, list[dict]]:
         names = [str(item.get("name") or "")]
         names.extend(str(n) for n in (item.get("alt_names") or []))
         for name in names:
-            key = norm_name(name)
+            key = m3u.compact_name(name)
             if key:
                 index[key].append(item)
     return index
@@ -72,7 +62,7 @@ def score_logo(row: dict) -> int:
     if not row.get("in_use"):
         return -1
     url = str(row.get("url") or "")
-    if not url.startswith("https://"):
+    if not url.startswith("https://") or not urlcheck.is_safe_https_url(url):
         return -1
     width = int(row.get("width") or 0)
     height = int(row.get("height") or 0)
@@ -89,7 +79,7 @@ def score_logo(row: dict) -> int:
 
 
 def pick_logo(channel_id: str, current: str, logos: dict[str, list[dict]]) -> str:
-    best_url = current if current.startswith("https://") else ""
+    best_url = current if urlcheck.is_safe_https_url(current) else ""
     best_score = 12 if best_url else -1
     for row in logos.get(channel_id, []):
         score = score_logo(row)
@@ -103,7 +93,7 @@ def match_channel(entry: m3u.Entry, channels: dict[str, dict], names: dict[str, 
     cid = entry.channel_id or (entry.tvg_id.split("@", 1)[0] if entry.tvg_id else "")
     if cid in channels:
         return channels[cid]
-    key = norm_name(entry.tvg_name or entry.name)
+    key = m3u.compact_name(entry.tvg_name or entry.name)
     hits = names.get(key) or []
     if not hits:
         return None
@@ -191,7 +181,7 @@ def attach(
         if not had_country and entry.country:
             tallies["country_filled"] += 1
         entry.logo = pick_logo(entry.channel_id, entry.logo, logos)
-        china = entry.country in CN_CODES or is_cjk(entry.name) or is_cjk(entry.group)
+        china = entry.country in CN_CODES or m3u.is_cjk(entry.name) or m3u.is_cjk(entry.group)
         if china:
             if not entry.tvg_name:
                 entry.tvg_name = m3u.clean_name(entry.name)

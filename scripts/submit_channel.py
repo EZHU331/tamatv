@@ -33,8 +33,6 @@ HEADING_MAP = {
 }
 SKIP_VALUES = {"", "_no response_", "n/a", "none", "null"}
 MAX_NAME = 80
-MAX_COMMUNITY = 200
-ALLOWED_SITE = "https://ezhu331.github.io/tamatv"
 GITHUB_USER_RE = re.compile(r"^[A-Za-z0-9-]{1,39}$")
 NAME_UNSAFE_RE = re.compile(r'[\x00-\x1f\x7f"<>]')
 ADDED = "This channel is in the Community list now."
@@ -214,7 +212,7 @@ def set_output(name: str, value: str) -> None:
 
 
 def accept(entry: m3u.Entry, issue: int, user: str) -> dict | None:
-    if len(community.load_records()) >= MAX_COMMUNITY:
+    if len(community.load_records()) >= community.MAX_COMMUNITY:
         return None
     record = {
         "name": entry.name,
@@ -228,7 +226,7 @@ def accept(entry: m3u.Entry, issue: int, user: str) -> dict | None:
         "added": community.utc_now(),
     }
     community.append_record(record)
-    community.patch_catalog(ALLOWED_SITE, "https://github.com/EZHU331/tamatv")
+    community.patch_catalog(community.ALLOWED_SITE, "https://github.com/EZHU331/tamatv")
     return record
 
 
@@ -247,7 +245,7 @@ def evaluate(body: str, issue: int, user: str, *, probe: bool = True) -> dict:
             return {"outcome": "rejected", "comment": REJECT_DEAD}
         if status != "ok":
             return {"outcome": "needs-review", "comment": NEEDS_REVIEW}
-    if len(community.load_records()) >= MAX_COMMUNITY:
+    if len(community.load_records()) >= community.MAX_COMMUNITY:
         return {"outcome": "rejected", "comment": REJECT_FULL}
     record = accept(entry, issue, user)
     if not record:

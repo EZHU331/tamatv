@@ -8,13 +8,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 
+import urllib.request
 import urlcheck
 
 USER_AGENT = "tamatv-playlist/1.0"
 FETCH_TIMEOUT = 45
-PROBE_TIMEOUT = 6
 PROBE_WORKERS = 32
-READ_BYTES = 2048
 MIN_HEIGHT = 720
 
 ATTR_RE = re.compile(r'([A-Za-z0-9-]+)="([^"]*)"')

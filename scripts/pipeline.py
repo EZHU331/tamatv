@@ -16,7 +16,6 @@ Stages, in order:
 from __future__ import annotations
 
 import argparse
-import importlib.util
 import json
 import sys
 from pathlib import Path
@@ -99,11 +98,9 @@ def process_entries(
 
 
 def load_refresh():
-    spec = importlib.util.spec_from_file_location("refresh_lists", SCRIPTS / "refresh-lists.py")
-    mod = importlib.util.module_from_spec(spec)
-    assert spec.loader
-    spec.loader.exec_module(mod)
-    return mod
+    import refresh_lists
+
+    return refresh_lists
 
 
 def write_status(extra: dict) -> None:
@@ -119,8 +116,7 @@ def write_status(extra: dict) -> None:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description="Maintain tamaTV live lists")
-    parser.add_argument("--probe", action="store_true", help="Drop confirmed-dead stream URLs")
-    parser.add_argument("--probe-all", action="store_true", help="Same as --probe")
+    parser.add_argument("--probe", "--probe-all", action="store_true", dest="probe", help="Drop confirmed-dead stream URLs")
     parser.add_argument("--catalog-only", action="store_true", help="Rewrite lists.json only")
     parser.add_argument("--check-only", action="store_true", help="Run the quality gate on existing files")
     args = parser.parse_args(argv)
@@ -136,7 +132,7 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     forwarded = []
-    if args.probe or args.probe_all:
+    if args.probe:
         forwarded.append("--probe")
     if args.catalog_only:
         forwarded.append("--catalog-only")

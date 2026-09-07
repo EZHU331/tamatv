@@ -11,6 +11,8 @@ on:
 
 permissions:
   contents: write
+  pull-requests: none
+  actions: none
 
 concurrency:
   group: refresh-playlists
@@ -34,11 +36,20 @@ jobs:
         run: python3 scripts/pipeline.py --probe
       - name: Commit
         run: |
-          git add lists.json playlists japan.m3u world.m3u community
-          if git diff --staged --quiet; then
+          git add -- lists.json playlists japan.m3u world.m3u
+          changed="$(git diff --staged --name-only)"
+          if [ -z "$changed" ]; then
             echo "No playlist changes"
             exit 0
           fi
+          while IFS= read -r file; do
+            case "$file" in
+              lists.json|japan.m3u|world.m3u|playlists/*) ;;
+              *) echo "unexpected path $file"; exit 1 ;;
+            esac
+          done <<EOF
+          $changed
+          EOF
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "$(cat <<'EOF'

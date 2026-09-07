@@ -7,6 +7,8 @@ on:
 permissions:
   contents: write
   issues: write
+  pull-requests: none
+  actions: none
 
 concurrency:
   group: submit-channel-${{ github.event.issue.number }}
