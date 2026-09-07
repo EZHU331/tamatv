@@ -7,8 +7,6 @@ https://live.alarabiya.net/alarabiapublish/aswaaq.smil/playlist.m3u8
 https://streamw.m.ro/Aleph/ngrp:Alephbiz.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Ameritrade.us@SD" tvg-country="US" tvg-name="Ameritrade" tvg-logo="https://images-na.ssl-images-amazon.com/images/I/71CZKwin9mL.png" group-title="Business",Ameritrade (1080p)
 https://tdameritrade-vizio.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="AtamekenBusiness.kz@SD" tvg-country="KZ" tvg-name="Atameken Business" tvg-logo="https://i.imgur.com/CfRvm8i.png" group-title="Business",Atameken Business
-https://fs.uplink.kz/atameken/mono.m3u8?token=onlinetv
 #EXTINF:-1 tvg-id="AusbizTV.au@SD" tvg-country="AU" tvg-name="Ausbiz TV" tvg-logo="https://i.imgur.com/8vGGdB0.png" group-title="Business",ausbiz TV (720p)
 https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
 #EXTINF:-1 tvg-id="BloombergTVEurope.uk" tvg-country="UK" tvg-name="Bloomberg Television (Europe)" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="Business",Bloomberg Television (Europe)
@@ -73,12 +71,8 @@ https://amogonetworx-moconomy-2-us.tcl.wurl.tv/playlist.m3u8
 https://ndtvprofit.akamaized.net/hls/live/2107404/ndtvprofit/master_1.m3u8
 #EXTINF:-1 tvg-id="NegociosTV.es@SD" tvg-country="ES" tvg-name="Negocios TV" tvg-logo="https://i.imgur.com/yNRipxu.png" group-title="Business",Negocios TV (1080p)
 https://streaming013.gestec-video.com/hls/negociostv.m3u8
-#EXTINF:-1 tvg-id="NWEconomie.tg@SD" tvg-country="TG" tvg-name="NW Economie" tvg-logo="https://i.imgur.com/OmlFQa8.png" group-title="Business",NW Economie
-https://hls.newworldtv.com/nw-economie/video/live.m3u8
 #EXTINF:-1 tvg-id="ProBusiness.ru@SD" tvg-country="RU" tvg-name="Pro Business" tvg-logo="https://i.imgur.com/1u8KvTD.png" group-title="Business",Pro Business (720p)
 https://tv-streaming.bsh.ru:21938/probusiness/probusiness.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="RBKTV.ru@SD" tvg-country="RU" tvg-name="RBK-TV" tvg-logo="https://i.imgur.com/CwhmJby.png" group-title="Business",RBK-TV SD
-http://hls127.freeott.top:8080/RBK/video.m3u8
 #EXTINF:-1 tvg-id="SchwabNetwork.us@SD" tvg-country="US" tvg-name="Schwab Network" tvg-logo="https://a.jsrdn.com/hls/22849/schwab-network/logo_20231219_221750_68.png" group-title="Business",Schwab Network (1080p)
 https://content.uplynk.com/channel/f9aafa1f132e40af9b9e7238bc18d128.m3u8
 #EXTINF:-1 tvg-id="TelewizjaBiznesowa.pl@SD" tvg-country="PL" tvg-name="Telewizja Biznesowa" tvg-logo="https://i.imgur.com/XC7i7ZL.png" group-title="Business",Telewizja Biznesowa (1080p)
@@ -93,3 +87,5 @@ https://d1ewctnvcwvvvu.cloudfront.net/playlist.m3u8
 https://dwby15d04agvq.cloudfront.net/index_5.m3u8
 #EXTINF:-1 tvg-id="ZuracaTV.bo@SD" tvg-country="BO" tvg-name="Zuraca TV" tvg-logo="https://i.imgur.com/NsNytWD.jpeg" group-title="Business",Zuraca TV (720p)
 https://tv3.bitstreaming.net:3680/live/zuracatvlive.m3u8
+#EXTINF:-1 tvg-id="RBKTV.ru" tvg-country="RU" tvg-name="РБК" tvg-logo="https://i.imgur.com/CwhmJby.png" group-title="Business",РБК
+http://92.50.128.180/utv/1358/index.m3u8

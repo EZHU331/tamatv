@@ -19,6 +19,10 @@ https://example.com/kids.m3u8
 https://example.com/x.m3u8
 #EXTINF:-1 tvg-id="Low.us@SD" group-title="General",Low Only (240p)
 https://example.com/low.m3u8
+#EXTINF:-1 tvg-id="SdOnly.us" group-title="News",SD Only (480p)
+https://example.com/sd-only.m3u8
+#EXTINF:-1 tvg-id="HdKeep.us" group-title="News",HD Keep (720p)
+https://example.com/hd-keep.m3u8
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1 标清
 http://203.0.113.10/cctv1-sd.m3u8
 #EXTINF:-1 tvg-name="CCTV1" group-title="央视频道",CCTV1 高清
@@ -48,6 +52,9 @@ def test_curate() -> None:
     assert "News One (1080p)" in names, names
     assert "News One (360p)" not in names
     assert "Low Only" not in names and "Low Only (240p)" not in names
+    assert "SD Only" not in names and "SD Only (480p)" not in names
+    assert any("HD Keep" in name for name in names), names
+    assert any("Kids Plus" in name for name in names), names
     assert any(e.group == "Kids" for e in org), groups
     assert all(e.group != "XXX" for e in org)
     assert all("youtube" not in e.url for e in org)

@@ -149,42 +149,73 @@ def opener_for(*, insecure: bool = False, https_only: bool = False):
     return urllib.request.build_opener(https, handler)
 
 
-def probe_https(url: str) -> str:
-    if not is_safe_https_url(url, resolve=True):
+def classify_probe(status: int, chunk: bytes) -> str:
+    body = chunk.lstrip().lower()
+    if body.startswith((b"<!doctype", b"<html", b"<head")):
         return "dead"
-    headers = {"User-Agent": USER_AGENT, "Accept": "*/*", "Range": "bytes=0-2047"}
-    req = urllib.request.Request(url, headers=headers, method="GET")
-    opener = opener_for(https_only=True)
-    try:
+    if status in {404, 410, 451}:
+        return "dead"
+    if status in {401, 403, 407, 429, 457} or status >= 500:
+        return "unknown"
+    if status in {200, 206}:
+        return "ok"
+    if 300 <= status < 400:
+        return "dead"
+    return "unknown"
+
+
+def probe_url(
+    url: str,
+    *,
+    headers: dict[str, str] | None = None,
+    schemes: tuple[str, ...] = ("http", "https"),
+    allow_insecure: bool = False,
+) -> str:
+    https_only = schemes == ("https",)
+    if not is_safe_fetch_url(url, schemes=schemes, resolve=True):
+        return "dead"
+    req_headers = {
+        "User-Agent": USER_AGENT,
+        "Accept": "*/*",
+        "Range": "bytes=0-2047",
+        **(headers or {}),
+    }
+    req = urllib.request.Request(url, headers=req_headers, method="GET")
+
+    def open_once(insecure: bool) -> tuple[int, bytes, str]:
+        opener = opener_for(insecure=insecure, https_only=https_only)
         with opener.open(req, timeout=PROBE_TIMEOUT) as resp:
-            status = getattr(resp, "status", 200) or 200
-            final = resp.geturl()
-            chunk = resp.read(READ_BYTES)
+            return getattr(resp, "status", 200) or 200, resp.read(READ_BYTES), resp.geturl()
+
+    try:
+        status, chunk, final = open_once(False)
     except urllib.error.HTTPError as err:
-        err_url = getattr(err, "url", "") or getattr(err, "filename", "") or url
-        if not is_safe_https_url(str(err_url), resolve=True):
+        err_url = str(getattr(err, "url", "") or getattr(err, "filename", "") or url)
+        if not is_safe_fetch_url(err_url, schemes=schemes, resolve=True):
             return "dead"
         status = err.code
         try:
             chunk = err.read(READ_BYTES)
         except Exception:
             chunk = b""
+        final = err_url
         if status in {404, 410, 451}:
             return "dead"
         if status in {401, 403, 407, 429, 457} or status >= 500:
             return "unknown"
-        final = str(err_url)
+    except ssl.SSLError:
+        if not allow_insecure:
+            return "unknown"
+        try:
+            status, chunk, final = open_once(True)
+        except Exception:
+            return "unknown"
     except Exception:
         return "unknown"
-    if final and not is_safe_https_url(final, resolve=True):
+    if final and not is_safe_fetch_url(final, schemes=schemes, resolve=True):
         return "dead"
-    body = chunk.lstrip().lower()
-    if body.startswith((b"<!doctype", b"<html", b"<head")):
-        return "dead"
-    if status in {200, 206}:
-        return "ok"
-    if 300 <= status < 400:
-        return "dead"
-    if status in {404, 410, 451}:
-        return "dead"
-    return "unknown"
+    return classify_probe(status, chunk)
+
+
+def probe_https(url: str) -> str:
+    return probe_url(url, schemes=("https",), allow_insecure=False)

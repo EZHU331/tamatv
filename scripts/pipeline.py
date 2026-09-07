@@ -6,7 +6,7 @@ Stages, in order:
   inspect  census junk, VOD, missing logos/ids, country-as-group
   enhance  match iptv-org metadata and upgrade logos/names
   pair     fill tvg-id, tvg-country, XMLTV guide URLs
-  fix      drop junk/VOD/adult/low-quality; clean names; pick best URL
+  fix      drop junk/VOD/adult/labeled streams under 720p; clean names; pick best URL
   group    classify country + category (China 央视/卫视 in country lists)
   probe    optional liveness check; drop confirmed-dead streams
   compose  write country/category/aggregator M3Us and lists.json

@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
 #EXTINF:-1 tvg-id="A2iNaija.sn@SD" tvg-country="SN" tvg-name="A2i Naija" tvg-logo="https://i.imgur.com/yq7ghPE.jpg" group-title="Education",A2i Naija (720p)
 https://stream.sen-gt.com/A2iNaija/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="AgroCanal.br@SD" tvg-country="BR" tvg-name="AgroCanal" tvg-logo="https://i.imgur.com/5XyopHf.png" group-title="Education",AgroCanal (720p)
@@ -15,12 +15,8 @@ https://jmp2.uk/stvp-CABC5200009HX
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="BATVEducationalChannel.us@SD" tvg-country="US" tvg-name="BATV Educational Channel" tvg-logo="https://i.imgur.com/eDoJqtg.png" group-title="Education",BATV Educational Channel
 https://livestream.telvue.com/billerica2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="CVCEducation.us@SD" tvg-country="US" tvg-name="CVC Education" tvg-logo="https://i.imgur.com/tUgEAUJ.png" group-title="Education",Bolton Community Voice Channel (CVC) Education (Bolton CT)
-https://dlttx48mxf9m3.cloudfront.net/vod_clients/bolton/live/ch2/video.m3u8
 #EXTINF:-1 tvg-id="BUTV10.us@SD" tvg-country="US" tvg-name="BUTV10" tvg-logo="https://i.imgur.com/Iv1Fe67.png" group-title="Education",BUTV10 (Boston University) (1080p)
 https://cdnapisec.kaltura.com/p/2184561/sp/218456100/playManifest/entryId/1_68qxw4eu/format/applehttp/a.m3u8
-#EXTINF:-1 tvg-id="CampusTV.hn@SD" tvg-country="HN" tvg-name="Campus TV" tvg-logo="https://i.imgur.com/E1TmADM.png" group-title="Education",Campus TV
-https://5e85d90130e77.streamlock.net/6052/6052/playlist.m3u8
 #EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-country="MX" tvg-name="ILCE Canal 15 Summa Saberes" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education",Canal 15 ILCE Summa Sabres (720p)
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal15.ni@SD" tvg-country="NI" tvg-name="Canal 15" tvg-logo="https://i.imgur.com/DGBMuEs.png" group-title="Education",Canal 15 Nicaragüense (1080p)
@@ -43,8 +39,6 @@ https://cloudflare.tv/hls/live.m3u8
 https://create.lls.pbs.org/index.m3u8
 #EXTINF:-1 tvg-id="CreaTVChannel28.us@SD" tvg-country="US" tvg-name="CreaTV Channel 28" tvg-logo="https://i.imgur.com/rvQdzL1.png" group-title="Education",CreaTV Classrooms Channel 28 (San Jose CA) (720p)
 https://reflect-creatv.cablecast.tv/live-14/live/live.m3u8
-#EXTINF:-1 tvg-id="DaVinci.ru@SD" tvg-country="RU" tvg-name="Da Vinci" tvg-logo="https://i.imgur.com/V8AUJP6.png" group-title="Education",Da Vinci
-http://hls127.freeott.top:8080/Da_Vinci_Learning/video.m3u8
 #EXTINF:-1 tvg-id="DKN.us@SD" tvg-country="US" tvg-name="DKN" tvg-logo="https://i.imgur.com/DIau0GB.png" group-title="Education",DC.gov DKN (Washington DC) (1080p)
 https://video.oct.dc.gov/out/u/DKN.m3u8
 #EXTINF:-1 tvg-id="DDKisan.in@SD" tvg-country="IN" tvg-name="DD Kisan" tvg-logo="https://dtil.tmsimg.com/assets/s142789_ld_h9_aa.png?lock=720x540" group-title="Education",DD Kisan (720p)
@@ -86,24 +80,6 @@ https://cdn-live.dltv.ac.th/dltv13.m3u8
 https://cdn-live.dltv.ac.th/dltv14.m3u8
 #EXTINF:-1 tvg-id="DLTV15.th@SD" tvg-country="TH" tvg-name="DLTV 15" tvg-logo="https://i.imgur.com/onJi2b6.png" group-title="Education",DLTV 15 (1080p)
 https://cdn-live.dltv.ac.th/dltv15.m3u8
-#EXTINF:-1 tvg-id="EVidya4.in@SD" tvg-country="IN" tvg-name="E-Vidya 4" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 4
-http://103.72.101.252:8080/live/406.m3u8
-#EXTINF:-1 tvg-id="EVidya5.in@SD" tvg-country="IN" tvg-name="E-Vidya 5" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 5
-http://103.72.101.252:8080/live/407.m3u8
-#EXTINF:-1 tvg-id="EVidya6.in@SD" tvg-country="IN" tvg-name="E-Vidya 6" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 6
-http://103.72.101.252:8080/live/408.m3u8
-#EXTINF:-1 tvg-id="EVidya7.in@SD" tvg-country="IN" tvg-name="E-Vidya 7" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 7
-http://103.72.101.252:8080/live/404.m3u8
-#EXTINF:-1 tvg-id="EVidya8.in@SD" tvg-country="IN" tvg-name="E-Vidya 8" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 8
-http://103.72.101.252:8080/live/409.m3u8
-#EXTINF:-1 tvg-id="EVidya9.in@SD" tvg-country="IN" tvg-name="E-Vidya 9" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 9
-http://103.72.101.252:8080/live/410.m3u8
-#EXTINF:-1 tvg-id="EVidya10.in@SD" tvg-country="IN" tvg-name="E-Vidya 10" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 10
-http://103.72.101.252:8080/live/411.m3u8
-#EXTINF:-1 tvg-id="EVidya11.in@SD" tvg-country="IN" tvg-name="E-Vidya 11" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 11
-http://103.72.101.252:8080/live/1410.m3u8
-#EXTINF:-1 tvg-id="EVidya12.in@SD" tvg-country="IN" tvg-name="E-Vidya 12" tvg-logo="https://i.imgur.com/0sz6t9F.png" group-title="Education",E-Vidya 12
-http://103.72.101.252:8080/live/1532.m3u8
 #EXTINF:-1 tvg-id="EBCGeneralEducation.kh@SD" tvg-country="KH" tvg-name="EBC General Education" tvg-logo="https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png" group-title="Education",EBC General Education (720p)
 https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
 #EXTINF:-1 tvg-id="EBS1TV.kr" tvg-country="KR" tvg-name="EBS 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/EBS_1TV_Logo.svg/960px-EBS_1TV_Logo.svg.png" group-title="Education",EBS 1
@@ -116,8 +92,6 @@ https://ebsonair.ebs.co.kr/plus3familypc/familypc1m/playlist.m3u8
 https://ebsonair.ebs.co.kr/plus1familypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="EBSPlus2.kr" tvg-country="KR" tvg-name="EBS Plus 2" tvg-logo="https://i.imgur.com/pllIMGi.png" group-title="Education",EBS Plus 2
 https://ebsonair.ebs.co.kr/plus2familypc/familypc1m/playlist.m3u8
-#EXTINF:-1 tvg-id="EDUTV.rs@SD" tvg-country="RS" tvg-name="EDU TV" tvg-logo="https://i.imgur.com/NE48DJb.png" group-title="Education",EDU TV
-https://5aa64ca8b95b8.streamlock.net:4443/edutv/edutelevizija/playlist.m3u8
 #EXTINF:-1 tvg-id="EducaTV.ec@SD" tvg-country="EC" tvg-name="Educa TV" tvg-logo="https://i.imgur.com/lY9Bx2u.png" group-title="Education",Educa TV (720p)
 https://avm.ecuamedia.net/educatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="EdutainmentTV.mn" tvg-country="MN" tvg-name="Education TV" tvg-logo="https://i.imgur.com/0m8t3vh.png" group-title="Education",Education TV
@@ -164,10 +138,10 @@ https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
 https://svt-live-channel.akamaized.net/l6/se/svtk/master-fmp4.m3u8?defaultSubLang=1&format=hls
 #EXTINF:-1 tvg-id="LeominsterTVEducational.us@SD" tvg-country="US" tvg-name="Leominster TV Educational" tvg-logo="https://i.imgur.com/Cy94oLl.png" group-title="Education",Leominster TV Educational (720p)
 https://livestream.telvue.com/leominster2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="LiceumTV.hu@SD" tvg-country="HU" tvg-name="Liceum TV" tvg-logo="https://i.imgur.com/Hf122ZD.png" group-title="Education",Liceum TV
-http://193.225.32.62:8890/live.m3u8
 #EXTINF:-1 tvg-id="LA36.us@SD" tvg-country="US" tvg-name="LA36" tvg-logo="https://i.imgur.com/JxTzUEq.png" group-title="Education",Los Angeles Local Television Channel 36 (1080p)
 https://reflect-channel36-la.cablecast.tv/live-3/live/stream-1/live.m3u8
+#EXTINF:-1 tvg-id="LiceumTV.hu" tvg-country="HU" tvg-name="Líceum TV" tvg-logo="https://i.imgur.com/Hf122ZD.png" group-title="Education",Líceum TV
+http://193.225.32.62:8890/live.m3u8
 #EXTINF:-1 tvg-id="M5.hu@SD" tvg-country="HU" tvg-name="M5" tvg-logo="https://i.imgur.com/y21wFd0.png" group-title="Education",M5 (1080p)
 http://88.212.15.19/live/test_m_5_hun_atk_1200/playlist.m3u8
 #EXTINF:-1 tvg-id="ManasTV.kg@SD" tvg-country="KG" tvg-name="Manas TV" tvg-logo="https://i.ibb.co/2Kvcj5Q/manas.jpg" group-title="Education",Manas TV (1080p)
@@ -234,14 +208,10 @@ http://180.180.243.239/streams/3/hls
 https://edge.enhdtv.com/8054/index.m3u8
 #EXTINF:-1 tvg-id="RaiScuola.it" tvg-country="IT" tvg-name="Rai Scuola" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Rai_Scuola_-_Logo_2017.svg/960px-Rai_Scuola_-_Logo_2017.svg.png" group-title="Education",Rai Scuola
 https://d3k8wzt41aflvx.cloudfront.net/RAIScuola/Live.m3u8
-#EXTINF:-1 tvg-id="RedApple21.us@SD" tvg-country="US" tvg-name="Red Apple 21" tvg-logo="https://i.imgur.com/ICcQUCH.png" group-title="Education",Red Apple 21 (Fairfax County Public Schools)
-https://cs.ebmcdn.net/eastbay-live-hs-1/fcps/mp4:fcps/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeMinas.br@SD" tvg-country="BR" tvg-name="Rede Minas" tvg-logo="https://i.imgur.com/MtQWAHv.png" group-title="Education",Rede Minas (720p)
 https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
 #EXTINF:-1 tvg-id="RinjaniTV.id@SD" tvg-country="ID" tvg-name="Rinjani TV" tvg-logo="https://lombokindustries.com/assunnah/zone/img/rinjanitv.png" group-title="Education",Rinjani TV
 https://rinjanitv.cloud/hls/tvkabel.m3u8
-#EXTINF:-1 tvg-id="RyongnamsanTelevision.kp@SD" tvg-country="KP" tvg-name="Ryongnamsan Television" tvg-logo="https://i.imgur.com/1BHJjY4.png" group-title="Education",Ryongnamsan Television SD
-https://kctv.koryofront.org/stream/ryongnamsan/index.m3u8
 #EXTINF:-1 tvg-id="SantaCeciliaTV.br@SD" tvg-country="BR" tvg-name="Santa Cecilia TV" tvg-logo="https://i.imgur.com/KxYsq1d.png" group-title="Education",Santa Cecilia TV (1080p)
 https://5fb29de4928ea.streamlock.net/2063/2063/playlist.m3u8
 #EXTINF:-1 tvg-id="SMCTVChannel24.us@SD" tvg-country="US" tvg-name="SMCTV Channel 24" tvg-logo="https://i.imgur.com/4Autljp.png" group-title="Education",Santa Maria Community Television Education Channel (720p)
@@ -256,48 +226,6 @@ https://jmp2.uk/plu-6576c20fb3801200084786c9.m3u8
 https://reflect-stlucie-ps-fl.cablecast.tv/live-1/live/stream-1/WIFI-1896k-720p.m3u8
 #EXTINF:-1 tvg-id="STVETelebasica.hn@SD" tvg-country="HN" tvg-name="STVE Telebasica" tvg-logo="https://i.imgur.com/nUsq67m.png" group-title="Education",STVE Telebasica (1080p)
 https://streamingcws30.com/suyapa/videosuyapa/playlist.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha1.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 1" tvg-logo="https://i.imgur.com/og6ZGzP.png" group-title="Education",Swayam Prabha 1
-http://103.72.101.252:8080/live/980.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha3.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 3" tvg-logo="https://i.imgur.com/KyktF1N.png" group-title="Education",Swayam Prabha 3
-http://103.72.101.252:8080/live/982.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha4.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 4" tvg-logo="https://i.imgur.com/ARcspGv.png" group-title="Education",Swayam Prabha 4
-http://103.72.101.252:8080/live/984.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha5.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 5" tvg-logo="https://i.imgur.com/8MrrMFF.png" group-title="Education",Swayam Prabha 5
-http://103.72.101.252:8080/live/986.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha6.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 6" tvg-logo="https://i.imgur.com/8tynFFn.png" group-title="Education",Swayam Prabha 6
-http://103.72.101.252:8080/live/987.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha7.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 7" tvg-logo="https://i.imgur.com/TNRG1i0.png" group-title="Education",Swayam Prabha 7
-http://103.72.101.252:8080/live/985.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha8.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 8" tvg-logo="https://i.imgur.com/nN5bkZO.png" group-title="Education",Swayam Prabha 8
-http://103.72.101.252:8080/live/983.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha9.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 9" tvg-logo="https://i.imgur.com/UjFRkfW.png" group-title="Education",Swayam Prabha 9
-http://103.72.101.252:8080/live/988.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha10.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 10" tvg-logo="https://i.imgur.com/ucVoE30.png" group-title="Education",Swayam Prabha 10
-http://103.72.101.252:8080/live/989.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha11.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 11" tvg-logo="https://i.imgur.com/myaoIHK.png" group-title="Education",Swayam Prabha 11
-http://103.72.101.252:8080/live/990.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha12.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 12" tvg-logo="https://i.imgur.com/8poTF12.png" group-title="Education",Swayam Prabha 12
-http://103.72.101.252:8080/live/991.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha13.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 13" tvg-logo="https://i.imgur.com/JQYDxF0.png" group-title="Education",Swayam Prabha 13
-http://103.72.101.252:8080/live/992.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha14.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 14" tvg-logo="https://i.imgur.com/6k7y12q.png" group-title="Education",Swayam Prabha 14
-http://103.72.101.252:8080/live/993.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha15.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 15" tvg-logo="https://i.imgur.com/YDdcJum.png" group-title="Education",Swayam Prabha 15
-http://103.72.101.252:8080/live/995.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha16.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 16" tvg-logo="https://i.imgur.com/dqOYViw.png" group-title="Education",Swayam Prabha 16
-http://103.72.101.252:8080/live/994.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha17.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 17" tvg-logo="https://i.imgur.com/PjSJnDw.png" group-title="Education",Swayam Prabha 17
-http://103.72.101.252:8080/live/996.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha18.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 18" tvg-logo="https://i.imgur.com/PFwzjFT.png" group-title="Education",Swayam Prabha 18
-http://103.72.101.252:8080/live/999.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha19.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 19" tvg-logo="https://i.imgur.com/qM5MKoe.png" group-title="Education",Swayam Prabha 19
-http://103.72.101.252:8080/live/401.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha20.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 20" tvg-logo="https://i.imgur.com/tULsS8E.png" group-title="Education",Swayam Prabha 20
-http://103.72.101.252:8080/live/403.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha21.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 21" tvg-logo="https://i.imgur.com/3XkdyYz.png" group-title="Education",Swayam Prabha 21
-http://103.72.101.252:8080/live/997.m3u8
-#EXTINF:-1 tvg-id="SwayamPrabha22.in@SD" tvg-country="IN" tvg-name="Swayam Prabha 22" tvg-logo="https://i.imgur.com/6KTbpux.png" group-title="Education",Swayam Prabha 22
-http://103.72.101.252:8080/live/998.m3u8
 #EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-country="MX" tvg-name="Tele UV" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV
 https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="Telepace3.it@SD" tvg-country="IT" tvg-name="Telepace 3" tvg-logo="https://i.imgur.com/hE4i2ft.png" group-title="Education",Telepace 3 (1080p)
@@ -316,10 +244,6 @@ https://livestream.telvue.com/templeuni1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/pl
 https://tvenvivo.buap.mx/livestream/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVCuatro44.mx@SD" tvg-country="MX" tvg-name="TV Cuatro 4.4" tvg-logo="https://i.imgur.com/Of044Jx.png" group-title="Education",TV Cuatro 4.4 (1080p)
 https://5ca3e84a76d30.streamlock.net/tv44gto/tv44gto.smil/.m3u8
-#EXTINF:-1 tvg-id="TVMackenzie.br@SD" tvg-country="BR" tvg-name="TV Mackenzie" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/TV_Mackenzie_logo.svg/960px-TV_Mackenzie_logo.svg.png" group-title="Education",TV Mackenzie
-https://player.internetaovivo.com:8443/live_tvmackenzieabr/tvmackenzieabr/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMaya.gt@SD" tvg-country="GT" tvg-name="TV Maya" tvg-logo="https://i.imgur.com/BGFa4OO.png" group-title="Education",TV Maya
-https://5ca9af4645e15.streamlock.net/mayas/videomayas/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUFG.br@SD" tvg-country="BR" tvg-name="TV UFG" tvg-logo="https://i.imgur.com/Yp3dbJo.png" group-title="Education",TV UFG (720p)
 http://flash.softhost.com.br:1935/ufg/tvufgweb/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-country="BR" tvg-name="TV UFOP" tvg-logo="https://raw.githubusercontent.com/daniloroxette/tvufop/refs/heads/main/images/tvufop_logo.png" group-title="Education",TV UFOP (1080p)
@@ -328,7 +252,7 @@ https://app.tvufop.com.br/hls/tvufop.m3u8
 https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUJAT.mx@SD" tvg-country="MX" tvg-name="TV UJAT" tvg-logo="https://i.imgur.com/4demWOi.png" group-title="Education",TV UJAT (XHUJAT-TDT) (720p)
 https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
+#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-id="TVUsach.cl@SD" tvg-country="CL" tvg-name="TV Usach" tvg-logo="https://i.imgur.com/KDC7IVl.png" group-title="Education",TV Usach (720p)
 https://stv4.janus.cl/playlist/stream.m3u8
@@ -354,42 +278,6 @@ https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
 https://stream.unison.mx/hls/unisontvatem.m3u8
 #EXTINF:-1 tvg-id="UnisulTV.br@SD" tvg-country="BR" tvg-name="Unisul TV" tvg-logo="https://i.imgur.com/N0TvAFz.png" group-title="Education",UNISUL TV (720p)
 https://sitetv.brasilstream.com.br/hls/sitetv/index.m3u8?token=
-#EXTINF:-1 tvg-id="UniTVPortoAlegre.br@SD" tvg-country="BR" tvg-name="UniTV Porto Alegre" tvg-logo="https://i.imgur.com/GmA5uuk.png" group-title="Education",UniTV Porto Alegre
-http://unitvaovivo.ufrgs.br:8080/live.ogg
-#EXTINF:-1 tvg-id="VandeGujarat1.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 1" tvg-logo="https://i.imgur.com/JjZj5JE.png" group-title="Education",Vande Gujarat 1
-http://103.72.101.252:8080/live/1069.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat2.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 2" tvg-logo="https://i.imgur.com/fZeOwSM.png" group-title="Education",Vande Gujarat 2
-http://103.72.101.252:8080/live/1070.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat3.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 3" tvg-logo="https://i.imgur.com/Q1b3XRZ.png" group-title="Education",Vande Gujarat 3
-http://103.72.101.252:8080/live/1082.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat4.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 4" tvg-logo="https://i.imgur.com/67GZ2hN.png" group-title="Education",Vande Gujarat 4
-http://103.72.101.252:8080/live/1071.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat5.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 5" tvg-logo="https://i.imgur.com/dDSSJW2.png" group-title="Education",Vande Gujarat 5
-http://103.72.101.252:8080/live/1083.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat6.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 6" tvg-logo="https://i.imgur.com/hClW7Cv.png" group-title="Education",Vande Gujarat 6
-http://103.72.101.252:8080/live/1084.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat7.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 7" tvg-logo="https://i.imgur.com/epnEnpG.png" group-title="Education",Vande Gujarat 7
-http://103.72.101.252:8080/live/1085.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat8.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 8" tvg-logo="https://i.imgur.com/UDcdxXl.png" group-title="Education",Vande Gujarat 8
-http://103.72.101.252:8080/live/1086.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat9.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 9" tvg-logo="https://i.imgur.com/dU05ftn.png" group-title="Education",Vande Gujarat 9
-http://103.72.101.252:8080/live/1087.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat10.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 10" tvg-logo="https://i.imgur.com/YSECJPy.png" group-title="Education",Vande Gujarat 10
-http://103.72.101.252:8080/live/1088.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat11.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 11" tvg-logo="https://i.imgur.com/OkXeGI9.png" group-title="Education",Vande Gujarat 11
-http://103.72.101.252:8080/live/1089.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat12.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 12" tvg-logo="https://i.imgur.com/K0F4jQ1.png" group-title="Education",Vande Gujarat 12
-http://103.72.101.252:8080/live/1090.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat13.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 13" tvg-logo="https://i.imgur.com/eoDwNZx.png" group-title="Education",Vande Gujarat 13
-http://103.72.101.252:8080/live/1091.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat14.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 14" tvg-logo="https://i.imgur.com/1n2gMHF.png" group-title="Education",Vande Gujarat 14
-http://103.72.101.252:8080/live/1092.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat15.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 15" tvg-logo="https://i.imgur.com/5xN2AnH.png" group-title="Education",Vande Gujarat 15
-http://103.72.101.252:8080/live/1093.m3u8
-#EXTINF:-1 tvg-id="VandeGujarat16.in@SD" tvg-country="IN" tvg-name="Vande Gujarat 16" tvg-logo="https://i.imgur.com/xVRuk5X.png" group-title="Education",Vande Gujarat 16
-http://103.72.101.252:8080/live/1094.m3u8
-#EXTINF:-1 tvg-id="VyasChannel.in@SD" tvg-country="IN" tvg-name="Vyas Channel" tvg-logo="https://www.yupptv.com/seo_img/UGC_GEC_big.jpg" group-title="Education",Vyas NIC
-https://playhls.media.nic.in/hls/live/vyas/vyas.m3u8
 #EXTINF:-1 tvg-id="WikiTV.kh@SD" tvg-country="KH" tvg-name="Wiki TV" tvg-logo="https://i.imgur.com/rnV0Ui1.png" group-title="Education",WIKI TV (720p)
 https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="WorldChannel.us@SD" tvg-country="US" tvg-name="World Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/World_Channel_2023.svg" group-title="Education",World Channel (1080p)
@@ -400,5 +288,3 @@ https://alpha.tv.online.tm/hls/ch002.m3u8
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 #EXTINF:-1 tvg-id="Doctor.ru@SD" tvg-country="RU" tvg-name="Doctor" tvg-logo="https://i.imgur.com/VNirxxn.png" group-title="Education",Доктор (1080p)
 http://31.148.48.15/Doktor/index.m3u8
-#EXTINF:-1 tvg-id="Ktoestkto.ru@SD" tvg-country="RU" tvg-name="Kto est kto" tvg-logo="https://i.imgur.com/PmD17UQ.png" group-title="Education",Кто есть Кто
-http://31.148.48.15/Kto_est_kto/index.m3u8

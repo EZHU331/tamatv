@@ -5,24 +5,16 @@ https://edge-rs-03.maksnet.tv/informertv-secure/web/playlist.m3u8
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8
 #EXTINF:-1 tvg-id="SOSKanalPlus.rs@SD" tvg-country="RS" tvg-name="SOS Kanal Plus" tvg-logo="https://i.imgur.com/9SD40uH.png" group-title="Sports",SOS Kanal Plus (720p)
 https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="RTSDrama.rs@SD" tvg-country="RS" tvg-name="RTS Drama" tvg-logo="https://i.imgur.com/bsTUhYK.png" group-title="Series",RTS Drama
-https://de1.dstv.cx/RTSDrama/index.m3u8
-#EXTINF:-1 tvg-id="EDUTV.rs@SD" tvg-country="RS" tvg-name="EDU TV" tvg-logo="https://i.imgur.com/NE48DJb.png" group-title="Education",EDU TV
-https://5aa64ca8b95b8.streamlock.net:4443/edutv/edutelevizija/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioHitFMTV.rs@SD" tvg-country="RS" tvg-name="Radio Hit FM TV" tvg-logo="https://i.imgur.com/gP2OT4S.png" group-title="Music",Radio Hit FM TV (720p)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
 #EXTINF:-1 tvg-id="RadioKarolinaTV.rs@SD" tvg-country="RS" tvg-name="Radio Karolina TV" tvg-logo="https://i.imgur.com/g2HpLX1.png" group-title="Music",Radio Karolina TV (720p)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/4207de1d-52e8-4591-ad9e-218069b864d1/0.m3u8
 #EXTINF:-1 tvg-id="RadioLolaTV.rs@SD" tvg-country="RS" tvg-name="Radio Lola TV" tvg-logo="https://i.imgur.com/41eE8fl.png" group-title="Music",Radio Lola (720p)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/7c3ea8d3-49dc-4e1b-8b1e-dc6fab71f5cf/0.m3u8
-#EXTINF:-1 tvg-id="RTSMuzika.rs@SD" tvg-country="RS" tvg-name="RTS Muzika" tvg-logo="https://i.imgur.com/n8p11NI.png" group-title="Music",RTS Muzika
-https://de1.dstv.cx/RTSMuzika/index.m3u8
 #EXTINF:-1 tvg-id="TDIRadioTV.rs@SD" tvg-country="RS" tvg-name="TDI Radio TV" tvg-logo="https://i.imgur.com/POdTmaD.png" group-title="Music",TDI Radio TV
 https://peer2.tdiradio.com/static/streaming-playlists/hls/8f5d84ce-e8ac-4109-9975-9665f5605557/master.m3u8
 #EXTINF:-1 tvg-id="TopTV.rs@SD" tvg-country="RS" tvg-name="Top TV" tvg-logo="https://i.imgur.com/UJqbKEC.png" group-title="Music",Top TV (1080p)
 http://82.165.71.58:8081/TopTV/live/playlist.m3u8
-#EXTINF:-1 tvg-id="TVDugaPlus.rs@SD" tvg-country="RS" tvg-name="TV Duga+" tvg-logo="https://i.imgur.com/qZV3JW5.png" group-title="Music",TV Duga Plus
-http://109.92.29.10:1935/tvduga/tvduga/playlist.m3u8
 #EXTINF:-1 tvg-id="ZICOTV.rs@SD" tvg-country="RS" tvg-name="ZICO TV" tvg-logo="https://i.imgur.com/8wbTnNW.png" group-title="Music",ZICO TV (720p)
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/index.m3u8
 #EXTINF:-1 tvg-id="IDJTV.rs@SD" tvg-country="RS" tvg-name="IDJTV" tvg-logo="https://i.imgur.com/btvyrzr.png" group-title="General",IDJTV
@@ -33,8 +25,6 @@ http://cdn.dovecher.tv:8081/live/marsh/playlist.m3u8
 https://edge8.pink.rs/narodnatv/index.m3u8
 #EXTINF:-1 tvg-id="Nova.rs@SD" tvg-country="RS" tvg-name="Nova" tvg-logo="https://i.imgur.com/sU8UPPY.png" group-title="General",Nova (1080p)
 https://best-str.umn.cdn.united.cloud/stream?channel=novashd&p=n0v43!23t001&player=m3u8&sp=novas&stream=hp7000&u=novas
-#EXTINF:-1 tvg-id="PannonTV.rs@SD" tvg-country="RS" tvg-name="Pannon TV" tvg-logo="https://i.imgur.com/xQa2idL.png" group-title="General",Pannon RTV
-https://stream.nmih.hu:4102/live.m3u8
 #EXTINF:-1 tvg-id="Pink.rs@SD" tvg-country="RS" tvg-name="Pink" tvg-logo="https://i.imgur.com/66wHb7E.png" group-title="General",Pink (720p)
 https://edge8.pink.rs/pinktv/index.m3u8
 #EXTINF:-1 tvg-id="Prva.rs@SD" tvg-country="RS" tvg-name="Prva" tvg-logo="https://i.imgur.com/NA31Gtm.png" group-title="General",Prva (1080p)
@@ -59,29 +49,9 @@ https://de1.dstv.cx/RTS1HD/index.m3u8
 https://de1.dstv.cx/RTS2HD/index.m3u8
 #EXTINF:-1 tvg-id="RTS3.rs@SD" tvg-country="RS" tvg-name="RTS 3" tvg-logo="https://i.imgur.com/gxuGB4J.png" group-title="General",RTS 3 (720p)
 http://185.81.240.65:15000/udp/233.233.233.36:12000
-#EXTINF:-1 tvg-id="RTSKolo.rs@SD" tvg-country="RS" tvg-name="RTS Kolo" tvg-logo="https://i.imgur.com/gXlEDDW.png" group-title="General",RTS Kolo
-https://de1.dstv.cx/RTSKolo/index.m3u8
-#EXTINF:-1 tvg-id="RTSPoletarac.rs@SD" tvg-country="RS" tvg-name="RTS Poletarac" tvg-logo="https://i.imgur.com/8Nnw8NF.png" group-title="General",RTS Poletarac
-https://de1.dstv.cx/RTSPoletarac/index.m3u8
 #EXTINF:-1 tvg-id="RTSSvet.rs@SD" tvg-country="RS" tvg-name="RTS Svet" tvg-logo="https://i.imgur.com/LjunOdy.png" group-title="General",RTS Svet (1080p)
 https://de1.dstv.cx/RTSSvet/index.m3u8
-#EXTINF:-1 tvg-id="RTSTrezor.rs@SD" tvg-country="RS" tvg-name="RTS Trezor" tvg-logo="https://i.imgur.com/BnSHfxF.png" group-title="General",RTS Trezor
-https://de1.dstv.cx/RTSTrezor/index.m3u8
-#EXTINF:-1 tvg-id="RTSZivot.rs@SD" tvg-country="RS" tvg-name="RTS Zivot" tvg-logo="https://i.imgur.com/NpFG9uy.png" group-title="General",RTS Zivot
-https://de1.dstv.cx/RTSZivot/index.m3u8
-#EXTINF:-1 tvg-id="RTVBap.rs@SD" tvg-country="RS" tvg-name="RTV Bap" tvg-logo="https://i.imgur.com/TBAtPH6.png" group-title="General",RTV Bap
-https://53be5ef2d13aa.streamlock.net/rtvbap/uzivo/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVNoviPazar.rs@SD" tvg-country="RS" tvg-name="RTV Novi Pazar" tvg-logo="https://i.imgur.com/NpyRVyC.png" group-title="General",RTV Novi Pazar
 https://tv.rtvnp.rs/stream.m3u8
-#EXTINF:-1 tvg-id="SandzakTV.rs@SD" tvg-country="RS" tvg-name="Sandzak TV" tvg-logo="https://i.imgur.com/lm9Fgsp.png" group-title="General",Sandzak TV
-https://streaming.iptv.nextfiber.rs/nxt004/master.m3u8
-#EXTINF:-1 tvg-id="BelleAmie.rs@SD" tvg-country="RS" tvg-name="Belle Amie" tvg-logo="https://i.imgur.com/tOlN5Rz.png" group-title="General",TV Belle Amie
-http://92.60.238.10:1935/live/belleamie/playlist.m3u8
-#EXTINF:-1 tvg-id="TVHram.rs@SD" tvg-country="RS" tvg-name="TV Hram" tvg-logo="https://i.imgur.com/XzAYOFK.png" group-title="General",TV Hram
-https://vod1.laki.eu/live/hram/index.m3u8
-#EXTINF:-1 tvg-id="TVKanalM.rs@SD" tvg-country="RS" tvg-name="TV Kanal M" tvg-logo="https://i.imgur.com/hqNVRUU.png" group-title="General",TV Kanal M
-http://176.67.210.1/hls/kanalm.m3u8
 #EXTINF:-1 tvg-id="TVPanon.rs@SD" tvg-country="RS" tvg-name="TV Panon" tvg-logo="https://i.imgur.com/9ZKA4Gx.png" group-title="General",TV Panon
 https://stream2.nmih.hu:4102/live.m3u8
-#EXTINF:-1 tvg-id="TVPiKanal.rs@SD" tvg-country="RS" tvg-name="TV Pi Kanal" tvg-logo="https://i.imgur.com/8ugnFa3.png" group-title="General",TV Pi Kanal
-https://stream.pikanal.rs/pikanal/pgm.m3u8

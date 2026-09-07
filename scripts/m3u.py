@@ -3,11 +3,7 @@
 
 from __future__ import annotations
 
-import ipaddress
 import re
-import ssl
-import urllib.error
-import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
@@ -19,6 +15,7 @@ FETCH_TIMEOUT = 45
 PROBE_TIMEOUT = 6
 PROBE_WORKERS = 32
 READ_BYTES = 2048
+MIN_HEIGHT = 720
 
 ATTR_RE = re.compile(r'([A-Za-z0-9-]+)="([^"]*)"')
 QUALITY_RE = re.compile(
@@ -169,14 +166,6 @@ class Entry:
         return base
 
 
-def ssl_ctx(insecure: bool = False) -> ssl.SSLContext:
-    ctx = ssl.create_default_context()
-    if insecure:
-        ctx.check_hostname = False
-        ctx.verify_mode = ssl.CERT_NONE
-    return ctx
-
-
 def fetch_bytes(url: str, timeout: int = FETCH_TIMEOUT, headers: dict | None = None) -> bytes:
     if not urlcheck.is_safe_https_url(url, resolve=True):
         raise RuntimeError(f"blocked fetch {url}")
@@ -296,23 +285,14 @@ def alias_key(entry: Entry, china: bool = False) -> str:
 
 
 def is_playable_url(url: str) -> bool:
-    try:
-        parsed = urlparse(url.strip())
-    except Exception:
+    if not urlcheck.is_safe_fetch_url(url):
         return False
-    if parsed.scheme not in ("http", "https") or parsed.username or parsed.password:
-        return False
-    host = (parsed.hostname or "").lower().rstrip(".")
-    if not host or urlcheck.host_is_blocked(host) or host in PAGE_HOSTS:
+    parsed = urlparse(url.strip())
+    host = (parsed.hostname or "").lower()
+    if host in PAGE_HOSTS:
         return False
     path = (parsed.path or "").lower()
-    if any(path.endswith(ext) for ext in VOD_EXT):
-        return False
-    try:
-        ip = ipaddress.ip_address(host)
-        return urlcheck.ip_is_public(ip)
-    except ValueError:
-        return True
+    return not any(path.endswith(ext) for ext in VOD_EXT)
 
 
 def primary_category(raw: str, country_names: set[str] | None = None) -> str:
@@ -507,7 +487,7 @@ def inspect_entries(entries: list[Entry], country_names: set[str] | None = None)
             junk += 1
         if SKIP_GROUP_RE.search(entry.group or ""):
             vod += 1
-        if 0 < entry.height < 480:
+        if 0 < entry.height < MIN_HEIGHT:
             low += 1
         if not entry.logo.startswith("https://"):
             no_logo += 1
@@ -533,7 +513,7 @@ def curate(
     entries: list[Entry],
     *,
     china: bool | str = False,
-    min_height: int = 480,
+    min_height: int = MIN_HEIGHT,
     country_names: set[str] | None = None,
     stats: dict[str, int] | None = None,
 ) -> list[Entry]:
@@ -648,7 +628,7 @@ def write_m3u(entries: list[Entry], epg: str = "") -> str:
 
 
 def _probe_one(entry: Entry) -> str:
-    if not is_playable_url(entry.url) or not urlcheck.is_safe_fetch_url(entry.url, resolve=True):
+    if not is_playable_url(entry.url):
         return "dead"
     headers = {
         "User-Agent": sanitize_attr(entry.user_agent) or USER_AGENT,
@@ -658,48 +638,7 @@ def _probe_one(entry: Entry) -> str:
     referrer = sanitize_attr(entry.referrer)
     if referrer.startswith("https://"):
         headers["Referer"] = referrer
-    req = urllib.request.Request(entry.url, headers=headers, method="GET")
-
-    def probe(insecure: bool) -> tuple[int, bytes, str]:
-        opener = urlcheck.opener_for(insecure=insecure)
-        with opener.open(req, timeout=PROBE_TIMEOUT) as resp:
-            return resp.status, resp.read(READ_BYTES), resp.geturl()
-
-    try:
-        status, chunk, final = probe(False)
-    except urllib.error.HTTPError as err:
-        err_url = str(getattr(err, "url", "") or getattr(err, "filename", "") or entry.url)
-        if not is_playable_url(err_url) or not urlcheck.is_safe_fetch_url(err_url, resolve=True):
-            return "dead"
-        status = err.code
-        try:
-            chunk = err.read(READ_BYTES)
-        except Exception:
-            chunk = b""
-        final = err_url
-        if status in {404, 410, 451}:
-            return "dead"
-        if status in {401, 403, 407, 429, 457}:
-            return "unknown"
-        if status >= 500:
-            return "unknown"
-    except ssl.SSLError:
-        try:
-            status, chunk, final = probe(True)
-        except Exception:
-            return "unknown"
-    except Exception:
-        return "unknown"
-    if final and (not is_playable_url(final) or not urlcheck.is_safe_fetch_url(final, resolve=True)):
-        return "dead"
-    body = chunk.lstrip().lower()
-    if body.startswith((b"<!doctype", b"<html", b"<head")):
-        return "dead"
-    if status in {200, 206} or 300 <= status < 400:
-        return "ok"
-    if status in {404, 410, 451}:
-        return "dead"
-    return "unknown"
+    return urlcheck.probe_url(entry.url, headers=headers, allow_insecure=True)
 
 
 def probe_entries(

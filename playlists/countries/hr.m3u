@@ -7,8 +7,8 @@ https://stream.agatin.hr:3559/live/otvlive.m3u8
 https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 #EXTINF:-1 tvg-id="SportskaTV.hr" tvg-country="HR" tvg-name="Sportska televizija" tvg-logo="https://i.imgur.com/TbLLi8j.png" group-title="Sports",Sportska televizija Ⓖ
 https://stream.agatin.hr:3087/live/sptvlive.m3u8
-#EXTINF:-1 tvg-id="Klasik.hr@SD" tvg-country="HR" tvg-name="Klasik" tvg-logo="https://i.imgur.com/C90BYlb.png" group-title="Movies",Klasik TV
-https://178.253.194.105/klasiktv/playlist.m3u8
+#EXTINF:-1 tvg-id="Klasik.hr" tvg-country="HR" tvg-name="Klasik" tvg-logo="https://i.imgur.com/C90BYlb.png" group-title="Movies",Klasik
+https://sktv.mxnticek.eu/new/stream.php?ch=Klasik
 #EXTINF:-1 tvg-id="PlavaVinkovacka.hr" tvg-country="HR" tvg-name="Plava Vinkovačka" tvg-logo="https://i.imgur.com/RMrXvLC.png" group-title="Entertainment",Plava Vinkovačka
 https://player-api.new.livestream.com/accounts/26611954/events/7977299/broadcasts/237205435.secure.m3u8
 #EXTINF:-1 tvg-id="TVNova.hr@SD" tvg-country="HR" tvg-name="TV Nova" tvg-logo="https://i.imgur.com/gFjJ7YB.png" group-title="Entertainment",TV Nova (720p)
@@ -27,7 +27,7 @@ https://stream.cmctv.hr:49998/cmc/live.m3u8
 https://stream.cmctv.hr:49998/kit/live.m3u8
 #EXTINF:-1 tvg-id="ShiftTV.hr@SD" tvg-country="HR" tvg-name="Shift TV" tvg-logo="https://i.imgur.com/mudXVT8.png" group-title="Auto",Shift TV (1080p)
 https://hls.shift.tv/live/shifttv/playlist.m3u8
-#EXTINF:-1 tvg-id="DiadoraTV.hr@SD" tvg-country="HR" tvg-name="Diadora TV" tvg-logo="https://i.imgur.com/qZzsASl.png" group-title="General",Diadora TV
+#EXTINF:-1 tvg-id="DiadoraTV.hr" tvg-country="HR" tvg-name="Diadora" tvg-logo="https://i.imgur.com/qZzsASl.png" group-title="General",Diadora
 https://diadoratv.stream/live/diadora/playlist.m3u8
 #EXTINF:-1 tvg-id="HRT1.hr@HD" tvg-country="HR" tvg-name="HRT 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1f/HRT1-logo.png" group-title="General",HRT 1 HD (1080p)
 https://bpcdnmanprod.nexttv.ht.hr/bpk-tv/HRT1/default/index.mpd
@@ -53,7 +53,7 @@ https://d1rzyyum8t0q1e.cloudfront.net/rtl-kockica/playlist.m3u8
 https://live.leveex.hr/hls/live.m3u8
 #EXTINF:-1 tvg-id="STV.hr@SD" tvg-country="HR" tvg-name="STV" tvg-logo="https://i.imgur.com/Z3yRl17.png" group-title="General",STV (720p)
 http://89.201.163.244:8080/hls/hdmi.m3u8
-#EXTINF:-1 tvg-id="TrendTV.hr@SD" tvg-country="HR" tvg-name="Trend TV" tvg-logo="https://i.imgur.com/4SmNISY.jpg" group-title="General",Trend TV
+#EXTINF:-1 tvg-id="TrendTV.hr" tvg-country="HR" tvg-name="Trend TV" tvg-logo="https://i.imgur.com/4SmNISY.jpg" group-title="General",Trend TV
 http://185.62.75.22:1935/trend/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVZapad.hr@SD" tvg-country="HR" tvg-name="TV Zapad" tvg-logo="https://i.imgur.com/cgCeX12.png" group-title="General",TV Zapad (1080p)
 http://85.94.67.158/TVZAPAD/index.fmp4.m3u8

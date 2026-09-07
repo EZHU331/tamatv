@@ -1,35 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="BTV.ug@SD" tvg-country="UG" tvg-name="BTV" tvg-logo="https://i.imgur.com/rcHZ1al.png" group-title="Entertainment",BTV
-https://streamfi-alphadgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1 tvg-id="FORTTV.ug@SD" tvg-country="UG" tvg-name="FORT TV" tvg-logo="https://i.ibb.co/4KN5zW9/fort-tv-logo-GENE.png" group-title="Entertainment",FORT TV
-https://fort.co-works.org/memfs/87017643-274a-4bc0-a786-7767a0d159c2.m3u8
-#EXTINF:-1 tvg-id="ACWUGTV.ug@SD" tvg-country="UG" tvg-name="ACW UG TV" tvg-logo="https://i.imgur.com/8pzEmcJ.jpeg" group-title="Music",ACW UG TV
-https://live.acwugtv.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="GalaxyTV.ug@SD" tvg-country="UG" tvg-name="Galaxy TV" tvg-logo="https://i.imgur.com/P5OABe5.png" group-title="Music" http-referrer="https://player.castr.com/live_43351ad0f3b411ed81c78fcc31887c54",Galaxy TV (720p)
 #EXTVLCOPT:http-referrer=https://player.castr.com/live_43351ad0f3b411ed81c78fcc31887c54
 https://stream.castr.com/6463248048d6cd3e143655b2/live_43351ad0f3b411ed81c78fcc31887c54/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="3ABNTVUganda.ug@SD" tvg-country="UG" tvg-name="3ABN TV Uganda" tvg-logo="https://i.imgur.com/mml9lI2.png" group-title="Religious",3ABN TV Uganda (720p)
 https://3abn.bozztv.com/3abn/3abn_uganda_live/index.m3u8
-#EXTINF:-1 tvg-id="AlphaDigital.ug@SD" tvg-country="UG" tvg-name="Alpha Digital" tvg-logo="https://i.imgur.com/sLt242H.png" group-title="Religious",Alpha Digital
-https://streamfi-alphatvdgtl1.zettawiseroutes.com:8181/hls/stream.m3u8
 #EXTINF:-1 tvg-id="ArkTV.ug@SD" tvg-country="UG" tvg-name="Ark TV" tvg-logo="https://i.imgur.com/yCHNZXD.png" group-title="Religious",Ark TV (1080p)
 https://stream.hydeinnovations.com/arktv-international/index.fmp4.m3u8
-#EXTINF:-1 tvg-id="DreamTV.ug@SD" tvg-country="UG" tvg-name="Dream TV" tvg-logo="https://i.imgur.com/XRUDhqQ.png" group-title="Religious",Dream TV
-https://streamfi-dreamtv1.zettawiseroutes.com:8181/hls/stream.m3u8
-#EXTINF:-1 tvg-id="GuguddeTV.ug@SD" tvg-country="UG" tvg-name="Gugudde TV" tvg-logo="https://i.imgur.com/XEakc6Q.png" group-title="Religious",Gugudde TV
-https://jk3lzqq4lw79-hls-live.5centscdn.com/gugudde/c9a1fdac6e082dd89e7173244f34d7b3.sdp/chunks.m3u8
 #EXTINF:-1 tvg-id="KSTVUganda.ug@SD" tvg-country="UG" tvg-name="KSTV Uganda" tvg-logo="https://i.imgur.com/MMPzPSl.png" group-title="Religious",KSTV Uganda
 https://live.esteem.africa/kstv/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="SaltTV.ug@SD" tvg-country="UG" tvg-name="Salt TV" tvg-logo="https://i.imgur.com/AK9nE6Y.png" group-title="Religious",Salt TV
 https://stream.salttelevision.com/hls/stream.m3u8
 #EXTINF:-1 tvg-id="BBSTV.ug@SD" tvg-country="UG" tvg-name="BBS TV" tvg-logo="https://i.imgur.com/Hub1AXv.png" group-title="General",BBS TV
 https://bbstv.ug/hls/ch01/index.m3u8
-#EXTINF:-1 tvg-id="BTMTV.ug@SD" tvg-country="UG" tvg-name="BTM TV" tvg-logo="https://i.imgur.com/NUvA2jf.png" group-title="General",BTM TV
-https://btmug.zerocdn.org/hls/stream.m3u8
-#EXTINF:-1 tvg-id="BukeddeTV1.ug@SD" tvg-country="UG" tvg-name="Bukedde TV 1" tvg-logo="https://i.imgur.com/HFq5QlJ.png" group-title="General",Bukedde TV 1
-https://stream.hydeinnovations.com/bukedde1flussonic/index.m3u8
-#EXTINF:-1 tvg-id="BukeddeTV2.ug@SD" tvg-country="UG" tvg-name="Bukedde TV 2" tvg-logo="https://i.imgur.com/ukwPZeY.png" group-title="General",Bukedde TV 2
-https://stream.hydeinnovations.com/bukedde2flussonic/index.m3u8
 #EXTINF:-1 tvg-id="FarajaTelevision.ug@SD" tvg-country="UG" tvg-name="Faraja Television" tvg-logo="https://i.imgur.com/NmnOGHI.jpg" group-title="General",Faraja Television (1080p)
 https://panel.freedomflixtv.org:3868/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="KRCTV.ug@SD" tvg-country="UG" tvg-name="KRC TV" tvg-logo="https://i.imgur.com/8c9Uqks.jpeg" group-title="General",KRC TV
@@ -40,5 +22,3 @@ https://stream.rwenzoritv.com:3232/live/rwenzoritvlive.m3u8
 https://stream.hydeinnovations.com/tarari-west/index.m3u8
 #EXTINF:-1 tvg-id="TVWest.ug@SD" tvg-country="UG" tvg-name="TV West" tvg-logo="https://i.imgur.com/EiJzkIz.png" group-title="General",TV West (720p)
 https://stream.hydeinnovations.com/tvwest-flussonic/index.m3u8
-#EXTINF:-1 tvg-id="WanLuoTV.ug@SD" tvg-country="UG" tvg-name="Wan Luo TV" tvg-logo="https://i.imgur.com/4PUUp3E.png" group-title="General",Wan Luo TV
-https://stream.hydeinnovations.com/luotv-flussonic/index.m3u8

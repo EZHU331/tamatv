@@ -1,10 +1,12 @@
 #EXTM3U url-tvg="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml" x-tvg-url="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-id="StarXingKong.hk" tvg-country="HK" tvg-name="星空卫视_" tvg-logo="https://i.imgur.com/B1aNrlL.png" group-title="卫视",星空卫视_
-http://218.202.220.2:5000/nn_live.ts?id=STARTV
+#EXTINF:-1 tvg-id="星空卫视" tvg-country="HK" tvg-name="星空卫视" tvg-logo="https://i.imgur.com/B1aNrlL.png" group-title="卫视",星空卫视
+https://stream1.freetv.fun/xing-kong-wei-shi-4.ctv
 #EXTINF:-1 tvg-id="HOY78.hk" tvg-country="HK" tvg-name="HOY78" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/44/HOY_78_%282026%29.png" group-title="港澳台",HOY78
 http://cdn.163189.xyz/live/hoy/stream.m3u8
 #EXTINF:-1 tvg-id="myTVSUPER18.hk" tvg-country="HK" tvg-name="myTV SUPER 18台" tvg-logo="https://i.imgur.com/pD2a0rM.png" group-title="港澳台",myTV SUPER 18台
 http://aktv-stream.m16tv.cfd/stream/aktv/mytvsuper18/AKTV.m3u8
+#EXTINF:-1 tvg-id="Thrill.hk" tvg-country="HK" tvg-name="Thrill" tvg-logo="https://i.imgur.com/Y282owj.png" group-title="港澳台",Thrill
+http://aktv-stream.m16tv.cfd/stream/aktv3/thrill/AKTV.m3u8
 #EXTINF:-1 tvg-id="Jade.hk" tvg-country="HK" tvg-name="TVB Jade" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="港澳台",TVB Jade
 http://aktv-stream.m16tv.cfd/stream/astro_a1/tvbjade/AKTV.m3u8
 #EXTINF:-1 tvg-id="TVBXingHe.hk" tvg-country="HK" tvg-name="TVB Xing He" tvg-logo="https://i.imgur.com/uf0bYFm.png" group-title="港澳台",TVB Xing He
@@ -33,16 +35,12 @@ https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/play
 https://petclub-samsungaus.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RTHKTV35.hk@HD" tvg-country="HK" tvg-name="RTHK TV 35" tvg-logo="https://i.imgur.com/FQmNKDS.png" group-title="地方",RTHK TV 35 (港台電視35) (1080p)
 https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
-#EXTINF:-1 tvg-id="Thrill.hk@SD" tvg-country="HK" tvg-name="Thrill" tvg-logo="https://i.imgur.com/Y282owj.png" group-title="地方",Thrill
-https://cdn10jtedge.indihometv.com/atm/DASH/thrill/manifest.mpd
 #EXTINF:-1 tvg-id="TVBFinanceSportsInformationChannel.hk" tvg-country="HK" tvg-name="TVB Finance (Sports & Information Channel)" tvg-logo="https://i.imgur.com/Fkkp7x7.png" group-title="地方",TVB Finance (Sports & Information Channel)
 https://tvp22.sky4k.top/index2.php
 #EXTINF:-1 tvg-id="TVBNewsChannel.hk" tvg-country="HK" tvg-name="TVB News Channel" tvg-logo="https://i.imgur.com/Gwij0Fj.png" group-title="地方",TVB News Channel
 https://tvp22.sky4k.top/index1.php
 #EXTINF:-1 tvg-id="ViuTV.hk" tvg-country="HK" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/960px-ViuTV_logo.svg.png" group-title="地方",ViuTV
 http://r.jdshipin.com/vSJvl
-#EXTINF:-1 tvg-id="BSTV.hk@SD" tvg-country="HK" tvg-name="BSTV" tvg-logo="https://i.imgur.com/GVYSSgm.png" group-title="地方",耀才財經台
-http://202.69.67.66:443/webcast/bshdlive-pc/playlist.m3u8
 #EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-country="HK" tvg-name="RTHK TV 31" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="其他",RTHK TV 31 (港台電視31) (1080p)
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV32.hk@SD" tvg-country="HK" tvg-name="RTHK TV 32" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="其他",RTHK TV 32 (港台電視32) (1080p)

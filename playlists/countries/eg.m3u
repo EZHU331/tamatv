@@ -10,18 +10,8 @@ https://ml-pull-hwc.myco.io/MixTV/hls/index.m3u8
 #EXTINF:-1 tvg-id="RotanaCinemaEgypt.eg@SD" tvg-country="EG" tvg-name="Rotana Cinema Egypt" tvg-logo="https://i.imgur.com/dGlKoLW.png" group-title="Movies" http-referrer="https://rotana.net/",Rotana Cinema Egypt (1080p)
 #EXTVLCOPT:http-referrer=https://rotana.net/
 https://rotana.hibridcdn.net/rotananet/cinemamasr_net-7Y83PP5adWixDF93/playlist.m3u8
-#EXTINF:-1 tvg-id="CBCDrama.eg@SD" tvg-country="EG" tvg-name="CBC Drama" tvg-logo="https://i.imgur.com/I8YdakH.png" group-title="Series",CBC Drama
-https://flu.systemnet.tv/CBCDrama/index.m3u8
 #EXTINF:-1 tvg-id="KoogiTV.eg@SD" tvg-country="EG" tvg-name="Koogi TV" tvg-logo="https://i.imgur.com/zojMTP9.png" group-title="Kids",Koogi TV (1080p)
 https://5d658d7e9f562.streamlock.net/koogi.tv/koogi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="ElRadio9090FM.eg@SD" tvg-country="EG" tvg-name="El Radio 9090 FM" tvg-logo="https://www.9090.fm/images/logo.png" group-title="Music",El Radio 9090 FM
-https://9090video.mobtada.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="Mazzika.eg@SD" tvg-country="EG" tvg-name="Mazzika" tvg-logo="https://i.imgur.com/P7PUHIx.png" group-title="Music",Mazzika
-http://149.100.11.235:8080/Mazzika/index.m3u8
-#EXTINF:-1 tvg-id="NogoumFMTV.eg@SD" tvg-country="EG" tvg-name="NogoumFMTV" tvg-logo="https://i.imgur.com/krp3kgv.png" group-title="Music",NogoumFMTV
-https://nogoumtv.nrpstream.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CBCSofra.eg@SD" tvg-country="EG" tvg-name="CBC Sofra" tvg-logo="https://i.imgur.com/YAdk2WR.png" group-title="Lifestyle",CBC Sofra
-https://flu.systemnet.tv/CBCSofra/index.m3u8
 #EXTINF:-1 tvg-id="AghapyTV.eg@SD" tvg-country="EG" tvg-name="Aghapy TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/e/eb/AghapyTV.jpg" group-title="Religious",Aghapy TV (1080p)
 https://5b622f07944df.streamlock.net/aghapy.tv/aghapy.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="CopticTV.eg@SD" tvg-country="EG" tvg-name="Coptic TV" tvg-logo="https://www.ctvchannel.tv/images/CTV-logo-white.png" group-title="Religious",Coptic TV (720p)
@@ -30,8 +20,6 @@ https://ctv.icopts.app/CTV/index.fmp4.m3u8
 https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
 #EXTINF:-1 tvg-id="AlMasriyah.eg@SD" tvg-country="EG" tvg-name="Al Masriyah" tvg-logo="https://i.ibb.co/Kx7wmXCQ/almasriya.png" group-title="General",Al Masriyah (1080p)
 http://185.9.2.18/chid_247/index.m3u8
-#EXTINF:-1 tvg-id="CBC.eg@SD" tvg-country="EG" tvg-name="CBC" tvg-logo="https://i.imgur.com/8apNaLP.png" group-title="General",CBC
-https://flu.systemnet.tv/CBC/index.m3u8
 #EXTINF:-1 tvg-id="MBC1Egypt.eg@HD" tvg-country="EG" tvg-name="MBC 1 Egypt" tvg-logo="https://i.imgur.com/CiA3plN.png" group-title="General",MBC 1 Egypt (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-1-na/eec141533c90dd34722c503a296dd0d8/index.m3u8
 #EXTINF:-1 tvg-id="MBCMasr.eg@SD" tvg-country="EG" tvg-name="MBC Masr" tvg-logo="https://i.imgur.com/o2elx0u.png" group-title="General",MBC Masr (1080p)

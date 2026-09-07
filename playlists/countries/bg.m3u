@@ -7,34 +7,22 @@ http://213.91.179.28:8000/play/a063
 http://213.91.179.28:8000/play/a05h
 #EXTINF:-1 tvg-id="ThisisBulgariaHD.bg@SD" tvg-country="BG" tvg-name="This is Bulgaria HD" tvg-logo="https://i.imgur.com/062jkXw.png" group-title="Entertainment",This is Bulgaria HD (1080p)
 https://streamer103.neterra.tv/thisisbulgaria/live.m3u8
-#EXTINF:-1 tvg-id="EKids.bg@SD" tvg-country="BG" tvg-name="EKids" group-title="Kids",EKids
-http://78.108.244.134:8899/ekids
 #EXTINF:-1 tvg-id="ID.bg@SD" tvg-country="BG" tvg-name="ID" group-title="Documentary",ID
 http://213.91.179.28:8000/play/a0cf
-#EXTINF:-1 tvg-id="CityTV.bg@SD" tvg-country="BG" tvg-name="City TV" tvg-logo="https://i.imgur.com/mFL452f.png" group-title="Music",City TV
+#EXTINF:-1 tvg-id="City.bg" tvg-country="BG" tvg-name="City TV" tvg-logo="https://i.imgur.com/mFL452f.png" group-title="Music",City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
-#EXTINF:-1 tvg-id="DSTV.bg@SD" tvg-country="BG" tvg-name="DSTV" tvg-logo="https://i.imgur.com/YMgzzkf.png" group-title="Music",DSTV
-http://46.249.95.140:8081/hls/data.m3u8
 #EXTINF:-1 tvg-id="MagicTV.bg@SD" tvg-country="BG" tvg-name="Magic TV" tvg-logo="https://i.imgur.com/n7bcrrp.png" group-title="Music",Magic TV (720p)
 https://bss1.neterra.tv/magictv/magictv.m3u8
 #EXTINF:-1 tvg-id="TheVoice.bg@SD" tvg-country="BG" tvg-name="The Voice" tvg-logo="https://i.imgur.com/OoJSmoj.png" group-title="Music",The Voice TV (720p)
 https://bss1.neterra.tv/thevoice/thevoice.m3u8
-#EXTINF:-1 tvg-id="TiankovFolk.bg@SD" tvg-country="BG" tvg-name="Tiankov Folk" tvg-logo="https://i.imgur.com/VKY4q64.png" group-title="Music",Tiankov Folk
-https://streamer103.neterra.tv/tiankov-folk/live.m3u8
-#EXTINF:-1 tvg-id="TiankovOrientFolk.bg@SD" tvg-country="BG" tvg-name="Tiankov Orient Folk" tvg-logo="https://i.imgur.com/33LexyP.png" group-title="Music",Tiankov Orient Folk
-https://streamer103.neterra.tv/tiankov-orient/live.m3u8
 #EXTINF:-1 tvg-id="CodeFashionTV.bg@SD" tvg-country="BG" tvg-name="Code Fashion TV" tvg-logo="https://i.imgur.com/mVc2g64.png" group-title="Lifestyle",Code Fashion TV (1080p)
 https://cdn2.invivo.bg/Codefashion_5500/index.m3u8
 #EXTINF:-1 tvg-id="CodeHealthTV.bg@SD" tvg-country="BG" tvg-name="Code Health TV" tvg-logo="https://i.imgur.com/NXBMzGV.png" group-title="Lifestyle",Code Health TV (1080p)
 https://cdn2.invivo.bg/codehealth_test/index.m3u8
-#EXTINF:-1 tvg-id="TravelTV.bg@SD" tvg-country="BG" tvg-name="Travel TV" tvg-logo="https://i.imgur.com/5xllfed.png" group-title="Travel",Travel TV
-https://streamer103.neterra.tv/travel/live.m3u8
-#EXTINF:-1 tvg-id="AgroTV.bg@SD" tvg-country="BG" tvg-name="Agro TV" tvg-logo="https://i.imgur.com/tPMNDtD.png" group-title="Outdoor",Agro TV
-https://restr2.bgtv.bg/agro/hls/agro.m3u8
+#EXTINF:-1 tvg-id="TravelTV.it" tvg-country="BG" tvg-name="Travel TV" tvg-logo="https://i.imgur.com/5xllfed.png" group-title="Travel",Travel TV
+https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelBulgaria.bg@SD" tvg-country="BG" tvg-name="Hope Channel Bulgaria" tvg-logo="https://i.imgur.com/bxzeEML.png" group-title="Religious",Hope Channel Bulgaria
 https://hc1.hopetv.bg/live/hopetv_all.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="LightChannel.bg@SD" tvg-country="BG" tvg-name="Light Channel" tvg-logo="https://i.imgur.com/S3Fbf8T.png" group-title="Religious",Light Channel
-https://streamer1.streamhost.org/salive/GMIlcbgM/playlist.m3u8
 #EXTINF:-1 tvg-id="PlovdivOrthodoxTV.bg@SD" tvg-country="BG" tvg-name="Plovdiv Orthodox TV" group-title="Religious",Plovdivska Pravoslavna TV (1080p)
 http://78.130.149.196:1935/live/pptv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="BNT1.bg@SD" tvg-country="BG" tvg-name="BNT 1" tvg-logo="https://i.imgur.com/7JU9b5j.png" group-title="General",BNT 1 (1080p)
@@ -53,5 +41,3 @@ http://213.91.179.28:8000/play/a03l
 https://tv1.cloudcdn.bg/temp/livestream.m3u8
 #EXTINF:-1 tvg-id="TVSpravedlivaBulgariya.bg@SD" tvg-country="BG" tvg-name="TV Spravedliva Bulgariya" tvg-logo="https://tvsb.bg/theme/images/logo.png" group-title="General",TV Spravedliva Bulgariya
 https://tv.tvsb.bg/112.m3u8
-#EXTINF:-1 tvg-id="TVZagora.bg@SD" tvg-country="BG" tvg-name="TV Zagora" tvg-logo="https://i.imgur.com/DvBboqe.png" group-title="General",TV Zagora
-http://zagoratv.ddns.net:8080/tvzagora.m3u8

@@ -4,7 +4,6 @@
 from __future__ import annotations
 
 import json
-import re
 from collections import defaultdict
 from urllib.parse import quote, urlparse
 
@@ -22,8 +21,7 @@ MJH_WORLD_EPG = "https://i.mjh.nz/world/epg.xml.gz"
 CN_CODES = {"CN", "HK", "MO", "TW"}
 GB_TO_UK = {"GB": "UK"}
 FORMAT_SCORE = {"SVG": 4, "PNG": 3, "WEBP": 2, "JPEG": 1, "JPG": 1, "GIF": 0}
-CJK_RE = re.compile(r"[\u4e00-\u9fff]")
-EPGSHARE_COUNTRY_RE = re.compile(r"epg_ripper_([A-Z]{2})\d+\.xml\.gz$", re.I)
+EPGSHARE_COUNTRY_RE = __import__("re").compile(r"epg_ripper_([A-Z]{2})\d+\.xml\.gz$", re.I)
 
 
 def is_cjk(text: str) -> bool:

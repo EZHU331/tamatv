@@ -10,6 +10,7 @@ from dataclasses import dataclass
 from urllib.parse import urljoin, urlparse
 
 import m3u
+import urlcheck
 
 SEED_PLAYLISTS = [
     "https://iptv-org.github.io/iptv/index.m3u",
@@ -65,6 +66,13 @@ PLAYLIST_HOSTS = {
     "yang-1989.eu.org",
     "cdn.jsdelivr.net",
 }
+GUIDE_HOSTS = {
+    "epg.112114.xyz",
+    "e.erw.cc",
+    "epgshare01.online",
+    "epg.aptv.app",
+}
+CATALOG_HOSTS = PLAYLIST_HOSTS | GUIDE_HOSTS
 
 
 @dataclass
@@ -75,16 +83,10 @@ class PlaylistSource:
 
 
 def host_ok(url: str) -> bool:
-    try:
-        parsed = urlparse(url)
-    except Exception:
+    if not urlcheck.is_safe_https_url(url):
         return False
-    if parsed.scheme != "https" or parsed.username or parsed.password:
-        return False
-    host = (parsed.hostname or "").lower()
-    if host in PLAYLIST_HOSTS:
-        return True
-    return host.endswith(".github.io")
+    host = (urlparse(url).hostname or "").lower()
+    return host in PLAYLIST_HOSTS or host.endswith(".github.io")
 
 
 def playlist_url_ok(url: str) -> bool:
@@ -211,8 +213,7 @@ def header_epg_urls(text: str) -> list[str]:
     urls = []
     for raw in match.group(1).split(","):
         url = raw.strip()
-        parsed = urlparse(url)
-        if parsed.scheme != "https" or parsed.username or parsed.password:
+        if not urlcheck.is_safe_https_url(url):
             continue
         if "ALL_SOURCES" in url or "DUMMY" in url:
             continue
