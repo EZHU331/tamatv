@@ -1,0 +1,51 @@
+name: Refresh playlists
+
+on:
+  schedule:
+    - cron: "17 6,18 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/**
+      - .github/workflows/refresh-playlists.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-playlists
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test playlist rules
+        run: python3 scripts/test_m3u.py
+      - name: Build curated playlists
+        env:
+          TAMATV_SITE: https://ezhu331.github.io/tamatv
+          PYTHONUNBUFFERED: "1"
+        run: python3 scripts/refresh-lists.py --probe
+      - name: Quality check
+        run: python3 scripts/check_playlists.py
+      - name: Commit
+        run: |
+          git add lists.json playlists japan.m3u world.m3u
+          if git diff --staged --quiet; then
+            echo "No playlist changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$(cat <<'EOF'
+          Refresh curated playlists.
+
+          EOF
+          )"
+          git push

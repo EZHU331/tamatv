@@ -1,0 +1,3962 @@
+{
+  "updated": "2026-09-07T09:06:13Z",
+  "site": "https://ezhu331.github.io/tamatv",
+  "sources": [
+    {
+      "name": "tamaTV World",
+      "href": "https://github.com/EZHU331/tamatv"
+    },
+    {
+      "name": "tamaTV Japan",
+      "href": "https://github.com/EZHU331/tamatv"
+    },
+    {
+      "name": "iptv-org/iptv",
+      "href": "https://github.com/iptv-org/iptv"
+    },
+    {
+      "name": "Free-TV/IPTV",
+      "href": "https://github.com/Free-TV/IPTV"
+    },
+    {
+      "name": "ngo5/IPTV",
+      "href": "https://github.com/ngo5/IPTV"
+    },
+    {
+      "name": "vbskycn/iptv",
+      "href": "https://github.com/vbskycn/iptv"
+    },
+    {
+      "name": "i.mjh.nz",
+      "href": "https://i.mjh.nz/"
+    }
+  ],
+  "featured": [
+    {
+      "id": "tamatv-world",
+      "kind": "featured",
+      "name": "World news & documentary",
+      "flag": "🌍",
+      "url": "https://ezhu331.github.io/tamatv/world.m3u",
+      "format": "M3U",
+      "origin": "tamaTV",
+      "originHref": "https://github.com/EZHU331/tamatv",
+      "channels": 49,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ALJAZEERA1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "tamatv-japan",
+      "kind": "featured",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "url": "https://ezhu331.github.io/tamatv/japan.m3u",
+      "format": "M3U",
+      "origin": "tamaTV",
+      "originHref": "https://github.com/EZHU331/tamatv",
+      "channels": 15,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml"
+        }
+      ]
+    }
+  ],
+  "countries": [
+    {
+      "id": "country-af",
+      "kind": "country",
+      "code": "AF",
+      "name": "Afghanistan",
+      "flag": "🇦🇫",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/af.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 14,
+      "extras": []
+    },
+    {
+      "id": "country-al",
+      "kind": "country",
+      "code": "AL",
+      "name": "Albania",
+      "flag": "🇦🇱",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/al.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 30,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_AL1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-dz",
+      "kind": "country",
+      "code": "DZ",
+      "name": "Algeria",
+      "flag": "🇩🇿",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/dz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-ad",
+      "kind": "country",
+      "code": "AD",
+      "name": "Andorra",
+      "flag": "🇦🇩",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ad.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-ao",
+      "kind": "country",
+      "code": "AO",
+      "name": "Angola",
+      "flag": "🇦🇴",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ao.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-ag",
+      "kind": "country",
+      "code": "AG",
+      "name": "Antigua and Barbuda",
+      "flag": "🇦🇬",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ag.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-ar",
+      "kind": "country",
+      "code": "AR",
+      "name": "Argentina",
+      "flag": "🇦🇷",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ar.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 155,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-am",
+      "kind": "country",
+      "code": "AM",
+      "name": "Armenia",
+      "flag": "🇦🇲",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/am.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-aw",
+      "kind": "country",
+      "code": "AW",
+      "name": "Aruba",
+      "flag": "🇦🇼",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/aw.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 8,
+      "extras": []
+    },
+    {
+      "id": "country-au",
+      "kind": "country",
+      "code": "AU",
+      "name": "Australia",
+      "flag": "🇦🇺",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/au.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 53,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_AU1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-at",
+      "kind": "country",
+      "code": "AT",
+      "name": "Austria",
+      "flag": "🇦🇹",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/at.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 33,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-az",
+      "kind": "country",
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "flag": "🇦🇿",
+      "letter": "A",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/az.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 16,
+      "extras": []
+    },
+    {
+      "id": "country-bs",
+      "kind": "country",
+      "code": "BS",
+      "name": "Bahamas",
+      "flag": "🇧🇸",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bs.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 4,
+      "extras": []
+    },
+    {
+      "id": "country-bh",
+      "kind": "country",
+      "code": "BH",
+      "name": "Bahrain",
+      "flag": "🇧🇭",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bh.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-bd",
+      "kind": "country",
+      "code": "BD",
+      "name": "Bangladesh",
+      "flag": "🇧🇩",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bd.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 24,
+      "extras": []
+    },
+    {
+      "id": "country-bb",
+      "kind": "country",
+      "code": "BB",
+      "name": "Barbados",
+      "flag": "🇧🇧",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bb.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-by",
+      "kind": "country",
+      "code": "BY",
+      "name": "Belarus",
+      "flag": "🇧🇾",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/by.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 18,
+      "extras": []
+    },
+    {
+      "id": "country-be",
+      "kind": "country",
+      "code": "BE",
+      "name": "Belgium",
+      "flag": "🇧🇪",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/be.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 41,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-bz",
+      "kind": "country",
+      "code": "BZ",
+      "name": "Belize",
+      "flag": "🇧🇿",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 17,
+      "extras": []
+    },
+    {
+      "id": "country-bj",
+      "kind": "country",
+      "code": "BJ",
+      "name": "Benin",
+      "flag": "🇧🇯",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bj.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": []
+    },
+    {
+      "id": "country-bo",
+      "kind": "country",
+      "code": "BO",
+      "name": "Bolivia",
+      "flag": "🇧🇴",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bo.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 77,
+      "extras": []
+    },
+    {
+      "id": "country-bq",
+      "kind": "country",
+      "code": "BQ",
+      "name": "Bonaire",
+      "flag": "🇧🇶",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bq.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-ba",
+      "kind": "country",
+      "code": "BA",
+      "name": "Bosnia and Herzegovina",
+      "flag": "🇧🇦",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ba.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 20,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-br",
+      "kind": "country",
+      "code": "BR",
+      "name": "Brazil",
+      "flag": "🇧🇷",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/br.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 257,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-vg",
+      "kind": "country",
+      "code": "VG",
+      "name": "British Virgin Islands",
+      "flag": "🇻🇬",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/vg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-bn",
+      "kind": "country",
+      "code": "BN",
+      "name": "Brunei",
+      "flag": "🇧🇳",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-bg",
+      "kind": "country",
+      "code": "BG",
+      "name": "Bulgaria",
+      "flag": "🇧🇬",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 28,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-bf",
+      "kind": "country",
+      "code": "BF",
+      "name": "Burkina Faso",
+      "flag": "🇧🇫",
+      "letter": "B",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/bf.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-kh",
+      "kind": "country",
+      "code": "KH",
+      "name": "Cambodia",
+      "flag": "🇰🇭",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kh.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 25,
+      "extras": []
+    },
+    {
+      "id": "country-cm",
+      "kind": "country",
+      "code": "CM",
+      "name": "Cameroon",
+      "flag": "🇨🇲",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cm.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 15,
+      "extras": []
+    },
+    {
+      "id": "country-ca",
+      "kind": "country",
+      "code": "CA",
+      "name": "Canada",
+      "flag": "🇨🇦",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ca.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 150,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-cv",
+      "kind": "country",
+      "code": "CV",
+      "name": "Cape Verde",
+      "flag": "🇨🇻",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cv.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-td",
+      "kind": "country",
+      "code": "TD",
+      "name": "Chad",
+      "flag": "🇹🇩",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/td.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-cl",
+      "kind": "country",
+      "code": "CL",
+      "name": "Chile",
+      "flag": "🇨🇱",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cl.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 231,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-cn",
+      "kind": "country",
+      "code": "CN",
+      "name": "China",
+      "flag": "🇨🇳",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 192,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://live.fanmingming.com/e.xml"
+        },
+        {
+          "key": "epg",
+          "url": "https://epg.112114.xyz/pp.xml"
+        }
+      ]
+    },
+    {
+      "id": "country-co",
+      "kind": "country",
+      "code": "CO",
+      "name": "Colombia",
+      "flag": "🇨🇴",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/co.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 95,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-cr",
+      "kind": "country",
+      "code": "CR",
+      "name": "Costa Rica",
+      "flag": "🇨🇷",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 64,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-hr",
+      "kind": "country",
+      "code": "HR",
+      "name": "Croatia",
+      "flag": "🇭🇷",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/hr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 29,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-cu",
+      "kind": "country",
+      "code": "CU",
+      "name": "Cuba",
+      "flag": "🇨🇺",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cu.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-cw",
+      "kind": "country",
+      "code": "CW",
+      "name": "Curacao",
+      "flag": "🇨🇼",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cw.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 4,
+      "extras": []
+    },
+    {
+      "id": "country-cy",
+      "kind": "country",
+      "code": "CY",
+      "name": "Cyprus",
+      "flag": "🇨🇾",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cy.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 15,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-cz",
+      "kind": "country",
+      "code": "CZ",
+      "name": "Czech Republic",
+      "flag": "🇨🇿",
+      "letter": "C",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 62,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-cd",
+      "kind": "country",
+      "code": "CD",
+      "name": "Democratic Republic of the Congo",
+      "flag": "🇨🇩",
+      "letter": "D",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cd.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 16,
+      "extras": []
+    },
+    {
+      "id": "country-dk",
+      "kind": "country",
+      "code": "DK",
+      "name": "Denmark",
+      "flag": "🇩🇰",
+      "letter": "D",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/dk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 16,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-do",
+      "kind": "country",
+      "code": "DO",
+      "name": "Dominican Republic",
+      "flag": "🇩🇴",
+      "letter": "D",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/do.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 238,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ec",
+      "kind": "country",
+      "code": "EC",
+      "name": "Ecuador",
+      "flag": "🇪🇨",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ec.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 71,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-eg",
+      "kind": "country",
+      "code": "EG",
+      "name": "Egypt",
+      "flag": "🇪🇬",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/eg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 20,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_EG1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-sv",
+      "kind": "country",
+      "code": "SV",
+      "name": "El Salvador",
+      "flag": "🇸🇻",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sv.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 33,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SV1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-gq",
+      "kind": "country",
+      "code": "GQ",
+      "name": "Equatorial Guinea",
+      "flag": "🇬🇶",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gq.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-er",
+      "kind": "country",
+      "code": "ER",
+      "name": "Eritrea",
+      "flag": "🇪🇷",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/er.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-ee",
+      "kind": "country",
+      "code": "EE",
+      "name": "Estonia",
+      "flag": "🇪🇪",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ee.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 19,
+      "extras": []
+    },
+    {
+      "id": "country-et",
+      "kind": "country",
+      "code": "ET",
+      "name": "Ethiopia",
+      "flag": "🇪🇹",
+      "letter": "E",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/et.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-fo",
+      "kind": "country",
+      "code": "FO",
+      "name": "Faroe Islands",
+      "flag": "🇫🇴",
+      "letter": "F",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/fo.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-fi",
+      "kind": "country",
+      "code": "FI",
+      "name": "Finland",
+      "flag": "🇫🇮",
+      "letter": "F",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/fi.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 29,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_FI1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-fr",
+      "kind": "country",
+      "code": "FR",
+      "name": "France",
+      "flag": "🇫🇷",
+      "letter": "F",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/fr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 167,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-gf",
+      "kind": "country",
+      "code": "GF",
+      "name": "French Guiana",
+      "flag": "🇬🇫",
+      "letter": "F",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gf.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-pf",
+      "kind": "country",
+      "code": "PF",
+      "name": "French Polynesia",
+      "flag": "🇵🇫",
+      "letter": "F",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pf.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-gm",
+      "kind": "country",
+      "code": "GM",
+      "name": "Gambia",
+      "flag": "🇬🇲",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gm.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-ge",
+      "kind": "country",
+      "code": "GE",
+      "name": "Georgia",
+      "flag": "🇬🇪",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ge.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 20,
+      "extras": []
+    },
+    {
+      "id": "country-de",
+      "kind": "country",
+      "code": "DE",
+      "name": "Germany",
+      "flag": "🇩🇪",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/de.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 426,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-gh",
+      "kind": "country",
+      "code": "GH",
+      "name": "Ghana",
+      "flag": "🇬🇭",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gh.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 10,
+      "extras": []
+    },
+    {
+      "id": "country-gr",
+      "kind": "country",
+      "code": "GR",
+      "name": "Greece",
+      "flag": "🇬🇷",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 83,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-gp",
+      "kind": "country",
+      "code": "GP",
+      "name": "Guadeloupe",
+      "flag": "🇬🇵",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gp.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-gu",
+      "kind": "country",
+      "code": "GU",
+      "name": "Guam",
+      "flag": "🇬🇺",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gu.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-gt",
+      "kind": "country",
+      "code": "GT",
+      "name": "Guatemala",
+      "flag": "🇬🇹",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gt.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 62,
+      "extras": []
+    },
+    {
+      "id": "country-gn",
+      "kind": "country",
+      "code": "GN",
+      "name": "Guinea",
+      "flag": "🇬🇳",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-gy",
+      "kind": "country",
+      "code": "GY",
+      "name": "Guyana",
+      "flag": "🇬🇾",
+      "letter": "G",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/gy.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-ht",
+      "kind": "country",
+      "code": "HT",
+      "name": "Haiti",
+      "flag": "🇭🇹",
+      "letter": "H",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ht.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 12,
+      "extras": []
+    },
+    {
+      "id": "country-hn",
+      "kind": "country",
+      "code": "HN",
+      "name": "Honduras",
+      "flag": "🇭🇳",
+      "letter": "H",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/hn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 71,
+      "extras": []
+    },
+    {
+      "id": "country-hk",
+      "kind": "country",
+      "code": "HK",
+      "name": "Hong Kong",
+      "flag": "🇭🇰",
+      "letter": "H",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/hk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 26,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://live.fanmingming.com/e.xml"
+        },
+        {
+          "key": "epg",
+          "url": "https://epg.112114.xyz/pp.xml"
+        }
+      ]
+    },
+    {
+      "id": "country-hu",
+      "kind": "country",
+      "code": "HU",
+      "name": "Hungary",
+      "flag": "🇭🇺",
+      "letter": "H",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/hu.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 80,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-is",
+      "kind": "country",
+      "code": "IS",
+      "name": "Iceland",
+      "flag": "🇮🇸",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/is.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-in",
+      "kind": "country",
+      "code": "IN",
+      "name": "India",
+      "flag": "🇮🇳",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/in.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 667,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-id",
+      "kind": "country",
+      "code": "ID",
+      "name": "Indonesia",
+      "flag": "🇮🇩",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/id.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 112,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ID1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ir",
+      "kind": "country",
+      "code": "IR",
+      "name": "Iran",
+      "flag": "🇮🇷",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ir.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 119,
+      "extras": []
+    },
+    {
+      "id": "country-iq",
+      "kind": "country",
+      "code": "IQ",
+      "name": "Iraq",
+      "flag": "🇮🇶",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/iq.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 59,
+      "extras": []
+    },
+    {
+      "id": "country-ie",
+      "kind": "country",
+      "code": "IE",
+      "name": "Ireland",
+      "flag": "🇮🇪",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ie.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 28,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-il",
+      "kind": "country",
+      "code": "IL",
+      "name": "Israel",
+      "flag": "🇮🇱",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/il.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 20,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IL1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-it",
+      "kind": "country",
+      "code": "IT",
+      "name": "Italy",
+      "flag": "🇮🇹",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/it.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 447,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ci",
+      "kind": "country",
+      "code": "CI",
+      "name": "Ivory Coast",
+      "flag": "🇨🇮",
+      "letter": "I",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ci.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 19,
+      "extras": []
+    },
+    {
+      "id": "country-jm",
+      "kind": "country",
+      "code": "JM",
+      "name": "Jamaica",
+      "flag": "🇯🇲",
+      "letter": "J",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/jm.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 7,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_JM1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-jp",
+      "kind": "country",
+      "code": "JP",
+      "name": "Japan",
+      "flag": "🇯🇵",
+      "letter": "J",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/jp.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 15,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml"
+        }
+      ]
+    },
+    {
+      "id": "country-jo",
+      "kind": "country",
+      "code": "JO",
+      "name": "Jordan",
+      "flag": "🇯🇴",
+      "letter": "J",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/jo.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 18,
+      "extras": []
+    },
+    {
+      "id": "country-kz",
+      "kind": "country",
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "flag": "🇰🇿",
+      "letter": "K",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 40,
+      "extras": []
+    },
+    {
+      "id": "country-ke",
+      "kind": "country",
+      "code": "KE",
+      "name": "Kenya",
+      "flag": "🇰🇪",
+      "letter": "K",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ke.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 38,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_KE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-xk",
+      "kind": "country",
+      "code": "XK",
+      "name": "Kosovo",
+      "flag": "🇽🇰",
+      "letter": "K",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/xk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 15,
+      "extras": []
+    },
+    {
+      "id": "country-kw",
+      "kind": "country",
+      "code": "KW",
+      "name": "Kuwait",
+      "flag": "🇰🇼",
+      "letter": "K",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kw.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 12,
+      "extras": []
+    },
+    {
+      "id": "country-kg",
+      "kind": "country",
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "flag": "🇰🇬",
+      "letter": "K",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 10,
+      "extras": []
+    },
+    {
+      "id": "country-la",
+      "kind": "country",
+      "code": "LA",
+      "name": "Laos",
+      "flag": "🇱🇦",
+      "letter": "L",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/la.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": []
+    },
+    {
+      "id": "country-lv",
+      "kind": "country",
+      "code": "LV",
+      "name": "Latvia",
+      "flag": "🇱🇻",
+      "letter": "L",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/lv.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_LV1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-lb",
+      "kind": "country",
+      "code": "LB",
+      "name": "Lebanon",
+      "flag": "🇱🇧",
+      "letter": "L",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/lb.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 31,
+      "extras": []
+    },
+    {
+      "id": "country-ly",
+      "kind": "country",
+      "code": "LY",
+      "name": "Libya",
+      "flag": "🇱🇾",
+      "letter": "L",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ly.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-lt",
+      "kind": "country",
+      "code": "LT",
+      "name": "Lithuania",
+      "flag": "🇱🇹",
+      "letter": "L",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/lt.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 15,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_LT1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-lu",
+      "kind": "country",
+      "code": "LU",
+      "name": "Luxembourg",
+      "flag": "🇱🇺",
+      "letter": "L",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/lu.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 12,
+      "extras": []
+    },
+    {
+      "id": "country-mo",
+      "kind": "country",
+      "code": "MO",
+      "name": "Macao",
+      "flag": "🇲🇴",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mo.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://live.fanmingming.com/e.xml"
+        },
+        {
+          "key": "epg",
+          "url": "https://epg.112114.xyz/pp.xml"
+        }
+      ]
+    },
+    {
+      "id": "country-my",
+      "kind": "country",
+      "code": "MY",
+      "name": "Malaysia",
+      "flag": "🇲🇾",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/my.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 24,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-mv",
+      "kind": "country",
+      "code": "MV",
+      "name": "Maldives",
+      "flag": "🇲🇻",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mv.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": []
+    },
+    {
+      "id": "country-ml",
+      "kind": "country",
+      "code": "ML",
+      "name": "Mali",
+      "flag": "🇲🇱",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ml.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-mt",
+      "kind": "country",
+      "code": "MT",
+      "name": "Malta",
+      "flag": "🇲🇹",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mt.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 7,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_MT1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-mq",
+      "kind": "country",
+      "code": "MQ",
+      "name": "Martinique",
+      "flag": "🇲🇶",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mq.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-mr",
+      "kind": "country",
+      "code": "MR",
+      "name": "Mauritania",
+      "flag": "🇲🇷",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-mx",
+      "kind": "country",
+      "code": "MX",
+      "name": "Mexico",
+      "flag": "🇲🇽",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mx.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 165,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-md",
+      "kind": "country",
+      "code": "MD",
+      "name": "Moldova",
+      "flag": "🇲🇩",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/md.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 22,
+      "extras": []
+    },
+    {
+      "id": "country-mc",
+      "kind": "country",
+      "code": "MC",
+      "name": "Monaco",
+      "flag": "🇲🇨",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mc.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-mn",
+      "kind": "country",
+      "code": "MN",
+      "name": "Mongolia",
+      "flag": "🇲🇳",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 38,
+      "extras": []
+    },
+    {
+      "id": "country-me",
+      "kind": "country",
+      "code": "ME",
+      "name": "Montenegro",
+      "flag": "🇲🇪",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/me.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 7,
+      "extras": []
+    },
+    {
+      "id": "country-ma",
+      "kind": "country",
+      "code": "MA",
+      "name": "Morocco",
+      "flag": "🇲🇦",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ma.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": []
+    },
+    {
+      "id": "country-mz",
+      "kind": "country",
+      "code": "MZ",
+      "name": "Mozambique",
+      "flag": "🇲🇿",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-mm",
+      "kind": "country",
+      "code": "MM",
+      "name": "Myanmar",
+      "flag": "🇲🇲",
+      "letter": "M",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mm.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 17,
+      "extras": []
+    },
+    {
+      "id": "country-na",
+      "kind": "country",
+      "code": "NA",
+      "name": "Namibia",
+      "flag": "🇳🇦",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/na.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-np",
+      "kind": "country",
+      "code": "NP",
+      "name": "Nepal",
+      "flag": "🇳🇵",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/np.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": []
+    },
+    {
+      "id": "country-nl",
+      "kind": "country",
+      "code": "NL",
+      "name": "Netherlands",
+      "flag": "🇳🇱",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/nl.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 157,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-nz",
+      "kind": "country",
+      "code": "NZ",
+      "name": "New Zealand",
+      "flag": "🇳🇿",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/nz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 14,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_NZ1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ni",
+      "kind": "country",
+      "code": "NI",
+      "name": "Nicaragua",
+      "flag": "🇳🇮",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ni.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 18,
+      "extras": []
+    },
+    {
+      "id": "country-ne",
+      "kind": "country",
+      "code": "NE",
+      "name": "Niger",
+      "flag": "🇳🇪",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ne.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 4,
+      "extras": []
+    },
+    {
+      "id": "country-ng",
+      "kind": "country",
+      "code": "NG",
+      "name": "Nigeria",
+      "flag": "🇳🇬",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ng.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 49,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_NG1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-kp",
+      "kind": "country",
+      "code": "KP",
+      "name": "North Korea",
+      "flag": "🇰🇵",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kp.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-mk",
+      "kind": "country",
+      "code": "MK",
+      "name": "North Macedonia",
+      "flag": "🇲🇰",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/mk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 35,
+      "extras": []
+    },
+    {
+      "id": "country-no",
+      "kind": "country",
+      "code": "NO",
+      "name": "Norway",
+      "flag": "🇳🇴",
+      "letter": "N",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/no.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 9,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-om",
+      "kind": "country",
+      "code": "OM",
+      "name": "Oman",
+      "flag": "🇴🇲",
+      "letter": "O",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/om.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-pk",
+      "kind": "country",
+      "code": "PK",
+      "name": "Pakistan",
+      "flag": "🇵🇰",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 83,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ps",
+      "kind": "country",
+      "code": "PS",
+      "name": "Palestine",
+      "flag": "🇵🇸",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ps.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 16,
+      "extras": []
+    },
+    {
+      "id": "country-pa",
+      "kind": "country",
+      "code": "PA",
+      "name": "Panama",
+      "flag": "🇵🇦",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pa.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 22,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-pg",
+      "kind": "country",
+      "code": "PG",
+      "name": "Papua New Guinea",
+      "flag": "🇵🇬",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-py",
+      "kind": "country",
+      "code": "PY",
+      "name": "Paraguay",
+      "flag": "🇵🇾",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/py.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 61,
+      "extras": []
+    },
+    {
+      "id": "country-pe",
+      "kind": "country",
+      "code": "PE",
+      "name": "Peru",
+      "flag": "🇵🇪",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pe.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 160,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ph",
+      "kind": "country",
+      "code": "PH",
+      "name": "Philippines",
+      "flag": "🇵🇭",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ph.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 13,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PH1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-pl",
+      "kind": "country",
+      "code": "PL",
+      "name": "Poland",
+      "flag": "🇵🇱",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pl.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 87,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-pt",
+      "kind": "country",
+      "code": "PT",
+      "name": "Portugal",
+      "flag": "🇵🇹",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pt.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 43,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PT1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-pr",
+      "kind": "country",
+      "code": "PR",
+      "name": "Puerto Rico",
+      "flag": "🇵🇷",
+      "letter": "P",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 27,
+      "extras": []
+    },
+    {
+      "id": "country-qa",
+      "kind": "country",
+      "code": "QA",
+      "name": "Qatar",
+      "flag": "🇶🇦",
+      "letter": "Q",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/qa.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 24,
+      "extras": []
+    },
+    {
+      "id": "country-cg",
+      "kind": "country",
+      "code": "CG",
+      "name": "Republic of the Congo",
+      "flag": "🇨🇬",
+      "letter": "R",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/cg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 5,
+      "extras": []
+    },
+    {
+      "id": "country-ro",
+      "kind": "country",
+      "code": "RO",
+      "name": "Romania",
+      "flag": "🇷🇴",
+      "letter": "R",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ro.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 78,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ru",
+      "kind": "country",
+      "code": "RU",
+      "name": "Russia",
+      "flag": "🇷🇺",
+      "letter": "R",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ru.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 403,
+      "extras": []
+    },
+    {
+      "id": "country-rw",
+      "kind": "country",
+      "code": "RW",
+      "name": "Rwanda",
+      "flag": "🇷🇼",
+      "letter": "R",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/rw.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 7,
+      "extras": []
+    },
+    {
+      "id": "country-kn",
+      "kind": "country",
+      "code": "KN",
+      "name": "Saint Kitts and Nevis",
+      "flag": "🇰🇳",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 3,
+      "extras": []
+    },
+    {
+      "id": "country-lc",
+      "kind": "country",
+      "code": "LC",
+      "name": "Saint Lucia",
+      "flag": "🇱🇨",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/lc.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-vc",
+      "kind": "country",
+      "code": "VC",
+      "name": "Saint Vincent and the Grenadines",
+      "flag": "🇻🇨",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/vc.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-ws",
+      "kind": "country",
+      "code": "WS",
+      "name": "Samoa",
+      "flag": "🇼🇸",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ws.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-sm",
+      "kind": "country",
+      "code": "SM",
+      "name": "San Marino",
+      "flag": "🇸🇲",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sm.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-sa",
+      "kind": "country",
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "flag": "🇸🇦",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sa.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 56,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-sn",
+      "kind": "country",
+      "code": "SN",
+      "name": "Senegal",
+      "flag": "🇸🇳",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 14,
+      "extras": []
+    },
+    {
+      "id": "country-rs",
+      "kind": "country",
+      "code": "RS",
+      "name": "Serbia",
+      "flag": "🇷🇸",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/rs.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 43,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_RS1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-sl",
+      "kind": "country",
+      "code": "SL",
+      "name": "Sierra Leone",
+      "flag": "🇸🇱",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sl.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-sg",
+      "kind": "country",
+      "code": "SG",
+      "name": "Singapore",
+      "flag": "🇸🇬",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 20,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-sx",
+      "kind": "country",
+      "code": "SX",
+      "name": "Sint Maarten",
+      "flag": "🇸🇽",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sx.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-sk",
+      "kind": "country",
+      "code": "SK",
+      "name": "Slovakia",
+      "flag": "🇸🇰",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 58,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-si",
+      "kind": "country",
+      "code": "SI",
+      "name": "Slovenia",
+      "flag": "🇸🇮",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/si.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 10,
+      "extras": []
+    },
+    {
+      "id": "country-so",
+      "kind": "country",
+      "code": "SO",
+      "name": "Somalia",
+      "flag": "🇸🇴",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/so.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 7,
+      "extras": []
+    },
+    {
+      "id": "country-za",
+      "kind": "country",
+      "code": "ZA",
+      "name": "South Africa",
+      "flag": "🇿🇦",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/za.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 25,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-kr",
+      "kind": "country",
+      "code": "KR",
+      "name": "South Korea",
+      "flag": "🇰🇷",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/kr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 83,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-es",
+      "kind": "country",
+      "code": "ES",
+      "name": "Spain",
+      "flag": "🇪🇸",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/es.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 236,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-lk",
+      "kind": "country",
+      "code": "LK",
+      "name": "Sri Lanka",
+      "flag": "🇱🇰",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/lk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 11,
+      "extras": []
+    },
+    {
+      "id": "country-sd",
+      "kind": "country",
+      "code": "SD",
+      "name": "Sudan",
+      "flag": "🇸🇩",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sd.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": []
+    },
+    {
+      "id": "country-sr",
+      "kind": "country",
+      "code": "SR",
+      "name": "Suriname",
+      "flag": "🇸🇷",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-se",
+      "kind": "country",
+      "code": "SE",
+      "name": "Sweden",
+      "flag": "🇸🇪",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/se.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 208,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-ch",
+      "kind": "country",
+      "code": "CH",
+      "name": "Switzerland",
+      "flag": "🇨🇭",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ch.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 34,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CH1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-sy",
+      "kind": "country",
+      "code": "SY",
+      "name": "Syria",
+      "flag": "🇸🇾",
+      "letter": "S",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/sy.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 11,
+      "extras": []
+    },
+    {
+      "id": "country-tw",
+      "kind": "country",
+      "code": "TW",
+      "name": "Taiwan",
+      "flag": "🇹🇼",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tw.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 33,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://live.fanmingming.com/e.xml"
+        },
+        {
+          "key": "epg",
+          "url": "https://epg.112114.xyz/pp.xml"
+        }
+      ]
+    },
+    {
+      "id": "country-tj",
+      "kind": "country",
+      "code": "TJ",
+      "name": "Tajikistan",
+      "flag": "🇹🇯",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tj.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 14,
+      "extras": []
+    },
+    {
+      "id": "country-tz",
+      "kind": "country",
+      "code": "TZ",
+      "name": "Tanzania",
+      "flag": "🇹🇿",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 6,
+      "extras": []
+    },
+    {
+      "id": "country-th",
+      "kind": "country",
+      "code": "TH",
+      "name": "Thailand",
+      "flag": "🇹🇭",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/th.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 68,
+      "extras": []
+    },
+    {
+      "id": "country-tg",
+      "kind": "country",
+      "code": "TG",
+      "name": "Togo",
+      "flag": "🇹🇬",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tg.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 11,
+      "extras": []
+    },
+    {
+      "id": "country-tt",
+      "kind": "country",
+      "code": "TT",
+      "name": "Trinidad and Tobago",
+      "flag": "🇹🇹",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tt.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 11,
+      "extras": []
+    },
+    {
+      "id": "country-tn",
+      "kind": "country",
+      "code": "TN",
+      "name": "Tunisia",
+      "flag": "🇹🇳",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 4,
+      "extras": []
+    },
+    {
+      "id": "country-tr",
+      "kind": "country",
+      "code": "TR",
+      "name": "Turkiye",
+      "flag": "🇹🇷",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tr.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 185,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-tm",
+      "kind": "country",
+      "code": "TM",
+      "name": "Turkmenistan",
+      "flag": "🇹🇲",
+      "letter": "T",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/tm.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 8,
+      "extras": []
+    },
+    {
+      "id": "country-ug",
+      "kind": "country",
+      "code": "UG",
+      "name": "Uganda",
+      "flag": "🇺🇬",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ug.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 21,
+      "extras": []
+    },
+    {
+      "id": "country-ua",
+      "kind": "country",
+      "code": "UA",
+      "name": "Ukraine",
+      "flag": "🇺🇦",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ua.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 128,
+      "extras": []
+    },
+    {
+      "id": "country-ae",
+      "kind": "country",
+      "code": "AE",
+      "name": "United Arab Emirates",
+      "flag": "🇦🇪",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ae.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 57,
+      "extras": []
+    },
+    {
+      "id": "country-uk",
+      "kind": "country",
+      "code": "UK",
+      "name": "United Kingdom",
+      "flag": "🇬🇧",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/uk.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 205,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-us",
+      "kind": "country",
+      "code": "US",
+      "name": "United States",
+      "flag": "🇺🇸",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/us.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1618,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-uy",
+      "kind": "country",
+      "code": "UY",
+      "name": "Uruguay",
+      "flag": "🇺🇾",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/uy.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 2,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UY1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-uz",
+      "kind": "country",
+      "code": "UZ",
+      "name": "Uzbekistan",
+      "flag": "🇺🇿",
+      "letter": "U",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/uz.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 33,
+      "extras": []
+    },
+    {
+      "id": "country-ve",
+      "kind": "country",
+      "code": "VE",
+      "name": "Venezuela",
+      "flag": "🇻🇪",
+      "letter": "V",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ve.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 60,
+      "extras": []
+    },
+    {
+      "id": "country-vn",
+      "kind": "country",
+      "code": "VN",
+      "name": "Vietnam",
+      "flag": "🇻🇳",
+      "letter": "V",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/vn.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 81,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "country-eh",
+      "kind": "country",
+      "code": "EH",
+      "name": "Western Sahara",
+      "flag": "🇪🇭",
+      "letter": "W",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/eh.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    },
+    {
+      "id": "country-ye",
+      "kind": "country",
+      "code": "YE",
+      "name": "Yemen",
+      "flag": "🇾🇪",
+      "letter": "Y",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ye.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 4,
+      "extras": []
+    },
+    {
+      "id": "country-zw",
+      "kind": "country",
+      "code": "ZW",
+      "name": "Zimbabwe",
+      "flag": "🇿🇼",
+      "letter": "Z",
+      "url": "https://ezhu331.github.io/tamatv/playlists/countries/zw.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 1,
+      "extras": []
+    }
+  ],
+  "categories": [
+    {
+      "id": "cat-animation",
+      "kind": "category",
+      "code": "animation",
+      "name": "Animation",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/animation.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 74,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-auto",
+      "kind": "category",
+      "code": "auto",
+      "name": "Auto",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/auto.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 22,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-business",
+      "kind": "category",
+      "code": "business",
+      "name": "Business",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/business.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 46,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-classic",
+      "kind": "category",
+      "code": "classic",
+      "name": "Classic",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/classic.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 45,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-comedy",
+      "kind": "category",
+      "code": "comedy",
+      "name": "Comedy",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/comedy.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 121,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-cooking",
+      "kind": "category",
+      "code": "cooking",
+      "name": "Cooking",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/cooking.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 29,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-culture",
+      "kind": "category",
+      "code": "culture",
+      "name": "Culture",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/culture.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 144,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-documentary",
+      "kind": "category",
+      "code": "documentary",
+      "name": "Documentary",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/documentary.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 163,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-education",
+      "kind": "category",
+      "code": "education",
+      "name": "Education",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/education.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 201,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-entertainment",
+      "kind": "category",
+      "code": "entertainment",
+      "name": "Entertainment",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/entertainment.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 748,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-family",
+      "kind": "category",
+      "code": "family",
+      "name": "Family",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/family.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 27,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ZA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-general",
+      "kind": "category",
+      "code": "general",
+      "name": "General",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/general.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 8123,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://i.mjh.nz/world/epg.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-kids",
+      "kind": "category",
+      "code": "kids",
+      "name": "Kids",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/kids.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 315,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-legislative",
+      "kind": "category",
+      "code": "legislative",
+      "name": "Legislative",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/legislative.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 158,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-lifestyle",
+      "kind": "category",
+      "code": "lifestyle",
+      "name": "Lifestyle",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/lifestyle.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 105,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-movies",
+      "kind": "category",
+      "code": "movies",
+      "name": "Movies",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/movies.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 539,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-music",
+      "kind": "category",
+      "code": "music",
+      "name": "Music",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/music.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 691,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-news",
+      "kind": "category",
+      "code": "news",
+      "name": "News",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/news.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 895,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-undefined",
+      "kind": "category",
+      "code": "undefined",
+      "name": "Other",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/undefined.m3u",
+      "channels": 936,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-outdoor",
+      "kind": "category",
+      "code": "outdoor",
+      "name": "Outdoor",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/outdoor.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 47,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-public",
+      "kind": "category",
+      "code": "public",
+      "name": "Public",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/public.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 20,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-relax",
+      "kind": "category",
+      "code": "relax",
+      "name": "Relax",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/relax.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 4,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-religious",
+      "kind": "category",
+      "code": "religious",
+      "name": "Religious",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/religious.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 666,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-science",
+      "kind": "category",
+      "code": "science",
+      "name": "Science",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/science.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 11,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-series",
+      "kind": "category",
+      "code": "series",
+      "name": "Series",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/series.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 357,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-shop",
+      "kind": "category",
+      "code": "shop",
+      "name": "Shop",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/shop.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 70,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-sports",
+      "kind": "category",
+      "code": "sports",
+      "name": "Sports",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/sports.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 372,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-travel",
+      "kind": "category",
+      "code": "travel",
+      "name": "Travel",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/travel.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 48,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz"
+        }
+      ]
+    },
+    {
+      "id": "cat-weather",
+      "kind": "category",
+      "code": "weather",
+      "name": "Weather",
+      "url": "https://ezhu331.github.io/tamatv/playlists/categories/weather.m3u",
+      "format": "M3U",
+      "origin": "iptv-org",
+      "originHref": "https://github.com/iptv-org/iptv",
+      "channels": 16,
+      "extras": [
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+        },
+        {
+          "key": "epg",
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
+        }
+      ]
+    }
+  ],
+  "aggregators": [
+    {
+      "id": "agg-burningc4",
+      "kind": "aggregator",
+      "name": "BurningC4",
+      "country": "CN",
+      "origin": "BurningC4",
+      "originHref": "https://github.com/BurningC4/Chinese-IPTV",
+      "variants": [
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/burningc4-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 58,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.com/e.xml"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.112114.xyz/pp.xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-chinaiptv",
+      "kind": "aggregator",
+      "name": "ChinaIPTV",
+      "country": "CN",
+      "origin": "ChinaIPTV",
+      "originHref": "https://github.com/hujingguang/ChinaIPTV",
+      "variants": [
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/chinaiptv-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 56,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.com/e.xml"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.112114.xyz/pp.xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-fanmingming",
+      "kind": "aggregator",
+      "name": "fanmingming",
+      "country": "CN",
+      "origin": "fanmingming",
+      "originHref": "https://github.com/fanmingming/live",
+      "variants": [
+        {
+          "label": "IPv6",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/fanmingming-v6.m3u",
+          "stack": "v6",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 82,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.cn/e.xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-guovin",
+      "kind": "aggregator",
+      "name": "Guovin",
+      "country": "CN",
+      "origin": "Guovin",
+      "originHref": "https://github.com/Guovin/iptv-api",
+      "variants": [
+        {
+          "label": "IPv6",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/guovin-v6.m3u",
+          "stack": "v6",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 452,
+          "extras": []
+        },
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/guovin-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 205,
+          "extras": []
+        }
+      ]
+    },
+    {
+      "id": "agg-iptvsources",
+      "kind": "aggregator",
+      "name": "iptv-sources",
+      "country": "CN",
+      "origin": "iptv-sources",
+      "originHref": "https://m3u.ibert.me/",
+      "variants": [
+        {
+          "label": "IPv6",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/iptvsources-v6.m3u",
+          "stack": "v6",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 82,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.cn/e.xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-kimentanm",
+      "kind": "aggregator",
+      "name": "Kimentanm",
+      "country": "CN",
+      "origin": "Kimentanm",
+      "originHref": "https://github.com/Kimentanm/aptv",
+      "variants": [
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/kimentanm-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 78,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://epg.aptv.app/pp.xml.gz"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.aptv.app/xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-myiptv",
+      "kind": "aggregator",
+      "name": "myIPTV",
+      "country": "CN",
+      "origin": "myIPTV",
+      "originHref": "https://github.com/suxuang/myIPTV",
+      "variants": [
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/myiptv-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 835,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.com/e.xml"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.112114.xyz/pp.xml"
+            }
+          ]
+        },
+        {
+          "label": "IPv6",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/myiptv-v6.m3u",
+          "stack": "v6",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 714,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.com/e.xml"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.112114.xyz/pp.xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-vbskycn",
+      "kind": "aggregator",
+      "name": "vbskycn",
+      "country": "CN",
+      "origin": "vbskycn",
+      "originHref": "https://github.com/vbskycn/iptv",
+      "variants": [
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/vbskycn-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 504,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.com/e.xml"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.112114.xyz/pp.xml"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "agg-zwc456baby",
+      "kind": "aggregator",
+      "name": "zwc456baby",
+      "country": "CN",
+      "origin": "zwc456baby",
+      "originHref": "https://github.com/zwc456baby/iptv_alive",
+      "variants": [
+        {
+          "label": "IPv4",
+          "url": "https://ezhu331.github.io/tamatv/playlists/aggregators/zwc456baby-v4.m3u",
+          "stack": "v4",
+          "format": "M3U",
+          "epg": true,
+          "logos": true,
+          "channels": 30,
+          "extras": [
+            {
+              "key": "epg",
+              "url": "https://live.fanmingming.com/e.xml"
+            },
+            {
+              "key": "epg",
+              "url": "https://epg.112114.xyz/pp.xml"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "guides": [
+    {
+      "id": "epg-japanterebi",
+      "kind": "guide",
+      "name": "japanterebi",
+      "url": "https://animenosekai.github.io/japanterebi-xmltv/guide.xml",
+      "format": "XMLTV",
+      "origin": "japanterebi",
+      "originHref": "https://github.com/Animenosekai/japanterebi-xmltv",
+      "extras": []
+    },
+    {
+      "id": "epg-112114",
+      "kind": "guide",
+      "name": "112114",
+      "url": "https://epg.112114.xyz/pp.xml",
+      "format": "XMLTV",
+      "origin": "112114",
+      "originHref": "https://epg.112114.xyz/",
+      "extras": []
+    },
+    {
+      "id": "epg-fanmingming",
+      "kind": "guide",
+      "name": "fanmingming",
+      "url": "https://live.fanmingming.com/e.xml",
+      "format": "XMLTV",
+      "origin": "fanmingming",
+      "originHref": "https://github.com/fanmingming/live",
+      "extras": [
+        {
+          "key": "mirror",
+          "url": "https://live.fanmingming.cn/e.xml"
+        }
+      ]
+    },
+    {
+      "id": "epg-erw",
+      "kind": "guide",
+      "name": "ERW",
+      "url": "https://e.erw.cc/e.xml",
+      "format": "XMLTV",
+      "origin": "ERW",
+      "originHref": "https://e.erw.cc/",
+      "extras": []
+    }
+  ]
+}

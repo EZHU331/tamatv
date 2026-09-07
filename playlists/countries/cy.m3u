@@ -1,0 +1,31 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CY1.xml.gz"
+#EXTINF:-1 tvg-id="VouliTV.cy@SD" tvg-name="Vouli TV" tvg-logo="https://i.ibb.co/tzQ3jCR/cropped-VOULI-TV-LOGO-HIGH-RESOLUTION-BLUE.png" group-title="News",Vouli TV (1080p)
+https://dev.aftermind.xyz/edge-hls/unitrust/voulitv/index.m3u8?token=8TXWzhY3h6jrzqEqx
+#EXTINF:-1 tvg-id="AlfaSport.cy@SD" tvg-name="Alfa Sport" tvg-logo="https://i.imgur.com/vhMPYIW.png" group-title="Sports",Alfa Sport (1080p)
+https://dev.aftermind.xyz/edge-hls/unitrust/alfasports/index.m3u8?token=8TXWzhY3h6jrzqEqx
+#EXTINF:-1 tvg-id="ANT1Cyprus.cy@SD" tvg-name="ANT1 Cyprus" tvg-logo="https://i.imgur.com/2KAObBt.png" group-title="Entertainment",ANT1 Cyprus (1080p)
+http://l2.cloudskep.com/ant1cm2/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="608049aefa2b8ae93c2c3a63-69a526053eb39481c7edd563" tvg-name="Masha y el Oso" tvg-logo="https://i.imgur.com/YB2LEk4.png" group-title="Kids",Masha y el Oso
+https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-69a526053eb39481c7edd563/?X-Plex-Token=yxqbRGeyq_hUbEp3F47u
+#EXTINF:-1 tvg-id="Sat7Kids.cy@SD" tvg-name="Sat 7 Kids" tvg-logo="https://i.imgur.com/M0ik0i2.png" group-title="Kids",Sat 7 Kids (1080p)
+https://svs.itworkscdn.net/sat7kidslive/sat7kids.smil/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="MiddleEastTV.cy@SD" tvg-name="Middle East TV" tvg-logo="https://i.imgur.com/oKU5KeW.png" group-title="Religious",Middle East TV (1080p)
+https://content.uplynk.com/channel/9d35b73c264946d5945db6cdff26336e.m3u8
+#EXTINF:-1 tvg-id="Sat7Pars.cy@SD" tvg-name="Sat 7 Pars" tvg-logo="https://i.imgur.com/VTLQeul.png" group-title="Religious",Sat7 Pars
+https://sat7phls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="AdaTV.cy@SD" tvg-name="Ada TV" tvg-logo="https://i.imgur.com/YWmkUWU.png" group-title="General",Ada TV
+https://yayin1.canlitv.fun/live/kibrisadatv.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="KibrisTV.cy" tvg-name="Kibris TV" tvg-logo="https://i.imgur.com/5MJZPTo.png" group-title="General",Kibris TV
+https://old.kuzeykibris.tv/m3u8/kktv.m3u8
+#EXTINF:-1 tvg-id="RIK1.cy@SD" tvg-name="RIK 1" tvg-logo="https://i.imgur.com/31eq4lS.png" group-title="General",RIK 1
+http://213.7.216.229:8888/udp/239.23.0.1:1234
+#EXTINF:-1 tvg-id="RIK2.cy@SD" tvg-name="RIK 2" tvg-logo="https://i.imgur.com/EZUDmtI.png" group-title="General",RIK 2
+http://213.7.216.229:8888/udp/239.23.0.2:1234
+#EXTINF:-1 tvg-id="RIKHD.cy@SD" tvg-name="RIK HD" tvg-logo="https://i.imgur.com/xQnHaPy.png" group-title="General",RIK HD (720p)
+http://213.7.216.229:8888/udp/239.23.0.5:1234
+#EXTINF:-1 tvg-id="RIKSat.cy@SD" tvg-name="RIK Sat" tvg-logo="https://i.imgur.com/BIKwFhD.png" group-title="General",RΙΚ Sat (CYBC S) (720p)
+https://l3.cloudskep.com/cybcsat/abr/playlist.m3u8
+#EXTINF:-1 tvg-id="Sat7Turk.cy@SD" tvg-name="Sat 7 Turk" tvg-logo="https://i.imgur.com/cKQIK4i.png" group-title="General",Sat7 Türk (1080p)
+https://live.artidijitalmedya.com/artidijital_sat7turk/sat7turk/playlist.m3u8
+#EXTINF:-1 tvg-id="SigmaTV.cy@SD" tvg-name="Sigma TV" tvg-logo="https://i.imgur.com/DXKx102.png" group-title="General",Sigma TV
+https://sl2.sigmatv.com/hls/live.m3u8

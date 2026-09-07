@@ -1,0 +1,21 @@
+name: Request
+description: Ask for a change or a new capability
+title: "[Request] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: request
+    attributes:
+      label: What would you like
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where
+      options:
+        - Apple TV
+        - iPhone
+        - iPad
+        - Mac
+        - All

@@ -1,0 +1,40 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ETV2.ee@SD" tvg-name="ETV 2" tvg-logo="https://i.imgur.com/fUjGHDa.png" group-title="Kids",ETV2 (720p)
+https://sb.err.ee/live/etv2.m3u8
+#EXTINF:-1 tvg-id="KidZoneMax.ee@SD" tvg-name="KidZone Max" tvg-logo="https://i.imgur.com/qJSvxE2.png" group-title="Kids" http-referrer="https://kidzonemax.lt",KidZone Max (1080p)
+#EXTVLCOPT:http-referrer=https://kidzonemax.lt
+https://v4-pan-n79-cdn-01.live.cdn.cgates.lt/live/dash/560706/index.mpd
+#EXTINF:-1 tvg-id="BestofDanceTV.ee@SD" tvg-name="Best of Dance TV" tvg-logo="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dt-logo-ARVwXaV7R0NW1kmXYBxN0OA78sD706.png" group-title="Music",Best of Dance TV (1080p)
+https://m1b2.worldcast.tv/dancetelevisionone/dancetelevisionone.m3u8
+#EXTINF:-1 tvg-id="DanceTVAlgorhythm.ee@SD" tvg-name="DanceTV Algorhythm" group-title="Music",DanceTV Algorhythm (1080p)
+https://m2b2.worldcast.tv:7443/dancetelevisionfour/dancetelevisionfour.m3u8
+#EXTINF:-1 tvg-id="DanceTVDeepHouseDistrict.ee@SD" tvg-name="DanceTV Deep House District" tvg-logo="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/dhd-logo-GjMR8ITxgPd9PDBLDf0I87dajJTZnb.png" group-title="Music",DanceTV Deep House District (1080p)
+https://m1b2.worldcast.tv/dancetelevisiontwo/dancetelevisiontwo.m3u8
+#EXTINF:-1 tvg-id="DanceTVEDMMainstage.ee@SD" tvg-name="DanceTV EDM Mainstage" group-title="Music",DanceTV EDM Mainstage (1080p)
+https://mbit1.worldcast.tv/dancetelevisionseven/multibit.m3u8
+#EXTINF:-1 tvg-id="DanceTVHouseFloor.ee@SD" tvg-name="DanceTV House Floor" tvg-logo="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/hf-logo-uDcW7mhXn7bEtZ18czXFyZDlhj8ayX.png" group-title="Music",DanceTV House Floor (1080p)
+https://m2b2.worldcast.tv:7443/dancetelevisionfive/dancetelevisionfive.m3u8
+#EXTINF:-1 tvg-id="DanceTVMinimalTech.ee@SD" tvg-name="DanceTV Minimal Tech" group-title="Music",DanceTV Minimal Tech (1080p)
+https://mbit1.worldcast.tv/dancetelevisionsix/multibit.m3u8
+#EXTINF:-1 tvg-id="DanceTVTechnoWarehouse.ee@SD" tvg-name="DanceTV Techno Warehouse" tvg-logo="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/tw-logo-dqofMpknglzhuurr3HkwtzR7cqGZHj.png" group-title="Music",DanceTV Techno Warehouse (1080p)
+https://m2b2.worldcast.tv:7443/dancetelevisionthree/dancetelevisionthree.m3u8
+#EXTINF:-1 tvg-id="VantageClassic.ee@HD" tvg-name="Vantage Classic" tvg-logo="https://vantagetv.ee/vantage_classic.png" group-title="Music",Vantage Classic (720p)
+https://cdn-backup.lulzy.eu/vclassic_stream/index.m3u8
+#EXTINF:-1 tvg-id="VantageDance.ee@HD" tvg-name="Vantage Dance" tvg-logo="https://vantagetv.ee/vantage_dance.png" group-title="Music",Vantage Dance (720p)
+https://cdn-backup.lulzy.eu/vdance_stream/index.m3u8
+#EXTINF:-1 tvg-id="VantageMusic.ee@UK" tvg-name="Vantage Music" tvg-logo="https://vantagetv.ee/vantage_music.png" group-title="Music",Vantage Music UK (1080p)
+https://hls.vantagetv.co.uk/vmusicuk_stream/index.m3u8
+#EXTINF:-1 tvg-id="VantageRock.ee@HD" tvg-name="Vantage Rock" tvg-logo="https://vantagetv.ee/vantage_rock.png" group-title="Music",Vantage Rock (720p)
+https://hls.vantagetv.ee/vrock_stream/index.m3u8
+#EXTINF:-1 tvg-id="LifeTV.ee" tvg-name="Life TV Estonia" tvg-logo="https://i.imgur.com/JhrTB82.png" group-title="Religious",Life TV Estonia
+https://lifetv.bitflip.ee/live/stream2.m3u8
+#EXTINF:-1 tvg-id="TBNBaltia.ee@SD" tvg-name="TBN Baltia" tvg-logo="https://i.imgur.com/rKBaK56.png" group-title="Religious",TBN Baltia (1080p)
+http://dc.tbnbaltia.eu:8088/dvr/rewind-21600.m3u8
+#EXTINF:-1 tvg-id="Duo6.ee" tvg-name="Duo 6" tvg-logo="https://i.imgur.com/bHtkbHT.png" group-title="General",Duo 6
+http://315e5a5d.ottrast.com/iptv/MM4E93NGF5LADZ/18018/index.m3u8
+#EXTINF:-1 tvg-id="ETV.ee@SD" tvg-name="ETV" tvg-logo="https://i.imgur.com/5URjPgG.png" group-title="General",ETV (720p)
+https://sb.err.ee/live/etv.m3u8
+#EXTINF:-1 tvg-id="LifeTVEurope.ee" tvg-name="Life TV Europe" tvg-logo="https://i.imgur.com/JhrTB82.png" group-title="General",Life TV Europe
+https://lifetv.bitflip.ee/live/stream1.m3u8
+#EXTINF:-1 tvg-id="Riigikogu.ee@SD" tvg-name="Riigikogu" tvg-logo="https://i.imgur.com/dJRGDt2.png" group-title="General",Riigikogu (720p)
+https://router.euddn.net/862366dd346d6b6392d5231546f3d179/smil:rk_live_1.smil/playlist.m3u8?c=8005

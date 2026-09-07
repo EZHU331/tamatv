@@ -1,0 +1,145 @@
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz"
+#EXTINF:-1 tvg-id="EcotelTV.ec@SD" tvg-name="Ecotel TV" tvg-logo="https://i.imgur.com/pVlZUSV.png" group-title="News",Ecotel TV (720p)
+https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+#EXTINF:-1 tvg-id="MarioPintoTV.ec@SD" tvg-name="Mario Pinto TV" tvg-logo="https://i.imgur.com/9rU6yWo.jpg" group-title="News",Mario Pinto TV (720p)
+https://eu1.servers10.com:8081/8028/index.m3u8
+#EXTINF:-1 tvg-id="RTU.ec@SD" tvg-name="RTU" tvg-logo="https://i.imgur.com/1OWvMP4.png" group-title="News",RTU (1080p)
+http://45.224.97.181:9999/RTU/index.m3u8
+#EXTINF:-1 tvg-id="PantallaClasicaEC.ec@SD" tvg-name="Pantalla Clasica EC" tvg-logo="https://i.imgur.com/mhbERF9.jpg" group-title="Movies",Pantalla Clásica EC
+https://live21.bozztv.com/akamaissh101/ssh101/pantallaclasics/playlist.m3u8
+#EXTINF:-1 tvg-id="GaviotaTV.ec@SD" tvg-name="Gaviota TV" tvg-logo="https://i.imgur.com/1vlZA6O.png" group-title="Entertainment",Gaviota TV
+https://gaviotatv.streamseguro.com:3195/live/gaviotatvlive.m3u8
+#EXTINF:-1 tvg-id="LaNuevaRadioTV977.ec@SD" tvg-name="La Nueva Radio TV 97.7" tvg-logo="https://i.imgur.com/19FN4Lp.png" group-title="Entertainment",La Nueva Radio TV 97.7 (1080p)
+https://sv72.ecuaradiotv.net/lanuevatv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="MakroDigitalTelevision.ec@SD" tvg-name="MakroDigital Television" tvg-logo="https://makrodigitaltelevision.com/logo.jpg" group-title="Entertainment" http-referrer="https://makrodigitaltelevision.com",MakroDigital Television (1080p)
+#EXTVLCOPT:http-referrer=https://makrodigitaltelevision.com
+https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u8
+#EXTINF:-1 tvg-id="EducaTV.ec@SD" tvg-name="Educa TV" tvg-logo="https://i.imgur.com/lY9Bx2u.png" group-title="Education",Educa TV (720p)
+https://avm.ecuamedia.net/educatv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IntiTV.ec@SD" tvg-name="Inti TV" tvg-logo="https://i.imgur.com/2WirGqb.png" group-title="Education",Inti TV (1080p)
+https://5e2f36bc1c433.streamlock.net/inti/inti-network.stream/.m3u8
+#EXTINF:-1 tvg-id="UEBITVOnline.ec@SD" tvg-name="UEBI TV Online" tvg-logo="https://i.imgur.com/Tf0BF2q.jpg" group-title="Education",UEBI TV Online (720p)
+https://ventaxtv.com:3575/live/uebilive.m3u8
+#EXTINF:-1 tvg-id="UNIANDESTV.ec@SD" tvg-name="UNIANDES TV" tvg-logo="https://i.imgur.com/1rluyB7.png" group-title="Education",UNIANDES TV (720p)
+https://video.compuwebecuador.com:3323/live/uniandeslive.m3u8
+#EXTINF:-1 tvg-id="CiracuTV.ec@SD" tvg-name="Ciracu TV" tvg-logo="https://i.imgur.com/mkf2TJ6.png" group-title="Culture",Ciracu TV (720p)
+https://cloud37.ecuatel.com/ciracutv/live/manifest.m3u8
+#EXTINF:-1 tvg-id="Manavision.ec@SD" tvg-name="Manavision" tvg-logo="https://i.imgur.com/mZkW342.png" group-title="Culture",Manavisión
+https://play.once.net.ec/play/Ily2oYdd3E1fi9wK2zORoRovFU9P5xM0g3CNVK2MT0M/.m3u8
+#EXTINF:-1 tvg-id="EcuaMundoRadioTV.ec@SD" tvg-name="EcuaMundo Radio TV" tvg-logo="https://i.imgur.com/EMe5oWn.jpg" group-title="Music",EcuaMundo Radio TV (720p)
+https://pacific.direcnode.com:3353/live/ecuamundotvlive.m3u8
+#EXTINF:-1 tvg-id="ElSolNetworkTV.ec@SD" tvg-name="El Sol Network TV" tvg-logo="https://i.imgur.com/TIH3zlP.png" group-title="Music",El Sol Network TV (1080p)
+https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
+#EXTINF:-1 tvg-id="FMMundo.ec@SD" tvg-name="FM Mundo" tvg-logo="https://i.imgur.com/1nNnYQO.png" group-title="Music",FM Mundo (1080p)
+https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
+#EXTINF:-1 tvg-id="InfinitaTV.ec@SD" tvg-name="Infinita TV" tvg-logo="https://i.imgur.com/1nHxdkR.png" group-title="Music",Infinita TV (1080p)
+https://s2.tvdatta.com:3753/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="LaPerlaRadioTV.ec@SD" tvg-name="La Perla Radio TV" tvg-logo="https://i.imgur.com/8wDMgmB.jpg" group-title="Music",La Perla Radio TV (720p)
+https://eu1.servers10.com:8081/8068/index.m3u8
+#EXTINF:-1 tvg-id="MetropoliMediosTV.ec@SD" tvg-name="Metropoli Medios TV" tvg-logo="https://i.imgur.com/yID5T2S.jpg" group-title="Music",Metropoli Medios TV (720p)
+https://eu1.servers10.com:8081/8214/index.m3u8
+#EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" tvg-name="Radio Bonita 106.7" tvg-logo="https://i.imgur.com/IvZtqyz.png" group-title="Music",Radio Bonita 106.7 (720p)
+https://cloudvideo.servers10.com:8081/8154/index.m3u8
+#EXTINF:-1 tvg-id="RadioCuencaEstereo.ec@SD" tvg-name="Radio Cuenca Estereo" tvg-logo="https://i.imgur.com/qZzSOeU.png" group-title="Music",Radio Cuenca Estéreo (720p)
+https://eu1.servers10.com:8081/8074/index.m3u8
+#EXTINF:-1 tvg-id="RadioFantastica989FM.ec@SD" tvg-name="Radio Fantastica 98.9 FM" tvg-logo="https://i.imgur.com/mpcIbrH.jpg" group-title="Music",Radio Fantástica 98.9 FM (1080p)
+http://190.107.232.9:8082/livestream/stream.m3u8
+#EXTINF:-1 tvg-id="RadioMonumentalTV.ec@SD" tvg-name="Radio Monumental TV" tvg-logo="https://i.imgur.com/a97MaV2.png" group-title="Music",Radio Monumental TV (720p)
+https://cloud37.ecuatel.com/monumentaltv/live/manifest.m3u8
+#EXTINF:-1 tvg-id="VosyTV.ec@SD" tvg-name="Vos y TV" tvg-logo="https://i.imgur.com/294FDCB.png" group-title="Music",Vos y TV (720p)
+https://cloud37.ecuatel.com/vostv/live/manifest.m3u8
+#EXTINF:-1 tvg-id="TVLegislativa.ec@SD" tvg-name="TV Legislativa" tvg-logo="https://i.imgur.com/3Y6Lp5l.png" group-title="Legislative",TV Legislativa (1080p)
+https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
+#EXTINF:-1 tvg-id="Asomavision.ec@SD" tvg-name="Asomavision" tvg-logo="https://i.imgur.com/VqwyCV1.png" group-title="Religious",Asomavisión
+https://asomatv.cloud-ip.cc/livestream/stream.m3u8
+#EXTINF:-1 tvg-id="IeanJesusEcuador.ec@SD" tvg-name="IeanJesus Ecuador" tvg-logo="https://i.imgur.com/TyckDSV.png" group-title="Religious",IeanJesus Ecuador (720p)
+https://cloud37.ecuatel.com/iglesia2020/Stream1/playlist.m3u8
+#EXTINF:-1 tvg-id="TVUniversalEcuador.ec@SD" tvg-name="TV Universal Ecuador" tvg-logo="https://i.imgur.com/TIsk5zN.png" group-title="Religious",TV Universal Ecuador (720p)
+https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8
+#EXTINF:-1 tvg-id="AmericaEstereoIbarra.ec@SD" tvg-name="America Estereo Ibarra" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Ibarra (720p)
+https://video.makrodigital.com/americaestereoibarra/americaestereoibarra/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericaEstereoQuito.ec@SD" tvg-name="America Estereo Quito" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Quito (1080p)
+https://video.makrodigital.com/americaestereoquito/americaestereoquito/playlist.m3u8
+#EXTINF:-1 tvg-id="AmericaEstereoTulcan.ec@SD" tvg-name="America Estereo Tulcan" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",América Estéreo Tulcán
+https://video.makrodigital.com/americaestereotulcan/americaestereotulcan/playlist.m3u8
+#EXTINF:-1 tvg-id="AustralTV.ec@SD" tvg-name="Austral TV" tvg-logo="https://i.imgur.com/zgGuCYL.png" group-title="General",Austral TV (1080p)
+https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8
+#EXTINF:-1 tvg-id="CaprichoTV.ec@SD" tvg-name="Capricho TV" tvg-logo="https://i.imgur.com/eUoj9bG.png" group-title="General",Capricho TV (720p)
+https://video.compuwebecuador.com:3783/live/caprichotvlive.m3u8
+#EXTINF:-1 tvg-id="CuriquingueTV.ec@SD" tvg-name="Curiquingue TV" tvg-logo="https://i.imgur.com/oukGx28.png" group-title="General",Curiquingue TV (720p)
+https://video2.lhdserver.es/pjtv/live.m3u8
+#EXTINF:-1 tvg-id="DuendeTv.ec@SD" tvg-name="Duende Tv" tvg-logo="https://i.imgur.com/6125FPV.jpg" group-title="General",Duende Tv (720p)
+https://live.fansplay.tv/livestreams/21.GdPGZIRcwzZ9vgE5.m3u8
+#EXTINF:-1 tvg-id="DuranTV.ec@SD" tvg-name="Duran TV" tvg-logo="https://i.imgur.com/8k8DsBL.png" group-title="General",Durán TV
+https://cloudvideo.servers10.com:8081/8074/index.m3u8
+#EXTINF:-1 tvg-id="EcuadorTV.ec@SD" tvg-name="Ecuador TV" tvg-logo="https://i.imgur.com/hj6EYwe.png" group-title="General",Ecuador TV (1080p)
+http://45.224.97.181:9999/EcuadorTV/index.m3u8
+#EXTINF:-1 tvg-id="Ecuavisa.ec@Guayaquil" tvg-name="Ecuavisa" tvg-logo="https://i.imgur.com/Hl5wowk.png" group-title="General",Ecuavisa Guayaquil (1080p)
+https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8
+#EXTINF:-1 tvg-id="Gamavision.ec@SD" tvg-name="Gamavision" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png" group-title="General",Gamavision (1080p)
+http://45.224.97.181:9999/Gamavision/index.m3u8
+#EXTINF:-1 tvg-id="GM7Digital.ec@HD" tvg-name="GM7 Digital" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3708-294x165-FFFFFF.jpg" group-title="General",GM7 Digital
+https://s2.tvdatta.com:3858/live/gm7digitallive.m3u8
+#EXTINF:-1 tvg-id="HechosEcuador.ec@SD" tvg-name="Hechos Ecuador" tvg-logo="https://i.imgur.com/koMQZNX.png" group-title="General",Hechos Ecuador (1080p)
+https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8
+#EXTINF:-1 tvg-id="ImperioTVCanal6.ec@SD" tvg-name="Imperio TV Canal 6" tvg-logo="https://i.imgur.com/NrsNljx.png" group-title="General",Imperio TV Canal 6 (720p)
+https://live21.bozztv.com/akamaissh101/ssh101/imperiotvcanal6/playlist.m3u8
+#EXTINF:-1 tvg-id="KCHTV.ec@SD" tvg-name="KCHTV" tvg-logo="https://i.imgur.com/CwQmZm7.jpeg" group-title="General",KCHTV (1080p)
+http://iptv.kchtv.video.makrodigital.com:8081/kchtv/iptv/playlist.m3u8
+#EXTINF:-1 tvg-id="LoretoTV.ec@SD" tvg-name="Loreto TV" tvg-logo="https://i.imgur.com/3qGSAT3.png" group-title="General",Loreto TV (720p)
+https://loretotv.moxapps.shop/live/QFM7KYOlxWd47ybXB3Z1u2P13Py1/index.m3u8
+#EXTINF:-1 tvg-id="MajestadTelevision.ec@SD" tvg-name="Majestad Television" tvg-logo="https://i.imgur.com/d1GWRnm.png" group-title="General",Majestad Televisión (720p)
+https://videoserver.tmcreativos.com:19360/majestadtv/majestadtv.m3u8
+#EXTINF:-1 tvg-id="MarcaTV.ec@SD" tvg-name="Marca TV" tvg-logo="https://i.imgur.com/ez1NxwJ.jpg" group-title="General",Marca TV (1080p)
+http://200.7.219.221:8088/live/livetv/index.m3u8
+#EXTINF:-1 tvg-id="MulticanalCatamayo.ec@SD" tvg-name="Multicanal Catamayo" tvg-logo="https://i.imgur.com/IHKBGmu.png" group-title="General",Multicanal Catamayo (720p)
+https://multicanal.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+#EXTINF:-1 tvg-id="OndasQuevedenasTV.ec@SD" tvg-name="Ondas Quevedenas TV" tvg-logo="https://i.imgur.com/K9pW0LA.jpeg" group-title="General",Ondas Quevedeñas TV (720p)
+https://stmv6.voxtvhd.com.br/radiosuprema/radiosuprema/playlist.m3u8
+#EXTINF:-1 tvg-id="OromarTV.ec@SD" tvg-name="Oromar TV" tvg-logo="https://oromartv.com/images/OTV400.png" group-title="General",Oromar TV (1080p)
+http://45.224.97.181:9999/Oromar/index.m3u8
+#EXTINF:-1 tvg-id="PlanetaChannel.ec@SD" tvg-name="Planeta Channel" tvg-logo="https://i.imgur.com/XyBKaXI.png" group-title="General",Planeta Channel
+https://vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8
+#EXTINF:-1 tvg-id="PlusTV.ec@SD" tvg-name="Plus TV" tvg-logo="https://i.imgur.com/TZqOINg.png" group-title="General",Plus TV (720p)
+https://plustv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
+#EXTINF:-1 tvg-id="PuruwaTV.ec@SD" tvg-name="Puruwa TV" tvg-logo="https://i.imgur.com/CYldC2R.png" group-title="General",Puruwa TV (1080p)
+https://live.tvcontrolcp.com:1936/puruwatv/puruwatv/playlist.m3u8
+#EXTINF:-1 tvg-id="RTRTV.ec@SD" tvg-name="RTRTV" tvg-logo="https://i.imgur.com/dvP2yqB.png" group-title="General",RTRTV (1080p)
+https://tv3ecuador.site/hls/stream/index.m3u8
+#EXTINF:-1 tvg-id="RTS.ec@SD" tvg-name="RTS" tvg-logo="https://i.imgur.com/PML8cJA.png" group-title="General",RTS (1080p)
+http://45.171.108.253:8888/RTS/index.m3u8
+#EXTINF:-1 tvg-id="RTV.ec@SD" tvg-name="RTV" tvg-logo="https://i.imgur.com/DzxGHRZ.png" group-title="General",RTV Riobamba (720p)
+https://sv72.ecuaradiotv.net/rtvhd/live/manifest.m3u8
+#EXTINF:-1 tvg-id="SonoOndaTV.ec@SD" tvg-name="Sono Onda TV" tvg-logo="https://i.imgur.com/HWHeqWY.png" group-title="General",Sono Onda TV (720p)
+https://live.obslivestream.com/sonoondatv/index.m3u8
+#EXTINF:-1 tvg-id="StudioPlusTV.ec@SD" tvg-name="Studio + TV" tvg-logo="https://carjocosa.space/studio/logo.png" group-title="General",Studio + TV (720p)
+https://cloudvideo.servers10.com:8081/8184/index.m3u8
+#EXTINF:-1 tvg-id="TCTelevision.ec@SD" tvg-name="TC Television" tvg-logo="https://i.imgur.com/okK02EN.png" group-title="General",TC Television (1080p)
+http://45.224.97.181:9999/TC/index.m3u8
+#EXTINF:-1 tvg-id="Teleamazonas.ec@SD" tvg-name="Teleamazonas" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Teleamazonas_Logo.png/960px-Teleamazonas_Logo.png" group-title="General",Teleamazonas (1080p)
+https://teleamazonas-live.cdn.vustreams.com/live/fd4ab346-b4e3-4628-abf0-b5a1bc192428/live.isml/playlist.m3u8
+#EXTINF:-1 tvg-id="Telecosta.ec@SD" tvg-name="Telecosta" tvg-logo="https://i.imgur.com/1DqLy8H.png" group-title="General",Telecosta
+https://telecosta.botlife.app/memfs/6ba9dc9a-aff4-4e4e-9466-a9f0c714b60b.m3u8
+#EXTINF:-1 tvg-id="Telemar.ec@SD" tvg-name="Telemar" tvg-logo="https://i.imgur.com/0vX9oJF.png" group-title="General",Telemar (720p)
+https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
+#EXTINF:-1 tvg-id="Telesucesos.ec@SD" tvg-name="Telesucesos" tvg-logo="https://i.imgur.com/D1BBTv8.png" group-title="General" http-referrer="https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/play.html?name=UIO-HD",Telesucesos (720p)
+#EXTVLCOPT:http-referrer=https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/play.html?name=UIO-HD
+https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/streams/UIO-HD_adaptive.m3u8
+#EXTINF:-1 tvg-id="TVCisne.ec@SD" tvg-name="TV Cisne" tvg-logo="https://i.imgur.com/xIuFSnx.png" group-title="General",TV Cisne (1080p)
+https://video2.lhdserver.es/tvcisne/live.m3u8
+#EXTINF:-1 tvg-id="TVColorCanal36.ec@SD" tvg-name="TV Color Canal 36" tvg-logo="https://i.imgur.com/QJW6khK.jpg" group-title="General",TV Color Canal 36 (720p)
+https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
+#EXTINF:-1 tvg-id="TVC.ec@SD" tvg-name="TVC" tvg-logo="https://i.imgur.com/k6h5Cz2.png" group-title="General",TVC (1080p)
+http://45.224.97.181:9999/TVC/index.m3u8
+#EXTINF:-1 tvg-id="TvOro.ec@SD" tvg-name="TvOro" tvg-logo="https://i.imgur.com/9d02qUU.jpeg" group-title="General",TvOro (1080p)
+http://45.187.0.19:9090/tvusa/index.m3u8
+#EXTINF:-1 tvg-id="UnsionTV.ec@SD" tvg-name="Unsion TV" tvg-logo="https://i.imgur.com/HQGBqGU.png" group-title="General",Unsion TV (1080p)
+http://provedores.unsion.tv:8081/srt/1/playlist.m3u8
+#EXTINF:-1 tvg-id="VitoTVO.ec@SD" tvg-name="VitoTVO" tvg-logo="https://i.imgur.com/QoJ2gD0.png" group-title="General",VitoTVO (1080p)
+http://iptv.vitotvo.video.makrodigital.com:8081/vitotvo/iptv/playlist.m3u8
+#EXTINF:-1 tvg-id="WuanPlus.ec@SD" tvg-name="Wuan+" tvg-logo="https://i.imgur.com/pJNx1za.png" group-title="General",Wuan+
+https://7.innovatestream.pe:19360/ecuadortest/ecuadortest.m3u8
+#EXTINF:-1 tvg-id="ZaracayTV.ec@SD" tvg-name="Zaracay TV" tvg-logo="https://i.imgur.com/6q0Gp9R.png" group-title="General",Zaracay TV (1080p)
+https://video2.makrodigital.com/zaracay/zaracay/playlist.m3u8
+#EXTINF:-1 tvg-id="NukaTV.ec@SD" tvg-name="Nuka TV" tvg-logo="https://i.imgur.com/4r2Ycju.png" group-title="General",Ñuka TV (720p)
+https://cloudvideo.servers10.com:8081/8118/index.m3u8

@@ -1,0 +1,123 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="CanalI.ve@SD" tvg-name="Canal I" tvg-logo="https://i.imgur.com/vKfOavW.png" group-title="News",Canal I (1080p)
+https://streaming.canal-i.com/canal-i/live/master.m3u8
+#EXTINF:-1 tvg-id="Telesur.ve@EnglishHD" tvg-name="Telesur" tvg-logo="https://i.imgur.com/P50VjRX.png" group-title="News",Telesur English HD (1080p)
+https://mblenmain01.telesur.ultrabase.net/mblivev3/hd/playlist.m3u8
+#EXTINF:-1 tvg-id="UN24.ve@untv720" tvg-name="UN24" tvg-logo="https://i.imgur.com/nGJlulj.png" group-title="News" http-referrer="https://un24.tv/",UN24 (720p)
+#EXTVLCOPT:http-referrer=https://un24.tv/
+https://59d39900ebfb8.streamlock.net/untv-720/untv-720/playlist.m3u8
+#EXTINF:-1 tvg-id="AS3SportTV.ve@SD" tvg-name="AS3 Sport TV" tvg-logo="https://i.ibb.co/bRmGbsyV/A3-SPORTTV.jpg" group-title="Sports",AS3 Sport TV (1080p)
+https://streamtv.as3sport.online:3394/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="MeridianoTV.ve@SD" tvg-name="Meridiano TV" tvg-logo="https://i.imgur.com/I6gsUqD.png" group-title="Sports",Meridiano TV
+http://181.78.8.199:8000/play/a0fr/index.m3u8
+#EXTINF:-1 tvg-id="AguacateTV.ve@SD" tvg-name="Aguacate TV" tvg-logo="https://i.ibb.co/wpWBsgf/IMG-20230705-154622.jpg" group-title="Entertainment",Aguacate TV (1080p)
+https://streamtv.intervenhosting.net:3040/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="GuaroTV.ve@SD" tvg-name="Guaro TV" tvg-logo="https://i.ibb.co/LN92K6h/IMG-20230705-154347.jpg" group-title="Entertainment",Guaro TV (720p)
+https://stream.guarotv.net:3592/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="InterTV.ve@SD" tvg-name="Inter TV" tvg-logo="https://i.ibb.co/HG2DM8G/IMG-20230705-153952.jpg" group-title="Entertainment",interTV (1080p)
+https://streamtv.intervenhosting.net:3439/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="LaTeleTuya.ve@SD" tvg-name="La Tele Tuya" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3b/Tele_Tuya_Logo_%282026%29.png" group-title="Entertainment",La Tele Tuya
+http://181.78.8.199:8000/play/a0fs/index.m3u8
+#EXTINF:-1 tvg-id="LaraenRedes.ve@SD" tvg-name="Lara en Redes" tvg-logo="https://laraenredes.com/wp-content/uploads/elementor/thumbs/LOGO-LARA-EN-REDES-2025-r768xu4o4gvkigl9v1lorc3aq3n35710u0g7cah8e0.jpg" group-title="Entertainment",Lara en Redes
+https://streamtv.laraenredes.com:3020/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="MaximaTV.ve@SD" tvg-name="Maxima TV" tvg-logo="https://i.imgur.com/HMZRVL5.jpeg" group-title="Entertainment",Maxima TV
+https://maximatv.net/hls/stream.m3u8
+#EXTINF:-1 tvg-id="MasTalk.ve@SD" tvg-name="Mas Talk" tvg-logo="https://i.imgur.com/unE2LGz.jpg" group-title="Entertainment",Más Talk (1080p)
+https://vod2live.univtec.com/manifest/89290956-94ab-4950-accb-a54bbd7e176f.m3u8
+#EXTINF:-1 tvg-id="NortenaTv.ve@HD" tvg-name="Nortena Tv" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjxdsPdnBB5hs1XZHDHtf0p8T861Vl1UlHE1ljD_IEtI9KlFtEAYsesMHh8RLuW6nIFLY&usqp=CAU" group-title="Entertainment",Norteña TV
+https://lbgo.bozztv.com/ssh101/ssh101/nortenatv1234/playlist.m3u8
+#EXTINF:-1 tvg-id="eSportsMaxTV.ve@SD" tvg-name="eSports Max TV" tvg-logo="https://i.imgur.com/OprRgQN.png" group-title="Animation",eSports Max TV
+https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="MAXAnime.ve@SD" tvg-name="MAX Anime" tvg-logo="https://i.imgur.com/Oj3hEBh.jpg" group-title="Animation",MAX Anime (1080p)
+https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
+#EXTINF:-1 tvg-id="EXCTV.ve@SD" tvg-name="EXC TV" tvg-logo="https://i.imgur.com/Znd1Ml9.png" group-title="Science",Explosión Creativa (720p)
+https://vcp.myplaytv.com/explosioncreativa/explosioncreativa/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalDiplomatico.ve@SD" tvg-name="Canal Diplomatico" tvg-logo="https://i.ibb.co/34vsSzS/1439-Canal-Diplomatico.png" group-title="Culture",Canal Diplomatico
+https://master.myplaytv.com:2020/hls/canaldiplomatico/canaldiplomatico.m3u8
+#EXTINF:-1 tvg-id="ShowVenTV.ve@SD" tvg-name="ShowVen TV" tvg-logo="https://i.imgur.com/AJIN8Dc.png" group-title="Culture",ShowVen TV (720p)
+https://cdnbarinas.tvzamora.com/showven/index.m3u8
+#EXTINF:-1 tvg-id="BTATV.ve@SD" tvg-name="BTA TV" tvg-logo="https://i.imgur.com/vygOosC.png" group-title="Music",BTA TV (720p)
+https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
+#EXTINF:-1 tvg-id="KandelaTV.ve@SD" tvg-name="KandelaTV" tvg-logo="https://i.imgur.com/cCFxyIp.jpg" group-title="Music",KandelaTV
+https://streamtv.intervenhosting.net:3718/live/kandelamedioslive.m3u8
+#EXTINF:-1 tvg-id="LaPuraCremaTelevision.ve@SD" tvg-name="LaPuraCrema Television" tvg-logo="https://i.imgur.com/EJf1eRt.png" group-title="Music",LaPuraCrema Television
+https://streamlov.alsolnet.com/lapuracrema/live/playlist.m3u8
+#EXTINF:-1 tvg-id="PlousTV.ve@SD" tvg-name="Plous TV" tvg-logo="https://i.imgur.com/OSet4en.png" group-title="Lifestyle",Plous TV (1080p)
+https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
+#EXTINF:-1 tvg-id="AlcanceTV.ve@SD" tvg-name="Alcance TV" tvg-logo="https://i.imgur.com/veeuqS1.png" group-title="Religious",Alcance TV (720p)
+https://rv100.globalhost1.com:3516/live/tjjqdqurlive.m3u8
+#EXTINF:-1 tvg-id="LGDTelevision.ve@SD" tvg-name="LGD Television" tvg-logo="https://i.imgur.com/a9E0DTY.jpeg" group-title="Religious",LGD Television (720p)
+https://streamtv.intervenhosting.net:3403/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="ProclamacionTV.ve@SD" tvg-name="Proclamacion TV" tvg-logo="https://i.imgur.com/8dt7awY.jpeg" group-title="Religious",Proclamación TV
+https://video2.getstreamhosting.com:19360/8000/8000.m3u8
+#EXTINF:-1 tvg-id="ReformaTV.ve@SD" tvg-name="Reforma TV" tvg-logo="https://i.imgur.com/iZMDddR.png" group-title="Religious",Reforma TV (1080p)
+https://5bf8041cb3fed.streamlock.net/ReformaTV/ReformaTV/playlist.m3u8
+#EXTINF:-1 tvg-id="TVFamilia.ve@SD" tvg-name="TV Familia" tvg-logo="https://i.imgur.com/A3bU5e7.png" group-title="Family",TV Familia (720p)
+https://cloudusa.streamingconnect.com/tvfamiliatvbox/tvfamiliaweb.m3u8
+#EXTINF:-1 tvg-id="AbejalesTV.ve@HD" tvg-name="AbejalesTV" tvg-logo="https://blogger.googleusercontent.com/img/a/AVvXsEgao1fVZ7tV_ExJErlM5JsI8Rxv5TXJSU7ZE6p-g_qSXOiRKrAjCmX650Aw1PYv6cPqML3eKDQGZ_Z5BPYpeLwwAbZay3g4mpTVBW9Xs5D9nEVPD1i9xfOKQsRCFrOJhBgRt9L9yhfLimbu7S4Ozio2tiZ5uc45lRtyS6RjMpI-Ts1n2m_THG8K19R4STns=w800" group-title="General",AbejalesTV (720p)
+https://183.bozztv.com/giatv/giatv-AbejalesTV/AbejalesTV/playlist.m3u8
+#EXTINF:-1 tvg-id="BarinasTV.ve@SD" tvg-name="Barinas TV" tvg-logo="https://i.ibb.co/D7bLHGB/1575-Barinas-TV.png" group-title="General",Barinas TV (720p)
+https://vcp13.myplaytv.com/barinastv/barinastv/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalCdelZulia.ve@HD" tvg-name="Canal C del Zulia" tvg-logo="https://i.imgur.com/ew44KOZ.png" group-title="General" http-referrer="https://canalc.vercel.app",Canal C del Zulia (1080p)
+#EXTVLCOPT:http-referrer=https://canalc.vercel.app
+https://calm-forest-3478.cristianbracho904.workers.dev/master.m3u8
+#EXTINF:-1 tvg-id="GlobalTV.ve@SD" tvg-name="GlobalTV" tvg-logo="https://imgur.com/hzM9D9L.jpg" group-title="General",GlobalTV
+https://streamtv.intervenhosting.net:3179/live/globaltvlive.m3u8
+#EXTINF:-1 tvg-id="Globovision.ve@SD" tvg-name="Globovision" tvg-logo="https://i.imgur.com/v6nRdxQ.png" group-title="General",Globovision
+http://181.78.8.199:8000/play/a09k/index.m3u8
+#EXTINF:-1 tvg-id="GrandeTV.ve@SD" tvg-name="Grande TV" tvg-logo="https://i.imgur.com/jxCirrP.png" group-title="General",Grande TV
+https://vs20.live.opencaster.com/grande41_0b593479/index.m3u8
+#EXTINF:-1 tvg-id="IslaTV.ve@SD" tvg-name="Isla TV" tvg-logo="https://i.imgur.com/l11Ixhi.jpeg" group-title="General",Isla TV
+https://59d39900ebfb8.streamlock.net/islatv/islatv/playlist.m3u8
+#EXTINF:-1 tvg-id="LatinaTV.ve@SD" tvg-name="Latina TV" tvg-logo="https://i0.wp.com/latinamedios.com/wp-content/uploads/2023/03/LOGO-LATINA-TV-H-500.png?w=500&ssl=1" group-title="General",Latina TV (1080p)
+https://streamtv.latinamedios.com:3413/live/latinatvlive.m3u8
+#EXTINF:-1 tvg-id="MonagasVision.ve@SD" tvg-name="Monagas Vision" tvg-logo="https://i.imgur.com/yfgTa2d.png" group-title="General",Monagas Visión (720p)
+https://cloud2.streaminglivehd.com:1936/monagasvision-2/monagasvision-2/playlist.m3u8
+#EXTINF:-1 tvg-id="OasisTelevision.ve@SD" tvg-name="Oasis Television" tvg-logo="https://i.imgur.com/TEr1U90.png" group-title="General",Oasis Televisión (720p)
+http://vcp1.myplaytv.com/oasistv/oasistv/playlist.m3u8
+#EXTINF:-1 tvg-id="OnzaTV.ve@SD" tvg-name="Onza TV" tvg-logo="https://i.imgur.com/usrP6T2.png" group-title="General",Onza TV (720p)
+https://stmv1.srvstm.com/gproducciones/gproducciones/playlist.m3u8
+#EXTINF:-1 tvg-id="PortuguesaTelevision.ve@SD" tvg-name="Portuguesa Television" tvg-logo="https://i.imgur.com/jHUSfGz.png" group-title="General",PortuTV
+https://streamtv.intervenhosting.net:3789/live/portutvlive.m3u8
+#EXTINF:-1 tvg-id="PromarTV.ve@SD" tvg-name="PromarTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Promar_Television.png" group-title="General",PromarTV
+https://vcp.myplaytv.com/promar/promar/playlist.m3u8
+#EXTINF:-1 tvg-id="SiembraTV.ve@SD" tvg-name="Siembra TV" tvg-logo="https://i.imgur.com/zRX91Xr.png" group-title="General",Siembra TV
+https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8
+#EXTINF:-1 tvg-id="SomosTV.ve@SD" tvg-name="Somos TV" tvg-logo="https://i.imgur.com/jOroeJZ.png" group-title="General",Somos TV (720p)
+https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8
+#EXTINF:-1 tvg-id="TAMTV.ve@SD" tvg-name="TAM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png" group-title="General",TAM TV
+https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
+#EXTINF:-1 tvg-id="TeleAragua.ve@SD" tvg-name="TeleAragua" tvg-logo="https://i.imgur.com/jPzcb2S.png" group-title="General",TeleAragua
+http://45.173.198.59:8080/hls/nginx3.m3u8?tla=
+#EXTINF:-1 tvg-id="Telebocono.ve@SD" tvg-name="Telebocono" tvg-logo="https://i.imgur.com/YDE4Jsi.jpg" group-title="General",Teleboconó (720p)
+https://ssh101stream.ssh101.com/akamaissh101/ssh101/tcbstreaming/playlist.m3u8
+#EXTINF:-1 tvg-id="Telecentro.ve@SD" tvg-name="Telecentro" tvg-logo="https://i.imgur.com/QtRNfaj.png" group-title="General",Telecentro
+https://streamtv.intervenhosting.net:3531/live/telecentrovelive.m3u8
+#EXTINF:-1 tvg-id="Televen.ve@SD" tvg-name="Televen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Televen_%282024%29.svg/1920px-Televen_%282024%29.svg.png" group-title="General",Televen
+http://181.78.8.199:8000/play/a09j/index.m3u8
+#EXTINF:-1 tvg-id="TNORadio.ve@SD" tvg-name="TNO Radio" tvg-logo="https://i.ibb.co/0rYsbRk/Logo-TNO-2021-white.png" group-title="General",TNO Radio (720p)
+https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8
+#EXTINF:-1 tvg-id="TorococoTV.ve@SD" tvg-name="Torococo TV" tvg-logo="https://i.ibb.co/9N7Scn8/1400-Torococo-TV.png" group-title="General",Torococo TV (720p)
+https://us.streaminghd.cl/torococotelevision/video.m3u8
+#EXTINF:-1 tvg-id="TuTV.ve@SD" tvg-name="Tu TV" tvg-logo="https://i.imgur.com/OBEmXQF.png" group-title="General",Tu TV (720p)
+https://astl-mainstr.qvixsolutions.com/asltvtu_ext/index.m3u8
+#EXTINF:-1 tvg-id="TVAndes.ve@SD" tvg-name="TV Andes" tvg-logo="https://i.ibb.co/c1YHQ8K/tvandes.png" group-title="General",TV Andes (720p)
+https://vcp3.myplaytv.com/tvandes/tvandes/playlist.m3u8
+#EXTINF:-1 tvg-id="TVOasisMonay.ve@SD" tvg-name="TV Oasis Monay" tvg-logo="https://i.imgur.com/hwd7osJ.jpeg" group-title="General",TV Oasis Monay (720p)
+https://servilive.com:3562/live/vav4c8z38live.m3u8
+#EXTINF:-1 tvg-id="TVMparati.ve@SD" tvg-name="TVM para ti" tvg-logo="https://intervenhosting.net/imagenes/tvmparati.jpg" group-title="General",TVM para ti (1080p)
+https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
+#EXTINF:-1 tvg-id="TVS.ve@SD" tvg-name="TVS" tvg-logo="https://i.imgur.com/J8ztiAN.png" group-title="General",TVS (720p)
+https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
+#EXTINF:-1 tvg-id="UniTV.ve@SD" tvg-name="UniTV" tvg-logo="https://i.imgur.com/KLGeznX.png" group-title="General",UniTV (720p)
+https://vcp6.myplaytv.com/unitv/unitv/playlist.m3u8
+#EXTINF:-1 tvg-id="ValeTV.ve@SD" tvg-name="Vale TV" tvg-logo="https://i.imgur.com/NMI2Wed.png" group-title="General",Vale TV
+https://59d39900ebfb8.streamlock.net/valetv_480/valetv_480/playlist.m3u8
+#EXTINF:-1 tvg-id="Venevision.ve@SD" tvg-name="Venevision" tvg-logo="https://i.imgur.com/gm1m8hW.png" group-title="General",Venevision (720p)
+http://177.234.249.178:8888/VENEVISION/index.m3u8
+#EXTINF:-1 tvg-id="VenevisionInternacional.ve@SD" tvg-name="Venevision Internacional" tvg-logo="https://i.imgur.com/vtGED07.jpg" group-title="General",Venevisión Internacional (720p)
+https://vod2live.univtec.com/manifest/4c41c0d8-e2e4-43cc-bd43-79afe715e1b3.m3u8
+#EXTINF:-1 tvg-id="VepacoTV.ve@SD" tvg-name="Vepaco TV" tvg-logo="https://i.imgur.com/0bqJksL.png" group-title="General",Vepaco TV
+https://cloud.fastchannel.es/manifiest/hls/prog9/vepacotv.m3u8
+#EXTINF:-1 tvg-id="WataVision.ve@SD" tvg-name="Wata Vision" tvg-logo="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/6957c378f20b5c77b1942a25/240b9ab5a_IMG_1222.jpeg" group-title="General",Wata Vision
+https://live20.bozztv.com/giatv/giatv-watavision/watavision/chunks.m3u8

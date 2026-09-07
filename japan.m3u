@@ -1,0 +1,36 @@
+#EXTM3U url-tvg="https://animenosekai.github.io/japanterebi-xmltv/guide.xml"
+# tamaTV Japan collection — public HLS only. tamaTV does not host these streams.
+# Kept: official NHK World / shopping / weather / religious / TOKYO MX FAST, Aniplus FAST, plus working iptv-org Tokyo terrestrial.
+# Dropped: non-Japan rows, dead hosts, IP streams, tokenized CS restreams, duplicate NHK World mirrors.
+
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/960px-NHK_World-Japan_TV.svg.png" group-title="ニュース",NHK World-Japan
+https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
+#EXTINF:-1 tvg-id="NHKWorldPremium.jp" tvg-name="NHK World Premium" tvg-logo="https://i.imgur.com/4ESi2La.png" group-title="ニュース",NHK World Premium
+https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
+#EXTINF:-1 tvg-id="JOAKDTV.jp" tvg-name="NHK総合" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="地上波",NHK総合
+https://nhk4.mov3.co/hls/nhk.m3u8
+#EXTINF:-1 tvg-id="JOAXDTV.jp" tvg-name="日本テレビ" tvg-logo="https://i.imgur.com/IxD8V5X.png" group-title="地上波",日本テレビ
+https://ntv5.mov3.co/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="JOEXDTV.jp" tvg-name="テレビ朝日" tvg-logo="https://i.imgur.com/YCqB5Kj.png" group-title="地上波",テレビ朝日
+https://tvasahi.mov3.co/hls/tvasahi.m3u8
+#EXTINF:-1 tvg-id="JORXDTV.jp" tvg-name="TBSテレビ" tvg-logo="https://i.imgur.com/dUn2GRn.png" group-title="地上波",TBSテレビ
+https://tbs5.mov3.co/hls/tbs.m3u8
+#EXTINF:-1 tvg-id="JOTXDTV.jp" tvg-name="テレビ東京" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/TV_Tokyo_%28Japanese%29_2023.svg/960px-TV_Tokyo_%28Japanese%29_2023.svg.png" group-title="地上波",テレビ東京
+https://tvtokyo.mov3.co/hls/tvtokyo.m3u8
+#EXTINF:-1 tvg-id="JOCXDTV.jp" tvg-name="フジテレビ" tvg-logo="https://i.imgur.com/sEWDmMD.png" group-title="地上波",フジテレビ
+https://fujitv4.mov3.co/hls/fujitv.m3u8
+#EXTINF:-1 tvg-id="TokyoMX1.jp" tvg-name="TOKYO MX" tvg-logo="https://i.imgur.com/igia8OX.png" group-title="地上波",TOKYO MX
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-id="Aniplus.sg" tvg-name="Aniplus" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/ANIPLUS_logo.svg/640px-ANIPLUS_logo.svg.png" group-title="アニメ",Aniplus
+https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8
+#EXTINF:-1 tvg-id="ShopChannel.jp" tvg-name="ショップチャンネル" tvg-logo="https://www.shopch.jp/com/images/common/logo_2021.png" group-title="通販",ショップチャンネル
+https://stream3.shopch.jp/HLS/master.m3u8
+#EXTINF:-1 tvg-id="QVC.jp" tvg-name="QVC" tvg-logo="https://i.imgur.com/6TWUVrh.png" group-title="通販",QVC
+https://d1flvb4iqlercm.cloudfront.net/live/live_1080p_2nd.m3u8
+#EXTINF:-1 tvg-id="GSTV.jp" tvg-name="GSTV" tvg-logo="https://i.imgur.com/ECnVG5I.png" group-title="通販",GSTV
+https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)
+#EXTINF:-1 tvg-id="Weathernews.jp" tvg-name="ウェザーニュースLiVE" tvg-logo="https://i.imgur.com/A8uRSTS.png" group-title="天気",ウェザーニュースLiVE
+https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
+#EXTINF:-1 tvg-id="CGNTVJapan.jp" tvg-name="CGNTV Japan" tvg-logo="https://i.imgur.com/5LNZeVq.png" http-referrer="http://japan.cgntv.net/HD_player_jp.html" group-title="宗教",CGNTV Japan
+#EXTVLCOPT:http-referrer=http://japan.cgntv.net/HD_player_jp.html
+https://d2p4mrcwl6ly4.cloudfront.net/out/v1/8d50f69fdbbf411a8d302743e4263716/CGNWebLiveJP.m3u8
