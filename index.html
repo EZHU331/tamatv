@@ -17,7 +17,7 @@
       --surface: rgba(255, 255, 255, 0.88);
       --accent: #c4473a;
       --line: rgba(30, 36, 48, 0.1);
-      --tv: #1c1c1c;
+      --tv: #1a1a1a;
       --panel: #ffffff;
       --stat: #1e2430;
       --ease: cubic-bezier(0.22, 1, 0.36, 1);
@@ -62,9 +62,10 @@
       -webkit-backdrop-filter: blur(18px);
     }
     .header-bar {
+      --header-control: 40px;
       display: flex;
       align-items: center;
-      gap: 18px;
+      gap: 14px;
       padding: 12px 0;
     }
     .header-end {
@@ -81,27 +82,23 @@
       min-width: 0;
     }
     .brand-mark {
-      width: 44px;
-      height: 44px;
-      flex: 0 0 44px;
+      height: var(--header-control);
+      flex: 0 0 auto;
       overflow: hidden;
-      border-radius: 14px;
-      background: #e8edf4;
-      box-shadow: 0 0 0 1px var(--line), 0 8px 18px rgba(42, 49, 64, 0.08);
-      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
-                  box-shadow 0.35s ease;
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
     }
     .brand-mark img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+      height: var(--header-control);
+      width: auto;
       display: block;
     }
-    .brand:hover .brand-mark {
-      transform: translateY(-1px);
-      box-shadow: 0 0 0 1px rgba(42, 49, 64, 0.16), 0 12px 22px rgba(42, 49, 64, 0.12);
-    }
+    .brand:hover .brand-mark { transform: translateY(-1px); }
     .page-tabs { flex: 0 0 auto; }
+    .page-tabs.pill,
+    .langs.pill {
+      height: var(--header-control);
+      box-sizing: border-box;
+    }
     .meta-nav {
       display: flex;
       align-items: center;
@@ -134,7 +131,10 @@
       font-weight: 650;
       font-size: 0.88rem;
       line-height: 1;
-      padding: 8px 12px;
+      height: 100%;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 12px;
       border-radius: 999px;
       cursor: pointer;
       text-decoration: none;
@@ -238,29 +238,56 @@
     .btn.primary:hover { box-shadow: 0 12px 28px rgba(42, 49, 64, 0.28); }
     .btn.ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
     .tv {
+      --tv-bezel: 8px;
+      --tv-stand: 26px;
+      --tv-radius: 4px;
       position: relative;
-      background: #0b0b0d;
-      border-radius: 28px;
-      padding: 10px 10px 26px;
-      box-shadow:
-        0 0 0 1px rgba(255, 255, 255, 0.06) inset,
-        0 28px 70px rgba(42, 49, 64, 0.22);
+      background: transparent;
+      padding: var(--tv-bezel) var(--tv-bezel) calc(var(--tv-bezel) + var(--tv-stand));
       transform-style: preserve-3d;
-      transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-                  box-shadow 0.45s ease;
+      transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
     }
-    .tv:hover {
-      transform: translateY(-6px);
+    .tv::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 calc(var(--tv-stand) - 1px);
+      background: var(--tv);
+      border-radius: var(--tv-radius);
       box-shadow:
-        0 0 0 1px rgba(255, 255, 255, 0.08) inset,
+        0 0 0 1px rgba(255, 255, 255, 0.15),
+        0 28px 70px rgba(42, 49, 64, 0.22);
+      pointer-events: none;
+      transition: box-shadow 0.45s ease;
+    }
+    .tv::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 32%;
+      height: var(--tv-stand);
+      margin-inline: auto;
+      background: #171717;
+      border-radius: 0 0 9px 9px;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.11);
+      pointer-events: none;
+    }
+    .tv:hover { transform: translateY(-6px); }
+    .tv:hover::before {
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.18),
         0 36px 80px rgba(42, 49, 64, 0.3);
     }
     .tv img {
+      position: relative;
+      z-index: 1;
       width: 100%;
       height: auto;
       display: block;
-      border-radius: 12px;
-      background: #111;
+      border-radius: 1px;
+      background: #000;
+      color: transparent;
       transition: opacity 0.28s ease;
     }
     .tv img.is-swapping { opacity: 0; }
@@ -321,29 +348,57 @@
       gap: 18px;
       margin-top: 8px;
     }
-    .shot-card .tv { padding-bottom: 12px; }
+    .shot-card .tv { --tv-stand: 22px; }
     .shot-card h3 { margin: 16px 0 6px; }
     .shot-card p { margin: 0; color: var(--muted); }
     .shot-card.wide { margin-top: 18px; }
     .device-roll {
-      --roll-inset: 18px;
+      --roll-inset: 28px;
+      --roll-gap: clamp(28px, 3.6vw, 48px);
       position: relative;
     }
     .device-roll-frame {
       position: relative;
       background: #f7f8fb;
       border-radius: 22px;
+      overflow: hidden;
     }
+    .device-roll-frame::before,
+    .device-roll-frame::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 48px;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    .device-roll-frame::before {
+      left: 0;
+      background: linear-gradient(90deg, #f7f8fb, transparent);
+    }
+    .device-roll-frame::after {
+      right: 0;
+      background: linear-gradient(90deg, transparent, #f7f8fb);
+    }
+    .device-roll:not(.is-start) .device-roll-frame::before,
+    .device-roll:not(.is-end) .device-roll-frame::after { opacity: 1; }
+    .device-roll.is-fit .device-roll-frame::before,
+    .device-roll.is-fit .device-roll-frame::after { opacity: 0; }
     .device-roll-window {
       overflow-x: auto;
       overflow-y: hidden;
       scroll-snap-type: x mandatory;
       scroll-behavior: smooth;
+      scroll-padding-inline: var(--roll-inset);
       overscroll-behavior-x: contain;
       scrollbar-width: none;
       cursor: grab;
       touch-action: pan-x;
       user-select: none;
+      container-type: inline-size;
     }
     .device-roll-window::-webkit-scrollbar { display: none; }
     .device-roll-window.is-dragging {
@@ -354,31 +409,46 @@
     .device-roll-track {
       display: flex;
       align-items: stretch;
-      gap: 14px;
-      padding: 22px var(--roll-inset) 18px;
+      padding: 0;
     }
-    .device-roll-track .device {
-      flex: 0 0 calc(100% - 52px);
-      scroll-snap-align: center;
+    .device-page {
+      flex: 0 0 100cqi;
+      scroll-snap-align: start;
       scroll-snap-stop: always;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      justify-content: center;
+      align-items: end;
+      column-gap: var(--roll-gap);
+      padding: 28px var(--roll-inset) 22px;
+      box-sizing: border-box;
       min-width: 0;
     }
+    .device-page .device {
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: 1 / span 2;
+      min-width: 0;
+    }
+    .device-page.is-desk {
+      grid-auto-columns: minmax(0, 860px);
+    }
+    .device-page.is-desk .device.desktop { width: min(860px, 100%); }
+    .device-page.is-desk .device-visual { justify-content: center; }
+    .device-page.is-desk .device-copy { max-width: none; }
     .device-visual {
       display: flex;
       align-items: flex-end;
-      justify-content: center;
-      width: 100%;
-      min-height: min(44vh, 440px);
+      justify-content: flex-start;
+      align-self: end;
     }
     .window {
       overflow: hidden;
       width: 100%;
-      max-width: 920px;
-      border-radius: 16px;
-      box-shadow: 0 22px 50px rgba(42, 49, 64, 0.16);
+      border-radius: 14px;
+      box-shadow: 0 18px 40px rgba(42, 49, 64, 0.14);
     }
     .window img {
       width: 100%;
@@ -392,7 +462,7 @@
       max-width: 100%;
       line-height: 0;
       overflow: hidden;
-      box-shadow: 0 18px 40px rgba(42, 49, 64, 0.14);
+      box-shadow: 0 16px 36px rgba(42, 49, 64, 0.14);
     }
     .device.tablet .bezel {
       background: #1c1c1c;
@@ -406,7 +476,7 @@
     }
     .device.tablet .bezel img,
     .device.phone .bezel img {
-      height: min(44vh, 440px);
+      height: min(38vh, 380px);
       width: auto;
       max-width: 100%;
       display: block;
@@ -416,43 +486,48 @@
     .device img.is-swapping { opacity: 0; }
     .device.tablet .bezel img { border-radius: 13px; }
     .device.phone .bezel img { border-radius: 25px; }
+    .device.tablet,
+    .device.phone { width: max-content; }
     .device-copy {
+      align-self: start;
       width: 100%;
-      max-width: 36rem;
-      padding-top: 16px;
+      max-width: 22rem;
+      padding-top: 14px;
     }
-    .device.phone .device-copy,
-    .device.tablet .device-copy { max-width: 22rem; }
+    .device.desktop .device-copy { max-width: none; }
     .device-copy h3 { margin: 0 0 4px; font-size: 1.02rem; }
     .device-copy p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .device-roll-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 14px;
+      min-height: 36px;
+    }
+    .device-roll.is-fit .device-roll-nav { display: none; }
     .device-roll-btn {
-      position: absolute;
-      top: 34%;
-      z-index: 2;
-      width: 42px;
-      height: 42px;
+      width: 36px;
+      height: 36px;
       display: grid;
       place-items: center;
       padding: 0;
       border: 1px solid var(--line);
       border-radius: 999px;
-      background: rgba(255, 255, 255, 0.92);
+      background: #fff;
       color: var(--ink);
-      box-shadow: 0 8px 22px rgba(42, 49, 64, 0.12);
+      box-shadow: 0 6px 16px rgba(42, 49, 64, 0.08);
       cursor: pointer;
-      transform: translateY(-50%);
       transition: transform 0.28s var(--ease), box-shadow 0.28s ease, opacity 0.2s ease;
     }
     .device-roll-btn svg {
-      width: 18px;
-      height: 18px;
+      width: 16px;
+      height: 16px;
       display: block;
     }
-    .device-roll-btn.is-prev { left: 10px; }
-    .device-roll-btn.is-next { right: 10px; }
     .device-roll-btn:hover {
-      transform: translateY(calc(-50% - 2px));
-      box-shadow: 0 12px 26px rgba(42, 49, 64, 0.16);
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(42, 49, 64, 0.12);
     }
     .device-roll-btn:focus-visible,
     .device-roll-window:focus-visible,
@@ -463,15 +538,14 @@
     .device-roll-btn:disabled {
       opacity: 0.35;
       pointer-events: none;
-      transform: translateY(-50%);
+      transform: none;
       box-shadow: none;
     }
     .device-roll-dots {
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 8px;
-      margin-top: 14px;
+      gap: 6px;
     }
     .device-roll-dots button {
       width: 8px;
@@ -491,8 +565,11 @@
       transition: width 0.25s var(--ease), background 0.2s ease;
     }
     .device-roll-dots button[aria-current="true"]::before {
-      width: 22px;
+      width: 20px;
       background: var(--ink);
+    }
+    @media (min-width: 861px) {
+      .device-roll-dots [data-roll-to="1"] { display: none; }
     }
     .page { display: none; }
     .page.is-on { display: block; }
@@ -873,7 +950,10 @@
       background: var(--canvas);
       box-shadow: 0 0 0 1px var(--line);
     }
-    .channel-logo.is-empty { display: none; }
+    .channel-logo.is-empty {
+      visibility: hidden;
+      pointer-events: none;
+    }
     .channel-meta { min-width: 0; }
     .channel-title {
       display: flex;
@@ -908,7 +988,12 @@
       border-radius: 999px;
       cursor: pointer;
     }
-    .channel-row .copy { padding: 6px 12px; font-size: 0.8rem; }
+    .channel-row .copy {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      justify-self: end;
+      width: max-content;
+    }
     .channel-toolbar input:focus {
       outline: 2px solid var(--ink);
       outline-offset: 2px;
@@ -1073,6 +1158,8 @@
       .list-featured { grid-template-columns: 1fr; }
     }
     @media (max-width: 860px) {
+      .tv { --tv-bezel: 6px; --tv-stand: 18px; }
+      .shot-card .tv { --tv-stand: 18px; }
       .features, .pair, .format-groups { grid-template-columns: 1fr; }
       .list-row {
         grid-template-columns: 1fr;
@@ -1086,24 +1173,33 @@
       .lists-shell { padding: 22px 18px 20px; border-radius: 24px; }
       .lists-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
       .lists-curate { grid-template-columns: 1fr; }
-      .device-roll { --roll-inset: 12px; }
+      .device-roll { --roll-inset: 18px; --roll-gap: 20px; }
+      .device-page { display: contents; }
       .device-roll-track {
-        padding: 16px var(--roll-inset) 14px;
-        gap: 10px;
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc(100cqi - 40px);
+        grid-template-rows: auto auto;
+        column-gap: var(--roll-gap);
+        padding: 18px var(--roll-inset) 16px;
       }
-      .device-roll-track .device { flex-basis: calc(100% - 28px); }
-      .device-visual { min-height: 0; }
+      .device-roll-track .device {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: 1 / span 2;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        width: auto;
+      }
+      .device-visual { justify-content: center; }
       .device.tablet .bezel { width: min(100%, 280px); }
-      .device.phone .bezel { width: min(100%, 220px); }
+      .device.phone .bezel { width: min(100%, 210px); }
       .device.tablet .bezel img,
       .device.phone .bezel img { height: auto; width: 100%; }
-      .device-roll-btn {
-        width: 36px;
-        height: 36px;
-        top: 42%;
+      .device-copy {
+        max-width: none;
+        text-align: center;
       }
-      .device-roll-btn.is-prev { left: 6px; }
-      .device-roll-btn.is-next { right: 6px; }
       .header-bar {
         display: grid;
         grid-template-columns: 1fr auto;
@@ -1115,7 +1211,6 @@
         row-gap: 10px;
         padding: 10px 0 12px;
       }
-      .brand-mark { width: 40px; height: 40px; flex-basis: 40px; border-radius: 12px; }
       .brand { grid-area: brand; }
       .page-tabs { grid-area: tabs; justify-self: start; }
       .header-end { display: contents; }
@@ -1125,7 +1220,7 @@
     @media (prefers-reduced-motion: reduce) {
       html, .device-roll-window { scroll-behavior: auto; }
       .reveal, .reveal.is-in,
-      .brand img, .brand-mark, .btn, .tv, .tv img, .card, .chips li,
+      .brand img, .brand-mark, .btn, .tv, .tv img, .tv::before, .card, .chips li,
       .window, .window img, .device .bezel, .device img,
       .langs button, nav a, .page-tabs a, .lists-toolbar button, .list-row, .copy, .pill a, .pill button,
       .lists-shell, .lists-stat, .lists-curate article, .lists-views button {
@@ -1142,7 +1237,7 @@
     <div class="wrap header-bar">
       <a class="brand" href="./" data-tab="home">
         <span class="brand-mark">
-          <img src="assets/icon.png" alt="">
+          <img src="assets/wordmark.png" alt="">
         </span>
         <span class="visually-hidden">tamaTV</span>
       </a>
@@ -1305,56 +1400,62 @@
     <section class="section" id="more">
       <h2 data-i18n="moreTitle"></h2>
       <p class="intro" data-i18n="moreIntro"></p>
-      <div class="device-roll">
+      <div class="device-roll is-start">
         <div class="device-roll-frame">
+          <div class="device-roll-window" data-roll-window tabindex="0" role="region" data-i18n-aria="moreRoll">
+            <div class="device-roll-track">
+              <div class="device-page">
+                <article class="device tablet">
+                  <div class="device-visual">
+                    <div class="bezel">
+                      <img src="assets/en/ipad-featured.jpg" alt="" data-shot="ipad-featured" data-i18n-alt="ipadAlt">
+                    </div>
+                  </div>
+                  <div class="device-copy">
+                    <h3 data-i18n="ipadT"></h3>
+                    <p data-i18n="ipadP"></p>
+                  </div>
+                </article>
+                <article class="device phone">
+                  <div class="device-visual">
+                    <div class="bezel">
+                      <img src="assets/en/iphone-channels.jpg" alt="" data-shot="iphone-channels" data-i18n-alt="iphoneAlt">
+                    </div>
+                  </div>
+                  <div class="device-copy">
+                    <h3 data-i18n="iphoneT"></h3>
+                    <p data-i18n="iphoneP"></p>
+                  </div>
+                </article>
+              </div>
+              <div class="device-page is-desk">
+                <article class="device desktop">
+                  <div class="device-visual">
+                    <div class="window">
+                      <img src="assets/en/mac-featured.jpg" alt="" data-shot="mac-featured" data-i18n-alt="macAlt">
+                    </div>
+                  </div>
+                  <div class="device-copy">
+                    <h3 data-i18n="macT"></h3>
+                    <p data-i18n="macP"></p>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="device-roll-nav">
           <button type="button" class="device-roll-btn is-prev" data-roll-dir="-1" data-i18n-aria="morePrev">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6 9 12l6 6"/></svg>
           </button>
-          <div class="device-roll-window" data-roll-window tabindex="0" role="region" data-i18n-aria="moreRoll">
-            <div class="device-roll-track">
-              <article class="device tablet">
-                <div class="device-visual">
-                  <div class="bezel">
-                    <img src="assets/en/ipad-featured.jpg" alt="" data-shot="ipad-featured" data-i18n-alt="ipadAlt">
-                  </div>
-                </div>
-                <div class="device-copy">
-                  <h3 data-i18n="ipadT"></h3>
-                  <p data-i18n="ipadP"></p>
-                </div>
-              </article>
-              <article class="device phone">
-                <div class="device-visual">
-                  <div class="bezel">
-                    <img src="assets/en/iphone-channels.jpg" alt="" data-shot="iphone-channels" data-i18n-alt="iphoneAlt">
-                  </div>
-                </div>
-                <div class="device-copy">
-                  <h3 data-i18n="iphoneT"></h3>
-                  <p data-i18n="iphoneP"></p>
-                </div>
-              </article>
-              <article class="device desktop">
-                <div class="device-visual">
-                  <div class="window">
-                    <img src="assets/en/mac-featured.jpg" alt="" data-shot="mac-featured" data-i18n-alt="macAlt">
-                  </div>
-                </div>
-                <div class="device-copy">
-                  <h3 data-i18n="macT"></h3>
-                  <p data-i18n="macP"></p>
-                </div>
-              </article>
-            </div>
+          <div class="device-roll-dots">
+            <button type="button" data-roll-to="0" data-i18n-aria="ipadT" aria-current="true"></button>
+            <button type="button" data-roll-to="1" data-i18n-aria="iphoneT"></button>
+            <button type="button" data-roll-to="2" data-i18n-aria="macT"></button>
           </div>
           <button type="button" class="device-roll-btn is-next" data-roll-dir="1" data-i18n-aria="moreNext">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
           </button>
-        </div>
-        <div class="device-roll-dots">
-          <button type="button" data-roll-to="0" data-i18n-aria="ipadT" aria-current="true"></button>
-          <button type="button" data-roll-to="1" data-i18n-aria="iphoneT"></button>
-          <button type="button" data-roll-to="2" data-i18n-aria="macT"></button>
         </div>
       </div>
     </section>
@@ -1502,9 +1603,9 @@
         morePrev: "Previous",
         moreNext: "Next",
         moreRoll: "iPad, iPhone, and Mac",
-        ipadAlt: "Featured feed on iPad",
+        ipadAlt: "TV guide on iPad",
         ipadT: "iPad",
-        ipadP: "QR sign-in, Featured, live, favorites, rankings, search, channels, and library.",
+        ipadP: "Browse Japan and world lists, then watch fullscreen.",
         iphoneAlt: "TV Channels on iPhone",
         iphoneT: "iPhone",
         iphoneP: "Add playlists, open the guide, and watch fullscreen.",
@@ -1626,9 +1727,9 @@
         morePrev: "上一个",
         moreNext: "下一个",
         moreRoll: "iPad、iPhone 与 Mac",
-        ipadAlt: "iPad 上的推荐",
+        ipadAlt: "iPad 上的节目表",
         ipadT: "iPad",
-        ipadP: "二维码登录、推荐、直播、收藏、排行、搜索、频道与媒体库。",
+        ipadP: "浏览日本与国际列表，全屏播放。",
         iphoneAlt: "iPhone 上的电视频道",
         iphoneT: "iPhone",
         iphoneP: "添加直播列表，打开节目表，全屏播放。",
@@ -1750,9 +1851,9 @@
         morePrev: "前へ",
         moreNext: "次へ",
         moreRoll: "iPad、iPhone、Mac",
-        ipadAlt: "iPadのおすすめ",
+        ipadAlt: "iPadの番組表",
         ipadT: "iPad",
-        ipadP: "QRサインイン、おすすめ、ライブ、お気に入り、ランキング、検索、チャンネル、ライブラリ。",
+        ipadP: "日本と世界のリストから全画面再生。",
         iphoneAlt: "iPhoneのテレビチャンネル",
         iphoneT: "iPhone",
         iphoneP: "プレイリストを追加し、番組表から全画面再生。",
@@ -2978,7 +3079,11 @@
       const root = document.querySelector(".device-roll");
       const windowEl = document.querySelector("[data-roll-window]");
       if (!root || !windowEl) return;
-      const slides = Array.from(windowEl.querySelectorAll(".device"));
+      const slidesOf = () => {
+        const stacked = window.matchMedia("(max-width: 860px)").matches;
+        return Array.from(windowEl.querySelectorAll(stacked ? ".device" : ".device-page"));
+      };
+      let slides = slidesOf();
       const prev = root.querySelector("[data-roll-dir='-1']");
       const next = root.querySelector("[data-roll-dir='1']");
       const dots = Array.from(root.querySelectorAll("[data-roll-to]"));
@@ -2992,7 +3097,8 @@
         if (!slide) return 0;
         const wr = windowEl.getBoundingClientRect();
         const sr = slide.getBoundingClientRect();
-        return windowEl.scrollLeft + (sr.left - wr.left) - (wr.width - sr.width) / 2;
+        const pad = parseFloat(getComputedStyle(windowEl).scrollPaddingInlineStart) || 0;
+        return windowEl.scrollLeft + (sr.left - wr.left) - pad;
       };
 
       const nearest = () => {
@@ -3011,10 +3117,17 @@
 
       const sync = (i) => {
         index = Math.max(0, Math.min(maxIndex(), i));
+        const fit = windowEl.scrollWidth <= windowEl.clientWidth + 2;
+        root.classList.toggle("is-fit", fit);
+        root.classList.toggle("is-start", index <= 0);
+        root.classList.toggle("is-end", index >= maxIndex());
         if (prev) prev.disabled = index <= 0;
         if (next) next.disabled = index >= maxIndex();
         dots.forEach((dot, n) => {
-          if (n === index) dot.setAttribute("aria-current", "true");
+          const on = slides.length === 2
+            ? (index === 0 && n === 0) || (index === 1 && n === 2)
+            : n === index;
+          if (on) dot.setAttribute("aria-current", "true");
           else dot.removeAttribute("aria-current");
         });
       };
@@ -3031,7 +3144,10 @@
       if (prev) prev.addEventListener("click", () => go(index - 1));
       if (next) next.addEventListener("click", () => go(index + 1));
       dots.forEach((dot) => {
-        dot.addEventListener("click", () => go(Number(dot.dataset.rollTo) || 0));
+        dot.addEventListener("click", () => {
+          const n = Number(dot.dataset.rollTo) || 0;
+          go(slides.length === 2 ? (n >= 2 ? 1 : 0) : n);
+        });
       });
       windowEl.addEventListener("scroll", () => {
         if (drag) return;
@@ -3073,7 +3189,13 @@
       windowEl.addEventListener("pointerup", endDrag);
       windowEl.addEventListener("pointercancel", endDrag);
       if (typeof ResizeObserver === "function") {
-        new ResizeObserver(() => go(index, true)).observe(windowEl);
+        const ro = new ResizeObserver(() => {
+          slides = slidesOf();
+          go(index, true);
+        });
+        ro.observe(windowEl);
+        const track = windowEl.querySelector(".device-roll-track");
+        if (track) ro.observe(track);
       }
       sync(0);
     }
