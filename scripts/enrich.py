@@ -134,19 +134,38 @@ def attach(
     channels: dict[str, dict],
     logos: dict[str, list[dict]],
     country_names: set[str] | None = None,
+    stats: dict[str, int] | None = None,
 ) -> list[m3u.Entry]:
     names = name_index(channels)
     countries = {item.lower() for item in (country_names or set())}
+    tallies = stats if stats is not None else {}
+    tallies.update(
+        {
+            "input": len(entries),
+            "kept": 0,
+            "matched": 0,
+            "nsfw_closed": 0,
+            "logos_upgraded": 0,
+            "tvg_filled": 0,
+            "country_filled": 0,
+            "groups_from_meta": 0,
+        }
+    )
     kept: list[m3u.Entry] = []
     for entry in entries:
         cid = entry.tvg_id.split("@", 1)[0] if entry.tvg_id else entry.channel_id
         if cid.startswith("mjh-"):
             cid = ""
         entry.channel_id = cid
+        had_logo = entry.logo.startswith("https://")
+        had_tvg = bool(entry.tvg_id) and not entry.tvg_id.startswith("mjh-")
+        had_country = bool(entry.country)
         meta = match_channel(entry, channels, names)
         if meta:
             if meta.get("is_nsfw") or meta.get("closed"):
+                tallies["nsfw_closed"] += 1
                 continue
+            tallies["matched"] += 1
             entry.channel_id = str(meta.get("id") or entry.channel_id)
             if not entry.tvg_id or entry.tvg_id.startswith("mjh-"):
                 entry.tvg_id = entry.channel_id
@@ -158,13 +177,21 @@ def attach(
             if m3u.SKIP_GROUP_RE.search(group):
                 pass
             elif not group or group.lower() in countries or group.lower() in {"undefined", "general"}:
-                entry.group = ";".join(cats)
+                if cats:
+                    entry.group = ";".join(cats)
+                    tallies["groups_from_meta"] += 1
+                else:
+                    entry.group = ""
         else:
             if not entry.country:
                 entry.country = canon_country(m3u.country_from_tvg(entry.tvg_id))
             if (entry.group or "").lower() in countries:
                 entry.group = ""
         entry.country = canon_country(entry.country)
+        if not had_tvg and entry.tvg_id:
+            tallies["tvg_filled"] += 1
+        if not had_country and entry.country:
+            tallies["country_filled"] += 1
         entry.logo = pick_logo(entry.channel_id, entry.logo, logos)
         china = entry.country in CN_CODES or is_cjk(entry.name) or is_cjk(entry.group)
         if china:
@@ -174,7 +201,10 @@ def attach(
                 entry.tvg_id = entry.tvg_name or entry.tvg_id
             if not entry.logo.startswith("https://"):
                 entry.logo = china_logo(entry)
+        if entry.logo.startswith("https://") and not had_logo:
+            tallies["logos_upgraded"] += 1
         kept.append(entry)
+        tallies["kept"] += 1
     return kept
 
 

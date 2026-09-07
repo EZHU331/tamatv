@@ -9,10 +9,10 @@ import json
 import os
 import re
 import shutil
-import ssl
 import sys
 import urllib.request
 from datetime import datetime, timezone
+from dataclasses import replace
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -21,9 +21,12 @@ ROOT = SCRIPTS.parent
 if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
+import community  # noqa: E402
 import enrich  # noqa: E402
 import harvest  # noqa: E402
 import m3u  # noqa: E402
+import pipeline  # noqa: E402
+import urlcheck  # noqa: E402
 
 OUT = ROOT / "lists.json"
 PLAYLISTS = ROOT / "playlists"
@@ -154,12 +157,17 @@ CURATED_VARIANTS = [
 
 
 def fetch(url: str) -> str:
+    if not urlcheck.is_safe_https_url(url, resolve=True):
+        raise RuntimeError(f"blocked fetch {url}")
     req = urllib.request.Request(
         url,
         headers={"User-Agent": "tamatv-lists-refresh/1.0", "Accept": "application/json, text/plain"},
     )
-    ctx = ssl.create_default_context()
-    with urllib.request.urlopen(req, timeout=30, context=ctx) as resp:
+    opener = urlcheck.opener_for(https_only=True)
+    with opener.open(req, timeout=30) as resp:
+        final = resp.geturl()
+        if final and not urlcheck.is_safe_https_url(final, resolve=True):
+            raise RuntimeError(f"blocked redirect {url} -> {final}")
         if resp.status != 200:
             raise RuntimeError(f"{url} -> {resp.status}")
         return resp.read().decode("utf-8")
@@ -511,20 +519,30 @@ def build_live(
         header_guides.extend(harvest.header_epg_urls(src.text))
         print(f"  {src.origin}: {len(parsed)} from {src.url}", flush=True)
     epgshare = enrich.parse_epgshare_map(header_guides)
-    attached = enrich.attach(raw, channels, logos, country_names)
-    curated = m3u.curate(attached, china="auto", country_names=country_names)
-    if probe:
-        curated, probe_counts = m3u.probe_entries(curated)
-    else:
-        probe_counts = {"ok": 0, "dead": 0, "unknown": 0, "skipped": len(curated)}
+    print("pipeline live: enhance, pair, fix, group", flush=True)
+    curated, live_report = pipeline.process_entries(
+        raw,
+        channels,
+        logos,
+        country_names,
+        china="auto",
+        probe=probe,
+    )
+    community_entries = community.load_entries()
+    if community_entries:
+        curated = community.merge_entries(curated, community_entries)
+        live_report["kept"] = len(curated)
+        live_report["community"] = len(community_entries)
+    probe_counts = live_report["probe"]
 
     by_country: dict[str, list[m3u.Entry]] = {}
     by_category: dict[str, list[m3u.Entry]] = {}
     for entry in curated:
         if entry.country:
             by_country.setdefault(entry.country, []).append(entry)
-        cat_key = "undefined" if entry.group == "Other" else entry.group.lower()
-        by_category.setdefault(cat_key, []).append(entry)
+        cat = m3u.catalog_category(entry)
+        cat_key = "undefined" if cat == "Other" else cat.lower()
+        by_category.setdefault(cat_key, []).append(replace(entry, group=cat) if cat != entry.group else entry)
 
     out_countries = []
     for row in country_rows:
@@ -573,7 +591,11 @@ def build_live(
             "countries": len(out_countries),
             "categories": len(out_categories),
             "probe": probe_counts,
-            "quality": m3u.quality_stats(curated),
+            "quality": live_report["quality"],
+            "inspect": live_report["inspect"],
+            "enhance": live_report["enhance"],
+            "fix": live_report["fix"],
+            "result": live_report["result"],
         },
     )
 
@@ -591,6 +613,11 @@ def build_aggregators(
         "kept": 0,
         "lists": 0,
         "probe": {"ok": 0, "dead": 0, "unknown": 0, "skipped": 0},
+        "inspect": {},
+        "enhance": {},
+        "fix": {},
+        "result": {},
+        "quality": {},
     }
     for group in aggregators:
         variants = []
@@ -603,22 +630,25 @@ def build_aggregators(
             except Exception as err:
                 print(f"skip {group.get('name')} {variant.get('label')}: {err}", file=sys.stderr)
                 continue
-            parsed = enrich.attach(m3u.parse_playlist(text), channels, logos, country_names)
-            totals["source"] += len(parsed)
-            curated = m3u.curate(parsed, china=True, country_names=country_names)
+            parsed = m3u.parse_playlist(text)
             stack = variant.get("stack") or "v4"
-            if probe and stack != "v6":
-                curated, counts = m3u.probe_entries(curated, china=True)
-                for key, value in counts.items():
-                    totals["probe"][key] = totals["probe"].get(key, 0) + value
-            else:
-                totals["probe"]["skipped"] += len(curated)
+            curated, report = pipeline.process_entries(
+                parsed,
+                channels,
+                logos,
+                country_names,
+                china=True,
+                probe=probe and stack != "v6",
+                probe_china=True,
+            )
+            totals["source"] += report["source"]
+            for key in ("inspect", "enhance", "fix", "result", "quality"):
+                totals[key] = pipeline.add_counts(totals.get(key) or {}, report[key])
+            for key, value in report["probe"].items():
+                totals["probe"][key] = totals["probe"].get(key, 0) + value
             if not curated:
                 continue
             totals["kept"] += len(curated)
-            for key, value in m3u.quality_stats(curated).items():
-                totals.setdefault("quality", {})
-                totals["quality"][key] = totals["quality"].get(key, 0) + value
             slug = origin_key(group["name"])
             guides = harvest.header_epg_urls(text) or [enrich.FANMINGMING_EPG, enrich.GUIDE_112114]
             variants.append(
@@ -743,6 +773,9 @@ def main(argv: list[str] | None = None) -> int:
             "extras": [{"key": "epg", "url": JAPANTEREBI_EPG}],
         },
     ]
+    community_count = community.write_playlist()
+    if community_count:
+        featured.append(community.featured_row(SITE, TAMATV_HREF, community_count))
 
     payload = {
         "updated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -766,7 +799,12 @@ def main(argv: list[str] | None = None) -> int:
     if stats:
         PLAYLISTS.mkdir(parents=True, exist_ok=True)
         (PLAYLISTS / "status.json").write_text(
-            json.dumps({"updated": payload["updated"], **stats}, ensure_ascii=False, indent=2) + "\n",
+            json.dumps(
+                {"updated": payload["updated"], "pipeline": pipeline.STAGES, **stats},
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
             encoding="utf-8",
         )
     print(

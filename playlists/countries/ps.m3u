@@ -1,34 +1,34 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AlNajahNews.ps@SD" tvg-name="Al Najah News" tvg-logo="https://i.imgur.com/c2bwn4G.png" group-title="News",Al Najah News (720p)
+#EXTINF:-1 tvg-id="AlNajahNews.ps@SD" tvg-country="PS" tvg-name="Al Najah News" tvg-logo="https://i.imgur.com/c2bwn4G.png" group-title="News",Al Najah News (720p)
 https://streaming.najah.edu:8443/hls/AlNajah.m3u8
-#EXTINF:-1 tvg-id="KolalnasTV.ps@SD" tvg-name="Kolalnas TV" tvg-logo="https://i.imgur.com/OyMxcRG.png" group-title="News",Kolalnas TV
+#EXTINF:-1 tvg-id="KolalnasTV.ps@SD" tvg-country="PS" tvg-name="Kolalnas TV" tvg-logo="https://i.imgur.com/OyMxcRG.png" group-title="News",Kolalnas TV
 https://htvint.mada.ps/kolalnas/index.m3u8
-#EXTINF:-1 tvg-id="MaanTV.ps@SD" tvg-name="Ma'an TV" tvg-logo="https://i.imgur.com/hRFa03k.png" group-title="News",Ma'an TV (720p)
+#EXTINF:-1 tvg-id="MaanTV.ps@SD" tvg-country="PS" tvg-name="Ma'an TV" tvg-logo="https://i.imgur.com/hRFa03k.png" group-title="News",Ma'an TV (720p)
 https://htvmada.mada.ps:4443/maannews/index.m3u8
-#EXTINF:-1 tvg-id="NablusTV.ps@SD" tvg-name="Nablus TV" tvg-logo="https://i.imgur.com/GoLhaDK.png" group-title="News",Nablus TV (720p)
+#EXTINF:-1 tvg-id="NablusTV.ps@SD" tvg-country="PS" tvg-name="Nablus TV" tvg-logo="https://i.imgur.com/GoLhaDK.png" group-title="News",Nablus TV (720p)
 http://htvmada.mada.ps:8888/nabluslive/index.m3u8
-#EXTINF:-1 tvg-id="PalestineToday.ps@SD" tvg-name="Palestine Today" tvg-logo="https://i.imgur.com/BS8XXug.png" group-title="News",Palestine Today
+#EXTINF:-1 tvg-id="PalestineToday.ps@SD" tvg-country="PS" tvg-name="Palestine Today" tvg-logo="https://i.imgur.com/BS8XXug.png" group-title="News",Palestine Today
 https://live.paltodaytv.com/paltv/live/playlist.m3u8
-#EXTINF:-1 tvg-id="SerajTV.ps@SD" tvg-name="Seraj TV" tvg-logo="https://i.imgur.com/1d25a9Q.png" group-title="News" http-referrer="https://www.alaqsanet.news/",Seraj TV (1080i)
+#EXTINF:-1 tvg-id="SerajTV.ps@SD" tvg-country="PS" tvg-name="Seraj TV" tvg-logo="https://i.imgur.com/1d25a9Q.png" group-title="News" http-referrer="https://www.alaqsanet.news/",Seraj TV (1080i)
 #EXTVLCOPT:http-referrer=https://www.alaqsanet.news/
 https://43869de4e1a0d641.servers.dvcloud.tv/hls/al_aqsa_channel/6udfi7v8a3eof6nlps6e9ovfrs65c7l7.m3u8
-#EXTINF:-1 tvg-id="PalestineEdu.ps@SD" tvg-name="Palestine Edu" tvg-logo="https://i.imgur.com/AwVHXyC.png" group-title="Education",Palestine Edu (1080p)
+#EXTINF:-1 tvg-id="PalestineEdu.ps@SD" tvg-country="PS" tvg-name="Palestine Edu" tvg-logo="https://i.imgur.com/AwVHXyC.png" group-title="Education",Palestine Edu (1080p)
 https://pbc.furrera.ps/PalestineEDU/index.m3u8
-#EXTINF:-1 tvg-id="FalastiniTV.ps@SD" tvg-name="Falastini TV" tvg-logo="https://i.imgur.com/6B3Cims.png" group-title="Music",Falastini TV (1080p)
+#EXTINF:-1 tvg-id="FalastiniTV.ps@SD" tvg-country="PS" tvg-name="Falastini TV" tvg-logo="https://i.imgur.com/6B3Cims.png" group-title="Music",Falastini TV (1080p)
 https://rp.tactivemedia.com/palestiniantv_source/live/playlist.m3u8
-#EXTINF:-1 tvg-id="HolyQuranRadioNablus.ps@SD" tvg-name="Holy Quran Radio Nablus" tvg-logo="https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png" group-title="Religious",Holy Quran Radio Nablus (720p)
+#EXTINF:-1 tvg-id="HolyQuranRadioNablus.ps@SD" tvg-country="PS" tvg-name="Holy Quran Radio Nablus" tvg-logo="https://quran-radio.com/assets/images/site/quran-radio-logo-h-rtl.png" group-title="Religious",Holy Quran Radio Nablus (720p)
 http://streaming.zaytonatube.com:8080/holyquran/holyquran/video.m3u8
-#EXTINF:-1 tvg-id="AjyalTV.ps@SD" tvg-name="Ajyal TV" tvg-logo="https://i.imgur.com/i6Y7beR.jpg" group-title="General",Ajyal TV (720p)
+#EXTINF:-1 tvg-id="AjyalTV.ps@SD" tvg-country="PS" tvg-name="Ajyal TV" tvg-logo="https://i.imgur.com/i6Y7beR.jpg" group-title="General",Ajyal TV (720p)
 http://htvajyal.mada.ps:8888/ajyal/index.m3u8
-#EXTINF:-1 tvg-id="AlMadina.ps@SD" tvg-name="Al Madina" tvg-logo="https://i.imgur.com/NVOeM3P.png" group-title="General",Al Madina (720p)
+#EXTINF:-1 tvg-id="AlMadina.ps@SD" tvg-country="PS" tvg-name="Al Madina" tvg-logo="https://i.imgur.com/NVOeM3P.png" group-title="General",Al Madina (720p)
 https://streaming.zaytonatube.com:8081/AlMadinatv/almadina21/index.m3u8
-#EXTINF:-1 tvg-id="RadioAlbaladTV.ps@SD" tvg-name="Radio Albalad TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png" group-title="General",Radio Albalad TV (720p)
+#EXTINF:-1 tvg-id="RadioAlbaladTV.ps@SD" tvg-country="PS" tvg-name="Radio Albalad TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/71/Nothing_whitespace_blank.png" group-title="General",Radio Albalad TV (720p)
 http://streaming.zaytonatube.com:8080/radioalbalad/radioalbalad/playlist.m3u8
-#EXTINF:-1 tvg-id="RajeenTV.ps@SD" tvg-name="Rajeen TV" tvg-logo="https://i.imgur.com/6Cx22ya.png" group-title="General",Rajeen TV (1080p)
+#EXTINF:-1 tvg-id="RajeenTV.ps@SD" tvg-country="PS" tvg-name="Rajeen TV" tvg-logo="https://i.imgur.com/6Cx22ya.png" group-title="General",Rajeen TV (1080p)
 https://mn-nl.mncdn.com/palabroad/live/playlist.m3u8
-#EXTINF:-1 tvg-id="ShababFM.ps@SD" tvg-name="Shabab FM" tvg-logo="https://i.imgur.com/4Cyz4Bn.png" group-title="General",Shabab FM (720p)
+#EXTINF:-1 tvg-id="ShababFM.ps@SD" tvg-country="PS" tvg-name="Shabab FM" tvg-logo="https://i.imgur.com/4Cyz4Bn.png" group-title="General",Shabab FM (720p)
 https://streaming.zaytonatube.com:8081/ShababFM/shabab/index.m3u8
-#EXTINF:-1 tvg-id="WatarTV.ps@SD" tvg-name="Watar TV" tvg-logo="https://i.imgur.com/jdr22Sk.jpeg" group-title="General",Watar TV (720p)
+#EXTINF:-1 tvg-id="WatarTV.ps@SD" tvg-country="PS" tvg-name="Watar TV" tvg-logo="https://i.imgur.com/jdr22Sk.jpeg" group-title="General",Watar TV (720p)
 http://htvint.mada.ps:8889/orient/index.m3u8
-#EXTINF:-1 tvg-id="WattanTV.ps@SD" tvg-name="Wattan TV" tvg-logo="https://i.imgur.com/sf2A9vT.png" group-title="General",Wattan TV
+#EXTINF:-1 tvg-id="WattanTV.ps@SD" tvg-country="PS" tvg-name="Wattan TV" tvg-logo="https://i.imgur.com/sf2A9vT.png" group-title="General",Wattan TV
 https://htvmada.mada.ps:4443/wattan/index.m3u8

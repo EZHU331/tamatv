@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from __future__ import annotations
 
+import urllib.request
+
 import enrich
 import harvest
 import m3u
@@ -82,6 +84,18 @@ def test_harvest_extract() -> None:
     assert all("evil.example" not in u for u in urls)
 
 
+def test_redirect_guard() -> None:
+    import urlcheck
+
+    req = urllib.request.Request("https://example.com/live.m3u8")
+    handler = urlcheck.SafeFetchRedirectHandler()
+    assert handler.redirect_request(req, None, 302, "Found", {}, "http://127.0.0.1/secret") is None
+    assert handler.redirect_request(req, None, 302, "Found", {}, "http://169.254.169.254/") is None
+    assert urlcheck.is_safe_fetch_url("http://127.0.0.1/x") is False
+    assert urlcheck.is_safe_https_url("https://example.com/a.m3u8") is True
+    assert urlcheck.is_safe_https_url("http://example.com/a.m3u8") is False
+
+
 def test_epg_pair() -> None:
     mapping = enrich.parse_epgshare_map(
         [
@@ -115,12 +129,152 @@ def test_epg_pair() -> None:
     body = m3u.write_m3u([], epg="https://example.com/guide.xml")
     assert 'url-tvg="https://example.com/guide.xml"' in body
     assert 'x-tvg-url="https://example.com/guide.xml"' in body
+    tagged = m3u.write_m3u(
+        [
+            m3u.Entry(
+                name="Rai 1",
+                url="https://example.com/rai.m3u8",
+                tvg_id="Rai1.it",
+                country="IT",
+                group="General",
+                logo="https://example.com/rai.png",
+            )
+        ]
+    )
+    assert 'tvg-country="IT"' in tagged
+
+
+def test_pipeline() -> None:
+    import pipeline
+
+    raw = m3u.parse_playlist(SAMPLE)
+    countries = {"albania", "italy", "al", "it"}
+    census = m3u.inspect_entries(raw, countries)
+    assert census["junk_names"] >= 1
+    assert census["vod_groups"] >= 1
+    assert census["country_as_group"] >= 1
+    kept, report = pipeline.process_entries(raw, {}, {}, countries, china="auto", probe=False)
+    assert report["fix"]["dropped_junk"] >= 1
+    assert report["fix"]["dropped_adult_or_vod"] >= 1
+    assert report["fix"]["kept"] == len(kept)
+    assert report["result"]["junk_names"] == 0
+    assert report["result"]["vod_groups"] == 0
+    assert report["result"]["country_as_group"] == 0
+    assert all(e.group != "Italy" for e in kept)
+    assert m3u.catalog_category(m3u.Entry(name="CCTV1", url="https://x", group="央视", country="CN")) == "General"
+
+
+def test_submit_channel() -> None:
+    import community
+    import submit_channel
+
+    body = """
+### Channel name
+
+Test News
+
+### Stream URL
+
+https://cdn.example.com/test-news.m3u8
+
+### Country
+
+GB
+
+### Category
+
+News
+
+### Please confirm
+
+- [x] This is a public live stream I am allowed to share. It is not adult or on-demand video.
+"""
+    fields = submit_channel.parse_issue_fields(body)
+    assert fields["name"] == "Test News"
+    assert "cdn.example.com" in fields["url"]
+    entry, err = submit_channel.build_entry(fields, 9)
+    assert err == "", err
+    assert entry.name == "Test News"
+    assert entry.country == "UK"
+    assert entry.group == "News"
+    assert entry.tvg_id == "TestNews.uk"
+
+    http_fields = dict(fields)
+    http_fields["url"] = "http://cdn.example.com/test-news.m3u8"
+    _, err = submit_channel.build_entry(http_fields, 9)
+    assert err
+
+    page_fields = dict(fields)
+    page_fields["url"] = "https://www.youtube.com/watch?v=dQw4w9wgGcQ"
+    _, err = submit_channel.build_entry(page_fields, 9)
+    assert err
+
+    missing = submit_channel.evaluate("### Channel name\n\nOnly a name\n", 1, "tester", probe=False)
+    assert missing["outcome"] == "rejected"
+
+    dup_fields = dict(fields)
+    dup_fields["name"] = "Al Jazeera English"
+    dup_fields["url"] = "https://live-hls-apps-aje-fa.getaj.net/AJE/index.m3u8"
+    dup_entry, dup_err = submit_channel.build_entry(dup_fields, 9)
+    assert dup_err == ""
+    assert submit_channel.is_duplicate(dup_entry)
+
+    left = m3u.Entry(name="News One", url="https://a.example/live.m3u8", group="News", country="US")
+    right = m3u.Entry(
+        name="News One",
+        url="https://b.example/live.m3u8",
+        group="News",
+        country="US",
+        logo="https://l.example/n.png",
+    )
+    merged = community.merge_entries([left], [right])
+    assert len(merged) == 1
+    assert merged[0].logo.endswith("n.png")
+
+    import urlcheck
+
+    assert urlcheck.is_safe_https_url("https://cdn.example.com/live.m3u8")
+    assert not urlcheck.is_safe_https_url("http://cdn.example.com/live.m3u8")
+    assert not urlcheck.is_safe_https_url("https://user:pass@cdn.example.com/live.m3u8")
+    assert not urlcheck.is_safe_https_url("https://127.0.0.1/live.m3u8")
+    assert not urlcheck.is_safe_https_url("https://169.254.169.254/latest/meta-data/")
+    assert not urlcheck.is_safe_https_url("https://localhost/live.m3u8")
+    assert not urlcheck.is_safe_https_url("https://metadata.google.internal/computeMetadata/v1/")
+    assert not urlcheck.is_safe_https_url("https://evil.localhost/live.m3u8")
+    assert not urlcheck.is_safe_https_url("https://192.168.0.5/live.m3u8")
+    assert not urlcheck.is_safe_https_url("https://[::1]/live.m3u8")
+
+    inject_fields = dict(fields)
+    inject_fields["name"] = 'News" tvg-logo="https://evil.example/x.png'
+    inject_fields["url"] = "https://cdn.example.com/ok.m3u8"
+    _, inject_err = submit_channel.build_entry(inject_fields, 3)
+    assert inject_err
+
+    quoted = m3u.Entry(
+        name='News" tvg-logo="https://evil.example/x.png',
+        url="https://cdn.example.com/ok.m3u8",
+        group="News",
+    )
+    written = m3u.write_m3u([quoted])
+    assert 'tvg-logo="https://evil.example/x.png"' not in written
+
+    adult_fields = dict(fields)
+    adult_fields["name"] = "Adult XXX"
+    adult_fields["category"] = "News"
+    _, adult_err = submit_channel.build_entry(adult_fields, 4)
+    assert adult_err
+
+    assert not m3u.is_playable_url("https://127.0.0.1/live.m3u8")
+    assert not m3u.is_playable_url("https://0.0.0.0/live.m3u8")
 
 
 def main() -> int:
     test_curate()
     test_harvest_extract()
+    test_redirect_guard()
     test_epg_pair()
+    test_pipeline()
+    test_submit_channel()
     print("ok")
     return 0
 

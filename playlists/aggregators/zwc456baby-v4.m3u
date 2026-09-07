@@ -1,13 +1,13 @@
 #EXTM3U url-tvg="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml" x-tvg-url="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-id="CCTV8K.cn" tvg-name="CCTV-8K" tvg-logo="https://i.imgur.com/fxVPMJF.png" group-title="央视",CCTV-8K 超 (4320p)
+#EXTINF:-1 tvg-id="CCTV8K.cn" tvg-country="CN" tvg-name="CCTV-8K" tvg-logo="https://i.imgur.com/fxVPMJF.png" group-title="央视",CCTV-8K 超 (4320p)
 https://tv.cry33.com/ys4k.php?id=8k
 #EXTINF:-1 tvg-id="山西卫视" tvg-name="山西卫视" tvg-logo="https://live.fanmingming.com/tv/%E5%B1%B1%E8%A5%BF%E5%8D%AB%E8%A7%86.png" group-title="卫视",山西卫视
 http://liveflash.sxrtv.com/live/sxwshd.m3u8?sub_m3u8=true&edge_slice=true
-#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-name="Zhejiang Satellite TV" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="卫视",浙江卫视
+#EXTINF:-1 tvg-id="ZhejiangSatelliteTV.cn" tvg-country="CN" tvg-name="Zhejiang Satellite TV" tvg-logo="https://i.imgur.com/NFFQNhq.png" group-title="卫视",浙江卫视
 http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8
-#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-name="Phoenix Chinese Channel" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="港澳台",凤凰中文
+#EXTINF:-1 tvg-id="PhoenixChineseChannel.hk" tvg-country="HK" tvg-name="Phoenix Chinese Channel" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/Phoenix1.png" group-title="港澳台",凤凰中文
 http://play-flive.ifeng.com/live/06OLEGEGM4G.m3u8
-#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-name="Phoenix InfoNews Channel" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="港澳台",凤凰资讯
+#EXTINF:-1 tvg-id="PhoenixInfoNewsChannel.hk" tvg-country="HK" tvg-name="Phoenix InfoNews Channel" tvg-logo="https://i.imgur.com/mt4h3VO.png" group-title="港澳台",凤凰资讯
 http://play-flive.ifeng.com/live/06OLEEWQKN4.m3u8
 #EXTINF:-1 tvg-id="上虞新闻综合" tvg-name="上虞新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E4%B8%8A%E8%99%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="新闻",上虞新闻综合
 http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed

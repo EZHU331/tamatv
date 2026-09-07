@@ -1,0 +1,86 @@
+name: Submit channel
+
+on:
+  issues:
+    types: [opened, edited, reopened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: submit-channel-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    if: |
+      contains(github.event.issue.labels.*.name, 'channel') &&
+      !contains(github.event.issue.labels.*.name, 'channel-added')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test playlist rules
+        run: python3 scripts/test_m3u.py
+      - name: Validate
+        id: submit
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_USER: ${{ github.event.issue.user.login }}
+          PYTHONUNBUFFERED: "1"
+        run: python3 scripts/submit_channel.py
+      - name: Commit
+        if: steps.submit.outputs.outcome == 'added'
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+        run: |
+          git add -- community/channels.json playlists/community.m3u lists.json
+          changed="$(git diff --staged --name-only)"
+          if [ -z "$changed" ]; then
+            echo "No playlist changes"
+            exit 0
+          fi
+          while IFS= read -r file; do
+            case "$file" in
+              community/channels.json|playlists/community.m3u|lists.json) ;;
+              *) echo "unexpected path $file"; exit 1 ;;
+            esac
+          done <<EOF
+          $changed
+          EOF
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$(cat <<EOF
+          Add community channel (#${ISSUE_NUMBER}).
+
+          EOF
+          )"
+          git push
+      - name: Comment
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OUTCOME: ${{ steps.submit.outputs.outcome }}
+          COMMENT: ${{ steps.submit.outputs.comment }}
+          NUMBER: ${{ github.event.issue.number }}
+        run: |
+          gh label create channel --color "1D76DB" --description "Public live channel suggestion" --force
+          gh label create channel-added --color "0E8A16" --description "Added to the community list" --force
+          gh label create channel-rejected --color "B60205" --description "Could not add this channel" --force
+          gh label create needs-review --color "FBCA04" --description "Stream could not be confirmed" --force
+          gh issue comment "$NUMBER" --body "$COMMENT"
+          if [ "$OUTCOME" = "added" ]; then
+            gh issue edit "$NUMBER" --add-label "channel-added"
+            gh issue edit "$NUMBER" --remove-label "needs-review" || true
+            gh issue close "$NUMBER" --reason completed
+          elif [ "$OUTCOME" = "duplicate" ] || [ "$OUTCOME" = "rejected" ]; then
+            gh issue edit "$NUMBER" --add-label "channel-rejected"
+            gh issue edit "$NUMBER" --remove-label "needs-review" || true
+            gh issue close "$NUMBER" --reason not_planned
+          else
+            gh issue edit "$NUMBER" --add-label "needs-review"
+          fi

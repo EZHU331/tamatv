@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T09:06:13Z",
+  "updated": "2026-09-07T10:12:08Z",
   "site": "https://ezhu331.github.io/tamatv",
   "sources": [
     {
@@ -3094,7 +3094,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 144,
+      "channels": 145,
       "extras": [
         {
           "key": "epg",
@@ -3119,7 +3119,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 163,
+      "channels": 189,
       "extras": [
         {
           "key": "epg",
@@ -3215,7 +3215,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 8123,
+      "channels": 9758,
       "extras": [
         {
           "key": "epg",
@@ -3240,7 +3240,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 315,
+      "channels": 358,
       "extras": [
         {
           "key": "epg",
@@ -3315,7 +3315,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 539,
+      "channels": 730,
       "extras": [
         {
           "key": "epg",
@@ -3365,7 +3365,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 895,
+      "channels": 1111,
       "extras": [
         {
           "key": "epg",
@@ -3390,8 +3390,16 @@
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
       "url": "https://ezhu331.github.io/tamatv/playlists/categories/undefined.m3u",
-      "channels": 936,
+      "channels": 961,
       "extras": [
+        {
+          "key": "epg",
+          "url": "https://live.fanmingming.com/e.xml"
+        },
+        {
+          "key": "epg",
+          "url": "https://epg.112114.xyz/pp.xml"
+        },
         {
           "key": "epg",
           "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
@@ -3570,7 +3578,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 372,
+      "channels": 413,
       "extras": [
         {
           "key": "epg",
@@ -3682,7 +3690,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 56,
+          "channels": 58,
           "extras": [
             {
               "key": "epg",

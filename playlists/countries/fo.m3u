@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Tingvarp.fo" tvg-name="Tingvarp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_-_L%C3%B8gting.png" group-title="General",Tingvarp
+#EXTINF:-1 tvg-id="Tingvarp.fo" tvg-country="FO" tvg-name="Tingvarp" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/90/Logo_-_L%C3%B8gting.png" group-title="General",Tingvarp
 https://play.kringvarp.fo/redirect/tingvarp/_definst_/smil:tingvarp.smil?type=m3u8
-#EXTINF:-1 tvg-id="KringvarpForoya.fo@SD" tvg-name="KVF" group-title="Other",KVF (720p)
+#EXTINF:-1 tvg-id="KringvarpForoya.fo@SD" tvg-country="FO" tvg-name="KVF" group-title="Other",KVF (720p)
 https://w-live-edge1.kringvarp.fo/uttanlands/_definst_/smil:uttanlands.smil/playlist.m3u8

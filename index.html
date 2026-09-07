@@ -11,13 +11,16 @@
   <link rel="icon" href="assets/icon.png">
   <style>
     :root {
-      --ink: #2a3140;
-      --muted: #5c6473;
-      --canvas: #e8edf4;
-      --surface: rgba(255, 253, 250, 0.86);
+      --ink: #1e2430;
+      --muted: #7a8290;
+      --canvas: #eef1f6;
+      --surface: rgba(255, 255, 255, 0.88);
       --accent: #c4473a;
-      --line: rgba(42, 49, 64, 0.12);
+      --line: rgba(30, 36, 48, 0.1);
       --tv: #1c1c1c;
+      --panel: #ffffff;
+      --stat: #1e2430;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
     }
     .visually-hidden {
       position: absolute;
@@ -73,7 +76,6 @@
     .brand {
       display: flex;
       align-items: center;
-      gap: 11px;
       text-decoration: none;
       color: inherit;
       min-width: 0;
@@ -98,11 +100,6 @@
     .brand:hover .brand-mark {
       transform: translateY(-1px);
       box-shadow: 0 0 0 1px rgba(42, 49, 64, 0.16), 0 12px 22px rgba(42, 49, 64, 0.12);
-    }
-    .brand-text {
-      font-size: 1.18rem;
-      font-weight: 750;
-      letter-spacing: -0.045em;
     }
     .page-tabs { flex: 0 0 auto; }
     .meta-nav {
@@ -152,6 +149,49 @@
       color: #f4efe6;
     }
     .hero { padding: 28px 0 36px; }
+    #page-home .hero {
+      position: relative;
+      padding: 36px 0 40px;
+    }
+    #page-home .hero .brand-hero {
+      font-size: clamp(2.8rem, 6vw, 4.2rem);
+      letter-spacing: -0.05em;
+      line-height: 0.98;
+      margin: 0 0 10px;
+      max-width: none;
+    }
+    #page-home .hero h1 {
+      font-size: clamp(1.35rem, 2.6vw, 1.75rem);
+      font-weight: 500;
+      letter-spacing: -0.03em;
+      max-width: 22ch;
+      margin: 0 0 14px;
+      color: #3a4250;
+    }
+    #page-home .section {
+      padding: 28px 32px 32px;
+      margin-top: 18px;
+      background: #fff;
+      border: 1px solid rgba(30, 36, 48, 0.08);
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(30, 36, 48, 0.05);
+    }
+    #page-home .section > h2 { margin-top: 0; }
+    #page-home .card {
+      background: #f7f8fb;
+      box-shadow: none;
+    }
+    #page-home .card:hover {
+      background: #fff;
+      box-shadow: 0 12px 28px rgba(30, 36, 48, 0.08);
+    }
+    #page-home .notice,
+    #page-home .credits {
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(30, 36, 48, 0.05);
+      margin-top: 18px;
+    }
+
     .kicker {
       font-size: 0.82rem;
       font-weight: 650;
@@ -167,10 +207,13 @@
       margin: 0 0 16px;
       max-width: 14ch;
     }
-    .lists-hero h1 {
-      font-size: clamp(1.85rem, 3.6vw, 2.5rem);
-      max-width: 18ch;
-      margin-bottom: 10px;
+    .lists-hero h1,
+    .lists-title-row h1 {
+      font-size: clamp(1.7rem, 3vw, 2.15rem);
+      max-width: none;
+      margin: 0;
+      letter-spacing: -0.04em;
+      font-weight: 600;
     }
     .lead {
       font-size: 1.18rem;
@@ -195,23 +238,28 @@
     .btn.primary:hover { box-shadow: 0 12px 28px rgba(42, 49, 64, 0.28); }
     .btn.ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
     .tv {
-      background: var(--tv);
+      position: relative;
+      background: #0b0b0d;
       border-radius: 28px;
-      padding: 12px 12px 28px;
-      box-shadow: 0 28px 70px rgba(42, 49, 64, 0.22);
+      padding: 10px 10px 26px;
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.06) inset,
+        0 28px 70px rgba(42, 49, 64, 0.22);
       transform-style: preserve-3d;
       transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
                   box-shadow 0.45s ease;
     }
     .tv:hover {
       transform: translateY(-6px);
-      box-shadow: 0 36px 80px rgba(42, 49, 64, 0.3);
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.08) inset,
+        0 36px 80px rgba(42, 49, 64, 0.3);
     }
     .tv img {
       width: 100%;
       height: auto;
       display: block;
-      border-radius: 14px;
+      border-radius: 12px;
       background: #111;
       transition: opacity 0.28s ease;
     }
@@ -277,17 +325,60 @@
     .shot-card h3 { margin: 16px 0 6px; }
     .shot-card p { margin: 0; color: var(--muted); }
     .shot-card.wide { margin-top: 18px; }
-    .device-stage { display: grid; gap: 36px; }
+    .device-roll {
+      --roll-inset: 18px;
+      position: relative;
+    }
+    .device-roll-frame {
+      position: relative;
+      background: #f7f8fb;
+      border-radius: 22px;
+    }
+    .device-roll-window {
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      overscroll-behavior-x: contain;
+      scrollbar-width: none;
+      cursor: grab;
+      touch-action: pan-x;
+      user-select: none;
+    }
+    .device-roll-window::-webkit-scrollbar { display: none; }
+    .device-roll-window.is-dragging {
+      scroll-snap-type: none;
+      scroll-behavior: auto;
+      cursor: grabbing;
+    }
+    .device-roll-track {
+      display: flex;
+      align-items: stretch;
+      gap: 14px;
+      padding: 22px var(--roll-inset) 18px;
+    }
+    .device-roll-track .device {
+      flex: 0 0 calc(100% - 52px);
+      scroll-snap-align: center;
+      scroll-snap-stop: always;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-width: 0;
+    }
+    .device-visual {
+      display: flex;
+      align-items: flex-end;
+      justify-content: center;
+      width: 100%;
+      min-height: min(44vh, 440px);
+    }
     .window {
       overflow: hidden;
+      width: 100%;
+      max-width: 920px;
       border-radius: 16px;
       box-shadow: 0 22px 50px rgba(42, 49, 64, 0.16);
-      transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-                  box-shadow 0.45s ease;
-    }
-    .window:hover {
-      transform: translateY(-6px);
-      box-shadow: 0 30px 64px rgba(42, 49, 64, 0.22);
     }
     .window img {
       width: 100%;
@@ -296,42 +387,12 @@
       transition: opacity 0.28s ease;
     }
     .window img.is-swapping { opacity: 0; }
-    .device-shelf {
-      display: grid;
-      grid-template-columns: max-content max-content;
-      grid-template-rows: auto auto auto;
-      justify-content: center;
-      align-items: end;
-      column-gap: clamp(32px, 5vw, 56px);
-      row-gap: 12px;
-    }
-    .device-shelf .device { display: contents; }
-    .device-shelf .tablet .bezel { grid-column: 1; grid-row: 1; }
-    .device-shelf .phone .bezel { grid-column: 2; grid-row: 1; }
-    .device-shelf .tablet h3 { grid-column: 1; grid-row: 2; }
-    .device-shelf .phone h3 { grid-column: 2; grid-row: 2; }
-    .device-shelf .tablet p { grid-column: 1; grid-row: 3; }
-    .device-shelf .phone p { grid-column: 2; grid-row: 3; }
-    .device-shelf h3,
-    .device-shelf p {
-      margin: 0;
-      min-width: 100%;
-      max-width: 0;
-      justify-self: stretch;
-      align-self: start;
-    }
     .device .bezel {
       width: max-content;
-      justify-self: start;
+      max-width: 100%;
       line-height: 0;
       overflow: hidden;
       box-shadow: 0 18px 40px rgba(42, 49, 64, 0.14);
-      transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-                  box-shadow 0.45s ease;
-    }
-    .device .bezel:hover {
-      transform: translateY(-8px);
-      box-shadow: 0 28px 52px rgba(42, 49, 64, 0.22);
     }
     .device.tablet .bezel {
       background: #1c1c1c;
@@ -345,8 +406,9 @@
     }
     .device.tablet .bezel img,
     .device.phone .bezel img {
-      height: min(52vh, 520px);
+      height: min(44vh, 440px);
       width: auto;
+      max-width: 100%;
       display: block;
       vertical-align: top;
       transition: opacity 0.28s ease;
@@ -354,17 +416,229 @@
     .device img.is-swapping { opacity: 0; }
     .device.tablet .bezel img { border-radius: 13px; }
     .device.phone .bezel img { border-radius: 25px; }
-    .device h3 { margin: 14px 0 4px; font-size: 1.02rem; }
-    .device p { margin: 0; color: var(--muted); font-size: 0.95rem; max-width: 42ch; }
-    .device.desktop h3 { margin-top: 16px; }
+    .device-copy {
+      width: 100%;
+      max-width: 36rem;
+      padding-top: 16px;
+    }
+    .device.phone .device-copy,
+    .device.tablet .device-copy { max-width: 22rem; }
+    .device-copy h3 { margin: 0 0 4px; font-size: 1.02rem; }
+    .device-copy p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .device-roll-btn {
+      position: absolute;
+      top: 34%;
+      z-index: 2;
+      width: 42px;
+      height: 42px;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.92);
+      color: var(--ink);
+      box-shadow: 0 8px 22px rgba(42, 49, 64, 0.12);
+      cursor: pointer;
+      transform: translateY(-50%);
+      transition: transform 0.28s var(--ease), box-shadow 0.28s ease, opacity 0.2s ease;
+    }
+    .device-roll-btn svg {
+      width: 18px;
+      height: 18px;
+      display: block;
+    }
+    .device-roll-btn.is-prev { left: 10px; }
+    .device-roll-btn.is-next { right: 10px; }
+    .device-roll-btn:hover {
+      transform: translateY(calc(-50% - 2px));
+      box-shadow: 0 12px 26px rgba(42, 49, 64, 0.16);
+    }
+    .device-roll-btn:focus-visible,
+    .device-roll-window:focus-visible,
+    .device-roll-dots button:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+    }
+    .device-roll-btn:disabled {
+      opacity: 0.35;
+      pointer-events: none;
+      transform: translateY(-50%);
+      box-shadow: none;
+    }
+    .device-roll-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      margin-top: 14px;
+    }
+    .device-roll-dots button {
+      width: 8px;
+      height: 8px;
+      padding: 10px 4px;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+    .device-roll-dots button::before {
+      content: "";
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(30, 36, 48, 0.22);
+      transition: width 0.25s var(--ease), background 0.2s ease;
+    }
+    .device-roll-dots button[aria-current="true"]::before {
+      width: 22px;
+      background: var(--ink);
+    }
     .page { display: none; }
     .page.is-on { display: block; }
-    .lists-hero { padding: 18px 0 8px; }
-    .lists-hero .lead { margin-bottom: 14px; font-size: 1.05rem; }
-    .tip {
-      margin: 0 0 22px;
+    .lists-shell {
+      position: relative;
+      z-index: 1;
+      margin: 18px 0 28px;
+      padding: 28px 32px 24px;
+      background: #fff;
+      border: 1px solid rgba(30, 36, 48, 0.08);
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(30, 36, 48, 0.06);
+    }
+    .lists-hero {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 0 0 4px;
+    }
+    .lists-hero-copy { min-width: 0; max-width: 42rem; }
+    .lists-title-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .lists-title-row h1 {
+      font-size: clamp(1.7rem, 3vw, 2.15rem);
+      max-width: none;
+      margin: 0;
+      letter-spacing: -0.04em;
+      font-weight: 600;
+    }
+    .lists-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: #eef1f5;
       color: var(--muted);
-      max-width: 42rem;
+      font-size: 0.72rem;
+      font-weight: 650;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .lists-hero .lead {
+      margin: 0 0 8px;
+      font-size: 1.02rem;
+      max-width: 40rem;
+      color: #5c6573;
+      line-height: 1.5;
+    }
+    .tip {
+      margin: 0;
+      color: var(--muted);
+      max-width: 40rem;
+      font-size: 0.92rem;
+    }
+    .lists-submit {
+      margin: 12px 0 0;
+    }
+    .lists-submit a {
+      font-weight: 650;
+      font-size: 0.92rem;
+    }
+    .lists-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px 24px;
+      width: 100%;
+      padding: 18px 0 2px;
+      border-top: 1px solid var(--line);
+      margin-top: 14px;
+    }
+    .lists-stat {
+      min-width: 0;
+      opacity: 0;
+      transform: translate3d(0, 12px, 0);
+      transition: opacity 0.65s var(--ease), transform 0.65s var(--ease);
+    }
+    .lists-stat.is-in { opacity: 1; transform: none; }
+    .lists-stat:nth-child(2) { transition-delay: 0.06s; }
+    .lists-stat:nth-child(3) { transition-delay: 0.12s; }
+    .lists-stat:nth-child(4) { transition-delay: 0.18s; }
+    .lists-stat strong {
+      display: block;
+      font-size: clamp(2rem, 3.6vw, 2.85rem);
+      font-weight: 200;
+      letter-spacing: -0.05em;
+      line-height: 0.95;
+      color: var(--stat);
+      font-variant-numeric: tabular-nums;
+    }
+    .lists-stat span {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.68rem;
+      font-weight: 650;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #a0a7b3;
+    }
+    .lists-updated {
+      margin: 10px 0 0;
+      color: #a0a7b3;
+      font-size: 0.78rem;
+      letter-spacing: 0.02em;
+    }
+    .lists-curate {
+      margin: 18px 0 4px;
+      padding: 18px 0 2px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px 28px;
+    }
+    .lists-curate article {
+      min-width: 0;
+      opacity: 0;
+      transform: translate3d(0, 14px, 0);
+      transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+    }
+    .lists-curate article.is-in { opacity: 1; transform: none; }
+    .lists-curate article:nth-child(2) { transition-delay: 0.08s; }
+    .lists-curate article:nth-child(3) { transition-delay: 0.16s; }
+    .lists-curate .step {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #a8b0bc;
+    }
+    .lists-curate h3 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .lists-curate p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
     }
     .lists-toolbar {
       position: sticky;
@@ -374,16 +648,21 @@
       flex-wrap: wrap;
       align-items: center;
       gap: 10px 12px;
-      margin: 0 0 14px;
-      padding: 10px 0 12px;
-      background: color-mix(in srgb, var(--canvas) 88%, #fff);
+      margin: 16px 0 14px;
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+      background: color-mix(in srgb, #fff 92%, transparent);
       backdrop-filter: blur(14px);
       -webkit-backdrop-filter: blur(14px);
     }
-    .lists-views { display: flex; flex-wrap: wrap; gap: 8px; }
-    .lists-toolbar button {
+    .lists-views {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .lists-views button {
       border: 1px solid var(--line);
-      background: var(--surface);
+      background: #f7f8fb;
       color: var(--muted);
       font: inherit;
       font-weight: 650;
@@ -391,8 +670,9 @@
       padding: 8px 14px;
       border-radius: 999px;
       cursor: pointer;
+      transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
     }
-    .lists-toolbar button[aria-pressed="true"] {
+    .lists-views button[aria-pressed="true"] {
       background: var(--ink);
       color: #f4efe6;
       border-color: var(--ink);
@@ -404,15 +684,17 @@
     .lists-search input {
       width: 100%;
       border: 1px solid var(--line);
-      background: var(--surface);
+      background: #f7f8fb;
       color: var(--ink);
       font: inherit;
-      padding: 9px 14px;
+      padding: 11px 16px;
       border-radius: 999px;
+      transition: background 0.25s ease, box-shadow 0.25s ease;
     }
     .lists-search input:focus {
-      outline: 2px solid var(--ink);
-      outline-offset: 2px;
+      outline: none;
+      background: #fff;
+      box-shadow: 0 0 0 2px rgba(30, 36, 48, 0.18);
     }
     .lists-pins, .lists-letters {
       display: flex;
@@ -422,7 +704,7 @@
     }
     .lists-pins button, .lists-letters a {
       border: 1px solid var(--line);
-      background: var(--surface);
+      background: #f7f8fb;
       color: var(--muted);
       font: inherit;
       font-weight: 650;
@@ -431,8 +713,12 @@
       border-radius: 999px;
       cursor: pointer;
       text-decoration: none;
+      transition: background 0.25s ease, color 0.25s ease, transform 0.25s var(--ease);
     }
-    .lists-letters a:hover, .lists-pins button:hover { color: var(--ink); }
+    .lists-letters a:hover, .lists-pins button:hover {
+      color: var(--ink);
+      transform: translateY(-1px);
+    }
     .lists-pins button[aria-pressed="true"],
     .lists-pins button.is-hit,
     .lists-letters a[aria-current="true"],
@@ -456,13 +742,28 @@
       outline-offset: -2px;
     }
     .list-row.is-pick { cursor: pointer; }
-    .list-row.is-featured {
-      background: color-mix(in srgb, var(--surface) 70%, #fff);
-      margin: 0 0 10px;
-      padding: 16px 14px;
-      border: 1px solid var(--line);
-      border-radius: 18px;
+    .list-block:not(.is-open) .list-row.is-pick:hover {
+      background: #f6f8fb;
+      border-radius: 16px;
     }
+    .list-featured {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin: 0 0 18px;
+    }
+    .list-featured .list-block.is-open { grid-column: 1 / -1; }
+    .list-row.is-featured {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 18px 18px 16px;
+      border: 0;
+      border-radius: 20px;
+    }
+    .list-featured .list-row { border-top: 0; }
+    .list-featured .list-side { justify-content: flex-start; }
     .list-block { min-width: 0; }
     .list-block.is-open {
       margin: 8px -12px 16px;
@@ -495,6 +796,7 @@
       margin-bottom: 6px;
     }
     .list-name-row .list-name { margin: 0; }
+    .list-block:not(.is-open) .list-name-row .status-pip { display: none; }
     .status-pip {
       width: 8px;
       height: 8px;
@@ -632,11 +934,11 @@
     .list-copy-stack { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
     .list-row.is-group { align-items: start; }
     .catalog {
-      background: var(--surface);
-      border: 1px solid var(--line);
-      border-radius: 24px;
-      padding: 22px 22px 8px;
-      margin-bottom: 18px;
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 8px 0 0;
+      margin-bottom: 0;
     }
     .catalog-head {
       display: flex;
@@ -646,9 +948,29 @@
       gap: 8px 16px;
       margin-bottom: 4px;
     }
-    .catalog-head h2 { font-size: 1.2rem; margin: 0; }
+    .catalog-head h2 { font-size: 1.15rem; margin: 0; letter-spacing: -0.02em; }
     .catalog-head a { font-weight: 650; font-size: 0.92rem; }
     .catalog .intro { margin-bottom: 12px; font-size: 0.95rem; }
+    #page-lists .notice,
+    #page-lists .credits {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(30, 36, 48, 0.06);
+    }
+    .lists-foot {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 0 0 28px;
+      position: relative;
+      z-index: 1;
+    }
+    .lists-foot .notice,
+    .lists-foot .credits { margin-top: 0; }
     .list-grid {
       display: flex;
       flex-direction: column;
@@ -735,7 +1057,7 @@
       padding: 28px;
       margin-top: 28px;
     }
-    #page-home .notice { margin-top: 56px; }
+    #page-home .notice { margin-top: 18px; }
     .credits h2, .notice h2 { margin-bottom: 12px; }
     .credits p, .notice p { margin: 0 0 10px; color: var(--muted); }
     .credits p:last-child, .notice p:last-child { margin-bottom: 0; }
@@ -743,6 +1065,12 @@
       padding: 28px 0 52px;
       color: var(--muted);
       font-size: 0.95rem;
+    }
+    @media (max-width: 980px) {
+      .lists-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lists-curate { grid-template-columns: 1fr; }
+      .lists-foot { grid-template-columns: 1fr; }
+      .list-featured { grid-template-columns: 1fr; }
     }
     @media (max-width: 860px) {
       .features, .pair, .format-groups { grid-template-columns: 1fr; }
@@ -755,24 +1083,27 @@
       .list-side { justify-content: flex-start; }
       .lists-toolbar { position: static; padding-top: 0; }
       .lists-letters { display: none; }
-      .device-shelf {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+      .lists-shell { padding: 22px 18px 20px; border-radius: 24px; }
+      .lists-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lists-curate { grid-template-columns: 1fr; }
+      .device-roll { --roll-inset: 12px; }
+      .device-roll-track {
+        padding: 16px var(--roll-inset) 14px;
+        gap: 10px;
       }
-      .device-shelf .device {
-        display: flex;
-        flex-direction: column;
-        width: min(100%, 360px);
-      }
-      .device-shelf .bezel { width: 100%; }
-      .device-shelf h3,
-      .device-shelf p {
-        max-width: none;
-        min-width: 0;
-      }
+      .device-roll-track .device { flex-basis: calc(100% - 28px); }
+      .device-visual { min-height: 0; }
+      .device.tablet .bezel { width: min(100%, 280px); }
+      .device.phone .bezel { width: min(100%, 220px); }
       .device.tablet .bezel img,
       .device.phone .bezel img { height: auto; width: 100%; }
+      .device-roll-btn {
+        width: 36px;
+        height: 36px;
+        top: 42%;
+      }
+      .device-roll-btn.is-prev { left: 6px; }
+      .device-roll-btn.is-next { right: 6px; }
       .header-bar {
         display: grid;
         grid-template-columns: 1fr auto;
@@ -792,15 +1123,17 @@
       .langs { grid-area: langs; }
     }
     @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
+      html, .device-roll-window { scroll-behavior: auto; }
       .reveal, .reveal.is-in,
       .brand img, .brand-mark, .btn, .tv, .tv img, .card, .chips li,
       .window, .window img, .device .bezel, .device img,
-      .langs button, nav a, .page-tabs a, .lists-toolbar button, .list-row, .copy, .pill a, .pill button {
+      .langs button, nav a, .page-tabs a, .lists-toolbar button, .list-row, .copy, .pill a, .pill button,
+      .lists-shell, .lists-stat, .lists-curate article, .lists-views button {
         transition: none !important;
         transform: none !important;
+        animation: none !important;
       }
-      .reveal { opacity: 1; }
+      .reveal, .lists-stat, .lists-curate article { opacity: 1; }
     }
   </style>
 </head>
@@ -811,7 +1144,7 @@
         <span class="brand-mark">
           <img src="assets/icon.png" alt="">
         </span>
-        <strong class="brand-text">tamaTV</strong>
+        <span class="visually-hidden">tamaTV</span>
       </a>
       <nav class="pill page-tabs" aria-label="tamaTV">
         <a href="./" data-tab="home" data-i18n="navHome"></a>
@@ -835,6 +1168,7 @@
     <div class="page is-on" id="page-home" data-page="home">
     <section class="hero">
       <div class="kicker" data-i18n="kicker"></div>
+      <p class="brand-hero">tamaTV</p>
       <h1 data-i18n="title"></h1>
       <p class="lead" data-i18n="lead"></p>
       <p class="actions">
@@ -956,7 +1290,7 @@
           <p data-i18n="liveP"></p>
         </article>
         <article class="shot-card">
-          <div class="tv"><img src="assets/en/tv-rankings.jpg" alt="" data-shot="tv-rankings" data-i18n-alt="feedAlt"></div>
+          <div class="tv"><img src="assets/en/tv-guide.jpg" alt="" data-shot="tv-guide" data-i18n-alt="feedAlt"></div>
           <h3 data-i18n="feedT"></h3>
           <p data-i18n="feedP"></p>
         </article>
@@ -968,32 +1302,59 @@
       </article>
     </section>
 
-    <section class="section">
+    <section class="section" id="more">
       <h2 data-i18n="moreTitle"></h2>
       <p class="intro" data-i18n="moreIntro"></p>
-      <div class="device-stage">
-        <article class="device desktop">
-          <div class="window">
-            <img src="assets/en/mac-featured.jpg" alt="" data-shot="mac-featured" data-i18n-alt="macAlt">
+      <div class="device-roll">
+        <div class="device-roll-frame">
+          <button type="button" class="device-roll-btn is-prev" data-roll-dir="-1" data-i18n-aria="morePrev">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6 9 12l6 6"/></svg>
+          </button>
+          <div class="device-roll-window" data-roll-window tabindex="0" role="region" data-i18n-aria="moreRoll">
+            <div class="device-roll-track">
+              <article class="device tablet">
+                <div class="device-visual">
+                  <div class="bezel">
+                    <img src="assets/en/ipad-featured.jpg" alt="" data-shot="ipad-featured" data-i18n-alt="ipadAlt">
+                  </div>
+                </div>
+                <div class="device-copy">
+                  <h3 data-i18n="ipadT"></h3>
+                  <p data-i18n="ipadP"></p>
+                </div>
+              </article>
+              <article class="device phone">
+                <div class="device-visual">
+                  <div class="bezel">
+                    <img src="assets/en/iphone-channels.jpg" alt="" data-shot="iphone-channels" data-i18n-alt="iphoneAlt">
+                  </div>
+                </div>
+                <div class="device-copy">
+                  <h3 data-i18n="iphoneT"></h3>
+                  <p data-i18n="iphoneP"></p>
+                </div>
+              </article>
+              <article class="device desktop">
+                <div class="device-visual">
+                  <div class="window">
+                    <img src="assets/en/mac-featured.jpg" alt="" data-shot="mac-featured" data-i18n-alt="macAlt">
+                  </div>
+                </div>
+                <div class="device-copy">
+                  <h3 data-i18n="macT"></h3>
+                  <p data-i18n="macP"></p>
+                </div>
+              </article>
+            </div>
           </div>
-          <h3 data-i18n="macT"></h3>
-          <p data-i18n="macP"></p>
-        </article>
-        <div class="device-shelf">
-          <article class="device tablet">
-            <div class="bezel">
-              <img src="assets/en/ipad-featured.jpg" alt="" data-shot="ipad-featured" data-i18n-alt="ipadAlt">
-            </div>
-            <h3 data-i18n="ipadT"></h3>
-            <p data-i18n="ipadP"></p>
-          </article>
-          <article class="device phone">
-            <div class="bezel">
-              <img src="assets/en/iphone-channels.jpg" alt="" data-shot="iphone-channels" data-i18n-alt="iphoneAlt">
-            </div>
-            <h3 data-i18n="iphoneT"></h3>
-            <p data-i18n="iphoneP"></p>
-          </article>
+          <button type="button" class="device-roll-btn is-next" data-roll-dir="1" data-i18n-aria="moreNext">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m9 6 6 6-6 6"/></svg>
+          </button>
+        </div>
+        <div class="device-roll-dots">
+          <button type="button" data-roll-to="0" data-i18n-aria="ipadT" aria-current="true"></button>
+          <button type="button" data-roll-to="1" data-i18n-aria="iphoneT"></button>
+          <button type="button" data-roll-to="2" data-i18n-aria="macT"></button>
         </div>
       </div>
     </section>
@@ -1011,43 +1372,74 @@
     </div>
 
     <div class="page" id="page-lists" data-page="lists">
-      <section class="lists-hero">
-        <div class="kicker" data-i18n="listsKicker"></div>
-        <h1 data-i18n="listsTitle"></h1>
-        <p class="lead" data-i18n="listsLead"></p>
-        <p class="tip" data-i18n="listsHowP"></p>
-      </section>
-      <div class="lists-toolbar">
-        <div class="lists-views" role="tablist" aria-label="List sections">
-          <button type="button" data-view="countries" aria-pressed="true" data-i18n="viewCountries"></button>
-          <button type="button" data-view="categories" aria-pressed="false" data-i18n="viewCategories"></button>
-          <button type="button" data-view="guides" aria-pressed="false" data-i18n="viewGuides"></button>
+      <div class="lists-shell" id="lists-shell">
+        <section class="lists-hero">
+          <div class="lists-hero-copy">
+            <div class="kicker" data-i18n="listsKicker"></div>
+            <div class="lists-title-row">
+              <h1 data-i18n="listsTitle"></h1>
+              <span class="lists-badge" data-i18n="listsBadge"></span>
+            </div>
+            <p class="lead" data-i18n="listsLead"></p>
+            <p class="tip" data-i18n="listsHowP"></p>
+            <p class="lists-submit">
+              <a href="https://github.com/EZHU331/tamatv/issues/new?template=channel.yml" data-i18n="listsSubmit"></a>
+            </p>
+          </div>
+          <div class="lists-stats" id="lists-stats" aria-live="polite"></div>
+          <p class="lists-updated" id="lists-updated"></p>
+        </section>
+        <section class="lists-curate" id="lists-curate" aria-label="Curation">
+          <article>
+            <span class="step" data-i18n="curate1Step"></span>
+            <h3 data-i18n="curate1T"></h3>
+            <p data-i18n="curate1P"></p>
+          </article>
+          <article>
+            <span class="step" data-i18n="curate2Step"></span>
+            <h3 data-i18n="curate2T"></h3>
+            <p data-i18n="curate2P"></p>
+          </article>
+          <article>
+            <span class="step" data-i18n="curate3Step"></span>
+            <h3 data-i18n="curate3T"></h3>
+            <p data-i18n="curate3P"></p>
+          </article>
+        </section>
+        <div class="lists-toolbar">
+          <div class="lists-views" role="tablist" aria-label="List sections">
+            <button type="button" data-view="countries" aria-pressed="true" data-i18n="viewCountries"></button>
+            <button type="button" data-view="categories" aria-pressed="false" data-i18n="viewCategories"></button>
+            <button type="button" data-view="guides" aria-pressed="false" data-i18n="viewGuides"></button>
+          </div>
+          <label class="lists-search">
+            <span class="visually-hidden" data-i18n="searchLists"></span>
+            <input id="lists-q" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search">
+          </label>
         </div>
-        <label class="lists-search">
-          <span class="visually-hidden" data-i18n="searchLists"></span>
-          <input id="lists-q" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search">
-        </label>
+        <div class="lists-pins" id="lists-pins" hidden></div>
+        <nav class="lists-letters" id="lists-letters" hidden></nav>
+        <p class="lists-status" id="lists-status"></p>
+        <article class="catalog">
+          <div class="catalog-head">
+            <h2 id="lists-heading"></h2>
+            <a id="lists-source" rel="noopener noreferrer" target="_blank" referrerpolicy="no-referrer"></a>
+          </div>
+          <p class="intro" id="lists-intro"></p>
+          <div class="list-grid" id="lists-grid"></div>
+        </article>
       </div>
-      <div class="lists-pins" id="lists-pins" hidden></div>
-      <nav class="lists-letters" id="lists-letters" hidden></nav>
-      <p class="lists-status" id="lists-status"></p>
-      <article class="catalog">
-        <div class="catalog-head">
-          <h2 id="lists-heading"></h2>
-          <a id="lists-source" rel="noopener noreferrer" target="_blank" referrerpolicy="no-referrer"></a>
-        </div>
-        <p class="intro" id="lists-intro"></p>
-        <div class="list-grid" id="lists-grid"></div>
-      </article>
-      <section class="notice">
-        <h2 data-i18n="listsNoticeT"></h2>
-        <p data-i18n="listsNoticeP"></p>
-      </section>
-      <section class="credits">
-        <h2 data-i18n="listsCreditsT"></h2>
-        <p data-i18n-html="listsCreditsP1"></p>
-        <p data-i18n-html="listsCreditsP2"></p>
-      </section>
+      <div class="lists-foot">
+        <section class="notice">
+          <h2 data-i18n="listsNoticeT"></h2>
+          <p data-i18n="listsNoticeP"></p>
+        </section>
+        <section class="credits">
+          <h2 data-i18n="listsCreditsT"></h2>
+          <p data-i18n-html="listsCreditsP1"></p>
+          <p data-i18n-html="listsCreditsP2"></p>
+        </section>
+      </div>
     </div>
 
     <footer data-i18n-html="footer"></footer>
@@ -1096,17 +1488,20 @@
         fmtSubP: "External subtitles and danmaku on supported streams.",
         tvTitle: "On Apple TV",
         tvIntro: "Large cards, a top tab bar, and a sidebar you can drive from the couch.",
-        liveAlt: "Live rooms on Apple TV",
-        liveT: "Live",
-        liveP: "Jump into a room from Featured, Following, Popular, and more.",
-        feedAlt: "Rankings on Apple TV",
-        feedT: "Rankings",
-        feedP: "See what’s climbing, from the couch.",
+        liveAlt: "Live TV on Apple TV",
+        liveT: "Live TV",
+        liveP: "Open a channel fullscreen. Now and next stay on screen while you watch.",
+        feedAlt: "TV guide on Apple TV",
+        feedT: "TV guide",
+        feedP: "Browse Japan and world lists with now, next, and progress.",
         chAlt: "Search on Apple TV",
         chT: "Search",
         chP: "Ask Siri, use Apple TV Search, or type in the Search tab. Results play on the big screen.",
         moreTitle: "Also on iPad, iPhone, and Mac",
         moreIntro: "Same player, closer to hand. iPad and Mac keep the full set of tabs. iPhone is built around live TV and a home library.",
+        morePrev: "Previous",
+        moreNext: "Next",
+        moreRoll: "iPad, iPhone, and Mac",
         ipadAlt: "Featured feed on iPad",
         ipadT: "iPad",
         ipadP: "QR sign-in, Featured, live, favorites, rankings, search, channels, and library.",
@@ -1124,10 +1519,27 @@
         footer: 'Public issues live in <a href="https://github.com/EZHU331/tamatv/issues">this repository</a>.',
         listsKicker: "M3U · M3U8 · XMLTV",
         listsTitle: "Live TV lists",
-        listsLead: "Public playlists by country and category. World news and Japan are tidied separately. Low-resolution copies are left out. tamaTV does not host the streams.",
-        listsHowP: "In TV Channels, add a playlist and paste a URL. tamaTV already includes the Japan and world news lists.",
+        listsBadge: "Curated",
+        listsLead: "Public playlists by country and category, tidied for the player. World news and Japan are hand-finished. tamaTV does not host the streams.",
+        listsHowP: "In TV Channels, add a playlist and paste a URL. Japan and world news are already included.",
+        listsSubmit: "Suggest a channel",
+        statCountries: "Countries",
+        statChannels: "Channels",
+        statLists: "Playlists",
+        statGuides: "Guides",
+        listsUpdated: "Updated {date}",
+        curate1Step: "01",
+        curate1T: "Gather",
+        curate1P: "Public indexes are collected from trusted maintainers, then rebuilt into country, category, and guide lists.",
+        curate2Step: "02",
+        curate2T: "AI tidy",
+        curate2P: "Assisted curation drops adult and VOD noise, keeps the sharper copy of each channel, and sorts groups for the remote.",
+        curate3Step: "03",
+        curate3T: "Pair & check",
+        curate3P: "Logos and XMLTV guides are matched where possible. Japan and world news are probed and reviewed separately.",
         featuredJapan: "Japan",
         featuredWorld: "World news & documentary",
+        featuredCommunity: "Community",
         searchLists: "Search lists",
         searchPlaceholder: "Search country, category, or list",
         viewCountries: "Country",
@@ -1200,17 +1612,20 @@
         fmtSubP: "外挂字幕，以及支持弹幕的内容。",
         tvTitle: "在 Apple TV 上",
         tvIntro: "大卡片、顶部标签栏，侧边栏可用遥控器操作。",
-        liveAlt: "Apple TV 上的直播",
-        liveT: "直播",
-        liveP: "从推荐、关注、热门等进入直播间。",
-        feedAlt: "Apple TV 上的排行",
-        feedT: "排行",
-        feedP: "在沙发上看正在上升的内容。",
+        liveAlt: "Apple TV 上的电视直播",
+        liveT: "电视直播",
+        liveP: "全屏打开频道，当前和下一个节目显示在画面上。",
+        feedAlt: "Apple TV 上的节目表",
+        feedT: "节目表",
+        feedP: "浏览日本与国际列表，查看当前、即将播出和进度。",
         chAlt: "Apple TV 上的搜索",
         chT: "搜索",
         chP: "可用 Siri、Apple TV 搜索，或在应用的搜索页输入，结果在大屏上播放。",
         moreTitle: "也适用于 iPad、iPhone 与 Mac",
         moreIntro: "同一个播放器，离手更近。iPad 与 Mac 保留完整标签。iPhone 以直播电视和家庭媒体库为主。",
+        morePrev: "上一个",
+        moreNext: "下一个",
+        moreRoll: "iPad、iPhone 与 Mac",
         ipadAlt: "iPad 上的推荐",
         ipadT: "iPad",
         ipadP: "二维码登录、推荐、直播、收藏、排行、搜索、频道与媒体库。",
@@ -1228,10 +1643,27 @@
         footer: '公开问题请提交到 <a href="https://github.com/EZHU331/tamatv/issues">此仓库</a>。',
         listsKicker: "M3U · M3U8 · XMLTV",
         listsTitle: "直播列表",
-        listsLead: "按国家和地区、分类整理的公开直播列表。世界新闻与日本列表另行整理。低清晰度备份已去掉。tamaTV 不托管这些直播。",
+        listsBadge: "精选整理",
+        listsLead: "按国家和地区、分类整理的公开直播列表，方便在播放器里浏览。世界新闻与日本列表另行精修。tamaTV 不托管这些直播。",
         listsHowP: "在「电视频道」中添加列表并粘贴地址。应用里已包含日本和世界新闻列表。",
+        listsSubmit: "提交频道",
+        statCountries: "国家/地区",
+        statChannels: "频道",
+        statLists: "列表",
+        statGuides: "节目表",
+        listsUpdated: "更新于 {date}",
+        curate1Step: "01",
+        curate1T: "汇集",
+        curate1P: "从可信维护者的公开索引收集来源，再重建为国家/地区、分类与节目表列表。",
+        curate2Step: "02",
+        curate2T: "AI 整理",
+        curate2P: "辅助整理会去掉成人与点播噪声，保留更清晰的一路，并把分组排成适合遥控器的顺序。",
+        curate3Step: "03",
+        curate3T: "配对与抽检",
+        curate3P: "尽量配对台标与 XMLTV。日本与世界新闻列表会单独探测并复核。",
         featuredJapan: "日本",
         featuredWorld: "世界新闻与纪录",
+        featuredCommunity: "社区提交",
         searchLists: "搜索列表",
         searchPlaceholder: "搜索国家、分类或列表名",
         viewCountries: "国家/地区",
@@ -1304,17 +1736,20 @@
         fmtSubP: "外部字幕と、対応ストリームの弾幕。",
         tvTitle: "Apple TVで",
         tvIntro: "大きなカード、上のタブバー、ソファから操作できるサイドバー。",
-        liveAlt: "Apple TVのライブ",
-        liveT: "ライブ",
-        liveP: "おすすめ、フォロー、人気などから配信に入れます。",
-        feedAlt: "Apple TVのランキング",
-        feedT: "ランキング",
-        feedP: "ソファから急上昇をチェック。",
+        liveAlt: "Apple TVのライブTV",
+        liveT: "ライブTV",
+        liveP: "チャンネルを全画面で再生。いまの番組と次の番組が画面に残ります。",
+        feedAlt: "Apple TVの番組表",
+        feedT: "番組表",
+        feedP: "日本と世界のリストを、現在・次の番組・進行状況つきで見られます。",
         chAlt: "Apple TVの検索",
         chT: "検索",
         chP: "Siri、Apple TVの検索、アプリの検索タブ。結果は大画面で再生。",
         moreTitle: "iPad、iPhone、Macでも",
         moreIntro: "同じプレーヤーを手元でも。iPadとMacはタブ一式。iPhoneはライブTVと自宅ライブラリが中心です。",
+        morePrev: "前へ",
+        moreNext: "次へ",
+        moreRoll: "iPad、iPhone、Mac",
         ipadAlt: "iPadのおすすめ",
         ipadT: "iPad",
         ipadP: "QRサインイン、おすすめ、ライブ、お気に入り、ランキング、検索、チャンネル、ライブラリ。",
@@ -1332,10 +1767,27 @@
         footer: '公開の問題は <a href="https://github.com/EZHU331/tamatv/issues">このリポジトリ</a> へ。',
         listsKicker: "M3U · M3U8 · XMLTV",
         listsTitle: "ライブリスト",
-        listsLead: "国・地域とカテゴリで整理した公開プレイリストです。世界ニュースと日本は別に整えています。低解像度の重複は除いています。tamaTVは配信をホストしません。",
-        listsHowP: "TVチャンネルでプレイリストを追加し、URLを貼ります。日本と世界ニュースのリストは最初から入っています。",
+        listsBadge: "整理済み",
+        listsLead: "国・地域とカテゴリで整理した公開プレイリストです。世界ニュースと日本は別に仕上げています。tamaTVは配信をホストしません。",
+        listsHowP: "TVチャンネルでプレイリストを追加し、URLを貼ります。日本と世界ニュースは最初から入っています。",
+        listsSubmit: "チャンネルを提案",
+        statCountries: "国・地域",
+        statChannels: "チャンネル",
+        statLists: "リスト",
+        statGuides: "番組表",
+        listsUpdated: "更新 {date}",
+        curate1Step: "01",
+        curate1T: "収集",
+        curate1P: "信頼できるメンテナの公開索引から集め、国・地域、カテゴリ、番組表に組み直します。",
+        curate2Step: "02",
+        curate2T: "AI整理",
+        curate2P: "成人やVODのノイズを除き、同じ番組はより鮮明な方を残し、リモコン向けにグループを並べます。",
+        curate3Step: "03",
+        curate3T: "照合と確認",
+        curate3P: "ロゴとXMLTVを可能な範囲で付けます。日本と世界ニュースは別にプローブして見直します。",
         featuredJapan: "日本",
         featuredWorld: "世界のニュースとドキュメンタリー",
+        featuredCommunity: "コミュニティ",
         searchLists: "リストを検索",
         searchPlaceholder: "国、カテゴリ、リスト名で検索",
         viewCountries: "国・地域",
@@ -1381,9 +1833,13 @@
     let listsPin = "";
     let listsLetter = "";
     let listsOpen = "";
-    let listsOpenVariant = 0;
-    let catalog = { featured: [], countries: [], categories: [], aggregators: [], guides: [] };
+    let listsOpenVariant = -1;
+    let catalog = { featured: [], countries: [], categories: [], aggregators: [], guides: [], updated: "" };
     let catalogPromise = null;
+    let listStats = null;
+    let statsPromise = null;
+    let statsPaintedFor = "";
+    let listsChromeReady = false;
     const playlistCache = Object.create(null);
     const CHANNEL_CAP = 400;
     const GROUP_PILL_CAP = 24;
@@ -1457,7 +1913,7 @@
 
     function syncOpenFromRoute(open) {
       listsOpen = open || "";
-      listsOpenVariant = 0;
+      listsOpenVariant = -1;
       const item = findItem(listsOpen);
       if (item && item.kind === "country") listsPin = item.code;
     }
@@ -1610,12 +2066,24 @@
       host.appendChild(list);
     }
 
+    function displayPath(url) {
+      const abs = httpsUrl(url);
+      if (!abs) return "";
+      try {
+        const path = new URL(abs).pathname.replace(/^\/tamatv/, "") || abs;
+        return path;
+      } catch (_) {
+        return abs;
+      }
+    }
+
     function addCopyRow(stack, url, t, label) {
       const safe = httpsUrl(url);
       if (!safe) return;
       const row = el("div", "list-copy");
       const urlEl = el("div", "list-url");
-      urlEl.textContent = label ? label + " · " + safe : safe;
+      const shown = displayPath(safe);
+      urlEl.textContent = label ? label + " · " + shown : shown;
       urlEl.title = safe;
       const btn = el("button", "copy");
       btn.type = "button";
@@ -1627,9 +2095,14 @@
     }
 
     function addExtras(side, extras, t) {
+      const guides = [];
       (extras || []).forEach((extra) => {
         const url = httpsUrl(extra.url);
         if (!url) return;
+        if (!extra.key || extra.key === "epg") {
+          if (guides.indexOf(url) === -1) guides.push(url);
+          return;
+        }
         const alt = document.createElement("button");
         alt.type = "button";
         alt.className = "alt-copy";
@@ -1638,6 +2111,15 @@
         bindCopy(alt, url, label, t.copied);
         side.appendChild(alt);
       });
+      if (guides.length) {
+        const alt = document.createElement("button");
+        alt.type = "button";
+        alt.className = "alt-copy";
+        alt.textContent = t.filterEpg;
+        alt.title = guides[0];
+        bindCopy(alt, guides[0], t.filterEpg, t.copied);
+        side.appendChild(alt);
+      }
     }
 
     function addOrigin(side, href, label) {
@@ -1661,11 +2143,19 @@
       return allCatalogItems().find((item) => item.id === id) || null;
     }
 
+    function featuredCopyKey(item) {
+      if (!item) return "";
+      if (item.id === "tamatv-world") return "featuredWorld";
+      if (item.id === "tamatv-japan") return "featuredJapan";
+      if (item.id === "tamatv-community") return "featuredCommunity";
+      return "";
+    }
+
     function itemLabel(item, t) {
       if (!item) return "";
-      if (item.kind === "country") return (item.flag ? item.flag + " " : "") + regionName(item.code);
+      if (item.kind === "country") return (item.flag ? item.flag + " " : "") + regionName(item.code) + " · " + item.code;
       if (item.kind === "featured") {
-        const key = item.id === "tamatv-world" ? "featuredWorld" : item.id === "tamatv-japan" ? "featuredJapan" : "";
+        const key = featuredCopyKey(item);
         return (item.flag ? item.flag + " " : "") + (t[key] || item.name || "");
       }
       return item.name || item.id || "";
@@ -1708,7 +2198,7 @@
 
     function variantIndexFor(item) {
       const sources = sourcesFor(item);
-      if (listsOpen === item.id && sources[listsOpenVariant]) return listsOpenVariant;
+      if (listsOpen === item.id && listsOpenVariant >= 0 && sources[listsOpenVariant]) return listsOpenVariant;
       const v4 = sources.findIndex((source) => source.stack === "v4");
       return v4 >= 0 ? v4 : 0;
     }
@@ -1732,7 +2222,7 @@
         let path = parsed.pathname || "";
         if (path.indexOf("/tamatv/") === 0) path = path.slice("/tamatv".length);
         const rel = path.replace(/^\//, "");
-        if (rel === "japan.m3u" || rel === "world.m3u") return rel;
+        if (rel === "japan.m3u" || rel === "world.m3u" || rel === "playlists/community.m3u") return rel;
         if (/^playlists\/(countries|categories|aggregators)\/[a-z0-9._-]+\.m3u8?$/.test(rel)) return rel;
         return "";
       } catch (_) {
@@ -1804,7 +2294,7 @@
         return clean ? " " + name + '="' + clean + '"' : "";
       };
       const header = "#EXTM3U" + (guides.length ? ' url-tvg="' + guides.slice(0, 3).join(",") + '"' : "");
-      const inf = "#EXTINF:-1" + attr("tvg-id", channel.tvgId) + attr("tvg-logo", channel.logo) + attr("group-title", channel.group) + "," + channel.title;
+      const inf = "#EXTINF:-1" + attr("tvg-id", channel.tvgId) + attr("tvg-logo", channel.logo) + attr("group-title", channel.group) + "," + String(channel.title || "").replace(/[\r\n]/g, " ");
       return header + "\n" + inf + "\n" + channel.url + "\n";
     }
 
@@ -1812,15 +2302,16 @@
       if (!item || !item.id) return;
       if (listsOpen === item.id) {
         listsOpen = "";
-        listsOpenVariant = 0;
+        listsOpenVariant = -1;
         if (item.kind === "country") listsPin = "";
       } else {
         listsOpen = item.id;
-        const sources = sourcesFor(item);
-        const v4 = sources.findIndex((source) => source.stack === "v4");
-        listsOpenVariant = v4 >= 0 ? v4 : 0;
+        listsOpenVariant = -1;
         if (item.kind === "country") {
           listsPin = item.code;
+          listsLetter = "";
+        } else {
+          listsPin = "";
           listsLetter = "";
         }
       }
@@ -1856,6 +2347,7 @@
       const path = localPlaylist(source && source.url);
       if (!path) {
         note.textContent = t.channelFail;
+        if (pip) pip.classList.remove("is-on");
         return;
       }
       loadPlaylist(path).then((parsed) => {
@@ -1865,6 +2357,7 @@
       }).catch(() => {
         if (!panel.isConnected) return;
         note.textContent = t.channelFail;
+        if (pip) pip.classList.remove("is-on");
       });
     }
 
@@ -1897,7 +2390,7 @@
           const btn = document.createElement("button");
           btn.type = "button";
           btn.textContent = entry.label || (entry.stack === "v6" ? "IPv6" : "IPv4");
-          btn.setAttribute("aria-pressed", idx === listsOpenVariant ? "true" : "false");
+          btn.setAttribute("aria-pressed", idx === variantIndexFor(item) ? "true" : "false");
           btn.addEventListener("click", () => {
             listsOpenVariant = idx;
             const next = el("div", "channel-panel");
@@ -2041,7 +2534,7 @@
           listsQuery
         );
       } else if (item.kind === "featured") {
-        const featuredKey = item.id === "tamatv-world" ? "featuredWorld" : item.id === "tamatv-japan" ? "featuredJapan" : "";
+        const featuredKey = featuredCopyKey(item);
         appendHighlighted(name, (item.flag ? item.flag + " " : "") + (t[featuredKey] || item.name || ""), listsQuery);
       } else {
         appendHighlighted(name, item.name || "", listsQuery);
@@ -2074,10 +2567,10 @@
       }
       row.appendChild(stack);
       const side = el("div", "list-side");
-      if (item.variants) {
-        item.variants.forEach((v) => addExtras(side, v.extras, t));
-      }
-      addExtras(side, item.extras, t);
+      const extras = [];
+      (item.variants || []).forEach((v) => (v.extras || []).forEach((extra) => extras.push(extra)));
+      (item.extras || []).forEach((extra) => extras.push(extra));
+      addExtras(side, extras, t);
       if (item.origin) addOrigin(side, item.originHref, item.origin);
       row.appendChild(side);
       row.addEventListener("click", (event) => {
@@ -2120,18 +2613,173 @@
       });
     }
 
-    function loadCatalog() {
-      if (catalogPromise) return catalogPromise;
-      catalogPromise = fetch("lists.json", { credentials: "same-origin" }).then((res) => {
-        if (!res.ok) throw new Error("lists");
+    function channelCount(item) {
+      let n = Number(item && item.channels) || 0;
+      (item && item.variants || []).forEach((v) => { n += Number(v.channels) || 0; });
+      return n;
+    }
+
+    function formatStat(n) {
+      const value = Math.round(Number(n) || 0);
+      try {
+        return new Intl.NumberFormat(htmlLang[currentLang] || "en", { notation: value >= 10000 ? "compact" : "standard", maximumFractionDigits: 1 }).format(value);
+      } catch (_) {
+        return String(value);
+      }
+    }
+
+    function formatUpdated(iso) {
+      if (!iso) return "";
+      const date = new Date(iso);
+      if (Number.isNaN(date.getTime())) return "";
+      try {
+        return new Intl.DateTimeFormat(htmlLang[currentLang] || "en", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }).format(date) + " UTC";
+      } catch (_) {
+        return iso;
+      }
+    }
+
+    function animateCount(el, target) {
+      const end = Math.max(0, Math.round(Number(target) || 0));
+      if (prefersReducedMotion() || end <= 0) {
+        el.textContent = formatStat(end);
+        return;
+      }
+      const start = performance.now();
+      const from = 0;
+      const duration = 900;
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / duration);
+        const eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = formatStat(from + (end - from) * eased);
+        if (t < 1) requestAnimationFrame(tick);
+        else el.textContent = formatStat(end);
+      };
+      requestAnimationFrame(tick);
+    }
+
+    function computeStats() {
+      const live = (listStats && listStats.live) || {};
+      const agg = (listStats && listStats.aggregators) || {};
+      const countries = catalog.countries.length || Number(live.countries) || 0;
+      const categories = catalog.categories.length || Number(live.categories) || 0;
+      const aggregators = catalog.aggregators.length || Number(agg.lists) || 0;
+      const featured = catalog.featured.length;
+      const guides = catalog.guides.length || 0;
+      let channels = (Number(live.kept) || 0) + (Number(agg.kept) || 0);
+      if (!channels) {
+        channels =
+          catalog.countries.reduce((n, item) => n + channelCount(item), 0) +
+          catalog.categories.reduce((n, item) => n + channelCount(item), 0) +
+          catalog.aggregators.reduce((n, item) => n + channelCount(item), 0) +
+          catalog.featured.reduce((n, item) => n + channelCount(item), 0);
+      }
+      return {
+        countries,
+        channels,
+        playlists: countries + categories + aggregators + featured,
+        guides: Number(listStats && listStats.epgshare) || guides,
+        updated: (listStats && listStats.updated) || catalog.updated || ""
+      };
+    }
+
+    function revealListsChrome() {
+      if (listsChromeReady) return;
+      listsChromeReady = true;
+      document.querySelectorAll("#lists-curate article").forEach((el) => {
+        if (prefersReducedMotion()) {
+          el.classList.add("is-in");
+          return;
+        }
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-in");
+            io.unobserve(entry.target);
+          });
+        }, { threshold: 0.2 });
+        io.observe(el);
+      });
+    }
+
+    function renderStats(force) {
+      const host = document.getElementById("lists-stats");
+      const updated = document.getElementById("lists-updated");
+      if (!host) return;
+      const t = copy[currentLang] || copy.en;
+      const stats = computeStats();
+      const stamp = currentLang + "|" + stats.countries + "|" + stats.channels + "|" + stats.playlists + "|" + stats.guides + "|" + stats.updated;
+      if (!force && stamp === statsPaintedFor && host.children.length) {
+        if (updated) {
+          const when = formatUpdated(stats.updated);
+          updated.textContent = when ? t.listsUpdated.replace("{date}", when) : "";
+        }
+        Array.from(host.querySelectorAll("span")).forEach((label, idx) => {
+          const keys = [t.statCountries, t.statChannels, t.statLists, t.statGuides];
+          if (keys[idx]) label.textContent = keys[idx];
+        });
+        return;
+      }
+      statsPaintedFor = stamp;
+      const rows = [
+        { key: "countries", label: t.statCountries, value: stats.countries },
+        { key: "channels", label: t.statChannels, value: stats.channels },
+        { key: "playlists", label: t.statLists, value: stats.playlists },
+        { key: "guides", label: t.statGuides, value: stats.guides }
+      ];
+      host.textContent = "";
+      rows.forEach((row, idx) => {
+        const item = el("div", "lists-stat");
+        const strong = document.createElement("strong");
+        strong.dataset.stat = row.key;
+        strong.textContent = "0";
+        const label = document.createElement("span");
+        label.textContent = row.label;
+        item.appendChild(strong);
+        item.appendChild(label);
+        host.appendChild(item);
+        window.setTimeout(() => {
+          item.classList.add("is-in");
+          animateCount(strong, row.value);
+        }, prefersReducedMotion() ? 0 : 90 + idx * 70);
+      });
+      if (updated) {
+        const when = formatUpdated(stats.updated);
+        updated.textContent = when ? t.listsUpdated.replace("{date}", when) : "";
+      }
+    }
+
+    function loadStats() {
+      if (statsPromise) return statsPromise;
+      statsPromise = fetch("playlists/status.json", { credentials: "same-origin" }).then((res) => {
+        if (!res.ok) throw new Error("status");
         return res.json();
       }).then((data) => {
+        listStats = data && typeof data === "object" ? data : null;
+        return listStats;
+      }).catch(() => {
+        listStats = null;
+        return null;
+      });
+      return statsPromise;
+    }
+
+    function loadCatalog() {
+      if (catalogPromise) return catalogPromise;
+      catalogPromise = Promise.all([
+        fetch("lists.json", { credentials: "same-origin" }).then((res) => {
+          if (!res.ok) throw new Error("lists");
+          return res.json();
+        }),
+        loadStats()
+      ]).then(([data]) => {
         catalog = {
           featured: sanitizeList(data.featured, "featured"),
           countries: sanitizeList(data.countries, "country"),
           categories: sanitizeList(data.categories, "category").filter((item) => item.code !== "xxx"),
           aggregators: sanitizeList(data.aggregators, "aggregator"),
-          guides: sanitizeList(data.guides, "guide")
+          guides: sanitizeList(data.guides, "guide"),
+          updated: String(data.updated || "")
         };
         return catalog;
       }).catch(() => catalog);
@@ -2237,10 +2885,14 @@
       const items = currentItems().filter(matchesFocus);
       renderPins();
       renderLetters(items);
+      renderStats(false);
+      revealListsChrome();
       grid.textContent = "";
       const featured = (catalog.featured || []).filter((item) => matchesQuery(item));
-      if (featured.length && !listsPin && !listsLetter) {
-        featured.forEach((item) => grid.appendChild(renderRow(item, t)));
+      if (listsView === "countries" && featured.length && !listsPin && !listsLetter) {
+        const shelf = el("div", "list-featured");
+        featured.forEach((item) => shelf.appendChild(renderRow(item, t)));
+        grid.appendChild(shelf);
       }
       let lastLetter = "";
       items.forEach((item) => {
@@ -2271,6 +2923,9 @@
       });
       document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
         el.setAttribute("alt", t[el.dataset.i18nAlt] || "");
+      });
+      document.querySelectorAll("[data-i18n-aria]").forEach((el) => {
+        el.setAttribute("aria-label", t[el.dataset.i18nAria] || "");
       });
       document.querySelectorAll("[data-shot]").forEach((el) => {
         const file = String(el.dataset.shot || "");
@@ -2317,6 +2972,110 @@
         el.setAttribute("src", src);
         if (el.complete) show();
       }, 180);
+    }
+
+    function setupDeviceRoll() {
+      const root = document.querySelector(".device-roll");
+      const windowEl = document.querySelector("[data-roll-window]");
+      if (!root || !windowEl) return;
+      const slides = Array.from(windowEl.querySelectorAll(".device"));
+      const prev = root.querySelector("[data-roll-dir='-1']");
+      const next = root.querySelector("[data-roll-dir='1']");
+      const dots = Array.from(root.querySelectorAll("[data-roll-to]"));
+      let index = 0;
+      let drag = null;
+
+      const maxIndex = () => Math.max(0, slides.length - 1);
+
+      const slideLeft = (i) => {
+        const slide = slides[i];
+        if (!slide) return 0;
+        const wr = windowEl.getBoundingClientRect();
+        const sr = slide.getBoundingClientRect();
+        return windowEl.scrollLeft + (sr.left - wr.left) - (wr.width - sr.width) / 2;
+      };
+
+      const nearest = () => {
+        const x = windowEl.scrollLeft;
+        let best = 0;
+        let dist = Infinity;
+        slides.forEach((slide, i) => {
+          const d = Math.abs(slideLeft(i) - x);
+          if (d < dist) {
+            dist = d;
+            best = i;
+          }
+        });
+        return best;
+      };
+
+      const sync = (i) => {
+        index = Math.max(0, Math.min(maxIndex(), i));
+        if (prev) prev.disabled = index <= 0;
+        if (next) next.disabled = index >= maxIndex();
+        dots.forEach((dot, n) => {
+          if (n === index) dot.setAttribute("aria-current", "true");
+          else dot.removeAttribute("aria-current");
+        });
+      };
+
+      const go = (i, instant) => {
+        const nextIndex = Math.max(0, Math.min(maxIndex(), i));
+        sync(nextIndex);
+        windowEl.scrollTo({
+          left: slideLeft(nextIndex),
+          behavior: instant || prefersReducedMotion() ? "auto" : "smooth"
+        });
+      };
+
+      if (prev) prev.addEventListener("click", () => go(index - 1));
+      if (next) next.addEventListener("click", () => go(index + 1));
+      dots.forEach((dot) => {
+        dot.addEventListener("click", () => go(Number(dot.dataset.rollTo) || 0));
+      });
+      windowEl.addEventListener("scroll", () => {
+        if (drag) return;
+        sync(nearest());
+      }, { passive: true });
+      windowEl.addEventListener("keydown", (event) => {
+        if (event.key === "ArrowRight") {
+          event.preventDefault();
+          go(index + 1);
+        } else if (event.key === "ArrowLeft") {
+          event.preventDefault();
+          go(index - 1);
+        }
+      });
+      windowEl.querySelectorAll("img").forEach((img) => {
+        img.setAttribute("draggable", "false");
+      });
+      windowEl.addEventListener("pointerdown", (event) => {
+        if (event.pointerType !== "mouse" || event.button !== 0) return;
+        if (event.target.closest("button, a")) return;
+        drag = { id: event.pointerId, x: event.clientX, left: windowEl.scrollLeft, moved: false };
+        windowEl.classList.add("is-dragging");
+        windowEl.setPointerCapture(event.pointerId);
+      });
+      windowEl.addEventListener("pointermove", (event) => {
+        if (!drag || event.pointerId !== drag.id) return;
+        const dx = event.clientX - drag.x;
+        if (Math.abs(dx) > 4) drag.moved = true;
+        windowEl.scrollLeft = drag.left - dx;
+      });
+      const endDrag = (event) => {
+        if (!drag || (event && event.pointerId !== drag.id)) return;
+        windowEl.classList.remove("is-dragging");
+        const moved = drag.moved;
+        drag = null;
+        go(nearest());
+        if (moved) event.preventDefault();
+      };
+      windowEl.addEventListener("pointerup", endDrag);
+      windowEl.addEventListener("pointercancel", endDrag);
+      if (typeof ResizeObserver === "function") {
+        new ResizeObserver(() => go(index, true)).observe(windowEl);
+      }
+      sync(0);
     }
 
     function tilt(el, amount) {
@@ -2371,7 +3130,7 @@
     apply(initialLang());
 
     const revealTargets = document.querySelectorAll(
-      ".hero .kicker, .hero h1, .hero .lead, .hero .actions, .hero .tv, .hero .caption, .section, .card, .shot-card, .device.desktop, .device-shelf, .notice, .credits, .catalog, footer"
+      ".hero .kicker, .hero .brand-hero, .hero h1, .hero .lead, .hero .actions, .hero .tv, .hero .caption, .section, .card, .shot-card, .notice, .credits, .lists-shell, .lists-foot, footer"
     );
     revealTargets.forEach((el, i) => {
       el.classList.add("reveal");
@@ -2388,8 +3147,12 @@
         });
       }, { threshold: 0.14, rootMargin: "0px 0px -8% 0px" });
       revealTargets.forEach((el) => io.observe(el));
-      document.querySelectorAll(".tv, .window, .bezel").forEach((el) => tilt(el, 7));
+      document.querySelectorAll(".tv, .window, .bezel").forEach((el) => {
+        if (el.closest(".device-roll")) return;
+        tilt(el, 7);
+      });
     }
+    setupDeviceRoll();
   </script>
 </body>
 </html>

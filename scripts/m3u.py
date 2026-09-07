@@ -12,6 +12,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 
+import urlcheck
+
 USER_AGENT = "tamatv-playlist/1.0"
 FETCH_TIMEOUT = 45
 PROBE_TIMEOUT = 6
@@ -38,16 +40,6 @@ PAGE_HOSTS = {
 VOD_EXT = {".mp4", ".mkv", ".avi", ".mpg", ".wmv", ".flv"}
 CJK_RE = re.compile(r"[\u4e00-\u9fff]")
 TVG_COUNTRY_RE = re.compile(r"\.([A-Za-z]{2})(?:@|$)")
-PRIVATE_NETS = (
-    ipaddress.ip_network("10.0.0.0/8"),
-    ipaddress.ip_network("127.0.0.0/8"),
-    ipaddress.ip_network("169.254.0.0/16"),
-    ipaddress.ip_network("172.16.0.0/12"),
-    ipaddress.ip_network("192.168.0.0/16"),
-    ipaddress.ip_network("::1/128"),
-    ipaddress.ip_network("fc00::/7"),
-    ipaddress.ip_network("fe80::/10"),
-)
 
 HEIGHT = {
     "8k": 4320,
@@ -118,6 +110,19 @@ CATEGORY_CANON.update(
 
 CN_GROUP_ORDER = ["央视", "卫视", "港澳台", "地方", "新闻", "体育", "少儿", "电影", "纪录", "国际", "其他"]
 CN_GROUP_RANK = {name: i for i, name in enumerate(CN_GROUP_ORDER)}
+CN_TO_CATEGORY = {
+    "新闻": "News",
+    "体育": "Sports",
+    "少儿": "Kids",
+    "电影": "Movies",
+    "纪录": "Documentary",
+    "国际": "General",
+    "央视": "General",
+    "卫视": "General",
+    "港澳台": "General",
+    "地方": "General",
+    "其他": "Other",
+}
 CN_GROUP_RULES = (
     (re.compile(r"央视|cctv", re.I), "央视"),
     (re.compile(r"卫视|卫视频道"), "卫视"),
@@ -173,11 +178,17 @@ def ssl_ctx(insecure: bool = False) -> ssl.SSLContext:
 
 
 def fetch_bytes(url: str, timeout: int = FETCH_TIMEOUT, headers: dict | None = None) -> bytes:
+    if not urlcheck.is_safe_https_url(url, resolve=True):
+        raise RuntimeError(f"blocked fetch {url}")
     req = urllib.request.Request(
         url,
         headers={"User-Agent": USER_AGENT, "Accept": "*/*", **(headers or {})},
     )
-    with urllib.request.urlopen(req, timeout=timeout, context=ssl_ctx()) as resp:
+    opener = urlcheck.opener_for(https_only=True)
+    with opener.open(req, timeout=timeout) as resp:
+        final = resp.geturl()
+        if final and not urlcheck.is_safe_https_url(final, resolve=True):
+            raise RuntimeError(f"blocked redirect {url} -> {final}")
         if resp.status >= 400:
             raise RuntimeError(f"{url} -> {resp.status}")
         return resp.read()
@@ -291,15 +302,15 @@ def is_playable_url(url: str) -> bool:
         return False
     if parsed.scheme not in ("http", "https") or parsed.username or parsed.password:
         return False
-    host = (parsed.hostname or "").lower()
-    if not host or host == "localhost" or host in PAGE_HOSTS:
+    host = (parsed.hostname or "").lower().rstrip(".")
+    if not host or urlcheck.host_is_blocked(host) or host in PAGE_HOSTS:
         return False
     path = (parsed.path or "").lower()
     if any(path.endswith(ext) for ext in VOD_EXT):
         return False
     try:
         ip = ipaddress.ip_address(host)
-        return not any(ip in net for net in PRIVATE_NETS)
+        return urlcheck.ip_is_public(ip)
     except ValueError:
         return True
 
@@ -328,6 +339,13 @@ def primary_category(raw: str, country_names: set[str] | None = None) -> str:
     pool = preferred or named
     pool.sort(key=lambda name: CATEGORY_RANK.get(name.lower(), len(CATEGORY_ORDER)))
     return pool[0]
+
+
+def catalog_category(entry: Entry) -> str:
+    mapped = CN_TO_CATEGORY.get(entry.group)
+    if mapped:
+        return mapped
+    return entry.group or "General"
 
 
 def china_group(raw: str, name: str) -> str:
@@ -466,16 +484,69 @@ def uses_china_groups(entry: Entry, china: bool | str) -> bool:
     return is_cjk(entry.name) or is_cjk(entry.group) or entry.country in {"CN", "HK", "TW", "MO"}
 
 
+def empty_curate_stats() -> dict[str, int]:
+    return {
+        "input": 0,
+        "kept": 0,
+        "dropped_unplayable": 0,
+        "dropped_junk": 0,
+        "dropped_adult_or_vod": 0,
+        "dropped_low_quality": 0,
+        "merged": 0,
+        "merged_alias": 0,
+        "merged_url": 0,
+        "names_cleaned": 0,
+    }
+
+
+def inspect_entries(entries: list[Entry], country_names: set[str] | None = None) -> dict[str, int]:
+    countries = country_names or set()
+    junk = vod = low = no_logo = no_id = http_only = country_group = 0
+    for entry in entries:
+        if is_junk_name(entry):
+            junk += 1
+        if SKIP_GROUP_RE.search(entry.group or ""):
+            vod += 1
+        if 0 < entry.height < 480:
+            low += 1
+        if not entry.logo.startswith("https://"):
+            no_logo += 1
+        if not entry.tvg_id:
+            no_id += 1
+        if entry.url.lower().startswith("http://"):
+            http_only += 1
+        if (entry.group or "").lower() in countries:
+            country_group += 1
+    return {
+        "channels": len(entries),
+        "junk_names": junk,
+        "vod_groups": vod,
+        "low_quality": low,
+        "no_logo": no_logo,
+        "no_tvg_id": no_id,
+        "http": http_only,
+        "country_as_group": country_group,
+    }
+
+
 def curate(
     entries: list[Entry],
     *,
     china: bool | str = False,
     min_height: int = 480,
     country_names: set[str] | None = None,
+    stats: dict[str, int] | None = None,
 ) -> list[Entry]:
+    tallies = stats if stats is not None else empty_curate_stats()
+    tallies.update(empty_curate_stats())
+    tallies["input"] = len(entries)
     best: dict[str, Entry] = {}
     for entry in entries:
-        if not is_playable_url(entry.url) or is_junk_name(entry):
+        if not is_playable_url(entry.url):
+            tallies["dropped_unplayable"] += 1
+            continue
+        if is_junk_name(entry):
+            tallies["dropped_junk"] += 1
             continue
         china_entry = uses_china_groups(entry, china)
         group = (
@@ -484,22 +555,38 @@ def curate(
             else primary_category(entry.group, country_names)
         )
         if not group:
+            tallies["dropped_adult_or_vod"] += 1
             continue
         if 0 < entry.height < min_height:
+            tallies["dropped_low_quality"] += 1
             continue
+        cleaned = clean_name(entry.name)
+        if cleaned and cleaned != entry.name:
+            tallies["names_cleaned"] += 1
+            entry.name = cleaned
+        elif cleaned:
+            entry.name = cleaned
+        if entry.tvg_name:
+            entry.tvg_name = clean_name(entry.tvg_name) or entry.tvg_name
         entry.group = group
-        merge_best(best, channel_key(entry, china=china_entry), entry)
+        key = channel_key(entry, china=china_entry)
+        if key in best:
+            tallies["merged"] += 1
+        merge_best(best, key, entry)
 
     aliased: dict[str, Entry] = {}
     for entry in best.values():
         merge_best(aliased, alias_key(entry, china=uses_china_groups(entry, china)), entry)
+    tallies["merged_alias"] = max(0, len(best) - len(aliased))
 
     by_url: dict[str, Entry] = {}
     for entry in aliased.values():
         merge_best(by_url, entry.url, entry)
+    tallies["merged_url"] = max(0, len(aliased) - len(by_url))
 
     kept = list(by_url.values())
     kept.sort(key=lambda item: sort_key(item, china=china is True))
+    tallies["kept"] = len(kept)
     return kept
 
 
@@ -513,56 +600,83 @@ def quality_stats(entries: list[Entry]) -> dict[str, int]:
     }
 
 
+def sanitize_attr(value: str) -> str:
+    return re.sub(r"[\x00-\x1f\x7f\"]+", "", value or "").strip()
+
+
 def write_m3u(entries: list[Entry], epg: str = "") -> str:
     header = "#EXTM3U"
-    if epg:
-        header += f' url-tvg="{epg}" x-tvg-url="{epg}"'
+    epg_clean = sanitize_attr(epg)
+    if epg_clean:
+        header += f' url-tvg="{epg_clean}" x-tvg-url="{epg_clean}"'
     lines = [header]
     for entry in entries:
-        attrs = ['#EXTINF:-1']
-        if entry.tvg_id:
-            attrs.append(f'tvg-id="{entry.tvg_id}"')
-        tvg_name = entry.tvg_name or clean_name(entry.name)
+        attrs = ["#EXTINF:-1"]
+        tvg_id = sanitize_attr(entry.tvg_id)
+        country = sanitize_attr(entry.country)
+        tvg_name = sanitize_attr(clean_name(entry.tvg_name) or clean_name(entry.name))
+        logo = sanitize_attr(entry.logo)
+        group = sanitize_attr(entry.group)
+        user_agent = sanitize_attr(entry.user_agent)
+        referrer = sanitize_attr(entry.referrer)
+        title = sanitize_attr(entry.display_name)
+        if not title or not entry.url:
+            continue
+        if tvg_id:
+            attrs.append(f'tvg-id="{tvg_id}"')
+        if country:
+            attrs.append(f'tvg-country="{country}"')
         if tvg_name:
             attrs.append(f'tvg-name="{tvg_name}"')
-        if entry.logo.startswith("https://"):
-            attrs.append(f'tvg-logo="{entry.logo}"')
-        attrs.append(f'group-title="{entry.group}"')
-        if entry.user_agent:
-            attrs.append(f'http-user-agent="{entry.user_agent}"')
-        if entry.referrer:
-            attrs.append(f'http-referrer="{entry.referrer}"')
-        lines.append(" ".join(attrs) + f",{entry.display_name}")
-        if entry.user_agent:
-            lines.append(f"#EXTVLCOPT:http-user-agent={entry.user_agent}")
-        if entry.referrer:
-            lines.append(f"#EXTVLCOPT:http-referrer={entry.referrer}")
+        if logo.startswith("https://"):
+            attrs.append(f'tvg-logo="{logo}"')
+        attrs.append(f'group-title="{group}"')
+        if user_agent:
+            attrs.append(f'http-user-agent="{user_agent}"')
+        if referrer:
+            attrs.append(f'http-referrer="{referrer}"')
+        lines.append(" ".join(attrs) + f",{title}")
+        if user_agent:
+            lines.append(f"#EXTVLCOPT:http-user-agent={user_agent}")
+        if referrer:
+            lines.append(f"#EXTVLCOPT:http-referrer={referrer}")
         for extra in entry.extras:
-            if extra.startswith("#EXTVLCOPT:"):
-                lines.append(extra)
+            if extra.startswith("#EXTVLCOPT:") and "\n" not in extra and "\r" not in extra:
+                lines.append(sanitize_attr(extra))
         lines.append(entry.url)
     return "\n".join(lines) + "\n"
 
 
 def _probe_one(entry: Entry) -> str:
+    if not is_playable_url(entry.url) or not urlcheck.is_safe_fetch_url(entry.url, resolve=True):
+        return "dead"
     headers = {
-        "User-Agent": entry.user_agent or USER_AGENT,
+        "User-Agent": sanitize_attr(entry.user_agent) or USER_AGENT,
         "Accept": "*/*",
         "Range": "bytes=0-2047",
     }
-    if entry.referrer:
-        headers["Referer"] = entry.referrer
+    referrer = sanitize_attr(entry.referrer)
+    if referrer.startswith("https://"):
+        headers["Referer"] = referrer
     req = urllib.request.Request(entry.url, headers=headers, method="GET")
+
+    def probe(insecure: bool) -> tuple[int, bytes, str]:
+        opener = urlcheck.opener_for(insecure=insecure)
+        with opener.open(req, timeout=PROBE_TIMEOUT) as resp:
+            return resp.status, resp.read(READ_BYTES), resp.geturl()
+
     try:
-        with urllib.request.urlopen(req, timeout=PROBE_TIMEOUT, context=ssl_ctx()) as resp:
-            status = resp.status
-            chunk = resp.read(READ_BYTES)
+        status, chunk, final = probe(False)
     except urllib.error.HTTPError as err:
+        err_url = str(getattr(err, "url", "") or getattr(err, "filename", "") or entry.url)
+        if not is_playable_url(err_url) or not urlcheck.is_safe_fetch_url(err_url, resolve=True):
+            return "dead"
         status = err.code
         try:
             chunk = err.read(READ_BYTES)
         except Exception:
             chunk = b""
+        final = err_url
         if status in {404, 410, 451}:
             return "dead"
         if status in {401, 403, 407, 429, 457}:
@@ -571,13 +685,13 @@ def _probe_one(entry: Entry) -> str:
             return "unknown"
     except ssl.SSLError:
         try:
-            with urllib.request.urlopen(req, timeout=PROBE_TIMEOUT, context=ssl_ctx(True)) as resp:
-                status = resp.status
-                chunk = resp.read(READ_BYTES)
+            status, chunk, final = probe(True)
         except Exception:
             return "unknown"
     except Exception:
         return "unknown"
+    if final and (not is_playable_url(final) or not urlcheck.is_safe_fetch_url(final, resolve=True)):
+        return "dead"
     body = chunk.lstrip().lower()
     if body.startswith((b"<!doctype", b"<html", b"<head")):
         return "dead"

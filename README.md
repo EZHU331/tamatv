@@ -4,6 +4,7 @@ Public site and issue tracker for [tamaTV](https://ezhu331.github.io/tamatv/), a
 
 - Site: https://ezhu331.github.io/tamatv/
 - Live lists: https://ezhu331.github.io/tamatv/#lists
+- Suggest a channel: https://github.com/EZHU331/tamatv/issues/new?template=channel.yml
 - App Store: https://apps.apple.com/app/id6809120045
 - Issues: https://github.com/EZHU331/tamatv/issues
 

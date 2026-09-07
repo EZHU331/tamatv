@@ -1,0 +1,61 @@
+name: Channel
+description: Suggest a public live channel for the lists
+title: "[Channel] "
+labels: ["channel"]
+body:
+  - type: markdown
+    attributes:
+      value: Public HTTPS live streams only. tamaTV does not host video.
+  - type: input
+    id: name
+    attributes:
+      label: Channel name
+      placeholder: NHK World-Japan
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Stream URL
+      placeholder: https://example.com/live.m3u8
+    validations:
+      required: true
+  - type: input
+    id: country
+    attributes:
+      label: Country
+      description: Optional two-letter code, such as JP, US, or CN.
+      placeholder: JP
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - General
+        - News
+        - Sports
+        - Entertainment
+        - Documentary
+        - Kids
+        - Music
+        - Movies
+        - Culture
+        - Education
+        - Lifestyle
+        - Business
+        - Weather
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: logo
+    attributes:
+      label: Logo URL
+      placeholder: https://example.com/logo.png
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Please confirm
+      options:
+        - label: This is a public live stream I am allowed to share. It is not adult or on-demand video.
+          required: true

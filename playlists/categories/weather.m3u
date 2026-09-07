@@ -1,33 +1,33 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
-#EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-name="3Cat Cameres del temps" tvg-logo="https://i.imgur.com/zXy2kbe.png" group-title="Weather",3Cat Càmeres del temps (1080p)
+#EXTINF:-1 tvg-id="3CatCameresdeltemps.es@SD" tvg-country="ES" tvg-name="3Cat Cameres del temps" tvg-logo="https://i.imgur.com/zXy2kbe.png" group-title="Weather",3Cat Càmeres del temps (1080p)
 https://directes-tv-int.3catdirectes.cat/live-content/beauties-hls/master.m3u8
-#EXTINF:-1 tvg-id="AccuWeatherNOW.us@SD" tvg-name="AccuWeather NOW" tvg-logo="https://i.imgur.com/M8wbVYK.png" group-title="Weather",AccuWeather Now (1080p)
+#EXTINF:-1 tvg-id="AccuWeatherNOW.us@SD" tvg-country="US" tvg-name="AccuWeather NOW" tvg-logo="https://i.imgur.com/M8wbVYK.png" group-title="Weather",AccuWeather Now (1080p)
 https://cdn-ue1-prod.tsv2.amagi.tv/linear/amg00684-accuweather-accuweather-plex/playlist.m3u8
-#EXTINF:-1 tvg-id="AlabamaWeatherNetwork.us@SD" tvg-name="Alabama Weather Network" tvg-logo="https://alabamaweathernetwork.com/wp-content/uploads/2025/07/bpt2ej6u.png" group-title="Weather",Alabama Weather Network (720p)
+#EXTINF:-1 tvg-id="AlabamaWeatherNetwork.us@SD" tvg-country="US" tvg-name="Alabama Weather Network" tvg-logo="https://alabamaweathernetwork.com/wp-content/uploads/2025/07/bpt2ej6u.png" group-title="Weather",Alabama Weather Network (720p)
 https://alwxnet-ott-proxy.cloud9streaming.com/alwxnet/live/playlist.m3u8
-#EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-name="Fox Weather" tvg-logo="https://lh3.googleusercontent.com/_MLPVWviF17NG-_Wrd0M-nCTeBMBmimUp21LMqSfayg0UGbxQw8NQtk2R8pI3FAVHwdAcs67_5_hXQ" group-title="Weather",Fox Weather (720p)
+#EXTINF:-1 tvg-id="FoxWeather.us@SD" tvg-country="US" tvg-name="Fox Weather" tvg-logo="https://lh3.googleusercontent.com/_MLPVWviF17NG-_Wrd0M-nCTeBMBmimUp21LMqSfayg0UGbxQw8NQtk2R8pI3FAVHwdAcs67_5_hXQ" group-title="Weather",Fox Weather (720p)
 https://247wlive.foxweather.com/stream/index.m3u8
-#EXTINF:-1 tvg-id="KTCADT5.us" tvg-name="KTCA-DT5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Twin_Cities_Public_Television_logo_%28PBS%29.png" group-title="Weather",KTCA-DT5
+#EXTINF:-1 tvg-id="KTCADT5.us" tvg-country="US" tvg-name="KTCA-DT5" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/be/Twin_Cities_Public_Television_logo_%28PBS%29.png" group-title="Weather",KTCA-DT5
 https://api.new.livestream.com/accounts/12638076/events/8488790/live.m3u8
-#EXTINF:-1 tvg-id="Megatiempo.cl@SD" tvg-name="Megatiempo" tvg-logo="https://i.imgur.com/1xLhAEq.png" group-title="Weather",Megatiempo (1080p)
+#EXTINF:-1 tvg-id="Megatiempo.cl@SD" tvg-country="CL" tvg-name="Megatiempo" tvg-logo="https://i.imgur.com/1xLhAEq.png" group-title="Weather",Megatiempo (1080p)
 http://cdn1tlinkgo.tlink.cl/megatiempo/mono.m3u8
-#EXTINF:-1 tvg-id="Meteonews.ch@SD" tvg-name="Meteonews" tvg-logo="https://i.imgur.com/YtYhbJD.png" group-title="Weather",Meteonews (1080p)
+#EXTINF:-1 tvg-id="Meteonews.ch@SD" tvg-country="CH" tvg-name="Meteonews" tvg-logo="https://i.imgur.com/YtYhbJD.png" group-title="Weather",Meteonews (1080p)
 https://streaming.meteonews.net/hls/stream.m3u8
-#EXTINF:-1 tvg-id="NorCastWeather.us@HD" tvg-name="NorCast Weather" tvg-logo="https://i.imgur.com/AfjoZgo.png" group-title="Weather",NorCast Weather (1080p)
+#EXTINF:-1 tvg-id="NorCastWeather.us@HD" tvg-country="US" tvg-name="NorCast Weather" tvg-logo="https://i.imgur.com/AfjoZgo.png" group-title="Weather",NorCast Weather (1080p)
 https://norcast-weather.streamology.live/api/v1/streams/c1b5b114698e1ad4687153c4402d5ef0/live.m3u8
-#EXTINF:-1 tvg-id="SkyNewsWeather.uk@SD" tvg-name="Sky News Weather" tvg-logo="https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg" group-title="Weather",Sky News Weather (720p)
+#EXTINF:-1 tvg-id="SkyNewsWeather.uk@SD" tvg-country="UK" tvg-name="Sky News Weather" tvg-logo="https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg" group-title="Weather",Sky News Weather (720p)
 https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="TheWeatherNetwork.ca@SD" tvg-name="The Weather Network" tvg-logo="https://i.imgur.com/V6ZUwUY.png" group-title="Weather",The Weather Network (720p)
+#EXTINF:-1 tvg-id="TheWeatherNetwork.ca@SD" tvg-country="CA" tvg-name="The Weather Network" tvg-logo="https://i.imgur.com/V6ZUwUY.png" group-title="Weather",The Weather Network (720p)
 https://jmp2.uk/plu-63da370e2e477400081cf8b6.m3u8
-#EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-name="WeatherNation" tvg-logo="https://i.imgur.com/XP817GN.png" group-title="Weather",WeatherNation (1080p)
+#EXTINF:-1 tvg-id="WeatherNation.us@SD" tvg-country="US" tvg-name="WeatherNation" tvg-logo="https://i.imgur.com/XP817GN.png" group-title="Weather",WeatherNation (1080p)
 https://d2ferbiwcx1539.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8zd06wicndthf-ssai-prd/WNNationalSamsung/WNNationalSamsung.m3u8
-#EXTINF:-1 tvg-id="Weathernews.jp@SD" tvg-name="Weathernews" tvg-logo="https://i.imgur.com/A8uRSTS.png" group-title="Weather",Weathernews (720p)
+#EXTINF:-1 tvg-id="Weathernews.jp@SD" tvg-country="JP" tvg-name="Weathernews" tvg-logo="https://i.imgur.com/A8uRSTS.png" group-title="Weather",Weathernews (720p)
 https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8
-#EXTINF:-1 tvg-id="WeatherSpy.us@SD" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/yHUUIIz.png" group-title="Weather",WeatherSpy (720p)
+#EXTINF:-1 tvg-id="WeatherSpy.us@SD" tvg-country="US" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/yHUUIIz.png" group-title="Weather",WeatherSpy (720p)
 https://d12gab6t5iutxf.cloudfront.net/playlist.m3u8
-#EXTINF:-1 tvg-id="WeatherSpy.au@SD" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/GTxN2nH.png" group-title="Weather",WeatherSpy (720p)
+#EXTINF:-1 tvg-id="WeatherSpy.au@SD" tvg-country="AU" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/GTxN2nH.png" group-title="Weather",WeatherSpy (720p)
 https://jukin-weatherspy-2-au.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="WeatherSpy.mx@SD" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Weather",WeatherSpy (720p)
+#EXTINF:-1 tvg-id="WeatherSpy.mx@SD" tvg-country="MX" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Weather",WeatherSpy (720p)
 https://jukin-weatherspy-2-mx.samsung.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="WeatherSpy.in@SD" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Weather",Weatherspy
+#EXTINF:-1 tvg-id="WeatherSpy.in@SD" tvg-country="IN" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/KIEKOt1.png" group-title="Weather",Weatherspy
 https://jukin-weatherspy-2-in.samsung.wurl.tv/playlist.m3u8

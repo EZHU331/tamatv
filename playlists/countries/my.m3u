@@ -1,57 +1,57 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_MY1.xml.gz"
-#EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-name="Berita RTM" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="News" http-referrer="https://rtm-player.glueapi.io/",Berita RTM
+#EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-country="MY" tvg-name="Berita RTM" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="News" http-referrer="https://rtm-player.glueapi.io/",Berita RTM
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
-#EXTINF:-1 tvg-id="CinemaWorld.my@SD" tvg-name="CinemaWorld" tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld (720p)
+#EXTINF:-1 tvg-id="CinemaWorld.my@SD" tvg-country="MY" tvg-name="CinemaWorld" tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld (720p)
 http://nmk.ioapk.com:5050/4gtv-live069/index.m3u8
-#EXTINF:-1 tvg-id="MaahTV.my@SD" tvg-name="Maah TV" tvg-logo="https://i.imgur.com/FkyueH6.png" group-title="Movies",Maah TV (720p)
+#EXTINF:-1 tvg-id="MaahTV.my@SD" tvg-country="MY" tvg-name="Maah TV" tvg-logo="https://i.imgur.com/FkyueH6.png" group-title="Movies",Maah TV (720p)
 https://hls.maahtv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="DramaSangat.my@SD" tvg-name="Drama Sangat" tvg-logo="https://i.imgur.com/BqIVmN1.png" group-title="Series" http-referrer="https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420342",Drama Sangat (1080p)
+#EXTINF:-1 tvg-id="DramaSangat.my@SD" tvg-country="MY" tvg-name="Drama Sangat" tvg-logo="https://i.imgur.com/BqIVmN1.png" group-title="Series" http-referrer="https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420342",Drama Sangat (1080p)
 #EXTVLCOPT:http-referrer=https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420342
 https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420342
-#EXTINF:-1 tvg-id="DidikTVKPM.my@SD" tvg-name="DidikTV KPM" tvg-logo="https://i.imgur.com/7qehib0.png" group-title="Education" http-referrer="https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420324",DidikTV KPM (1080p)
+#EXTINF:-1 tvg-id="DidikTVKPM.my@SD" tvg-country="MY" tvg-name="DidikTV KPM" tvg-logo="https://i.imgur.com/7qehib0.png" group-title="Education" http-referrer="https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420324",DidikTV KPM (1080p)
 #EXTVLCOPT:http-referrer=https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420324
 https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420324
-#EXTINF:-1 tvg-id="RTMParlimenDewanNegara.my@SD" tvg-name="RTM Parlimen Dewan Negara" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen (Dewan Negara)
+#EXTINF:-1 tvg-id="RTMParlimenDewanNegara.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Negara" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen (Dewan Negara)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
-#EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-name="RTM Parlimen Dewan Rakyat" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen (Dewan Rakyat)
+#EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Rakyat" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen (Dewan Rakyat)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
-#EXTINF:-1 tvg-id="SukeTV.my@SD" tvg-name="Suke TV" tvg-logo="https://i.imgur.com/hCwH3s0.png" group-title="Shop",Suke TV (720p)
+#EXTINF:-1 tvg-id="SukeTV.my@SD" tvg-country="MY" tvg-name="Suke TV" tvg-logo="https://i.imgur.com/hCwH3s0.png" group-title="Shop",Suke TV (720p)
 https://live.mana2.my/SukeTv/index.m3u8?auth_key=1745177878-c9b78020e8d64aac92e7d5db06493530-0-951f497899c978ee5fbc2f1375671272&token=1745177878-c9b78020e8d64aac92e7d5db06493530-0-951f497899c978ee5fbc2f1375671272
-#EXTINF:-1 tvg-id="AwesomeTV.my@SD" tvg-name="Awesome TV" tvg-logo="https://i.imgur.com/x90U1Bf.png" group-title="General",Awesome TV
+#EXTINF:-1 tvg-id="AwesomeTV.my@SD" tvg-country="MY" tvg-name="Awesome TV" tvg-logo="https://i.imgur.com/x90U1Bf.png" group-title="General",Awesome TV
 https://488b9e074624.ap-south-1.playback.live-video.net/api/video/v1/ap-south-1.533267421985.channel.B7bB1wHJRCnw.m3u8
-#EXTINF:-1 tvg-id="NTV7.my@SD" tvg-name="NTV7" tvg-logo="https://i.imgur.com/jDWR3xI.png" group-title="General",NTV7
+#EXTINF:-1 tvg-id="NTV7.my@SD" tvg-country="MY" tvg-name="NTV7" tvg-logo="https://i.imgur.com/jDWR3xI.png" group-title="General",NTV7
 https://tonton-live-switch-ssar.akamaized.net/stream-ntv7/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-#EXTINF:-1 tvg-id="Okey.my@SD" tvg-name="Okey" tvg-logo="https://i.imgur.com/V2jREQ5.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",Okey
+#EXTINF:-1 tvg-id="Okey.my@SD" tvg-country="MY" tvg-name="Okey" tvg-logo="https://i.imgur.com/V2jREQ5.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",Okey
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
-#EXTINF:-1 tvg-id="SelangorTV.my@SD" tvg-name="SelangorTV" tvg-logo="https://www.selangor.gov.my/selangor/resources/Image/LOGO/SelangorTV.png" group-title="General",SelangorTV (1080p)
+#EXTINF:-1 tvg-id="SelangorTV.my@SD" tvg-country="MY" tvg-name="SelangorTV" tvg-logo="https://www.selangor.gov.my/selangor/resources/Image/LOGO/SelangorTV.png" group-title="General",SelangorTV (1080p)
 https://live.mana2.my/SelangorTv/index.m3u8?auth_key=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd&token=1745177902-0210d7bbc24749879b1c370bfbd2b512-0-1a02652c616fd55ef43edbcf07d9c7dd
-#EXTINF:-1 tvg-id="TV1.my@SD" tvg-name="TV1" tvg-logo="https://i.imgur.com/wSyPmiY.png" group-title="General",TV1 (1080p)
+#EXTINF:-1 tvg-id="TV1.my@SD" tvg-country="MY" tvg-name="TV1" tvg-logo="https://i.imgur.com/wSyPmiY.png" group-title="General",TV1 (1080p)
 https://live.mana2.my/Tv1/index.m3u8?auth_key=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047&token=1745177809-03fbff3dfc194161829ff0dbf94a205a-0-c6dcdd3499b8b5488b7de0f6613b8047
-#EXTINF:-1 tvg-id="TV2.my@SD" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png" group-title="General",TV2 (1080p)
+#EXTINF:-1 tvg-id="TV2.my@SD" tvg-country="MY" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png" group-title="General",TV2 (1080p)
 https://live.mana2.my/Tv2/index.m3u8?auth_key=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d&token=1745177833-e4f0090e3d3b4ed1b2b4f5df87a24d34-0-d43f8be1101f9bb00363d62de6514e4d
-#EXTINF:-1 tvg-id="TV3.my@SD" tvg-name="TV3" tvg-logo="https://i.imgur.com/bHcZgIo.png" group-title="General" http-referrer="https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420323",TV3 (1080p)
+#EXTINF:-1 tvg-id="TV3.my@SD" tvg-country="MY" tvg-name="TV3" tvg-logo="https://i.imgur.com/bHcZgIo.png" group-title="General" http-referrer="https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420323",TV3 (1080p)
 #EXTVLCOPT:http-referrer=https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420323
 https://radiomy-tonton-proxy.api-danidev.workers.dev/tonton/live/6420323
-#EXTINF:-1 tvg-id="TV6.my@SD" tvg-name="TV6" tvg-logo="https://i.imgur.com/bK8UH9D.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",TV6
+#EXTINF:-1 tvg-id="TV6.my@SD" tvg-country="MY" tvg-name="TV6" tvg-logo="https://i.imgur.com/bK8UH9D.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",TV6
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
-#EXTINF:-1 tvg-id="TV9.my@SD" tvg-name="TV9" tvg-logo="https://i.imgur.com/Krh1F8d.png" group-title="General",TV9
+#EXTINF:-1 tvg-id="TV9.my@SD" tvg-country="MY" tvg-name="TV9" tvg-logo="https://i.imgur.com/Krh1F8d.png" group-title="General",TV9
 https://tonton-live-switch-ssar.akamaized.net/stream-tv9/master.m3u8?bpkio_serviceid=6c0958d82a830a02ca0936d9cfab8311
-#EXTINF:-1 tvg-id="TVIKIM.my@SD" tvg-name="TVIKIM" tvg-logo="https://i.imgur.com/X6JKNEE.png" group-title="General",TVIKIM (1080p)
+#EXTINF:-1 tvg-id="TVIKIM.my@SD" tvg-country="MY" tvg-name="TVIKIM" tvg-logo="https://i.imgur.com/X6JKNEE.png" group-title="General",TVIKIM (1080p)
 https://live.mana2.my/TvIkim/index.m3u8?auth_key=1745177920-648b7df03f404bc4ac20e90e96f817eb-0-35d3be6e85a129ce175b39a9819ca942&token=1745177920-648b7df03f404bc4ac20e90e96f817eb-0-35d3be6e85a129ce175b39a9819ca942
-#EXTINF:-1 tvg-id="AstroAEC.my" tvg-name="Astro AEC" tvg-logo="https://i.postimg.cc/wTQ0nC4r/Astro-AEC.png" group-title="港澳台",Astro AEC
+#EXTINF:-1 tvg-id="AstroAEC.my" tvg-country="MY" tvg-name="Astro AEC" tvg-logo="https://i.postimg.cc/wTQ0nC4r/Astro-AEC.png" group-title="港澳台",Astro AEC
 http://php.jdshipin.com/smt.php?id=AEC
-#EXTINF:-1 tvg-id="AstroAOD.my" tvg-name="ASTRO AOD" tvg-logo="https://freetv.fun/media/images/channel/2022/08/26/large/20220826114608609036_92.png" group-title="港澳台",ASTRO AOD
+#EXTINF:-1 tvg-id="AstroAOD.my" tvg-country="MY" tvg-name="ASTRO AOD" tvg-logo="https://freetv.fun/media/images/channel/2022/08/26/large/20220826114608609036_92.png" group-title="港澳台",ASTRO AOD
 http://cdn9.163189.xyz/smt1.1.php?id=Aodhd
-#EXTINF:-1 tvg-id="AstroFootball.my" tvg-name="Astro Football" tvg-logo="https://i.imgur.com/BZZyglC.png" group-title="港澳台",Astro Football
+#EXTINF:-1 tvg-id="AstroFootball.my" tvg-country="MY" tvg-name="Astro Football" tvg-logo="https://i.imgur.com/BZZyglC.png" group-title="港澳台",Astro Football
 http://aktv-stream.m16tv.cfd/stream/tuntun/astrofootball/AKTV.m3u8
-#EXTINF:-1 tvg-id="AstroQJ.my" tvg-name="Astro QJ" tvg-logo="https://i.imgur.com/vmpUnz9.png" group-title="港澳台",Astro QJ
+#EXTINF:-1 tvg-id="AstroQJ.my" tvg-country="MY" tvg-name="Astro QJ" tvg-logo="https://i.imgur.com/vmpUnz9.png" group-title="港澳台",Astro QJ
 http://php.jdshipin.com/smt.php?id=Quanjia
-#EXTINF:-1 tvg-id="SukanPlus.my" tvg-name="Sukan" tvg-logo="https://i.imgur.com/bt5oJQv.png" group-title="港澳台",Sukan
+#EXTINF:-1 tvg-id="SukanPlus.my" tvg-country="MY" tvg-name="Sukan" tvg-logo="https://i.imgur.com/bt5oJQv.png" group-title="港澳台",Sukan
 http://aktv-stream.m16tv.cfd/stream/astro_a1/ch89/AKTV.m3u8
-#EXTINF:-1 tvg-id="8TV.my" tvg-name="八度空间" tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="港澳台",八度空间
+#EXTINF:-1 tvg-id="8TV.my" tvg-country="MY" tvg-name="八度空间" tvg-logo="https://i.imgur.com/Jkx9W88.png" group-title="港澳台",八度空间
 https://cdn6.163189.xyz/163189/8tv

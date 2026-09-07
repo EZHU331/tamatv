@@ -1,24 +1,24 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz"
-#EXTINF:-1 tvg-id="scifi.ru@SD" tvg-name=".sci-fi" tvg-logo="https://i.imgur.com/nSSUHcg.png" group-title="Science",.sci-fi
+#EXTINF:-1 tvg-id="scifi.ru@SD" tvg-country="RU" tvg-name=".sci-fi" tvg-logo="https://i.imgur.com/nSSUHcg.png" group-title="Science",.sci-fi
 http://stream.mcquack.net/180/index.m3u8
-#EXTINF:-1 tvg-id="CanThoTV2.vn@SD" tvg-name="Can Tho TV 2" tvg-logo="https://i.ibb.co/JjVvkMsf/cantho2-2025.png" group-title="Science",Can Tho TV 2 (1080p)
+#EXTINF:-1 tvg-id="CanThoTV2.vn@SD" tvg-country="VN" tvg-name="Can Tho TV 2" tvg-logo="https://i.ibb.co/JjVvkMsf/cantho2-2025.png" group-title="Science",Can Tho TV 2 (1080p)
 https://live.canthotv.vn/cs2/live.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="CosmosTV.py@SD" tvg-name="Cosmos TV" tvg-logo="https://i.imgur.com/dAMyExY.jpg" group-title="Science",Cosmos TV (720p)
+#EXTINF:-1 tvg-id="CosmosTV.py@SD" tvg-country="PY" tvg-name="Cosmos TV" tvg-logo="https://i.imgur.com/dAMyExY.jpg" group-title="Science",Cosmos TV (720p)
 https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
-#EXTINF:-1 tvg-id="EkoTV.ua@SD" tvg-name="Eko TV" tvg-logo="https://i.imgur.com/WovATGb.png" group-title="Science" http-user-agent="curl/8.16.0",Eko TV (720p)
+#EXTINF:-1 tvg-id="EkoTV.ua@SD" tvg-country="UA" tvg-name="Eko TV" tvg-logo="https://i.imgur.com/WovATGb.png" group-title="Science" http-user-agent="curl/8.16.0",Eko TV (720p)
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8
-#EXTINF:-1 tvg-id="EXCTV.ve@SD" tvg-name="EXC TV" tvg-logo="https://i.imgur.com/Znd1Ml9.png" group-title="Science",Explosión Creativa (720p)
+#EXTINF:-1 tvg-id="EXCTV.ve@SD" tvg-country="VE" tvg-name="EXC TV" tvg-logo="https://i.imgur.com/Znd1Ml9.png" group-title="Science",Explosión Creativa (720p)
 https://vcp.myplaytv.com/explosioncreativa/explosioncreativa/playlist.m3u8
-#EXTINF:-1 tvg-id="IlmvaTabiat.tj@SD" tvg-name="Ilm va Tabiat" tvg-logo="https://i.imgur.com/MDULX7X.png" group-title="Science",Ilm va Tabiat (1080p)
+#EXTINF:-1 tvg-id="IlmvaTabiat.tj@SD" tvg-country="TJ" tvg-name="Ilm va Tabiat" tvg-logo="https://i.imgur.com/MDULX7X.png" group-title="Science",Ilm va Tabiat (1080p)
 https://live.teleradiocom.tj/15/3m.m3u8
-#EXTINF:-1 tvg-id="InWonder.nl@SD" tvg-name="InWonder" tvg-logo="https://cdn.uc.assets.prezly.com/1e0b2617-b145-4489-9d63-ba8438489f26/InWonder_portrait-black.png" group-title="Science",InWonder (1080p)
+#EXTINF:-1 tvg-id="InWonder.nl@SD" tvg-country="NL" tvg-name="InWonder" tvg-logo="https://cdn.uc.assets.prezly.com/1e0b2617-b145-4489-9d63-ba8438489f26/InWonder_portrait-black.png" group-title="Science",InWonder (1080p)
 https://amg00861-terninternation-inwonder-samsungau-1k63k.amagi.tv/playlist/amg00861-terninternation-inwonder-samsungau/playlist.m3u8
-#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-656fb850cb7e8e6a9bc3f36e" tvg-name="Popular Science" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c6bfca5e-58fe-4ed4-a87d-5e2ccde7f085/Logo_Art_-_Popular_Science_Dark_Backgrounds.png" group-title="Science",Popular Science
+#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-656fb850cb7e8e6a9bc3f36e" tvg-country="US" tvg-name="Popular Science" tvg-logo="https://provider-static.plex.tv/epg/cms/production/c6bfca5e-58fe-4ed4-a87d-5e2ccde7f085/Logo_Art_-_Popular_Science_Dark_Backgrounds.png" group-title="Science",Popular Science
 https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-656fb850cb7e8e6a9bc3f36e/?X-Plex-Token=yxqbRGeyq_hUbEp3F47u
-#EXTINF:-1 tvg-id="SmithsonianChannelSelects.us@SD" tvg-name="Smithsonian Channel Selects" tvg-logo="https://i.imgur.com/Kt5j8Vr.png" group-title="Science",Smithsonian Channel Selects
+#EXTINF:-1 tvg-id="SmithsonianChannelSelects.us@SD" tvg-country="US" tvg-name="Smithsonian Channel Selects" tvg-logo="https://i.imgur.com/Kt5j8Vr.png" group-title="Science",Smithsonian Channel Selects
 https://jmp2.uk/plu-5f21ea08007a49000762d349.m3u8
-#EXTINF:-1 tvg-id="TECTV.ar" tvg-name="Tec TV" tvg-logo="https://i.imgur.com/LYy0Rfo.png" group-title="Science",Tec TV
+#EXTINF:-1 tvg-id="TECTV.ar" tvg-country="AR" tvg-name="Tec TV" tvg-logo="https://i.imgur.com/LYy0Rfo.png" group-title="Science",Tec TV
 https://tv.initium.net.ar:3939/live/tectvmainlive.m3u8
-#EXTINF:-1 tvg-id="Wonder.uk@SD" tvg-name="Wonder" tvg-logo="https://i.imgur.com/LquGNbh.png" group-title="Science",Wonder (1080p)
+#EXTINF:-1 tvg-id="Wonder.uk@SD" tvg-country="UK" tvg-name="Wonder" tvg-logo="https://i.imgur.com/LquGNbh.png" group-title="Science",Wonder (1080p)
 https://lds-wonder-rakuten.amagi.tv/playlist.m3u8

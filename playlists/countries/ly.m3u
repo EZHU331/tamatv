@@ -1,8 +1,8 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="AlMasarTV.ly@SD" tvg-name="Al Masar TV" tvg-logo="https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU" group-title="News",Al Masar TV
+#EXTINF:-1 tvg-id="AlMasarTV.ly@SD" tvg-country="LY" tvg-name="Al Masar TV" tvg-logo="https://play-lh.googleusercontent.com/FHPrsr391mPFqKfTq6ZdvWPZNVfsZeTAVQ8rjQF-NosnRdNipUy5xa43RWkiF4tGcQU" group-title="News",Al Masar TV
 https://starmenajo.com/hls/almasar/index.m3u8
-#EXTINF:-1 tvg-id="TanasuhTV.ly@HD" tvg-name="Tanasuh TV" tvg-logo="https://i.imgur.com/iBAhM2v.png" group-title="General",Tanasuh TV (1080p)
+#EXTINF:-1 tvg-id="TanasuhTV.ly@HD" tvg-country="LY" tvg-name="Tanasuh TV" tvg-logo="https://i.imgur.com/iBAhM2v.png" group-title="General",Tanasuh TV (1080p)
 https://kilolink.pulsarstarsolutions.com/live/smil:tanasuhtv.smil/manifest.m3u8
-#EXTINF:-1 tvg-id="WasatTV.ly@SD" tvg-name="Wasat TV" tvg-logo="https://i.imgur.com/f9pL2NE.png" group-title="General" http-referrer="https://alwasat.ly/",Wasat TV (1080p)
+#EXTINF:-1 tvg-id="WasatTV.ly@SD" tvg-country="LY" tvg-name="Wasat TV" tvg-logo="https://i.imgur.com/f9pL2NE.png" group-title="General" http-referrer="https://alwasat.ly/",Wasat TV (1080p)
 #EXTVLCOPT:http-referrer=https://alwasat.ly/
 https://alwasattv.hibridcdn.net/alwasattv/alwasat_abr/playlist.m3u8

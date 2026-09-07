@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fail the playlist refresh if composed M3Us look broken."""
+"""Gate composed M3Us after the maintenance pipeline runs."""
 
 from __future__ import annotations
 
@@ -17,16 +17,13 @@ MIN_LOGO_RATIO = 0.60
 MIN_TVG_RATIO = 0.50
 
 
-def fail(message: str) -> None:
-    print(message, file=sys.stderr)
-    raise SystemExit(1)
-
-
-def check_file(path: Path) -> tuple[int, int, int]:
+def check_file(path: Path) -> tuple[int, int, int, list[str]]:
     text = path.read_text(encoding="utf-8", errors="replace")
-    rel = path.relative_to(ROOT)
+    rel = str(path.relative_to(ROOT))
+    errors: list[str] = []
     if not text.lstrip().startswith("#EXTM3U"):
-        fail(f"{rel}: missing #EXTM3U")
+        errors.append(f"{rel}: missing #EXTM3U")
+        return 0, 0, 0, errors
     channels = logos = tvg = 0
     for line in text.splitlines():
         if not line.startswith("#EXTINF:"):
@@ -36,25 +33,37 @@ def check_file(path: Path) -> tuple[int, int, int]:
         lower = title.lower()
         for token in JUNK:
             if token in lower:
-                fail(f"{rel}: junk title {title!r}")
+                errors.append(f"{rel}: junk title {title!r}")
+                break
         if 'tvg-logo="https://' in line:
             logos += 1
         if 'tvg-id="' in line and 'tvg-id=""' not in line:
             tvg += 1
-    return channels, logos, tvg
+    return channels, logos, tvg, errors
 
 
-def main() -> int:
+def evaluate() -> dict:
+    errors: list[str] = []
     country_dir = PLAYLISTS / "countries"
     category_dir = PLAYLISTS / "categories"
     if not country_dir.is_dir():
-        fail("missing playlists/countries")
+        return {
+            "ok": False,
+            "errors": ["missing playlists/countries"],
+            "countries": 0,
+            "categories": 0,
+            "channels": 0,
+            "logo_ratio": 0.0,
+            "tvg_ratio": 0.0,
+            "summary": "missing playlists/countries",
+        }
+
     country_files = sorted(country_dir.glob("*.m3u"))
     category_files = sorted(category_dir.glob("*.m3u")) if category_dir.is_dir() else []
     if len(country_files) < MIN_COUNTRIES:
-        fail(f"too few country playlists: {len(country_files)}")
+        errors.append(f"too few country playlists: {len(country_files)}")
     if len(category_files) < MIN_CATEGORIES:
-        fail(f"too few category playlists: {len(category_files)}")
+        errors.append(f"too few category playlists: {len(category_files)}")
 
     files = list(country_files) + list(category_files)
     agg_dir = PLAYLISTS / "aggregators"
@@ -66,30 +75,51 @@ def main() -> int:
 
     channels = logos = tvg = 0
     for path in files:
-        file_channels, file_logos, file_tvg = check_file(path)
+        file_channels, file_logos, file_tvg, file_errors = check_file(path)
         channels += file_channels
         logos += file_logos
         tvg += file_tvg
+        errors.extend(file_errors[:5])
+
+    logo_ratio = (logos / channels) if channels else 0.0
+    tvg_ratio = (tvg / channels) if channels else 0.0
     if channels < MIN_CHANNELS:
-        fail(f"too few channels: {channels}")
-    logo_ratio = logos / channels
-    tvg_ratio = tvg / channels
+        errors.append(f"too few channels: {channels}")
     if logo_ratio < MIN_LOGO_RATIO:
-        fail(f"logo coverage {logo_ratio:.1%} below {MIN_LOGO_RATIO:.0%}")
+        errors.append(f"logo coverage {logo_ratio:.1%} below {MIN_LOGO_RATIO:.0%}")
     if tvg_ratio < MIN_TVG_RATIO:
-        fail(f"tvg-id coverage {tvg_ratio:.1%} below {MIN_TVG_RATIO:.0%}")
+        errors.append(f"tvg-id coverage {tvg_ratio:.1%} below {MIN_TVG_RATIO:.0%}")
 
     status = PLAYLISTS / "status.json"
     if status.exists():
         payload = json.loads(status.read_text(encoding="utf-8"))
         kept = (payload.get("live") or {}).get("kept") or 0
         if kept and kept < 1000:
-            fail(f"live kept too low: {kept}")
+            errors.append(f"live kept too low: {kept}")
 
-    print(
-        f"ok: {len(country_files)} countries, {len(category_files)} categories, "
+    summary = (
+        f"{len(country_files)} countries, {len(category_files)} categories, "
         f"{channels} entries, logos {logo_ratio:.1%}, tvg-id {tvg_ratio:.1%}"
     )
+    return {
+        "ok": not errors,
+        "errors": errors,
+        "countries": len(country_files),
+        "categories": len(category_files),
+        "channels": channels,
+        "logo_ratio": round(logo_ratio, 4),
+        "tvg_ratio": round(tvg_ratio, 4),
+        "summary": ("ok: " if not errors else "fail: ") + summary,
+    }
+
+
+def main() -> int:
+    report = evaluate()
+    if not report["ok"]:
+        for message in report["errors"]:
+            print(message, file=sys.stderr)
+        return 1
+    print(report["summary"])
     return 0
 
 

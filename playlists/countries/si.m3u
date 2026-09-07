@@ -1,21 +1,21 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="History.si@HD" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History Channel (1080p)
+#EXTINF:-1 tvg-id="History.si@HD" tvg-country="SI" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History Channel (1080p)
 https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HISTORYHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
-#EXTINF:-1 tvg-id="FolxSlovenija.si@SD" tvg-name="Folx Slovenija" tvg-logo="https://i.imgur.com/RK1IASU.png" group-title="Music",Folx Slovenija
+#EXTINF:-1 tvg-id="FolxSlovenija.si@SD" tvg-country="SI" tvg-name="Folx Slovenija" tvg-logo="https://i.imgur.com/RK1IASU.png" group-title="Music",Folx Slovenija
 https://folxsloapp.b-cdn.net/1080p/index.m3u8
-#EXTINF:-1 tvg-id="ExodusTV.si@SD" tvg-name="Exodus TV" tvg-logo="https://i.imgur.com/WKr5ncQ.png" group-title="Religious",Exodus TV (720p)
+#EXTINF:-1 tvg-id="ExodusTV.si@SD" tvg-country="SI" tvg-name="Exodus TV" tvg-logo="https://i.imgur.com/WKr5ncQ.png" group-title="Religious",Exodus TV (720p)
 https://584943999.r.worldssl.net/584943999/_definst_/vzivo/playlist.m3u8
-#EXTINF:-1 tvg-id="KanalA.si@SD" tvg-name="Kanal A" tvg-logo="https://i.imgur.com/JHNpcqF.png" group-title="General",Kanal A
+#EXTINF:-1 tvg-id="KanalA.si@SD" tvg-country="SI" tvg-name="Kanal A" tvg-logo="https://i.imgur.com/JHNpcqF.png" group-title="General",Kanal A
 https://streamer01.xploretv.si/__cl/cg:prod/__c/A1_SI_AKANALHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
-#EXTINF:-1 tvg-id="TVSLO3.si@SD" tvg-name="TV SLO 3" tvg-logo="https://i.imgur.com/yPb2FKg.png" group-title="General",SLO 3
+#EXTINF:-1 tvg-id="TVSLO3.si@SD" tvg-country="SI" tvg-name="TV SLO 3" tvg-logo="https://i.imgur.com/yPb2FKg.png" group-title="General",SLO 3
 https://streamer03.xploretv.si/__cl/cg:prod/__c/A1_SI_SLO3HD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
-#EXTINF:-1 tvg-id="TrzicTV.si@SD" tvg-name="Trzic TV" tvg-logo="https://i.imgur.com/VZiaoqz.png" group-title="General",Tržič TV (1080p)
+#EXTINF:-1 tvg-id="TrzicTV.si@SD" tvg-country="SI" tvg-name="Trzic TV" tvg-logo="https://i.imgur.com/VZiaoqz.png" group-title="General",Tržič TV (1080p)
 https://vpn.video2go.live:444/trzic/tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TVSLO1.si@HD" tvg-name="TV SLO 1" tvg-logo="https://i.imgur.com/E3YmlxF.png" group-title="General",TV SLO 1 HD (720p)
+#EXTINF:-1 tvg-id="TVSLO1.si@HD" tvg-country="SI" tvg-name="TV SLO 1" tvg-logo="https://i.imgur.com/E3YmlxF.png" group-title="General",TV SLO 1 HD (720p)
 https://dash2.antik.sk/live/test_slo1_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="TVSLO2.si@HD" tvg-name="TV SLO 2" tvg-logo="https://i.imgur.com/OPlzjjv.png" group-title="General",TV SLO 2 HD (720p)
+#EXTINF:-1 tvg-id="TVSLO2.si@HD" tvg-country="SI" tvg-name="TV SLO 2" tvg-logo="https://i.imgur.com/OPlzjjv.png" group-title="General",TV SLO 2 HD (720p)
 https://dash2.antik.sk/live/test_slo2_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="TelevizijaUrslja.si@SD" tvg-name="Televizija Urslja" tvg-logo="https://i.imgur.com/PZwdXlN.png" group-title="General",TV Uršlja (1080p)
+#EXTINF:-1 tvg-id="TelevizijaUrslja.si@SD" tvg-country="SI" tvg-name="Televizija Urslja" tvg-logo="https://i.imgur.com/PZwdXlN.png" group-title="General",TV Uršlja (1080p)
 http://ott.sgn.net/hls/tvurslja.m3u8
-#EXTINF:-1 tvg-id="TVVeseljakGolicaHD.si@SD" tvg-name="TV Veseljak Golica HD" tvg-logo="https://i.imgur.com/49VrbSW.png" group-title="General",TV Veseljak Golica HD (720p)
+#EXTINF:-1 tvg-id="TVVeseljakGolicaHD.si@SD" tvg-country="SI" tvg-name="TV Veseljak Golica HD" tvg-logo="https://i.imgur.com/49VrbSW.png" group-title="General",TV Veseljak Golica HD (720p)
 https://radio.serv.si/VeseljakGolicaTV/tracks-v1a1/mono.m3u8
