@@ -425,12 +425,33 @@
       padding: 28px var(--roll-inset) 22px;
       box-sizing: border-box;
       min-width: 0;
+      max-width: 100cqi;
+    }
+    .device-page:not(.is-desk) {
+      grid-template-columns: minmax(0, 2fr) minmax(0, 3.2fr);
+      grid-auto-columns: unset;
+      justify-content: stretch;
     }
     .device-page .device {
       display: grid;
       grid-template-rows: subgrid;
       grid-row: 1 / span 2;
       min-width: 0;
+    }
+    .device-page:not(.is-desk) .device.tablet,
+    .device-page:not(.is-desk) .device.phone {
+      width: auto;
+      max-width: 100%;
+    }
+    .device-page:not(.is-desk) .device-visual,
+    .device-page:not(.is-desk) .bezel {
+      width: 100%;
+      max-width: 100%;
+    }
+    .device-page:not(.is-desk) .bezel img {
+      width: 100%;
+      height: auto;
+      max-height: min(38vh, 380px);
     }
     .device-page.is-desk {
       grid-auto-columns: minmax(0, 860px);
@@ -454,6 +475,8 @@
       width: 100%;
       height: auto;
       display: block;
+      object-fit: contain;
+      image-orientation: from-image;
       transition: opacity 0.28s ease;
     }
     .window img.is-swapping { opacity: 0; }
@@ -474,13 +497,19 @@
       padding: 3px;
       border-radius: 28px;
     }
+    .device.tablet .bezel,
+    .device.phone .bezel {
+      max-width: 100%;
+    }
     .device.tablet .bezel img,
     .device.phone .bezel img {
-      height: min(38vh, 380px);
       width: auto;
+      height: auto;
+      max-height: min(38vh, 380px);
       max-width: 100%;
       display: block;
       vertical-align: top;
+      object-fit: contain;
       transition: opacity 0.28s ease;
     }
     .device img.is-swapping { opacity: 0; }
@@ -1609,7 +1638,7 @@
         iphoneAlt: "TV Channels on iPhone",
         iphoneT: "iPhone",
         iphoneP: "Add playlists, open the guide, and watch fullscreen.",
-        macAlt: "Featured feed on Mac",
+        macAlt: "TV Channels on Mac",
         macT: "Mac",
         macP: "The living-room player, on the desk.",
         noticeTitle: "Please note",
@@ -1733,7 +1762,7 @@
         iphoneAlt: "iPhone 上的电视频道",
         iphoneT: "iPhone",
         iphoneP: "添加直播列表，打开节目表，全屏播放。",
-        macAlt: "Mac 上的推荐",
+        macAlt: "Mac 上的电视频道",
         macT: "Mac",
         macP: "客厅播放器，放到桌上。",
         noticeTitle: "说明",
@@ -1857,7 +1886,7 @@
         iphoneAlt: "iPhoneのテレビチャンネル",
         iphoneT: "iPhone",
         iphoneP: "プレイリストを追加し、番組表から全画面再生。",
-        macAlt: "Macのおすすめ",
+        macAlt: "Macのテレビチャンネル",
         macT: "Mac",
         macP: "リビングのプレーヤーをデスクへ。",
         noticeTitle: "ご注意",
