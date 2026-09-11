@@ -3,8 +3,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>tamaTV</title>
-  <meta name="description" content="A living-room danmaku player for Apple TV, iPhone, iPad, and Mac.">
+  <title>tamaTV — Bilibili, Niconico, Emby, and live TV on Apple TV</title>
+  <meta name="description" content="Watch Bilibili and Niconico on Apple TV, iPad, and Mac. Connect Emby or Jellyfin. Add live TV playlists. Danmaku player for the living room.">
+  <link rel="canonical" href="https://ezhu331.github.io/tamatv/">
+  <link rel="alternate" hreflang="en" href="https://ezhu331.github.io/tamatv/?lang=en">
+  <link rel="alternate" hreflang="zh-Hans" href="https://ezhu331.github.io/tamatv/?lang=zh">
+  <link rel="alternate" hreflang="ja" href="https://ezhu331.github.io/tamatv/?lang=ja">
+  <link rel="alternate" hreflang="x-default" href="https://ezhu331.github.io/tamatv/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="tamaTV">
+  <meta property="og:url" content="https://ezhu331.github.io/tamatv/">
+  <meta property="og:title" content="tamaTV — Bilibili, Niconico, Emby, and live TV on Apple TV">
+  <meta property="og:description" content="Watch Bilibili and Niconico on Apple TV, iPad, and Mac. Connect Emby or Jellyfin. Add live TV playlists.">
+  <meta property="og:image" content="https://ezhu331.github.io/tamatv/assets/en/tv-featured.jpg">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="tamaTV — Bilibili, Niconico, Emby, and live TV on Apple TV">
+  <meta name="twitter:description" content="Watch Bilibili and Niconico on Apple TV, iPad, and Mac. Connect Emby or Jellyfin. Add live TV playlists.">
+  <meta name="twitter:image" content="https://ezhu331.github.io/tamatv/assets/en/tv-featured.jpg">
   <meta name="referrer" content="no-referrer">
   <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' https:; font-src 'none'; connect-src 'self'; form-action 'none'; base-uri 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; upgrade-insecure-requests">
   <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()">
@@ -315,6 +333,7 @@
     }
     .card h3 { margin: 0 0 8px; font-size: 1.05rem; }
     .card p { margin: 0; color: var(--muted); }
+    .faq .card h3 { font-size: 1rem; }
     .format-groups {
       display: grid;
       grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1260,6 +1279,9 @@
       .reveal, .lists-stat, .lists-curate article { opacity: 1; }
     }
   </style>
+  <script type="application/ld+json" id="json-ld">
+  {"@context":"https://schema.org","@graph":[{"@type":"SoftwareApplication","@id":"https://ezhu331.github.io/tamatv/#app","name":"tamaTV","url":"https://ezhu331.github.io/tamatv/","description":"Watch Bilibili and Niconico on Apple TV, iPad, and Mac. Connect Emby or Jellyfin. Add live TV playlists. Danmaku player for the living room.","applicationCategory":"MultimediaApplication","operatingSystem":"tvOS, iOS, iPadOS, macOS","downloadUrl":"https://apps.apple.com/app/id6809120045","image":"https://ezhu331.github.io/tamatv/assets/en/tv-featured.jpg","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"inLanguage":"en","featureList":["Bilibili","Niconico","Emby","Jellyfin","Live TV","Danmaku"]},{"@type":"FAQPage","@id":"https://ezhu331.github.io/tamatv/#faq","mainEntity":[{"@type":"Question","name":"Can I watch Bilibili on Apple TV?","acceptedAnswer":{"@type":"Answer","text":"Yes. tamaTV is a Bilibili player for Apple TV, iPad, and Mac. Sign in with your own account, then watch with danmaku on the big screen."}},{"@type":"Question","name":"Does tamaTV play Niconico?","acceptedAnswer":{"@type":"Answer","text":"Yes. Watch Niconico with danmaku on Apple TV, iPad, and Mac. Sign in with your own Niconico account."}},{"@type":"Question","name":"Does tamaTV support Emby and Jellyfin?","acceptedAnswer":{"@type":"Answer","text":"Yes. Connect Emby or Jellyfin on your network and play in the same player, including on iPhone."}},{"@type":"Question","name":"Can I stream live TV?","acceptedAnswer":{"@type":"Answer","text":"Add an M3U or M3U8 playlist, optionally with an XMLTV guide. Japan and world news lists are on Live lists. tamaTV does not host the streams."}}]}]}
+  </script>
 </head>
 <body>
   <header>
@@ -1336,6 +1358,29 @@
       </div>
     </section>
 
+    <section class="section faq" id="faq">
+      <h2 data-i18n="faqTitle"></h2>
+      <p class="intro" data-i18n="faqIntro"></p>
+      <div class="features">
+        <article class="card">
+          <h3 data-i18n="faq1q"></h3>
+          <p data-i18n="faq1a"></p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="faq2q"></h3>
+          <p data-i18n="faq2a"></p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="faq3q"></h3>
+          <p data-i18n="faq3a"></p>
+        </article>
+        <article class="card">
+          <h3 data-i18n="faq4q"></h3>
+          <p data-i18n="faq4a"></p>
+        </article>
+      </div>
+    </section>
+
     <section class="section" id="formats">
       <h2 data-i18n="fmtTitle"></h2>
       <p class="intro" data-i18n="fmtIntro"></p>
@@ -1344,6 +1389,8 @@
           <h3 data-i18n="fmtSrcT"></h3>
           <p data-i18n="fmtSrcP"></p>
           <ul class="chips">
+            <li>Bilibili</li>
+            <li>Niconico</li>
             <li>M3U</li>
             <li>M3U8</li>
             <li>XMLTV</li>
@@ -1577,37 +1624,37 @@
   <script>
     const copy = {
       en: {
-        docTitle: "tamaTV — Danmaku player for Apple TV",
-        docDesc: "A living-room danmaku player for Apple TV, iPhone, iPad, and Mac.",
+        docTitle: "tamaTV — Bilibili, Niconico, Emby, and live TV on Apple TV",
+        docDesc: "Watch Bilibili and Niconico on Apple TV, iPad, and Mac. Connect Emby or Jellyfin. Add live TV playlists. Danmaku player for the living room.",
         navHome: "Home",
         navLists: "Live lists",
         navStore: "App Store",
         navIssues: "Issues",
-        kicker: "Apple TV · iPhone · iPad · Mac",
-        title: "Danmaku player for the living room",
-        lead: "Scan a QR code on your phone, pick up the Siri Remote, and watch on the big screen. Sign in with your own account. Add M3U playlists or connect Emby or Jellyfin if you want those too.",
+        kicker: "Bilibili · Niconico · Emby · Live TV",
+        title: "Danmaku player for Bilibili, Niconico, and live TV",
+        lead: "Watch Bilibili and Niconico on Apple TV, iPad, and Mac. Connect Emby or Jellyfin. Add live TV playlists. Sign in with your own account.",
         getApp: "Get tamaTV",
         report: "Report an issue",
         heroAlt: "Featured feed on Apple TV",
         heroCaption: "Featured on Apple TV — categories, continue watching, and keywords you pin.",
         featuresTitle: "What it does",
-        featuresIntro: "tamaTV is a danmaku player for the couch. Arrange the tabs, then watch feeds, live rooms, rankings, and your own sources with danmaku, HDR, and subtitles.",
+        featuresIntro: "tamaTV plays Bilibili and Niconico with danmaku, plus Emby, Jellyfin, and live TV you add. Arrange the tabs, then watch on the couch.",
         f1t: "Featured for the remote",
         f1p: "Anime, animation, variety, continue watching, similar picks, and trending. Pin up to 30 keywords so the shows you follow stay at the top, newest first.",
         f2t: "Smart keyword search",
         f2p: "A pinned keyword expands related titles across languages. Smart ranks by match and freshness. You can also sort by latest or most viewed.",
-        f3t: "Live rooms and danmaku",
-        f3p: "Open a live room from the Live tab. Watch with danmaku, HDR, subtitles, and playback speed. Cast to another screen when you want.",
-        f4t: "Live TV you add",
-        f4p: "tamaTV does not ship a channel catalog. Add an M3U or M3U8 playlist you already have, optionally with an XMLTV guide, then browse by group.",
-        f5t: "Home library",
+        f3t: "Bilibili and Niconico",
+        f3p: "Sign in and watch feeds, live rooms, and rankings with danmaku. Apple TV, iPad, and Mac keep the full set of tabs.",
+        f4t: "Live TV streaming",
+        f4p: "Add an M3U or M3U8 playlist you already have, optionally with an XMLTV guide, then browse by group. Japan and world news lists are on Live lists.",
+        f5t: "Emby and Jellyfin",
         f5p: "Connect Emby or Jellyfin on your network and play from it in the same player. Direct play for MP4, MOV, and M4V; other files can transcode over HLS.",
         f6t: "Siri search",
         f6p: "Hold the Siri Remote and say a title, or type it in Apple TV Search. tamaTV opens Search with that query so you can play from the couch. You can also search inside the app.",
         fmtTitle: "Sources and formats",
         fmtIntro: "Bring your own playlists and servers. Playback uses the codecs Apple’s player can handle, including HDR and Dolby Atmos when the source has them, plus HLS when a file needs transcoding.",
         fmtSrcT: "Sources",
-        fmtSrcP: "Live TV from M3U / M3U8 lists, with an optional XMLTV guide. Home library from Emby or Jellyfin.",
+        fmtSrcP: "Bilibili and Niconico with your own account. Live TV from M3U / M3U8 lists, with an optional XMLTV guide. Home library from Emby or Jellyfin.",
         fmtVidT: "Video",
         fmtVidP: "H.264 and HEVC. HLS and MPEG-DASH streams. Direct play for MP4, MOV, and M4V.",
         fmtPicT: "Picture",
@@ -1616,6 +1663,16 @@
         fmtAudP: "Stereo and surround, including Dolby Audio and Dolby Atmos when the track is there. Lossless when the file allows it.",
         fmtSubT: "Text",
         fmtSubP: "External subtitles and danmaku on supported streams.",
+        faqTitle: "Bilibili, Niconico, Emby, and live TV",
+        faqIntro: "Sign in, add a list, or connect a server you already use.",
+        faq1q: "Can I watch Bilibili on Apple TV?",
+        faq1a: "Yes. tamaTV is a Bilibili player for Apple TV, iPad, and Mac. Sign in with your own account, then watch with danmaku on the big screen.",
+        faq2q: "Does tamaTV play Niconico?",
+        faq2a: "Yes. Watch Niconico with danmaku on Apple TV, iPad, and Mac. Sign in with your own Niconico account.",
+        faq3q: "Does tamaTV support Emby and Jellyfin?",
+        faq3a: "Yes. Connect Emby or Jellyfin on your network and play in the same player, including on iPhone.",
+        faq4q: "Can I stream live TV?",
+        faq4a: "Add an M3U or M3U8 playlist, optionally with an XMLTV guide. Japan and world news lists are on Live lists. tamaTV does not host the streams.",
         tvTitle: "On Apple TV",
         tvIntro: "Large cards, a top tab bar, and a sidebar you can drive from the couch.",
         liveAlt: "Live TV on Apple TV",
@@ -1649,6 +1706,8 @@
         footer: 'Public issues live in <a href="https://github.com/EZHU331/tamatv/issues">this repository</a>.',
         listsKicker: "M3U · M3U8 · XMLTV",
         listsTitle: "Live TV lists",
+        listsDocTitle: "Live TV playlists for tamaTV",
+        listsDocDesc: "Public M3U live TV playlists by country and category for tamaTV. Japan and world news are hand-finished. tamaTV does not host the streams.",
         listsBadge: "Curated",
         listsLead: "Public playlists by country and category, tidied for the player. World news and Japan are hand-finished. tamaTV does not host the streams.",
         listsHowP: "In TV Channels, add a playlist and paste a URL. Japan and world news are already included.",
@@ -1701,37 +1760,37 @@
         listsCreditsP2: 'These projects publish indexes, not the streams. ngo5 is a link directory. vbskycn notes that streams are gathered from public sources and are not stored in that repository.'
       },
       zh: {
-        docTitle: "tamaTV — 客厅弹幕播放器",
-        docDesc: "适用于 Apple TV、iPhone、iPad 与 Mac 的客厅弹幕播放器。",
+        docTitle: "tamaTV — 哔哩哔哩、Niconico、Emby 与直播电视",
+        docDesc: "在 Apple TV、iPad 与 Mac 上看哔哩哔哩和 Niconico。连接 Emby 或 Jellyfin。添加直播电视列表。客厅弹幕播放器。",
         navHome: "首页",
         navLists: "直播列表",
         navStore: "App Store",
         navIssues: "反馈",
-        kicker: "Apple TV · iPhone · iPad · Mac",
-        title: "客厅弹幕播放器",
-        lead: "手机扫码登录，拿起 Siri Remote，在大屏上观看。使用你自己的账号。需要时再添加 M3U 列表，或连接 Emby / Jellyfin。",
+        kicker: "哔哩哔哩 · Niconico · Emby · 直播电视",
+        title: "哔哩哔哩、Niconico 与直播电视的客厅播放器",
+        lead: "在 Apple TV、iPad 与 Mac 上看哔哩哔哩和 Niconico。连接 Emby 或 Jellyfin。添加直播电视列表。使用你自己的账号。",
         getApp: "获取 tamaTV",
         report: "反馈问题",
         heroAlt: "Apple TV 上的推荐页",
         heroCaption: "Apple TV 上的推荐：分类、接着看，以及你置顶的关键词。",
         featuresTitle: "能做什么",
-        featuresIntro: "tamaTV 是为沙发准备的弹幕播放器。可排列标签，观看推荐、直播、排行，以及你自己添加的来源。支持弹幕、HDR 与字幕。",
+        featuresIntro: "tamaTV 可看哔哩哔哩和 Niconico 的弹幕，也可连接 Emby、Jellyfin，以及你添加的直播电视。排好标签，在沙发上看。",
         f1t: "为大屏准备的推荐",
         f1p: "番剧、动画、综艺、接着看、相似内容与热门。最多置顶 30 个关键词，关注的节目留在顶部，按最新更新排列。",
         f2t: "智能关键词搜索",
         f2p: "置顶的关键词会展开不同语言的相关片名。智能排序兼顾匹配度与新鲜度，也可按最新或播放量排列。",
-        f3t: "直播与弹幕",
-        f3p: "从直播标签进入直播间。支持弹幕、HDR、字幕与倍速，也可投到另一块屏幕。",
-        f4t: "自己添加的电视频道",
-        f4p: "应用不自带频道目录。添加你已有的 M3U 或 M3U8 列表，可选 XMLTV 节目表，再按分类浏览。",
-        f5t: "家庭媒体库",
+        f3t: "哔哩哔哩与 Niconico",
+        f3p: "登录后即可看推荐、直播间和排行，支持弹幕。Apple TV、iPad 与 Mac 保留完整标签。",
+        f4t: "直播电视",
+        f4p: "添加你已有的 M3U 或 M3U8 列表，可选 XMLTV 节目表，再按分类浏览。日本与世界新闻列表在「直播列表」里。",
+        f5t: "Emby 与 Jellyfin",
         f5p: "连接家中网络上的 Emby 或 Jellyfin，用同一个播放器观看。MP4、MOV、M4V 可直连播放，其他文件可通过 HLS 转码。",
         f6t: "Siri 搜索",
         f6p: "按住 Siri Remote 说出片名，或在 Apple TV 搜索里输入。tamaTV 会打开搜索并列出结果，可直接在大屏上播放。也可在应用内搜索。",
         fmtTitle: "来源与格式",
         fmtIntro: "使用你自己的直播列表和服务器。播放采用系统播放器支持的编码，片源有 HDR 或杜比全景声时也可播放，需要时通过 HLS 转码。",
         fmtSrcT: "来源",
-        fmtSrcP: "直播电视支持 M3U / M3U8，可选 XMLTV 节目表。家庭媒体库支持 Emby 与 Jellyfin。",
+        fmtSrcP: "用你自己的账号看哔哩哔哩和 Niconico。直播电视支持 M3U / M3U8，可选 XMLTV 节目表。家庭媒体库支持 Emby 与 Jellyfin。",
         fmtVidT: "视频",
         fmtVidP: "H.264 与 HEVC。支持 HLS 与 MPEG-DASH。MP4、MOV、M4V 可直连播放。",
         fmtPicT: "画质",
@@ -1740,6 +1799,16 @@
         fmtAudP: "立体声与环绕声，含杜比音频与杜比全景声（片源有轨时）。文件允许时也可播放无损。",
         fmtSubT: "字幕",
         fmtSubP: "外挂字幕，以及支持弹幕的内容。",
+        faqTitle: "哔哩哔哩、Niconico、Emby 与直播电视",
+        faqIntro: "登录、添加列表，或连接你已有的服务器。",
+        faq1q: "能在 Apple TV 上看哔哩哔哩吗？",
+        faq1a: "可以。tamaTV 是适用于 Apple TV、iPad 与 Mac 的哔哩哔哩播放器。用你自己的账号登录，即可在大屏上看弹幕。",
+        faq2q: "tamaTV 能看 Niconico 吗？",
+        faq2a: "可以。在 Apple TV、iPad 与 Mac 上看 Niconico，支持弹幕。用你自己的 Niconico 账号登录。",
+        faq3q: "tamaTV 支持 Emby 和 Jellyfin 吗？",
+        faq3a: "可以。连接家中网络上的 Emby 或 Jellyfin，用同一个播放器观看，也包括 iPhone。",
+        faq4q: "能看直播电视吗？",
+        faq4a: "添加 M3U 或 M3U8 列表，可选 XMLTV 节目表。日本与世界新闻列表在「直播列表」里。tamaTV 不托管这些直播。",
         tvTitle: "在 Apple TV 上",
         tvIntro: "大卡片、顶部标签栏，侧边栏可用遥控器操作。",
         liveAlt: "Apple TV 上的电视直播",
@@ -1773,6 +1842,8 @@
         footer: '公开问题请提交到 <a href="https://github.com/EZHU331/tamatv/issues">此仓库</a>。',
         listsKicker: "M3U · M3U8 · XMLTV",
         listsTitle: "直播列表",
+        listsDocTitle: "tamaTV 直播电视列表",
+        listsDocDesc: "按国家和地区、分类整理的公开 M3U 直播列表，供 tamaTV 使用。世界新闻与日本列表另行精修。tamaTV 不托管这些直播。",
         listsBadge: "精选整理",
         listsLead: "按国家和地区、分类整理的公开直播列表，方便在播放器里浏览。世界新闻与日本列表另行精修。tamaTV 不托管这些直播。",
         listsHowP: "在「电视频道」中添加列表并粘贴地址。应用里已包含日本和世界新闻列表。",
@@ -1825,37 +1896,37 @@
         listsCreditsP2: '这些项目发布的是索引，不是直播本身。ngo5 是链接目录。vbskycn 说明直播来自公开资源，仓库本身不存储流媒体。'
       },
       ja: {
-        docTitle: "tamaTV — リビングの弾幕プレーヤー",
-        docDesc: "Apple TV、iPhone、iPad、Mac向けのリビング弾幕プレーヤー。",
+        docTitle: "tamaTV — Bilibili、ニコニコ、Emby、ライブTV",
+        docDesc: "Apple TV、iPad、MacでBilibiliとニコニコを再生。EmbyやJellyfinに接続。ライブTVのプレイリストを追加。リビングの弾幕プレーヤー。",
         navHome: "ホーム",
         navLists: "ライブリスト",
         navStore: "App Store",
         navIssues: "Issues",
-        kicker: "Apple TV · iPhone · iPad · Mac",
-        title: "リビングの弾幕プレーヤー",
-        lead: "スマホでQRコードを読み取り、Siri Remoteで大画面視聴。使うのは自分のアカウント。必要ならM3UリストやEmby / Jellyfinも追加できます。",
+        kicker: "Bilibili · ニコニコ · Emby · ライブTV",
+        title: "Bilibili、ニコニコ、ライブTVの弾幕プレーヤー",
+        lead: "Apple TV、iPad、MacでBilibiliとニコニコを視聴。EmbyやJellyfinに接続。ライブTVのプレイリストを追加。使うのは自分のアカウント。",
         getApp: "tamaTVを入手",
         report: "問題を報告",
         heroAlt: "Apple TVのおすすめ画面",
         heroCaption: "Apple TVのおすすめ。カテゴリ、続きから、ピン留めしたキーワード。",
         featuresTitle: "できること",
-        featuresIntro: "ソファ向けの弾幕プレーヤーです。タブを並べ、フィード、ライブ配信、ランキング、自分で追加したソースを、弾幕・HDR・字幕つきで再生できます。",
+        featuresIntro: "tamaTVはBilibiliとニコニコを弾幕つきで再生し、Emby、Jellyfin、自分で追加したライブTVにも対応します。タブを並べてソファから視聴。",
         f1t: "リモコン向けのおすすめ",
         f1p: "アニメ、バラエティ、続きから、似ている作品、急上昇。キーワードは最大30件までピン留めでき、フォロー中の番組は新しい順で上部に残ります。",
         f2t: "スマートなキーワード検索",
         f2p: "ピン留めしたキーワードは、言語をまたいだ関連タイトルに広がります。スマート順は一致度と新しさを見ます。最新順や再生数順にも切り替えられます。",
-        f3t: "ライブ配信と弾幕",
-        f3p: "ライブタブから配信に入れます。弾幕、HDR、字幕、速度に対応。別の画面へキャストもできます。",
-        f4t: "自分で追加するテレビ",
-        f4p: "チャンネル一覧は同梱しません。手元のM3U / M3U8を追加し、XMLTV番組表があれば付けて、グループから再生します。",
-        f5t: "自宅ライブラリ",
+        f3t: "Bilibiliとニコニコ",
+        f3p: "サインインしてフィード、ライブ配信、ランキングを弾幕つきで視聴。Apple TV、iPad、Macはタブ一式。",
+        f4t: "ライブTV配信",
+        f4p: "手元のM3U / M3U8を追加し、XMLTV番組表があれば付けて、グループから再生します。日本と世界ニュースはライブリストにあります。",
+        f5t: "EmbyとJellyfin",
         f5p: "同じネットワーク上のEmbyまたはJellyfinに接続し、同じプレーヤーで再生します。MP4、MOV、M4Vはダイレクト再生。ほかのファイルはHLSでトランスコードできます。",
         f6t: "Siri検索",
         f6p: "Siri Remoteを長押ししてタイトルを話すか、Apple TVの検索に入力します。tamaTVが検索を開き、ソファから再生できます。アプリ内検索も同じです。",
         fmtTitle: "ソースと形式",
         fmtIntro: "プレイリストとサーバーは自分で追加します。再生はAppleのプレーヤーが扱えるコーデックを使い、ソースにあればHDRやDolby Atmosにも対応。必要なときはHLSでトランスコードします。",
         fmtSrcT: "ソース",
-        fmtSrcP: "ライブTVはM3U / M3U8。番組表はXMLTV。自宅ライブラリはEmbyとJellyfin。",
+        fmtSrcP: "自分のアカウントでBilibiliとニコニコ。ライブTVはM3U / M3U8。番組表はXMLTV。自宅ライブラリはEmbyとJellyfin。",
         fmtVidT: "映像",
         fmtVidP: "H.264とHEVC。HLSとMPEG-DASH。MP4、MOV、M4Vはダイレクト再生。",
         fmtPicT: "画質",
@@ -1864,6 +1935,16 @@
         fmtAudP: "ステレオとサラウンド。トラックがあればDolby AudioとDolby Atmos。ファイルが許せばロスレス。",
         fmtSubT: "字幕",
         fmtSubP: "外部字幕と、対応ストリームの弾幕。",
+        faqTitle: "Bilibili、ニコニコ、Emby、ライブTV",
+        faqIntro: "サインイン、リスト追加、または使っているサーバーへ接続。",
+        faq1q: "Apple TVでBilibiliを見られますか？",
+        faq1a: "はい。tamaTVはApple TV、iPad、Mac向けのBilibiliプレーヤーです。自分のアカウントでサインインし、大画面で弾幕つき視聴できます。",
+        faq2q: "tamaTVはニコニコに対応していますか？",
+        faq2a: "はい。Apple TV、iPad、Macでニコニコを弾幕つきで視聴できます。自分のニコニコアカウントでサインインしてください。",
+        faq3q: "EmbyとJellyfinに対応していますか？",
+        faq3a: "はい。同じネットワーク上のEmbyまたはJellyfinに接続し、同じプレーヤーで再生できます。iPhoneでも利用できます。",
+        faq4q: "ライブTVを配信できますか？",
+        faq4a: "M3UまたはM3U8のプレイリストを追加し、XMLTV番組表も付けられます。日本と世界ニュースはライブリストにあります。tamaTVは配信をホストしません。",
         tvTitle: "Apple TVで",
         tvIntro: "大きなカード、上のタブバー、ソファから操作できるサイドバー。",
         liveAlt: "Apple TVのライブTV",
@@ -1897,6 +1978,8 @@
         footer: '公開の問題は <a href="https://github.com/EZHU331/tamatv/issues">このリポジトリ</a> へ。',
         listsKicker: "M3U · M3U8 · XMLTV",
         listsTitle: "ライブリスト",
+        listsDocTitle: "tamaTVのライブTVプレイリスト",
+        listsDocDesc: "国・地域とカテゴリで整理した公開M3UライブTVリスト。世界ニュースと日本は別に仕上げています。tamaTVは配信をホストしません。",
         listsBadge: "整理済み",
         listsLead: "国・地域とカテゴリで整理した公開プレイリストです。世界ニュースと日本は別に仕上げています。tamaTVは配信をホストしません。",
         listsHowP: "TVチャンネルでプレイリストを追加し、URLを貼ります。日本と世界ニュースは最初から入っています。",
@@ -1950,7 +2033,10 @@
       }
     };
 
+    const SITE = "https://ezhu331.github.io/tamatv/";
+    const STORE = "https://apps.apple.com/app/id6809120045";
     const htmlLang = { en: "en", zh: "zh-Hans", ja: "ja" };
+    const ogLocale = { en: "en_US", zh: "zh_CN", ja: "ja_JP" };
     const VIEWS = ["countries", "categories", "guides"];
     const PINNED = {
       en: ["US", "UK", "JP", "CN", "AU", "CA", "KR", "TW", "HK", "DE"],
@@ -2048,6 +2134,61 @@
       if (item && item.kind === "country") listsPin = item.code;
     }
 
+    function setAttr(sel, attr, value) {
+      const el = document.querySelector(sel);
+      if (el) el.setAttribute(attr, value);
+    }
+
+    function setSeo(t, route) {
+      const home = route !== "lists";
+      const title = home ? t.docTitle : (t.listsDocTitle || t.listsTitle + " — tamaTV");
+      const desc = home ? t.docDesc : (t.listsDocDesc || t.listsLead);
+      const pageUrl = SITE + (currentLang === "en" ? "" : "?lang=" + currentLang);
+      const image = SITE + "assets/" + currentLang + "/tv-featured.jpg";
+      document.title = title;
+      setAttr('meta[name="description"]', "content", desc);
+      setAttr('link[rel="canonical"]', "href", pageUrl);
+      setAttr('meta[property="og:url"]', "content", pageUrl);
+      setAttr('meta[property="og:title"]', "content", title);
+      setAttr('meta[property="og:description"]', "content", desc);
+      setAttr('meta[property="og:image"]', "content", image);
+      setAttr('meta[property="og:locale"]', "content", ogLocale[currentLang] || "en_US");
+      setAttr('meta[name="twitter:title"]', "content", title);
+      setAttr('meta[name="twitter:description"]', "content", desc);
+      setAttr('meta[name="twitter:image"]', "content", image);
+      const ld = document.getElementById("json-ld");
+      if (!ld) return;
+      const faqs = [1, 2, 3, 4].map((n) => ({
+        "@type": "Question",
+        name: t["faq" + n + "q"],
+        acceptedAnswer: { "@type": "Answer", text: t["faq" + n + "a"] }
+      }));
+      ld.textContent = JSON.stringify({
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "SoftwareApplication",
+            "@id": SITE + "#app",
+            name: "tamaTV",
+            url: SITE,
+            description: t.docDesc,
+            applicationCategory: "MultimediaApplication",
+            operatingSystem: "tvOS, iOS, iPadOS, macOS",
+            downloadUrl: STORE,
+            image: image,
+            offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+            inLanguage: htmlLang[currentLang] || "en",
+            featureList: ["Bilibili", "Niconico", "Emby", "Jellyfin", "Live TV", "Danmaku"]
+          },
+          {
+            "@type": "FAQPage",
+            "@id": SITE + "#faq",
+            mainEntity: faqs
+          }
+        ]
+      });
+    }
+
     function showPage(page, view, open) {
       const route = page === "lists" ? "lists" : "home";
       if (view && VIEWS.includes(view)) listsView = view;
@@ -2061,7 +2202,7 @@
         else el.removeAttribute("aria-current");
       });
       const t = copy[currentLang] || copy.en;
-      document.title = route === "lists" ? t.listsTitle + " — tamaTV" : t.docTitle;
+      setSeo(t, route);
       if (route === "lists") setListsHash(listsView, listsOpen);
       if (route === "home" && (location.hash || "").indexOf("#lists") === 0) {
         history.replaceState(null, "", location.pathname + location.search);
@@ -3043,8 +3184,6 @@
       currentLang = copy[lang] ? lang : "en";
       const t = copy[currentLang];
       document.documentElement.lang = htmlLang[currentLang] || "en";
-      const meta = document.querySelector('meta[name="description"]');
-      if (meta) meta.setAttribute("content", t.docDesc);
       document.querySelectorAll("[data-i18n]").forEach((el) => {
         el.textContent = t[el.dataset.i18n] || "";
       });
@@ -3071,6 +3210,10 @@
     }
 
     function initialLang() {
+      try {
+        const q = new URLSearchParams(location.search).get("lang");
+        if (q && copy[q]) return q;
+      } catch (_) {}
       try {
         const saved = localStorage.getItem("tamatv-lang");
         if (saved && copy[saved]) return saved;
@@ -3244,7 +3387,15 @@
     }
 
     document.querySelectorAll(".langs button").forEach((btn) => {
-      btn.addEventListener("click", () => apply(btn.dataset.lang));
+      btn.addEventListener("click", () => {
+        apply(btn.dataset.lang);
+        try {
+          const url = new URL(location.href);
+          if (btn.dataset.lang === "en") url.searchParams.delete("lang");
+          else url.searchParams.set("lang", btn.dataset.lang);
+          history.replaceState(null, "", url.pathname + url.search + url.hash);
+        } catch (_) {}
+      });
     });
     document.querySelectorAll("[data-tab]").forEach((el) => {
       el.addEventListener("click", (event) => {
