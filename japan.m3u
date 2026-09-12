@@ -1,12 +1,19 @@
 #EXTM3U url-tvg="https://animenosekai.github.io/japanterebi-xmltv/guide.xml"
 # tamaTV Japan collection — public HLS only. tamaTV does not host these streams.
-# Kept: official NHK World / shopping / weather / religious / TOKYO MX FAST, Aniplus FAST, plus working iptv-org Tokyo terrestrial.
-# Dropped: non-Japan rows, dead hosts, IP streams, tokenized CS restreams, duplicate NHK World mirrors.
+# Groups: ニュース, 地上波, アニメ, 通販, 天気, 宗教.
+# Kept: NHK World, Rakuten FAST news/MX, Aniplus FAST, shopping/weather/religious, working Tokyo terrestrial.
+# Dropped: gitee private-IP/token CS, Free-TV naori/willfonk, dead NTV News24 CDNs, DASH/ClearKey.
 
-#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHK World-Japan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/960px-NHK_World-Japan_TV.svg.png" group-title="ニュース",NHK World-Japan
+#EXTINF:-1 tvg-id="NHKWorldJapan.jp" tvg-name="NHKワールド JAPAN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/960px-NHK_World-Japan_TV.svg.png" group-title="ニュース",NHKワールド JAPAN
 https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8
-#EXTINF:-1 tvg-id="NHKWorldPremium.jp" tvg-name="NHK World Premium" tvg-logo="https://i.imgur.com/4ESi2La.png" group-title="ニュース",NHK World Premium
+#EXTINF:-1 tvg-id="NHKWorldPremium.jp" tvg-name="NHKワールド・プレミアム" tvg-logo="https://i.imgur.com/4ESi2La.png" group-title="ニュース",NHKワールド・プレミアム
 https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8
+#EXTINF:-1 tvg-id="NTVNews.jp" tvg-name="日テレNEWS" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/104_ntvnews.png" group-title="ニュース",日テレNEWS
+https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news1hlscmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-id="FNNPrimeOnline.jp" tvg-name="FNNプライムオンライン" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/105_fnn.png" group-title="ニュース",FNNプライムオンライン
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news4-cmaf-rakutenjp/playlist.m3u8
+#EXTINF:-1 tvg-id="MBSNews.jp" tvg-name="MBSニュース" tvg-logo="https://i.imgur.com/RfrkGrd.png" group-title="ニュース",MBSニュース
+https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news5-cmaf-rakutenjp/playlist.m3u8
 #EXTINF:-1 tvg-id="JOAKDTV.jp" tvg-name="NHK総合" tvg-logo="https://i.imgur.com/fAZ2BEZ.png" group-title="地上波",NHK総合
 https://nhk4.mov3.co/hls/nhk.m3u8
 #EXTINF:-1 tvg-id="JOAXDTV.jp" tvg-name="日本テレビ" tvg-logo="https://i.imgur.com/IxD8V5X.png" group-title="地上波",日本テレビ

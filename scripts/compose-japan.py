@@ -9,24 +9,51 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTS = (ROOT / "japan.m3u", ROOT / "playlists" / "countries" / "jp.m3u")
 EPG = "https://animenosekai.github.io/japanterebi-xmltv/guide.xml"
 
-# Curated after probing iptv-org Japan lists, official NHK World CDNs,
-# Shop Channel, QVC, Weathernews, GSTV, CGNTV, and the Rakuten TOKYO MX FAST feed.
-# Skip non-Japan rows, dead hosts, IP streams, and tokenized CS restreams.
+# Curated after probing iptv-org / Free-TV Japan / gitee ieyer mirrors,
+# official NHK World CDNs, Shop Channel, QVC, Weathernews, GSTV, CGNTV,
+# and Rakuten FAST (TOKYO MX + news).
+# Skip non-Japan rows, dead hosts, private IPs, session tokens, naori proxies,
+# willfonk CS restreams, and DASH/ClearKey sources the app cannot play.
+#
+# Groups (browse order): ニュース → 地上波 → アニメ → 通販 → 天気 → 宗教
 CHANNELS = [
+    # --- ニュース ---
     {
         "id": "NHKWorldJapan.jp",
-        "name": "NHK World-Japan",
+        "name": "NHKワールド JAPAN",
         "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/NHK_World-Japan_TV.svg/960px-NHK_World-Japan_TV.svg.png",
         "group": "ニュース",
         "url": "https://masterpl.hls.nhkworld.jp/hls/w/live/smarttv.m3u8",
     },
     {
         "id": "NHKWorldPremium.jp",
-        "name": "NHK World Premium",
+        "name": "NHKワールド・プレミアム",
         "logo": "https://i.imgur.com/4ESi2La.png",
         "group": "ニュース",
         "url": "https://media-tyo.hls.nhkworld.jp/hls/wp/live/master.m3u8",
     },
+    {
+        "id": "NTVNews.jp",
+        "name": "日テレNEWS",
+        "logo": "https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/104_ntvnews.png",
+        "group": "ニュース",
+        "url": "https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news1hlscmaf-rakutenjp/playlist.m3u8",
+    },
+    {
+        "id": "FNNPrimeOnline.jp",
+        "name": "FNNプライムオンライン",
+        "logo": "https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/105_fnn.png",
+        "group": "ニュース",
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news4-cmaf-rakutenjp/playlist.m3u8",
+    },
+    {
+        "id": "MBSNews.jp",
+        "name": "MBSニュース",
+        "logo": "https://i.imgur.com/RfrkGrd.png",
+        "group": "ニュース",
+        "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news5-cmaf-rakutenjp/playlist.m3u8",
+    },
+    # --- 地上波 ---
     {
         "id": "JOAKDTV.jp",
         "name": "NHK総合",
@@ -76,6 +103,7 @@ CHANNELS = [
         "group": "地上波",
         "url": "https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-tokyomx-cmaf-rakutenjp/playlist.m3u8",
     },
+    # --- アニメ ---
     {
         "id": "Aniplus.sg",
         "name": "Aniplus",
@@ -83,6 +111,7 @@ CHANNELS = [
         "group": "アニメ",
         "url": "https://amg18481-amg18481c1-amgplt0352.playout.now3.amagi.tv/playlist/amg18481-amg18481c1-amgplt0352/playlist.m3u8",
     },
+    # --- 通販 ---
     {
         "id": "ShopChannel.jp",
         "name": "ショップチャンネル",
@@ -104,6 +133,7 @@ CHANNELS = [
         "group": "通販",
         "url": "https://japaneast.av.mk.io/mediakindcdn-mediakind/ca01a143-f823-4432-b670-c22ff9643ce4/index.qfm/manifest(format=m3u8-cmaf)",
     },
+    # --- 天気 ---
     {
         "id": "Weathernews.jp",
         "name": "ウェザーニュースLiVE",
@@ -111,6 +141,7 @@ CHANNELS = [
         "group": "天気",
         "url": "https://rch01e-alive-hls.akamaized.net/38fb45b25cdb05a1/out/v1/4e907bfabc684a1dae10df8431a84d21/index.m3u8",
     },
+    # --- 宗教 ---
     {
         "id": "CGNTVJapan.jp",
         "name": "CGNTV Japan",
@@ -143,8 +174,9 @@ def playlist_text() -> str:
         [
             f'#EXTM3U url-tvg="{EPG}"',
             "# tamaTV Japan collection — public HLS only. tamaTV does not host these streams.",
-            "# Kept: official NHK World / shopping / weather / religious / TOKYO MX FAST, Aniplus FAST, plus working iptv-org Tokyo terrestrial.",
-            "# Dropped: non-Japan rows, dead hosts, IP streams, tokenized CS restreams, duplicate NHK World mirrors.",
+            "# Groups: ニュース, 地上波, アニメ, 通販, 天気, 宗教.",
+            "# Kept: NHK World, Rakuten FAST news/MX, Aniplus FAST, shopping/weather/religious, working Tokyo terrestrial.",
+            "# Dropped: gitee private-IP/token CS, Free-TV naori/willfonk, dead NTV News24 CDNs, DASH/ClearKey.",
             "",
             *[extinf(ch) for ch in CHANNELS],
             "",

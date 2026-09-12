@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07T10:20:53Z",
+  "updated": "2026-09-12T00:50:00Z",
   "site": "https://ezhu331.github.io/tamatv",
   "sources": [
     {
@@ -60,13 +60,13 @@
     {
       "id": "tamatv-japan",
       "kind": "featured",
-      "name": "Japan",
+      "name": "Japan live TV",
       "flag": "🇯🇵",
       "url": "https://ezhu331.github.io/tamatv/japan.m3u",
       "format": "M3U",
       "origin": "tamaTV",
       "originHref": "https://github.com/EZHU331/tamatv",
-      "channels": 15,
+      "channels": 18,
       "extras": [
         {
           "key": "epg",
@@ -1380,7 +1380,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 15,
+      "channels": 18,
       "extras": [
         {
           "key": "epg",

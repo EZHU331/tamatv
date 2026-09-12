@@ -12,7 +12,7 @@ This repository is support only. It does not contain app source.
 
 tamaTV is independent. It is not affiliated with any video service. Use your own account, and only add playlists and servers you are allowed to use.
 
-The [Live lists](https://ezhu331.github.io/tamatv/#lists/countries) tab offers curated M3U playlists by country and category, built from [iptv-org/iptv](https://github.com/iptv-org/iptv). Combined China aggregators from [vbskycn/iptv](https://github.com/vbskycn/iptv) and [ngo5/IPTV](https://github.com/ngo5/IPTV) sit in Category. World news and documentary has a separately tidied collection at [world.m3u](https://ezhu331.github.io/tamatv/world.m3u). Japan has a separately tidied collection at [japan.m3u](https://ezhu331.github.io/tamatv/japan.m3u). Those projects and each list’s maintainer hold the credit. tamaTV does not host the streams.
+The [Live lists](https://ezhu331.github.io/tamatv/#lists/countries) tab offers curated M3U playlists by country and category, built from [iptv-org/iptv](https://github.com/iptv-org/iptv). Combined China aggregators from [vbskycn/iptv](https://github.com/vbskycn/iptv) and [ngo5/IPTV](https://github.com/ngo5/IPTV) sit in Category. World news and documentary has a separately tidied collection at [world.m3u](https://ezhu331.github.io/tamatv/world.m3u). Japan live TV / IPTV has a separately tidied collection at [japan.m3u](https://ezhu331.github.io/tamatv/japan.m3u). Those projects and each list’s maintainer hold the credit. tamaTV does not host the streams.
 
 ## Credits
 
