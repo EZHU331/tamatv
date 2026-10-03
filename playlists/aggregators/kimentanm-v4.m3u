@@ -1,58 +1,13 @@
 #EXTM3U url-tvg="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml" x-tvg-url="https://epg.aptv.app/pp.xml.gz,https://epg.aptv.app/xml"
-#EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV1
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV1
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV2
 #EXTVLCOPT:http-user-agent=AptvPlayer-UA
 http://101.35.240.114:88/live.php?id=CCTV2
-#EXTINF:-1 tvg-id="CCTV3" tvg-country="CN" tvg-name="CCTV3" tvg-logo="https://i.imgur.com/iFlkIuw.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV3
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV3
-#EXTINF:-1 tvg-id="CCTV4" tvg-name="CCTV4" tvg-logo="https://live.fanmingming.com/tv/CCTV4.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV4
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV4
 #EXTINF:-1 tvg-id="CCTV4K" tvg-country="CN" tvg-name="CCTV4K" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="央视" http-user-agent="iPhone",CCTV4K
 #EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=CCTV4K
-#EXTINF:-1 tvg-id="CCTV5" tvg-name="CCTV5" tvg-logo="https://live.fanmingming.com/tv/CCTV5.png" group-title="央视" http-user-agent="iPhone",CCTV5
-#EXTVLCOPT:http-user-agent=iPhone
-http://101.35.240.114:88/live.php?id=CCTV5
-#EXTINF:-1 tvg-id="CCTV6" tvg-country="CN" tvg-name="CCTV6" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV6
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV6
-#EXTINF:-1 tvg-id="CCTV7" tvg-country="CN" tvg-name="CCTV7" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV7
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV7
-#EXTINF:-1 tvg-id="CCTV8" tvg-name="CCTV8" tvg-logo="https://live.fanmingming.com/tv/CCTV8.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV8
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV8
-#EXTINF:-1 tvg-id="CCTV9" tvg-country="CN" tvg-name="CCTV9" tvg-logo="https://i.imgur.com/3tivvMm.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV9
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV9
-#EXTINF:-1 tvg-id="CCTV10" tvg-name="CCTV10" tvg-logo="https://live.fanmingming.com/tv/CCTV10.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV10
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV10
-#EXTINF:-1 tvg-id="CCTV11" tvg-country="CN" tvg-name="CCTV11" tvg-logo="https://i.imgur.com/CjOWx7L.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV11
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV11
-#EXTINF:-1 tvg-id="CCTV12" tvg-country="CN" tvg-name="CCTV12" tvg-logo="https://i.imgur.com/3yTuiOM.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV12
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV12
-#EXTINF:-1 tvg-id="CCTV13" tvg-country="CN" tvg-name="CCTV13" tvg-logo="https://i.imgur.com/6MTar6J.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV13
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV13
-#EXTINF:-1 tvg-id="CCTV14" tvg-country="CN" tvg-name="CCTV14" tvg-logo="https://i.imgur.com/c5SXW7i.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV14
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV14
-#EXTINF:-1 tvg-id="CCTV15" tvg-country="CN" tvg-name="CCTV15" tvg-logo="https://i.imgur.com/CCV0eRG.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV15
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV15
 #EXTINF:-1 tvg-id="CCTV16" tvg-country="CN" tvg-name="CCTV16" tvg-logo="https://i.imgur.com/ZzV6JQp.png" group-title="央视" http-user-agent="iPhone",CCTV16
 #EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=CCTV16
-#EXTINF:-1 tvg-id="CCTV17" tvg-country="CN" tvg-name="CCTV17" tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV17
-#EXTVLCOPT:http-user-agent=AptvPlayer-UA
-http://101.35.240.114:88/live.php?id=CCTV17
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN%E4%BF%84%E8%AF%AD.png" group-title="央视",CGTN俄语
 https://0472.org/hls/cgtne.m3u8
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN%E6%B3%95%E8%AF%AD.png" group-title="央视",CGTN法语
@@ -193,24 +148,14 @@ http://101.35.240.114:88/live.php?id=青海卫视
 http://101.35.240.114:88/live.php?id=黑龙江卫视
 #EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚1990
 https://cdn8.yzzy-online.com/20220704/597_e0d90c37/1000k/hls/index.m3u8
-#EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚1992
-https://txmov2.a.kwimgs.com/bs3/video-hls/5256826755663896297_hlshd15.m3u8
-#EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚1997
-https://txmov2.a.kwimgs.com/bs3/video-hls/5230649583590411879_hlshd15.m3u8
-#EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚1998
-https://txmov2.a.kwimgs.com/bs3/video-hls/5225864507896315430_hlshd15.m3u8
 #EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚2012
 https://cdn8.yzzy-online.com/20220704/591_82b72f82/1000k/hls/index.m3u8
 #EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚2016
 https://cdn8.yzzy-online.com/20220704/577_cda9c8d1/1000k/hls/index.m3u8
-#EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚2023
-https://txmov2.a.kwimgs.com/bs3/video-hls/5251197255879398624_hlshd15.m3u8
 #EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚2024
 https://p2.bdstatic.com/rtmp.liveshow.lss-user.baidubce.com/live/stream_bduid_6488563992_8982723413/merged_1707497046297_88536_25144_41936.m3u8
 #EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚2025
 https://res.cctvnews.cctv.com/video/3005/record/cctv/merge1/133396667284143308839013005/8fbd6180bdef4da19f6155cf6b4652e1-4.m3u8
-#EXTINF:-1 tvg-id="春晚" tvg-name="春晚" tvg-logo="https://live.fanmingming.com/tv/%E6%98%A5%E6%99%9A.png" group-title="地方",春晚2026
-https://v.lzcdn28.com/20260217/8616_1de9f6e5/index.m3u8
 #EXTINF:-1 tvg-id="河北4K" tvg-name="河北4K" tvg-logo="https://live.fanmingming.com/tv/%E6%B2%B3%E5%8C%974K.png" group-title="地方",河北4K
 https://event.pull.hebtv.com:443/live/live101.m3u8
 #EXTINF:-1 tvg-id="苏州4K" tvg-name="苏州4K" tvg-logo="https://live.fanmingming.com/tv/%E8%8B%8F%E5%B7%9E4K.png" group-title="地方",苏州4K

@@ -1,44 +1,40 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="24Kanal.ua@SD" tvg-country="UA" tvg-name="24 Kanal" tvg-logo="https://pbs.twimg.com/profile_images/1498285886714298374/EMSJzC-0_400x400.jpg" group-title="News",24 Kanal (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/news24-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="Channel24.ua@SD" tvg-country="UA" tvg-name="Channel 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png" group-title="News",24 Канал (1080p)
-https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ApostropheTV.ua@SD" tvg-country="UA" tvg-name="Apostrophe TV" tvg-logo="https://i.imgur.com/LCXvbQX.png" group-title="News" http-user-agent="curl/8.16.0",Apostrophe TV (1080p)
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.2.165/index.m3u8
 #EXTINF:-1 tvg-id="ArmyTV.ua@SD" tvg-country="UA" tvg-name="Army TV" tvg-logo="https://i.imgur.com/pGByjbh.png" group-title="News",Army TV (1080p)
 https://api-tv.ipnet.ua/api/v1/manifest/2118742632.m3u8
+#EXTINF:-1 tvg-id="Channel24.ua@SD" tvg-country="UA" tvg-name="Channel 24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/24_Group_Ukraine_04.png/960px-24_Group_Ukraine_04.png" group-title="News",Channel 24 (Ukraine) (1080p)
+https://streamvideol1.luxnet.ua/news24/smil:news24.stream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Cherniveckiypromin.ua@SD" tvg-country="UA" tvg-name="Cherniveckiy promin" tvg-logo="https://i.imgur.com/O9nQ5po.png" group-title="News",Cherniveckiy promin (720p)
 https://langate.tv/promin/live_720/index.m3u8
+#EXTINF:-1 tvg-id="DonbassOnline.ua@SD" tvg-country="UA" tvg-name="Donbass Online" tvg-logo="https://i.imgur.com/8h3kOI1.png" group-title="News",Donbass Online (1080p)
+http://176.110.1.30:1935/live/donbasonline/playlist.m3u8
 #EXTINF:-1 tvg-id="EspresoTV.ua@SD" tvg-country="UA" tvg-name="Espreso TV" tvg-logo="https://i.imgur.com/xNatV8K.png" group-title="News",Espreso TV (1080p)
 https://api-tv.ipnet.ua/api/v1/manifest/2118742594.m3u8
 #EXTINF:-1 tvg-id="FREEDOM.ua@SD" tvg-country="UA" tvg-name="FREEDOM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/FreeDOMUAlogo.svg/960px-FreeDOMUAlogo.svg.png" group-title="News",FREEDOM (1080p)
 https://dash4.antik.sk/live/test_uatv/playlist.m3u8
 #EXTINF:-1 tvg-id="GIT.ua@SD" tvg-country="UA" tvg-name="GIT" tvg-logo="https://i.imgur.com/b5K5Uwh.png" group-title="News",GIT (720p)
 https://stream.uagit.tv/gittv.m3u8
-#EXTINF:-1 tvg-id="IUAtv.ua@SD" tvg-country="UA" tvg-name="I-UA.tv" tvg-logo="https://i.imgur.com/t1OABVZ.png" group-title="News",I-UA.tv (1080p)
-https://kie2.cdn.i-ua.tv/hlsme/iuatv.m3u8
 #EXTINF:-1 tvg-id="Kyiv.ua@SD" tvg-country="UA" tvg-name="Kyiv" tvg-logo="https://i.imgur.com/TVuCY4N.png" group-title="News",Kyiv (1080p)
 https://api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
 #EXTINF:-1 tvg-id="ObozrevatelTV.ua@SD" tvg-country="UA" tvg-name="Obozrevatel TV" tvg-logo="https://i.imgur.com/ubldSBv.png" group-title="News" http-user-agent="curl/8.16.0",Obozrevatel TV
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.148/index.m3u8
-#EXTINF:-1 tvg-id="PTV.ua@SD" tvg-country="UA" tvg-name="PTV" tvg-logo="https://i.imgur.com/WDHoSVz.png" group-title="News",PTV (720p)
+#EXTINF:-1 tvg-id="PTV.ua@SD" tvg-country="UA" tvg-name="PTV" tvg-logo="https://i.imgur.com/WDHoSVz.png" group-title="News",PTV (Ukraine) (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/hrpl-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="Reporter.ua@SD" tvg-country="UA" tvg-name="Reporter" tvg-logo="https://i.imgur.com/LyA3kBR.png" group-title="News",Reporter (720p)
+http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
 #EXTINF:-1 tvg-id="SK1.ua@SD" tvg-country="UA" tvg-name="SK 1" tvg-logo="https://i.imgur.com/XiXwr5h.png" group-title="News",SK 1 (720p)
 http://cdn10.live-tv.od.ua:8081/sk1zt/sk1zt720p/playlist.m3u8
-#EXTINF:-1 tvg-id="DonbassOnline.ua@SD" tvg-country="UA" tvg-name="Donbass Online" tvg-logo="https://i.imgur.com/8h3kOI1.png" group-title="News",Донбас Online (1080p)
-http://176.110.1.30:1935/live/donbasonline/playlist.m3u8
-#EXTINF:-1 tvg-id="Reporter.ua@SD" tvg-country="UA" tvg-name="Reporter" tvg-logo="https://i.imgur.com/LyA3kBR.png" group-title="News",Телеканал Репортер Одесса (720p)
-http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
-#EXTINF:-1 tvg-id="Ternopil1.ua@SD" tvg-country="UA" tvg-name="Ternopil 1" tvg-logo="https://i.imgur.com/f5EtIzV.png" group-title="News",Тернопіль 1 (720p)
+#EXTINF:-1 tvg-id="Ternopil1.ua@SD" tvg-country="UA" tvg-name="Ternopil 1" tvg-logo="https://i.imgur.com/f5EtIzV.png" group-title="News",Ternopil 1 (720p)
 https://ott.columbus.te.ua/ternopil1/index.m3u8
 #EXTINF:-1 tvg-id="DiviSport.ua@SD" tvg-country="UA" tvg-name="DiviSport" tvg-logo="https://i.logos-download.com/114030/29915-s5120-904df224e4c030fefcc45adda448b6e8.png/DiviSport_Logo_2023-s5120.png" group-title="Sports",DiviSport (1080p)
 http://stream.mcquack.net/457/index.m3u8
 #EXTINF:-1 tvg-id="MaincastCybersport.ua@SD" tvg-country="UA" tvg-name="Maincast Cybersport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png" group-title="Sports",Maincast Cybersport (1080p)
 http://stream.mcquack.net/487/index.m3u8
-#EXTINF:-1 tvg-id="MaincastSport.ua@SD" tvg-country="UA" tvg-name="Maincast Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/57/Maincast_%28HD_Logo%29_2024.png" group-title="Sports",Maincast Sport (1080p)
-http://stream.mcquack.net/490/index.m3u8
 #EXTINF:-1 tvg-id="SuspilneSport.ua" tvg-country="UA" tvg-name="Suspilne Sport" tvg-logo="https://i.imgur.com/16IhU0M.png" group-title="Sports",Suspilne Sport
 http://cdnua05.hls.tv/934/hls/8743361621b245838bee193c9ec28322/4856/stream.m3u8
 #EXTINF:-1 tvg-id="XSport.ua" tvg-country="UA" tvg-name="XSport" tvg-logo="https://i.imgur.com/CHDcfrT.png" group-title="Sports",XSport
@@ -69,7 +65,7 @@ http://stream.mcquack.net/464/index.m3u8
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.165/index.m3u8
 #EXTINF:-1 tvg-id="Svarozhychy.ua@SD" tvg-country="UA" tvg-name="Svarozhychy" tvg-logo="https://i.imgur.com/VnAgQA4.png" group-title="Entertainment",Svarozhychy
-http://svarozhichi.cdn-04.cosmonova.net.ua/mobile-app/main/svarozhichi/master.m3u8
+http://svarozhichi.cdn-03.cosmonova.net.ua/mobile-app/main/svarozhichi/master.m3u8
 #EXTINF:-1 tvg-id="Lale.ua@SD" tvg-country="UA" tvg-name="Lale" tvg-logo="https://i.imgur.com/CNhqVHd.png" group-title="Kids" http-user-agent="curl/8.16.0",Lale
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.50/index.m3u8
@@ -77,12 +73,10 @@ https://ext.cdn.nashnet.tv/228.0.0.50/index.m3u8
 http://stream.mcquack.net/262/index.m3u8
 #EXTINF:-1 tvg-id="NikiKids.ua@SD" tvg-country="UA" tvg-name="Niki Kids" tvg-logo="https://i.imgur.com/HH4HZ2J.png" group-title="Kids",Niki Kids (1080p)
 http://stream.mcquack.net/271/index.m3u8
-#EXTINF:-1 tvg-id="PixelTV.ua@SD" tvg-country="UA" tvg-name="Pixel TV" tvg-logo="https://i.imgur.com/ECro8Ah.png" group-title="Kids",Pixel TV (1080p)
+#EXTINF:-1 tvg-id="PixelTV.ua@SD" tvg-country="UA" tvg-name="Pixel TV" tvg-logo="https://i.imgur.com/ECro8Ah.png" group-title="Kids",Pixel TV (Ukraine) (1080p)
 http://stream.mcquack.net/323/index.m3u8
-#EXTINF:-1 tvg-id="HistoryUkraine.ua@SD" tvg-country="UA" tvg-name="History Ukraine" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/960px-History_%282021%29.svg.png" group-title="Documentary",History Ukraine
-http://dtv.vol.net.ua/History_HD/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.ua@SD" tvg-country="UA" tvg-name="National Geographic Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (1080p)
-http://dtv.vol.net.ua:80/Nat-Geo-Wild_HD/index.m3u8
+#EXTINF:-1 tvg-id="ViasatHistory.ua@SD" tvg-country="UA" tvg-name="Viasat History" tvg-logo="https://i.imgur.com/39qZ68J.png" group-title="Documentary",Viasat History (Ukraine) (1080p)
+http://hls127.freeott.top:8080/VIASAT_EXPLORE_HD_CEE/video.m3u8
 #EXTINF:-1 tvg-id="EkoTV.ua@SD" tvg-country="UA" tvg-name="Eko TV" tvg-logo="https://i.imgur.com/WovATGb.png" group-title="Science" http-user-agent="curl/8.16.0",Eko TV (720p)
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.1.60/index.m3u8
@@ -117,19 +111,16 @@ http://stream.mcquack.net/285/index.m3u8
 https://dash2.antik.sk/live/test_tridsatsest_hd_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="FashionTV.ua@SD" tvg-country="UA" tvg-name="Fashion TV" tvg-logo="https://i.imgur.com/Bk7W39G.png" group-title="Lifestyle",Fashion TV (1080p)
 http://stream.mcquack.net/287/index.m3u8
-#EXTINF:-1 tvg-id="BamBarBiaTV.ua@SD" tvg-country="UA" tvg-name="BamBarBia.TV" tvg-logo="https://i.imgur.com/zdRvy87.png" group-title="Travel",BamBarBia TV (720p)
-http://cdn1.live-tv.od.ua:8081/bbb/bbbtv-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="UTravel.ua@SD" tvg-country="UA" tvg-name="U Travel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/U_Travel.svg/1920px-U_Travel.svg.png" group-title="Travel",U Travel (1080p)
+http://str2.iptvhd.ru:8080/travel/index.m3u8
 #EXTINF:-1 tvg-id="Rybalka.ua@SD" tvg-country="UA" tvg-name="Rybalka" tvg-logo="https://i.imgur.com/NafW0xT.png" group-title="Outdoor",Rybalka (1080p)
 https://dash2.antik.sk/live/test_rybalka_tv_atktv/playlist.m3u8
-#EXTINF:-1 tvg-id="RadaTV.ua@SD" tvg-country="UA" tvg-name="Rada TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/960px-Rada_TV_%282021%29.svg.png" group-title="Legislative" http-user-agent="curl/8.16.0",Rada TV (1080p)
-#EXTVLCOPT:http-user-agent=curl/8.16.0
-https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/RADA.m3u8
 #EXTINF:-1 tvg-id="EWTNUkraine.ua@SD" tvg-country="UA" tvg-name="EWTN Ukraine" group-title="Religious",EWTN Ukraine (1080p)
 https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelUkraine.ua@SD" tvg-country="UA" tvg-name="Hope Channel Ukraine" tvg-logo="https://i.imgur.com/mUx2P29.png" group-title="Religious" http-user-agent="curl/8.16.0",Hope Channel Ukraine
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.172/index.m3u8
-#EXTINF:-1 tvg-id="TUSO.ua@SD" tvg-country="UA" tvg-name="TUSO" tvg-logo="https://i.imgur.com/kb4B9wN.png" group-title="Shop" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",Тюсо (720p)
+#EXTINF:-1 tvg-id="TUSO.ua@SD" tvg-country="UA" tvg-name="TUSO" tvg-logo="https://i.imgur.com/kb4B9wN.png" group-title="Shop" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",TUSO (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 https://tuso.cdn-01.cosmonova.net.ua/hls/tuso_ua.m3u8
 #EXTINF:-1 tvg-id="1Plus1International.ua@HD" tvg-country="UA" tvg-name="1+1 International" tvg-logo="https://i.imgur.com/LOY0rtp.png" group-title="General",1+1 International HD (720p)
@@ -140,22 +131,22 @@ https://dash2.antik.sk/live/1plus1_marathon/playlist.m3u8
 http://stream.mcquack.net/219/index.m3u8
 #EXTINF:-1 tvg-id="2Plus2.ua" tvg-country="UA" tvg-name="2+2" tvg-logo="https://i.imgur.com/v6KBgqk.png" group-title="General",2+2
 http://stream.mcquack.net/173/index.m3u8
-#EXTINF:-1 tvg-id="2Plus2Marathon.ua@SD" tvg-country="UA" tvg-name="2+2 Marathon" tvg-logo="https://i.imgur.com/v6KBgqk.png" group-title="General",2+2 Marathon (1080p)
-https://lowa8026-cmyk.github.io/Ukraine/Edyni_Novyny/2Plus2Marafon.m3u8
-#EXTINF:-1 tvg-id="Channel11.ua@SD" tvg-country="UA" tvg-name="Channel 11" tvg-logo="https://i.imgur.com/y78saaG.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",11 Kanal (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-https://11tv-dp.cdn-04.cosmonova.net.ua/hls/11tv-dp_ua_hi/index.m3u8
+#EXTINF:-1 tvg-id="BaltaTV.ua@SD" tvg-country="UA" tvg-name="Balta TV" tvg-logo="https://cdn.teleon.tv/logo/balta-tv-ua.png" group-title="General",Balta TV (768p)
+http://194.50.51.34/playlist.m3u8
 #EXTINF:-1 tvg-id="BlackSeaTV.ua@SD" tvg-country="UA" tvg-name="Black Sea TV" tvg-logo="https://i.imgur.com/D8YJzHV.png" group-title="General" http-user-agent="curl/8.16.0",Black Sea TV
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.136/index.m3u8
 #EXTINF:-1 tvg-id="Channel7Ukraine.ua@SD" tvg-country="UA" tvg-name="Channel 7 Ukraine" tvg-logo="https://i.imgur.com/9Ll0BIo.png" group-title="General",Channel 7 Ukraine (720p)
 http://cdn10.live-tv.od.ua:8081/7tvod/7tvod-abr/7tvod/7tvod/playlist.m3u8
-#EXTINF:-1 tvg-id="Channel8.ua@SD" tvg-country="UA" tvg-name="Channel 8" tvg-logo="https://i.imgur.com/6Sr5vJD.png" group-title="General" http-user-agent="curl/8.16.0",Channel 8
+#EXTINF:-1 tvg-id="Channel8.ua@SD" tvg-country="UA" tvg-name="Channel 8" tvg-logo="https://i.imgur.com/6Sr5vJD.png" group-title="General" http-user-agent="curl/8.16.0",Channel 8 (Ukraine)
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
+#EXTINF:-1 tvg-id="Channel11.ua@SD" tvg-country="UA" tvg-name="Channel 11" tvg-logo="https://i.imgur.com/y78saaG.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",Channel 11 (Ukraine) (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+https://11tv-dp.cdn-04.cosmonova.net.ua/hls/11tv-dp_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="Dacha.ua@SD" tvg-country="UA" tvg-name="Dacha" tvg-logo="https://i.imgur.com/xq6p9BZ.png" group-title="General",Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
-#EXTINF:-1 tvg-id="DniproTV.ua@SD" tvg-country="UA" tvg-name="Dnipro TV" tvg-logo="https://i.imgur.com/mbPTVh1.png" group-title="General",DniproTV (1080p)
+#EXTINF:-1 tvg-id="DniproTV.ua@SD" tvg-country="UA" tvg-name="Dnipro TV" tvg-logo="https://i.imgur.com/mbPTVh1.png" group-title="General",Dnipro TV (1080p)
 http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Fashion.ua@SD" tvg-country="UA" tvg-name="Fashion" tvg-logo="https://ukrtvr.org/images/%D1%82%D0%B5%D0%BB%D0%B5%D0%B2%D0%B5%D0%B6%D1%96/%D1%81%D1%82%D0%B0%D1%80%D1%96_%D0%BB%D0%BE%D0%B3%D0%BE/FASHION%20TV%20UKRAINE/FASHION%20TV%20UKRAINE.png" group-title="General",Fashion (1080p)
 http://stream.mcquack.net/288/index.m3u8
@@ -171,26 +162,34 @@ https://cdn15.live-tv.cloud/ua_infinitas_tv/islandiya-abr/playlist.m3u8
 http://cdn10.live-tv.od.ua:8081/itvrv/abr/playlist.m3u8
 #EXTINF:-1 tvg-id="KusKus.ua@SD" tvg-country="UA" tvg-name="Kus-Kus" tvg-logo="https://i.imgur.com/4a4qX0P.png" group-title="General",Kus-Kus
 https://dash2.antik.sk/live/test_kuskus_tv_atktv/playlist.m3u8
-#EXTINF:-1 tvg-id="Mega.ua@SD" tvg-country="UA" tvg-name="Mega" tvg-logo="https://i.imgur.com/Hsr0EvO.png" group-title="General",Mega (1080p)
+#EXTINF:-1 tvg-id="Mega.ua@SD" tvg-country="UA" tvg-name="Mega" tvg-logo="https://i.imgur.com/Hsr0EvO.png" group-title="General",Mega (Ukraine) (1080p)
 http://stream.mcquack.net/325/index.m3u8
 #EXTINF:-1 tvg-id="NovyKanal.ua" tvg-country="UA" tvg-name="Novyi Kanal" tvg-logo="https://i.imgur.com/4JhqpPM.png" group-title="General",Novyi Kanal
 http://stream.mcquack.net/157/index.m3u8
-#EXTINF:-1 tvg-id="NTN.ua" tvg-country="UA" tvg-name="NTN" tvg-logo="https://i.imgur.com/AmyCNJv.png" group-title="General",NTN
+#EXTINF:-1 tvg-id="NTKTV.ua@SD" tvg-country="UA" tvg-name="NTK TV" tvg-logo="https://www.ntktv.ua/bitrix/templates/ntk_copy/images/logo.png" group-title="General",NTK TV (1080p)
+https://stream.ntktv.ua/s/ntk/ntk.m3u8
+#EXTINF:-1 tvg-id="NTN.ua@SD" tvg-country="UA" tvg-name="NTN" tvg-logo="https://i.imgur.com/AmyCNJv.png" group-title="General",NTN (Ukraine) (1080i)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="OTV.ua@SD" tvg-country="UA" tvg-name="OTV" tvg-logo="https://i.imgur.com/TkGGGAj.png" group-title="General",OTV
+#EXTINF:-1 tvg-id="OTV.ua@SD" tvg-country="UA" tvg-name="OTV" tvg-logo="https://i.imgur.com/TkGGGAj.png" group-title="General",OTV (Ukraine)
 https://stream.otv.ua/memfs/028e5947-073f-4b4e-a47f-70e59ca3ee36.m3u8
 #EXTINF:-1 tvg-id="Pershyi.ua@SD" tvg-country="UA" tvg-name="Pershyi" tvg-logo="https://i.imgur.com/osTQLED.png" group-title="General",Pershyi (1080p)
 https://api-tv.ipnet.ua/api/v1/manifest/2118742505.m3u8
 #EXTINF:-1 tvg-id="PervyygorodskoyOdessa.ua" tvg-country="UA" tvg-name="Pervyy gorodskoy Odessa" tvg-logo="https://i.imgur.com/8qdc6aO.png" group-title="General",Pervyy gorodskoy Odessa
 https://live.1tv.od.ua/stream1/channel1/playlist.m3u8
+#EXTINF:-1 tvg-id="PravdaTUT.ua@SD" tvg-country="UA" tvg-name="PravdaTUT" tvg-logo="https://i.imgur.com/gvgFoFB.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",PravdaTUT (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+https://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
 #EXTINF:-1 tvg-id="RAZ3International.ua@SD" tvg-country="UA" tvg-name="RAZ 3 International" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bb/Raz_3_%282026%29.png" group-title="General",RAZ 3 International
 https://dash2.antik.sk/live/kvartal_tv/playlist.m3u8
+#EXTINF:-1 tvg-id="Rivne1.ua@SD" tvg-country="UA" tvg-name="Rivne 1" tvg-logo="https://i.imgur.com/ytz7jYV.png" group-title="General",Rivne 1 (720p)
+https://cdn1.live-tv.cloud/rivne1/rivne1-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="SferaTV.ua@SD" tvg-country="UA" tvg-name="Sfera-TV" tvg-logo="https://i.imgur.com/S1h1t0G.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",Sfera-TV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
+https://cdn10.live-tv.cloud/sferarv/sferarv-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Simon.ua@SD" tvg-country="UA" tvg-name="Simon" tvg-logo="https://i.imgur.com/FfYVCJC.png" group-title="General",Simon (720p)
 https://hls.simon.ua/live-HD/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TelekanalRAI.ua" tvg-country="UA" tvg-name="Telekanal RAI" tvg-logo="https://i.imgur.com/Ouv51WB.png" group-title="General",Telekanal RAI
 https://stream.rai.ua/rai/stream.m3u8
-#EXTINF:-1 tvg-id="Televsesvit.ua@SD" tvg-country="UA" tvg-name="Televsesvit" tvg-logo="https://i.imgur.com/ygexoKO.png" group-title="General",Televsesvit (1080p)
-https://televsesvit.cdn-04.cosmonova.net.ua/hls/televsesvit_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="TET.ua" tvg-country="UA" tvg-name="TET" tvg-logo="https://i.imgur.com/Wu6wtbe.png" group-title="General",TET
 http://stream.mcquack.net/338/index.m3u8
 #EXTINF:-1 tvg-id="TISTV.ua@SD" tvg-country="UA" tvg-name="TIS TV" tvg-logo="https://i.imgur.com/jDaoUt5.png" group-title="General",TIS TV (720p)
@@ -198,35 +197,22 @@ https://cdn10.live-tv.cloud/riood/tisod-abr/riood/tisod720/playlist.m3u8
 #EXTINF:-1 tvg-id="TRKIldana.ua@SD" tvg-country="UA" tvg-name="TRK Ildana" tvg-logo="https://i.imgur.com/cN7VRYv.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",TRK Ildana (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 https://pravdatytkyiv.cdn-01.cosmonova.net.ua/hls/pradva-tut-ildana_ua_hi/index.m3u8
-#EXTINF:-1 tvg-id="TV7Plus.ua" tvg-country="UA" tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" group-title="General",TV7+
-https://tv7plus.com/hls/tv7_site.m3u8
-#EXTINF:-1 tvg-id="Rivne1.ua@SD" tvg-country="UA" tvg-name="Rivne 1" tvg-logo="https://i.imgur.com/ytz7jYV.png" group-title="General",TV Rivne 1 (720p)
-https://cdn1.live-tv.cloud/rivne1/rivne1-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="TV4.ua@SD" tvg-country="UA" tvg-name="TV-4" tvg-logo="https://i.imgur.com/gOtk81v.png" group-title="General",TV-4 (720p)
 https://vs2126.vcdn.biz/c27a63fda28be51f87a7d0046de1f4b8_megogo/live/hls/b/700_2490/u_sid/0/o/71044361/rsid/393818da-edd4-44bd-b2db-4ebf226abd3d/u_uid/0/u_vod/1/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/5.63.189.224*asn/u_did/web_0voqy4czLIxD4iwJZ0z0GctEMa9GIH7A/type.live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVA.ua" tvg-country="UA" tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" group-title="General",TVA
 https://hls.cdn.ua/tva.ua_live/livestream/chunklist_.m3u8
-#EXTINF:-1 tvg-id="Z.ua@SD" tvg-country="UA" tvg-name="Z" tvg-logo="https://i.imgur.com/E5aV5aa.png" group-title="General",Z (Запорожье) (1080p)
+#EXTINF:-1 tvg-id="Z.ua@SD" tvg-country="UA" tvg-name="Z" tvg-logo="https://i.imgur.com/E5aV5aa.png" group-title="General",Z (1080p)
 https://stream.ztv.zp.ua/hls/live.m3u8
-#EXTINF:-1 tvg-id="BaltaTV.ua@SD" tvg-country="UA" tvg-name="Balta TV" tvg-logo="https://cdn.teleon.tv/logo/balta-tv-ua.png" group-title="General",Балта ТВ (768p)
-http://194.50.51.34/playlist.m3u8
 #EXTINF:-1 tvg-id="DIM.ua" tvg-country="UA" tvg-name="ДІМ" tvg-logo="https://i.imgur.com/3cjaXIF.png" group-title="General",ДІМ
 https://dash2.antik.sk/live/telekanal_dim/playlist.m3u8
-#EXTINF:-1 tvg-id="NTKTV.ua@SD" tvg-country="UA" tvg-name="NTK TV" tvg-logo="https://www.ntktv.ua/bitrix/templates/ntk_copy/images/logo.png" group-title="General",НТК ТВ (1080p)
-https://stream.ntktv.ua/s/ntk/ntk.m3u8
 #EXTINF:-1 tvg-id="PlusPlus.ua" tvg-country="UA" tvg-name="ПлюсПлюс" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/PLUSPLUSUA.svg/500px-PLUSPLUSUA.svg.png" group-title="General",ПлюсПлюс
 http://stream.mcquack.net/339/index.m3u8
-#EXTINF:-1 tvg-id="PravdaTUT.ua@SD" tvg-country="UA" tvg-name="PravdaTUT" tvg-logo="https://i.imgur.com/gvgFoFB.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",ПравдаТУТ (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-https://pravdatytkievshina.cdn-02.cosmonova.net.ua/hls/pravdatytkievshina_ua.m3u8
 #EXTINF:-1 tvg-id="SuspilneKropyvnytskyi.ua" tvg-country="UA" tvg-name="Суспільне Kropyvnytskyi" tvg-logo="https://i.imgur.com/zzYJr87.png" group-title="General",Суспільне Kropyvnytskyi
 http://cdnua05.hls.tv/650/hls/f62d71219200da4130d13b21d23fb23c/4788/stream.m3u8
 #EXTINF:-1 tvg-id="SuspilneDnipro.ua" tvg-country="UA" tvg-name="Суспільне Дніпро" tvg-logo="https://i.imgur.com/nMHd9FK.png" group-title="General",Суспільне Дніпро
 http://cdnua05.hls.tv/648/hls/f62d71219200da4130d13b21d23fb23c/4786/stream.m3u8
 #EXTINF:-1 tvg-id="SuspilneZhytomyr.ua" tvg-country="UA" tvg-name="Суспільне Житомир" tvg-logo="https://i.imgur.com/lCv1Xaq.png" group-title="General",Суспільне Житомир
 http://cdnua05.hls.tv/647/hls/f62d71219200da4130d13b21d23fb23c/4787/stream.m3u8
-#EXTINF:-1 tvg-id="SuspilneKyiv.ua" tvg-country="UA" tvg-name="Суспільне Київ" tvg-logo="https://i.imgur.com/MeR1dJw.png" group-title="General",Суспільне Київ
-https://live-nstu.cdn-03.cosmonova.net.ua/mobile-app/main/nstu-kyiv/master.m3u8
 #EXTINF:-1 tvg-id="SuspilneKrym.ua" tvg-country="UA" tvg-name="Суспільне Крим" tvg-logo="https://i.imgur.com/m7znCes.png" group-title="General",Суспільне Крим
 https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8
 #EXTINF:-1 tvg-id="SuspilneLutsk.ua" tvg-country="UA" tvg-name="Суспільне Луцьк" tvg-logo="https://i.imgur.com/QIin5nZ.png" group-title="General",Суспільне Луцьк
@@ -243,6 +229,3 @@ http://cdnua05.hls.tv/632/hls/f62d71219200da4130d13b21d23fb23c/4800/stream.m3u8
 http://cdnua05.hls.tv/643/hls/f62d71219200da4130d13b21d23fb23c/4790/stream.m3u8
 #EXTINF:-1 tvg-id="SuspilneChernihiv.ua" tvg-country="UA" tvg-name="Суспільне Чернігів" tvg-logo="https://i.imgur.com/WBChVXj.png" group-title="General",Суспільне Чернігів
 http://cdnua05.hls.tv/645/hls/f62d71219200da4130d13b21d23fb23c/4791/stream.m3u8
-#EXTINF:-1 tvg-id="SferaTV.ua@SD" tvg-country="UA" tvg-name="Sfera-TV" tvg-logo="https://i.imgur.com/S1h1t0G.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",Сфера-ТВ (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
-https://cdn10.live-tv.cloud/sferarv/sferarv-abr/playlist.m3u8

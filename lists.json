@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-24T11:06:47Z",
+  "updated": "2026-10-03T11:20:00Z",
   "site": "https://ezhu331.github.io/tamatv",
   "sources": [
     {
@@ -60,7 +60,7 @@
     {
       "id": "tamatv-japan",
       "kind": "featured",
-      "name": "Japan live TV",
+      "name": "Japan",
       "flag": "🇯🇵",
       "url": "https://ezhu331.github.io/tamatv/japan.m3u",
       "format": "M3U",
@@ -87,7 +87,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 13,
+      "channels": 11,
       "extras": []
     },
     {
@@ -101,7 +101,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 26,
+      "channels": 24,
       "extras": [
         {
           "key": "epg",
@@ -120,7 +120,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 4,
+      "channels": 5,
       "extras": []
     },
     {
@@ -148,21 +148,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 3,
-      "extras": []
-    },
-    {
-      "id": "country-ag",
-      "kind": "country",
-      "code": "AG",
-      "name": "Antigua and Barbuda",
-      "flag": "🇦🇬",
-      "letter": "A",
-      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ag.m3u",
-      "format": "M3U",
-      "origin": "iptv-org",
-      "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 1,
+      "channels": 2,
       "extras": []
     },
     {
@@ -176,7 +162,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 142,
+      "channels": 134,
       "extras": [
         {
           "key": "epg",
@@ -223,7 +209,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 50,
+      "channels": 39,
       "extras": [
         {
           "key": "epg",
@@ -242,7 +228,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 33,
+      "channels": 32,
       "extras": [
         {
           "key": "epg",
@@ -275,7 +261,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 4,
+      "channels": 3,
       "extras": []
     },
     {
@@ -303,7 +289,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 20,
+      "channels": 18,
       "extras": []
     },
     {
@@ -331,7 +317,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 17,
+      "channels": 16,
       "extras": []
     },
     {
@@ -345,7 +331,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 37,
+      "channels": 27,
       "extras": [
         {
           "key": "epg",
@@ -364,7 +350,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 15,
+      "channels": 1,
       "extras": []
     },
     {
@@ -378,7 +364,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 8,
+      "channels": 5,
       "extras": []
     },
     {
@@ -392,7 +378,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 71,
+      "channels": 48,
       "extras": []
     },
     {
@@ -439,7 +425,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 242,
+      "channels": 201,
       "extras": [
         {
           "key": "epg",
@@ -486,7 +472,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 21,
+      "channels": 25,
       "extras": [
         {
           "key": "epg",
@@ -519,7 +505,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 24,
+      "channels": 20,
       "extras": []
     },
     {
@@ -533,7 +519,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 13,
+      "channels": 12,
       "extras": []
     },
     {
@@ -547,7 +533,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 146,
+      "channels": 135,
       "extras": [
         {
           "key": "epg",
@@ -594,7 +580,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 227,
+      "channels": 211,
       "extras": [
         {
           "key": "epg",
@@ -613,7 +599,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 188,
+      "channels": 171,
       "extras": [
         {
           "key": "epg",
@@ -636,7 +622,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 89,
+      "channels": 86,
       "extras": [
         {
           "key": "epg",
@@ -655,7 +641,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 60,
+      "channels": 55,
       "extras": [
         {
           "key": "epg",
@@ -674,7 +660,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 29,
+      "channels": 18,
       "extras": [
         {
           "key": "epg",
@@ -740,7 +726,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 60,
+      "channels": 58,
       "extras": [
         {
           "key": "epg",
@@ -759,7 +745,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 15,
+      "channels": 13,
       "extras": []
     },
     {
@@ -792,7 +778,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 219,
+      "channels": 193,
       "extras": [
         {
           "key": "epg",
@@ -811,7 +797,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 66,
+      "channels": 52,
       "extras": [
         {
           "key": "epg",
@@ -830,7 +816,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 14,
+      "channels": 13,
       "extras": [
         {
           "key": "epg",
@@ -849,7 +835,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 28,
+      "channels": 25,
       "extras": [
         {
           "key": "epg",
@@ -882,7 +868,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 19,
+      "channels": 18,
       "extras": []
     },
     {
@@ -924,7 +910,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 29,
+      "channels": 23,
       "extras": [
         {
           "key": "epg",
@@ -943,7 +929,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 162,
+      "channels": 152,
       "extras": [
         {
           "key": "epg",
@@ -959,20 +945,6 @@
       "flag": "🇬🇫",
       "letter": "F",
       "url": "https://ezhu331.github.io/tamatv/playlists/countries/gf.m3u",
-      "format": "M3U",
-      "origin": "iptv-org",
-      "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 1,
-      "extras": []
-    },
-    {
-      "id": "country-pf",
-      "kind": "country",
-      "code": "PF",
-      "name": "French Polynesia",
-      "flag": "🇵🇫",
-      "letter": "F",
-      "url": "https://ezhu331.github.io/tamatv/playlists/countries/pf.m3u",
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
@@ -1004,7 +976,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 19,
+      "channels": 17,
       "extras": []
     },
     {
@@ -1018,7 +990,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 411,
+      "channels": 166,
       "extras": [
         {
           "key": "epg",
@@ -1037,7 +1009,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 7,
+      "channels": 6,
       "extras": []
     },
     {
@@ -1051,7 +1023,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 77,
+      "channels": 71,
       "extras": [
         {
           "key": "epg",
@@ -1098,7 +1070,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 52,
+      "channels": 47,
       "extras": []
     },
     {
@@ -1126,7 +1098,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 5,
+      "channels": 4,
       "extras": []
     },
     {
@@ -1140,7 +1112,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 11,
+      "channels": 10,
       "extras": []
     },
     {
@@ -1154,7 +1126,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 64,
+      "channels": 53,
       "extras": []
     },
     {
@@ -1168,7 +1140,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 25,
+      "channels": 21,
       "extras": [
         {
           "key": "epg",
@@ -1191,7 +1163,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 73,
+      "channels": 70,
       "extras": [
         {
           "key": "epg",
@@ -1210,7 +1182,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 6,
+      "channels": 4,
       "extras": []
     },
     {
@@ -1224,7 +1196,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 412,
+      "channels": 424,
       "extras": [
         {
           "key": "epg",
@@ -1243,7 +1215,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 100,
+      "channels": 80,
       "extras": [
         {
           "key": "epg",
@@ -1262,7 +1234,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 116,
+      "channels": 108,
       "extras": []
     },
     {
@@ -1276,7 +1248,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 59,
+      "channels": 57,
       "extras": []
     },
     {
@@ -1290,7 +1262,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 28,
+      "channels": 26,
       "extras": [
         {
           "key": "epg",
@@ -1309,7 +1281,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 19,
+      "channels": 42,
       "extras": [
         {
           "key": "epg",
@@ -1328,7 +1300,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 427,
+      "channels": 385,
       "extras": [
         {
           "key": "epg",
@@ -1347,7 +1319,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 19,
+      "channels": 17,
       "extras": []
     },
     {
@@ -1361,7 +1333,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 6,
+      "channels": 4,
       "extras": [
         {
           "key": "epg",
@@ -1413,7 +1385,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 23,
+      "channels": 26,
       "extras": []
     },
     {
@@ -1427,7 +1399,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 27,
+      "channels": 9,
       "extras": [
         {
           "key": "epg",
@@ -1460,7 +1432,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 12,
+      "channels": 11,
       "extras": []
     },
     {
@@ -1474,7 +1446,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 5,
+      "channels": 2,
       "extras": []
     },
     {
@@ -1502,7 +1474,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 7,
+      "channels": 4,
       "extras": [
         {
           "key": "epg",
@@ -1521,7 +1493,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 28,
+      "channels": 27,
       "extras": []
     },
     {
@@ -1605,7 +1577,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 24,
+      "channels": 12,
       "extras": [
         {
           "key": "epg",
@@ -1624,7 +1596,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 9,
+      "channels": 10,
       "extras": []
     },
     {
@@ -1699,7 +1671,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 161,
+      "channels": 141,
       "extras": [
         {
           "key": "epg",
@@ -1718,7 +1690,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 20,
+      "channels": 19,
       "extras": []
     },
     {
@@ -1788,7 +1760,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 4,
+      "channels": 3,
       "extras": []
     },
     {
@@ -1802,7 +1774,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 17,
+      "channels": 18,
       "extras": []
     },
     {
@@ -1816,7 +1788,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 2,
+      "channels": 1,
       "extras": []
     },
     {
@@ -1844,7 +1816,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 141,
+      "channels": 133,
       "extras": [
         {
           "key": "epg",
@@ -1863,7 +1835,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 12,
+      "channels": 5,
       "extras": [
         {
           "key": "epg",
@@ -1882,7 +1854,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 17,
+      "channels": 11,
       "extras": []
     },
     {
@@ -1910,7 +1882,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 34,
+      "channels": 32,
       "extras": [
         {
           "key": "epg",
@@ -1943,7 +1915,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 35,
+      "channels": 31,
       "extras": []
     },
     {
@@ -1957,7 +1929,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 9,
+      "channels": 8,
       "extras": [
         {
           "key": "epg",
@@ -1990,7 +1962,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 55,
+      "channels": 58,
       "extras": [
         {
           "key": "epg",
@@ -2009,7 +1981,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 15,
+      "channels": 14,
       "extras": []
     },
     {
@@ -2023,7 +1995,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 22,
+      "channels": 18,
       "extras": [
         {
           "key": "epg",
@@ -2056,7 +2028,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 59,
+      "channels": 58,
       "extras": []
     },
     {
@@ -2070,7 +2042,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 155,
+      "channels": 127,
       "extras": [
         {
           "key": "epg",
@@ -2089,7 +2061,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 13,
+      "channels": 11,
       "extras": [
         {
           "key": "epg",
@@ -2108,7 +2080,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 79,
+      "channels": 80,
       "extras": [
         {
           "key": "epg",
@@ -2146,7 +2118,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 23,
+      "channels": 17,
       "extras": []
     },
     {
@@ -2160,7 +2132,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 24,
+      "channels": 19,
       "extras": []
     },
     {
@@ -2188,7 +2160,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 66,
+      "channels": 89,
       "extras": [
         {
           "key": "epg",
@@ -2207,7 +2179,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 268,
+      "channels": 293,
       "extras": []
     },
     {
@@ -2253,20 +2225,6 @@
       "extras": []
     },
     {
-      "id": "country-ws",
-      "kind": "country",
-      "code": "WS",
-      "name": "Samoa",
-      "flag": "🇼🇸",
-      "letter": "S",
-      "url": "https://ezhu331.github.io/tamatv/playlists/countries/ws.m3u",
-      "format": "M3U",
-      "origin": "iptv-org",
-      "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 1,
-      "extras": []
-    },
-    {
       "id": "country-sm",
       "kind": "country",
       "code": "SM",
@@ -2291,7 +2249,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 54,
+      "channels": 52,
       "extras": [
         {
           "key": "epg",
@@ -2310,7 +2268,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 11,
+      "channels": 8,
       "extras": []
     },
     {
@@ -2324,7 +2282,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 28,
+      "channels": 17,
       "extras": [
         {
           "key": "epg",
@@ -2376,7 +2334,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 5,
+      "channels": 4,
       "extras": []
     },
     {
@@ -2390,7 +2348,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 46,
+      "channels": 36,
       "extras": [
         {
           "key": "epg",
@@ -2409,7 +2367,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 10,
+      "channels": 7,
       "extras": []
     },
     {
@@ -2437,7 +2395,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 17,
+      "channels": 12,
       "extras": [
         {
           "key": "epg",
@@ -2456,7 +2414,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 49,
+      "channels": 77,
       "extras": [
         {
           "key": "epg",
@@ -2475,7 +2433,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 216,
+      "channels": 184,
       "extras": [
         {
           "key": "epg",
@@ -2494,7 +2452,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 5,
+      "channels": 4,
       "extras": []
     },
     {
@@ -2536,7 +2494,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 207,
+      "channels": 17,
       "extras": [
         {
           "key": "epg",
@@ -2555,7 +2513,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 33,
+      "channels": 31,
       "extras": [
         {
           "key": "epg",
@@ -2574,7 +2532,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 11,
+      "channels": 10,
       "extras": []
     },
     {
@@ -2588,7 +2546,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 32,
+      "channels": 18,
       "extras": [
         {
           "key": "epg",
@@ -2639,7 +2597,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 67,
+      "channels": 71,
       "extras": []
     },
     {
@@ -2667,7 +2625,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 11,
+      "channels": 6,
       "extras": []
     },
     {
@@ -2681,7 +2639,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 4,
+      "channels": 3,
       "extras": []
     },
     {
@@ -2695,7 +2653,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 174,
+      "channels": 160,
       "extras": [
         {
           "key": "epg",
@@ -2728,7 +2686,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 11,
+      "channels": 8,
       "extras": []
     },
     {
@@ -2742,7 +2700,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 116,
+      "channels": 108,
       "extras": []
     },
     {
@@ -2756,7 +2714,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 55,
+      "channels": 43,
       "extras": []
     },
     {
@@ -2770,7 +2728,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 32,
+      "channels": 173,
       "extras": [
         {
           "key": "epg",
@@ -2789,7 +2747,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 64,
+      "channels": 1009,
       "extras": [
         {
           "key": "epg",
@@ -2841,7 +2799,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 49,
+      "channels": 41,
       "extras": []
     },
     {
@@ -2855,7 +2813,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 78,
+      "channels": 65,
       "extras": [
         {
           "key": "epg",
@@ -2902,7 +2860,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 73,
+      "channels": 23,
       "extras": [
         {
           "key": "epg",
@@ -2910,11 +2868,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"
         }
       ]
     },
@@ -2927,7 +2885,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 19,
+      "channels": 15,
       "extras": [
         {
           "key": "epg",
@@ -2935,11 +2893,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_NO1.xml.gz"
         }
       ]
     },
@@ -2952,7 +2910,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 44,
+      "channels": 45,
       "extras": [
         {
           "key": "epg",
@@ -2977,7 +2935,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 38,
+      "channels": 16,
       "extras": [
         {
           "key": "epg",
@@ -2985,11 +2943,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz"
         }
       ]
     },
@@ -3002,7 +2960,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 114,
+      "channels": 48,
       "extras": [
         {
           "key": "epg",
@@ -3010,11 +2968,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_MX1.xml.gz"
         }
       ]
     },
@@ -3027,7 +2985,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 25,
+      "channels": 27,
       "extras": [
         {
           "key": "epg",
@@ -3039,7 +2997,7 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz"
         }
       ]
     },
@@ -3052,7 +3010,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 130,
+      "channels": 118,
       "extras": [
         {
           "key": "epg",
@@ -3077,7 +3035,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 182,
+      "channels": 117,
       "extras": [
         {
           "key": "epg",
@@ -3089,7 +3047,7 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
         }
       ]
     },
@@ -3102,7 +3060,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 144,
+      "channels": 130,
       "extras": [
         {
           "key": "epg",
@@ -3127,7 +3085,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 687,
+      "channels": 532,
       "extras": [
         {
           "key": "epg",
@@ -3139,7 +3097,7 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz"
         }
       ]
     },
@@ -3152,7 +3110,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 22,
+      "channels": 18,
       "extras": [
         {
           "key": "epg",
@@ -3169,7 +3127,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 9336,
+      "channels": 6956,
       "extras": [
         {
           "key": "epg",
@@ -3194,7 +3152,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 316,
+      "channels": 218,
       "extras": [
         {
           "key": "epg",
@@ -3202,11 +3160,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
         }
       ]
     },
@@ -3219,7 +3177,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 151,
+      "channels": 133,
       "extras": [
         {
           "key": "epg",
@@ -3231,7 +3189,7 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_CA1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz"
         }
       ]
     },
@@ -3244,7 +3202,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 94,
+      "channels": 69,
       "extras": [
         {
           "key": "epg",
@@ -3252,7 +3210,7 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz"
         },
         {
           "key": "epg",
@@ -3269,7 +3227,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 671,
+      "channels": 448,
       "extras": [
         {
           "key": "epg",
@@ -3277,11 +3235,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
         }
       ]
     },
@@ -3294,7 +3252,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 633,
+      "channels": 565,
       "extras": [
         {
           "key": "epg",
@@ -3319,7 +3277,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 980,
+      "channels": 896,
       "extras": [
         {
           "key": "epg",
@@ -3344,7 +3302,7 @@
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
       "url": "https://ezhu331.github.io/tamatv/playlists/categories/undefined.m3u",
-      "channels": 945,
+      "channels": 46,
       "extras": [
         {
           "key": "epg",
@@ -3353,10 +3311,6 @@
         {
           "key": "epg",
           "url": "https://epg.112114.xyz/pp.xml"
-        },
-        {
-          "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
         }
       ]
     },
@@ -3369,7 +3323,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 43,
+      "channels": 40,
       "extras": [
         {
           "key": "epg",
@@ -3381,7 +3335,7 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_AT1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz"
         }
       ]
     },
@@ -3394,7 +3348,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 20,
+      "channels": 19,
       "extras": [
         {
           "key": "epg",
@@ -3436,7 +3390,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 545,
+      "channels": 508,
       "extras": [
         {
           "key": "epg",
@@ -3461,7 +3415,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 10,
+      "channels": 9,
       "extras": [
         {
           "key": "epg",
@@ -3482,7 +3436,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 348,
+      "channels": 116,
       "extras": [
         {
           "key": "epg",
@@ -3490,11 +3444,11 @@
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
         },
         {
           "key": "epg",
-          "url": "https://epgshare01.online/epgshare01/epg_ripper_SE1.xml.gz"
+          "url": "https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz"
         }
       ]
     },
@@ -3507,7 +3461,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 59,
+      "channels": 56,
       "extras": [
         {
           "key": "epg",
@@ -3532,7 +3486,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 402,
+      "channels": 349,
       "extras": [
         {
           "key": "epg",
@@ -3557,7 +3511,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 44,
+      "channels": 42,
       "extras": [
         {
           "key": "epg",
@@ -3582,7 +3536,7 @@
       "format": "M3U",
       "origin": "iptv-org",
       "originHref": "https://github.com/iptv-org/iptv",
-      "channels": 16,
+      "channels": 14,
       "extras": [
         {
           "key": "epg",
@@ -3644,7 +3598,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 58,
+          "channels": 47,
           "extras": [
             {
               "key": "epg",
@@ -3673,7 +3627,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 82,
+          "channels": 81,
           "extras": [
             {
               "key": "epg",
@@ -3708,7 +3662,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 205,
+          "channels": 189,
           "extras": []
         }
       ]
@@ -3728,7 +3682,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 82,
+          "channels": 81,
           "extras": [
             {
               "key": "epg",
@@ -3753,7 +3707,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 78,
+          "channels": 58,
           "extras": [
             {
               "key": "epg",
@@ -3782,7 +3736,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 835,
+          "channels": 694,
           "extras": [
             {
               "key": "epg",
@@ -3830,7 +3784,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 504,
+          "channels": 501,
           "extras": [
             {
               "key": "epg",
@@ -3859,7 +3813,7 @@
           "format": "M3U",
           "epg": true,
           "logos": true,
-          "channels": 30,
+          "channels": 27,
           "extras": [
             {
               "key": "epg",

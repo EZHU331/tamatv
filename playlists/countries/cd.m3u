@@ -3,14 +3,10 @@
 https://stream.berosat.live:19360/baraka-hd/baraka-hd.m3u8
 #EXTINF:-1 tvg-id="Kin24.cd@SD" tvg-country="CD" tvg-name="Kin24" tvg-logo="https://i.imgur.com/Lak10Wo.png" group-title="News",Kin24
 http://51.254.199.122:8080/kin24/index.m3u8
-#EXTINF:-1 tvg-id="LeMondeen24h.cd@SD" tvg-country="CD" tvg-name="Le Monde en 24h" tvg-logo="https://i.imgur.com/2igwi7g.png" group-title="News",Le Monde en 24h
-https://stream.berosat.live/hls/monde24h-tv-index/monde24h-tv-index.m3u8
 #EXTINF:-1 tvg-id="LollywoodHDTV.cd@SD" tvg-country="CD" tvg-name="Lollywood HD TV" tvg-logo="https://i.imgur.com/fQhrsdr.png" group-title="Movies",Lollywood HD TV (720p)
 https://stream.berosat.live/hls/lollywood-hd/lollywood-hd.m3u8
 #EXTINF:-1 tvg-id="EVITV.cd@SD" tvg-country="CD" tvg-name="EVI TV" tvg-logo="https://i.imgur.com/fBc9JSM.png" group-title="Entertainment",EVI TV (720p)
 https://mistserver.evi-tv.com/hls/evi_tv_live/index.m3u8
-#EXTINF:-1 tvg-id="RLPROTV.cd@SD" tvg-country="CD" tvg-name="RL PRO TV" tvg-logo="https://i.imgur.com/PIBtCEN.jpeg" group-title="Documentary",RL PRO TV
-https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8
 #EXTINF:-1 tvg-id="LBFDRTV.cd@SD" tvg-country="CD" tvg-name="LBFD RTV" tvg-logo="https://i.imgur.com/buMvLJc.jpeg" group-title="Religious",LBFD RTV (1080p)
 https://tnt-television.com/LBFD_RTV/index.m3u8
 #EXTINF:-1 tvg-id="ONETV.cd@SD" tvg-country="CD" tvg-name="ONE-TV" tvg-logo="https://i.imgur.com/Wob7gjp.png" group-title="Religious",ONE-TV (720p)
@@ -19,7 +15,7 @@ https://core.live-apc.eu:5443/LiveApp/streams/backup.m3u8
 http://51.254.199.122:8080/antenne_a-plus/index.m3u8
 #EXTINF:-1 tvg-id="BossBrothersTV.cd@SD" tvg-country="CD" tvg-name="Boss Brothers TV" tvg-logo="https://i.imgur.com/rc9MXm5.png" group-title="General",Boss Brothers TV (1080p)
 http://51.254.199.122:8080/bossbrothersTV/index.m3u8
-#EXTINF:-1 tvg-id="CongoPlanetTelevision.cd@SD" tvg-country="CD" tvg-name="Congo Planet Television" tvg-logo="https://i.imgur.com/9IIIvPf.png" group-title="General",Congo Planet Télévision (1080p)
+#EXTINF:-1 tvg-id="CongoPlanetTelevision.cd@SD" tvg-country="CD" tvg-name="Congo Planet Television" tvg-logo="https://i.imgur.com/9IIIvPf.png" group-title="General",Congo Planet Television (1080p)
 https://radio.congoplanet.com/Congo_Planet_TV.sdp/Congo_Planet_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="DigitalCongoTV.cd@SD" tvg-country="CD" tvg-name="Digital Congo TV" tvg-logo="https://i.imgur.com/uz2Rsu7.png" group-title="General",Digital Congo TV
 http://51.254.199.122:8080/DigitalCongoTV/index.m3u8

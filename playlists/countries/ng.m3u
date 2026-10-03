@@ -7,14 +7,12 @@ https://live20.bozztv.com/dvrfl06/astv/astv-channel24africa/index.m3u8
 https://cs2.push2stream.com/CHANNELSTV-DVR/playlist.m3u8
 #EXTINF:-1 tvg-id="LN247.ng@SD" tvg-country="NG" tvg-name="LN247" tvg-logo="https://i.imgur.com/s6PUehQ.jpg" group-title="News",LN247 (1080p)
 https://go5lmb6oyawb-hls-live.5centscdn.com/station/3dfd3752af3d7aec5c53992c2da3a316.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsCentral.ng" tvg-country="NG" tvg-name="News Central" tvg-logo="https://i.imgur.com/qvCgI8N.png" group-title="News",News Central
+#EXTINF:-1 tvg-id="NewsCentral.ng@SD" tvg-country="NG" tvg-name="News Central" tvg-logo="https://i.imgur.com/qvCgI8N.png" group-title="News",News Central
 https://wf.newscentral.ng:8443/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SilverbirdNews24.ng" tvg-country="NG" tvg-name="Silverbird News 24" tvg-logo="https://i.imgur.com/9jcV9oG.png" group-title="News",Silverbird News 24
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_029/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ItageTV.ng" tvg-country="NG" tvg-name="Itage TV" tvg-logo="https://i.imgur.com/FP1aUPw.jpg" group-title="Movies",Itage TV
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_011/Stream/playlist.m3u8
-#EXTINF:-1 tvg-id="HipTV.ng" tvg-country="NG" tvg-name="HipTV" tvg-logo="https://i.imgur.com/UuaDhSJ.png" group-title="Entertainment",HIPTV (1080p)
-https://stream.ads.ottera.tv/playlist.m3u8?content_livestream=1&network_id=16993
 #EXTINF:-1 tvg-id="KingsviewTV.ng@SD" tvg-country="NG" tvg-name="Kingsview TV" tvg-logo="https://i.imgur.com/py1XOXX.png" group-title="Entertainment",Kingsview TV (1080p)
 https://j78dp6reyq5r-hls-live.5centscdn.com/4896_push_1963_001/00cb1f2e4ff89048f2e77e26940c00e6.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="Nigbati.ng@SD" tvg-country="NG" tvg-name="Nigbati" group-title="Culture",Nigbati (720p)
@@ -25,14 +23,12 @@ https://acasmedia3.acangroup.org/qausaintv/qausaintv_output/playlist.m3u8
 https://video1.getstreamhosting.com:1936/8398/8398/playlist.m3u8
 #EXTINF:-1 tvg-id="AMusicChannel.ng@SD" tvg-country="NG" tvg-name="AMusic Channel" tvg-logo="https://i.imgur.com/06zuf64.png" group-title="Music",AMusic Channel (720p)
 http://mn-nl.mncdn.com/amusictv/amusicsrt.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="AfricaTV3.ng@SD" tvg-country="NG" tvg-name="Africa TV3" tvg-logo="https://i.imgur.com/iibE9WL.png" group-title="Religious",Africa TV3 (720p)
-http://africatv.live.net.sa:1935/live/africatv3/playlist.m3u8
 #EXTINF:-1 tvg-id="ApprovalTV.ng@HD" tvg-country="NG" tvg-name="Approval TV" tvg-logo="https://storage.approvaltv.com/2026/03/approvallogo.png" group-title="Religious" http-referrer="https://live.approvaltv.com/",Approval TV (720p)
 #EXTVLCOPT:http-referrer=https://live.approvaltv.com/
 https://live.approvaltv.com/approvaltv/index.m3u8
 #EXTINF:-1 tvg-id="LoveWorldPersia.ng@SD" tvg-country="NG" tvg-name="LoveWorld Persia" tvg-logo="https://i.imgur.com/Vd2xPxh.png" group-title="Religious",LoveWorld Persia (720p)
 https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="LoveWorldUK.ng@SD" tvg-country="NG" tvg-name="LoveWorld UK" tvg-logo="https://i.imgur.com/JgHbDmF.png" group-title="Religious",Loveworld UK (1080p)
+#EXTINF:-1 tvg-id="LoveWorldUK.ng@SD" tvg-country="NG" tvg-name="LoveWorld UK" tvg-logo="https://i.imgur.com/JgHbDmF.png" group-title="Religious",LoveWorld UK (1080p)
 https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveWorldUSA.ng@SD" tvg-country="NG" tvg-name="LoveWorld USA" group-title="Religious",LoveWorld USA (720p)
 https://cdn3.wowza.com/5/RGtVZkFxL3FOQkxX/LWU/ngrp:lwu.stream_all/playlist.m3u8
@@ -54,7 +50,7 @@ https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_039/Stream/playlist.m3u
 https://cs2.push2stream.com/SOUNDCITY/playlist.m3u8
 #EXTINF:-1 tvg-id="TVWEST.ng@HD" tvg-country="NG" tvg-name="TV-WEST" tvg-logo="https://tvwest.ng/wp-content/uploads/2026/07/cropped-TW.jpg" group-title="General",TV-WEST (720p)
 https://tv-west.lg.mncdn.com/tv_west/tv_west.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="TVC.ng@SD" tvg-country="NG" tvg-name="TVC" tvg-logo="https://i.imgur.com/ReV8R5S.png" group-title="General",TVC (1080p)
+#EXTINF:-1 tvg-id="TVC.ng@SD" tvg-country="NG" tvg-name="TVC" tvg-logo="https://i.imgur.com/ReV8R5S.png" group-title="General",TVC (Nigeria) (1080p)
 https://tvce.gridpapaservers.com/TVCSEPT/ngrp:myStream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="UTVAfrica.ng@SD" tvg-country="NG" tvg-name="UTV Africa" tvg-logo="https://www.utvafrica.com/images/utv-logo.png" group-title="General",UTV Africa (720p)
 https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestreamUTV/8f263182c36c7e5c56a986bf770091e3.sdp/playlist.m3u8
@@ -64,7 +60,7 @@ https://oqgdro3xd4rm-hls-live.5centscdn.com/waffiitvstreaminglivetfmediacast/e08
 https://newproxy3.vidivu.tv/waptv/index.m3u8
 #EXTINF:-1 tvg-id="WazobiaMaxTVNigeria.ng@SD" tvg-country="NG" tvg-name="Wazobia Max TV Nigeria" tvg-logo="https://i.imgur.com/IeioxBp.png" group-title="General",Wazobia Max TV Nigeria (720p)
 https://wazobia.live:8333/channel/wmax.m3u8
-#EXTINF:-1 tvg-id="WazobiaMaxTVPortHarcourt.ng@SD" tvg-country="NG" tvg-name="Wazobia Max TV Port-Harcourt" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="General",Wazobia Max TV Port Harcourt (720p)
+#EXTINF:-1 tvg-id="WazobiaMaxTVPortHarcourt.ng@SD" tvg-country="NG" tvg-name="Wazobia Max TV Port-Harcourt" tvg-logo="https://rndcdn.dstv.com/dstvcms/2016/10/20/WazobiaMaz_new4-4logo_001_xlrg.png" group-title="General",Wazobia Max TV Port-Harcourt (720p)
 https://wazobia.live:8333/channel/wmaxph.m3u8
 #EXTINF:-1 tvg-id="YobeTV.ng@SD" tvg-country="NG" tvg-name="Yobe TV" tvg-logo="https://ytv.ng/images/yobe/ytv-logo.jpg" group-title="General",Yobe TV (720p)
 https://oqgdro3xd4rm-hls-live.5centscdn.com/tfmediacastlivestream24/60414fd886a863e5851f4559fb86e7f6.sdp/playlist.m3u8

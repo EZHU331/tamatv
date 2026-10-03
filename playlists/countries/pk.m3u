@@ -1,16 +1,20 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_PK1.xml.gz"
+#EXTINF:-1 tvg-id="7News.pk@SD" tvg-country="PK" tvg-name="7 News" tvg-logo="https://i.imgur.com/PTl92P5.png" group-title="News",7 News (720p)
+https://sscsott.com/7news/live/index.m3u8
+#EXTINF:-1 tvg-id="24NewsHD.pk@SD" tvg-country="PK" tvg-name="24 News HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/24_News_HD_Logo.png" group-title="News",24 News HD (720p)
+https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8
 #EXTINF:-1 tvg-id="92NewsHD.pk@SD" tvg-country="PK" tvg-name="92 News HD" tvg-logo="https://i.imgur.com/eqKrL9S.png" group-title="News",92 News HD (720p)
 http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
-#EXTINF:-1 tvg-id="ABNNews.pk@SD" tvg-country="PK" tvg-name="ABN News" group-title="News",ABN News (1080p)
+#EXTINF:-1 tvg-id="365News.pk@SD" tvg-country="PK" tvg-name="365 News" tvg-logo="https://i.imgur.com/8I6PWof.png" group-title="News",365 News
+https://cdn4.mjunoon.tv:8087/streamtest/140M/chunks.m3u8
+#EXTINF:-1 tvg-id="ABNNews.pk@SD" tvg-country="PK" tvg-name="ABN News" tvg-logo="https://i.imgur.com/R7BThkR.jpeg" group-title="News",ABN News (1080p)
 http://115.42.65.142:9981/stream/channelid/966869781
-#EXTINF:-1 tvg-id="AikNews.pk@SD" tvg-country="PK" tvg-name="Aik News" tvg-logo="https://i.imgur.com/svPXoAP.png" group-title="News",Aik News
-https://s2.ideationtec.live/Pnn/Pnn.m3u8?token=KsR3k27_sH3n-2
 #EXTINF:-1 tvg-id="ARYNews.pk@SD" tvg-country="PK" tvg-name="ARY News" tvg-logo="https://i.imgur.com/R4KtTbJ.jpg" group-title="News",ARY News
 https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8
-#EXTINF:-1 tvg-id="DunyaNews.pk@SD" tvg-country="PK" tvg-name="Dunya News" tvg-logo="https://i.imgur.com/1PbtW0y.png" group-title="News",Dunya News (INT Feed) (720p)
+#EXTINF:-1 tvg-id="CapitalTV.pk@SD" tvg-country="PK" tvg-name="Capital TV" tvg-logo="https://i.imgur.com/UxAE5O4.png" group-title="News",Capital TV
+https://cdn4.mjunoon.tv:8087/streamtest/111M/chunks.m3u8
+#EXTINF:-1 tvg-id="DunyaNews.pk@SD" tvg-country="PK" tvg-name="Dunya News" tvg-logo="https://i.imgur.com/1PbtW0y.png" group-title="News",Dunya News (720p)
 https://imob.dunyanews.tv/livehd/ngrp:dunyalivehd_2_all/playlist.m3u8
-#EXTINF:-1 tvg-id="HumNews.pk@SD" tvg-country="PK" tvg-name="Hum News" tvg-logo="https://i.imgur.com/9OroocT.png" group-title="News",Hum News
-http://103.86.135.164:9981/stream/channelid/2024790699?profile=pass&ticket=CAC87CD3CF8747A13FB03B91C9BE860F93CD615C
 #EXTINF:-1 tvg-id="LahoreNews.pk@SD" tvg-country="PK" tvg-name="Lahore News" tvg-logo="https://i.imgur.com/bQfQeEA.jpeg" group-title="News",Lahore News (720p)
 https://vcdn.dunyanews.tv/lahorelive/ngrp:lnews_1_all/playlist.m3u8
 #EXTINF:-1 tvg-id="LahoreRang.pk@SD" tvg-country="PK" tvg-name="Lahore Rang" tvg-logo="https://i.imgur.com/hglxHTa.png" group-title="News",Lahore Rang (1080p)
@@ -29,8 +33,6 @@ http://103.250.28.74:8000/play/a017/index.m3u8
 http://103.250.28.74:8000/play/a04g/index.m3u8
 #EXTINF:-1 tvg-id="SindhTVNews.pk@SD" tvg-country="PK" tvg-name="Sindh TV News" tvg-logo="https://i.imgur.com/Ap9K1lj.png" group-title="News",Sindh TV News (1080p)
 http://103.250.28.74:8000/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="SkyNewsUrdu.pk@SD" tvg-country="PK" tvg-name="Sky News Urdu" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png" group-title="News",Sky News Urdu (720p)
-https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8
 #EXTINF:-1 tvg-id="SuchTV.pk@SD" tvg-country="PK" tvg-name="Such TV" tvg-logo="https://i.imgur.com/yYMh3JJ.png" group-title="News",Such TV
 https://video.primexsports.com/suchnews/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SunoNewsHD.pk@SD" tvg-country="PK" tvg-name="Suno News HD" tvg-logo="https://i.imgur.com/FeSntVO.jpg" group-title="News",Suno News HD (1080p)
@@ -43,11 +45,11 @@ http://162.250.201.58:6211/pk/ONEGOLF/index.m3u8
 https://lbgo.bozztv.com/ssh101/ssh101/pksportshd/playlist.m3u8
 #EXTINF:-1 tvg-id="PTVSports.pk@SD" tvg-country="PK" tvg-name="PTV Sports" tvg-logo="https://i.imgur.com/CPm6GHA.png" group-title="Sports",PTV Sports (1080p)
 http://103.250.28.74:8000/play/a019/index.m3u8
-#EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-country="PK" tvg-name="Ten Sports Pakistan" tvg-logo="https://i.imgur.com/nnqpYNm.png" group-title="Sports",Ten Sports Pakistan
+#EXTINF:-1 tvg-id="TenSportsPakistan.pk@SD" tvg-country="PK" tvg-name="Ten Sports Pakistan" tvg-logo="https://i.imgur.com/7qS6TcE.png" group-title="Sports",Ten Sports Pakistan
 http://121.91.61.106:8000/play/a04h/index.m3u8
 #EXTINF:-1 tvg-id="AajEntertainment.pk@SD" tvg-country="PK" tvg-name="Aaj Entertainment" tvg-logo="https://i.ibb.co/xt5RBDds/Aaj-Entertainment-HD.png" group-title="Entertainment",Aaj Entertainment (1080p)
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
-#EXTINF:-1 tvg-id="ATV.pk@SD" tvg-country="PK" tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/83/Atv_pakistan.PNG" group-title="Entertainment",ATV (1080p)
+#EXTINF:-1 tvg-id="ATV.pk@SD" tvg-country="PK" tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/83/Atv_pakistan.PNG" group-title="Entertainment",ATV (Pakistan) (1080p)
 http://115.42.65.142:9981/stream/channelid/299762256
 #EXTINF:-1 tvg-id="AVTKhyber.pk@SD" tvg-country="PK" tvg-name="AVT Khyber" tvg-logo="https://i.imgur.com/FqkABWT.png" group-title="Entertainment",AVT Khyber (1080p)
 http://115.42.65.142:9981/stream/channelid/1380586642
@@ -55,9 +57,11 @@ http://115.42.65.142:9981/stream/channelid/1380586642
 https://vodzong.mjunoon.tv:8087/streamtest/Channel5-159-4/playlist.m3u8
 #EXTINF:-1 tvg-id="ExpressEntertainment.pk@SD" tvg-country="PK" tvg-name="Express Entertainment" tvg-logo="https://i.imgur.com/rgHbb8W.png" group-title="Entertainment",Express Entertainment (1080p)
 https://ml-pull-dvc-myco.io:2096/EXPRESS_ENTERTAINMENT/index.m3u8
+#EXTINF:-1 tvg-id="FalakTV.pk@SD" tvg-country="PK" tvg-name="Falak TV" tvg-logo="https://i.imgur.com/2TqlNsI.png" group-title="Entertainment",Falak TV
+https://falak.rst.ae/index.m3u8
 #EXTINF:-1 tvg-id="HumTV.pk@HD" tvg-country="PK" tvg-name="Hum TV" tvg-logo="https://i.ibb.co/Tx4GfKT5/Hum-TV-HD.png" group-title="Entertainment",Hum TV (720p)
 https://g4wlkwx8l23a-hls-live.5centscdn.com/HUM/271ddf829afeece44d8732757fba1a66.sdp/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="Pashto1.pk@SD" tvg-country="PK" tvg-name="Pashto 1" tvg-logo="https://i.imgur.com/QB9xOSZ.png" group-title="Entertainment",Pashto 1 (1080p)
+#EXTINF:-1 tvg-id="Pashto1.pk@SD" tvg-country="PK" tvg-name="Pashto 1" tvg-logo="https://i.imgur.com/tUsLDRe.png" group-title="Entertainment",Pashto 1 (1080p)
 http://103.250.28.74:8000/play/a00t/index.m3u8
 #EXTINF:-1 tvg-id="SABTV.pk@SD" tvg-country="PK" tvg-name="SAB TV" tvg-logo="https://i.imgur.com/hC7Sidr.png" group-title="Entertainment",SAB TV (1080p)
 https://ml-pull-dvc-myco.io:2096/SAB_ENTERTAINMENT/tracks-v1a1/mono.ts.m3u8
@@ -67,6 +71,8 @@ https://online.godstands.tv:5443/WebRTCApp/streams/KidsUrdu.m3u8
 http://103.250.28.74:8000/play/a04m/index.m3u8
 #EXTINF:-1 tvg-id="PaighanTV.pk@SD" tvg-country="PK" tvg-name="Paighan TV" tvg-logo="https://i.imgur.com/zokC3gO.png" group-title="Education",Paighan TV (1080p)
 http://116.90.120.151:8000/play/a00h/index.m3u8
+#EXTINF:-1 tvg-id="8XM.pk@HD" tvg-country="PK" tvg-name="8XM" tvg-logo="https://i.imgur.com/KLrfKRn.png" group-title="Music",8XM HD (720p)
+https://cdn4.mjunoon.tv:8087/streamtest/135M/chunks.m3u8
 #EXTINF:-1 tvg-id="ARYMusik.pk@SD" tvg-country="PK" tvg-name="ARY Musik" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/bb/ARY_Musik_logo.png" group-title="Music" http-referrer="https://live.arydigital.tv/",ARY Musik (1080p)
 #EXTVLCOPT:http-referrer=https://live.arydigital.tv/
 https://arymusik.aryzap.com/3fd38b2c62d0c3bbd74aedabb533c03a/6459fa78/v1/01847ac7a4930b8ed5aa6ed04aba/01847ac8f5f70b8ed5aa6ed04abd/main.m3u8

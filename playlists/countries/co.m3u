@@ -1,36 +1,34 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CO1.xml.gz"
-#EXTINF:-1 tvg-id="CanalPyC.co@SD" tvg-country="CO" tvg-name="Canal PyC" tvg-logo="https://i.imgur.com/3qxBDhV.png" group-title="News",Canal PyC (720p)
-https://live20.bozztv.com/akamaissh101/ssh101/pyctelevision/playlist.m3u8
+#EXTINF:-1 tvg-id="Cablenoticias.co@SD" tvg-country="CO" tvg-name="Cablenoticias" tvg-logo="https://i.imgur.com/FfhOGR9.png" group-title="News",Cablenoticias (1080p)
+http://181.78.211.244:8005/play/a09u/index.m3u8
 #EXTINF:-1 tvg-id="Momento24.co@SD" tvg-country="CO" tvg-name="Momento24" tvg-logo="https://i.imgur.com/kLy6w9e.jpeg" group-title="News",Momento24
 https://backupmaxmedia.hvmultiplay.com/hls/stream2/momento24.m3u8
 #EXTINF:-1 tvg-id="Noticiero90Minutos.co@SD" tvg-country="CO" tvg-name="Noticiero 90 Minutos" tvg-logo="https://i.imgur.com/ThaRRCN.png" group-title="News",Noticiero 90 Minutos (1080p)
 https://play.cdn.enetres.net/621B146D29C541AFB1507809F038F471021/021/playlist.m3u8
-#EXTINF:-1 tvg-id="NoticiasRCN.co@SD" tvg-country="CO" tvg-name="Noticias RCN" tvg-logo="https://i.imgur.com/FMX4QCM.png" group-title="News",RCN Noticias (720p)
-https://jmp2.uk/plu-67d9b0ebc290c9499046e88f.m3u8
+#EXTINF:-1 tvg-id="NTN24.co@SD" tvg-country="CO" tvg-name="NTN24" tvg-logo="https://i.imgur.com/UoKmSAP.png" group-title="News",NTN24 (720p)
+http://181.78.12.119:16123/play/ch80/index.m3u8
 #EXTINF:-1 tvg-id="RedPlus.co@SD" tvg-country="CO" tvg-name="Red+" tvg-logo="https://i.imgur.com/kuqkTMC.png" group-title="News",Red+ (1080p)
 https://inforedvos.lcdn.claro.net.co/Content/HLS_HLS_DIR/Live/channel(REDMASHDWEB)/master.m3u8
 #EXTINF:-1 tvg-id="WinSports.co@SD" tvg-country="CO" tvg-name="Win Sports" tvg-logo="https://i.imgur.com/DuSSrHV.png" group-title="Sports",Win Sports (1080p)
 http://138.121.15.230:9002/WIN-SPORT/index.m3u8
+#EXTINF:-1 tvg-id="WinPlusFutbol.co@SD" tvg-country="CO" tvg-name="Win+ Futbol" tvg-logo="https://i.imgur.com/0UN87vB.png" group-title="Sports",Win+ Futbol (1080p)
+http://181.78.12.119:16123/play/ch19/index.m3u8
 #EXTINF:-1 tvg-id="CanalCineDios.co@SD" tvg-country="CO" tvg-name="Canal Cine Dios" tvg-logo="https://i.imgur.com/S4xqZgV.png" group-title="Movies",Canal Cine Dios
 https://canal.mediaserver.com.co/live/cinedios.m3u8
-#EXTINF:-1 tvg-id="MCITelevision.co@SD" tvg-country="CO" tvg-name="MCI Television" tvg-logo="https://pbs.twimg.com/profile_images/1836009952420274177/FfYonU6r_400x400.jpg" group-title="Movies",MCI Televisión (1080p)
+#EXTINF:-1 tvg-id="MCITelevision.co@SD" tvg-country="CO" tvg-name="MCI Television" tvg-logo="https://pbs.twimg.com/profile_images/1836009952420274177/FfYonU6r_400x400.jpg" group-title="Movies",MCI Television (1080p)
 https://video.ejeserver.com/live/mcitelevision.m3u8
+#EXTINF:-1 tvg-id="StarChannel.co@SD" tvg-country="CO" tvg-name="Star Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel (Colombia) (1080p)
+http://190.61.47.54:8000/play/a035/index.m3u8
 #EXTINF:-1 tvg-id="ANCTelevision.co@SD" tvg-country="CO" tvg-name="ANC Television" tvg-logo="https://i.imgur.com/xjTU14t.jpg" group-title="Entertainment",ANC Television (720p)
 https://live.amelbatv.co:81/anctvlive/index.m3u8
-#EXTINF:-1 tvg-id="Canal14Codazzi.co@SD" tvg-country="CO" tvg-name="Canal 14 Codazzi" tvg-logo="https://i.imgur.com/wNSUMhJ.png" group-title="Entertainment",Canal 14 Codazzi (720p)
-https://eu1.servers10.com:8081/8056/index.m3u8
-#EXTINF:-1 tvg-id="CanalNets.co@SD" tvg-country="CO" tvg-name="Canal Nets" tvg-logo="https://i.imgur.com/edaAexc.png" group-title="Entertainment",Canal Nets (720p)
-https://movil.ejeserver.com/live/nets.m3u8
 #EXTINF:-1 tvg-id="CanalWomtv.co@SD" tvg-country="CO" tvg-name="Canal Womtv" tvg-logo="https://i.imgur.com/Nr4muMP.jpeg" group-title="Entertainment",Canal Womtv (720p)
 https://live.amelbatv.co:81/womtvlive/index.m3u8
 #EXTINF:-1 tvg-id="MaxTV.co@HD" tvg-country="CO" tvg-name="MaxTV" tvg-logo="https://gia.tv/streams/pstream/209851.png" group-title="Entertainment",MaxTV
 https://inliveserver.com:1936/8078/8078/playlist.m3u8
-#EXTINF:-1 tvg-id="RCNMas.co@SD" tvg-country="CO" tvg-name="RCN Mas" tvg-logo="https://i.imgur.com/MJzuRAN.png" group-title="Entertainment",RCN Más (1080p)
-https://rcntv-rcnmas-1-us.plex.wurl.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="RCNMas.co@SD" tvg-country="CO" tvg-name="RCN Mas" tvg-logo="https://i.imgur.com/MJzuRAN.png" group-title="Entertainment",RCN Mas (1080p)
+http://45.226.205.96:48000/play/a0af/index.m3u8
 #EXTINF:-1 tvg-id="RCNNovelas.co@SD" tvg-country="CO" tvg-name="RCN Novelas" tvg-logo="https://i.imgur.com/9wxdWNQ.png" group-title="Entertainment",RCN Novelas (1080p)
 https://cdnlive.klicgo.net/rcnnovelas/live/playlist.m3u8
-#EXTINF:-1 tvg-id="StreamForce360.co@Main" tvg-country="CO" tvg-name="StreamForce 360" tvg-logo="https://streamforce360.com/wp-content/uploads/2026/06/logo-streamforce-30-20026-e1782248482848.png" group-title="Entertainment",StreamForce 360 (1080p)
-https://sistemastr.tropicalmoonmedia.com:443/live/9E495C5FDA503D7F71037F2D2C5D3FA3/16.m3u8
 #EXTINF:-1 tvg-id="TeveColombia.co@SD" tvg-country="CO" tvg-name="TeveColombia" tvg-logo="https://i.imgur.com/vPwiJTw.png" group-title="Entertainment",TeveColombia (720p)
 https://cloud6.livescast.com:3900/live/tevecolombialive.m3u8
 #EXTINF:-1 tvg-id="TVGolfoUraba.co@SD" tvg-country="CO" tvg-name="TV Golfo Uraba" tvg-logo="https://i.imgur.com/Nd5axnS.png" group-title="Entertainment",TV Golfo Uraba
@@ -41,14 +39,14 @@ https://eu1.servers10.com:8081/8072/index.m3u8
 https://mdstrm.com/live-stream-playlist/6952e02d19eabace52e2885f.m3u8
 #EXTINF:-1 tvg-id="Eduvision.co@SD" tvg-country="CO" tvg-name="Eduvision" tvg-logo="https://i.imgur.com/ppBdqel.png" group-title="Education",Eduvision (1080p)
 https://stmv3.voxtvhd.com.br/conex2/conex2/playlist.m3u8
+#EXTINF:-1 tvg-id="Zoom.co@SD" tvg-country="CO" tvg-name="Zoom" tvg-logo="https://i.imgur.com/euy5zp6.png" group-title="Education",Zoom (Colombia) (1080p)
+http://138.121.15.230:9002/ZOOM/index.m3u8
 #EXTINF:-1 tvg-id="BuenisimaRadioTV.co@SD" tvg-country="CO" tvg-name="Buenisima Radio TV" tvg-logo="https://i.imgur.com/URKDlOZ.png" group-title="Music",Buenisima Radio TV
 https://canal.mediaserver.com.co/live/buenisimatv.m3u8
+#EXTINF:-1 tvg-id="ClaroMusicaTV.co@SD" tvg-country="CO" tvg-name="Claro Musica TV" tvg-logo="https://i.imgur.com/vrSFUwv.png" group-title="Music",Claro Musica TV (1080p)
+http://45.171.64.30:6060/play/a010
 #EXTINF:-1 tvg-id="FiestaTV.co@SD" tvg-country="CO" tvg-name="Fiesta TV" tvg-logo="https://i.imgur.com/42wImV2.png" group-title="Music",Fiesta TV
 https://panelvideo1.intermediahost.co:3286/live/ruzfpkqklive.m3u8
-#EXTINF:-1 tvg-id="LaHermandadSalsera.co@SD" tvg-country="CO" tvg-name="La Hermandad Salsera" tvg-logo="https://i.imgur.com/7Wlt6bc.png" group-title="Music",La Hermandad Salsera (1080p)
-https://streamlov.alsolnet.com/hermandadsalsera/live/playlist.m3u8
-#EXTINF:-1 tvg-id="LaKalle.co@SD" tvg-country="CO" tvg-name="La Kalle" tvg-logo="https://www.tdtparatodos.tv/sites/default/files/la_kalle.png" group-title="Music",La Kalle (720p)
-https://mdstrm.com/live-stream-playlist/58d191f07290fbb058025843.m3u8
 #EXTINF:-1 tvg-id="LaMoradaRadioTV.co@SD" tvg-country="CO" tvg-name="La Morada Radio TV" tvg-logo="https://i.imgur.com/E3wDEX5.png" group-title="Music",La Morada Radio TV (720p)
 https://movil.ejeserver.com/live/lamoradatv.m3u8
 #EXTINF:-1 tvg-id="MasMusicaFM.co@SD" tvg-country="CO" tvg-name="MasMusica FM" tvg-logo="https://i.imgur.com/tCg7owd.png" group-title="Music",MasMusica FM (720p)
@@ -59,10 +57,12 @@ https://backupmaxmedia.hvmultiplay.com/hls/stream3/parrandavallenata.m3u8
 http://45.162.193.35/RUMBATV/index.m3u8
 #EXTINF:-1 tvg-id="SalsaGordaTelevision.co@SD" tvg-country="CO" tvg-name="Salsa Gorda Television" tvg-logo="https://i.imgur.com/3IhYd7G.jpg" group-title="Music",Salsa Gorda Television (1080p)
 https://live20.bozztv.com/akamaissh101/ssh101/qMUAZEy/playlist.m3u8
-#EXTINF:-1 tvg-id="SupermusicaTV.co@SD" tvg-country="CO" tvg-name="Supermusica TV" tvg-logo="https://i.imgur.com/MiVs42N.jpeg" group-title="Music",Supermúsica TV (720p)
+#EXTINF:-1 tvg-id="SupermusicaTV.co@SD" tvg-country="CO" tvg-name="Supermusica TV" tvg-logo="https://i.imgur.com/MiVs42N.jpeg" group-title="Music",Supermusica TV (720p)
 https://backupmaxmedia.hvmultiplay.com/hls/stream4/supermusica.m3u8
 #EXTINF:-1 tvg-id="ElMundodelCampo.co@SD" tvg-country="CO" tvg-name="El Mundo del Campo" tvg-logo="https://i.imgur.com/xG2apUG.jpeg" group-title="Outdoor",El Mundo del Campo (720p)
 https://movil.ejeserver.com/live/elmundodelcampo.m3u8
+#EXTINF:-1 tvg-id="TVAgro.co@SD" tvg-country="CO" tvg-name="TVAgro" tvg-logo="https://i.imgur.com/9nzY7Ch.png" group-title="Outdoor",TVAgro (720p)
+http://168.228.44.241:9999/play/a04n/index.m3u8
 #EXTINF:-1 tvg-id="UMCTV.co@SD" tvg-country="CO" tvg-name="UMC TV" tvg-logo="https://i.imgur.com/YQUK4wO.png" group-title="Outdoor",UMC TV (720p)
 https://streaming5.globalhostla.com/rtplive/unamirad/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalCongreso.co@SD" tvg-country="CO" tvg-name="Canal Congreso" tvg-logo="https://i.imgur.com/erJDwtY.jpeg" group-title="Legislative",Canal Congreso (1080p)
@@ -71,22 +71,26 @@ http://138.121.15.230:9002/CANAL-CONGRESO/index.m3u8
 https://s1.abntelevision.com/avivamientoabr/stream/avivamientohd/avivamientohd/playlist.m3u8
 #EXTINF:-1 tvg-id="BendicionChannel.co@HD" tvg-country="CO" tvg-name="Bendicion Channel" tvg-logo="https://i.imgur.com/yKzV7m7.png" group-title="Religious",Bendicion Channel (720p)
 https://s.emisoras.tv:8081/bendicionchannel/index.m3u8
-#EXTINF:-1 tvg-id="CanalOracionConSon.co@SD" tvg-country="CO" tvg-name="Canal Oracion Con Son" tvg-logo="https://i.imgur.com/rfnFqU3.png" group-title="Religious",Canal Oración Con Son (1080p)
+#EXTINF:-1 tvg-id="BethelColombia.co@SD" tvg-country="CO" tvg-name="Bethel Colombia" tvg-logo="https://i.imgur.com/BYdMsLL.png" group-title="Religious",Bethel Colombia (720p)
+http://138.121.15.230:9002/BETHEL/index.m3u8
+#EXTINF:-1 tvg-id="CanalOracionConSon.co@SD" tvg-country="CO" tvg-name="Canal Oracion Con Son" tvg-logo="https://i.imgur.com/rfnFqU3.png" group-title="Religious",Canal Oracion Con Son (1080p)
 https://canal.mediaserver.com.co/live/oracionconson.m3u8
+#EXTINF:-1 tvg-id="CanalTelesantiago.co@SD" tvg-country="CO" tvg-name="Canal Telesantiago" tvg-logo="https://i.imgur.com/DmkH5p8.jpg" group-title="Religious",Canal Telesantiago (1080p)
+https://stream.canaltelesantiago.com:8000/play/TELESANTIAGO/index.m3u8
 #EXTINF:-1 tvg-id="CMBTelevision.co@SD" tvg-country="CO" tvg-name="CMB Television" tvg-logo="https://i.imgur.com/akGKPsk.png" group-title="Religious",CMB Television (1080p)
 https://cdn1.cmbcolombia.tv/bethesda/video.m3u8
 #EXTINF:-1 tvg-id="Cristovision.co@SD" tvg-country="CO" tvg-name="Cristovision" tvg-logo="https://i.imgur.com/XIhCUY9.png" group-title="Religious",Cristovision (720p)
 https://5fc584f3f19c9.streamlock.net/cristovision/videocristovision/playlist.m3u8
 #EXTINF:-1 tvg-id="FrecuenciaFTV.co@SD" tvg-country="CO" tvg-name="Frecuencia F TV" tvg-logo="https://i.imgur.com/Cw5k96N.png" group-title="Religious",Frecuencia F TV (1080p)
 https://tv.frecuenciaf.com/live/envivo_1080p4000kbs/index.m3u8
-#EXTINF:-1 tvg-id="OasisTV.co@SD" tvg-country="CO" tvg-name="Oasis TV" tvg-logo="https://i.imgur.com/VKYzFpZ.png" group-title="Religious",Oasis TV (720p)
+#EXTINF:-1 tvg-id="OasisTV.co@SD" tvg-country="CO" tvg-name="Oasis TV" tvg-logo="https://i.imgur.com/VKYzFpZ.png" group-title="Religious",Oasis TV (Colombia) (720p)
 https://5e85d90130e77.streamlock.net/6020/6020/playlist.m3u8
 #EXTINF:-1 tvg-id="SantelTV.co@SD" tvg-country="CO" tvg-name="Santel TV" tvg-logo="https://i.imgur.com/jmJx0jo.png" group-title="Religious",Santel TV
 https://tv3.bitstreaming.net:3540/live/santeltvlive.m3u8
 #EXTINF:-1 tvg-id="TuUniversoTV.co@SD" tvg-country="CO" tvg-name="Tu Universo TV" tvg-logo="https://i.imgur.com/e6esjLZ.jpg" group-title="Religious",Tu Universo TV (720p)
 https://5bf8041cb3fed.streamlock.net/TUUNIVERSOTV/TUUNIVERSOTV/playlist.m3u8
-#EXTINF:-1 tvg-id="TVGracia.co@SD" tvg-country="CO" tvg-name="TVGracia" tvg-logo="https://i.imgur.com/tMl4ISO.png" group-title="Religious",TVGracia
-https://vs20.live.opencaster.com/diego_57244803/index.m3u8
+#EXTINF:-1 tvg-id="TeleNostalgia.co@SD" tvg-country="CO" tvg-name="TeleNostalgia" tvg-logo="https://i.imgur.com/WZeMZNy.png" group-title="Classic",TeleNostalgia (1080p)
+http://38.134.250.110:8000/play/a01q/index.m3u8
 #EXTINF:-1 tvg-id="c5c6a54fbd0328b108453e2537b7eee1" tvg-country="CO" tvg-name="Caracol Mix" tvg-logo="https://i.imgur.com/8Ekj4iw.jpeg" group-title="Comedy",Caracol Mix
 https://jmp2.uk/rok-c5c6a54fbd0328b108453e2537b7eee1.m3u8
 #EXTINF:-1 tvg-id="AlertaBogota.co@SD" tvg-country="CO" tvg-name="Alerta Bogota" tvg-logo="https://static.mytuner.mobi/media/tvos_radios/664/fantastica-bogota-1044-fm.953b1280.png" group-title="General",Alerta Bogota (720p)
@@ -95,29 +99,21 @@ https://mdstrm.com/live-stream-playlist/69b2cdf98815b9b6c48c2532.m3u8
 https://viewhn.com/amagatelevision/sdfUYWKegHKRPpSirG/playlist.m3u8
 #EXTINF:-1 tvg-id="AupurTelevision.co@SD" tvg-country="CO" tvg-name="Aupur Television" tvg-logo="https://i.imgur.com/FTv7zpJ.jpeg" group-title="General",Aupur Television (1080p)
 https://canal.aupurtv.co/live/stream/index.m3u8
-#EXTINF:-1 tvg-id="BluRadio.co@SD" tvg-country="CO" tvg-name="Blu Radio" tvg-logo="https://i.imgur.com/w2t8CGT.png" group-title="General",Blu Radio (720p)
-https://mdstrm.com/live-stream-playlist/58d1921a72e2b22e2905e493.m3u8
-#EXTINF:-1 tvg-id="BUMTelevision.co@SD" tvg-country="CO" tvg-name="BUM Television" tvg-logo="https://i.imgur.com/I0eGYI0.png" group-title="General",BUM Televisión (720p)
+#EXTINF:-1 tvg-id="BUMTelevision.co@SD" tvg-country="CO" tvg-name="BUM Television" tvg-logo="https://i.imgur.com/I0eGYI0.png" group-title="General",BUM Television (720p)
 https://movil.ejeserver.com/live/visiondorada.m3u8
-#EXTINF:-1 tvg-id="Canal2AlpavisionNeiva.co@SD" tvg-country="CO" tvg-name="Canal 2 Alpavision Neiva" tvg-logo="https://i.imgur.com/Yv8XIGW.png" group-title="General",Canal 2 Alpavisión Neiva (720p)
+#EXTINF:-1 tvg-id="Canal1.co@SD" tvg-country="CO" tvg-name="Canal 1" tvg-logo="https://i.imgur.com/YFywPLC.png" group-title="General",Canal 1 (Colombia) (720p)
+http://38.134.250.110:8000/play/a014/index.m3u8
+#EXTINF:-1 tvg-id="Canal2AlpavisionNeiva.co@SD" tvg-country="CO" tvg-name="Canal 2 Alpavision Neiva" tvg-logo="https://i.imgur.com/Yv8XIGW.png" group-title="General",Canal 2 Alpavision Neiva (720p)
 https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal8TVPlus.co@SD" tvg-country="CO" tvg-name="Canal 8 TV+" tvg-logo="https://i.imgur.com/peOIG1F.png" group-title="General",Canal 8 TV+ (720p)
 https://movil.ejeserver.com/live/canal8tv.m3u8
-#EXTINF:-1 tvg-id="Canal9Cosespu.co@SD" tvg-country="CO" tvg-name="Canal 9 Cosespu" tvg-logo="https://i.imgur.com/w5e1d8k.png" group-title="General",Canal 9 Cosespu
-https://video2.lhdserver.es/canal9cosespu/live.m3u8
-#EXTINF:-1 tvg-id="CanalCalimaTV.co@SD" tvg-country="CO" tvg-name="Canal Calima TV" tvg-logo="https://i.imgur.com/6YxtyUR.jpeg" group-title="General",Canal Calima TV (720p)
-https://movil.ejeserver.com/live/calimatv.m3u8
 #EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-country="CO" tvg-name="Canal Capital" tvg-logo="https://i.imgur.com/zAYtbYi.png" group-title="General",Canal Capital (1080p)
 http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
-#EXTINF:-1 tvg-id="CanalCHD.co@SD" tvg-country="CO" tvg-name="Canal CHD" tvg-logo="https://i.imgur.com/cNv1MPs.jpeg" group-title="General",Canal CHD
-https://vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8
-#EXTINF:-1 tvg-id="CanalDos.co@SD" tvg-country="CO" tvg-name="Canal Dos" tvg-logo="https://i.imgur.com/BYsyNHZ.jpg" group-title="General",Canal Dos Yopal (720p)
+#EXTINF:-1 tvg-id="CanalDos.co@SD" tvg-country="CO" tvg-name="Canal Dos" tvg-logo="https://i.imgur.com/BYsyNHZ.jpg" group-title="General",Canal Dos (720p)
 http://131.221.41.94/hls/canal2.m3u8
-#EXTINF:-1 tvg-id="CanalInstitucional.co@SD" tvg-country="CO" tvg-name="Canal Institucional" tvg-logo="https://i.imgur.com/CKnf3Ua.png" group-title="General",Canal Institucional (720p)
-https://streaming.rtvc.gov.co/TV_CanalInstitucional_live/smil:live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="CanalMundoVision.co@SD" tvg-country="CO" tvg-name="Canal Mundo Vision" tvg-logo="https://i.imgur.com/zRqfJuj.png" group-title="General",Canal Mundo Visión (720p)
-https://movil.ejeserver.com/live/mundovisiontv.m3u8
-#EXTINF:-1 tvg-id="CanalMasTelevision.co@SD" tvg-country="CO" tvg-name="Canal Mas Television" tvg-logo="https://i.imgur.com/ODMa27W.jpg" group-title="General",Canal Más Televisión (720p)
+#EXTINF:-1 tvg-id="CanalInstitucional.co@SD" tvg-country="CO" tvg-name="Canal Institucional" tvg-logo="https://i.imgur.com/CKnf3Ua.png" group-title="General",Canal Institucional (1080p)
+http://190.61.47.54:8000/play/a00v/index.m3u8
+#EXTINF:-1 tvg-id="CanalMasTelevision.co@SD" tvg-country="CO" tvg-name="Canal Mas Television" tvg-logo="https://i.imgur.com/ODMa27W.jpg" group-title="General",Canal Mas Television (720p)
 https://movil.ejeserver.com/live/teledoradahd.m3u8
 #EXTINF:-1 tvg-id="CanalRCN.co@SD" tvg-country="CO" tvg-name="Canal RCN" tvg-logo="https://i.imgur.com/5PhTaHp.png" group-title="General",Canal RCN (1080p)
 http://138.121.15.230:9002/RCN/index.m3u8
@@ -125,14 +121,16 @@ http://138.121.15.230:9002/RCN/index.m3u8
 https://streaming.telenetdigital.net.co:8086/canal3tv/stream.m3u8
 #EXTINF:-1 tvg-id="CaracolHD2.co@SD" tvg-country="CO" tvg-name="Caracol HD2" tvg-logo="https://i.imgur.com/Fww94l9.png" group-title="General",Caracol HD2 (1080p)
 http://181.78.14.26:4000/play/a00d/index.m3u8
+#EXTINF:-1 tvg-id="CaracolInternacional.co@SD" tvg-country="CO" tvg-name="Caracol Internacional" tvg-logo="https://i.imgur.com/h7LWbt5.png" group-title="General",Caracol Internacional (1080p)
+http://167.249.23.102:8000/play/a0ax/index.m3u8
 #EXTINF:-1 tvg-id="CaracolTV.co@SD" tvg-country="CO" tvg-name="Caracol TV" tvg-logo="https://i.imgur.com/WbfdJbk.png" group-title="General",Caracol TV (1080p)
-http://45.171.108.253:8888/CARACOL/index.m3u8
+http://138.121.15.230:9002/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="CitytvBogota.co@SD" tvg-country="CO" tvg-name="Citytv Bogota" tvg-logo="https://i.imgur.com/h7K9EW9.png" group-title="General",Citytv Bogota (1080p)
 http://138.121.15.230:9002/CITY-TV/index.m3u8
-#EXTINF:-1 tvg-id="CNCBugavision.co@SD" tvg-country="CO" tvg-name="CNC Bugavision" tvg-logo="https://i.imgur.com/zJAwnvd.png" group-title="General",CNC Bugavisión (720p)
+#EXTINF:-1 tvg-id="CNCBugavision.co@SD" tvg-country="CO" tvg-name="CNC Bugavision" tvg-logo="https://i.imgur.com/zJAwnvd.png" group-title="General",CNC Bugavision (720p)
 https://movil.ejeserver.com/live/cncbuga.m3u8
-#EXTINF:-1 tvg-id="CNCPereira.co@SD" tvg-country="CO" tvg-name="CNC Pereira" tvg-logo="https://i.imgur.com/5vJ0aXH.png" group-title="General",CNC Pereira (720p)
-https://cloudvideo.servers10.com:8081/latinchaneltv/index.m3u8
+#EXTINF:-1 tvg-id="CNCMedellin.co@HD" tvg-country="CO" tvg-name="CNC Medellin" tvg-logo="https://i.imgur.com/J1f4fNq.png" group-title="General",CNC Medellin (1080p)
+http://138.94.3.106:8000/play/a02o/index.m3u8
 #EXTINF:-1 tvg-id="CNCTulua.co@SD" tvg-country="CO" tvg-name="CNC Tulua" tvg-logo="https://i.imgur.com/NCzpcqm.png" group-title="General",CNC Tulua (1080p)
 https://live.amelbatv.co:81/cnctulualive/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="CNCValledupar.co@SD" tvg-country="CO" tvg-name="CNC Valledupar" tvg-logo="https://i.imgur.com/y5N6PCg.jpg" group-title="General",CNC Valledupar (720p)
@@ -151,29 +149,25 @@ https://stmv2.voxtvhd.com.br/marsella/marsella/playlist.m3u8
 https://live.arnoproducciones.com/hls/norte.m3u8
 #EXTINF:-1 tvg-id="NexoTV.co@SD" tvg-country="CO" tvg-name="Nexo TV" tvg-logo="https://i.imgur.com/tkEFZWo.png" group-title="General",Nexo TV
 https://vs20.live.opencaster.com/nexotv_7576198a/index.m3u8
-#EXTINF:-1 tvg-id="NSTV.co@SD" tvg-country="CO" tvg-name="NSTV" tvg-logo="https://i.imgur.com/ES6xFAv.png" group-title="General",NSTV (1080p)
-https://sistemastr.tropicalmoonmedia.com/live/2C7CA6CECC9B8F8C3A07315FDA110936/21.m3u8
-#EXTINF:-1 tvg-id="NuestraTeleInternacional.co@SD" tvg-country="CO" tvg-name="Nuestra Tele Internacional" tvg-logo="https://i.imgur.com/JoGQqmP.png" group-title="General",Nuestra Tele Internacional (720p)
-http://170.238.200.199/nuestra-tele/index.m3u8
-#EXTINF:-1 tvg-id="PancheTelevision.co@SD" tvg-country="CO" tvg-name="Panche Television" tvg-logo="https://i.imgur.com/BJVlOVA.jpeg" group-title="General",Panche Television
-https://vs20.live.opencaster.com/panche_3c70d368/index.m3u8
+#EXTINF:-1 tvg-id="NuestraTeleInternacional.co@SD" tvg-country="CO" tvg-name="Nuestra Tele Internacional" tvg-logo="https://i.imgur.com/JoGQqmP.png" group-title="General",Nuestra Tele Internacional (1080p)
+http://45.173.231.22:8000/play/a0cr/index.m3u8
 #EXTINF:-1 tvg-id="RCNHD2.co@SD" tvg-country="CO" tvg-name="RCN HD2" tvg-logo="https://i.imgur.com/SrMPTfc.png" group-title="General",RCN HD2 (1080p)
 http://181.78.14.26:4000/play/a07m/index.m3u8
-#EXTINF:-1 tvg-id="SenalColombia.co@SD" tvg-country="CO" tvg-name="Senal Colombia" tvg-logo="https://i.imgur.com/Y9x16vl.png" group-title="General",Senal Colombia (1080p)
-http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8
-#EXTINF:-1 tvg-id="SoonaTV.co@SD" tvg-country="CO" tvg-name="Soona TV" tvg-logo="https://i.imgur.com/Pk8zzTL.jpeg" group-title="General",Soona TV
-https://vs20.live.opencaster.com/soonatv_a1a564a9/index.m3u8
 #EXTINF:-1 tvg-id="SuramTV.co@SD" tvg-country="CO" tvg-name="Suram TV" tvg-logo="https://i.imgur.com/2N9LCES.png" group-title="General",Suram TV (720p)
 https://us.streaminghd.cl/suramtv/index.m3u8
 #EXTINF:-1 tvg-id="TeleMocoaCanal10.co@SD" tvg-country="CO" tvg-name="Tele Mocoa Canal 10" tvg-logo="https://i.imgur.com/XHtpEfu.png" group-title="General",Tele Mocoa Canal 10 (720p)
 https://live.amelbatv.co:81/telemocoalive/index.m3u8
-#EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-country="CO" tvg-name="Telepacifico" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="General",Telepacífico (1080p)
-https://play.cdn.enetres.net/6E5C615AA5FF4123ACAF0DAB57B7B8DC021/022/playlist.m3u8
-#EXTINF:-1 tvg-id="TeleQuindio.co@SD" tvg-country="CO" tvg-name="TeleQuindio" tvg-logo="https://i.imgur.com/bJWj5ja.png" group-title="General",TeleQuindio (1080p)
-https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8
+#EXTINF:-1 tvg-id="Teleantioquia.co@SD" tvg-country="CO" tvg-name="Teleantioquia" tvg-logo="https://i.imgur.com/6WMV2Az.png" group-title="General",Teleantioquia (1080p)
+http://138.121.15.230:9002/TELEANTIOQUIA/index.m3u8
+#EXTINF:-1 tvg-id="Telecaribe.co@SD" tvg-country="CO" tvg-name="Telecaribe" tvg-logo="https://i.imgur.com/E35cXHt.png" group-title="General",Telecaribe (1080p)
+http://138.121.15.230:9002/TELECARIBE/index.m3u8
+#EXTINF:-1 tvg-id="Teleislas.co@SD" tvg-country="CO" tvg-name="Teleislas" tvg-logo="https://i.imgur.com/aKHGRyk.png" group-title="General",Teleislas (720p)
+http://190.61.47.54:8000/play/a015/index.m3u8
+#EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-country="CO" tvg-name="Telepacifico" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="General",Telepacifico (1080p)
+http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
 #EXTINF:-1 tvg-id="Telesangil.co@SD" tvg-country="CO" tvg-name="Telesangil" tvg-logo="https://i.ibb.co/27Pzdvw/cropped-TELESANGIL-LOGO-1.png" group-title="General",Telesangil (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/telesangil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRivera.co@SD" tvg-country="CO" tvg-name="TV Rivera" tvg-logo="https://i.imgur.com/BmwZNWm.png" group-title="General",TV Rivera
-https://movil.ejeserver.com/live/tvrivera.m3u8
-#EXTINF:-1 tvg-id="ViveTV.co@SD" tvg-country="CO" tvg-name="Vive TV" tvg-logo="https://i.imgur.com/25CFHpB.png" group-title="General",Vive TV Colombia (1080p)
+#EXTINF:-1 tvg-id="Trece.co@SD" tvg-country="CO" tvg-name="Trece" tvg-logo="https://i.imgur.com/jsuXXIg.png" group-title="General",Trece (Colombia) (1080p)
+http://190.60.46.228:8888/play/a030/index.m3u8
+#EXTINF:-1 tvg-id="ViveTV.co@SD" tvg-country="CO" tvg-name="Vive TV" tvg-logo="https://i.imgur.com/25CFHpB.png" group-title="General",Vive TV (1080p)
 http://192.144.113.132:1935/live/ViveTV/playlist.m3u8
