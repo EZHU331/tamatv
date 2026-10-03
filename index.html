@@ -1,0 +1,2772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Frame24 — M3U playlists</title>
+  <meta name="description" content="M3U and M3U8 playlists by country and category, with XMLTV programme guides. Copy playlist URLs for your media player.">
+  <meta name="keywords" content="M3U, M3U8, XMLTV, playlists, live TV, IPTV, programme guides">
+  <link rel="canonical" href="https://ezhu331.github.io/tamatv/">
+  <link rel="alternate" hreflang="en" href="https://ezhu331.github.io/tamatv/?lang=en">
+  <link rel="alternate" hreflang="zh-Hans" href="https://ezhu331.github.io/tamatv/?lang=zh">
+  <link rel="alternate" hreflang="ja" href="https://ezhu331.github.io/tamatv/?lang=ja">
+  <link rel="alternate" hreflang="x-default" href="https://ezhu331.github.io/tamatv/">
+  <meta name="geo.region" content="JP">
+  <meta name="geo.placename" content="Japan">
+  <meta name="ICBM" content="35.6762, 139.6503">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Frame 24 TV">
+  <meta property="og:url" content="https://ezhu331.github.io/tamatv/">
+  <meta property="og:title" content="Frame24 — M3U playlists">
+  <meta property="og:description" content="M3U and M3U8 playlists by country and category, with XMLTV programme guides. Copy playlist URLs for your media player.">
+  <meta property="og:image" content="https://ezhu331.github.io/tamatv/assets/frame24-logo-wide.png">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:locale:alternate" content="zh_CN">
+  <meta property="og:locale:alternate" content="ja_JP">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Frame24 — M3U playlists">
+  <meta name="twitter:description" content="M3U and M3U8 playlists by country and category, with XMLTV programme guides. Copy playlist URLs for your media player.">
+  <meta name="twitter:image" content="https://ezhu331.github.io/tamatv/assets/frame24-logo-wide.png">
+  <meta name="referrer" content="no-referrer">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src 'self' https:; font-src 'none'; connect-src 'self'; form-action 'none'; base-uri 'none'; object-src 'none'; frame-src 'none'; worker-src 'none'; upgrade-insecure-requests">
+  <meta http-equiv="Permissions-Policy" content="camera=(), microphone=(), geolocation=(), payment=(), usb=(), interest-cohort=()">
+  <link rel="icon" href="assets/frame24-icon.png">
+  <style>
+    :root {
+      --ink: #1e2430;
+      --muted: #7a8290;
+      --canvas: #eef1f6;
+      --surface: rgba(255, 255, 255, 0.88);
+      --accent: #3b4aa0;
+      --line: rgba(30, 36, 48, 0.1);
+      --tv: #1a1a1a;
+      --panel: #ffffff;
+      --stat: #1e2430;
+      --ease: cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    html { scroll-behavior: smooth; }
+    html, body { margin: 0; background: var(--canvas); color: var(--ink); }
+    body {
+      font-family: "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Hiragino Kaku Gothic ProN", system-ui, sans-serif;
+      line-height: 1.55;
+    }
+    a { color: var(--accent); }
+    .reveal {
+      opacity: 0;
+      transform: translate3d(0, 22px, 0);
+    }
+    .reveal.is-in {
+      opacity: 1;
+      transform: none;
+      transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+                  transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 30;
+      width: 100%;
+      border-bottom: 1px solid var(--line);
+      background: color-mix(in srgb, var(--canvas) 92%, #fff);
+      backdrop-filter: blur(18px);
+      -webkit-backdrop-filter: blur(18px);
+    }
+    .header-bar {
+      --header-control: 40px;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 12px 0;
+    }
+    .header-end {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .brand {
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      color: inherit;
+      min-width: 0;
+    }
+    .brand-mark {
+      height: var(--header-control);
+      flex: 0 0 auto;
+      overflow: hidden;
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .brand-mark img {
+      height: var(--header-control);
+      width: auto;
+      display: block;
+    }
+    .brand { gap: 10px; }
+    .brand-mark { border-radius: 9px; }
+    .brand:hover .brand-mark { transform: translateY(-1px); }
+    .page-tabs { flex: 0 0 auto; }
+    .page-tabs.pill,
+    .langs.pill {
+      height: var(--header-control);
+      box-sizing: border-box;
+    }
+    .meta-nav {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+    .meta-nav a {
+      text-decoration: none;
+      color: var(--muted);
+      font-weight: 650;
+      font-size: 0.88rem;
+      white-space: nowrap;
+      transition: color 0.2s ease;
+    }
+    .meta-nav a:hover { color: var(--ink); }
+    .pill {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+      padding: 4px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: var(--surface);
+    }
+    .pill a,
+    .pill button {
+      border: 0;
+      background: transparent;
+      color: var(--muted);
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.88rem;
+      line-height: 1;
+      height: 100%;
+      display: inline-flex;
+      align-items: center;
+      padding: 0 12px;
+      border-radius: 999px;
+      cursor: pointer;
+      text-decoration: none;
+      white-space: nowrap;
+      transition: background 0.2s ease, color 0.2s ease;
+    }
+    .pill a:hover,
+    .pill button:hover { color: var(--ink); }
+    .pill a[aria-current="page"],
+    .pill button[aria-pressed="true"] {
+      background: var(--ink);
+      color: #f4efe6;
+    }
+    .hero { padding: 28px 0 36px; }
+
+    .kicker {
+      font-size: 0.82rem;
+      font-weight: 650;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+    h1 {
+      font-size: clamp(2.4rem, 5.4vw, 3.6rem);
+      letter-spacing: -0.045em;
+      line-height: 1.05;
+      margin: 0 0 16px;
+      max-width: 14ch;
+    }
+    .lists-hero h1,
+    .lists-title-row h1 {
+      font-size: clamp(1.7rem, 3vw, 2.15rem);
+      max-width: none;
+      margin: 0;
+      letter-spacing: -0.04em;
+      font-weight: 600;
+    }
+    .lead {
+      font-size: 1.18rem;
+      color: var(--muted);
+      max-width: 40rem;
+      margin: 0 0 28px;
+    }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 36px; }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 13px 20px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 650;
+      transition: transform 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.28s ease, background 0.2s ease, filter 0.2s ease;
+    }
+    .btn:hover { transform: translateY(-2px); }
+    .btn.primary { background: var(--ink); color: #f4efe6; }
+    .btn.primary:hover { box-shadow: 0 12px 28px rgba(42, 49, 64, 0.28); }
+    .btn.ghost { background: var(--surface); color: var(--ink); border: 1px solid var(--line); }
+    .tv {
+      --tv-bezel: 8px;
+      --tv-stand: 26px;
+      --tv-radius: 4px;
+      position: relative;
+      background: transparent;
+      padding: var(--tv-bezel) var(--tv-bezel) calc(var(--tv-bezel) + var(--tv-stand));
+      transform-style: preserve-3d;
+      transition: transform 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+    }
+    .tv::before {
+      content: "";
+      position: absolute;
+      inset: 0 0 calc(var(--tv-stand) - 1px);
+      background: var(--tv);
+      border-radius: var(--tv-radius);
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.15),
+        0 28px 70px rgba(42, 49, 64, 0.22);
+      pointer-events: none;
+      transition: box-shadow 0.45s ease;
+    }
+    .tv::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 32%;
+      height: var(--tv-stand);
+      margin-inline: auto;
+      background: #171717;
+      border-radius: 0 0 9px 9px;
+      box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.11);
+      pointer-events: none;
+    }
+    .tv:hover { transform: translateY(-6px); }
+    .tv:hover::before {
+      box-shadow:
+        0 0 0 1px rgba(255, 255, 255, 0.18),
+        0 36px 80px rgba(42, 49, 64, 0.3);
+    }
+    .tv img {
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 1px;
+      background: #000;
+      color: transparent;
+      transition: opacity 0.28s ease;
+    }
+    .tv img.is-swapping { opacity: 0; }
+    .caption { margin: 14px 0 0; color: var(--muted); font-size: 0.95rem; }
+    h2 { font-size: 1.55rem; letter-spacing: -0.03em; margin: 0 0 10px; }
+    .section { padding: 56px 0 0; }
+    .intro { color: var(--muted); max-width: 42rem; margin: 0 0 28px; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 22px;
+      transition: transform 0.35s cubic-bezier(0.22, 1, 0.36, 1),
+                  box-shadow 0.35s ease, border-color 0.35s ease;
+    }
+    .card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 36px rgba(42, 49, 64, 0.1);
+      border-color: rgba(42, 49, 64, 0.2);
+    }
+    .card h3 { margin: 0 0 8px; font-size: 1.05rem; }
+    .card p { margin: 0; color: var(--muted); }
+    .faq .card h3 { font-size: 1rem; }
+    .format-groups {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 14px;
+    }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 12px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .chips li {
+      padding: 6px 12px;
+      border-radius: 999px;
+      background: var(--canvas);
+      border: 1px solid var(--line);
+      font-size: 0.88rem;
+      font-weight: 650;
+      letter-spacing: 0.01em;
+      transition: transform 0.25s ease, background 0.25s ease;
+    }
+    .chips li:hover {
+      transform: translateY(-2px);
+      background: #fff;
+    }
+    .pair {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 18px;
+      margin-top: 8px;
+    }
+    .shot-card .tv { --tv-stand: 22px; }
+    .shot-card h3 { margin: 16px 0 6px; }
+    .shot-card p { margin: 0; color: var(--muted); }
+    .shot-card.wide { margin-top: 18px; }
+    .device-roll {
+      --roll-inset: 28px;
+      --roll-gap: clamp(28px, 3.6vw, 48px);
+      position: relative;
+    }
+    .device-roll-frame {
+      position: relative;
+      background: #f7f8fb;
+      border-radius: 22px;
+      overflow: hidden;
+    }
+    .device-roll-frame::before,
+    .device-roll-frame::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      width: 48px;
+      z-index: 1;
+      pointer-events: none;
+      opacity: 0;
+      transition: opacity 0.25s ease;
+    }
+    .device-roll-frame::before {
+      left: 0;
+      background: linear-gradient(90deg, #f7f8fb, transparent);
+    }
+    .device-roll-frame::after {
+      right: 0;
+      background: linear-gradient(90deg, transparent, #f7f8fb);
+    }
+    .device-roll:not(.is-start) .device-roll-frame::before,
+    .device-roll:not(.is-end) .device-roll-frame::after { opacity: 1; }
+    .device-roll.is-fit .device-roll-frame::before,
+    .device-roll.is-fit .device-roll-frame::after { opacity: 0; }
+    .device-roll-window {
+      overflow-x: auto;
+      overflow-y: hidden;
+      scroll-snap-type: x mandatory;
+      scroll-behavior: smooth;
+      scroll-padding-inline: var(--roll-inset);
+      overscroll-behavior-x: contain;
+      scrollbar-width: none;
+      cursor: grab;
+      touch-action: pan-x;
+      user-select: none;
+      container-type: inline-size;
+    }
+    .device-roll-window::-webkit-scrollbar { display: none; }
+    .device-roll-window.is-dragging {
+      scroll-snap-type: none;
+      scroll-behavior: auto;
+      cursor: grabbing;
+    }
+    .device-roll-track {
+      display: flex;
+      align-items: stretch;
+      padding: 0;
+    }
+    .device-page {
+      flex: 0 0 100cqi;
+      scroll-snap-align: start;
+      scroll-snap-stop: always;
+      display: grid;
+      grid-template-rows: auto auto;
+      grid-auto-flow: column;
+      grid-auto-columns: max-content;
+      justify-content: center;
+      align-items: end;
+      column-gap: var(--roll-gap);
+      padding: 28px var(--roll-inset) 22px;
+      box-sizing: border-box;
+      min-width: 0;
+      max-width: 100cqi;
+    }
+    .device-page:not(.is-desk) {
+      grid-template-columns: minmax(0, 3.2fr) minmax(0, 2fr);
+      grid-auto-columns: unset;
+      justify-content: stretch;
+    }
+    .device-page .device {
+      display: grid;
+      grid-template-rows: subgrid;
+      grid-row: 1 / span 2;
+      min-width: 0;
+    }
+    .device-page:not(.is-desk) .device.tablet,
+    .device-page:not(.is-desk) .device.phone {
+      width: auto;
+      max-width: 100%;
+    }
+    .device-page:not(.is-desk) .device-visual {
+      width: 100%;
+      max-width: 100%;
+    }
+    .device-page.is-desk {
+      grid-auto-columns: minmax(0, 860px);
+    }
+    .device-page.is-desk .device.desktop { width: min(860px, 100%); }
+    .device-page.is-desk .device-visual { justify-content: center; }
+    .device-page.is-desk .device-copy { max-width: none; }
+    .device-visual {
+      min-width: 0;
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      align-self: end;
+    }
+    .window {
+      overflow: hidden;
+      width: 100%;
+      border-radius: 14px;
+      box-shadow: 0 18px 40px rgba(42, 49, 64, 0.14);
+    }
+    .window img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+      image-orientation: from-image;
+      transition: opacity 0.28s ease;
+    }
+    .window img.is-swapping { opacity: 0; }
+    .device .bezel {
+      box-sizing: border-box;
+      width: max-content;
+      max-width: 100%;
+      line-height: 0;
+      overflow: hidden;
+      box-shadow: 0 16px 36px rgba(42, 49, 64, 0.14);
+    }
+    .device.tablet .bezel {
+      background: #1c1c1c;
+      padding: 5px;
+      border-radius: 18px;
+    }
+    .device.phone .bezel {
+      background: #1c1c1c;
+      padding: 3px;
+      border-radius: 28px;
+    }
+    .device.tablet .bezel,
+    .device.phone .bezel {
+      max-width: 100%;
+    }
+    .device.tablet .bezel img,
+    .device.phone .bezel img {
+      width: auto;
+      height: auto;
+      max-height: min(38vh, 380px);
+      max-width: 100%;
+      display: block;
+      vertical-align: top;
+      object-fit: contain;
+      transition: opacity 0.28s ease;
+    }
+    .device img.is-swapping { opacity: 0; }
+    .device.tablet .bezel img { border-radius: 13px; }
+    .device.phone .bezel img { border-radius: 25px; }
+    .device.tablet,
+    .device.phone { width: max-content; }
+    .device-copy {
+      align-self: start;
+      width: 100%;
+      max-width: 22rem;
+      padding-top: 14px;
+    }
+    .device.desktop .device-copy { max-width: none; }
+    .device-copy h3 { margin: 0 0 4px; font-size: 1.02rem; }
+    .device-copy p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .device-roll-nav {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-top: 14px;
+      min-height: 36px;
+    }
+    .device-roll.is-fit .device-roll-nav { display: none; }
+    .device-roll-btn {
+      width: 36px;
+      height: 36px;
+      display: grid;
+      place-items: center;
+      padding: 0;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fff;
+      color: var(--ink);
+      box-shadow: 0 6px 16px rgba(42, 49, 64, 0.08);
+      cursor: pointer;
+      transition: transform 0.28s var(--ease), box-shadow 0.28s ease, opacity 0.2s ease;
+    }
+    .device-roll-btn svg {
+      width: 16px;
+      height: 16px;
+      display: block;
+    }
+    .device-roll-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(42, 49, 64, 0.12);
+    }
+    .device-roll-btn:focus-visible,
+    .device-roll-window:focus-visible,
+    .device-roll-dots button:focus-visible {
+      outline: 2px solid var(--ink);
+      outline-offset: 3px;
+    }
+    .device-roll-btn:disabled {
+      opacity: 0.35;
+      pointer-events: none;
+      transform: none;
+      box-shadow: none;
+    }
+    .device-roll-dots {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+    }
+    .device-roll-dots button {
+      width: 8px;
+      height: 8px;
+      padding: 10px 4px;
+      border: 0;
+      background: transparent;
+      cursor: pointer;
+    }
+    .device-roll-dots button::before {
+      content: "";
+      display: block;
+      width: 8px;
+      height: 8px;
+      border-radius: 999px;
+      background: rgba(30, 36, 48, 0.22);
+      transition: width 0.25s var(--ease), background 0.2s ease;
+    }
+    .device-roll-dots button[aria-current="true"]::before {
+      width: 20px;
+      background: var(--ink);
+    }
+    @media (min-width: 861px) {
+      .device-roll-dots [data-roll-to="1"] { display: none; }
+    }
+    .page { display: none; }
+    .page.is-on { display: block; }
+    .lists-shell {
+      position: relative;
+      z-index: 1;
+      margin: 18px 0 28px;
+      padding: 28px 32px 24px;
+      background: #fff;
+      border: 1px solid rgba(30, 36, 48, 0.08);
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(30, 36, 48, 0.06);
+    }
+    .lists-hero {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      padding: 0 0 4px;
+    }
+    .lists-hero-copy { min-width: 0; max-width: 42rem; }
+    .lists-title-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 12px;
+      margin-bottom: 8px;
+    }
+    .lists-title-row h1 {
+      font-size: clamp(1.7rem, 3vw, 2.15rem);
+      max-width: none;
+      margin: 0;
+      letter-spacing: -0.04em;
+      font-weight: 600;
+    }
+    .lists-badge {
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 11px;
+      border-radius: 999px;
+      background: #eef1f5;
+      color: var(--muted);
+      font-size: 0.72rem;
+      font-weight: 650;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .lists-hero .lead {
+      margin: 0 0 8px;
+      font-size: 1.02rem;
+      max-width: 40rem;
+      color: #5c6573;
+      line-height: 1.5;
+    }
+    .tip {
+      margin: 0;
+      color: var(--muted);
+      max-width: 40rem;
+      font-size: 0.92rem;
+    }
+    .lists-submit {
+      margin: 12px 0 0;
+    }
+    .lists-submit a {
+      font-weight: 650;
+      font-size: 0.92rem;
+    }
+    .lists-stats {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 16px 24px;
+      width: 100%;
+      padding: 18px 0 2px;
+      border-top: 1px solid var(--line);
+      margin-top: 14px;
+    }
+    .lists-stat {
+      min-width: 0;
+      opacity: 0;
+      transform: translate3d(0, 12px, 0);
+      transition: opacity 0.65s var(--ease), transform 0.65s var(--ease);
+    }
+    .lists-stat.is-in { opacity: 1; transform: none; }
+    .lists-stat:nth-child(2) { transition-delay: 0.06s; }
+    .lists-stat:nth-child(3) { transition-delay: 0.12s; }
+    .lists-stat:nth-child(4) { transition-delay: 0.18s; }
+    .lists-stat strong {
+      display: block;
+      font-size: clamp(2rem, 3.6vw, 2.85rem);
+      font-weight: 200;
+      letter-spacing: -0.05em;
+      line-height: 0.95;
+      color: var(--stat);
+      font-variant-numeric: tabular-nums;
+    }
+    .lists-stat span {
+      display: block;
+      margin-top: 8px;
+      font-size: 0.68rem;
+      font-weight: 650;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: #a0a7b3;
+    }
+    .lists-updated {
+      margin: 10px 0 0;
+      color: #a0a7b3;
+      font-size: 0.78rem;
+      letter-spacing: 0.02em;
+    }
+    .lists-curate {
+      margin: 18px 0 4px;
+      padding: 18px 0 2px;
+      border-top: 1px solid var(--line);
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 18px 28px;
+    }
+    .lists-curate article {
+      min-width: 0;
+      opacity: 0;
+      transform: translate3d(0, 14px, 0);
+      transition: opacity 0.7s var(--ease), transform 0.7s var(--ease);
+    }
+    .lists-curate article.is-in { opacity: 1; transform: none; }
+    .lists-curate article:nth-child(2) { transition-delay: 0.08s; }
+    .lists-curate article:nth-child(3) { transition-delay: 0.16s; }
+    .lists-curate .step {
+      display: inline-block;
+      margin-bottom: 8px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: #a8b0bc;
+    }
+    .lists-curate h3 {
+      margin: 0 0 6px;
+      font-size: 1rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .lists-curate p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.5;
+    }
+    .lists-toolbar {
+      position: sticky;
+      top: 72px;
+      z-index: 20;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px 12px;
+      margin: 16px 0 14px;
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+      background: color-mix(in srgb, #fff 92%, transparent);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .lists-views {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .lists-views button {
+      border: 1px solid var(--line);
+      background: #f7f8fb;
+      color: var(--muted);
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.88rem;
+      padding: 8px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      transition: background 0.25s ease, color 0.25s ease, border-color 0.25s ease;
+    }
+    .lists-views button[aria-pressed="true"] {
+      background: var(--ink);
+      color: #f4efe6;
+      border-color: var(--ink);
+    }
+    .lists-search {
+      flex: 1 1 220px;
+      min-width: min(100%, 220px);
+    }
+    .lists-search input {
+      width: 100%;
+      border: 1px solid var(--line);
+      background: #f7f8fb;
+      color: var(--ink);
+      font: inherit;
+      padding: 11px 16px;
+      border-radius: 999px;
+      transition: background 0.25s ease, box-shadow 0.25s ease;
+    }
+    .lists-search input:focus {
+      outline: none;
+      background: #fff;
+      box-shadow: 0 0 0 2px rgba(30, 36, 48, 0.18);
+    }
+    .lists-pins, .lists-letters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin: 0 0 14px;
+    }
+    .lists-pins button, .lists-letters a {
+      border: 1px solid var(--line);
+      background: #f7f8fb;
+      color: var(--muted);
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.8rem;
+      padding: 5px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.25s ease, color 0.25s ease, transform 0.25s var(--ease);
+    }
+    .lists-letters a:hover, .lists-pins button:hover {
+      color: var(--ink);
+      transform: translateY(-1px);
+    }
+    .lists-pins button[aria-pressed="true"],
+    .lists-pins button.is-hit,
+    .lists-letters a[aria-current="true"],
+    .lists-letters a.is-hit {
+      background: var(--ink);
+      color: #f4efe6;
+      border-color: var(--ink);
+    }
+    .lists-pins button.is-dim, .lists-letters a.is-dim { opacity: 0.38; }
+    .letter-head.is-active { color: var(--ink); }
+    .list-row.is-hit, .list-row.is-selected {
+      background: color-mix(in srgb, var(--accent) 9%, #fff);
+      margin: 0 -12px;
+      padding-left: 12px;
+      padding-right: 12px;
+      border-radius: 14px;
+      border-top-color: transparent;
+    }
+    .list-row.is-selected {
+      outline: 2px solid color-mix(in srgb, var(--accent) 55%, var(--ink));
+      outline-offset: -2px;
+    }
+    .list-row.is-pick { cursor: pointer; }
+    .list-block:not(.is-open) .list-row.is-pick:hover {
+      background: #f6f8fb;
+      border-radius: 16px;
+    }
+    .list-featured {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 12px;
+      margin: 0 0 18px;
+    }
+    .list-featured .list-block.is-open { grid-column: 1 / -1; }
+    .list-row.is-featured {
+      grid-template-columns: 1fr;
+      gap: 10px;
+      background: #f4f6fa;
+      margin: 0;
+      padding: 18px 18px 16px;
+      border: 0;
+      border-radius: 20px;
+    }
+    .list-featured .list-row { border-top: 0; }
+    .list-featured .list-side { justify-content: flex-start; }
+    .list-block { min-width: 0; }
+    .list-block.is-open {
+      margin: 8px -12px 16px;
+      padding: 4px 12px 12px;
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      background: color-mix(in srgb, var(--surface) 70%, #fff);
+    }
+    .list-block.is-open .list-row {
+      border-top: 0;
+      padding-top: 12px;
+    }
+    .list-block.is-open .list-row.is-featured {
+      margin: 0;
+      border: 0;
+      background: transparent;
+      padding-left: 0;
+      padding-right: 0;
+    }
+    .list-block.is-open .list-row.is-selected {
+      margin: 0;
+      outline: none;
+      background: transparent;
+    }
+    .list-name-row {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      min-width: 0;
+      margin-bottom: 6px;
+    }
+    .list-name-row .list-name { margin: 0; }
+    .list-block:not(.is-open) .list-name-row .status-pip { display: none; }
+    .status-pip {
+      width: 8px;
+      height: 8px;
+      flex: 0 0 8px;
+      border-radius: 50%;
+      background: rgba(92, 100, 115, 0.35);
+    }
+    .status-pip.is-on { background: #2a9a62; box-shadow: 0 0 0 3px rgba(42, 154, 98, 0.16); }
+    .channel-panel { padding: 4px 0 2px; }
+    .channel-toolbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 8px;
+      margin: 0 0 12px;
+    }
+    .channel-toolbar input {
+      flex: 1 1 180px;
+      min-width: 140px;
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-size: 0.88rem;
+      padding: 7px 12px;
+      border-radius: 999px;
+    }
+    .channel-groups {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    .channel-groups button {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--muted);
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.78rem;
+      padding: 4px 10px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+    .channel-groups button[aria-pressed="true"] {
+      background: var(--ink);
+      color: #f4efe6;
+      border-color: var(--ink);
+    }
+    .channel-note {
+      margin: 0 0 10px;
+      color: var(--muted);
+      font-size: 0.88rem;
+    }
+    .channel-guides {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 0 0 12px;
+    }
+    .channel-list { display: flex; flex-direction: column; }
+    .channel-row {
+      display: grid;
+      grid-template-columns: auto minmax(0, 1fr) auto;
+      gap: 10px 12px;
+      align-items: center;
+      padding: 8px 0;
+      border-top: 1px solid var(--line);
+    }
+    .channel-logo {
+      width: 36px;
+      height: 36px;
+      border-radius: 10px;
+      object-fit: contain;
+      background: var(--canvas);
+      box-shadow: 0 0 0 1px var(--line);
+    }
+    .channel-logo.is-empty {
+      visibility: hidden;
+      pointer-events: none;
+    }
+    .channel-meta { min-width: 0; }
+    .channel-title {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+    }
+    .channel-title span { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+    .channel-sub {
+      margin-top: 2px;
+      color: var(--muted);
+      font-size: 0.8rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .channel-row .chips { margin: 0; }
+    .paired-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .paired-list button {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.86rem;
+      padding: 7px 12px;
+      border-radius: 999px;
+      cursor: pointer;
+    }
+    .channel-row .copy {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+      justify-self: end;
+      width: max-content;
+    }
+    .channel-toolbar input:focus {
+      outline: 2px solid var(--ink);
+      outline-offset: 2px;
+    }
+    .list-row mark {
+      background: color-mix(in srgb, var(--accent) 28%, #fff);
+      color: inherit;
+      padding: 0 2px;
+      border-radius: 4px;
+    }
+    .lists-status {
+      margin: 0 0 12px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    .letter-head {
+      margin: 18px 0 4px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+    }
+    .list-copy-stack { display: flex; flex-direction: column; gap: 8px; min-width: 0; }
+    .list-row.is-group { align-items: start; }
+    .catalog {
+      background: transparent;
+      border: 0;
+      border-radius: 0;
+      padding: 8px 0 0;
+      margin-bottom: 0;
+    }
+    .catalog-head {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 8px 16px;
+      margin-bottom: 4px;
+    }
+    .catalog-head h2 { font-size: 1.15rem; margin: 0; letter-spacing: -0.02em; }
+    .catalog-head a { font-weight: 650; font-size: 0.92rem; }
+    .catalog .intro { margin-bottom: 12px; font-size: 0.95rem; }
+    #page-lists .notice,
+    #page-lists .credits {
+      position: relative;
+      z-index: 1;
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-radius: 28px;
+      box-shadow: 0 18px 48px rgba(30, 36, 48, 0.06);
+    }
+    .lists-foot {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin: 0 0 28px;
+      position: relative;
+      z-index: 1;
+    }
+    .lists-foot .notice,
+    .lists-foot .credits { margin-top: 0; }
+    .list-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+    .list-row {
+      display: grid;
+      grid-template-columns: minmax(0, 1.1fr) minmax(0, 1.6fr) auto;
+      gap: 12px 18px;
+      align-items: center;
+      padding: 14px 0;
+      border-top: 1px solid var(--line);
+    }
+    .list-grid > .list-block:first-child > .list-row { border-top: 0; }
+    .list-name { margin: 0 0 6px; font-size: 1rem; letter-spacing: -0.02em; }
+    .list-row .chips { margin: 0; }
+    .list-row .chips li:hover { transform: none; background: var(--canvas); }
+    .list-copy {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 8px;
+      align-items: center;
+      min-width: 0;
+    }
+    .list-url {
+      font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+      font-size: 0.78rem;
+      line-height: 1.4;
+      color: var(--muted);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+    .copy {
+      border: 1px solid var(--line);
+      background: #fff;
+      color: var(--ink);
+      font: inherit;
+      font-weight: 650;
+      font-size: 0.86rem;
+      padding: 8px 14px;
+      border-radius: 999px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+    .copy:hover { background: var(--canvas); }
+    .copy.copied {
+      background: var(--ink);
+      color: #f4efe6;
+      border-color: var(--ink);
+    }
+    .list-side {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: flex-end;
+      gap: 8px;
+    }
+    .list-side a,
+    .alt-copy {
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-weight: 650;
+      text-decoration: none;
+      background: none;
+      border: 0;
+      padding: 0;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .list-side a:hover,
+    .alt-copy:hover { color: var(--ink); }
+    .alt-copy.copied { color: var(--accent); }
+    .list-side .alt-copy + .alt-copy::before,
+    .list-side .alt-copy + a::before {
+      content: "·";
+      margin-right: 8px;
+      color: var(--line);
+    }
+    .credits, .notice {
+      background: var(--surface);
+      border: 1px solid var(--line);
+      border-radius: 20px;
+      padding: 28px;
+      margin-top: 28px;
+    }
+    .credits h2, .notice h2 { margin-bottom: 12px; }
+    .credits p, .notice p { margin: 0 0 10px; color: var(--muted); }
+    .credits p:last-child, .notice p:last-child { margin-bottom: 0; }
+    footer {
+      padding: 28px 0 52px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+    @media (max-width: 980px) {
+      .lists-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lists-curate { grid-template-columns: 1fr; }
+      .lists-foot { grid-template-columns: 1fr; }
+      .list-featured { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 860px) {
+      .tv { --tv-bezel: 6px; --tv-stand: 18px; }
+      .shot-card .tv { --tv-stand: 18px; }
+      .features, .pair, .format-groups { grid-template-columns: 1fr; }
+      .list-row {
+        grid-template-columns: 1fr;
+        gap: 8px;
+      }
+      .channel-row { grid-template-columns: auto minmax(0, 1fr); }
+      .channel-row .copy { justify-self: start; }
+      .list-side { justify-content: flex-start; }
+      .lists-toolbar { position: static; padding-top: 0; }
+      .lists-letters { display: none; }
+      .lists-shell { padding: 22px 18px 20px; border-radius: 24px; }
+      .lists-stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+      .lists-curate { grid-template-columns: 1fr; }
+      .device-roll { --roll-inset: 18px; --roll-gap: 20px; }
+      .device-page { display: contents; }
+      .device-roll-track {
+        display: grid;
+        grid-auto-flow: column;
+        grid-auto-columns: calc(100cqi - 40px);
+        grid-template-rows: auto auto;
+        column-gap: var(--roll-gap);
+        padding: 18px var(--roll-inset) 16px;
+      }
+      .device-roll-track .device {
+        display: grid;
+        grid-template-rows: subgrid;
+        grid-row: 1 / span 2;
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        width: auto;
+      }
+      .device-visual { justify-content: center; }
+      .device.tablet .bezel { width: min(100%, 280px); }
+      .device.phone .bezel { width: min(100%, 210px); }
+      .device.tablet .bezel img,
+      .device.phone .bezel img { height: auto; width: 100%; max-height: none; }
+      .device-copy {
+        max-width: none;
+        text-align: center;
+      }
+      .header-bar {
+        display: grid;
+        grid-template-columns: 1fr auto;
+        grid-template-areas:
+          "brand langs"
+          "tabs meta";
+        align-items: center;
+        column-gap: 16px;
+        row-gap: 10px;
+        padding: 10px 0 12px;
+      }
+      .brand { grid-area: brand; }
+      .page-tabs { grid-area: tabs; justify-self: start; }
+      .header-end { display: contents; }
+      .meta-nav { grid-area: meta; justify-self: end; }
+      .langs { grid-area: langs; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html, .device-roll-window { scroll-behavior: auto; }
+      .reveal, .reveal.is-in,
+      .brand img, .brand-mark, .btn, .tv, .tv img, .tv::before, .card, .chips li,
+      .window, .window img, .device .bezel, .device img,
+      .langs button, nav a, .page-tabs a, .lists-toolbar button, .list-row, .copy, .pill a, .pill button,
+      .lists-shell, .lists-stat, .lists-curate article, .lists-views button {
+        transition: none !important;
+        transform: none !important;
+        animation: none !important;
+      }
+      .reveal, .lists-stat, .lists-curate article { opacity: 1; }
+    }
+  </style>
+  <script type="application/ld+json" id="json-ld">{"@context": "https://schema.org", "@type": "CollectionPage", "name": "Frame24 — M3U playlists", "description": "M3U and M3U8 playlists by country and category, with XMLTV programme guides. Copy playlist URLs for your media player.", "url": "https://ezhu331.github.io/tamatv/"}</script>
+</head>
+<body>
+  <header>
+    <div class="wrap header-bar">
+      <a class="brand" href="./" aria-label="Frame24 playlists">
+        <span class="brand-mark">
+          <img src="assets/frame24-logo-wide.png" alt="" width="67" height="40">
+        </span>
+      </a>
+      <div class="header-end">
+        <nav class="meta-nav">
+          <a href="https://apps.apple.com/app/id6809120045" data-i18n="navStore"></a>
+        </nav>
+        <div class="langs pill" role="group" aria-label="Language">
+          <button type="button" data-lang="en">EN</button>
+          <button type="button" data-lang="zh">中文</button>
+          <button type="button" data-lang="ja">日本語</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="wrap">
+
+    <div class="page is-on" id="page-lists" data-page="lists">
+      <div class="lists-shell" id="lists-shell">
+        <section class="lists-hero">
+          <div class="lists-hero-copy">
+            <div class="kicker" data-i18n="listsKicker"></div>
+            <div class="lists-title-row">
+              <h1 data-i18n="listsTitle"></h1>
+              <span class="lists-badge" data-i18n="listsBadge"></span>
+            </div>
+            <p class="lead" data-i18n="listsLead"></p>
+            <p class="tip" data-i18n="listsHowP"></p>
+            <p class="lists-submit">
+              <a href="https://github.com/EZHU331/tamatv/issues/new?template=channel.yml" data-i18n="listsSubmit"></a>
+            </p>
+          </div>
+          <div class="lists-stats" id="lists-stats" aria-live="polite"></div>
+          <p class="lists-updated" id="lists-updated"></p>
+        </section>
+        <section class="lists-curate" id="lists-curate" aria-label="Curation">
+          <article>
+            <span class="step" data-i18n="curate1Step"></span>
+            <h3 data-i18n="curate1T"></h3>
+            <p data-i18n="curate1P"></p>
+          </article>
+          <article>
+            <span class="step" data-i18n="curate2Step"></span>
+            <h3 data-i18n="curate2T"></h3>
+            <p data-i18n="curate2P"></p>
+          </article>
+          <article>
+            <span class="step" data-i18n="curate3Step"></span>
+            <h3 data-i18n="curate3T"></h3>
+            <p data-i18n="curate3P"></p>
+          </article>
+        </section>
+        <div class="lists-toolbar">
+          <div class="lists-views" role="tablist" aria-label="List sections">
+            <button type="button" data-view="countries" aria-pressed="true" data-i18n="viewCountries"></button>
+            <button type="button" data-view="categories" aria-pressed="false" data-i18n="viewCategories"></button>
+            <button type="button" data-view="guides" aria-pressed="false" data-i18n="viewGuides"></button>
+          </div>
+          <label class="lists-search">
+            <span class="visually-hidden" data-i18n="searchLists"></span>
+            <input id="lists-q" type="search" autocomplete="off" spellcheck="false" enterkeyhint="search">
+          </label>
+        </div>
+        <div class="lists-pins" id="lists-pins" hidden></div>
+        <nav class="lists-letters" id="lists-letters" hidden></nav>
+        <p class="lists-status" id="lists-status"></p>
+        <article class="catalog">
+          <div class="catalog-head">
+            <h2 id="lists-heading"></h2>
+            <a id="lists-source" rel="noopener noreferrer" target="_blank" referrerpolicy="no-referrer"></a>
+          </div>
+          <p class="intro" id="lists-intro"></p>
+          <div class="list-grid" id="lists-grid"></div>
+        </article>
+      </div>
+      <div class="lists-foot">
+        <section class="notice">
+          <h2 data-i18n="listsNoticeT"></h2>
+          <p data-i18n="listsNoticeP"></p>
+        </section>
+        <section class="credits">
+          <h2 data-i18n="listsCreditsT"></h2>
+          <p data-i18n-html="listsCreditsP1"></p>
+          <p data-i18n-html="listsCreditsP2"></p>
+        </section>
+      </div>
+    </div>
+
+    <footer data-i18n-html="footer"></footer>
+  </div>
+  <script>
+    const copy = {
+      en: {
+        navStore: "App Store",
+        footer: 'Public issues live in <a href="https://github.com/EZHU331/tamatv/issues">this repository</a>.',
+        listsKicker: "M3U · M3U8 · XMLTV",
+        listsTitle: "Live TV lists",
+        listsDocTitle: "Japan IPTV and live TV playlists for Frame 24 TV",
+        listsDocDesc: "Public M3U Japan IPTV and live TV playlists by country and category for Frame 24 TV. Japan and world news are hand-finished. Frame 24 TV does not host the streams.",
+        listsBadge: "Curated",
+        listsLead: "Public IPTV playlists by country and category, tidied for the player. Japan live TV and world news are hand-finished. Frame 24 TV does not host the streams.",
+        listsHowP: "In TV Channels, add a playlist and paste a URL. Japan live TV and world news are already included.",
+        listsSubmit: "Suggest a channel",
+        statCountries: "Countries",
+        statChannels: "Channels",
+        statLists: "Playlists",
+        statGuides: "Guides",
+        listsUpdated: "Updated {date}",
+        curate1Step: "01",
+        curate1T: "Gather",
+        curate1P: "Public indexes are collected from trusted maintainers, then rebuilt into country, category, and guide lists.",
+        curate2Step: "02",
+        curate2T: "AI tidy",
+        curate2P: "Assisted curation drops adult and VOD noise, keeps the sharper copy of each channel, and sorts groups for the remote.",
+        curate3Step: "03",
+        curate3T: "Pair & check",
+        curate3P: "Logos and XMLTV guides are matched where possible. Japan and world news are probed and reviewed separately.",
+        featuredJapan: "Japan live TV",
+        featuredWorld: "World news & documentary",
+        featuredCommunity: "Community",
+        searchLists: "Search lists",
+        searchPlaceholder: "Search country, category, or list",
+        viewCountries: "Country",
+        viewCategories: "Category",
+        viewGuides: "Guides",
+        countryLead: "One playlist per country, grouped for the player.",
+        categoryLead: "Program types, plus combined China lists.",
+        epgLead: "XMLTV URLs for TV Channels. Open one to see lists that include it.",
+        filterEpg: "Guide",
+        copy: "Copy",
+        copied: "Copied",
+        txt: "TXT",
+        mirror: "Mirror",
+        channelsCount: "{n} channels",
+        channelOne: "1 channel",
+        searchChannels: "Search channels",
+        groupsAll: "All",
+        channelLoading: "Opening…",
+        channelFail: "Could not open this list.",
+        channelMore: "Showing {n} of {total}",
+        pairedWith: "Used with",
+        noPaired: "No lists include this guide yet.",
+        noLists: "No lists match that search.",
+        listsCount: "Showing {n}",
+        listsNoticeT: "Please note",
+        listsNoticeP: "These links are published by their maintainers. Availability changes. Only add lists you are allowed to use. Frame 24 TV is not affiliated with these projects.",
+        listsCreditsT: "Sources",
+        listsCreditsP1: 'The world news collection and the Japan collection are compiled by Frame 24 TV from public HLS sources. Japan programme data is from <a href="https://github.com/Animenosekai/japanterebi-xmltv">japanterebi-xmltv</a>. Country and category lists are recomposed from public live playlists, including <a href="https://github.com/iptv-org/iptv">iptv-org/iptv</a> and <a href="https://github.com/Free-TV/IPTV">Free-TV/IPTV</a>, then paired with XMLTV guides and logos. China aggregators are merged from <a href="https://github.com/vbskycn/iptv">vbskycn/iptv</a> and <a href="https://github.com/ngo5/IPTV">ngo5/IPTV</a>. Credit belongs to those projects and each list’s maintainer.',
+        listsCreditsP2: 'These projects publish indexes, not the streams. ngo5 is a link directory. vbskycn notes that streams are gathered from public sources and are not stored in that repository.'
+      },
+      zh: {
+        navStore: "App Store",
+        footer: '公开问题请提交到 <a href="https://github.com/EZHU331/tamatv/issues">此仓库</a>。',
+        listsKicker: "M3U · M3U8 · XMLTV",
+        listsTitle: "直播列表",
+        listsDocTitle: "Frame 24 TV 日本 IPTV 与直播电视列表",
+        listsDocDesc: "按国家和地区、分类整理的公开 M3U 日本 IPTV 与直播列表，供 Frame 24 TV 使用。日本与世界新闻列表另行精修。Frame 24 TV 不托管这些直播。",
+        listsBadge: "精选整理",
+        listsLead: "按国家和地区、分类整理的公开 IPTV 列表，方便在播放器里浏览。日本直播电视与世界新闻列表另行精修。Frame 24 TV 不托管这些直播。",
+        listsHowP: "在「电视频道」中添加列表并粘贴地址。应用里已包含日本直播电视和世界新闻列表。",
+        listsSubmit: "提交频道",
+        statCountries: "国家/地区",
+        statChannels: "频道",
+        statLists: "列表",
+        statGuides: "节目表",
+        listsUpdated: "更新于 {date}",
+        curate1Step: "01",
+        curate1T: "汇集",
+        curate1P: "从可信维护者的公开索引收集来源，再重建为国家/地区、分类与节目表列表。",
+        curate2Step: "02",
+        curate2T: "AI 整理",
+        curate2P: "辅助整理会去掉成人与点播噪声，保留更清晰的一路，并把分组排成适合遥控器的顺序。",
+        curate3Step: "03",
+        curate3T: "配对与抽检",
+        curate3P: "尽量配对台标与 XMLTV。日本与世界新闻列表会单独探测并复核。",
+        featuredJapan: "日本直播电视",
+        featuredWorld: "世界新闻与纪录",
+        featuredCommunity: "社区提交",
+        searchLists: "搜索列表",
+        searchPlaceholder: "搜索国家、分类或列表名",
+        viewCountries: "国家/地区",
+        viewCategories: "分类",
+        viewGuides: "节目表",
+        countryLead: "每个国家或地区一份列表，按节目类型分组。",
+        categoryLead: "按节目类型分组，并含华语汇总列表。",
+        epgLead: "用于「电视频道」的 XMLTV 地址。打开一项可查看包含它的列表。",
+        filterEpg: "节目表",
+        copy: "复制",
+        copied: "已复制",
+        txt: "TXT",
+        mirror: "镜像",
+        channelsCount: "{n} 个频道",
+        channelOne: "1 个频道",
+        searchChannels: "搜索频道",
+        groupsAll: "全部",
+        channelLoading: "打开中…",
+        channelFail: "无法打开此列表。",
+        channelMore: "显示 {n} / {total}",
+        pairedWith: "可用于",
+        noPaired: "还没有列表使用这份节目表。",
+        noLists: "没有匹配的列表。",
+        listsCount: "显示 {n} 项",
+        listsNoticeT: "说明",
+        listsNoticeP: "这些链接由各自维护者发布，可用性会变化。请只添加你有权使用的列表。Frame 24 TV 与这些项目无隶属关系。",
+        listsCreditsT: "来源",
+        listsCreditsP1: '世界新闻与日本精选由 Frame 24 TV 从公开 HLS 整理。日本节目表来自 <a href="https://github.com/Animenosekai/japanterebi-xmltv">japanterebi-xmltv</a>。国家和地区与分类列表由公开 M3U 索引重组成，包括 <a href="https://github.com/iptv-org/iptv">iptv-org/iptv</a> 与 <a href="https://github.com/Free-TV/IPTV">Free-TV/IPTV</a>，并配上 XMLTV 与台标。华语汇总合并自 <a href="https://github.com/vbskycn/iptv">vbskycn/iptv</a> 与 <a href="https://github.com/ngo5/IPTV">ngo5/IPTV</a>。致谢归这些项目以及各列表的维护者。',
+        listsCreditsP2: '这些项目发布的是索引，不是直播本身。ngo5 是链接目录。vbskycn 说明直播来自公开资源，仓库本身不存储流媒体。'
+      },
+      ja: {
+        navStore: "App Store",
+        footer: '公開の問題は <a href="https://github.com/EZHU331/tamatv/issues">このリポジトリ</a> へ。',
+        listsKicker: "M3U · M3U8 · XMLTV",
+        listsTitle: "ライブリスト",
+        listsDocTitle: "Frame 24 TVの日本IPTV・ライブTVプレイリスト",
+        listsDocDesc: "国・地域とカテゴリで整理した公開M3Uの日本IPTV・ライブTVリスト。日本と世界ニュースは別に仕上げています。Frame 24 TVは配信をホストしません。",
+        listsBadge: "整理済み",
+        listsLead: "国・地域とカテゴリで整理した公開IPTVプレイリストです。日本のライブTVと世界ニュースは別に仕上げています。Frame 24 TVは配信をホストしません。",
+        listsHowP: "TVチャンネルでプレイリストを追加し、URLを貼ります。日本のライブTVと世界ニュースは最初から入っています。",
+        listsSubmit: "チャンネルを提案",
+        statCountries: "国・地域",
+        statChannels: "チャンネル",
+        statLists: "リスト",
+        statGuides: "番組表",
+        listsUpdated: "更新 {date}",
+        curate1Step: "01",
+        curate1T: "収集",
+        curate1P: "信頼できるメンテナの公開索引から集め、国・地域、カテゴリ、番組表に組み直します。",
+        curate2Step: "02",
+        curate2T: "AI整理",
+        curate2P: "成人やVODのノイズを除き、同じ番組はより鮮明な方を残し、リモコン向けにグループを並べます。",
+        curate3Step: "03",
+        curate3T: "照合と確認",
+        curate3P: "ロゴとXMLTVを可能な範囲で付けます。日本と世界ニュースは別にプローブして見直します。",
+        featuredJapan: "日本のライブTV",
+        featuredWorld: "世界のニュースとドキュメンタリー",
+        featuredCommunity: "コミュニティ",
+        searchLists: "リストを検索",
+        searchPlaceholder: "国、カテゴリ、リスト名で検索",
+        viewCountries: "国・地域",
+        viewCategories: "カテゴリ",
+        viewGuides: "番組表",
+        countryLead: "国・地域ごとに1ファイル。番組の種類で並びます。",
+        categoryLead: "番組の種類に加え、中国語リストも含みます。",
+        epgLead: "TVチャンネル用のXMLTV。開くと、それを含むリストが表示されます。",
+        filterEpg: "番組表",
+        copy: "コピー",
+        copied: "コピー済み",
+        txt: "TXT",
+        mirror: "ミラー",
+        channelsCount: "{n}チャンネル",
+        channelOne: "1チャンネル",
+        searchChannels: "チャンネルを検索",
+        groupsAll: "すべて",
+        channelLoading: "読み込み中…",
+        channelFail: "このリストを開けません。",
+        channelMore: "{total}件中{n}件",
+        pairedWith: "組み合わせ",
+        noPaired: "この番組表を使うリストはまだありません。",
+        noLists: "一致するリストはありません。",
+        listsCount: "{n}件を表示",
+        listsNoticeT: "ご注意",
+        listsNoticeP: "リンクは各メンテナが公開しています。利用可否は変わります。利用権限のあるリストだけを追加してください。Frame 24 TVはこれらのプロジェクトと提携していません。",
+        listsCreditsT: "出典",
+        listsCreditsP1: '世界ニュースと日本のリストは公開HLSからFrame 24 TVが整理しています。日本の番組表は <a href="https://github.com/Animenosekai/japanterebi-xmltv">japanterebi-xmltv</a> です。国・地域とカテゴリは <a href="https://github.com/iptv-org/iptv">iptv-org/iptv</a> と <a href="https://github.com/Free-TV/IPTV">Free-TV/IPTV</a> などの公開M3Uを再構成し、XMLTVとロゴを付けています。中国語のまとめは <a href="https://github.com/vbskycn/iptv">vbskycn/iptv</a> と <a href="https://github.com/ngo5/IPTV">ngo5/IPTV</a> を統合しています。クレジットは各プロジェクトとメンテナにあります。',
+        listsCreditsP2: 'これらのプロジェクトは索引であり配信ホストではありません。ngo5はリンク集です。vbskycnは、配信が公開ソースから集めたものでリポジトリに保存していないと記しています。'
+      }
+    };
+
+    const SITE = "https://ezhu331.github.io/tamatv/";
+    const STORE = "https://apps.apple.com/app/id6809120045";
+    const htmlLang = { en: "en", zh: "zh-Hans", ja: "ja" };
+    const ogLocale = { en: "en_US", zh: "zh_CN", ja: "ja_JP" };
+    const VIEWS = ["countries", "categories", "guides"];
+    const PINNED = {
+      en: ["US", "UK", "JP", "CN", "AU", "CA", "KR", "TW", "HK", "DE"],
+      zh: ["CN", "TW", "HK", "MO", "JP", "KR", "SG", "US", "AU", "UK"],
+      ja: ["JP", "US", "KR", "TW", "HK", "CN", "UK", "AU", "SG"]
+    };
+    let currentLang = "en";
+    let listsView = "countries";
+    let listsQuery = "";
+    let listsPin = "";
+    let listsLetter = "";
+    let listsOpen = "";
+    let listsOpenVariant = -1;
+    let catalog = { featured: [], countries: [], categories: [], aggregators: [], guides: [], updated: "" };
+    let catalogPromise = null;
+    let listStats = null;
+    let statsPromise = null;
+    let statsPaintedFor = "";
+    let listsChromeReady = false;
+    const playlistCache = Object.create(null);
+    const CHANNEL_CAP = 400;
+    const GROUP_PILL_CAP = 24;
+
+    function httpsUrl(value) {
+      try {
+        const url = new URL(String(value || ""));
+        if (url.protocol !== "https:") return "";
+        if (url.username || url.password) return "";
+        return url.href;
+      } catch (_) {
+        return "";
+      }
+    }
+
+    function applySafeHtml(el, html) {
+      el.textContent = "";
+      const parsed = new DOMParser().parseFromString("<div>" + (html || "") + "</div>", "text/html");
+      const root = parsed.body.firstElementChild;
+      if (!root) return;
+      const walk = (from, to) => {
+        from.childNodes.forEach((node) => {
+          if (node.nodeType === Node.TEXT_NODE) {
+            to.appendChild(document.createTextNode(node.textContent));
+            return;
+          }
+          if (node.nodeType !== Node.ELEMENT_NODE) return;
+          if (node.tagName === "A") {
+            const href = httpsUrl(node.getAttribute("href"));
+            if (!href) {
+              walk(node, to);
+              return;
+            }
+            const a = document.createElement("a");
+            a.href = href;
+            a.rel = "noopener noreferrer";
+            a.target = "_blank";
+            a.referrerPolicy = "no-referrer";
+            walk(node, a);
+            to.appendChild(a);
+            return;
+          }
+          walk(node, to);
+        });
+      };
+      walk(root, el);
+    }
+
+    function parseRoute() {
+      const hash = (location.hash || "").replace(/^#/, "");
+      const parts = hash.split("/").filter(Boolean);
+      if (parts[0] !== "lists") return { page: "lists", view: "countries", open: "" };
+      const raw = parts[1] === "china" ? "categories" : parts[1];
+      const view = VIEWS.includes(raw) ? raw : "countries";
+      const open = String(parts[2] || "").replace(/[^a-z0-9-]/gi, "");
+      return { page: "lists", view: view, open: open };
+    }
+
+    function setListsHash(view, open) {
+      const id = String(open || "").replace(/[^a-z0-9-]/gi, "");
+      const next = "#lists/" + view + (id ? "/" + id : "");
+      if (location.hash !== next) history.replaceState(null, "", next);
+    }
+
+    function viewForItem(item) {
+      if (!item) return listsView;
+      if (item.kind === "guide") return "guides";
+      if (item.kind === "category" || item.kind === "aggregator") return "categories";
+      return "countries";
+    }
+
+    function syncOpenFromRoute(open) {
+      listsOpen = open || "";
+      listsOpenVariant = -1;
+      const item = findItem(listsOpen);
+      if (item && item.kind === "country") listsPin = item.code;
+    }
+
+    function setAttr(sel, attr, value) {
+      const el = document.querySelector(sel);
+      if (el) el.setAttribute(attr, value);
+    }
+
+    function setSeo(t) {
+      const title = t.listsDocTitle;
+      const desc = t.listsDocDesc;
+      const pageUrl = SITE + (currentLang === "en" ? "" : "?lang=" + currentLang);
+      document.title = title;
+      setAttr('meta[name="description"]', "content", desc);
+      setAttr('link[rel="canonical"]', "href", pageUrl);
+      setAttr('meta[property="og:url"]', "content", pageUrl);
+      setAttr('meta[property="og:title"]', "content", title);
+      setAttr('meta[property="og:description"]', "content", desc);
+      setAttr('meta[property="og:locale"]', "content", ogLocale[currentLang] || "en_US");
+      setAttr('meta[name="twitter:title"]', "content", title);
+      setAttr('meta[name="twitter:description"]', "content", desc);
+      const ld = document.getElementById("json-ld");
+      if (ld) ld.textContent = JSON.stringify({
+        "@context": "https://schema.org", "@type": "CollectionPage",
+        name: title, description: desc, url: pageUrl,
+        inLanguage: htmlLang[currentLang] || "en"
+      });
+    }
+
+    function showPage(page, view, open) {
+      const route = "lists";
+      if (view && VIEWS.includes(view)) listsView = view;
+      if (open !== undefined) syncOpenFromRoute(open);
+      document.body.dataset.page = route;
+      document.querySelectorAll(".page").forEach((el) => {
+        el.classList.toggle("is-on", el.dataset.page === route);
+      });
+      document.querySelectorAll("[data-tab]").forEach((el) => {
+        if (el.dataset.tab === route) el.setAttribute("aria-current", "page");
+        else el.removeAttribute("aria-current");
+      });
+      const t = copy[currentLang] || copy.en;
+      setSeo(t, route);
+      if (route === "lists") setListsHash(listsView, listsOpen);
+      if (route === "lists") {
+        loadCatalog().then(() => {
+          const item = findItem(listsOpen);
+          if (item && item.kind === "country" && !listsPin) listsPin = item.code;
+          renderLists();
+        });
+      }
+    }
+
+    function regionName(code) {
+      const iso = code === "UK" ? "GB" : code;
+      try {
+        return new Intl.DisplayNames([htmlLang[currentLang] || "en"], { type: "region" }).of(iso) || code;
+      } catch (_) {
+        return code;
+      }
+    }
+
+    function extraLabel(extra, t) {
+      if (extra.key === "txt") return t.txt;
+      if (extra.key === "epg") return t.filterEpg;
+      try {
+        return new URL(extra.url).hostname.replace(/^www\./, "");
+      } catch (_) {
+        return t.mirror;
+      }
+    }
+
+    function itemSearchText(item) {
+      const names = [item.name, item.code, item.origin, item.flag, item.format];
+      if (item.kind === "country" && item.code) names.push(regionName(item.code));
+      (item.variants || []).forEach((v) => names.push(v.label, v.url, v.format));
+      names.push(item.url);
+      return names.filter(Boolean).join(" ").toLowerCase();
+    }
+
+    function matchesQuery(item) {
+      const q = listsQuery.trim().toLowerCase();
+      if (!q) return true;
+      return itemSearchText(item).indexOf(q) !== -1;
+    }
+
+    function matchesFocus(item) {
+      if (listsView === "countries") {
+        if (listsPin && item.code !== listsPin) return false;
+        if (listsLetter && item.letter !== listsLetter) return false;
+      }
+      return matchesQuery(item);
+    }
+
+    function appendHighlighted(el, text, query) {
+      const raw = String(text || "");
+      const q = String(query || "").trim();
+      if (!q) {
+        el.textContent = raw;
+        return;
+      }
+      const lower = raw.toLowerCase();
+      const needle = q.toLowerCase();
+      let from = 0;
+      let at = lower.indexOf(needle);
+      if (at === -1) {
+        el.textContent = raw;
+        return;
+      }
+      while (at !== -1) {
+        if (at > from) el.appendChild(document.createTextNode(raw.slice(from, at)));
+        const mark = document.createElement("mark");
+        mark.textContent = raw.slice(at, at + needle.length);
+        el.appendChild(mark);
+        from = at + needle.length;
+        at = lower.indexOf(needle, from);
+      }
+      if (from < raw.length) el.appendChild(document.createTextNode(raw.slice(from)));
+    }
+
+    async function writeClipboard(text, mode) {
+      let value = "";
+      if (mode === "m3u") {
+        const raw = String(text || "");
+        if (raw.indexOf("#EXTM3U") !== 0 || raw.length > 8000) return;
+        value = raw;
+      } else {
+        value = httpsUrl(text);
+      }
+      if (!value) return;
+      try {
+        await navigator.clipboard.writeText(value);
+        return;
+      } catch (_) {}
+      const field = document.createElement("textarea");
+      field.value = value;
+      field.setAttribute("readonly", "");
+      field.style.position = "fixed";
+      field.style.left = "-9999px";
+      document.body.appendChild(field);
+      field.select();
+      document.execCommand("copy");
+      field.remove();
+    }
+
+    function bindCopy(btn, text, idleLabel, doneLabel, mode) {
+      btn.addEventListener("click", async (event) => {
+        event.stopPropagation();
+        await writeClipboard(text, mode);
+        btn.textContent = doneLabel;
+        btn.classList.add("copied");
+        window.setTimeout(() => {
+          btn.textContent = idleLabel;
+          btn.classList.remove("copied");
+        }, 1400);
+      });
+    }
+
+    function el(tag, className) {
+      const node = document.createElement(tag);
+      if (className) node.className = className;
+      return node;
+    }
+
+    function addChips(host, labels) {
+      const list = el("ul", "chips");
+      labels.forEach((label) => {
+        const li = document.createElement("li");
+        li.textContent = label;
+        list.appendChild(li);
+      });
+      host.appendChild(list);
+    }
+
+    function displayPath(url) {
+      const abs = httpsUrl(url);
+      if (!abs) return "";
+      try {
+        const path = new URL(abs).pathname.replace(/^\/tamatv/, "") || abs;
+        return path;
+      } catch (_) {
+        return abs;
+      }
+    }
+
+    function addCopyRow(stack, url, t, label) {
+      const safe = httpsUrl(url);
+      if (!safe) return;
+      const row = el("div", "list-copy");
+      const urlEl = el("div", "list-url");
+      const shown = displayPath(safe);
+      urlEl.textContent = label ? label + " · " + shown : shown;
+      urlEl.title = safe;
+      const btn = el("button", "copy");
+      btn.type = "button";
+      btn.textContent = t.copy;
+      bindCopy(btn, safe, t.copy, t.copied);
+      row.appendChild(urlEl);
+      row.appendChild(btn);
+      stack.appendChild(row);
+    }
+
+    function addExtras(side, extras, t) {
+      const guides = [];
+      (extras || []).forEach((extra) => {
+        const url = httpsUrl(extra.url);
+        if (!url) return;
+        if (!extra.key || extra.key === "epg") {
+          if (guides.indexOf(url) === -1) guides.push(url);
+          return;
+        }
+        const alt = document.createElement("button");
+        alt.type = "button";
+        alt.className = "alt-copy";
+        const label = extraLabel(extra, t);
+        alt.textContent = label;
+        bindCopy(alt, url, label, t.copied);
+        side.appendChild(alt);
+      });
+      if (guides.length) {
+        const alt = document.createElement("button");
+        alt.type = "button";
+        alt.className = "alt-copy";
+        alt.textContent = t.filterEpg;
+        alt.title = guides[0];
+        bindCopy(alt, guides[0], t.filterEpg, t.copied);
+        side.appendChild(alt);
+      }
+    }
+
+    function addOrigin(side, href, label) {
+      const url = httpsUrl(href);
+      if (!url || !label) return;
+      const link = document.createElement("a");
+      link.href = url;
+      link.rel = "noopener noreferrer";
+      link.target = "_blank";
+      link.referrerPolicy = "no-referrer";
+      link.textContent = label;
+      side.appendChild(link);
+    }
+
+    function allCatalogItems() {
+      return catalog.featured.concat(catalog.countries, catalog.aggregators, catalog.categories, catalog.guides);
+    }
+
+    function findItem(id) {
+      if (!id) return null;
+      return allCatalogItems().find((item) => item.id === id) || null;
+    }
+
+    function featuredCopyKey(item) {
+      if (!item) return "";
+      if (item.id === "tamatv-world") return "featuredWorld";
+      if (item.id === "tamatv-japan") return "featuredJapan";
+      if (item.id === "tamatv-community") return "featuredCommunity";
+      return "";
+    }
+
+    function itemLabel(item, t) {
+      if (!item) return "";
+      if (item.kind === "country") return (item.flag ? item.flag + " " : "") + regionName(item.code) + " · " + item.code;
+      if (item.kind === "featured") {
+        const key = featuredCopyKey(item);
+        return (item.flag ? item.flag + " " : "") + (t[key] || item.name || "");
+      }
+      return item.name || item.id || "";
+    }
+
+    function extraUrls(item) {
+      const urls = [];
+      const add = (extras) => {
+        (extras || []).forEach((extra) => {
+          if (extra.key && extra.key !== "epg") return;
+          const url = httpsUrl(extra.url);
+          if (url && urls.indexOf(url) === -1) urls.push(url);
+        });
+      };
+      add(item.extras);
+      (item.variants || []).forEach((variant) => add(variant.extras));
+      return urls;
+    }
+
+    function guideMatchUrls(item) {
+      const urls = extraUrls(item);
+      const primary = httpsUrl(item.url);
+      if (item.kind === "guide" && primary && urls.indexOf(primary) === -1) urls.unshift(primary);
+      return urls;
+    }
+
+    function playlistsForGuide(guide) {
+      const want = Object.create(null);
+      guideMatchUrls(guide).forEach((url) => { want[url] = true; });
+      return allCatalogItems().filter((item) => {
+        if (!item || item.kind === "guide" || item.id === guide.id) return false;
+        return extraUrls(item).some((url) => want[url]);
+      });
+    }
+
+    function sourcesFor(item) {
+      if (item.variants && item.variants.length) return item.variants;
+      return [{ url: item.url, extras: item.extras || [], label: "", format: item.format, channels: item.channels }];
+    }
+
+    function variantIndexFor(item) {
+      const sources = sourcesFor(item);
+      if (listsOpen === item.id && listsOpenVariant >= 0 && sources[listsOpenVariant]) return listsOpenVariant;
+      const v4 = sources.findIndex((source) => source.stack === "v4");
+      return v4 >= 0 ? v4 : 0;
+    }
+
+    function streamUrl(value) {
+      try {
+        const url = new URL(String(value || ""));
+        if (url.protocol !== "https:" && url.protocol !== "http:") return "";
+        if (url.username || url.password) return "";
+        return url.href;
+      } catch (_) {
+        return "";
+      }
+    }
+
+    function localPlaylist(url) {
+      const abs = httpsUrl(url);
+      if (!abs) return "";
+      try {
+        const parsed = new URL(abs);
+        let path = parsed.pathname || "";
+        if (path.indexOf("/tamatv/") === 0) path = path.slice("/tamatv".length);
+        const rel = path.replace(/^\//, "");
+        if (rel === "japan.m3u" || rel === "world.m3u" || rel === "playlists/community.m3u") return rel;
+        if (/^playlists\/(countries|categories|aggregators)\/[a-z0-9._-]+\.m3u8?$/.test(rel)) return rel;
+        return "";
+      } catch (_) {
+        return "";
+      }
+    }
+
+    function m3uAttr(line, name) {
+      const match = String(line || "").match(new RegExp(name + '="([^"]*)"', "i"));
+      return match ? match[1] : "";
+    }
+
+    function parseM3u(text) {
+      const lines = String(text || "").split(/\r?\n/);
+      const guides = [];
+      const channels = [];
+      let pending = null;
+      lines.forEach((raw) => {
+        const line = raw.trim();
+        if (!line) return;
+        if (line.indexOf("#EXTM3U") === 0) {
+          const listed = (m3uAttr(line, "url-tvg") || m3uAttr(line, "x-tvg-url")).split(",");
+          listed.forEach((part) => {
+            const url = httpsUrl(part.trim());
+            if (url && guides.indexOf(url) === -1) guides.push(url);
+          });
+          return;
+        }
+        if (line.indexOf("#EXTINF:") === 0) {
+          const comma = line.lastIndexOf(",");
+          const meta = comma >= 0 ? line.slice(0, comma) : line;
+          const title = comma >= 0 ? line.slice(comma + 1).trim() : "";
+          const qualityMatch = title.match(/\((\d{3,4}p)\)/i) || title.match(/\b(\d{3,4}p|4K|8K)\b/i);
+          pending = {
+            title: title,
+            tvgId: m3uAttr(meta, "tvg-id"),
+            logo: httpsUrl(m3uAttr(meta, "tvg-logo")),
+            group: m3uAttr(meta, "group-title") || "",
+            quality: qualityMatch ? qualityMatch[1] : ""
+          };
+          return;
+        }
+        if (line.charAt(0) === "#") return;
+        const url = streamUrl(line);
+        if (!url || !pending || !pending.title) {
+          pending = null;
+          return;
+        }
+        channels.push(Object.assign(pending, { url: url, https: url.indexOf("https:") === 0 }));
+        pending = null;
+      });
+      return { guides: guides, channels: channels };
+    }
+
+    function loadPlaylist(path) {
+      if (!playlistCache[path]) {
+        playlistCache[path] = fetch(path, { credentials: "same-origin" }).then((res) => {
+          if (!res.ok) throw new Error("m3u");
+          return res.text();
+        }).then(parseM3u);
+      }
+      return playlistCache[path];
+    }
+
+    function channelSnippet(guides, channel) {
+      if (!channel || !channel.https) return "";
+      const attr = (name, value) => {
+        const clean = String(value || "").replace(/"/g, "");
+        return clean ? " " + name + '="' + clean + '"' : "";
+      };
+      const header = "#EXTM3U" + (guides.length ? ' url-tvg="' + guides.slice(0, 3).join(",") + '"' : "");
+      const inf = "#EXTINF:-1" + attr("tvg-id", channel.tvgId) + attr("tvg-logo", channel.logo) + attr("group-title", channel.group) + "," + String(channel.title || "").replace(/[\r\n]/g, " ");
+      return header + "\n" + inf + "\n" + channel.url + "\n";
+    }
+
+    function openList(item) {
+      if (!item || !item.id) return;
+      if (listsOpen === item.id) {
+        listsOpen = "";
+        listsOpenVariant = -1;
+        if (item.kind === "country") listsPin = "";
+      } else {
+        listsOpen = item.id;
+        listsOpenVariant = -1;
+        if (item.kind === "country") {
+          listsPin = item.code;
+          listsLetter = "";
+        } else {
+          listsPin = "";
+          listsLetter = "";
+        }
+      }
+      listsView = viewForItem(item);
+      setListsHash(listsView, listsOpen);
+      renderLists();
+    }
+
+    function fillGuidePanel(panel, item, t) {
+      const paired = playlistsForGuide(item);
+      const note = el("p", "channel-note");
+      note.textContent = paired.length ? t.pairedWith : t.noPaired;
+      panel.appendChild(note);
+      if (!paired.length) return;
+      const list = el("div", "paired-list");
+      paired.forEach((entry) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = itemLabel(entry, t);
+        btn.addEventListener("click", () => openList(entry));
+        list.appendChild(btn);
+      });
+      panel.appendChild(list);
+    }
+
+    function fillChannelPanel(panel, item, t, pip) {
+      const note = el("p", "channel-note");
+      note.textContent = t.channelLoading;
+      panel.appendChild(note);
+      const sources = sourcesFor(item);
+      const index = variantIndexFor(item);
+      const source = sources[index] || sources[0];
+      const path = localPlaylist(source && source.url);
+      if (!path) {
+        note.textContent = t.channelFail;
+        if (pip) pip.classList.remove("is-on");
+        return;
+      }
+      loadPlaylist(path).then((parsed) => {
+        if (!panel.isConnected) return;
+        panel.textContent = "";
+        drawChannels(panel, item, source, parsed, t, pip);
+      }).catch(() => {
+        if (!panel.isConnected) return;
+        note.textContent = t.channelFail;
+        if (pip) pip.classList.remove("is-on");
+      });
+    }
+
+    function drawChannels(panel, item, source, parsed, t, pip) {
+      const catalogGuides = extraUrls({ extras: source.extras, variants: [] }).concat(extraUrls(item));
+      const guides = [];
+      catalogGuides.concat(parsed.guides || []).forEach((url) => {
+        if (url && guides.indexOf(url) === -1) guides.push(url);
+      });
+      const channels = parsed.channels || [];
+      if (pip) pip.classList.toggle("is-on", channels.some((channel) => channel.https));
+      const groups = [];
+      channels.forEach((channel) => {
+        if (channel.group && groups.indexOf(channel.group) === -1) groups.push(channel.group);
+      });
+      let group = "";
+      let query = "";
+      if (channels.length > 80 && groups.length > 1) group = groups[0];
+      const toolbar = el("div", "channel-toolbar");
+      const search = document.createElement("input");
+      search.type = "search";
+      search.maxLength = 80;
+      search.placeholder = t.searchChannels;
+      search.setAttribute("aria-label", t.searchChannels);
+      toolbar.appendChild(search);
+      const sources = sourcesFor(item);
+      if (sources.length > 1) {
+        const variants = el("div", "channel-groups");
+        sources.forEach((entry, idx) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.textContent = entry.label || (entry.stack === "v6" ? "IPv6" : "IPv4");
+          btn.setAttribute("aria-pressed", idx === variantIndexFor(item) ? "true" : "false");
+          btn.addEventListener("click", () => {
+            listsOpenVariant = idx;
+            const next = el("div", "channel-panel");
+            panel.replaceWith(next);
+            fillChannelPanel(next, item, t, pip);
+          });
+          variants.appendChild(btn);
+        });
+        toolbar.appendChild(variants);
+      }
+      panel.appendChild(toolbar);
+      const groupBar = el("div", "channel-groups");
+      const visibleGroups = groups.slice(0, GROUP_PILL_CAP);
+      if (visibleGroups.length > 1) {
+        const allBtn = document.createElement("button");
+        allBtn.type = "button";
+        allBtn.textContent = t.groupsAll;
+        groupBar.appendChild(allBtn);
+        visibleGroups.forEach((name) => {
+          const btn = document.createElement("button");
+          btn.type = "button";
+          btn.textContent = name;
+          groupBar.appendChild(btn);
+        });
+        panel.appendChild(groupBar);
+      }
+      if (guides.length) {
+        const guideRow = el("div", "channel-guides");
+        guides.slice(0, 6).forEach((url) => {
+          const alt = document.createElement("button");
+          alt.type = "button";
+          alt.className = "alt-copy";
+          alt.textContent = t.filterEpg;
+          bindCopy(alt, url, t.filterEpg, t.copied);
+          guideRow.appendChild(alt);
+        });
+        panel.appendChild(guideRow);
+      }
+      const status = el("p", "channel-note");
+      panel.appendChild(status);
+      const list = el("div", "channel-list");
+      panel.appendChild(list);
+
+      const paint = () => {
+        const needle = query.trim().toLowerCase();
+        const matched = channels.filter((channel) => {
+          if (group && channel.group !== group) return false;
+          if (!needle) return true;
+          return [channel.title, channel.group, channel.tvgId, channel.quality].join(" ").toLowerCase().indexOf(needle) !== -1;
+        });
+        list.textContent = "";
+        const shown = matched.slice(0, CHANNEL_CAP);
+        shown.forEach((channel) => {
+          const row = el("div", "channel-row");
+          const logo = document.createElement("img");
+          logo.className = "channel-logo" + (channel.logo ? "" : " is-empty");
+          logo.alt = "";
+          logo.referrerPolicy = "no-referrer";
+          if (channel.logo) {
+            logo.src = channel.logo;
+            logo.addEventListener("error", () => logo.classList.add("is-empty"));
+          }
+          row.appendChild(logo);
+          const meta = el("div", "channel-meta");
+          const title = el("div", "channel-title");
+          const pipEl = el("span", "status-pip");
+          if (channel.https) pipEl.classList.add("is-on");
+          pipEl.setAttribute("aria-hidden", "true");
+          const name = document.createElement("span");
+          name.textContent = channel.title;
+          title.appendChild(pipEl);
+          title.appendChild(name);
+          meta.appendChild(title);
+          if (channel.group) {
+            const sub = el("div", "channel-sub");
+            sub.textContent = channel.group;
+            meta.appendChild(sub);
+          }
+          const chips = [];
+          if (channel.quality) chips.push(channel.quality);
+          if (channel.tvgId && guides.length) chips.push(t.filterEpg);
+          addChips(meta, chips);
+          row.appendChild(meta);
+          const snippet = channelSnippet(guides, channel);
+          if (snippet) {
+            const btn = el("button", "copy");
+            btn.type = "button";
+            btn.textContent = t.copy;
+            bindCopy(btn, snippet, t.copy, t.copied, "m3u");
+            row.appendChild(btn);
+          }
+          list.appendChild(row);
+        });
+        if (!matched.length) {
+          status.textContent = t.noLists;
+        } else if (matched.length > shown.length) {
+          status.textContent = t.channelMore.replace("{n}", String(shown.length)).replace("{total}", String(matched.length));
+        } else {
+          status.textContent = matched.length === 1 && t.channelOne
+            ? t.channelOne
+            : t.channelsCount.replace("{n}", String(matched.length));
+        }
+        Array.from(groupBar.children).forEach((btn, idx) => {
+          const name = idx === 0 ? "" : visibleGroups[idx - 1];
+          btn.setAttribute("aria-pressed", group === name ? "true" : "false");
+        });
+      };
+
+      search.addEventListener("input", () => {
+        query = search.value.slice(0, 80);
+        paint();
+      });
+      Array.from(groupBar.children).forEach((btn, idx) => {
+        btn.addEventListener("click", () => {
+          group = idx === 0 ? "" : visibleGroups[idx - 1];
+          paint();
+        });
+      });
+      paint();
+    }
+
+    function renderRow(item, t) {
+      const row = el("article", "list-row");
+      if (item.id) row.id = String(item.id).replace(/[^a-z0-9-]/gi, "");
+      const selected = listsOpen === item.id || (listsView === "countries" && listsPin && item.code === listsPin);
+      const hit = !!listsQuery.trim() && matchesQuery(item);
+      if (selected) row.classList.add("is-selected");
+      if (hit) row.classList.add("is-hit");
+      if (item.kind === "featured") row.classList.add("is-featured");
+      row.classList.add("is-pick");
+      const meta = el("div", "list-meta");
+      const nameRow = el("div", "list-name-row");
+      const pip = el("span", "status-pip");
+      pip.setAttribute("aria-hidden", "true");
+      if (listsOpen === item.id) pip.classList.add("is-on");
+      const name = el("h3", "list-name");
+      if (item.kind === "country") {
+        appendHighlighted(
+          name,
+          (item.flag ? item.flag + " " : "") + regionName(item.code) + " · " + item.code,
+          listsQuery
+        );
+      } else if (item.kind === "featured") {
+        const featuredKey = featuredCopyKey(item);
+        appendHighlighted(name, (item.flag ? item.flag + " " : "") + (t[featuredKey] || item.name || ""), listsQuery);
+      } else {
+        appendHighlighted(name, item.name || "", listsQuery);
+      }
+      nameRow.appendChild(pip);
+      nameRow.appendChild(name);
+      meta.appendChild(nameRow);
+      const chips = [];
+      if (item.format) chips.push(item.format);
+      const channelCount = item.channels || (item.variants || []).reduce((n, v) => n + (v.channels || 0), 0);
+      if (channelCount === 1 && t.channelOne) chips.push(t.channelOne);
+      else if (channelCount) chips.push(t.channelsCount.replace("{n}", String(channelCount)));
+      if (item.kind === "category") chips.push(item.code);
+      if (item.kind === "aggregator" && item.country) chips.push(regionName(item.country));
+      (item.variants || []).forEach((v) => {
+        if (v.stack === "v4") chips.push("IPv4");
+        if (v.stack === "v6") chips.push("IPv6");
+        if (v.epg) chips.push(t.filterEpg);
+        if (v.logos) chips.push("Logo");
+        if (v.format && chips.indexOf(v.format) === -1) chips.push(v.format);
+      });
+      addChips(meta, Array.from(new Set(chips)));
+      row.appendChild(meta);
+      const stack = el("div", item.variants && item.variants.length > 1 ? "list-copy-stack" : "");
+      if (item.variants && item.variants.length) {
+        row.classList.add("is-group");
+        item.variants.forEach((v) => addCopyRow(stack, v.url, t, v.label));
+      } else {
+        addCopyRow(stack, item.url, t);
+      }
+      row.appendChild(stack);
+      const side = el("div", "list-side");
+      const extras = [];
+      (item.variants || []).forEach((v) => (v.extras || []).forEach((extra) => extras.push(extra)));
+      (item.extras || []).forEach((extra) => extras.push(extra));
+      addExtras(side, extras, t);
+      if (item.origin) addOrigin(side, item.originHref, item.origin);
+      row.appendChild(side);
+      row.addEventListener("click", (event) => {
+        if (event.target.closest("button, a, input, textarea")) return;
+        openList(item);
+      });
+      const block = el("div", "list-block");
+      block.appendChild(row);
+      if (listsOpen && item.id === listsOpen) {
+        block.classList.add("is-open");
+        const panel = el("div", "channel-panel");
+        block.appendChild(panel);
+        if (item.kind === "guide") fillGuidePanel(panel, item, t);
+        else fillChannelPanel(panel, item, t, pip);
+      }
+      return block;
+    }
+
+    function sanitizeList(items, kind) {
+      return (Array.isArray(items) ? items : []).filter((item) => {
+        if (!item || typeof item !== "object") return false;
+        if (kind === "aggregator") {
+          return Array.isArray(item.variants) && item.variants.some((v) => httpsUrl(v && v.url));
+        }
+        return !!httpsUrl(item.url);
+      }).map((item) => {
+        const next = Object.assign({}, item, { kind: item.kind || kind });
+        next.url = httpsUrl(item.url);
+        next.originHref = httpsUrl(item.originHref);
+        if (item.variants) {
+          next.variants = item.variants.filter((v) => httpsUrl(v.url)).map((v) => Object.assign({}, v, {
+            url: httpsUrl(v.url),
+            extras: (v.extras || []).filter((e) => httpsUrl(e.url)).map((e) => Object.assign({}, e, { url: httpsUrl(e.url) }))
+          }));
+        }
+        if (item.extras) {
+          next.extras = item.extras.filter((e) => httpsUrl(e.url)).map((e) => Object.assign({}, e, { url: httpsUrl(e.url) }));
+        }
+        return next;
+      });
+    }
+
+    function channelCount(item) {
+      let n = Number(item && item.channels) || 0;
+      (item && item.variants || []).forEach((v) => { n += Number(v.channels) || 0; });
+      return n;
+    }
+
+    function formatStat(n) {
+      const value = Math.round(Number(n) || 0);
+      try {
+        return new Intl.NumberFormat(htmlLang[currentLang] || "en", { notation: value >= 10000 ? "compact" : "standard", maximumFractionDigits: 1 }).format(value);
+      } catch (_) {
+        return String(value);
+      }
+    }
+
+    function formatUpdated(iso) {
+      if (!iso) return "";
+      const date = new Date(iso);
+      if (Number.isNaN(date.getTime())) return "";
+      try {
+        return new Intl.DateTimeFormat(htmlLang[currentLang] || "en", { dateStyle: "medium", timeStyle: "short", timeZone: "UTC" }).format(date) + " UTC";
+      } catch (_) {
+        return iso;
+      }
+    }
+
+    function animateCount(el, target) {
+      const end = Math.max(0, Math.round(Number(target) || 0));
+      if (prefersReducedMotion() || end <= 0) {
+        el.textContent = formatStat(end);
+        return;
+      }
+      const start = performance.now();
+      const from = 0;
+      const duration = 900;
+      const tick = (now) => {
+        const t = Math.min(1, (now - start) / duration);
+        const eased = 1 - Math.pow(1 - t, 3);
+        el.textContent = formatStat(from + (end - from) * eased);
+        if (t < 1) requestAnimationFrame(tick);
+        else el.textContent = formatStat(end);
+      };
+      requestAnimationFrame(tick);
+    }
+
+    function computeStats() {
+      const live = (listStats && listStats.live) || {};
+      const agg = (listStats && listStats.aggregators) || {};
+      const countries = catalog.countries.length || Number(live.countries) || 0;
+      const categories = catalog.categories.length || Number(live.categories) || 0;
+      const aggregators = catalog.aggregators.length || Number(agg.lists) || 0;
+      const featured = catalog.featured.length;
+      const guides = catalog.guides.length || 0;
+      let channels = (Number(live.kept) || 0) + (Number(agg.kept) || 0);
+      if (!channels) {
+        channels =
+          catalog.countries.reduce((n, item) => n + channelCount(item), 0) +
+          catalog.categories.reduce((n, item) => n + channelCount(item), 0) +
+          catalog.aggregators.reduce((n, item) => n + channelCount(item), 0) +
+          catalog.featured.reduce((n, item) => n + channelCount(item), 0);
+      }
+      return {
+        countries,
+        channels,
+        playlists: countries + categories + aggregators + featured,
+        guides: Number(listStats && listStats.epgshare) || guides,
+        updated: (listStats && listStats.updated) || catalog.updated || ""
+      };
+    }
+
+    function revealListsChrome() {
+      if (listsChromeReady) return;
+      listsChromeReady = true;
+      document.querySelectorAll("#lists-curate article").forEach((el) => {
+        if (prefersReducedMotion()) {
+          el.classList.add("is-in");
+          return;
+        }
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            entry.target.classList.add("is-in");
+            io.unobserve(entry.target);
+          });
+        }, { threshold: 0.2 });
+        io.observe(el);
+      });
+    }
+
+    function renderStats(force) {
+      const host = document.getElementById("lists-stats");
+      const updated = document.getElementById("lists-updated");
+      if (!host) return;
+      const t = copy[currentLang] || copy.en;
+      const stats = computeStats();
+      const stamp = currentLang + "|" + stats.countries + "|" + stats.channels + "|" + stats.playlists + "|" + stats.guides + "|" + stats.updated;
+      if (!force && stamp === statsPaintedFor && host.children.length) {
+        if (updated) {
+          const when = formatUpdated(stats.updated);
+          updated.textContent = when ? t.listsUpdated.replace("{date}", when) : "";
+        }
+        Array.from(host.querySelectorAll("span")).forEach((label, idx) => {
+          const keys = [t.statCountries, t.statChannels, t.statLists, t.statGuides];
+          if (keys[idx]) label.textContent = keys[idx];
+        });
+        return;
+      }
+      statsPaintedFor = stamp;
+      const rows = [
+        { key: "countries", label: t.statCountries, value: stats.countries },
+        { key: "channels", label: t.statChannels, value: stats.channels },
+        { key: "playlists", label: t.statLists, value: stats.playlists },
+        { key: "guides", label: t.statGuides, value: stats.guides }
+      ];
+      host.textContent = "";
+      rows.forEach((row, idx) => {
+        const item = el("div", "lists-stat");
+        const strong = document.createElement("strong");
+        strong.dataset.stat = row.key;
+        strong.textContent = "0";
+        const label = document.createElement("span");
+        label.textContent = row.label;
+        item.appendChild(strong);
+        item.appendChild(label);
+        host.appendChild(item);
+        window.setTimeout(() => {
+          item.classList.add("is-in");
+          animateCount(strong, row.value);
+        }, prefersReducedMotion() ? 0 : 90 + idx * 70);
+      });
+      if (updated) {
+        const when = formatUpdated(stats.updated);
+        updated.textContent = when ? t.listsUpdated.replace("{date}", when) : "";
+      }
+    }
+
+    function loadStats() {
+      if (statsPromise) return statsPromise;
+      statsPromise = fetch("playlists/status.json", { credentials: "same-origin" }).then((res) => {
+        if (!res.ok) throw new Error("status");
+        return res.json();
+      }).then((data) => {
+        listStats = data && typeof data === "object" ? data : null;
+        return listStats;
+      }).catch(() => {
+        listStats = null;
+        return null;
+      });
+      return statsPromise;
+    }
+
+    function loadCatalog() {
+      if (catalogPromise) return catalogPromise;
+      catalogPromise = Promise.all([
+        fetch("lists.json", { credentials: "same-origin" }).then((res) => {
+          if (!res.ok) throw new Error("lists");
+          return res.json();
+        }),
+        loadStats()
+      ]).then(([data]) => {
+        catalog = {
+          featured: sanitizeList(data.featured, "featured"),
+          countries: sanitizeList(data.countries, "country"),
+          categories: sanitizeList(data.categories, "category").filter((item) => item.code !== "xxx"),
+          aggregators: sanitizeList(data.aggregators, "aggregator"),
+          guides: sanitizeList(data.guides, "guide"),
+          updated: String(data.updated || "")
+        };
+        return catalog;
+      }).catch(() => catalog);
+      return catalogPromise;
+    }
+
+    function currentItems() {
+      if (listsView === "categories") return catalog.aggregators.concat(catalog.categories);
+      if (listsView === "guides") return catalog.guides;
+      return catalog.countries;
+    }
+
+    function renderPins() {
+      const pins = document.getElementById("lists-pins");
+      pins.textContent = "";
+      const show = listsView === "countries";
+      pins.hidden = !show;
+      if (!show) return;
+      const q = listsQuery.trim().toLowerCase();
+      (PINNED[currentLang] || PINNED.en).forEach((code) => {
+        const item = catalog.countries.find((c) => c.code === code);
+        if (!item) return;
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = (item.flag ? item.flag + " " : "") + regionName(code);
+        const hit = q && matchesQuery(item);
+        btn.setAttribute("aria-pressed", listsPin === code || hit ? "true" : "false");
+        if (hit) btn.classList.add("is-hit");
+        if (q && !hit && listsPin !== code) btn.classList.add("is-dim");
+        btn.addEventListener("click", () => {
+          listsQuery = "";
+          openList(item);
+          const target = document.getElementById(item.id);
+          if (target) target.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "center" });
+        });
+        pins.appendChild(btn);
+      });
+    }
+
+    function renderLetters(items) {
+      const nav = document.getElementById("lists-letters");
+      nav.textContent = "";
+      const show = listsView === "countries";
+      nav.hidden = !show;
+      if (!show) return;
+      const allLetters = [];
+      catalog.countries.forEach((item) => {
+        if (item.letter && allLetters.indexOf(item.letter) === -1) allLetters.push(item.letter);
+      });
+      const visible = {};
+      items.forEach((item) => {
+        if (item.letter) visible[item.letter] = true;
+      });
+      const q = listsQuery.trim();
+      allLetters.forEach((letter) => {
+        const a = document.createElement("a");
+        a.href = "#letter-" + letter;
+        a.textContent = letter;
+        const on = listsLetter === letter || (q && visible[letter] && items.length < catalog.countries.length);
+        if (on) a.setAttribute("aria-current", "true");
+        if (q && !visible[letter] && listsLetter !== letter) a.classList.add("is-dim");
+        a.addEventListener("click", (event) => {
+          event.preventDefault();
+          listsLetter = listsLetter === letter ? "" : letter;
+          listsPin = "";
+          listsOpen = "";
+          listsOpenVariant = 0;
+          setListsHash(listsView, "");
+          renderLists();
+          const target = document.getElementById("letter-" + letter);
+          if (target) target.scrollIntoView({ behavior: prefersReducedMotion() ? "auto" : "smooth", block: "start" });
+        });
+        nav.appendChild(a);
+      });
+    }
+
+    function renderLists() {
+      const t = copy[currentLang] || copy.en;
+      const heading = document.getElementById("lists-heading");
+      const intro = document.getElementById("lists-intro");
+      const source = document.getElementById("lists-source");
+      const grid = document.getElementById("lists-grid");
+      const status = document.getElementById("lists-status");
+      const q = document.getElementById("lists-q");
+      if (q) {
+        q.placeholder = t.searchPlaceholder;
+        if (q.value !== listsQuery) q.value = listsQuery;
+      }
+      document.querySelectorAll(".lists-views button").forEach((btn) => {
+        btn.setAttribute("aria-pressed", btn.dataset.view === listsView ? "true" : "false");
+      });
+      const meta = {
+        countries: { title: t.viewCountries, lead: t.countryLead, href: "https://github.com/iptv-org/iptv", label: "iptv-org/iptv" },
+        categories: { title: t.viewCategories, lead: t.categoryLead, href: "https://github.com/iptv-org/iptv", label: "iptv-org/iptv" },
+        guides: { title: t.viewGuides, lead: t.epgLead, href: "https://github.com/ngo5/IPTV", label: "ngo5/IPTV" }
+      }[listsView];
+      heading.textContent = meta.title;
+      intro.textContent = meta.lead;
+      const href = httpsUrl(meta.href);
+      source.textContent = href ? meta.label : "";
+      source.href = href || "#";
+      source.hidden = !href;
+      const items = currentItems().filter(matchesFocus);
+      renderPins();
+      renderLetters(items);
+      renderStats(false);
+      revealListsChrome();
+      grid.textContent = "";
+      const featured = (catalog.featured || []).filter((item) => matchesQuery(item));
+      if (listsView === "countries" && featured.length && !listsPin && !listsLetter) {
+        const shelf = el("div", "list-featured");
+        featured.forEach((item) => shelf.appendChild(renderRow(item, t)));
+        grid.appendChild(shelf);
+      }
+      let lastLetter = "";
+      items.forEach((item) => {
+        if (listsView === "countries" && item.letter && item.letter !== lastLetter) {
+          lastLetter = item.letter;
+          const head = el("div", "letter-head");
+          head.id = "letter-" + item.letter;
+          if (listsLetter === item.letter) head.classList.add("is-active");
+          head.textContent = item.letter;
+          grid.appendChild(head);
+        }
+        grid.appendChild(renderRow(item, t));
+      });
+      status.textContent = items.length ? t.listsCount.replace("{n}", String(items.length)) : t.noLists;
+    }
+
+    function apply(lang) {
+      currentLang = copy[lang] ? lang : "en";
+      const t = copy[currentLang];
+      document.documentElement.lang = htmlLang[currentLang] || "en";
+      document.querySelectorAll("[data-i18n]").forEach((el) => {
+        el.textContent = t[el.dataset.i18n] || "";
+      });
+      document.querySelectorAll("[data-i18n-html]").forEach((el) => {
+        applySafeHtml(el, t[el.dataset.i18nHtml] || "");
+      });
+      document.querySelectorAll("[data-i18n-alt]").forEach((el) => {
+        el.setAttribute("alt", t[el.dataset.i18nAlt] || "");
+      });
+      document.querySelectorAll("[data-i18n-aria]").forEach((el) => {
+        el.setAttribute("aria-label", t[el.dataset.i18nAria] || "");
+      });
+      document.querySelectorAll("[data-shot]").forEach((el) => {
+        const file = String(el.dataset.shot || "");
+        if (!/^[a-z0-9-]+$/.test(file)) return;
+        setShot(el, "assets/" + currentLang + "/" + file + ".png");
+      });
+      document.querySelectorAll(".langs button").forEach((btn) => {
+        btn.setAttribute("aria-pressed", btn.dataset.lang === currentLang ? "true" : "false");
+      });
+      try { localStorage.setItem("tamatv-lang", currentLang); } catch (_) {}
+      const route = parseRoute();
+      showPage(route.page, route.view, route.open);
+    }
+
+    function initialLang() {
+      try {
+        const q = new URLSearchParams(location.search).get("lang");
+        if (q && copy[q]) return q;
+      } catch (_) {}
+      try {
+        const saved = localStorage.getItem("tamatv-lang");
+        if (saved && copy[saved]) return saved;
+      } catch (_) {}
+      const nav = (navigator.language || "en").toLowerCase();
+      if (nav.startsWith("zh")) return "zh";
+      if (nav.startsWith("ja")) return "ja";
+      return "en";
+    }
+
+    function prefersReducedMotion() {
+      return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    }
+
+    function setShot(el, src) {
+      if (!/^assets\/(en|zh|ja)\/[a-z0-9-]+\.png$/.test(src)) return;
+      if (el.getAttribute("src") === src) return;
+      if (prefersReducedMotion()) {
+        el.setAttribute("src", src);
+        return;
+      }
+      el.classList.add("is-swapping");
+      const show = () => {
+        el.classList.remove("is-swapping");
+        el.removeEventListener("load", show);
+      };
+      window.setTimeout(() => {
+        el.addEventListener("load", show);
+        el.setAttribute("src", src);
+        if (el.complete) show();
+      }, 180);
+    }
+
+    function tilt(el, amount) {
+      if (prefersReducedMotion()) return;
+      el.addEventListener("pointermove", (e) => {
+        const r = el.getBoundingClientRect();
+        const x = ((e.clientX - r.left) / r.width - 0.5) * amount;
+        const y = ((e.clientY - r.top) / r.height - 0.5) * amount;
+        el.style.transform =
+          "perspective(1100px) rotateY(" + x + "deg) rotateX(" + -y + "deg) translateY(-5px)";
+      });
+      el.addEventListener("pointerleave", () => {
+        el.style.transform = "";
+      });
+    }
+
+    document.querySelectorAll(".langs button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        apply(btn.dataset.lang);
+        try {
+          const url = new URL(location.href);
+          if (btn.dataset.lang === "en") url.searchParams.delete("lang");
+          else url.searchParams.set("lang", btn.dataset.lang);
+          history.replaceState(null, "", url.pathname + url.search + url.hash);
+        } catch (_) {}
+      });
+    });
+    document.querySelectorAll(".lists-views button").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        listsQuery = "";
+        listsPin = "";
+        listsLetter = "";
+        listsOpen = "";
+        listsOpenVariant = 0;
+        showPage("lists", btn.dataset.view, "");
+        window.scrollTo(0, 0);
+      });
+    });
+    const search = document.getElementById("lists-q");
+    if (search) {
+      search.addEventListener("input", () => {
+        listsQuery = search.value.slice(0, 80);
+        renderLists();
+      });
+    }
+    window.addEventListener("hashchange", () => {
+      const route = parseRoute();
+      showPage(route.page, route.view, route.open);
+    });
+    apply(initialLang());
+
+    const revealTargets = document.querySelectorAll(
+      ".hero .kicker, .hero .brand-hero, .hero h1, .hero .lead, .hero .actions, .hero .tv, .hero .caption, .section, .card, .shot-card, .notice, .credits, .lists-shell, .lists-foot, footer"
+    );
+    revealTargets.forEach((el, i) => {
+      el.classList.add("reveal");
+      el.style.transitionDelay = prefersReducedMotion() ? "0s" : Math.min(i % 6, 5) * 0.06 + "s";
+    });
+    if (prefersReducedMotion()) {
+      revealTargets.forEach((el) => el.classList.add("is-in"));
+    } else {
+      const io = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          if (!entry.isIntersecting) return;
+          entry.target.classList.add("is-in");
+          io.unobserve(entry.target);
+        });
+      }, { threshold: 0.14, rootMargin: "0px 0px -8% 0px" });
+      revealTargets.forEach((el) => io.observe(el));
+      document.querySelectorAll(".tv, .window, .bezel").forEach((el) => {
+        if (el.closest(".device-roll")) return;
+        tilt(el, 7);
+      });
+    }
+  </script>
+</body>
+</html>

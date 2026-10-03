@@ -1,0 +1,62 @@
+name: Refresh playlists
+
+on:
+  schedule:
+    - cron: "17 6,18 * * *"
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/**
+      - .github/workflows/refresh-playlists.yml
+
+permissions:
+  contents: write
+  pull-requests: none
+  actions: none
+
+concurrency:
+  group: refresh-playlists
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Test playlist rules
+        run: python3 scripts/test_m3u.py
+      - name: Maintain playlists
+        env:
+          TAMATV_SITE: https://ezhu331.github.io/tamatv
+          PYTHONUNBUFFERED: "1"
+        run: python3 scripts/pipeline.py --probe
+      - name: Commit
+        run: |
+          git add -- lists.json playlists japan.m3u world.m3u
+          changed="$(git diff --staged --name-only)"
+          if [ -z "$changed" ]; then
+            echo "No playlist changes"
+            exit 0
+          fi
+          while IFS= read -r file; do
+            case "$file" in
+              lists.json|japan.m3u|world.m3u|playlists/*) ;;
+              *) echo "unexpected path $file"; exit 1 ;;
+            esac
+          done <<EOF
+          $changed
+          EOF
+          export GIT_AUTHOR_NAME="Frame 24 TV"
+          export GIT_COMMITTER_NAME="Frame 24 TV"
+          export GIT_AUTHOR_EMAIL=""
+          export GIT_COMMITTER_EMAIL=""
+          git commit -m "$(cat <<'EOF'
+          Refresh curated playlists.
+
+          EOF
+          )"
+          git push
