@@ -7,8 +7,6 @@ http://82.212.74.98:8000/live/7815.m3u8
 https://mn-nl.mncdn.com/alhiwar_live/smil:alhiwar.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ALTV.th@SD" tvg-country="TH" tvg-name="ALTV" tvg-logo="https://i.imgur.com/MCbCSWv.png" group-title="Education",ALTV (1080p)
 https://thaipbs-ujxrch.cdn.byteark.com/live/playlist_1080p/index.m3u8
-#EXTINF:-1 tvg-id="CABC5200009HX" tvg-country="US" tvg-name="Architectural Digest" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Architectural_Digest_logo.svg/960px-Architectural_Digest_logo.svg.png" group-title="Education",Architectural Digest
-https://jmp2.uk/stvp-CABC5200009HX
 #EXTINF:-1 tvg-id="ARDalpha.de@SD" tvg-country="DE" tvg-name="ARD-alpha" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/ARD_alpha.svg/960px-ARD_alpha.svg.png" group-title="Education",ARD-alpha (720p)
 https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="BATVEducationalChannel.us@SD" tvg-country="US" tvg-name="BATV Educational Channel" tvg-logo="https://i.imgur.com/eDoJqtg.png" group-title="Education",BATV Educational Channel
@@ -106,8 +104,6 @@ http://31.148.48.15/English_club_TV_HD/index.m3u8
 https://racitonsen.s.gy/ECG_SD
 #EXTINF:-1 tvg-id="EnglishClubTV.uk@SD" tvg-country="UK" tvg-name="English Club TV" tvg-logo="https://i.imgur.com/9FMvaRK.png" group-title="Education",English Club TV (576i)
 https://stream8.cinerama.uz/1442/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="ETV.th@SD" tvg-country="TH" tvg-name="ETV" tvg-logo="https://i.imgur.com/HTnQGcs.png" group-title="Education",ETV (Thailand) (1080p)
-http://150.95.66.20:1935/live/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="Futura.br@SD" tvg-country="BR" tvg-name="Futura" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Canal_Futura.png/960px-Canal_Futura.png" group-title="Education",Futura (720p)
 http://168.197.104.22/FUTURA/index.m3u8
 #EXTINF:-1 tvg-id="GillettePublicAccessTelevisionChannel189.us@SD" tvg-country="US" tvg-name="Gillette Public Access Television Channel 189" tvg-logo="https://yt3.googleusercontent.com/ytc/AGIKgqMoPQ32FU8R2lR71LXhYrC3tCHfjJEXcm6E9PEO=s176-c-k-c0x00ffffff-no-rj" group-title="Education",Gillette Public Access Television Channel 189
@@ -118,6 +114,8 @@ https://cdn.pishow.tv/ott/live/14/master.m3u8
 https://reflect-hudsonctv.cablecast.tv/live-26/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="HKTV.us@SD" tvg-country="US" tvg-name="HKTV" tvg-logo="https://i.imgur.com/AYzdlMz.png" group-title="Education",HKTV (1080p)
 https://reflect-hktv.cablecast.tv/live-3/live/live.m3u8
+#EXTINF:-1 tvg-id="ILCECanal15SummaSaberes.mx@SD" tvg-country="MX" tvg-name="ILCE Canal 15 Summa Saberes" tvg-logo="https://i.imgur.com/r7czgOc.png" group-title="Education",ILCE Canal 15 Summa Saberes (720p)
+https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="IntiTV.ec@SD" tvg-country="EC" tvg-name="Inti TV" tvg-logo="https://i.imgur.com/2WirGqb.png" group-title="Education",Inti TV (1080p)
 https://5e2f36bc1c433.streamlock.net/inti/inti-network.stream/.m3u8
 #EXTINF:-1 tvg-id="iSTUFF.de@SD" tvg-country="DE" tvg-name="iSTUFF" tvg-logo="https://i.imgur.com/1V3UXVb.jpg" group-title="Education",iSTUFF (720p)
@@ -226,7 +224,7 @@ https://app.tvufop.com.br/hls/tvufop.m3u8
 https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUJAT.mx@SD" tvg-country="MX" tvg-name="TV UJAT" tvg-logo="https://i.imgur.com/4demWOi.png" group-title="Education",TV UJAT (720p)
 https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
+#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-id="TVUsach.cl@SD" tvg-country="CL" tvg-name="TV Usach" tvg-logo="https://i.imgur.com/KDC7IVl.png" group-title="Education",TV Usach (720p)
 https://stv4.janus.cl/playlist/stream.m3u8

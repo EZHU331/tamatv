@@ -47,8 +47,6 @@ https://origin.dpsgo.com/ssai/event/f4TrySe8SoiGF8Lu3EIq1g/master.m3u8
 http://cdn1tlinkgo.tlink.cl/megaficcion/mono.m3u8
 #EXTINF:-1 tvg-id="13Realities.cl@SD" tvg-country="CL" tvg-name="13 Realities" tvg-logo="https://i.imgur.com/m0SuwMU.png" group-title="Entertainment",13 Realities (1080p)
 https://origin.dpsgo.com/ssai/event/g7_JOM0ORki9SR5RKHe-Kw/master.m3u8
-#EXTINF:-1 tvg-id="CanalChilote.cl@SD" tvg-country="CL" tvg-name="Canal Chilote" tvg-logo="https://i.imgur.com/mdYIKyt.png" group-title="Entertainment",Canal Chilote (720p)
-https://videostream.chileservidores.com:8081/chiloe2/index.m3u8
 #EXTINF:-1 tvg-id="ElCanalFeliz.cl@SD" tvg-country="CL" tvg-name="El Canal Feliz" tvg-logo="https://i.imgur.com/UlmYraS.png" group-title="Entertainment",El Canal Feliz (720p)
 http://streaming.multicontenidos.cl:8081/live/canalfeliz/playlist.m3u8
 #EXTINF:-1 tvg-id="EmocionTV.cl@SD" tvg-country="CL" tvg-name="Emocion TV" tvg-logo="https://i.imgur.com/OJ3omla.jpeg" group-title="Entertainment",Emocion TV (720p)
@@ -87,6 +85,8 @@ https://unlimited1-us.dps.live/campustv/campustv.smil/campustv/livestream1/chunk
 https://origin.dpsgo.com/ssai/event/GI-9cp_bT8KcerLpZwkuhw/master.m3u8
 #EXTINF:-1 tvg-id="ARTV.cl@SD" tvg-country="CL" tvg-name="ARTV" tvg-logo="https://i.imgur.com/rKP1ihL.png" group-title="Culture",ARTV (Chile) (720p)
 http://45.162.193.35/ARTV/index.m3u8
+#EXTINF:-1 tvg-id="ChiloeRed25.cl@SD" tvg-country="CL" tvg-name="Chiloe Red 25" tvg-logo="https://i.imgur.com/3tqrImm.png" group-title="Culture",Chiloe Red 25 (720p)
+https://v2.tustreaming.cl/chiloered/index.m3u8
 #EXTINF:-1 tvg-id="CulturaOnline.cl@SD" tvg-country="CL" tvg-name="Cultura Online" tvg-logo="https://i.imgur.com/w8td5Lq.png" group-title="Culture",Cultura Online
 https://streaming.bitsur.cl:3399/live/vdo532live.m3u8
 #EXTINF:-1 tvg-id="HolvoetTV.cl@SD" tvg-country="CL" tvg-name="Holvoet TV" tvg-logo="https://i.imgur.com/9JKRO3R.png" group-title="Culture",Holvoet TV (720p)
@@ -144,6 +144,8 @@ https://tls-cl.cdnz.cl/retroplustvuno/live/playlist.m3u8
 https://vdochile.com:3864/stream/play.m3u8
 #EXTINF:-1 tvg-id="RewindTV.cl@SD" tvg-country="CL" tvg-name="Rewind TV" tvg-logo="https://i.imgur.com/OG0RC2e.png" group-title="Music",Rewind TV (1080p)
 https://tls-cl.cdnz.cl/rewindtv/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RitoqueTV.cl@SD" tvg-country="CL" tvg-name="Ritoque TV" tvg-logo="https://i.imgur.com/nTVJcFA.png" group-title="Music",Ritoque TV (720p)
+https://streaming.purum.cl/ritoquetv/index.m3u8
 #EXTINF:-1 tvg-id="SaborTV.cl@SD" tvg-country="CL" tvg-name="Sabor TV" tvg-logo="https://cdn.m3u.cl/logo/416_Sabor_TV.png" group-title="Music",Sabor TV (720p)
 https://v1.tustreaming.cl/sabortv/index.m3u8
 #EXTINF:-1 tvg-id="SensacionCosta.cl@SD" tvg-country="CL" tvg-name="Sensacion Costa" tvg-logo="https://i.imgur.com/oYQoWAB.png" group-title="Music",Sensacion Costa
@@ -202,8 +204,6 @@ https://wifispeed.trapemn.tv:1936/comunales/autonoma-tv/playlist.m3u8
 https://v1.tustreaming.cl/aysentv/index.m3u8
 #EXTINF:-1 tvg-id="BioBioTV.cl@SD" tvg-country="CL" tvg-name="Bio Bio TV" tvg-logo="https://i.imgur.com/lhglEUP.png" group-title="General",Bio Bio TV (1080p)
 http://cdn1tlinkgo.tlink.cl/biobiotv/mono.m3u8
-#EXTINF:-1 tvg-id="CalderaVision.cl@SD" tvg-country="CL" tvg-name="Caldera Vision" tvg-logo="https://i.imgur.com/A3Jiffe.png" group-title="General",Caldera Vision
-https://tv.arkeo.cl:1936/kymczwbrge/kymczwbrge/playlist.m3u8
 #EXTINF:-1 tvg-id="CampoAbiertoTV.cl@SD" tvg-country="CL" tvg-name="Campo Abierto TV" tvg-logo="https://i.imgur.com/KL6pgaL.png" group-title="General",Campo Abierto TV (720p)
 https://v2.tustreaming.cl/catvlive/index.m3u8
 #EXTINF:-1 tvg-id="CampusTV.cl@SD" tvg-country="CL" tvg-name="CampusTV" tvg-logo="https://i.imgur.com/LvzLg33.png" group-title="General",CampusTV (720p)
@@ -388,8 +388,6 @@ https://v1.tustreaming.cl/tv5linares/index.m3u8
 http://168.196.127.137:6001/play/a03n/index.m3u8
 #EXTINF:-1 tvg-id="TVSenado.cl@SD" tvg-country="CL" tvg-name="TV Senado" tvg-logo="https://i.imgur.com/CNUZ6ig.png" group-title="General",TV Senado (Chile) (720p)
 http://cdn1tlinkgo.tlink.cl/tvsenado/mono.m3u8
-#EXTINF:-1 tvg-id="TVUCT.cl@SD" tvg-country="CL" tvg-name="TV UCT" tvg-logo="https://i.imgur.com/tpI0WQH.png" group-title="General",TV UCT (1080p)
-https://unlimited1-us.dps.live/uct/uct.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlus.cl@SD" tvg-country="CL" tvg-name="TV+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/TV%2B_%282018%29.png/960px-TV%2B_%282018%29.png" group-title="General",TV+ (1080p)
 https://jireh-8-hls-video-us-isp.dps.live/hls-video/ey6283je82983je9823je8jowowiekldk9838274/tvmas/tvmas.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVM.cl@SD" tvg-country="CL" tvg-name="TVM" tvg-logo="https://i.imgur.com/9dwZoxz.png" group-title="General",TVM (Chile) (720p)
@@ -405,8 +403,6 @@ http://cdn1tlinkgo.tlink.cl/tvr/mono.m3u8
 https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ULosLagosTV.cl@SD" tvg-country="CL" tvg-name="U Los Lagos TV" tvg-logo="https://i.imgur.com/HxUZseV.png" group-title="General",U Los Lagos TV (1080p)
 http://tv.ulagos.cl/web/live.m3u8
-#EXTINF:-1 tvg-id="UATV.cl@SD" tvg-country="CL" tvg-name="UATV" tvg-logo="https://i.imgur.com/BdZGS66.png" group-title="General",UATV (1080p)
-https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UniregionTV.cl@SD" tvg-country="CL" tvg-name="Uniregion TV" tvg-logo="https://i.imgur.com/VEO6aos.png" group-title="General",Uniregion TV
 https://5ff3d9babae13.streamlock.net/ubyecbxnfd/ubyecbxnfd/playlist.m3u8
 #EXTINF:-1 tvg-id="UTV.cl@SD" tvg-country="CL" tvg-name="UTV" tvg-logo="https://i.imgur.com/ZJNSpfZ.png" group-title="General",UTV (Chile) (720p)

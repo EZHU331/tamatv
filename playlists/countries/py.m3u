@@ -26,8 +26,6 @@ https://video.hostingcaaguazu.com:19360/altmedia/altmedia.m3u8
 https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
 #EXTINF:-1 tvg-id="MiTV.py@SD" tvg-country="PY" tvg-name="MiTV" tvg-logo="https://i.imgur.com/sgrEt9z.png" group-title="Entertainment",MiTV (720p)
 https://rds3.desdeparaguay.net/mitv/mitv/playlist.m3u8
-#EXTINF:-1 tvg-id="OasisTV.py@SD" tvg-country="PY" tvg-name="Oasis TV" tvg-logo="https://i.imgur.com/u9umNKp.jpeg" group-title="Entertainment",Oasis TV (Paraguay) (720p)
-https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8
 #EXTINF:-1 tvg-id="PopuTV.py@SD" tvg-country="PY" tvg-name="Popu TV" tvg-logo="https://i.imgur.com/UqCogyZ.png" group-title="Entertainment",Popu TV (1080p)
 http://190.108.83.69:8000/play/a070/index.m3u8
 #EXTINF:-1 tvg-id="CosmosTV.py@SD" tvg-country="PY" tvg-name="Cosmos TV" tvg-logo="https://i.imgur.com/dAMyExY.jpg" group-title="Science",Cosmos TV (720p)
@@ -65,6 +63,8 @@ http://45.170.130.224:8000/play/a03x/index.m3u8?hls
 https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
 #EXTINF:-1 tvg-id="NandejaraNeeTV.py@SD" tvg-country="PY" tvg-name="Nandejara Ne'e TV" tvg-logo="https://i.imgur.com/VFxuBdL.jpg" group-title="Religious",Nandejara Ne'e TV
 https://copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?admin=tvaccion
+#EXTINF:-1 tvg-id="RadioTVElArcadelPacto.py@SD" tvg-country="PY" tvg-name="Radio TV El Arca del Pacto" tvg-logo="https://i.imgur.com/Oq0i3Rb.png" group-title="Religious",Radio TV El Arca del Pacto (1080p)
+https://video.wilohosting.com:19360/radiotvelarcadelpacto/radiotvelarcadelpacto.m3u8
 #EXTINF:-1 tvg-id="RCCTV.py@SD" tvg-country="PY" tvg-name="RCC TV" tvg-logo="https://i.imgur.com/qdjBnRl.png" group-title="Religious",RCC TV (1080p)
 https://copacoradios.desdeparaguay.net/rcctv/rcctv/playlist.m3u8?admin=nacion
 #EXTINF:-1 tvg-id="AGRFMTV.py@SD" tvg-country="PY" tvg-name="AGR FM TV" tvg-logo="https://i.imgur.com/tg6EjTU.png" group-title="General",AGR FM TV
@@ -73,8 +73,8 @@ https://tigocloud.desdeparaguay.net/agrtv/agrtv/playlist.m3u8
 http://45.170.130.224:8000/play/a02o/index.m3u8?hls
 #EXTINF:-1 tvg-id="BrunoMasiTV.py@SD" tvg-country="PY" tvg-name="Bruno Masi TV" tvg-logo="https://i.ibb.co/QFmyjZN/unnamed-1.png" group-title="General",Bruno Masi TV (720p)
 https://rds3.desdeparaguay.net/brunomasitv/brunomasitv/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal5TVMax.py@SD" tvg-country="PY" tvg-name="Canal 5 TV Max" tvg-logo="https://i.imgur.com/6oihaDM.png" group-title="General",Canal 5 TV Max (1080p)
-https://tvmaxsa.com.py/hls/FB-430927919930380-0-AbzjnbAzAIR0NaFg.m3u8
+#EXTINF:-1 tvg-id="CADTV.py@SD" tvg-country="PY" tvg-name="CAD TV" tvg-logo="https://i.imgur.com/lafmmRa.jpeg" group-title="General",CAD TV
+https://videoserver.tmcreativos.com:19360/dcsajkpvrh/dcsajkpvrh.m3u8
 #EXTINF:-1 tvg-id="Canal8CCProducciones.py@SD" tvg-country="PY" tvg-name="Canal 8 C&C Producciones" tvg-logo="https://i.imgur.com/SVj5fjg.jpg" group-title="General",Canal 8 C&C Producciones
 https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8
 #EXTINF:-1 tvg-id="Canal8VisionTV.py@SD" tvg-country="PY" tvg-name="Canal 8 Vision TV" tvg-logo="https://i.imgur.com/mKju6hk.png" group-title="General" http-referrer="https://www.visioncomunicaciones.com.py/",Canal 8 Vision TV (1080p)

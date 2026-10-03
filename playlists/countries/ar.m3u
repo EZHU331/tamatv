@@ -23,8 +23,6 @@ https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-country="AR" tvg-name="DeporTV" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="Sports",DeporTV (1080p)
 http://181.209.105.115:2525/play/deportv/index.m3u8
-#EXTINF:-1 tvg-id="US2700001QY" tvg-country="AR" tvg-name="FOX Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/FOX_Sports_logo.svg/960px-FOX_Sports_logo.svg.png" group-title="Sports",FOX Sports
-https://jmp2.uk/stvp-US2700001QY
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-country="AR" tvg-name="TyC Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
 http://45.181.87.106/TYCSPORTSHD/index.m3u8
 #EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" tvg-country="AR" tvg-name="TyC Sports USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports USA
@@ -67,7 +65,7 @@ http://200.115.120.1:8000/play/ca091/index.m3u8
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalUniversidad.ar@SD" tvg-country="AR" tvg-name="Canal Universidad" tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="Education",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
+#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-id="Aunar.ar" tvg-country="AR" tvg-name="Aunar" tvg-logo="https://i.imgur.com/BfaCaZF.png" group-title="Culture",Aunar
 https://5fb24b460df87.streamlock.net/live-cont.ar/mirador/playlist.m3u8
@@ -235,6 +233,8 @@ http://204.199.3.2/.m3u8
 https://media.neuquen.gov.ar/rtn/television/media.m3u8
 #EXTINF:-1 tvg-id="SanLuisPlus.ar@SD" tvg-country="AR" tvg-name="San Luis +" tvg-logo="https://i.imgur.com/bGoGiry.png" group-title="General",San Luis +
 https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8
+#EXTINF:-1 tvg-id="SanPedroTV.ar@SD" tvg-country="AR" tvg-name="San Pedro TV" tvg-logo="https://i.imgur.com/UkpXogr.png" group-title="General",San Pedro TV (1080p)
+https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="SenillosaTV.ar@SD" tvg-country="AR" tvg-name="Senillosa TV" tvg-logo="https://yt3.ggpht.com/ytc/AKedOLTrvk7gv0uCQ8QdGREqv6Rtzm4F6UMetdxKub6D=s400-c-k-c0x00ffffff-no-rj" group-title="General",Senillosa TV
 https://player.videohost.click/senillosatv/senillosatv/playlist.m3u8
 #EXTINF:-1 tvg-id="SicardiTV.ar@SD" tvg-country="AR" tvg-name="Sicardi TV" tvg-logo="https://i.imgur.com/W2EUIL2.png" group-title="General",Sicardi TV (720p)
@@ -243,8 +243,6 @@ https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 http://138.121.15.230:9002/SONY/index.m3u8
 #EXTINF:-1 tvg-id="T5Satelital.ar@SD" tvg-country="AR" tvg-name="T5 Satelital" tvg-logo="https://i.imgur.com/ZcD0rUP.png" group-title="General",T5 Satelital
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
-#EXTINF:-1 tvg-id="TelePosadas.ar@HD" tvg-country="AR" tvg-name="Tele Posadas" tvg-logo="https://i.imgur.com/88MVgwX.png" group-title="General",Tele Posadas (720p)
-https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 #EXTINF:-1 tvg-id="Telefe.ar@SD" tvg-country="AR" tvg-name="Telefe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe (1080p)
 http://45.173.231.22:8000/play/a053/index.m3u8
 #EXTINF:-1 tvg-id="TelefeBuenosAires.ar@SD" tvg-country="AR" tvg-name="Telefe Buenos Aires" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Buenos Aires (1080p)
@@ -257,8 +255,10 @@ http://200.115.120.1:8000/play/ca016/index.m3u8
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
 #EXTINF:-1 tvg-id="TelefeTucuman.ar@SD" tvg-country="AR" tvg-name="Telefe Tucuman" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="General",Telefe Tucuman (1080p)
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-country="AR" tvg-name="Telemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="General",Telemax (Argentina)
+#EXTINF:-1 tvg-id="Telemax.ar" tvg-country="AR" tvg-name="Telemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="General",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+#EXTINF:-1 tvg-id="Telenord.ar@SD" tvg-country="AR" tvg-name="Telenord" tvg-logo="https://i.imgur.com/yqXORkt.png" group-title="General",Telenord (Argentina) (1080p)
+http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesol.ar@SD" tvg-country="AR" tvg-name="Telesol" tvg-logo="https://i.imgur.com/79sTxtP.png" group-title="General",Telesol (1080p)
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCanal72.ar@SD" tvg-country="AR" tvg-name="TV Canal 72" tvg-logo="https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png" group-title="General",TV Canal 72

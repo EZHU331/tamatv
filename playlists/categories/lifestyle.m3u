@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IN1.xml.gz"
 #EXTINF:-1 tvg-id="10Bold.au@Sydney" tvg-country="AU" tvg-name="10 Bold" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle",10 Bold (1080p)
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 tvg-id="30ALuxeLifeDiscovered.us@SD" tvg-country="US" tvg-name="30A Luxe Life Discovered" tvg-logo="https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg" group-title="Lifestyle",30A Luxe Life Discovered (720p)
@@ -25,10 +25,6 @@ https://2-fss-1.streamhoster.com/pl_154/205722-2251224-1/playlist.m3u8
 http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u8
 #EXTINF:-1 tvg-id="BizzTV.tt@SD" tvg-country="TT" tvg-name="Bizz TV" tvg-logo="https://i.imgur.com/UxHaJNR.png" group-title="Lifestyle",Bizz TV (1080p)
 https://stream.bizzmedia.biz/bizz_tv/index.m3u8
-#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f" tvg-country="ES" tvg-name="Buen Viaje" tvg-logo="https://i.ibb.co/VRP6BnZ/AMC-Living.png" group-title="Lifestyle",Buen Viaje
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=5vFg4rw2RVD9YG1VKvqG
-#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-616df1e90dfa27ee465797fa" tvg-country="US" tvg-name="CineLife" tvg-logo="https://i.imgur.com/RIUNuMQ.png" group-title="Lifestyle",CineLife
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-616df1e90dfa27ee465797fa/?X-Plex-Token=5vFg4rw2RVD9YG1VKvqG
 #EXTINF:-1 tvg-id="CinePride.us@SD" tvg-country="US" tvg-name="CinePride" tvg-logo="https://i.imgur.com/Y4Wgq8I.png" group-title="Lifestyle",CinePride (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2223
 #EXTINF:-1 tvg-id="CityEdenMedZdrav.ru@HD" tvg-country="RU" tvg-name="City Eden MedZdrav" tvg-logo="https://i.imgur.com/BM4E0Kr.png" group-title="Lifestyle",City Eden MedZdrav
@@ -76,7 +72,7 @@ https://ca-rt.onetv.app/gemlife/index-0.m3u8?token=onetv202
 https://pubgfc.teleosmedia.com/linear/globalfashionchannel/globalfashionchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="GuideLoveTV.ci@SD" tvg-country="CI" tvg-name="Guide Love TV" tvg-logo="https://i.ibb.co/9gS2Y4G/guidelove-logo.png" group-title="Lifestyle",Guide Love TV (720p)
 https://video1.getstreamhosting.com:1936/8056/8056/playlist.m3u8
-#EXTINF:-1 tvg-id="HANDICAPTV.fr@SD" tvg-country="FR" tvg-name="HANDICAP TV" tvg-logo="https://i.imgur.com/vXbAeD0.png" group-title="Lifestyle",HANDICAP TV
+#EXTINF:-1 tvg-id="HandicapTV.fr" tvg-country="FR" tvg-name="Handicap TV" tvg-logo="https://i.imgur.com/vXbAeD0.png" group-title="Lifestyle",Handicap TV
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
 #EXTINF:-1 tvg-id="HangulatTV.hu@SD" tvg-country="HU" tvg-name="Hangulat TV" tvg-logo="https://play-lh.googleusercontent.com/uBasB1USS1zI0tdHUbhUg356TwmworMA5P_7UGnhvg3z6LXX6n1bEk7Qj3cE3-yuToA" group-title="Lifestyle",Hangulat TV (720p)
 https://iptv01.eurocable.co.hu/EC-HANGULATTV/index.m3u8
@@ -124,10 +120,6 @@ https://d3i68hpvh19xjd.cloudfront.net/JamieOliver_GB.m3u8
 https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
 #EXTINF:-1 tvg-id="TV5MondeStyle.fr@SD" tvg-country="FR" tvg-name="TV5Monde Style" tvg-logo="https://i.imgur.com/cwC7Q2V.png" group-title="Lifestyle",TV5Monde Style
 http://103.190.232.129/stream/tvb/style/master.m3u8?p=967e33767f592e1aaf3d4019f38f380bf784e113b193d89c412d047059d6300d&u=Oleg
-#EXTINF:-1 tvg-id="IT12000029J" tvg-country="ES" tvg-name="Viaggi & Sapori" tvg-logo="https://provider-static.plex.tv/epg/cms/production/0a60d1de-0e20-4df9-aa1d-88a5610bac1b/Logo_Viaggi_Sapori_1500x1000_DarkBackground_-_Borja_M__ndez.png" group-title="Lifestyle",Viaggi & Sapori
-https://jmp2.uk/stvp-IT12000029J
-#EXTINF:-1 tvg-id="ES300033TI" tvg-country="ES" tvg-name="Viajes & Sabores" tvg-logo="https://provider-static.plex.tv/epg/cms/production/03e84b82-8da3-432d-9dfe-fb32927f106e/Logo_Viajes_Sabores_1500x1000_DarkBackground_-_Belen_Bruno.png" group-title="Lifestyle",Viajes & Sabores
-https://jmp2.uk/stvp-ES300033TI
 #EXTINF:-1 tvg-id="Wapp.cl@SD" tvg-country="CL" tvg-name="Wapp" tvg-logo="https://i.imgur.com/Bv1yJ1d.png" group-title="Lifestyle",Wapp (720p)
 https://stream.wapptv.cl/video/index.m3u8
 #EXTINF:-1 tvg-id="YachtingTV.cz@SD" tvg-country="CZ" tvg-name="Yachting TV" tvg-logo="https://i.imgur.com/YxO60B1.png" group-title="Lifestyle",Yachting TV (1080p)

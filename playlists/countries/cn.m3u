@@ -1,5 +1,5 @@
 #EXTM3U url-tvg="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml" x-tvg-url="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-id="CCTV11.cn" tvg-country="CN" tvg-name="CCTV11" tvg-logo="https://i.imgur.com/CjOWx7L.png" group-title="央视",cctv11 (720p)
+#EXTINF:-1 tvg-id="CCTV11.cn" tvg-country="CN" tvg-name="cctv11" tvg-logo="https://i.imgur.com/CjOWx7L.png" group-title="央视",cctv11 (720p)
 https://stream1.freetv.fun/5617304ea25f76d83957d5012276580a73df55d2617a82014ce8938123aac348.m3u8
 #EXTINF:-1 tvg-id="CCTV16.cn" tvg-country="CN" tvg-name="CCTV16" tvg-logo="https://i.imgur.com/ZzV6JQp.png" group-title="央视",CCTV 16 4K HEVC (2160p)
 http://gslbserv.itv.cmvideo.cn/5000000008000023254/1.m3u8?channel-id=bestzb&Contentid=5000000008000023254&livemode=1&stbId=3
@@ -13,10 +13,10 @@ http://74.91.26.218:82/live/cctv3hd.m3u8
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn@SD" tvg-country="CN" tvg-name="CCTV-4 Asia" tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="央视",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="CCTV4Europe.cn@SD" tvg-country="CN" tvg-name="CCTV-4 Europe" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="央视",CCTV-4 Europe
-https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV-4k" tvg-country="CN" tvg-name="CCTV-4K" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="央视",CCTV-4K (2160p)
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1791075600-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-e0b3d5acaadb164d5759f48b59c57eef&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1791114300-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-6a86624711d92fcdc9506eabda04470e&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+#EXTINF:-1 tvg-id="CCTV4Europe.cn" tvg-country="CN" tvg-name="CCTV4中文国际欧洲" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="央视",cctv-4中文国际 (720p)
+https://stream1.freetv.fun/eeac560cb2db13aa0ea2094ca16c2fde31ce7b721769652b927d23ff56e9dee4.ctv
 #EXTINF:-1 tvg-id="CCTV6.cn@HD" tvg-country="CN" tvg-name="CCTV-6" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="央视",CCTV-6 HD (1080p)
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV7.cn@SD" tvg-country="CN" tvg-name="CCTV-7" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="央视",CCTV-7 (720p)
@@ -107,6 +107,8 @@ https://amg00405-rakutentv-cgtn-rakuten-i9tar.amagi.tv/master.m3u8
 https://arabic-livews.cgtn.com/hls/LSveq57bErWLinBnxosqjisZ220802LSTefTAS9zc9mpU08y3np9TH220802cd/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNDocumentary.cn@SD" tvg-country="CN" tvg-name="CGTN Documentary" tvg-logo="https://i.imgur.com/JHv0WxM.png" group-title="地方",CGTN Documentary (1080p)
 https://english-livebkali.cgtn.com/live/doccgtn.m3u8
+#EXTINF:-1 tvg-id="CGTNFrench.cn@SD" tvg-country="CN" tvg-name="CGTN French" tvg-logo="https://i.imgur.com/BwhledK.png" group-title="地方",CGTN Français (1080p)
+https://francais-livews.cgtn.com/hls/LSvev95OuFZtKLc6CeKEFYXj220802LSTeV6PO0Ut9r71Uq3k5goCA220802cd/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" tvg-country="CN" tvg-name="CGTN Global Biz" tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="地方",CGTN Global Biz (1080p)
 https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
 #EXTINF:-1 tvg-id="CGTNRussian.cn@SD" tvg-country="CN" tvg-name="CGTN Russian" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="地方",CGTN Russian (1080p)
@@ -129,8 +131,6 @@ http://live.cztv.cc:85/live/xwpd.m3u8
 http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?A=&E=&K=&P=&S=&U=
 #EXTINF:-1 tvg-id="DiscoveringChina.cn@SD" tvg-country="CN" tvg-name="Discovering China" tvg-logo="https://i.imgur.com/wr2bLaA.png" group-title="地方",Discovering China (1080p)
 https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
-#EXTINF:-1 tvg-id="DragonTVInternational.cn@SD" tvg-country="CN" tvg-name="Dragon TV International" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="地方",Dragon TV International
-https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
 #EXTINF:-1 tvg-id="FengshangShoppingChannel.cn@SD" tvg-country="CN" tvg-name="Fengshang Shopping Channel" tvg-logo="https://i.imgur.com/WNhfnUR.png" group-title="地方",Fengshang Shopping Channel (1080p)
 http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
 #EXTINF:-1 tvg-id="GoldenEagleCartoon.cn" tvg-country="CN" tvg-name="Golden_Eagle_Cartoon" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="地方",Golden_Eagle_Cartoon
@@ -213,7 +213,7 @@ https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 http://120.76.248.139/live/bfgd/4200000158.m3u8
 #EXTINF:-1 tvg-id="GuangdongPearlRiverChannel.cn" tvg-country="CN" tvg-name="广东珠江" tvg-logo="https://www.tvchinese.net/uploads/tv/gdzjpd.jpg" group-title="地方",广东珠江 (720p)
 https://stream1.freetv.fun/e7045f18df8fa6b98756f4bc5cbd94d0099dd73e9ff3cf359d15d326ee1a733b.m3u8
-#EXTINF:-1 tvg-id="GuangdongMobileChannel.cn" tvg-country="CN" tvg-name="广东移动频道" tvg-logo="https://www.tvchinese.net/uploads/tv/gzydpd.jpg" group-title="地方",广东移动 (720p)
+#EXTINF:-1 tvg-id="GuangdongMobileChannel.cn" tvg-country="CN" tvg-name="广东移动" tvg-logo="https://www.tvchinese.net/uploads/tv/gzydpd.jpg" group-title="地方",广东移动 (720p)
 https://stream1.freetv.fun/ef054656d7deb2e72d56609d1cb441d2680cde24e52ff750b1ef59e79a268f7c.m3u8
 #EXTINF:-1 tvg-id="GuangdongEconomyScienceandEducationChannel.cn" tvg-country="CN" tvg-name="广东经济科教" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8d/GRT_Economy_and_Science_%26_Technology_logo_2019.png" group-title="地方",广东经济科教
 http://119.32.12.17:2901/udp/224.1.100.6:11111
@@ -252,7 +252,7 @@ https://zby.130519.xyz/PLTV/11/224/3221225768/index.m3u8
 #EXTINF:-1 tvg-id="福州生活" tvg-country="CN" tvg-name="福州生活" tvg-logo="https://i.imgur.com/jt7CWDT.png" group-title="地方",福州生活
 http://live.zohi.tv:80/video/s10001-fztv-3/index.m3u8
 #EXTINF:-1 tvg-id="福建旅游" tvg-country="CN" tvg-name="福建旅游" tvg-logo="https://i.imgur.com/jo6bgEH.png" group-title="地方",福建旅游
-https://live.264788.xyz/channel/fujianlvyou?streamid=fc58882de71ce4575b66002f2475226b&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
+https://live.264788.xyz/channel/fujianlvyou?streamid=599c11c8b284751261b165f4d5765b36&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk
 #EXTINF:-1 tvg-id="福建经视" tvg-country="CN" tvg-name="福建经视" tvg-logo="https://i.imgur.com/tZAJfsW.png" group-title="地方",福建经视
 https://stream1.freetv.fun/fu-jian-jing-ji-4.m3u8
 #EXTINF:-1 tvg-id="福建综合" tvg-country="CN" tvg-name="福建综合" tvg-logo="https://i.imgur.com/rePTGa6.png" group-title="地方",福建综合
@@ -287,14 +287,14 @@ https://stream1.freetv.fun/9f3e33c6a37116c66b6d9630d2811d1cd233a02c2aedd96130ceb
 https://zby.130519.xyz/PLTV/11/224/3221225764/index.m3u8
 #EXTINF:-1 tvg-id="福建少儿" tvg-country="CN" tvg-name="福建少儿" tvg-logo="https://i.imgur.com/0lhiBNa.png" group-title="少儿",福建少儿
 https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8
+#EXTINF:-1 tvg-id="CHCFansMovieChannel.cn" tvg-country="CN" tvg-name="CHC影迷电影" tvg-logo="https://i.imgur.com/ed3ve9F.png" group-title="电影",[BD]chc影迷电影
+https://stream1.freetv.fun/e19f53c2ac2bb7cbd8a9efd6fab6690900c57cd2c8b45b9c910538be57f714d1.m3u8
 #EXTINF:-1 tvg-id="AnhuiFilmandVideoChannel.cn" tvg-country="CN" tvg-name="安徽影视" tvg-logo="https://i.imgur.com/e53cqWG.png" group-title="电影",[BD]安徽影视
 https://epg.pw/stream/a34aa2b2f8b89143f5d1d219d14e07aff3a540dcee1a8827a7493d54a6dbe218.ctv
 #EXTINF:-1 tvg-id="GuangdongDramaMovieChannel.cn" tvg-country="CN" tvg-name="广东影视" tvg-logo="https://epg.pw/media/images/channel/2024/01/14/large/20240114130217262909_90.png" group-title="电影",[BD]广东影视
 https://stream1.freetv.fun/461dc5e5fc56107dbbd0d1a43dced2b7fd0740586d456f881483e5f81383ec1c.m3u8
 #EXTINF:-1 tvg-id="JiangsuMovieChannel.cn" tvg-country="CN" tvg-name="江苏影视" tvg-logo="https://www.tvchinese.net/uploads/tv/jsys.jpg" group-title="电影",[VGA]江苏影视
 https://stream1.freetv.fun/869b01b25cab9762f5ec65b60d2fe332149a7d105c3ae72edf6d0dd8544178a0.ctv
-#EXTINF:-1 tvg-id="CHCFansMovieChannel.cn" tvg-country="CN" tvg-name="CHC影迷电影" tvg-logo="https://i.imgur.com/ed3ve9F.png" group-title="电影",chc影迷电影 (720p)
-https://stream1.freetv.fun/e19f53c2ac2bb7cbd8a9efd6fab6690900c57cd2c8b45b9c910538be57f714d1.m3u8
 #EXTINF:-1 tvg-id="湖北影视" tvg-country="CN" tvg-name="湖北影视" tvg-logo="https://www.tvchinese.net/uploads/tv/hbys.jpg" group-title="电影",湖北影视
 https://stream1.freetv.fun/hu-bei-ying-shi-1.ctv
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-country="CN" tvg-name="Anhui TV" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="其他",Anhui TV
