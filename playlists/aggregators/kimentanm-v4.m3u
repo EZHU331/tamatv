@@ -8,6 +8,9 @@ http://101.35.240.114:88/live.php?id=CCTV4K
 #EXTINF:-1 tvg-id="CCTV16" tvg-country="CN" tvg-name="CCTV16" tvg-logo="https://i.imgur.com/ZzV6JQp.png" group-title="央视" http-user-agent="iPhone",CCTV16
 #EXTVLCOPT:http-user-agent=iPhone
 http://101.35.240.114:88/live.php?id=CCTV16
+#EXTINF:-1 tvg-id="CCTV17" tvg-country="CN" tvg-name="CCTV17" tvg-logo="https://i.imgur.com/jSQURxS.png" group-title="央视" http-user-agent="AptvPlayer-UA",CCTV17
+#EXTVLCOPT:http-user-agent=AptvPlayer-UA
+http://101.35.240.114:88/live.php?id=CCTV17
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN%E4%BF%84%E8%AF%AD.png" group-title="央视",CGTN俄语
 https://0472.org/hls/cgtne.m3u8
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN%E6%B3%95%E8%AF%AD.png" group-title="央视",CGTN法语

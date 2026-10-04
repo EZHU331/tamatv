@@ -5,6 +5,8 @@ http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
 https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="JOJ24.sk" tvg-country="SK" tvg-name="JOJ 24" tvg-logo="https://i.imgur.com/Tv12wOd.png" group-title="News",JOJ 24
 https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%2024
+#EXTINF:-1 tvg-id="JOJSport.sk" tvg-country="SK" tvg-name="JOJ Šport" tvg-logo="https://i.imgur.com/KirqaU4.png" group-title="Sports",JOJ Šport
+https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20%C5%A0port
 #EXTINF:-1 tvg-id="Sport.sk@SD" tvg-country="SK" tvg-name="Sport" tvg-logo="https://i.imgur.com/oAtcxNZ.png" group-title="Sports",Sport (Slovakia) (1080p)
 http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
 #EXTINF:-1 tvg-id="JojCinema.cz" tvg-country="SK" tvg-name="JOJ Cinema" tvg-logo="https://i.imgur.com/5Auduch.png" group-title="Movies",JOJ Cinema
@@ -33,7 +35,7 @@ https://lifetv.mpks.sk/s.m3u8
 https://dash3.antik.sk/live/test_haha_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JojFamily.sk" tvg-country="SK" tvg-name="JOJ Family" tvg-logo="https://i.imgur.com/k1COMHi.png" group-title="Family",JOJ Family
 https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Family
-#EXTINF:-1 tvg-id="STV1.sk" tvg-country="SK" tvg-name="Jednotka" tvg-logo="https://i.imgur.com/aqVki9i.png" group-title="General",Jednotka
+#EXTINF:-1 tvg-id="Jednotka.sk@SD" tvg-country="SK" tvg-name="Jednotka" tvg-logo="https://i.imgur.com/aqVki9i.png" group-title="General",Jednotka
 http://88.212.15.19/live/test_jednotka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="JOJ.sk" tvg-country="SK" tvg-name="JOJ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/joj-sk.png" group-title="General",JOJ
 https://sktv.mxnticek.eu/new/stream.php?ch=JOJ
