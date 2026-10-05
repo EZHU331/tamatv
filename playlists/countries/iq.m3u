@@ -26,8 +26,6 @@ https://hlspackager.akamaized.net/live/DB/PAYAM_TV/HLS/PAYAM_TV.m3u8
 https://hlspackager.akamaized.net/live/DB/RUDAW/HLS/RUDAW.m3u8
 #EXTINF:-1 tvg-id="ShamsTV.iq@SD" tvg-country="IQ" tvg-name="Shams TV" tvg-logo="https://www.semakurd.net/sites/default/files/imagecache/400xY/shemis-tv.jpg" group-title="News",Shams TV (Iraq) (1080p)
 https://stream.shams.tv/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AlIraqiaSport.iq@SD" tvg-country="IQ" tvg-name="Al Iraqia Sport" tvg-logo="https://i.imgur.com/DrrlxTO.png" group-title="Sports",Al Iraqia Sport (720p)
-https://imn-live.esite-lab.com/hls/iraqia-sports-1.m3u8
 #EXTINF:-1 tvg-id="Kurdsat.iq@SD" tvg-country="IQ" tvg-name="Kurdsat" tvg-logo="https://i.imgur.com/UAbSwYA.png" group-title="Entertainment",Kurdsat (1080p)
 https://hlspackager.akamaized.net/live/DB/KURDSAT_HD/HLS/KURDSAT_HD.m3u8
 #EXTINF:-1 tvg-id="AfarinBaxcha.iq@SD" tvg-country="IQ" tvg-name="Afarin Baxcha" tvg-logo="https://i.postimg.cc/4xRkBDRx/Afarin-Baxcha-200.png" group-title="Kids",Afarin Baxcha (1080p)
@@ -82,10 +80,14 @@ https://stream.afaq.iq/live/channel/afaqtv/playlist.m3u8
 https://imn-live.esite-lab.com/hls/iraqia-general.m3u8
 #EXTINF:-1 tvg-id="AlIraqiaKurdish.iq@HD" tvg-country="IQ" tvg-name="Al Iraqia Kurdish" tvg-logo="https://gateway.esite-lab.com/file-storage/api/v1/public/uploads/2025/3/8/7a8a2548d8e5850e87066d2e573796189.png" group-title="General",Al Iraqia Kurdish (720p)
 https://imn-live.esite-lab.com/hls/iraqia-kurdish.m3u8
+#EXTINF:-1 tvg-id="AlRasheedTV.iq@SD" tvg-country="IQ" tvg-name="Al Rasheed TV" tvg-logo="https://i.imgur.com/ltyRjPK.png" group-title="General",Al Rasheed TV (1080p)
+https://media1.livaat.com/static/AL-RASHEED-HD/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiya.iq@SD" tvg-country="IQ" tvg-name="Al Sharqiya" tvg-logo="https://i.imgur.com/mJIG5IV.png" group-title="General",Al Sharqiya (1080p)
 http://185.9.2.18/chid_144/index.m3u8
 #EXTINF:-1 tvg-country="IQ" tvg-name="Al-Iraqiya" tvg-logo="https://i.imgur.com/imdV6kL.png" group-title="General",Al-Iraqiya
 https://cdn.catiacast.video/abr/8d2ffb0aba244e8d9101a9488a7daa05/playlist.m3u8
+#EXTINF:-1 tvg-id="AlNaeemTV.iq@SD" tvg-country="IQ" tvg-name="Al-Naeem TV" tvg-logo="https://i.imgur.com/JyWjfIB.png" group-title="General",Al-Naeem TV
+http://37.238.136.61/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AlRafidainTV.iq" tvg-country="IQ" tvg-name="Al-Rafidain" tvg-logo="https://i.imgur.com/D78qG91.png" group-title="General",Al-Rafidain
 https://cdg8.edge.technocdn.com/arrafidaintv/abr_live/playlist.m3u8
 #EXTINF:-1 tvg-id="AlawlaTV.iq@SD" tvg-country="IQ" tvg-name="Alawla TV" tvg-logo="https://i.imgur.com/3Kv0t3X.png" group-title="General",Alawla TV

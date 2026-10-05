@@ -65,8 +65,6 @@ https://amg00716-globo-amg00716c1-tcl-br-9495.playouts.now.amagi.tv/playlist.m3u
 https://ogc-nsprt-tcl-roku-syndication.otteravision.com/ogc/nsprt/nsprt.m3u8
 #EXTINF:-1 tvg-id="SporTV.br@SD" tvg-country="BR" tvg-name="SporTV" tvg-logo="https://i.postimg.cc/gr9x3z71/Spor-TV-2021.png" group-title="Sports",SporTV (1080p)
 http://195.178.110.110/sportv/index.m3u8
-#EXTINF:-1 tvg-id="SporTV3.br@SD" tvg-country="BR" tvg-name="SporTV 3" tvg-logo="https://i.imgur.com/mWOR8pi.png" group-title="Sports",SporTV 3 (720p)
-http://170.83.49.66:8083/SPORTV3HD/index.m3u8
 #EXTINF:-1 tvg-id="TVMaticFight.br@SD" tvg-country="BR" tvg-name="TVMatic Fight" tvg-logo="https://i.imgur.com/l5PBcKN.png" group-title="Sports",TVMatic Fight (720p)
 http://cdn.tvmatic.net/fight.m3u8
 #EXTINF:-1 tvg-id="AXN.br@SD" tvg-country="BR" tvg-name="AXN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/AXN_logo_%282015%29.svg/960px-AXN_logo_%282015%29.svg.png" group-title="Movies",AXN (Brazil) (720p)
@@ -237,8 +235,6 @@ https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
 http://45.162.64.114/CANAL_DO_BOI/index.m3u8
 #EXTINF:-1 tvg-id="CanalOff.br@SD" tvg-country="BR" tvg-name="Canal Off" tvg-logo="https://i.imgur.com/1biaLgJ.png" group-title="General",Canal Off (1080p)
 http://170.82.202.31/OFF/index.m3u8
-#EXTINF:-1 tvg-id="CanalSete.br@SD" tvg-country="BR" tvg-name="Canal Sete" tvg-logo="https://i.imgur.com/0cq0BPp.png" group-title="General",Canal Sete
-http://play.canalsete.com.br:1935/canalsete/xpl-c7_source/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalUOL.br@SD" tvg-country="BR" tvg-name="Canal UOL" tvg-logo="https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg" group-title="General",Canal UOL (1080p)
 https://video24.mais.uol.com.br/live/6146.m3u8
 #EXTINF:-1 tvg-id="Catve2.br@SD" tvg-country="BR" tvg-name="Catve2" tvg-logo="https://i.imgur.com/qiVfsfB.png" group-title="General",Catve2 (720p)
@@ -271,8 +267,6 @@ http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 https://6836041ea1117.streamlock.net/tvodia/tvodia/playlist.m3u8
 #EXTINF:-1 tvg-id="PlayTV.br@SD" tvg-country="BR" tvg-name="Play TV" tvg-logo="https://i.imgur.com/Ikrj3lk.png" group-title="General",Play TV (Brazil) (720p)
 http://45.162.64.114/PLAY_TV/index.m3u8
-#EXTINF:-1 tvg-id="PrimerTV.br@SD" tvg-country="BR" tvg-name="Primer TV" tvg-logo="https://i.imgur.com/PMptSP3.png" group-title="General",Primer TV (1080p)
-http://200.194.238.229:8383/live/primer/playlist.m3u8
 #EXTINF:-1 tvg-id="RBATV.br@SD" tvg-country="BR" tvg-name="RBATV" tvg-logo="https://i.imgur.com/ZWFxlU1.png" group-title="General",RBATV (720p)
 https://cdn.live.br1.jmvstream.com/w/LVW-15748/LVW15748_Yed7yzLuRC/playlist.m3u8
 #EXTINF:-1 tvg-id="RCTVBrasil.br@SD" tvg-country="BR" tvg-name="RCTV Brasil" tvg-logo="https://eswqkrogupaisirwcsys.supabase.co/storage/v1/object/public/mbc-media/canais/1776378749826-jef0fj1ekwq.png" group-title="General",RCTV Brasil
@@ -310,6 +304,8 @@ https://cdn-sp2.satlabscloud.com.br/RBS_HD/index.m3u8?token=Mw3YKkujzIi9hYQJ6kAQ
 https://maystreaming.cloudecast.com/redemeio/index.m3u8
 #EXTINF:-1 tvg-id="RedeRC.br@SD" tvg-country="BR" tvg-name="Rede RC" tvg-logo="https://i.imgur.com/y9dqo3f.png" group-title="General",Rede RC (720p)
 http://tv02.logicahost.com.br:1935/rederc/rederc/live.m3u8
+#EXTINF:-1 tvg-id="RedeTV.br@SD" tvg-country="BR" tvg-name="Rede TV!" tvg-logo="https://i.imgur.com/ZJgD38F.png" group-title="General",Rede TV! (720p)
+http://45.162.64.114/REDE_TV/index.m3u8
 #EXTINF:-1 tvg-id="RedeTVMais.br@SD" tvg-country="BR" tvg-name="Rede TV! Mais" tvg-logo="https://i.ibb.co/F0Tm2WP/2103f4c07b851d64b4c96955765a9a95.png" group-title="General",Rede TV! Mais
 https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
 #EXTINF:-1 tvg-id="RedeTVParana.br@SD" tvg-country="BR" tvg-name="RedeTV! Parana" tvg-logo="https://i.imgur.com/D8R0Af4.png" group-title="General",RedeTV! Parana
@@ -320,6 +316,8 @@ https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 http://170.84.165.204/SBT_HD/index.m3u8
 #EXTINF:-1 tvg-id="SertaoTV.br@SD" tvg-country="BR" tvg-name="Sertao TV" tvg-logo="https://i.imgur.com/b5xOCsC.png" group-title="General",Sertao TV (720p)
 http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="SICTV.br@SD" tvg-country="BR" tvg-name="SIC TV" tvg-logo="https://i.imgur.com/mHxQyB2.png" group-title="General",SIC TV (720p)
+https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 #EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-country="BR" tvg-name="Sony Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="General",Sony Channel (Brazil) (720p)
 http://170.83.16.50/SONY_CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="SOUTV.br@SD" tvg-country="BR" tvg-name="SOU TV" tvg-logo="https://i.ibb.co/8cKmCNm/ezgif-com-gif-maker.png" group-title="General",SOU TV

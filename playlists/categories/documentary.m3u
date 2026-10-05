@@ -15,14 +15,14 @@ https://9e754fa707344ccca6d84955c8fcaf36.mediatailor.us-east-1.amazonaws.com/v1/
 https://d2ah48mnofquik.cloudfront.net/Backstage.m3u8
 #EXTINF:-1 tvg-id="BBCEarth.uk@US" tvg-country="UK" tvg-name="BBC Earth" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7e/BBC_Earth_2023.svg" group-title="Documentary",BBC Earth US (1080p)
 https://amg00793-amg00793c6-xumo-us-2669.playouts.now.amagi.tv/BBCStudios-BBCEarthA-hls/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCFour.uk@UK" tvg-country="UK" tvg-name="BBC Four" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/BBC_Four_logo_2021.svg/960px-BBC_Four_logo_2021.svg.png" group-title="Documentary",BBC Four
-https://cdn.stmify.com/bbc/stream/BBC_FOUR/hevc_iptv_mse_v0.mpd
 #EXTINF:-1 tvg-id="BloombergOriginals.us@US" tvg-country="US" tvg-name="Bloomberg Originals" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Bloomberg_Originals.png" group-title="Documentary",Bloomberg Originals (1080p)
 https://bloomberg.com/media-manifest/streams/qt.m3u8
 #EXTINF:-1 tvg-id="BritBoxMysteries.us@SD" tvg-country="US" tvg-name="BritBox Mysteries" tvg-logo="https://i.imgur.com/PJdzoLN.png" group-title="Documentary",BritBox Mysteries (1080p)
 https://aegis-cloudfront-1.tubi.video/c95700f8-e51c-4a36-ad46-56f70fc9f1d9/playlist.m3u8
 #EXTINF:-1 tvg-id="CapTerre.es@FR" tvg-country="ES" tvg-name="Cap Terre" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/capterre_white.png" group-title="Documentary",Cap Terre (1080p)
 http://145.239.5.177/359a/index.m3u8
+#EXTINF:-1 tvg-name="CCTV-9_(576i)" group-title="Documentary",CCTV-9_(576i)
+https://xykt-fix.github.io/Y77.m3u8
 #EXTINF:-1 tvg-id="ClickTVChile.cl@SD" tvg-country="CL" tvg-name="ClickTV Chile" tvg-logo="https://i.imgur.com/H0XNbMS.png" group-title="Documentary",ClickTV Chile (720p)
 https://v2.tustreaming.cl/clicktv/playlist.m3u8
 #EXTINF:-1 tvg-id="CNAOriginals.sg@SD" tvg-country="SG" tvg-name="CNA Originals" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/CNA_new_logo.svg" group-title="Documentary",CNA Originals (1080p)
@@ -31,8 +31,6 @@ https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01438-ewscrippscompan-courttv-tablo/playlist.m3u8
 #EXTINF:-1 tvg-id="AT4500001S1" tvg-country="US" tvg-name="Crime Time" tvg-logo="https://i.imgur.com/cQxKMMJ.jpg" group-title="Documentary",Crime Time
 https://jmp2.uk/stvp-AT4500001S1
-#EXTINF:-1 tvg-id="CSHistory.cz" tvg-country="CZ" tvg-name="CS History" tvg-logo="https://i.imgur.com/rtYj21D.png" group-title="Documentary",CS History
-https://sktv.mxnticek.eu/new/stream.php?ch=CS%20History
 #EXTINF:-1 tvg-id="CuriosityNOW.de@EN" tvg-country="DE" tvg-name="Curiosity NOW" tvg-logo="https://i.imgur.com/gJ9eMaG.png" group-title="Documentary",Curiosity NOW EN (1080p)
 https://amg00170-amg00170c4-samsung-gb-4232.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="DangerTV.us@SD" tvg-country="US" tvg-name="Danger TV" tvg-logo="https://i.imgur.com/4aTk45R.png" group-title="Documentary",Danger TV (720p)
@@ -142,9 +140,7 @@ https://scihls.persiana.live/hls/stream.m3u8
 https://ptravelhls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" tvg-country="PL" tvg-name="Polsat Viasat History" tvg-logo="https://i.imgur.com/X16UGUf.png" group-title="Documentary",Polsat Viasat History (1080p)
 http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8
-#EXTINF:-1 tvg-id="RLPROTV.cd@SD" tvg-country="CD" tvg-name="RL PRO TV" tvg-logo="https://i.imgur.com/PIBtCEN.jpeg" group-title="Documentary",RL PRO TV
-https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8
-#EXTINF:-1 tvg-id="RT07" tvg-name="RT Doc-Русский" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png" group-title="Documentary",RT Doc-Русский（俄语纪录）
+#EXTINF:-1 tvg-id="RT07" tvg-name="RT Doc-Русский" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png" group-title="Documentary",RT Doc-Русский（俄语纪录）
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
 #EXTINF:-1 tvg-id="RTDocumentary.ru@English" tvg-country="RU" tvg-name="RT Documentary" tvg-logo="https://i.imgur.com/aeu5zIC.png" group-title="Documentary",RT Documentary (1080p)
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8

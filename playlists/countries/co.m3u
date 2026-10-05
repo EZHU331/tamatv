@@ -79,6 +79,8 @@ https://s.emisoras.tv:8081/bendicionchannel/index.m3u8
 http://138.121.15.230:9002/BETHEL/index.m3u8
 #EXTINF:-1 tvg-id="CanalOracionConSon.co@SD" tvg-country="CO" tvg-name="Canal Oracion Con Son" tvg-logo="https://i.imgur.com/rfnFqU3.png" group-title="Religious",Canal Oracion Con Son (1080p)
 https://canal.mediaserver.com.co/live/oracionconson.m3u8
+#EXTINF:-1 tvg-id="CanalTelesantiago.co@SD" tvg-country="CO" tvg-name="Canal Telesantiago" tvg-logo="https://i.imgur.com/DmkH5p8.jpg" group-title="Religious",Canal Telesantiago (1080p)
+https://stream.canaltelesantiago.com:8000/play/TELESANTIAGO/index.m3u8
 #EXTINF:-1 tvg-id="CMBTelevision.co@SD" tvg-country="CO" tvg-name="CMB Television" tvg-logo="https://i.imgur.com/akGKPsk.png" group-title="Religious",CMB Television (1080p)
 https://cdn1.cmbcolombia.tv/bethesda/video.m3u8
 #EXTINF:-1 tvg-id="Cristovision.co@SD" tvg-country="CO" tvg-name="Cristovision" tvg-logo="https://i.imgur.com/XIhCUY9.png" group-title="Religious",Cristovision (720p)
@@ -115,8 +117,6 @@ http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
 http://131.221.41.94/hls/canal2.m3u8
 #EXTINF:-1 tvg-id="CanalInstitucional.co@SD" tvg-country="CO" tvg-name="Canal Institucional" tvg-logo="https://i.imgur.com/CKnf3Ua.png" group-title="General",Canal Institucional (1080p)
 http://190.61.47.54:8000/play/a00v/index.m3u8
-#EXTINF:-1 tvg-id="CanalMasTelevision.co@SD" tvg-country="CO" tvg-name="Canal Mas Television" tvg-logo="https://i.imgur.com/ODMa27W.jpg" group-title="General",Canal Mas Television (720p)
-https://movil.ejeserver.com/live/teledoradahd.m3u8
 #EXTINF:-1 tvg-id="CanalRCN.co@SD" tvg-country="CO" tvg-name="Canal RCN" tvg-logo="https://i.imgur.com/5PhTaHp.png" group-title="General",Canal RCN (1080p)
 http://138.121.15.230:9002/RCN/index.m3u8
 #EXTINF:-1 tvg-id="CanalTV3.co@SD" tvg-country="CO" tvg-name="Canal TV3" tvg-logo="https://i.imgur.com/pyeBDpg.jpeg" group-title="General",Canal TV3 (720p)
@@ -129,8 +129,6 @@ http://167.249.23.102:8000/play/a0ax/index.m3u8
 http://138.121.15.230:9002/CARACOL/index.m3u8
 #EXTINF:-1 tvg-id="CitytvBogota.co@SD" tvg-country="CO" tvg-name="Citytv Bogota" tvg-logo="https://i.imgur.com/h7K9EW9.png" group-title="General",Citytv Bogota (1080p)
 http://138.121.15.230:9002/CITY-TV/index.m3u8
-#EXTINF:-1 tvg-id="CNCBugavision.co@SD" tvg-country="CO" tvg-name="CNC Bugavision" tvg-logo="https://i.imgur.com/zJAwnvd.png" group-title="General",CNC Bugavision (720p)
-https://movil.ejeserver.com/live/cncbuga.m3u8
 #EXTINF:-1 tvg-id="CNCMedellin.co@HD" tvg-country="CO" tvg-name="CNC Medellin" tvg-logo="https://i.imgur.com/J1f4fNq.png" group-title="General",CNC Medellin (1080p)
 http://138.94.3.106:8000/play/a02o/index.m3u8
 #EXTINF:-1 tvg-id="CNCPereira.co@SD" tvg-country="CO" tvg-name="CNC Pereira" tvg-logo="https://i.imgur.com/5vJ0aXH.png" group-title="General",CNC Pereira (720p)
@@ -151,6 +149,8 @@ https://tv.kaludecolombia.com/memfs/d71c0104-4752-4690-bdbf-19aa849da6c4.m3u8
 https://stmv2.voxtvhd.com.br/marsella/marsella/playlist.m3u8
 #EXTINF:-1 tvg-id="MasNorteTV.co@SD" tvg-country="CO" tvg-name="Mas Norte TV" tvg-logo="https://i.imgur.com/NmsWlj6.jpeg" group-title="General",Mas Norte TV
 https://live.arnoproducciones.com/hls/norte.m3u8
+#EXTINF:-1 tvg-id="NexoTV.co@SD" tvg-country="CO" tvg-name="Nexo TV" tvg-logo="https://i.imgur.com/tkEFZWo.png" group-title="General",Nexo TV
+https://vs20.live.opencaster.com/nexotv_7576198a/index.m3u8
 #EXTINF:-1 tvg-id="NuestraTeleInternacional.co@SD" tvg-country="CO" tvg-name="Nuestra Tele Internacional" tvg-logo="https://i.imgur.com/JoGQqmP.png" group-title="General",Nuestra Tele Internacional (1080p)
 http://45.173.231.22:8000/play/a0cr/index.m3u8
 #EXTINF:-1 tvg-id="PancheTelevision.co@SD" tvg-country="CO" tvg-name="Panche Television" tvg-logo="https://i.imgur.com/BJVlOVA.jpeg" group-title="General",Panche Television
@@ -167,10 +167,10 @@ https://live.amelbatv.co:81/telemocoalive/index.m3u8
 http://138.121.15.230:9002/TELEANTIOQUIA/index.m3u8
 #EXTINF:-1 tvg-id="Telecaribe.co@SD" tvg-country="CO" tvg-name="Telecaribe" tvg-logo="https://i.imgur.com/E35cXHt.png" group-title="General",Telecaribe (1080p)
 http://138.121.15.230:9002/TELECARIBE/index.m3u8
-#EXTINF:-1 tvg-id="Teleislas.co@SD" tvg-country="CO" tvg-name="Teleislas" tvg-logo="https://i.imgur.com/aKHGRyk.png" group-title="General",Teleislas (720p)
-http://190.61.47.54:8000/play/a015/index.m3u8
 #EXTINF:-1 tvg-id="Telepacifico.co@SD" tvg-country="CO" tvg-name="Telepacifico" tvg-logo="https://i.imgur.com/39hy97J.png" group-title="General",Telepacifico (1080p)
 http://138.121.15.230:9002/TELEPACIFICO/index.m3u8
+#EXTINF:-1 tvg-id="TeleQuindio.co@SD" tvg-country="CO" tvg-name="TeleQuindio" tvg-logo="https://i.imgur.com/bJWj5ja.png" group-title="General",TeleQuindio (1080p)
+https://live20.bozztv.com/akamaissh101/ssh101/telequindio/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesangil.co@SD" tvg-country="CO" tvg-name="Telesangil" tvg-logo="https://i.ibb.co/27Pzdvw/cropped-TELESANGIL-LOGO-1.png" group-title="General",Telesangil (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/telesangil/playlist.m3u8
 #EXTINF:-1 tvg-id="Trece.co@SD" tvg-country="CO" tvg-name="Trece" tvg-logo="https://i.imgur.com/jsuXXIg.png" group-title="General",Trece (Colombia) (1080p)
