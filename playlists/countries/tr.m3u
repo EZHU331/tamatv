@@ -101,9 +101,6 @@ https://ca-rt.onetv.app/gemkids/index-0.m3u8?token=onetv202
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago_cocuk/minikago_cocuk.m3u8
 #EXTINF:-1 tvg-id="MinikaGo.tr@SD" tvg-country="TR" tvg-name="Minika Go" tvg-logo="https://i.imgur.com/qIoipDq.png" group-title="Kids",Minika Go (720p)
 https://rnttwmjcin.turknet.ercdn.net/lcpmvefbyo/minikago/minikago.m3u8
-#EXTINF:-1 tvg-id="SpacetoonTurkey.tr@SD" tvg-country="TR" tvg-name="Spacetoon Turkey" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/2/2b/Spacetoon_logo.png" group-title="Kids" http-referrer="https://spacetoon.com.tr/",Spacetoon Turkey (720p)
-#EXTVLCOPT:http-referrer=https://spacetoon.com.tr/
-https://live-tr-next.spacetoongo.com/ST_TR_NEXT/hls/h7qefeiwfbjn1.m3u8
 #EXTINF:-1 tvg-id="TRTCocuk.tr@SD" tvg-country="TR" tvg-name="TRT Cocuk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TRT_%C3%87ocuk_logo_%282021%29.svg/960px-TRT_%C3%87ocuk_logo_%282021%29.svg.png" group-title="Kids",TRT Cocuk (1440p)
 https://tv-trtcocuk.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTDiyanetCocuk.tr@SD" tvg-country="TR" tvg-name="TRT Diyanet Cocuk" tvg-logo="https://i.imgur.com/8PmXz9t.png" group-title="Kids",TRT Diyanet Cocuk (720p)
@@ -254,6 +251,8 @@ https://edge1.socialsmart.tv/muglaturk/bant1/playlist.m3u8
 https://dogus.daioncdn.net/ntv/ntv.m3u8?app=ntv_web
 #EXTINF:-1 tvg-id="On4TV.tr@SD" tvg-country="TR" tvg-name="On4 TV" tvg-logo="https://i.imgur.com/qGRa1KI.png" group-title="General",On4 TV (1080p)
 https://edge1.socialsmart.tv/on4/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="PowerTV.tr@SD" tvg-country="TR" tvg-name="Power TV" tvg-logo="https://i.imgur.com/XSL1gd7.png" group-title="General",Power TV (Turkiye) (1080p)
+https://livetv.powerapp.com.tr/powerTV/powerhd.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerTurkTV.tr@SD" tvg-country="TR" tvg-name="PowerTurk TV" tvg-logo="https://i.imgur.com/9OPoXQG.png" group-title="General",PowerTurk TV (720p)
 https://live.artidijitalmedya.com/artidijital_powerturktv/powerturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="QafTV.tr@SD" tvg-country="TR" tvg-name="Qaf TV" tvg-logo="https://i.imgur.com/hrk7Uce.png" group-title="General",Qaf TV (1080p)

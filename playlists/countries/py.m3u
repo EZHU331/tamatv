@@ -19,6 +19,8 @@ http://45.170.130.224:8000/play/a04y/index.m3u8?hls
 http://45.170.130.224:8000/play/a04k/index.m3u8?hls
 #EXTINF:-1 tvg-id="NextHD.py@SD" tvg-country="PY" tvg-name="Next HD" tvg-logo="https://i.imgur.com/c2rF3SS.png" group-title="Movies",Next HD (720p)
 https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
+#EXTINF:-1 tvg-id="AltMediaTV.py@SD" tvg-country="PY" tvg-name="Alt Media TV" tvg-logo="https://i.imgur.com/YkOgWMc.png" group-title="Entertainment",Alt Media TV
+https://video.hostingcaaguazu.com:19360/altmedia/altmedia.m3u8
 #EXTINF:-1 tvg-id="DelReyTV.py@SD" tvg-country="PY" tvg-name="Del Rey TV" tvg-logo="https://i.imgur.com/Zjxvg9u.jpeg" group-title="Entertainment" http-referrer="https://tvonline.com.py/",Del Rey TV (1080p)
 #EXTVLCOPT:http-referrer=https://tvonline.com.py/
 https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
