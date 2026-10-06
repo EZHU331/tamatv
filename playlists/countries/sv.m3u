@@ -11,6 +11,9 @@ https://streaming.asamblea.gob.sv/hls/plenariahd.m3u8
 https://5fc584f3f19c9.streamlock.net/agape/smil:agape.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal65.sv@SD" tvg-country="SV" tvg-name="Canal 65" tvg-logo="https://i.imgur.com/P15QovY.png" group-title="Religious",Canal 65 (1080p)
 https://panel.streamingtv-mediacp.online:1936/tv65/tv65/playlist.m3u8
+#EXTINF:-1 tvg-id="ElimTV.sv@SD" tvg-country="SV" tvg-name="Elim TV" tvg-logo="https://i.imgur.com/payIg0N.png" group-title="Religious" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36",Elim TV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
+https://stream.soporteccrtv.xyz/live/elimtv/main_stream.m3u8
 #EXTINF:-1 tvg-id="GSGTV.sv@SD" tvg-country="SV" tvg-name="GSG TV" tvg-logo="https://i.imgur.com/Naj8yUN.png" group-title="Religious",GSG TV (720p)
 https://schurch1.bozztv.com/livecdn69/live/playlist.m3u8
 #EXTINF:-1 tvg-id="JFVTV.sv@SD" tvg-country="SV" tvg-name="JFV TV" tvg-logo="https://i.imgur.com/SrmI6nU.jpeg" group-title="Religious",JFV TV (720p)
@@ -43,8 +46,6 @@ https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/master.m3u8
 https://mgvchannel21-ioriver-cdn.encoders.immergo.tv/master.m3u8
 #EXTINF:-1 tvg-id="MorazanTV.sv@SD" tvg-country="SV" tvg-name="Morazan TV" tvg-logo="https://i.imgur.com/Yh1lFZH.jpeg" group-title="General",Morazan TV (720p)
 http://45.167.2.138:8000/play/a0o4/index.m3u8
-#EXTINF:-1 tvg-id="RTVCanal57.sv@SD" tvg-country="SV" tvg-name="RTV Canal 57" tvg-logo="https://i.imgur.com/tnOGWqL.png" group-title="General",RTV Canal 57 (720p)
-https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
 #EXTINF:-1 tvg-id="SolTV.sv@SD" tvg-country="SV" tvg-name="SolTV" tvg-logo="https://i.imgur.com/jaBxxpt.png" group-title="General",SolTV (El Salvador) (720p)
 https://videostream.shockmedia.com.ar/hls/canalsoltv/canalsoltv.m3u8
 #EXTINF:-1 tvg-id="SVPlus.sv@SD" tvg-country="SV" tvg-name="SV+" tvg-logo="https://i.imgur.com/bCcnLVL.png" group-title="General",SV+ (720p)
