@@ -25,6 +25,8 @@ https://redirector.dps.live/hls/t13/playlist.m3u8
 http://45.232.210.1:8029/play/a00s/index.m3u8
 #EXTINF:-1 tvg-id="TelecanalSantaCruz.cl@SD" tvg-country="CL" tvg-name="Telecanal Santa Cruz" tvg-logo="https://i.imgur.com/5byPkd7.png" group-title="News",Telecanal Santa Cruz (720p)
 https://origin-us.streaminghd.cl/telecanal/telecanal/playlist.m3u8
+#EXTINF:-1 tvg-id="TeleCauquenes.cl@SD" tvg-country="CL" tvg-name="TeleCauquenes" tvg-logo="https://i.imgur.com/cNYDqhp.png" group-title="News",TeleCauquenes (720p)
+https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8
 #EXTINF:-1 tvg-id="Turno.cl@SD" tvg-country="CL" tvg-name="Turno" tvg-logo="https://i.imgur.com/XuSeHBt.png" group-title="News",Turno (720p)
 https://redirector.dps.live/hls/turno/playlist.m3u8
 #EXTINF:-1 tvg-id="CRTV.cl@SD" tvg-country="CL" tvg-name="CRTV" tvg-logo="https://i2.paste.pics/bf68b159547597c39574aec9dd7c626a.png" group-title="Sports",CRTV (Chile) (720p)
@@ -49,6 +51,8 @@ http://streaming.multicontenidos.cl:8081/live/canalfeliz/playlist.m3u8
 https://v1.tustreaming.cl/emociontv/index.m3u8
 #EXTINF:-1 tvg-id="EstacionLimacheTV.cl@SD" tvg-country="CL" tvg-name="Estacion Limache TV" tvg-logo="https://i.imgur.com/YAADx7P.png" group-title="Entertainment",Estacion Limache TV (720p)
 https://v4.tustreaming.cl/limachemovil/index.m3u8
+#EXTINF:-1 tvg-id="LaMelinkanaTV.cl@SD" tvg-country="CL" tvg-name="La Melinkana TV" tvg-logo="https://i.imgur.com/I0nzI1y.png" group-title="Entertainment",La Melinkana TV (720p)
+https://v1.tustreaming.cl/melinkana/index.m3u8
 #EXTINF:-1 tvg-id="LaNuestra.cl@SD" tvg-country="CL" tvg-name="La Nuestra" tvg-logo="https://i.imgur.com/WExojSG.png" group-title="Entertainment",La Nuestra (1080p)
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/ln/ln.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NadaEsImposibleTV.cl@SD" tvg-country="CL" tvg-name="Nada Es Imposible TV" tvg-logo="https://i.imgur.com/cGNgvOD.png" group-title="Entertainment",Nada Es Imposible TV
@@ -218,6 +222,8 @@ http://168.196.127.137:6001/play/a04l/index.m3u8
 https://oracle.streaminghd.cl/canal-del-sur/canal-del-sur/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalLocal.cl@SD" tvg-country="CL" tvg-name="Canal Local" tvg-logo="https://i.imgur.com/ReZXqWR.png" group-title="General",Canal Local (720p)
 https://v2.tustreaming.cl/canallocalcl/index.m3u8
+#EXTINF:-1 tvg-id="CaracolaTV.cl@SD" tvg-country="CL" tvg-name="Caracola TV" tvg-logo="https://i.imgur.com/QGvfqug.png" group-title="General",Caracola TV
+https://wifispeed.trapemn.tv:1936/comunales/caracola-tv/chunks.m3u8
 #EXTINF:-1 tvg-id="CentralTV.cl@SD" tvg-country="CL" tvg-name="Central TV" tvg-logo="https://cdn.m3u.cl/logo/1706_Central_TV.png" group-title="General",Central TV (Chile) (720p)
 https://freya.mivideo.pro/centraltv/video.m3u8
 #EXTINF:-1 tvg-id="ChileVision.cl@SD" tvg-country="CL" tvg-name="ChileVision" tvg-logo="https://i.imgur.com/PRijvR0.png" group-title="General",ChileVision (1080p)
@@ -252,8 +258,6 @@ https://video.ipstream.cl:3459/hybrid/play.m3u8
 https://v2.tustreaming.cl/enlineamauletv/index.m3u8
 #EXTINF:-1 tvg-id="EnfoqueDigitalTV.cl@SD" tvg-country="CL" tvg-name="Enfoque Digital TV" tvg-logo="https://i.imgur.com/GaJzjt5.png" group-title="General",Enfoque Digital TV
 https://5eaccbab48461.streamlock.net:1936/8074/8074/playlist.m3u8
-#EXTINF:-1 tvg-id="EPATV.cl@SD" tvg-country="CL" tvg-name="EPA! TV" tvg-logo="https://cdn.m3u.cl/logo/1649_EPA__TV.png" group-title="General",EPA! TV (720p)
-https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8
 #EXTINF:-1 tvg-id="EstacionTV.cl@SD" tvg-country="CL" tvg-name="Estacion TV" tvg-logo="https://i.imgur.com/eICyrPP.png" group-title="General",Estacion TV (720p)
 https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Evavision.cl@SD" tvg-country="CL" tvg-name="Evavision" tvg-logo="https://i.imgur.com/neJGp9C.png" group-title="General",Evavision
@@ -270,6 +274,8 @@ https://redirector.dps.live/hls/itv/playlist.m3u8
 https://video.juntostvchile.cl:8879/hls/web-jntv.m3u8
 #EXTINF:-1 tvg-id="LaChilenaTV.cl@SD" tvg-country="CL" tvg-name="La Chilena TV" tvg-logo="https://i.imgur.com/GHJkxaB.png" group-title="General",La Chilena TV
 https://vdochile.com:3134/stream/play.m3u8
+#EXTINF:-1 tvg-id="LaComarcaTV.cl@SD" tvg-country="CL" tvg-name="La Comarca TV" tvg-logo="https://cdn.m3u.cl/logo/1698_La_Comarca_TV.png" group-title="General",La Comarca TV (720p)
+https://v2.tustreaming.cl/lcomarcatv/index.m3u8
 #EXTINF:-1 tvg-id="LaMetroTV.cl@SD" tvg-country="CL" tvg-name="La Metro TV" tvg-logo="https://i.imgur.com/0aoI5Zd.jpeg" group-title="General",La Metro TV (1080p)
 https://jireh-8-hls-video-us-isp.dps.live/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/metropolitanatv/metropolitanatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LaPopularTV.cl@SD" tvg-country="CL" tvg-name="La Popular TV" tvg-logo="https://i.imgur.com/AWdgMCC.png" group-title="General",La Popular TV
@@ -318,8 +324,6 @@ https://v2.tustreaming.cl/fantasiatv/index.m3u8
 https://v1.tustreaming.cl/frecuencia1tv/index.m3u8
 #EXTINF:-1 tvg-id="RadioLasNieves.cl@SD" tvg-country="CL" tvg-name="Radio Las Nieves" tvg-logo="https://cdn.m3u.cl/logo/408_Radio_Las_Nieves.png" group-title="General",Radio Las Nieves (720p)
 https://v2.tustreaming.cl/rln/index.m3u8
-#EXTINF:-1 tvg-id="RadioNuble.cl@SD" tvg-country="CL" tvg-name="Radio Nuble" tvg-logo="https://cdn.m3u.cl/logo/870_Radio_Nuble.png" group-title="General",Radio Nuble (720p)
-https://tv.telselec.cl:3376/live/nublefmlive.m3u8
 #EXTINF:-1 tvg-id="RadioPanoramica.cl@SD" tvg-country="CL" tvg-name="Radio Panoramica" tvg-logo="https://cdn.m3u.cl/logo/1502_Radio_Panoramica.png" group-title="General",Radio Panoramica (720p)
 https://v2.tustreaming.cl/alingeproducciones/index.m3u8
 #EXTINF:-1 tvg-id="RadioPopularTV.cl@SD" tvg-country="CL" tvg-name="Radio Popular TV" tvg-logo="https://i.imgur.com/71U0wTN.png" group-title="General",Radio Popular TV

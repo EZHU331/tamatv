@@ -209,6 +209,8 @@ https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
 #EXTINF:-1 tvg-id="PrimeNews.in@SD" tvg-country="IN" tvg-name="Prime News" tvg-logo="https://i.imgur.com/RQoDzpN.png" group-title="News",Prime News (1080p)
 https://stream.ottlive.co.in/primenews/index.m3u8
+#EXTINF:-1 tvg-id="PrudentMedia.in@SD" tvg-country="IN" tvg-name="Prudent Media" tvg-logo="https://i.imgur.com/DG0x4UD.png" group-title="News",Prudent Media (1080p)
+https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-id="PublicTV.in@SD" tvg-country="IN" tvg-name="Public TV" tvg-logo="https://dtil.tmsimg.com/assets/s143688_ld_h15_aa.png?lock=720x540" group-title="News",Public TV (720p)
 https://cdn.pishow.tv/ott/live/439/master.m3u8
 #EXTINF:-1 tvg-id="RaatdinBangla.in@SD" tvg-country="IN" tvg-name="Raatdin Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/raatdinbangla.png" group-title="News",Raatdin Bangla (720p)
@@ -642,6 +644,8 @@ https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/pl
 https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="Zoom.in@SD" tvg-country="IN" tvg-name="Zoom" tvg-logo="https://dtil.tmsimg.com/assets/s157600_ld_h15_aa.png?lock=720x540" group-title="Music",Zoom (India) (720p)
 https://dai.google.com/linear/hls/event/JCAm25qkRXiKcK1AJMlvKQ/master.m3u8
+#EXTINF:-1 tvg-id="FashionIndia.in@SD" tvg-country="IN" tvg-name="Fashion India" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Fashion_India.png" group-title="Lifestyle",Fashion India (720p)
+http://51.75.127.199:3141/fashionindia/index.m3u8
 #EXTINF:-1 tvg-id="FashionTV.in@SD" tvg-country="IN" tvg-name="FashionTV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/FTV_HD.png" group-title="Lifestyle",FashionTV (India) (1080p)
 http://51.75.127.199:3141/ftvhd/index.m3u8
 #EXTINF:-1 tvg-id="NDTVGoodTimes.in@SD" tvg-country="IN" tvg-name="NDTV Good Times" tvg-logo="https://i.imgur.com/7cruYvo.png" group-title="Lifestyle",NDTV Good Times (1080p)
@@ -706,8 +710,6 @@ https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestenglish/d1796a22d24e8696c7d5d0b5
 https://account20.livebox.co.in/charleshls/live.m3u8
 #EXTINF:-1 tvg-id="HinduDharmam.in@SD" tvg-country="IN" tvg-name="Hindu Dharmam" tvg-logo="https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540" group-title="Religious",Hindu Dharmam (1080p)
 https://mumbai-edge.smartplaytv.in/Hindudharmam/index.m3u8
-#EXTINF:-1 tvg-id="IshwarBhaktiTV.in@SD" tvg-country="IN" tvg-name="Ishwar Bhakti TV" tvg-logo="https://dtil.tmsimg.com/assets/s143213_ld_h9_aa.png?lock=720x540" group-title="Religious",Ishwar Bhakti TV (720p)
-https://6n3yow8pl9ok-hls-live.5centscdn.com/ishwartvlive/tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="JinvaniChannel.in@SD" tvg-country="IN" tvg-name="Jinvani Channel" tvg-logo="https://dtil.tmsimg.com/assets/s143230_ld_h15_aa.png?lock=720x540" group-title="Religious",Jinvani Channel (720p)
 https://cdn.pishow.tv/ott/live/989/master.m3u8
 #EXTINF:-1 tvg-id="JoyTV.in@SD" tvg-country="IN" tvg-name="Joy TV" tvg-logo="https://joytvchennai.org/wp-content/uploads/2026/04/cropped-512.png" group-title="Religious",Joy TV (1080p)
@@ -758,8 +760,6 @@ https://server.playontv.in/swastiktv/index.m3u8
 https://d34z4embz0hjf6.cloudfront.net/out/v1/d55b3323a9f142638f897378f0b526fe/index.m3u8
 #EXTINF:-1 tvg-id="VillageTV.in@SD" tvg-country="IN" tvg-name="Village TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/VillageTV.png" group-title="Religious",Village TV (1080p)
 https://live.villagetv.net/villagetv/hd/index.m3u8
-#EXTINF:-1 tvg-id="ZainabiaChannel.in@SD" tvg-country="IN" tvg-name="Zainabia Channel" group-title="Religious",Zainabia Channel
-https://zainabia.livebox.co.in/ZainabiaChannelhls/channel.m3u8
 #EXTINF:-1 tvg-id="ZBBhakti.in@HD" tvg-country="IN" tvg-name="ZB Bhakti" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbbhakti.png" group-title="Religious",ZB Bhakti (720p)
 https://server.zillarbarta.com/zbbhakti/index.m3u8
 #EXTINF:-1 tvg-id="ZeeCineClassic.in@SD" tvg-country="IN" tvg-name="Zee Cine Classic" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zcinecla.png" group-title="Classic",Zee Cine Classic (1080p)

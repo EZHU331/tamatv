@@ -91,14 +91,8 @@ https://jmp2.uk/stvp-ESBD80000288
 https://jmp2.uk/stvp-ES2200003DA
 #EXTINF:-1 tvg-id="ESBD8000033W" tvg-country="ES" tvg-name="Runtime Comedia" tvg-logo="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_comedia_16x9.jpg" group-title="Entertainment",Runtime Comedia
 https://jmp2.uk/stvp-ESBD8000033W
-#EXTINF:-1 tvg-id="608049aefa2b8ae93c2c3a63-668434f6a017b7e51aeb28d3" tvg-country="ES" tvg-name="Runtime Crimen" tvg-logo="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_crimen_16x9.jpg" group-title="Entertainment",Runtime Crimen
-https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-668434f6a017b7e51aeb28d3/?X-Plex-Token=C7jVRFWGN-8x2w1RmeMC
 #EXTINF:-1 tvg-id="ESBD800004KU" tvg-country="ES" tvg-name="Runtime Romance" tvg-logo="https://img1.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_romance_16x9.jpg" group-title="Entertainment",Runtime Romance
 https://jmp2.uk/stvp-ESBD800004KU
-#EXTINF:-1 tvg-id="643054b1fc3be59477853717-6684011fcd6f1d394094114d" tvg-country="ES" tvg-name="Runtime Series" tvg-logo="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_series_16x9_0.jpg" group-title="Entertainment",Runtime Series
-https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6684011fcd6f1d394094114d/?X-Plex-Token=C7jVRFWGN-8x2w1RmeMC
-#EXTINF:-1 tvg-id="643054b1fc3be59477853717-6683fcdf702b9db9f8177252" tvg-country="ES" tvg-name="Runtime Thriller" tvg-logo="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_thriller.jpg" group-title="Entertainment",Runtime Thriller
-https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6683fcdf702b9db9f8177252/?X-Plex-Token=C7jVRFWGN-8x2w1RmeMC
 #EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-country="ES" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Entertainment",Univers TV (720p)
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-country="ES" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Entertainment",XPTV2 (720p)
@@ -143,10 +137,14 @@ http://ventdelnord.tv:8080/mola/directe.m3u8
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-country="ES" tvg-name="POP World TV" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Music",POP World TV (720p)
 https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
+#EXTINF:-1 tvg-id="RadioCarnavalTV.es@SD" tvg-country="ES" tvg-name="Radio Carnaval TV" tvg-logo="https://i.imgur.com/cdpbkSo.png" group-title="Music",Radio Carnaval TV (720p)
+https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-id="RTVVida.es@SD" tvg-country="ES" tvg-name="RTV Vida" tvg-logo="https://i.imgur.com/EqUfEAh.png" group-title="Music",RTV Vida (1080p)
 https://vidartv2.todostreaming.es/live/radiovida-emisiontvhd.m3u8
 #EXTINF:-1 tvg-id="SolMusica.es@SD" tvg-country="ES" tvg-name="Sol Musica" tvg-logo="https://i.imgur.com/rbJrmPw.png" group-title="Music",Sol Musica (720p)
 https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-21u4g5cjglv02/sm.m3u8
+#EXTINF:-1 tvg-id="SpektraTV.es@SD" tvg-country="ES" tvg-name="SpektraTV" tvg-logo="https://i.imgur.com/0zCt8e4.png" group-title="Music",SpektraTV (720p)
+https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-country="ES" tvg-name="TVOMIX" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" group-title="Music",TVOMIX (1080p)
 https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-country="ES" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="Music",XPTV1 (720p)
@@ -238,12 +236,12 @@ https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
 https://videoserver.tmcreativos.com:19360/hkbpjryheu/hkbpjryheu.m3u8
 #EXTINF:-1 tvg-id="Canal25TV.es@SD" tvg-country="ES" tvg-name="Canal 25 TV" tvg-logo="https://i.imgur.com/p6YA5k0.png" group-title="General",Canal 25 TV (1080p)
 https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
+#EXTINF:-1 tvg-id="Canal33Madrid.es@SD" tvg-country="ES" tvg-name="Canal 33 Madrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg" group-title="General",Canal 33 Madrid
+https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2000.es@SD" tvg-country="ES" tvg-name="Canal 2000" tvg-logo="https://i.imgur.com/9RoBASf.png" group-title="General",Canal 2000 (720p)
 http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
 #EXTINF:-1 tvg-id="CanalCoinTV.es@SD" tvg-country="ES" tvg-name="Canal Coin TV" tvg-logo="https://i.imgur.com/3QPJIpa.png" group-title="General",Canal Coin TV (1080p)
 https://canalcoin.garjim.es/hls/directo.m3u8
-#EXTINF:-1 tvg-id="CanalDonana.es@SD" tvg-country="ES" tvg-name="Canal Donana" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="General",Canal Donana (720p)
-https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="CanalMalagaRTV.es@SD" tvg-country="ES" tvg-name="Canal Malaga RTV" tvg-logo="https://i.imgur.com/QSUOxtM.png" group-title="General",Canal Malaga RTV (720p)
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSanRoque.es@SD" tvg-country="ES" tvg-name="Canal San Roque" tvg-logo="https://i.imgur.com/SN9kFKh.png" group-title="General",Canal San Roque (1080p)
@@ -269,6 +267,8 @@ https://cloudvideo.servers10.com:8081/8022/index.m3u8
 https://cloud.streamingconnect.tv/hls/estutele/estutele.m3u8
 #EXTINF:-1 tvg-id="Euronews.es" tvg-country="ES" tvg-name="euronews" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/refs/heads/main/countries/international/euro-news-int.png" group-title="General",euronews
 https://euronews-live-spa-es.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558b6b2/production-LiveChannel-6571/bitok/eyJzdGlkIjoiMDA0YjY0NTMtYjY2MC00ZTZkLTlkNzEtMTk3YTM3ZDZhZWIxIiwibWt0IjoiZXMiLCJjaCI6NjU3MSwicHRmIjoxfQ==/26034/euronews-es.m3u8
+#EXTINF:-1 tvg-id="FuerteventuraTV.es@SD" tvg-country="ES" tvg-name="Fuerteventura TV" tvg-logo="https://i.ibb.co/MpvjCzC/Fuerteventura-tv-service-webtv-488969d1-1.png" group-title="General",Fuerteventura TV (1080p)
+https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 #EXTINF:-1 tvg-id="GoienaEus.es@SD" tvg-country="ES" tvg-name="Goiena Eus" tvg-logo="https://i.imgur.com/eaLIJzK.png" group-title="General",Goiena Eus (720p)
 https://zuzenean.goienamedia.eus/goiena-telebista.m3u8
 #EXTINF:-1 tvg-id="GuadaTV.es@SD" tvg-country="ES" tvg-name="Guada TV" tvg-logo="https://i.imgur.com/YaDNsYN.png" group-title="General",Guada TV (720p)

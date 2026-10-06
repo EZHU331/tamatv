@@ -1,10 +1,14 @@
 #EXTM3U url-tvg="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml" x-tvg-url="https://live.fanmingming.com/e.xml,https://epg.112114.xyz/pp.xml"
-#EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-country="CN" tvg-name="Anhui TV" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="Other",Anhui TV
-https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 #EXTINF:-1 tvg-name="Beijing_Traffic_Radio_TV" group-title="Other",Beijing_Traffic_Radio_TV
 http://123.56.24.28:1935/live/fm1039/96K/tzwj_video.m3u8
+#EXTINF:-1 tvg-name="CCTV-8_" group-title="Other",CCTV-8_ (720p)
+http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-name="CCTV-8K_HD_" group-title="Other",CCTV-8K_HD_ (1080p)
 http://192.151.150.154/live/cctv8k.m3u8
+#EXTINF:-1 tvg-name="CCTV-9_(576i)" group-title="Other",CCTV-9_(576i)
+https://xykt-fix.github.io/Y77.m3u8
+#EXTINF:-1 tvg-name="CCTV-10_" group-title="Other",CCTV-10_ (720p)
+http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-name="CGTN_Documentary_" group-title="Other",CGTN_Documentary_ (1080p)
 https://amg00405-rakutentv-cgtndocumentary-rakuten-0ql8j.amagi.tv/master.m3u8
 #EXTINF:-1 tvg-id="CHCHomeTheater.cn@SD" tvg-country="CN" tvg-name="CHC Home Theater" tvg-logo="https://i.imgur.com/AwBldBE.png" group-title="Other",CHC Home Theater (1080p)
@@ -77,10 +81,6 @@ http://live.ahsz.tv/video/s10001-ggpd/index.m3u8
 http://live.ahsz.tv/video/s10001-kxjy/index.m3u8
 #EXTINF:-1 tvg-id="数码时代" tvg-name="数码时代" tvg-logo="https://live.fanmingming.com/tv/%E6%95%B0%E7%A0%81%E6%97%B6%E4%BB%A3.png" group-title="Other",数码时代
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-id="欧美大片1" tvg-name="欧美大片1" tvg-logo="https://live.fanmingming.com/tv/%E6%AC%A7%E7%BE%8E%E5%A4%A7%E7%89%871.png" group-title="Other",欧美大片1
-http://epg.112114.xyz/douyu/20415
-#EXTINF:-1 tvg-id="欧美大片2" tvg-name="欧美大片2" tvg-logo="https://live.fanmingming.com/tv/%E6%AC%A7%E7%BE%8E%E5%A4%A7%E7%89%872.png" group-title="Other",欧美大片2
-http://epg.112114.xyz/douyu/2793084
 #EXTINF:-1 tvg-id="浙江教科影院" tvg-name="浙江教科影院" tvg-logo="https://live.fanmingming.com/tv/%E6%B5%99%E6%B1%9F%E6%95%99%E7%A7%91%E5%BD%B1%E9%99%A2.png" group-title="Other",浙江教科影院
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/%E7%BA%AF%E4%BA%AB4K.png" group-title="Other",纯享4K (2160p)

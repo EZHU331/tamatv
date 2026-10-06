@@ -3,8 +3,6 @@
 http://88.212.15.27/live/test_trojka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="AntikInfoTV.sk@HD" tvg-country="SK" tvg-name="Antik Info TV" tvg-logo="https://i.imgur.com/Q0qL60o.png" group-title="News",Antik Info TV (1080p)
 https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="JOJ24.sk" tvg-country="SK" tvg-name="JOJ 24" tvg-logo="https://i.imgur.com/Tv12wOd.png" group-title="News",JOJ 24
-https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%2024
 #EXTINF:-1 tvg-id="CanalPlusSport2SK.sk@SD" tvg-country="SK" tvg-name="Canal+ Sport 2 SK" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/CANAL%2B_SPORT_2.svg/revision/latest?cb=20241028202739" group-title="Sports",Canal+ Sport 2 SK
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport2/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="CanalPlusSport3SK.sk@SD" tvg-country="SK" tvg-name="Canal+ Sport 3 SK" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4c/CANAL%2B_SPORT_3.svg/revision/latest?cb=20241028202810" group-title="Sports",Canal+ Sport 3 SK
@@ -21,12 +19,8 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport7/live_fullhd?o
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport8/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="CanalPlusSportSK.sk@SD" tvg-country="SK" tvg-name="Canal+ Sport SK" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Canal%2B_Sport_2023.svg/revision/latest?cb=20230901182304" group-title="Sports",Canal+ Sport SK
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="JOJSport.sk" tvg-country="SK" tvg-name="JOJ Šport" tvg-logo="https://i.imgur.com/KirqaU4.png" group-title="Sports",JOJ Šport
-https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20%C5%A0port
 #EXTINF:-1 tvg-id="Sport.sk@SD" tvg-country="SK" tvg-name="Sport" tvg-logo="https://i.imgur.com/oAtcxNZ.png" group-title="Sports",Sport (Slovakia) (1080p)
 http://88.212.15.27/live/test_rtvs_sport_hevc/playlist.m3u8
-#EXTINF:-1 tvg-id="JojCinema.cz" tvg-country="SK" tvg-name="JOJ Cinema" tvg-logo="https://i.imgur.com/5Auduch.png" group-title="Movies",JOJ Cinema
-https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Cinema
 #EXTINF:-1 tvg-id="MarkizaDajto.sk" tvg-country="SK" tvg-name="Dajto" tvg-logo="https://i.imgur.com/DdWj4xv.png" group-title="Entertainment",Dajto
 https://sktv.mxnticek.eu/new/stream.php?ch=Dajto
 #EXTINF:-1 tvg-id="MarkizaDoma.sk" tvg-country="SK" tvg-name="Doma" tvg-logo="https://i.imgur.com/emVnkFK.png" group-title="Entertainment",Doma
@@ -39,8 +33,6 @@ https://sktv.mxnticek.eu/new/stream.php?ch=Krimi
 https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1 tvg-id="ducktvPLUS.sk@SD" tvg-country="SK" tvg-name="ducktv PLUS" tvg-logo="https://i.imgur.com/RFhxfOx.png" group-title="Kids",ducktv PLUS
 https://dash3.antik.sk/live/test_duck_plus/playlist.m3u8
-#EXTINF:-1 tvg-id="Jojko.sk" tvg-country="SK" tvg-name="Jojko" tvg-logo="https://i.imgur.com/JBB1n1Z.png" group-title="Kids",Jojko
-https://sktv.mxnticek.eu/new/stream.php?ch=Jojko
 #EXTINF:-1 tvg-id="TVVita.sk@SD" tvg-country="SK" tvg-name="TV Vita" tvg-logo="https://i.imgur.com/Cx1GLbo.png" group-title="Culture",TV Vita
 https://dash3.antik.sk/live/test_vita/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNRSR.sk@SD" tvg-country="SK" tvg-name="TV NRSR" tvg-logo="https://i.imgur.com/hsJsu3I.png" group-title="Legislative",TV NRSR (720p)
@@ -51,10 +43,8 @@ https://lifetv.mpks.sk/s.m3u8
 https://dash3.antik.sk/live/test_haha_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JojFamily.sk" tvg-country="SK" tvg-name="JOJ Family" tvg-logo="https://i.imgur.com/k1COMHi.png" group-title="Family",JOJ Family
 https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Family
-#EXTINF:-1 tvg-id="STV1.sk" tvg-country="SK" tvg-name="Jednotka" tvg-logo="https://i.imgur.com/aqVki9i.png" group-title="General",Jednotka
+#EXTINF:-1 tvg-id="Jednotka.sk@SD" tvg-country="SK" tvg-name="Jednotka" tvg-logo="https://i.imgur.com/aqVki9i.png" group-title="General",Jednotka
 http://88.212.15.19/live/test_jednotka_25p/playlist.m3u8
-#EXTINF:-1 tvg-id="JOJ.sk" tvg-country="SK" tvg-name="JOJ" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/joj-sk.png" group-title="General",JOJ
-https://sktv.mxnticek.eu/new/stream.php?ch=JOJ
 #EXTINF:-1 tvg-id="Markiza.sk" tvg-country="SK" tvg-name="Markíza" tvg-logo="https://i.imgur.com/W56rOi2.png" group-title="General",Markíza
 https://cdnsk003.panaccess.com/local/Markiza/index.m3u8
 #EXTINF:-1 tvg-country="SK" tvg-name="Markíza TN Live" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/markiza-sk.png" group-title="General",Markíza TN Live
@@ -99,7 +89,5 @@ https://ottst05.flexitv.sk/2827-tv-pc.m3u8
 http://88.212.7.11/live/test_tv_romana_web_player/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRuzinov.sk@SD" tvg-country="SK" tvg-name="TV Ruzinov" tvg-logo="https://i.imgur.com/bUGuntH.png" group-title="General",TV Ruzinov (1080p)
 http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="JOJWau.sk" tvg-country="SK" tvg-name="Wau" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/joj-wau-sk.png" group-title="General",Wau
-https://sktv.mxnticek.eu/new/stream.php?ch=Wau
 #EXTINF:-1 tvg-id="ZapadoslovenskaTV.sk@SD" tvg-country="SK" tvg-name="Zapadoslovenska TV" tvg-logo="https://i.imgur.com/D72Y1IB.png" group-title="General",Zapadoslovenska TV
 https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8
