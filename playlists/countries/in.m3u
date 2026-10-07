@@ -209,6 +209,8 @@ https://mumbai-edge.smartplaytv.in/NTVTelugu/index.m3u8
 https://mumbai-edge.smartplaytv.in/Prime9News/index.m3u8
 #EXTINF:-1 tvg-id="PrimeNews.in@SD" tvg-country="IN" tvg-name="Prime News" tvg-logo="https://i.imgur.com/RQoDzpN.png" group-title="News",Prime News (1080p)
 https://stream.ottlive.co.in/primenews/index.m3u8
+#EXTINF:-1 tvg-id="PrudentMedia.in@SD" tvg-country="IN" tvg-name="Prudent Media" tvg-logo="https://i.imgur.com/DG0x4UD.png" group-title="News",Prudent Media (1080p)
+https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-id="PublicTV.in@SD" tvg-country="IN" tvg-name="Public TV" tvg-logo="https://dtil.tmsimg.com/assets/s143688_ld_h15_aa.png?lock=720x540" group-title="News",Public TV (720p)
 https://cdn.pishow.tv/ott/live/439/master.m3u8
 #EXTINF:-1 tvg-id="RaatdinBangla.in@SD" tvg-country="IN" tvg-name="Raatdin Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/raatdinbangla.png" group-title="News",Raatdin Bangla (720p)
@@ -326,8 +328,6 @@ http://51.75.127.199:3141/zeecafehd/index.m3u8
 http://51.75.127.199:3141/andflixhd/index.m3u8
 #EXTINF:-1 tvg-id="AndTV.in@International" tvg-country="IN" tvg-name="&TV" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022RLRS.png?lock=720x540" group-title="Movies",&TV International (1080p)
 https://amg01117-amg01117c1-amgplt0029.playout.now3.amagi.tv/playlist/amg01117-amg01117c1-amgplt0029/playlist.m3u8
-#EXTINF:-1 tvg-id="AndxplorHD.in@HD" tvg-country="IN" tvg-name="&xplor HD" tvg-logo="https://i.imgur.com/9mK6dgM.png" group-title="Movies",&xplor HD (1080p)
-http://51.75.127.199:3141/andxplorehd/index.m3u8
 #EXTINF:-1 tvg-id="AlankarTV.in@SD" tvg-country="IN" tvg-name="Alankar TV" tvg-logo="https://dtil.tmsimg.com/assets/s142630_ld_h15_aa.png?lock=720x540" group-title="Movies",Alankar TV (720p)
 https://livetv.tarangplus.in/alankar-origin/live/playlist.m3u8
 #EXTINF:-1 tvg-id="B4UBhojpuri.in@SD" tvg-country="IN" tvg-name="B4U Bhojpuri" tvg-logo="https://i.imgur.com/NwOQUDp.png" group-title="Movies",B4U Bhojpuri (1080p)
@@ -376,6 +376,8 @@ https://d393sxaxig6bax.cloudfront.net/out/v1/589cf2cf44bf42bb941e817a2240d62e/in
 http://103.185.24.134:3001/SonyMAX/index.m3u8
 #EXTINF:-1 tvg-id="SouthStation.in@HD" tvg-country="IN" tvg-name="South Station" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/IN3800008CX_20260325T012316SQUARE.png" group-title="Movies",South Station (1080p)
 https://cc-yw7ztecy8do3q.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yw7ztecy8do3q/SS_IN.m3u8
+#EXTINF:-1 tvg-id="StarGold2.in@HD" tvg-country="IN" tvg-name="Star Gold 2" tvg-logo="https://dtil.tmsimg.com/assets/s158297_ld_h15_aa.png?lock=720x540" group-title="Movies",Star Gold 2 HD (1080p)
+http://103.151.60.162:2122/play/a01v/index.m3u8?hls
 #EXTINF:-1 tvg-id="StarGold.in@HD" tvg-country="IN" tvg-name="Star Gold" tvg-logo="https://dtil.tmsimg.com/assets/s143815_ld_h15_aa.png?lock=720x540" group-title="Movies",Star Gold HD (1080p)
 http://103.185.24.134:3001/Star-Gold/index.m3u8
 #EXTINF:-1 tvg-id="StarGoldSelect.in@HD" tvg-country="IN" tvg-name="Star Gold Select" tvg-logo="https://dtil.tmsimg.com/assets/s143817_ld_h15_aa.png?lock=720x540" group-title="Movies",Star Gold Select HD (1080p)
@@ -396,8 +398,6 @@ https://sis-global.prod.samsungtv.plus/v1/tvpprd/sc-mp2ar4ca425xo.m3u8
 https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/13b5735d-52c3-4be0-853d-e0ec0127e708/manifest.m3u8
 #EXTINF:-1 tvg-id="ZeeCinema.in@HD" tvg-country="IN" tvg-name="Zee Cinema" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/92/Zee_Cinema_2025.svg" group-title="Movies",Zee Cinema HD (1080p)
 http://103.151.60.162:2122/play/a024/index.m3u8?hls
-#EXTINF:-1 tvg-id="ZeeCinemalu.in@HD" tvg-country="IN" tvg-name="Zee Cinemalu" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022ZEQ9.png?lock=720x540" group-title="Movies",Zee Cinemalu HD (1080p)
-http://51.75.127.199:3141/zeecinemaluhd/index.m3u8
 #EXTINF:-1 tvg-id="ZeeSouthFlix.in@HD" tvg-country="IN" tvg-name="Zee South Flix" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zsouthflix.png" group-title="Movies",Zee South Flix (1080p)
 https://amg00862-amg00862c9-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c9-amgplt0173/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeTalkies.in@HD" tvg-country="IN" tvg-name="Zee Talkies" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022S299.png?lock=720x540" group-title="Movies",Zee Talkies HD (1080p)
@@ -510,8 +510,6 @@ https://livetv.tarangplus.in/tarangtv-origin/live/playlist.m3u8
 https://teluguone-yupptv.vgcdn.net/v1/019be9e3f04d1ea55784338b5c3e89/019be9e4474415fc60e93459e1e808/teluguone_2500k.m3u8
 #EXTINF:-1 tvg-id="YETTV.in@HD" tvg-country="IN" tvg-name="YET TV" tvg-logo="https://yettelevision.com/assets/images/logo/channel_1.png" group-title="Entertainment",YET TV (720p)
 https://live.yettelevision.com:5443/LiveApp/streams/yettv.m3u8
-#EXTINF:-1 tvg-id="ZeeBangla.in@HD" tvg-country="IN" tvg-name="Zee Bangla" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0022T6DC.png?lock=720x540" group-title="Entertainment",Zee Bangla HD (1080p)
-http://51.75.127.199:3141/zeebanglahd/index.m3u8
 #EXTINF:-1 tvg-id="ZeeDilSe.in@HD" tvg-country="IN" tvg-name="Zee Dil Se" tvg-logo="https://d2mxb63djushzm.cloudfront.net/images/Zee_Dil_Se.png" group-title="Entertainment",Zee Dil Se (1080p)
 https://amg00862-amg00862c6-amgplt0173.playout.now3.amagi.tv/playlist/amg00862-amg00862c6-amgplt0173/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeeHorrorNights.in@HD" tvg-country="IN" tvg-name="Zee Horror Nights" tvg-logo="https://d3bd0tgyk368z1.cloudfront.net/zeelg/LG%20logo%20artwork/400x200/zhornights.png" group-title="Entertainment",Zee Horror Nights (1080p)
@@ -792,8 +790,6 @@ https://cdn.pishow.tv/ott/live/36/master.m3u8
 https://cdn.pishow.tv/ott/live/17/master.m3u8
 #EXTINF:-1 tvg-id="KaumudyTV.in@SD" tvg-country="IN" tvg-name="Kaumudy TV" tvg-logo="https://dtil.tmsimg.com/assets/s143259_ld_h15_aa.png?lock=720x540" group-title="General",Kaumudy TV (720p)
 https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
-#EXTINF:-1 tvg-id="KTVBangla.in@SD" tvg-country="IN" tvg-name="KTV Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2f8e3b371c660faa2f43a7f0942948a4.png" group-title="General",KTV Bangla (720p)
-https://server.livelegitpro.in:9899/tribetv/tribetv/index.m3u8
 #EXTINF:-1 tvg-id="MakkalTV.in@SD" tvg-country="IN" tvg-name="Makkal TV" tvg-logo="https://dtil.tmsimg.com/assets/s143296_ld_h15_aa.png?lock=720x540" group-title="General",Makkal TV (576i)
 https://5k8q87azdy4v-hls-live.wmncdn.net/MAKKAL/271ddf829afeece44d8732757fba1a66.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="MetroTV.in@SD" tvg-country="IN" tvg-name="Metro TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Metro_TV.png" group-title="General",Metro TV (India) (1080p)
@@ -820,6 +816,8 @@ https://livetv.timeiptv.in/ShekinahNewsIndia/955ad3298db330b5ee880c2c9e6f23a0.sd
 https://airtelapp.shemaroo.com/marathibana/smil:marathibanaadp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ShubhTV.in@SD" tvg-country="IN" tvg-name="Shubh TV" tvg-logo="https://dtil.tmsimg.com/assets/s143783_ld_h15_aa.png?lock=720x540" group-title="General",Shubh TV (1080p)
 https://d2g1vdc6ozl2o8.cloudfront.net/out/v1/0a0dc7d7911b4fddbb4dfc963fdd4b9e/index.m3u8
+#EXTINF:-1 tvg-id="Superhitz.in@SD" tvg-country="IN" tvg-name="Superhitz" tvg-logo="https://i.imgur.com/aRNBvTU.png" group-title="General",Superhitz (1080p)
+http://51.75.127.199:3141/sunbangla/index.m3u8
 #EXTINF:-1 tvg-id="TaazaTV.in@SD" tvg-country="IN" tvg-name="Taaza TV" tvg-logo="https://i.imgur.com/4nTpQLC.png" group-title="General",Taaza TV (720p)
 https://live.we2live.in/taazatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TehzeebTV.in@SD" tvg-country="IN" tvg-name="Tehzeeb TV" tvg-logo="https://i.imgur.com/PCVOdup.png" group-title="General",Tehzeeb TV (720p)

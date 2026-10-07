@@ -3,8 +3,12 @@
 https://sscsott.com/7news/live/index.m3u8
 #EXTINF:-1 tvg-id="24NewsHD.pk@SD" tvg-country="PK" tvg-name="24 News HD" tvg-logo="https://upload.wikimedia.org/wikipedia/en/9/93/24_News_HD_Logo.png" group-title="News",24 News HD (720p)
 https://cdn4.mjunoon.tv:8087/streamtest/146M/chunks.m3u8
+#EXTINF:-1 tvg-id="92NewsHD.pk@SD" tvg-country="PK" tvg-name="92 News HD" tvg-logo="https://i.imgur.com/eqKrL9S.png" group-title="News",92 News HD (720p)
+http://92news.vdn.dstreamone.net/92newshd/92hd/playlist.m3u8
 #EXTINF:-1 tvg-id="365News.pk@SD" tvg-country="PK" tvg-name="365 News" tvg-logo="https://i.imgur.com/8I6PWof.png" group-title="News",365 News
 https://cdn4.mjunoon.tv:8087/streamtest/140M/chunks.m3u8
+#EXTINF:-1 tvg-id="ABNNews.pk@SD" tvg-country="PK" tvg-name="ABN News" tvg-logo="https://i.imgur.com/R7BThkR.jpeg" group-title="News",ABN News (1080p)
+http://115.42.65.142:9981/stream/channelid/966869781
 #EXTINF:-1 tvg-id="ARYNews.pk@SD" tvg-country="PK" tvg-name="ARY News" tvg-logo="https://i.imgur.com/R4KtTbJ.jpg" group-title="News",ARY News
 https://cdn07lhr.tamashaweb.com:8087/jazzauth/vsat-arynews-abr/live/vsat-arynews-H/chunks_dvr_timeshift-0-3600.m3u8
 #EXTINF:-1 tvg-id="CapitalTV.pk@SD" tvg-country="PK" tvg-name="Capital TV" tvg-logo="https://i.imgur.com/UxAE5O4.png" group-title="News",Capital TV
@@ -45,6 +49,10 @@ http://103.250.28.74:8000/play/a019/index.m3u8
 http://121.91.61.106:8000/play/a04h/index.m3u8
 #EXTINF:-1 tvg-id="AajEntertainment.pk@SD" tvg-country="PK" tvg-name="Aaj Entertainment" tvg-logo="https://i.ibb.co/xt5RBDds/Aaj-Entertainment-HD.png" group-title="Entertainment",Aaj Entertainment (1080p)
 https://ml-pull-dvc-myco.io:2096/AAJ_ENTERTAINMENT/index.m3u8
+#EXTINF:-1 tvg-id="ATV.pk@SD" tvg-country="PK" tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/83/Atv_pakistan.PNG" group-title="Entertainment",ATV (Pakistan) (1080p)
+http://115.42.65.142:9981/stream/channelid/299762256
+#EXTINF:-1 tvg-id="AVTKhyber.pk@SD" tvg-country="PK" tvg-name="AVT Khyber" tvg-logo="https://i.imgur.com/FqkABWT.png" group-title="Entertainment",AVT Khyber (1080p)
+http://115.42.65.142:9981/stream/channelid/1380586642
 #EXTINF:-1 tvg-id="BolEntertainment.pk@HD" tvg-country="PK" tvg-name="Bol Entertainment" tvg-logo="https://i.imgur.com/eajSRFo.png" group-title="Entertainment",Bol Entertainment HD (720p)
 https://vodzong.mjunoon.tv:8087/streamtest/Channel5-159-4/playlist.m3u8
 #EXTINF:-1 tvg-id="ExpressEntertainment.pk@SD" tvg-country="PK" tvg-name="Express Entertainment" tvg-logo="https://i.imgur.com/rgHbb8W.png" group-title="Entertainment",Express Entertainment (1080p)

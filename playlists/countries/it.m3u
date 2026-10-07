@@ -23,8 +23,6 @@ https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8
 https://telejato.liberotratto.com/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="TGCom24.it@SD" tvg-country="IT" tvg-name="TGCom24" tvg-logo="https://i.imgur.com/fPmvbGH.png" group-title="News",TGCom24 (720p)
 https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8
-#EXTINF:-1 tvg-id="TSNTeleSondrioNews.it" tvg-country="IT" tvg-name="TSN Tele Sondrio News" tvg-logo="https://i.imgur.com/eE37h7Q.png" group-title="News",TSN Tele Sondrio News
-https://189790-castr.akamaized.net/633d685a281cd401ae82c2f7/live_bc04bf70449f11ed80952100db9e5fd9/tracks-v1a1/rewind-3600.m3u8
 #EXTINF:-1 tvg-id="ZerounoTVNews.it" tvg-country="IT" tvg-name="Zerouno Tv News" tvg-logo="https://i.imgur.com/wYntmOt.png" group-title="News",Zerouno Tv News
 https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8
 #EXTINF:-1 tvg-id="ACISportTV.it@SD" tvg-country="IT" tvg-name="ACI Sport TV" tvg-logo="https://i.imgur.com/U8cHMOt.png" group-title="Sports",ACI Sport TV SD (1080p)
@@ -86,8 +84,6 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="La5.it" tvg-country="IT" tvg-name="La 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png" group-title="Entertainment",La 5 Ⓖ
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
-#EXTINF:-1 tvg-id="NuovaTV1.it" tvg-country="IT" tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/zRu9WGh.png" group-title="Entertainment",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
 #EXTINF:-1 tvg-id="BeJoykids.it@HD" tvg-country="IT" tvg-name="BeJoy.kids" tvg-logo="https://bejoy.kids/wp-content/uploads/2025/09/Logo_Bejoy.png" group-title="Kids",BeJoy.kids (1080p)
 https://stream.paroledivita.org/bejoy.m3u8
 #EXTINF:-1 tvg-id="Boing.it" tvg-country="IT" tvg-name="BOING" tvg-logo="https://i.imgur.com/rabKj9i.png" group-title="Kids",BOING Ⓖ
@@ -234,6 +230,8 @@ https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/antennasicili
 https://live.antennasudwebtv.it:9443/hls/vod.m3u8
 #EXTINF:-1 tvg-id="AntennaSudExtra.it@SD" tvg-country="IT" tvg-name="Antenna Sud Extra" tvg-logo="https://i.imgur.com/kiCcHzc.png" group-title="General",Antenna Sud Extra (720p)
 https://live.antennasudwebtv.it:9443/hls/vod92.m3u8
+#EXTINF:-1 tvg-country="IT" tvg-name="Aristanis SuperTv" tvg-logo="https://i.imgur.com/v8PlAJO.png" group-title="General",Aristanis SuperTv
+https://video2.azotosolutions.com:1936/supertvoristano/supertvoristano/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Arte Network Orler" tvg-logo="https://i.imgur.com/DP5y0Er.png" group-title="General",Arte Network Orler
 https://tsw.streamingwebtv24.it:1936/artenetwork/artenetwork/playlist.m3u8
 #EXTINF:-1 tvg-id="AzzurraTV.it" tvg-country="IT" tvg-name="Azzurra Tv Vco" tvg-logo="https://i.imgur.com/qWIZNEc.png" group-title="General",Azzurra Tv Vco
@@ -268,8 +266,6 @@ https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
 https://samson.streamerr.co:8081/carinatv/index.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" group-title="General",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-#EXTINF:-1 tvg-country="IT" tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" group-title="General",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="cielo.it" tvg-country="IT" tvg-name="Cielo" tvg-logo="https://i.imgur.com/tWUy3yx.png" group-title="General",Cielo Ⓖ
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:-1 tvg-country="IT" tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" group-title="General",Cittaceleste Tv
@@ -544,6 +540,8 @@ https://stream.ets-sistemi.it:8081/rticalabria/index.m3u8
 https://dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S97044836/tbbP8T1ZRPBL/playlist.m3u8
 #EXTINF:-1 tvg-id="RTL1025Plus.it" tvg-country="IT" tvg-name="RTL 102.5 + Plus" tvg-logo="https://i.imgur.com/mPqDtCO.png" group-title="General",RTL 102.5 + Plus
 https://streamcdng14-dd782ed59e2a4e86aabf6fc508674b59.msvdn.net/live/S82929343/cAcsSu4Wecc5/chunklist_b5256000.m3u8
+#EXTINF:-1 tvg-id="RTMTV.it@SD" tvg-country="IT" tvg-name="RTM TV" tvg-logo="https://i.imgur.com/w9Twxsi.png" group-title="General",RTM TV (1080p)
+https://5f22d76e220e1.streamlock.net/rtm/rtm/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="RTN Napoli" tvg-logo="https://hostux.pics/images/2026/09/11/22_rtn_napoli29538077f1c13762.png" group-title="General",RTN Napoli
 https://rst2.saiuzwebnetwork.it:8081/saiuz-2/index.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Rtp Tv" tvg-logo="https://i.imgur.com/I1hYI0C.png" group-title="General",Rtp Tv

@@ -31,16 +31,18 @@ http://190.93.224.42/LIGA-1-MAX/index.m3u8
 https://h.jcp.live.opencaster.com/play_src/index.m3u8
 #EXTINF:-1 tvg-id="MovistarDeportes.pe@SD" tvg-country="PE" tvg-name="Movistar Deportes" tvg-logo="https://i.imgur.com/Zt3iE86.png" group-title="Sports",Movistar Deportes (1080p)
 http://45.4.1.201:8000/play/a13e/index.m3u8
+#EXTINF:-1 tvg-id="OvacionTV.pe@SD" tvg-country="PE" tvg-name="Ovacion TV" tvg-logo="https://i.imgur.com/7Xndgxk.png" group-title="Sports",Ovacion TV (720p)
+http://cdn2.ujjina.com:1935/iptvovacion1/liveovacion1tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SqalaTV.pe@SD" tvg-country="PE" tvg-name="Sqala TV" tvg-logo="https://i.imgur.com/DJ05m8s.png" group-title="Sports",Sqala TV (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/studiotvhuanta/playlist.m3u8
 #EXTINF:-1 tvg-id="LatinaClasicos.pe@SD" tvg-country="PE" tvg-name="Latina Clasicos" tvg-logo="https://i.imgur.com/q0dAWyj.png" group-title="Series",Latina Clasicos (1080p)
 http://45.171.108.253:8888/LATINA/index.m3u8
-#EXTINF:-1 tvg-id="AntaresTelevision.pe@SD" tvg-country="PE" tvg-name="Antares Television" tvg-logo="https://i.imgur.com/05gwtk2.png" group-title="Entertainment",Antares Television
-https://5949aa132c8fb.streamlock.net:1963/iptvantares/liveantarestv/playlist.m3u8
 #EXTINF:-1 tvg-id="KoraTV.pe@SD" tvg-country="PE" tvg-name="Kora TV" tvg-logo="https://i.imgur.com/ahBYv4x.png" group-title="Entertainment",Kora TV
 https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8
 #EXTINF:-1 tvg-id="LaTele.pe@SD" tvg-country="PE" tvg-name="La Tele" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png" group-title="Entertainment",La Tele (1080p)
 http://190.93.224.42/LA-TELE/index.m3u8
+#EXTINF:-1 tvg-id="NeoTV.pe@SD" tvg-country="PE" tvg-name="Neo TV" tvg-logo="https://i.imgur.com/bS5JtYX.jpeg" group-title="Entertainment",Neo TV (Peru) (720p)
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8
 #EXTINF:-1 tvg-id="RikuTV.pe@SD" tvg-country="PE" tvg-name="Riku TV" tvg-logo="https://i.imgur.com/XIDC4Mv.png" group-title="Entertainment",Riku TV (1080p)
 https://amixtv.com:8081/rikutv/index.m3u8
 #EXTINF:-1 tvg-id="WEST.pe@SD" tvg-country="PE" tvg-name="WEST" tvg-logo="https://aptcperu.org/wp-content/uploads/2026/04/logoMesa-de-trabajo-1-copia-5.png" group-title="Entertainment",WEST (1080p)
@@ -57,6 +59,8 @@ https://www.opencaster.com/resources/hls_stream/cultura24.m3u8
 http://187.102.210.46/USMP/index.m3u8
 #EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-country="PE" tvg-name="Folklore TV" tvg-logo="https://i.imgur.com/QdOGJes.png" group-title="Music",Folklore TV (720p)
 https://play.folkloretv.pe/StreamSD/index.m3u8
+#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" tvg-country="PE" tvg-name="Galactica TV" tvg-logo="https://i.imgur.com/byL1zCV.jpeg" group-title="Music",Galactica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
 #EXTINF:-1 tvg-id="Karibena.pe@SD" tvg-country="PE" tvg-name="Karibena" tvg-logo="https://i.imgur.com/cgHjg1e.png" group-title="Music",Karibena (720p)
 http://187.102.210.46/KARIBENA/index.m3u8
 #EXTINF:-1 tvg-id="LaFabulosaTV.pe@SD" tvg-country="PE" tvg-name="La Fabulosa TV" tvg-logo="https://i.imgur.com/GjME5H0.png" group-title="Music",La Fabulosa TV (720p)
@@ -99,6 +103,8 @@ http://187.102.210.46/JN19/index.m3u8
 http://187.102.210.46/IPE/index.m3u8
 #EXTINF:-1 tvg-id="36TVHuacho.pe@SD" tvg-country="PE" tvg-name="36 TV Huacho" tvg-logo="https://i.imgur.com/F4NZM3s.jpeg" group-title="General",36 TV Huacho (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCTeleshow.pe@SD" tvg-country="PE" tvg-name="ABC Teleshow" tvg-logo="https://i.imgur.com/cF7gJ2Q.jpeg" group-title="General",ABC Teleshow (720p)
+https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABTelevision.pe@SD" tvg-country="PE" tvg-name="ABTelevision" tvg-logo="https://i.imgur.com/tqMDscD.png" group-title="General",ABTelevision (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AmazoniaTV.pe@SD" tvg-country="PE" tvg-name="Amazonia TV" tvg-logo="https://i.imgur.com/sSW7d8e.png" group-title="General",Amazonia TV
@@ -137,6 +143,8 @@ https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8
 https://live-evg10.tv360.bitel.com.pe/bitel/charapatvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="CRTelevision.pe@SD" tvg-country="PE" tvg-name="CR Television" tvg-logo="https://i.imgur.com/oxycMeA.png" group-title="General",CR Television (720p)
 https://live.obslivestream.com/crtvmux/index.m3u8
+#EXTINF:-1 tvg-id="CVNTV.pe@SD" tvg-country="PE" tvg-name="CVN TV" tvg-logo="https://i.imgur.com/QF5VUcy.png" group-title="General",CVN TV
+https://7.innovatestream.pe:19360/cvntumbes/cvntumbes.m3u8
 #EXTINF:-1 tvg-id="DacTV.pe@SD" tvg-country="PE" tvg-name="Dac TV" tvg-logo="https://i.imgur.com/g4pZ3ZW.jpeg" group-title="General",Dac TV (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/dactvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.pe@SD" tvg-country="PE" tvg-name="DeltaTV" tvg-logo="https://i.imgur.com/crttwAR.png" group-title="General",DeltaTV
@@ -169,8 +177,6 @@ https://chankillo.agenciastreaming.com/lidertv/index.m3u8
 https://ontvcable.streamottmas.workers.dev/ontvcable.m3u8
 #EXTINF:-1 tvg-id="MasterTV.pe@SD" tvg-country="PE" tvg-name="Master TV" tvg-logo="https://i.imgur.com/K2ZimRv.png" group-title="General",Master TV (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/mastertvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="MediaTV.pe@SD" tvg-country="PE" tvg-name="Media TV" tvg-logo="https://i.imgur.com/BAaR5T5.png" group-title="General",Media TV (720p)
-https://live-evg5.tv360.bitel.com.pe/bitel/mediatv/playlist.m3u8
 #EXTINF:-1 tvg-id="MegaTVJaen.pe@SD" tvg-country="PE" tvg-name="Mega TV Jaen" tvg-logo="https://i.imgur.com/zK1YcpJ.png" group-title="General",Mega TV Jaen (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/megatv/playlist.m3u8
 #EXTINF:-1 tvg-id="MilenialTV.pe@SD" tvg-country="PE" tvg-name="Milenial TV" tvg-logo="https://i.imgur.com/8ZiNoEa.png" group-title="General",Milenial TV
@@ -187,6 +193,8 @@ https://eu1.servers10.com:8081/8258/index.m3u8
 https://tv.ondadigital.pe/ondadigital/index.m3u8
 #EXTINF:-1 tvg-id="OndaTV.pe@SD" tvg-country="PE" tvg-name="Onda TV" tvg-logo="https://i.imgur.com/gbjdiLW.jpeg" group-title="General",Onda TV (Peru) (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/onda/playlist.m3u8
+#EXTINF:-1 tvg-id="OzonoTV.pe@SD" tvg-country="PE" tvg-name="Ozono TV" tvg-logo="https://i.imgur.com/Wkdibpv.png" group-title="General",Ozono TV (720p)
+https://live-evg8.tv360.bitel.com.pe/bitel/ozonotv/playlist.m3u8
 #EXTINF:-1 tvg-id="PanamericanaTV.pe@SD" tvg-country="PE" tvg-name="Panamericana TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Logo_Panamericana_2020.png/1280px-Logo_Panamericana_2020.png" group-title="General",Panamericana TV (1080p)
 http://45.171.108.253:8888/PANAMERICANA/index.m3u8
 #EXTINF:-1 tvg-id="PiuraTV.pe@SD" tvg-country="PE" tvg-name="PiuraTV" tvg-logo="https://i.imgur.com/KnJAqbd.png" group-title="General",PiuraTV (720p)
@@ -217,6 +225,8 @@ https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8
 https://5790d294af2dc.streamlock.net:443/streamtv/streamtv/playlist.m3u8
 #EXTINF:-1 tvg-id="StudioPascoTV.pe@SD" tvg-country="PE" tvg-name="Studio Pasco TV" tvg-logo="https://i.imgur.com/zgyNuVE.jpeg" group-title="General",Studio Pasco TV (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/studiopasco/playlist.m3u8
+#EXTINF:-1 tvg-id="SuperCanal.pe@SD" tvg-country="PE" tvg-name="Super Canal" tvg-logo="https://i.imgur.com/eotfCMd.png" group-title="General",Super Canal (Peru) (720p)
+https://live-evg7.tv360.bitel.com.pe/bitel/supercanalSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TelecolorYurimaguas.pe@SD" tvg-country="PE" tvg-name="Telecolor Yurimaguas" tvg-logo="https://i.imgur.com/Ug6XNIU.png" group-title="General",Telecolor Yurimaguas (720p)
 https://live.obslivestream.com/telecolormux/index.m3u8
 #EXTINF:-1 tvg-id="Teleselva.pe@SD" tvg-country="PE" tvg-name="Teleselva" tvg-logo="https://i.imgur.com/cu7hTn8.png" group-title="General",Teleselva (720p)
@@ -235,6 +245,8 @@ http://190.93.224.42/TRIVU-TV/index.m3u8
 https://s2.tvdatta.com:3687/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="TVCosmos.pe@SD" tvg-country="PE" tvg-name="TV Cosmos" tvg-logo="https://i.imgur.com/nr4ctt4.png" group-title="General",TV Cosmos (720p)
 https://videoserver.tmcreativos.com:19360/tvcosmos/tvcosmos.m3u8
+#EXTINF:-1 tvg-id="TVMAR.pe@SD" tvg-country="PE" tvg-name="TV MAR" tvg-logo="https://i.imgur.com/VXvbNjT.png" group-title="General",TV MAR (720p)
+https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMAX.pe@SD" tvg-country="PE" tvg-name="TV MAX" tvg-logo="https://i.imgur.com/JFBpDJ1.jpeg" group-title="General",TV MAX (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/nexSRT_TRA/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNorteChiclayo.pe@SD" tvg-country="PE" tvg-name="TV Norte Chiclayo" tvg-logo="https://i.imgur.com/0fg6m2L.png" group-title="General",TV Norte Chiclayo (720p)
@@ -275,5 +287,3 @@ https://live-evg7.tv360.bitel.com.pe/bitel/ncanalSRT/playlist.m3u8
 https://live-evg7.tv360.bitel.com.pe/bitel/yurimaguastvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Yurivision.pe@SD" tvg-country="PE" tvg-name="Yurivision" tvg-logo="https://i.imgur.com/VhWuaER.jpeg" group-title="General",Yurivision (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/yurivisionSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="ZeleveTV.pe@SD" tvg-country="PE" tvg-name="Zeleve TV" tvg-logo="https://i.imgur.com/CGWaunJ.jpeg" group-title="General",Zeleve TV (720p)
-https://live-evg11.tv360.bitel.com.pe/bitel/zeleve/playlist.m3u8
