@@ -25,8 +25,10 @@ http://str2.iptvhd.ru:8080/FoodChannel/index.m3u8
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="FoodTime.ru@HD" tvg-country="RU" tvg-name="FoodTime" tvg-logo="https://i.imgur.com/gxCYAwH.png" group-title="Cooking",FoodTime (1080p)
 http://str2.iptvhd.ru:8080/Eda/index.m3u8
-#EXTINF:-1 tvg-id="IN3000003QJ" tvg-country="UK" tvg-name="Foodxp" tvg-logo="https://i.imgur.com/zOWog5j.png" group-title="Cooking",Foodxp
-https://jmp2.uk/stvp-IN3000003QJ
+#EXTINF:-1 tvg-id="Foodxp.uk@SD" tvg-country="UK" tvg-name="Foodxp" tvg-logo="https://i.imgur.com/zOWog5j.png" group-title="Cooking" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36" http-referrer="https://bhoomtv.org/",Foodxp (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
+#EXTVLCOPT:http-referrer=https://bhoomtv.org/
+https://techtraveleat.in/stream.m3u8?id=foodxp
 #EXTINF:-1 tvg-id="GEMFood.tr@SD" tvg-country="TR" tvg-name="GEM Food" tvg-logo="https://i.imgur.com/SMtSinK.png" group-title="Cooking",GEM Food
 https://ca-rt.onetv.app/gemfood/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="GordonRamsaysHellsKitchen.us@SD" tvg-country="US" tvg-name="Gordon Ramsay's Hell's Kitchen" tvg-logo="https://i.imgur.com/WgN4T18.png" group-title="Cooking",Gordon Ramsay's Hell's Kitchen (720p)
@@ -46,7 +48,7 @@ https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8
 #EXTINF:-1 tvg-id="SBSFood.au" tvg-country="AU" tvg-name="SBS Food" tvg-logo="https://i.imgur.com/9A8BwQA.png" group-title="Cooking",SBS Food Ⓖ
 https://i.mjh.nz/.r/sbs-3syd.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-6041643175c115002dc5125d" tvg-country="US" tvg-name="So Yummy" tvg-logo="https://i.imgur.com/ju2NyoL.png" group-title="Cooking",So Yummy
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6041643175c115002dc5125d/?X-Plex-Token=A_dncT9Fnf29qKLHH3XR
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6041643175c115002dc5125d/?X-Plex-Token=t4ben4yshj59nSx_dKkD
 #EXTINF:-1 tvg-id="TastemadeenEspanol.us@SD" tvg-country="US" tvg-name="Tastemade en Espanol" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Espanol (1080p)
 https://tastemadees16us-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5a1dec25daac971f191b10e808ec0c5d" tvg-name="Tastemade Home" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5a1dec25daac971f191b10e808ec0c5d/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744402817287_260x147_TastemadeHome_LogoInfoHUD_Roku.png" group-title="Cooking",Tastemade Home

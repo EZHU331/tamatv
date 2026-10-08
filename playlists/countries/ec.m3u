@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_EC1.xml.gz"
+#EXTINF:-1 tvg-id="EcotelTV.ec@SD" tvg-country="EC" tvg-name="Ecotel TV" tvg-logo="https://i.imgur.com/pVlZUSV.png" group-title="News",Ecotel TV (720p)
+https://ecoteltv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
 #EXTINF:-1 tvg-id="RTU.ec@SD" tvg-country="EC" tvg-name="RTU" tvg-logo="https://i.imgur.com/1OWvMP4.png" group-title="News",RTU (1080p)
 http://45.224.97.181:9999/RTU/index.m3u8
 #EXTINF:-1 tvg-id="GaviotaTV.ec@SD" tvg-country="EC" tvg-name="Gaviota TV" tvg-logo="https://i.imgur.com/1vlZA6O.png" group-title="Entertainment",Gaviota TV
@@ -22,8 +24,6 @@ https://pacific.direcnode.com:3353/live/ecuamundotvlive.m3u8
 https://tv.wracanal10.com:3025/live/elsoltvlive.m3u8
 #EXTINF:-1 tvg-id="FMMundo.ec@SD" tvg-country="EC" tvg-name="FM Mundo" tvg-logo="https://i.imgur.com/1nNnYQO.png" group-title="Music",FM Mundo (1080p)
 https://video2.makrodigital.com/fmmundo/fmmundo/playlist.m3u8
-#EXTINF:-1 tvg-id="InfinitaTV.ec@SD" tvg-country="EC" tvg-name="Infinita TV" tvg-logo="https://i.imgur.com/1nHxdkR.png" group-title="Music",Infinita TV (1080p)
-https://s2.tvdatta.com:3753/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="MetropoliMediosTV.ec@SD" tvg-country="EC" tvg-name="Metropoli Medios TV" tvg-logo="https://i.imgur.com/yID5T2S.jpg" group-title="Music",Metropoli Medios TV (720p)
 https://eu1.servers10.com:8081/8214/index.m3u8
 #EXTINF:-1 tvg-id="RadioBonita1067.ec@SD" tvg-country="EC" tvg-name="Radio Bonita 106.7" tvg-logo="https://i.imgur.com/IvZtqyz.png" group-title="Music",Radio Bonita 106.7 (720p)

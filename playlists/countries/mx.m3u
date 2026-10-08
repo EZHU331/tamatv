@@ -71,8 +71,6 @@ http://138.121.15.230:9002/NAT-GEO/index.m3u8
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="JaliscoTV.mx@SD" tvg-country="MX" tvg-name="Jalisco TV" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Education",Jalisco TV (720p)
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
-#EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-country="MX" tvg-name="Tele UV" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV
-https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBUAP.mx@SD" tvg-country="MX" tvg-name="TV BUAP" tvg-logo="https://i.imgur.com/hHrIn0r.png" group-title="Education",TV BUAP (1080p)
 https://tvenvivo.buap.mx/livestream/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVCuatro44.mx@SD" tvg-country="MX" tvg-name="TV Cuatro 4.4" tvg-logo="https://i.imgur.com/Of044Jx.png" group-title="Education",TV Cuatro 4.4 (1080p)
@@ -123,8 +121,8 @@ https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.
 https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
 #EXTINF:-1 tvg-id="AlcanceTV.mx@SD" tvg-country="MX" tvg-name="Alcance TV" tvg-logo="https://i.imgur.com/5nYjRlb.png" group-title="Religious",Alcance TV (Mexico) (720p)
 https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
-#EXTINF:-1 tvg-id="MariaVision.mx" tvg-country="MX" tvg-name="Maria Vision" tvg-logo="https://i.imgur.com/GylOPxE.png" group-title="Religious",Maria Vision
-https://1601580044.rsc.cdn77.org/live/_jcn_/amls:CHANNEL_2/playlist.m3u8
+#EXTINF:-1 tvg-id="MariaVision.mx@SD" tvg-country="MX" tvg-name="Maria Vision" tvg-logo="https://i.imgur.com/GylOPxE.png" group-title="Religious",Maria Vision (1080p)
+http://200.122.223.13:55000/play/a022/index.m3u8
 #EXTINF:-1 tvg-id="MonteMaria.mx@SD" tvg-country="MX" tvg-name="Monte Maria" tvg-logo="https://i.imgur.com/0rMHbbM.png" group-title="Religious",Monte Maria (1080p)
 https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioyTelevisionCrisoldelaAlegria.mx@SD" tvg-country="MX" tvg-name="Radio y Television Crisol de la Alegria" tvg-logo="https://i.imgur.com/EW2z5Ko.jpg" group-title="Religious",Radio y Television Crisol de la Alegria (1080p)
@@ -143,10 +141,10 @@ https://5ca9af4645e15.streamlock.net/grd/videogrd/playlist.m3u8
 https://stream.oursnetworktv.com/latin/encoder13/playlist.m3u8
 #EXTINF:-1 tvg-id="Azteca7.mx@SD" tvg-country="MX" tvg-name="Azteca 7" tvg-logo="https://i.imgur.com/UtFXjIn.png" group-title="General",Azteca 7 (1080p)
 http://187.245.231.226:8000/play/a0uz/index.m3u8
-#EXTINF:-1 tvg-id="B15Fresnillo.mx@SD" tvg-country="MX" tvg-name="B15 Fresnillo" tvg-logo="https://i.imgur.com/kaUhEQy.png" group-title="General",B15 Fresnillo (1080p)
-https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
-#EXTINF:-1 tvg-id="B15Zacatecas.mx@SD" tvg-country="MX" tvg-name="B15 Zacatecas" tvg-logo="https://i.imgur.com/kaUhEQy.png" group-title="General",B15 Zacatecas (1080p)
-https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8
+#EXTINF:-1 tvg-id="AztecaUno.mx@SD" tvg-country="MX" tvg-name="Azteca Uno" tvg-logo="https://i.imgur.com/rRxgBtI.png" group-title="General",Azteca Uno (1080p)
+http://38.44.109.41:8003/play/a033/index.m3u8
+#EXTINF:-1 tvg-id="CaliforniaMediosTV.mx@SD" tvg-country="MX" tvg-name="California Medios TV" tvg-logo="https://i.imgur.com/IDvpRNI.png" group-title="General",California Medios TV (720p)
+https://s5.mexside.net:1936/medios/medios/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5.mx@SD" tvg-country="MX" tvg-name="Canal 5" tvg-logo="https://i.imgur.com/uZdVSoW.png" group-title="General",Canal 5 (Mexico) (1080p)
 http://45.181.87.106/CANAL5HD/index.m3u8
 #EXTINF:-1 tvg-id="Canal5TVCozumel.mx@SD" tvg-country="MX" tvg-name="Canal 5 TV Cozumel" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg" group-title="General",Canal 5 TV Cozumel (1080p)
@@ -167,6 +165,8 @@ https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
 https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8
 #EXTINF:-1 tvg-id="CreaLaTV.mx@SD" tvg-country="MX" tvg-name="CreaLaTV" tvg-logo="https://i.imgur.com/Bnjj29f.png" group-title="General",CreaLaTV (1080p)
 https://stream.crealatv.com/live.m3u8
+#EXTINF:-1 tvg-id="DespiertaTV.mx@SD" tvg-country="MX" tvg-name="Despierta TV" tvg-logo="https://i.imgur.com/hywjKNo.jpg" group-title="General",Despierta TV (1080p)
+https://video2.lhdserver.es/despiertatv/live.m3u8
 #EXTINF:-1 tvg-id="EclipseTV.mx@SD" tvg-country="MX" tvg-name="Eclipse TV" tvg-logo="https://i.imgur.com/GiDD8xG.jpg" group-title="General",Eclipse TV (720p)
 https://vdo6.instainternet.com:3272/live/jobetalborezlive.m3u8
 #EXTINF:-1 tvg-id="ExpresaTV.mx@SD" tvg-country="MX" tvg-name="Expresa TV" tvg-logo="https://i.imgur.com/kFVVGrg.png" group-title="General",Expresa TV (720p)
@@ -223,8 +223,6 @@ https://59d39900ebfb8.streamlock.net/rytqrolive/rytqrolive/chunklist.m3u8
 https://5d0d1d7a6be9e.streamlock.net/sicom/canal1/playlist.m3u8
 #EXTINF:-1 tvg-id="SIPSETV81.mx@SD" tvg-country="MX" tvg-name="SIPSE TV 8.1" tvg-logo="https://i.imgur.com/123P7dV.png" group-title="General",SIPSE TV 8.1 (1080p)
 https://webprod.sipse.com.mx:8080/show/merida.m3u8
-#EXTINF:-1 tvg-id="SIPSETVCUN81.mx@SD" tvg-country="MX" tvg-name="SIPSE TVCUN 8.1" tvg-logo="https://i.imgur.com/uiTgClU.png" group-title="General",SIPSE TVCUN 8.1 (1080p)
-https://webprod.sipse.com.mx:8080/show/tvcun.m3u8
 #EXTINF:-1 tvg-id="SistemaMichoacanodeTV.mx@SD" tvg-country="MX" tvg-name="Sistema Michoacano de TV" tvg-logo="https://i.imgur.com/7MXF4Fd.png" group-title="General",Sistema Michoacano de TV (1080p)
 https://s5.mexside.net:1936/enlinea/enlinea/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperChannel12.mx@SD" tvg-country="MX" tvg-name="Super Channel 12" tvg-logo="https://i.imgur.com/dLHIvKz.png" group-title="General",Super Channel 12 (1080p)
