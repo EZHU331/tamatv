@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="TV8.md@SD" tvg-country="MD" tvg-name="TV8" tvg-logo="https://i.imgur.com/Rsn4oUh.png" group-title="News",TV8 (Moldova)
-http://178.76.68.60:7441/7/mpegts
+http://178.76.68.60:7442/7/mpegts
 #EXTINF:-1 tvg-id="RadioMoldovaTineret.md@SD" tvg-country="MD" tvg-name="Radio Moldova Tineret" tvg-logo="https://i.imgur.com/h2oZuyc.png" group-title="Entertainment",Radio Moldova Tineret (1080p)
 https://radiolive.trm.md:8001/hls_rmt/tineret.m3u8
 #EXTINF:-1 tvg-id="HitFM.md@SD" tvg-country="MD" tvg-name="Hit FM" tvg-logo="https://i.imgur.com/QwqM5j6.png" group-title="Music",Hit FM
@@ -29,5 +29,5 @@ http://188.237.212.16:8888/live/cameraFeed.m3u8
 https://tsv.md/stream/hls/tsv-online/index.m3u8
 #EXTINF:-1 tvg-id="TVRMoldova.md@HD" tvg-country="MD" tvg-name="TVR Moldova" tvg-logo="https://i.imgur.com/wDe9gL2.png" group-title="General",TVR Moldova HD (1440p)
 https://tvr-moldova.lg.mncdn.com/tvrmoldova/smil:tvrmoldova.smil/chunklist.m3u8
-#EXTINF:-1 tvg-id="VoceaBasarabieiTV.md@SD" tvg-country="MD" tvg-name="Vocea Basarabiei TV" tvg-logo="https://i.imgur.com/irP8QLs.png" group-title="General",Vocea Basarabiei TV
+#EXTINF:-1 tvg-id="VoceaBasarabieiTV.md" tvg-country="MD" tvg-name="Vocea Basarabiei" tvg-logo="https://i.imgur.com/irP8QLs.png" group-title="General",Vocea Basarabiei
 https://media.voceabasarabiei.md/vocea/bitrate_1080p.m3u8

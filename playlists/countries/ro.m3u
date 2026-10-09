@@ -9,15 +9,15 @@ https://edge-ar.rcs-rds.ro/digi24ar/index.m3u8
 https://live.dottotv.ro/index.m3u8
 #EXTINF:-1 tvg-id="InformatiaTV.ro@SD" tvg-country="RO" tvg-name="Informatia TV" tvg-logo="https://i.imgur.com/P1ZbVRg.png" group-title="News",Informatia TV
 https://informatia.streamnet.ro/mobile_tv/informatiatv.m3u8
-#EXTINF:-1 tvg-id="PrimaNews.ro@SD" tvg-country="RO" tvg-name="Prima News" tvg-logo="https://i.imgur.com/wlqGfU2.png" group-title="News",Prima News
+#EXTINF:-1 tvg-id="PrimaNews.ro@SD" tvg-country="RO" tvg-name="Prima News" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Prima_News_logo_2022.svg/1280px-Prima_News_logo_2022.svg.png" group-title="News",Prima News
 https://hls02ns.antenaplay.ro/hls/prima-news-hd/index.m3u8
-#EXTINF:-1 tvg-id="PROTVNews.ro@SD" tvg-country="RO" tvg-name="PROTV News" group-title="News",PROTV News (1080p)
+#EXTINF:-1 tvg-id="PROTVNews.ro@SD" tvg-country="RO" tvg-name="PROTV News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/85/Pro_TV_News_%282017%29.png/revision/latest?cb=20171005155753" group-title="News",PROTV News (1080p)
 https://cmero-ott-live.ssl.cdn.cra.cz/channels/cme-ro-voyo-news/playlist.m3u8?offsetSeconds=0&url=0
 #EXTINF:-1 tvg-id="TeleMoldovaPlus.ro@SD" tvg-country="RO" tvg-name="TeleMoldova +" tvg-logo="https://i.imgur.com/8z0zLjw.jpeg" group-title="News",TeleMoldova +
 https://vdo.ssl-stream.com:3247/stream/play.m3u8
 #EXTINF:-1 tvg-id="TVSUD.ro@SD" tvg-country="RO" tvg-name="TV SUD" tvg-logo="https://i.imgur.com/m3Slmbe.png" group-title="News",TV SUD (1080p)
 https://stream2.live-stream.ro/WebRTCApp/streams/118334672595255049029831.m3u8
-#EXTINF:-1 tvg-id="TVRInfo.ro@SD" tvg-country="RO" tvg-name="TVR Info" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="News",TVR Info
+#EXTINF:-1 tvg-id="TVRInfo.ro" tvg-country="RO" tvg-name="TVR Info" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="News",TVR Info Ⓖ
 https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RealitateaSportiva.ro@SD" tvg-country="RO" tvg-name="Realitatea Sportiva" tvg-logo="https://i.imgur.com/BaEyZto.png" group-title="Sports",Realitatea Sportiva (720p)
 https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
@@ -29,14 +29,11 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus16/live_fullhd?offset
 https://tvextra-hls.b-cdn.net/bollywoodfilm/bollywoodfilm.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-country="RO" tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Movies",Bollywood HD Russia (720p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
-#EXTINF:-1 tvg-id="CineMaraton.ro@SD" tvg-country="RO" tvg-name="CineMaraton" tvg-logo="https://i.imgur.com/BY8UZa0.png" group-title="Movies" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36",CineMaraton (576i)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://dokagents.site/live/cinemaraton/mono.m3u8
 #EXTINF:-1 tvg-id="CinemaratonPlus.ro@HD" tvg-country="RO" tvg-name="Cinemaraton Plus" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RMNdkVBCTNfsogsYqHaB.png" group-title="Movies",Cinemaraton Plus (1080i)
 https://hls02ns.antenaplay.ro/hls/cinemaraton-plus-hd/index.m3u8
 #EXTINF:-1 tvg-id="NostalgiaTV.ro@HD" tvg-country="RO" tvg-name="Nostalgia TV" tvg-logo="https://assets.antenaplay.ro/2026/03/10/fX5tvuPLymvvR8lQmwO7.png" group-title="Movies",Nostalgia TV (1080p)
 https://hls02ns.antenaplay.ro/hls/nostalgia-hd/index.m3u8
-#EXTINF:-1 tvg-id="ProCinema.ro@SD" tvg-country="RO" tvg-name="Pro Cinema" tvg-logo="https://i.imgur.com/TvHFGwZ.png" group-title="Movies",Pro Cinema (1080p)
+#EXTINF:-1 tvg-id="ProCinema.ro@SD" tvg-country="RO" tvg-name="Pro Cinema" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a6/Pro_Cinema_logo_2022.svg/revision/latest/scale-to-width-down/1000?cb=20220419100521" group-title="Movies",Pro Cinema (1080p)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-procinema/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="Mireasa.ro@SD" tvg-country="RO" tvg-name="Mireasa" tvg-logo="https://i.imgur.com/k0VO0LH.png" group-title="Series",Mireasa (720p)
 https://stream1.antenaplay.ro/live/MireasaExtra/playlist.m3u8
@@ -57,9 +54,6 @@ https://live4dai.antenaplay.ro/live2_sdi05/live2_sdi05_600k.m3u8
 https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8
 #EXTINF:-1 tvg-id="TraLaLaTV.ro@SD" tvg-country="RO" tvg-name="TraLaLa TV" tvg-logo="https://i.imgur.com/xJBMnjy.png" group-title="Kids",TraLaLa TV
 https://hls01ns.antenaplay.ro/hls/tralala-hd/index.m3u8
-#EXTINF:-1 tvg-id="History.ro@SD" tvg-country="RO" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36",History (Romania)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://dokagents.site/live/history/mono.m3u8
 #EXTINF:-1 tvg-id="TVRCultural.ro@SD" tvg-country="RO" tvg-name="TVR Cultural" tvg-logo="https://i.imgur.com/U9i70C9.png" group-title="Culture",TVR Cultural
 https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BoomTV.ro@HD" tvg-country="RO" tvg-name="Boom TV" tvg-logo="https://live.radioboom.ro/live-tv/poster.jpg" group-title="Music" http-referrer="https://tvboom.ro/",Boom TV (1080p)
@@ -88,10 +82,12 @@ https://tvextra-hls.b-cdn.net/moozhits/moozhits.m3u8
 https://tvextra-hls.b-cdn.net/moozro/moozro.m3u8
 #EXTINF:-1 tvg-id="MusicChannel.ro@SD" tvg-country="RO" tvg-name="Music Channel" tvg-logo="https://i.imgur.com/nadVCxM.png" group-title="Music",Music Channel
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-ncn/live_hq?offsetSeconds=0
-#EXTINF:-1 tvg-id="PartyMix.ro@HD" tvg-country="RO" tvg-name="Party Mix" tvg-logo="https://i.imgur.com/leF8AGo.png" group-title="Music",Party Mix HD (1080p)
+#EXTINF:-1 tvg-id="PartyMix.ro@HD" tvg-country="RO" tvg-name="Party Mix" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lCn4ThcMw7giX9jeLHURb1oqoNIYN3YlObhwLkrsSNfg=w226-c-h226-k-c0x00ffffff-no-l90-rj" group-title="Music",Party Mix HD (1080p)
 https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8
 #EXTINF:-1 tvg-id="RadioFxNet.ro@HD" tvg-country="RO" tvg-name="Radio Fx Net" tvg-logo="https://radiofxnet.ro/wp-content/uploads/2021/03/cropped-cropped-cropped-cropped-Radio_FX_Net_logo-1-1.png" group-title="Music",Radio Fx Net (720p)
 https://streamlov.alsolnet.com/radiofxnet/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RadioRomaniaAntenaSatelor.ro@720p" tvg-country="RO" tvg-name="Radio Romania Antena Satelor" tvg-logo="https://www.antenasatelor.ro/templates/default/images/custom/logo-main.svg" group-title="Music",Radio Romania Antena Satelor (720p)
+https://stream3.srr.ro/live/AntenaSatelor/playlist.m3u8
 #EXTINF:-1 tvg-id="RockTV.ro@SD" tvg-country="RO" tvg-name="Rock TV" tvg-logo="https://i.imgur.com/VB88A5V.png" group-title="Music",Rock TV (Romania) (720p)
 https://tv.broadcasting.ro/rocktv/85c83a80-4f71-4f2d-a8d6-43f676896bcb.m3u8
 #EXTINF:-1 tvg-id="TraditionalTV.ro@SD" tvg-country="RO" tvg-name="Traditional TV" tvg-logo="https://i.ibb.co/G5bNH48/Traditional-TV-HD.png" group-title="Music",Traditional TV (1080p)
@@ -148,17 +144,17 @@ https://www.livemetropolatv.ro/MetropolaTV/Metro/playlist.m3u8
 https://cdn.streamnet.pro/musceltv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="NasulTV.ro@SD" tvg-country="RO" tvg-name="Nasul TV" tvg-logo="https://i.imgur.com/MoguWme.png" group-title="General",Nasul TV (720p)
 https://live.nasul.tv/live/stream.m3u8
-#EXTINF:-1 tvg-id="National24Plus.ro@SD" tvg-country="RO" tvg-name="National 24 Plus" tvg-logo="https://i.imgur.com/VxBdga3.png" group-title="General",National 24 Plus
+#EXTINF:-1 tvg-id="National24Plus.ro@SD" tvg-country="RO" tvg-name="National 24 Plus" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/26/National_24_Plus_TV.svg/revision/latest/scale-to-width-down/1000?cb=20250202201124" group-title="General",National 24 Plus
 https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8
-#EXTINF:-1 tvg-id="NationalTV.ro@SD" tvg-country="RO" tvg-name="National TV" tvg-logo="https://i.imgur.com/KHzUIwG.png" group-title="General",National TV
+#EXTINF:-1 tvg-id="NationalTV.ro@SD" tvg-country="RO" tvg-name="National TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/National_TV_2025.png" group-title="General",National TV
 https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8
 #EXTINF:-1 tvg-id="PrimaTV.ro@HD" tvg-country="RO" tvg-name="Prima TV" tvg-logo="https://i.imgur.com/p2umWAT.png" group-title="General",Prima TV (Romania) HD (720p)
 http://eb4b8dcf.kablakaka.ru/iptv/AE8BY6FHF5ZGAG/6995/index.m3u8
-#EXTINF:-1 tvg-id="ProArena.ro@SD" tvg-country="RO" tvg-name="Pro Arena" tvg-logo="https://i.imgur.com/KQmB9Cc.png" group-title="General",Pro Arena (1080p)
+#EXTINF:-1 tvg-id="ProArena.ro@SD" tvg-country="RO" tvg-name="Pro Arena" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/PRO_Arena_Logo_%282022-present%29.svg/960px-PRO_Arena_Logo_%282022-present%29.svg.png" group-title="General",Pro Arena (1080p)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-prox/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="PROTV.ro@HD" tvg-country="RO" tvg-name="PRO TV" tvg-logo="https://i.imgur.com/zVk3WlT.png" group-title="General",PRO TV HD (1080p)
+#EXTINF:-1 tvg-id="PROTV.ro@HD" tvg-country="RO" tvg-name="PRO TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8a/Pro_TV_Aug_2025.svg/revision/latest/scale-to-width-down/1000?cb=20250810105837" group-title="General",PRO TV HD (1080p)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="PROTVInternational.ro@SD" tvg-country="RO" tvg-name="PRO TV International" tvg-logo="https://i.imgur.com/vfr1ZYw.png" group-title="General",PRO TV International
+#EXTINF:-1 tvg-id="PROTVInternational.ro@SD" tvg-country="RO" tvg-name="PRO TV International" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4f/PRO_TV_Interna%C8%9Bional_%282017%29.svg/revision/latest/scale-to-width-down/1000?cb=20220821114700" group-title="General",PRO TV International
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="PROFI24TV.ro@SD" tvg-country="RO" tvg-name="PROFI 24 TV" tvg-logo="https://profi24.ro/wp-content/uploads/2025/03/Logo_Profi24_Nou_Logo_Profi24_Landscape_Logo_Profi24_Landscape-e1742981714264.png" group-title="General",PROFI 24 TV
 https://live.ro24tv.ro/hls/stream.m3u8
@@ -174,25 +170,25 @@ https://stream.realitatea.net/realitatea/star_md/ts:playlist.m3u8
 https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tele7ABCHD.ro@SD" tvg-country="RO" tvg-name="Tele7ABC HD" tvg-logo="https://i.imgur.com/CheqyWH.png" group-title="General",Tele7ABC HD (720p)
 https://live.tele7abc.ro/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="Telestar1.ro@SD" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
+#EXTINF:-1 tvg-id="Telestar1.ro" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
-#EXTINF:-1 tvg-id="TVR1.ro@SD" tvg-country="RO" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CcUX1gB.png" group-title="General",TVR 1
+#EXTINF:-1 tvg-id="TVR1.ro" tvg-country="RO" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CcUX1gB.png" group-title="General",TVR 1 Ⓖ
 https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR2.ro@SD" tvg-country="RO" tvg-name="TVR 2" tvg-logo="https://i.imgur.com/mKouHIZ.png" group-title="General",TVR 2
+#EXTINF:-1 tvg-id="TVR2.ro" tvg-country="RO" tvg-name="TVR 2" tvg-logo="https://i.imgur.com/mKouHIZ.png" group-title="General",TVR 2 Ⓖ
 https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR3.ro@SD" tvg-country="RO" tvg-name="TVR 3" tvg-logo="https://i.imgur.com/yHCuTap.png" group-title="General",TVR 3
+#EXTINF:-1 tvg-id="TVR3.ro" tvg-country="RO" tvg-name="TVR 3" tvg-logo="https://i.imgur.com/yHCuTap.png" group-title="General",TVR 3 Ⓖ
 https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRCluj.ro@SD" tvg-country="RO" tvg-name="TVR Cluj" tvg-logo="https://i.imgur.com/RkDra93.png" group-title="General",TVR Cluj
+#EXTINF:-1 tvg-id="TVRCluj.ro" tvg-country="RO" tvg-name="TVR Cluj" tvg-logo="https://i.imgur.com/RkDra93.png" group-title="General",TVR Cluj Ⓖ
 https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRCraiova.ro@SD" tvg-country="RO" tvg-name="TVR Craiova" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="General",TVR Craiova
+#EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-country="RO" tvg-name="TVR Craiova" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="General",TVR Craiova Ⓖ
 https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRIasi.ro@SD" tvg-country="RO" tvg-name="TVR Iasi" tvg-logo="https://i.imgur.com/Kxkihds.png" group-title="General",TVR Iasi
 https://tvr-iasi.lg.mncdn.com/tvriasi/smil:tvriasi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRInternational.ro@SD" tvg-country="RO" tvg-name="TVR International" tvg-logo="https://i.imgur.com/w28wcHs.png" group-title="General",TVR International
+#EXTINF:-1 tvg-id="TVRInternational.ro" tvg-country="RO" tvg-name="TVR International" tvg-logo="https://i.imgur.com/w28wcHs.png" group-title="General",TVR International Ⓖ
 https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRTarguMures.ro@SD" tvg-country="RO" tvg-name="TVR Targu-Mures" tvg-logo="https://i.imgur.com/9Hptdqj.png" group-title="General",TVR Targu-Mures
-https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRTimisoara.ro@SD" tvg-country="RO" tvg-name="TVR Timisoara" tvg-logo="https://i.imgur.com/0x6Edei.png" group-title="General",TVR Timisoara
+#EXTINF:-1 tvg-id="TVRTimisoara.ro" tvg-country="RO" tvg-name="TVR Timișoara" tvg-logo="https://i.imgur.com/0x6Edei.png" group-title="General",TVR Timișoara Ⓖ
 https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="VPTV.ro@SD" tvg-country="RO" tvg-name="VP TV" group-title="General",VP TV
+#EXTINF:-1 tvg-id="TVRTarguMures.ro" tvg-country="RO" tvg-name="TVR Tîrgu-Mureș" tvg-logo="https://i.imgur.com/9Hptdqj.png" group-title="General",TVR Tîrgu-Mureș Ⓖ
+https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="VPTV.ro@SD" tvg-country="RO" tvg-name="VP TV" tvg-logo="https://www.vptv.ro/wp-content/uploads/2016/02/sigla-vp-tv.gif" group-title="General",VP TV
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-vp-tv/live_lq?offsetSeconds=0

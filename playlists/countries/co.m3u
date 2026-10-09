@@ -19,10 +19,6 @@ https://canal.mediaserver.com.co/live/cinedios.m3u8
 https://video.ejeserver.com/live/mcitelevision.m3u8
 #EXTINF:-1 tvg-id="StarChannel.co@SD" tvg-country="CO" tvg-name="Star Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Star_Channel_2020.svg/960px-Star_Channel_2020.svg.png" group-title="Movies",Star Channel (Colombia) (1080p)
 http://190.61.47.54:8000/play/a035/index.m3u8
-#EXTINF:-1 tvg-id="ANCTelevision.co@SD" tvg-country="CO" tvg-name="ANC Television" tvg-logo="https://i.imgur.com/xjTU14t.jpg" group-title="Entertainment",ANC Television (720p)
-https://live.amelbatv.co:81/anctvlive/index.m3u8
-#EXTINF:-1 tvg-id="Canal14Codazzi.co@SD" tvg-country="CO" tvg-name="Canal 14 Codazzi" tvg-logo="https://i.imgur.com/wNSUMhJ.png" group-title="Entertainment",Canal 14 Codazzi (720p)
-https://eu1.servers10.com:8081/8056/index.m3u8
 #EXTINF:-1 tvg-id="CanalNets.co@SD" tvg-country="CO" tvg-name="Canal Nets" tvg-logo="https://i.imgur.com/edaAexc.png" group-title="Entertainment",Canal Nets (720p)
 https://movil.ejeserver.com/live/nets.m3u8
 #EXTINF:-1 tvg-id="CanalWomtv.co@SD" tvg-country="CO" tvg-name="Canal Womtv" tvg-logo="https://i.imgur.com/Nr4muMP.jpeg" group-title="Entertainment",Canal Womtv (720p)
@@ -121,8 +117,6 @@ https://stmv1.voxtvhd.com.br/alpavision/alpavision/playlist.m3u8
 https://movil.ejeserver.com/live/canal8tv.m3u8
 #EXTINF:-1 tvg-id="CanalCapital.co@SD" tvg-country="CO" tvg-name="Canal Capital" tvg-logo="https://i.imgur.com/zAYtbYi.png" group-title="General",Canal Capital (1080p)
 http://138.121.15.230:9002/CANAL-CAPITAL/index.m3u8
-#EXTINF:-1 tvg-id="CanalCHD.co@SD" tvg-country="CO" tvg-name="Canal CHD" tvg-logo="https://i.imgur.com/cNv1MPs.jpeg" group-title="General",Canal CHD
-https://vs20.live.opencaster.com/canalchd2025_8d99626c/index.m3u8
 #EXTINF:-1 tvg-id="CanalDos.co@SD" tvg-country="CO" tvg-name="Canal Dos" tvg-logo="https://i.imgur.com/BYsyNHZ.jpg" group-title="General",Canal Dos (720p)
 http://131.221.41.94/hls/canal2.m3u8
 #EXTINF:-1 tvg-id="CanalMasTelevision.co@SD" tvg-country="CO" tvg-name="Canal Mas Television" tvg-logo="https://i.imgur.com/ODMa27W.jpg" group-title="General",Canal Mas Television (720p)
@@ -145,6 +139,8 @@ https://movil.ejeserver.com/live/cncbuga.m3u8
 http://138.94.3.106:8000/play/a02o/index.m3u8
 #EXTINF:-1 tvg-id="CNCPereira.co@SD" tvg-country="CO" tvg-name="CNC Pereira" tvg-logo="https://i.imgur.com/5vJ0aXH.png" group-title="General",CNC Pereira (720p)
 https://cloudvideo.servers10.com:8081/latinchaneltv/index.m3u8
+#EXTINF:-1 tvg-id="CNCTulua.co@SD" tvg-country="CO" tvg-name="CNC Tulua" tvg-logo="https://i.imgur.com/NCzpcqm.png" group-title="General",CNC Tulua (1080p)
+https://live.amelbatv.co:81/cnctulualive/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="CNCValledupar.co@SD" tvg-country="CO" tvg-name="CNC Valledupar" tvg-logo="https://i.imgur.com/y5N6PCg.jpg" group-title="General",CNC Valledupar (720p)
 https://live20.bozztv.com/akamaissh101/ssh101/cncvalledupar1/playlist.m3u8
 #EXTINF:-1 tvg-id="Cosmovision.co@SD" tvg-country="CO" tvg-name="Cosmovision" tvg-logo="https://i.imgur.com/bj7Jd2q.png" group-title="General",Cosmovision (720p)
@@ -169,8 +165,6 @@ https://vs20.live.opencaster.com/panche_3c70d368/index.m3u8
 http://181.78.14.26:4000/play/a07m/index.m3u8
 #EXTINF:-1 tvg-id="SenalColombia.co@SD" tvg-country="CO" tvg-name="Senal Colombia" tvg-logo="https://i.imgur.com/Y9x16vl.png" group-title="General",Senal Colombia (1080p)
 http://209.14.115.253:8081/SENALCOLOMBIA/index.m3u8
-#EXTINF:-1 tvg-id="SoonaTV.co@SD" tvg-country="CO" tvg-name="Soona TV" tvg-logo="https://i.imgur.com/Pk8zzTL.jpeg" group-title="General",Soona TV
-https://vs20.live.opencaster.com/soonatv_a1a564a9/index.m3u8
 #EXTINF:-1 tvg-id="SuramTV.co@SD" tvg-country="CO" tvg-name="Suram TV" tvg-logo="https://i.imgur.com/2N9LCES.png" group-title="General",Suram TV (720p)
 https://us.streaminghd.cl/suramtv/index.m3u8
 #EXTINF:-1 tvg-id="TeleMocoaCanal10.co@SD" tvg-country="CO" tvg-name="Tele Mocoa Canal 10" tvg-logo="https://i.imgur.com/XHtpEfu.png" group-title="General",Tele Mocoa Canal 10 (720p)
