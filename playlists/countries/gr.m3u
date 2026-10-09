@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz"
-#EXTINF:-1 tvg-id="AstraTV.gr@SD" tvg-country="GR" tvg-name="Astra TV" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="News",Astra TV (1080p)
-https://server.gointernet.gr/live/livestream.m3u8
 #EXTINF:-1 tvg-id="CorfuChannel.gr@SD" tvg-country="GR" tvg-name="Corfu Channel" tvg-logo="https://i.imgur.com/EFL1Tjg.png" group-title="News",Corfu Channel (720p)
 https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="ERTNews.gr@HD" tvg-country="GR" tvg-name="ERT News" tvg-logo="https://www.ert.gr/wp-content/uploads/2025/09/ert-news-white-bg-menu-optimized.svg" group-title="News",ERT News HD (1080p)
@@ -47,8 +45,6 @@ https://rtmp.win:3603/live/ellinikosfmlive.m3u8
 http://tv.nrg91.gr:1935/onweb/live/master.m3u8
 #EXTINF:-1 tvg-id="PanikTV.gr@SD" tvg-country="GR" tvg-name="Panik TV" tvg-logo="https://i.imgur.com/13C3CPr.png" group-title="Music",Panik TV (1080p)
 https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
-#EXTINF:-1 tvg-id="HellenicParliamentTV.gr@SD" tvg-country="GR" tvg-name="Hellenic Parliament TV" tvg-logo="https://i.imgur.com/o2cvqv3.png" group-title="Legislative",Hellenic Parliament TV (1080p)
-https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8
 #EXTINF:-1 tvg-id="4E.gr@SD" tvg-country="GR" tvg-name="4E" tvg-logo="https://i.imgur.com/Na0UCV7.png" group-title="Religious",4E (1080p)
 http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="400000301" tvg-country="GR" tvg-name="Mad TV" tvg-logo="https://i.imgur.com/W3sGgWd.png" group-title="Comedy",MADtv
