@@ -36,8 +36,6 @@ http://45.5.118.188:8000/play/a00j/index.m3u8
 http://45.167.2.101:8000/play/a0qs/index.m3u8
 #EXTINF:-1 tvg-id="Canal9LaUnion.sv@SD" tvg-country="SV" tvg-name="Canal 9 La Union" tvg-logo="https://i.imgur.com/rdeUErb.png" group-title="General",Canal 9 La Union (1080p)
 http://45.167.2.101:8000/play/a0r5/index.m3u8
-#EXTINF:-1 tvg-id="Canal15ElZamorano.sv@SD" tvg-country="SV" tvg-name="Canal 15 El Zamorano" tvg-logo="https://i.imgur.com/op13ujg.png" group-title="General",Canal 15 El Zamorano
-https://vdo.tecnoservix.stream:3007/live/canal15zamoranolive.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal19.sv@SD" tvg-country="SV" tvg-name="Megavision Canal 19" tvg-logo="https://i.imgur.com/voyVP6X.png" group-title="General",Megavision Canal 19 (720p)
 https://mgvchannel19-ioriver-cdn.encoders.immergo.tv/master.m3u8
 #EXTINF:-1 tvg-id="MegavisionCanal21.sv@SD" tvg-country="SV" tvg-name="Megavision Canal 21" tvg-logo="https://i.imgur.com/HbdYU9k.png" group-title="General",Megavision Canal 21 (720p)
@@ -46,6 +44,8 @@ https://mgvchannel21-ioriver-cdn.encoders.immergo.tv/master.m3u8
 http://45.167.2.138:8000/play/a0o4/index.m3u8
 #EXTINF:-1 tvg-id="RTVCanal57.sv@SD" tvg-country="SV" tvg-name="RTV Canal 57" tvg-logo="https://i.imgur.com/tnOGWqL.png" group-title="General",RTV Canal 57 (720p)
 https://stream.giostreaming.app/rtvcanal57/rtvcanal57.m3u8
+#EXTINF:-1 tvg-id="SolTV.sv@SD" tvg-country="SV" tvg-name="SolTV" tvg-logo="https://i.imgur.com/jaBxxpt.png" group-title="General",SolTV (El Salvador) (720p)
+https://videostream.shockmedia.com.ar/hls/canalsoltv/canalsoltv.m3u8
 #EXTINF:-1 tvg-id="SVPlus.sv@SD" tvg-country="SV" tvg-name="SV+" tvg-logo="https://i.imgur.com/bCcnLVL.png" group-title="General",SV+ (720p)
 http://45.167.2.101:8000/play/a0qx/index.m3u8
 #EXTINF:-1 tvg-id="TVCNetwork.sv@SD" tvg-country="SV" tvg-name="TVC Network" tvg-logo="https://i.imgur.com/S1xiWB3.png" group-title="General" http-referrer="https://player.castr.com/live_d0b3cf70e24111ed8ed2951b4c7d1b75",TVC Network (720p)
