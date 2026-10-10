@@ -119,7 +119,7 @@ http://str2.iptvhd.ru:8080/travel/index.m3u8
 https://dash2.antik.sk/live/test_rybalka_tv_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="RadaTV.ua@SD" tvg-country="UA" tvg-name="Rada TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/960px-Rada_TV_%282021%29.svg.png" group-title="Legislative",Rada TV (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="EWTNUkraine.ua@SD" tvg-country="UA" tvg-name="EWTN Ukraine" group-title="Religious",EWTN Ukraine (1080p)
+#EXTINF:-1 tvg-id="EWTNUkraine.ua@SD" tvg-country="UA" tvg-name="EWTN Ukraine" tvg-logo="https://thumb.wikimedia.org/wikipedia/en/thumb/c/c8/EWTN_Logo_and_Wordmark_%282016%29.svg/1920px-EWTN_Logo_and_Wordmark_%282016%29.svg.png" group-title="Religious",EWTN Ukraine (1080p)
 https://cdn3.wowza.com/1/WjduMm1tYnlwNXQx/M01NV3Uz/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="HopeChannelUkraine.ua@SD" tvg-country="UA" tvg-name="Hope Channel Ukraine" tvg-logo="https://i.imgur.com/mUx2P29.png" group-title="Religious" http-user-agent="curl/8.16.0",Hope Channel Ukraine
 #EXTVLCOPT:http-user-agent=curl/8.16.0
@@ -172,7 +172,7 @@ http://stream.mcquack.net/325/index.m3u8
 http://stream.mcquack.net/157/index.m3u8
 #EXTINF:-1 tvg-id="NTKTV.ua@SD" tvg-country="UA" tvg-name="NTK TV" tvg-logo="https://www.ntktv.ua/bitrix/templates/ntk_copy/images/logo.png" group-title="General",NTK TV (1080p)
 https://stream.ntktv.ua/s/ntk/ntk.m3u8
-#EXTINF:-1 tvg-id="NTN.ua" tvg-country="UA" tvg-name="NTN" tvg-logo="https://i.imgur.com/AmyCNJv.png" group-title="General",NTN
+#EXTINF:-1 tvg-id="NTN.ua@SD" tvg-country="UA" tvg-name="NTN" tvg-logo="https://i.imgur.com/AmyCNJv.png" group-title="General",NTN (Ukraine) (1080i)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/ntn-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="OTV.ua@SD" tvg-country="UA" tvg-name="OTV" tvg-logo="https://i.imgur.com/TkGGGAj.png" group-title="General",OTV (Ukraine)
 https://stream.otv.ua/memfs/028e5947-073f-4b4e-a47f-70e59ca3ee36.m3u8
@@ -219,8 +219,6 @@ http://cdnua05.hls.tv/648/hls/f62d71219200da4130d13b21d23fb23c/4786/stream.m3u8
 http://cdnua05.hls.tv/647/hls/f62d71219200da4130d13b21d23fb23c/4787/stream.m3u8
 #EXTINF:-1 tvg-id="SuspilneKrym.ua" tvg-country="UA" tvg-name="Суспільне Крим" tvg-logo="https://i.imgur.com/m7znCes.png" group-title="General",Суспільне Крим
 https://ext.cdn.nashnet.tv/228.0.0.71/index.m3u8
-#EXTINF:-1 tvg-id="SuspilneLutsk.ua" tvg-country="UA" tvg-name="Суспільне Луцьк" tvg-logo="https://i.imgur.com/QIin5nZ.png" group-title="General",Суспільне Луцьк
-http://193.107.168.98:7006/play/508/index.m3u8
 #EXTINF:-1 tvg-id="SuspilneOdesa.ua" tvg-country="UA" tvg-name="Суспільне Одеса" tvg-logo="https://i.imgur.com/giTdUK9.png" group-title="General",Суспільне Одеса
 http://cdnua05.hls.tv/653/hls/f62d71219200da4130d13b21d23fb23c/4833/stream.m3u8
 #EXTINF:-1 tvg-id="SuspilneSumy.ua" tvg-country="UA" tvg-name="Суспільне Суми" tvg-logo="https://i.imgur.com/U5GQiUz.png" group-title="General",Суспільне Суми

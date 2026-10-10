@@ -3,14 +3,20 @@
 https://stream1.freetv.fun/xing-kong-wei-shi-4.ctv
 #EXTINF:-1 tvg-id="tvN Movies Asia" tvg-country="HK" tvg-name="tvN Movies Asia" tvg-logo="https://i.imgur.com/c4XvwO2.png" group-title="港澳台",tvN Movies Asia
 http://210.210.155.37/dr9445/h/h21/index.m3u8
+#EXTINF:-1 tvg-id="AsianDrama.hk@SD" tvg-country="HK" tvg-name="Asian Drama" tvg-logo="https://i.imgur.com/wqtN7mH.png" group-title="地方",Asian Drama (1080p)
+http://103.172.187.30:12000/stream/mytv/null-11/master.m3u8
 #EXTINF:-1 tvg-id="CelestialMovies.hk@SD" tvg-country="HK" tvg-name="Celestial Movies" tvg-logo="https://i.imgur.com/Mb5ssnu.png" group-title="地方",Celestial Movies (576i)
 http://103.58.160.157:8278/720-CELESTIALMOVIES/playlist.m3u8
 #EXTINF:-1 tvg-id="ClassicMovies.hk" tvg-country="HK" tvg-name="Classic Movies" tvg-logo="https://i.imgur.com/PwgiHUQ.png" group-title="地方",Classic Movies
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561c5b0dada51f8004c4d855/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=106&deviceId=561c5b0dada51f8004c4d855&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="J2" tvg-country="HK" tvg-name="J2" tvg-logo="https://i.imgur.com/lvxtaoM.png" group-title="地方",J2
 https://hls-gateway.vpstv.net/streams/476932.m3u8
+#EXTINF:-1 tvg-id="Jade.hk@SD" tvg-country="HK" tvg-name="Jade" tvg-logo="https://raw.githubusercontent.com/wanglindl/TVlogo/main/img/TVB1.png" group-title="地方",Jade (1080p)
+http://103.172.187.30:12000/stream/mytv/null-1/master.m3u8
 #EXTINF:-1 tvg-id="KIX.hk@SD" tvg-country="HK" tvg-name="KIX" tvg-logo="https://i.imgur.com/zWcUAdb.png" group-title="地方",KIX
 https://liveh34.vtvprime.vn/hls/KIX/04.m3u8
+#EXTINF:-1 tvg-id="MeiAhMovieChannel.hk@SD" tvg-country="HK" tvg-name="Mei Ah Movie Channel" tvg-logo="https://i.imgur.com/laGiFM1.png" group-title="地方",Mei Ah Movie Channel (1080p)
+http://103.172.187.30:12000/stream/mytv/null-9/master.m3u8
 #EXTINF:-1 tvg-id="NewsWorld.hk@FAST" tvg-country="HK" tvg-name="NewsWorld" tvg-logo="https://provider-static.plex.tv/epg/cms/production/2e3bf0d9-3ca6-4f65-b1d4-f180ef725d96/NewsWorld_logo_dark_-_Angela_Chan.png" group-title="地方",NewsWorld (1080p)
 https://amg01076-lightning-amg01076c5-rakuten-us-1788.playouts.now.amagi.tv/playlist/amg01076-lightning-newsworld-rakutenus/playlist.m3u8
 #EXTINF:-1 tvg-id="PetClubTV.hk@SD" tvg-country="HK" tvg-name="Pet Club TV" tvg-logo="https://i.imgur.com/ykPNNwQ.png" group-title="地方",Pet Club TV (1080p)
@@ -25,6 +31,8 @@ https://rthktv35-live.akamaized.net/hls/live/2101643/RTHKTV35/master.m3u8
 http://58.8.186.128:10005/bysid/2518
 #EXTINF:-1 tvg-id="ViuTV.hk" tvg-country="HK" tvg-name="ViuTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/ViuTV_logo.svg/960px-ViuTV_logo.svg.png" group-title="地方",ViuTV
 http://r.jdshipin.com/vSJvl
+#EXTINF:-1 tvg-id="GoldenJade.hk@SD" tvg-country="HK" tvg-name="Golden Jade" tvg-logo="https://i.imgur.com/lPYxsUr.png" group-title="其他",Golden Jade (1080p)
+http://103.172.187.30:12000/stream/mytv/null-12/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-country="HK" tvg-name="RTHK TV 31" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="其他",RTHK TV 31 (1080p)
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV32.hk@SD" tvg-country="HK" tvg-name="RTHK TV 32" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="其他",RTHK TV 32 (1080p)
