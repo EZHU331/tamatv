@@ -28,8 +28,6 @@ http://45.162.64.114/FUTURA/index.m3u8
 https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8
 #EXTINF:-1 tvg-id="CanalUniversidad.ar@SD" tvg-country="AR" tvg-name="Canal Universidad" tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="Education",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
-#EXTINF:-1 tvg-name="CCTV-10_" group-title="Education",CCTV-10_ (720p)
-http://74.91.26.218:82/live/cctv10hd.m3u8
 #EXTINF:-1 tvg-id="CiftciTV.tr@SD" tvg-country="TR" tvg-name="Ciftci TV" tvg-logo="https://i.imgur.com/CLzP4vL.png" group-title="Education",Ciftci TV (720p)
 https://live.artidijitalmedya.com/artidijital_ciftcitv/ciftcitv/playlist.m3u8
 #EXTINF:-1 tvg-id="ClassicArtsShowcase.us@SD" tvg-country="US" tvg-name="Classic Arts Showcase" tvg-logo="https://i.imgur.com/M6FFkc3.png" group-title="Education",Classic Arts Showcase (720p)
@@ -136,6 +134,8 @@ http://stream.mcquack.net/378/index.m3u8
 https://s3-us-west-2.amazonaws.com/beverly-hills-high-school.castus-vod/live/ch1/video.m3u8
 #EXTINF:-1 tvg-id="KCAT.us@SD" tvg-country="US" tvg-name="KCAT" tvg-logo="https://i.imgur.com/ZAypRkk.png" group-title="Education",KCAT (1080p)
 https://reflect-kcat-live.cablecast.tv/live-2/live/live.m3u8
+#EXTINF:-1 tvg-id="KiteVicters.in@SD" tvg-country="IN" tvg-name="Kite Victers" tvg-logo="https://i.imgur.com/kj4OEsb.png" group-title="Education",Kite Victers (720p)
+https://932y4x26ljv8-hls-live.5centscdn.com/victers/tv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KOCTChannel19.us@SD" tvg-country="US" tvg-name="KOCT Channel 19" tvg-logo="https://i.imgur.com/6C71KwP.png" group-title="Education",KOCT Channel 19 (720p)
 https://securestream10.champds.com/LIVE/KOCTCALIVE2/KOCTCALIVE2.m3u8
 #EXTINF:-1 tvg-id="Kunskapskanalen.se@HD" tvg-country="SE" tvg-name="Kunskapskanalen" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/4/4a/Kunskapskanalen_HD_Logo.svg" group-title="Education",Kunskapskanalen HD (1080p)
@@ -228,12 +228,10 @@ https://app.tvufop.com.br/hls/tvufop.m3u8
 https://5ca3e84a76d30.streamlock.net/universidadgto/videouniversidadgto/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUJAT.mx@SD" tvg-country="MX" tvg-name="TV UJAT" tvg-logo="https://i.imgur.com/4demWOi.png" group-title="Education",TV UJAT (720p)
 https://5e50264bd6766.streamlock.net/ujat/videoujat/playlist.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
+#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-id="TVUsach.cl@SD" tvg-country="CL" tvg-name="TV Usach" tvg-logo="https://i.imgur.com/KDC7IVl.png" group-title="Education",TV Usach (720p)
 https://stv4.janus.cl/playlist/stream.m3u8
-#EXTINF:-1 tvg-id="TVERS.br@SD" tvg-country="BR" tvg-name="TVE RS" tvg-logo="https://i.imgur.com/MQ6lJpS.png" group-title="Education",TVE RS (1080p)
-https://streaming.procergs.com.br:8443/tve/stve/playlist.m3u8
 #EXTINF:-1 tvg-id="TVK2.kh@SD" tvg-country="KH" tvg-name="TVK 2" tvg-logo="https://i.imgur.com/L36ptO2.png" group-title="Education",TVK 2 (720p)
 https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="UAATV.mx@SD" tvg-country="MX" tvg-name="UAA TV" tvg-logo="https://i.imgur.com/brCSiGh.png" group-title="Education",UAA TV (1080p)

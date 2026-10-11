@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_VN1.xml.gz"
 #EXTINF:-1 tvg-id="DongNaiTV1.vn@SD" tvg-country="VN" tvg-name="Dong Nai TV 1" tvg-logo="https://i.imgur.com/oQyioVa.png" group-title="News",Dong Nai TV 1 (720p)
 https://vtvgolive-ott3.vtvdigital.vn/live/dongnai1tv/chunklist_2.m3u8
-#EXTINF:-1 tvg-id="HTV9.vn@SD" tvg-country="VN" tvg-name="HTV9" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bf/HTV9_logo.webp" group-title="News",HTV9 (720p)
-https://dethich.pw/htv9/index.m3u8
 #EXTINF:-1 tvg-id="VinhLongTV1.vn@SD" tvg-country="VN" tvg-name="Vinh Long TV 1" tvg-logo="https://i.imgur.com/5YFsqPx.png" group-title="News",Vinh Long TV 1 (720p)
 https://dethich.pw/thvl1/index.m3u8
 #EXTINF:-1 tvg-id="DongNaiTV2.vn@SD" tvg-country="VN" tvg-name="Dong Nai TV 2" tvg-logo="https://i.imgur.com/tNKPSkO.png" group-title="Sports",Dong Nai TV 2 (720p)
@@ -11,8 +9,6 @@ https://vtvgolive-ott3.vtvdigital.vn/live/dongnai2tv/chunklist_2.m3u8
 https://dethich.pw/htvthethao/index.m3u8
 #EXTINF:-1 tvg-id="VinhLongTV4.vn@SD" tvg-country="VN" tvg-name="Vinh Long TV 4" tvg-logo="https://i.imgur.com/ARhIkvR.png" group-title="Sports",Vinh Long TV 4 (720p)
 https://dethich.pw/thvl4/index.m3u8
-#EXTINF:-1 tvg-id="VSBetHD.vn@HD" tvg-country="VN" tvg-name="VSBet HD" tvg-logo="https://i.imgur.com/sMhL2Nl.png" group-title="Sports",VSBet HD (1080p)
-https://live05.meung.app/live/16226575.m3u8
 #EXTINF:-1 tvg-id="VTV6.vn@HD" tvg-country="VN" tvg-name="VTV6" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/VTV6_logo_2026_final.svg/960px-VTV6_logo_2026_final.svg.png" group-title="Sports",VTV6 (1080p)
 https://live-a.fptplay53.net/live/media/vtv6/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VinhLongTV3.vn@SD" tvg-country="VN" tvg-name="Vinh Long TV 3" tvg-logo="https://i.imgur.com/OQXEhqu.png" group-title="Movies",Vinh Long TV 3 (720p)
@@ -65,6 +61,8 @@ https://liveh34.vtvprime.vn/hls/HANOI1TV/index.m3u8
 https://dethich.pw/htv1/index.m3u8
 #EXTINF:-1 tvg-id="HTV7.vn@SD" tvg-country="VN" tvg-name="HTV7" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c0/HTV7_logo.webp" group-title="General",HTV7 (720p)
 https://dethich.pw/htv7/index.m3u8
+#EXTINF:-1 tvg-id="NinhThuanTV.vn@SD" tvg-country="VN" tvg-name="Ninh Thuan TV" tvg-logo="https://i.imgur.com/HIyUzLM.png" group-title="General",Ninh Thuan TV (1080p)
+https://cdnbaokhanhhoa.com/live/90405a889081.m3u8?vhost=video
 #EXTINF:-1 tvg-id="QPVN.vn@HD" tvg-country="VN" tvg-name="QPVN" tvg-logo="https://i.imgur.com/GQO7UNu.png" group-title="General",QPVN HD (1080p)
 https://liveh12.vtvprime.vn/hls/QPTV/index.m3u8
 #EXTINF:-1 tvg-id="SCTV2.vn@SD" tvg-country="VN" tvg-name="SCTV2" tvg-logo="https://i.imgur.com/8i5DXIg.png" group-title="General",SCTV2 (720p)
@@ -73,6 +71,8 @@ https://liveh12.vtvprime.vn/hls/SCTV2/index.m3u8
 https://vtvgolive-sctvdrm.vtvdigital.vn/bsod999cuteptgyoutuber/1234567890/manifest/sctv3/master.m3u8
 #EXTINF:-1 tvg-id="SCTV4.vn@SD" tvg-country="VN" tvg-name="SCTV4" tvg-logo="https://i.imgur.com/qkZhzQq.png" group-title="General",SCTV4 (720p)
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv4/master.m3u8
+#EXTINF:-1 tvg-id="SCTV4K.vn@UHD" tvg-country="VN" tvg-name="SCTV4K" tvg-logo="https://i.imgur.com/eQVMAur.png" group-title="General",SCTV4K (2160p)
+https://vietanhtv.id.vn/sctv/sctv-4k/index.m3u8
 #EXTINF:-1 tvg-id="SCTV6.vn@SD" tvg-country="VN" tvg-name="SCTV6" tvg-logo="https://i.imgur.com/2oOVS42.png" group-title="General",SCTV6 (720p)
 https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv6/master.m3u8
 #EXTINF:-1 tvg-id="SCTV7.vn@SD" tvg-country="VN" tvg-name="SCTV7" tvg-logo="https://i.imgur.com/xbIUZYd.png" group-title="General",SCTV7 (720p)
@@ -99,22 +99,20 @@ https://vtvgolive-sctvdrm.vtvdigital.vn/manifest/sctv20/master.m3u8
 https://live-hq.evgcdn.net/live/2851dc2c9af68834814a89e61db0faee561/chunklist.m3u8
 #EXTINF:-1 tvg-id="ThaiNguyenTV.vn@SD" tvg-country="VN" tvg-name="Thai Nguyen TV" tvg-logo="https://thainguyentv.vn/modules/frontend/themes/ptthtn/images/logo.png" group-title="General",Thai Nguyen TV (720p)
 https://streaming.thainguyentv.vn/hls/livestream.m3u8
-#EXTINF:-1 tvg-id="ThuaThienHueTV.vn@SD" tvg-country="VN" tvg-name="Thua Thien Hue TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e9/LogoHueTV_2025.png" group-title="General",Thua Thien Hue TV (720p)
-https://live.fptplay53.net/epzsd1/hue_hls.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="TVBVietnam.vn@SD" tvg-country="VN" tvg-name="TVB Vietnam" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/TVB%20Vietnam.jpeg" group-title="General",TVB Vietnam (1080p)
 https://amg01868-amg01868c3-tvbanywhere-us-4491.playouts.now.amagi.tv/playlist/amg01868-tvbusa-tvbvietnam-tvbanywhereus/playlist.m3u8
 #EXTINF:-1 tvg-id="VietnamToday.vn@HD" tvg-country="VN" tvg-name="Vietnam Today" tvg-logo="https://static.mediacdn.vn/vietnamtoday/images/logo-VNToday-light.svg" group-title="General",Vietnam Today (1080p)
 https://amagi-live.ondemandkorea.com/amgplt0456.m3u8
 #EXTINF:-1 tvg-id="VTV1.vn@HD" tvg-country="VN" tvg-name="VTV1" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Logo_VTV1_-_%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_Vi%E1%BB%87t_Nam.svg/960px-Logo_VTV1_-_%C4%90%C3%A0i_Truy%E1%BB%81n_h%C3%ACnh_Vi%E1%BB%87t_Nam.svg.png" group-title="General",VTV1 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv1/live247-hls-avc/index.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv1/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VTV2.vn@HD" tvg-country="VN" tvg-name="VTV2" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/VTV2_logo_07-09-2026.png/960px-VTV2_logo_07-09-2026.png" group-title="General",VTV2 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv2/live247-hls-avc/index.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv2/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VTV3.vn@HD" tvg-country="VN" tvg-name="VTV3" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/VTV3_logo_07-09-2026.png/960px-VTV3_logo_07-09-2026.png" group-title="General",VTV3 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv3/live247-hls-avc/index.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv3/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VTV4.vn@HD" tvg-country="VN" tvg-name="VTV4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/cd/VTV4_logo_2026.png" group-title="General",VTV4 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv4/live247-hls-avc/index.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv4/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VTV5.vn@HD" tvg-country="VN" tvg-name="VTV5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/4c/VTV5_logo_2025.png" group-title="General",VTV5 HD (1080p)
-https://live-a.fptplay53.net/live/media/vtv5/live247-hls-avc/index.m3u8
+https://vips-livecdn.fptplay.net/live/media/vtv5/live247-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VTV5TayNamBo.vn@HD" tvg-country="VN" tvg-name="VTV5 Tay Nam Bo" tvg-logo="https://i.imgur.com/xiuHjEQ.png" group-title="General",VTV5 Tay Nam Bo HD (1080p)
 https://live-a.fptplay53.net/live/media/vtv5tnb/live-hls-avc/index.m3u8
 #EXTINF:-1 tvg-id="VTV5TayNguyen.vn@HD" tvg-country="VN" tvg-name="VTV5 Tay Nguyen" tvg-logo="https://i.imgur.com/Hlcnqqt.png" group-title="General",VTV5 Tay Nguyen HD (1080p)

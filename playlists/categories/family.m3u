@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz"
-#EXTINF:-1 tvg-id="6WiseTv.us@SD" tvg-country="US" tvg-name="6 Wise Tv" group-title="Family",6 Wise Tv (720p)
-https://live.enhdtv.com:8081/8150/index.m3u8
 #EXTINF:-1 tvg-id="AlSouriyaTV.sy@HD" tvg-country="SY" tvg-name="Al-Souriya TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b6/Al-Souriya_TV_logo.svg" group-title="Family",Al-Souriya TV (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-al-souriya-tv/e3150760fa5fd62776225433b8c3d406/index.m3u8
 #EXTINF:-1 tvg-id="AMGTV.us@SD" tvg-country="US" tvg-name="AMG TV" tvg-logo="https://i.imgur.com/m5Anun9.png" group-title="Family",AMG TV (1080p)
@@ -11,12 +9,16 @@ https://stream.asiatvnet.com/1/live/master.m3u8
 https://familyhls.avatv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="CanalIPe.pe@SD" tvg-country="PE" tvg-name="Canal IPe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Logo_Canal_IPe_2024.png/960px-Logo_Canal_IPe_2024.png" group-title="Family",Canal IPe (720p)
 http://187.102.210.46/IPE/index.m3u8
+#EXTINF:-1 tvg-id="DiscoveryFamily.us@East" tvg-country="US" tvg-name="Discovery Family" tvg-logo="https://i.imgur.com/pdNGDJ8.png" group-title="Family",Discovery Family (720p)
+https://tvsen5.aynaott.com/discoveryfamily/index.m3u8
 #EXTINF:-1 tvg-id="DoveChannel.us@SD" tvg-country="US" tvg-name="Dove Channel" group-title="Family",Dove Channel (1080p)
 https://linear-896.frequency.stream/dist/cineverse/896/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="EmanTv.iq@HD" tvg-country="IQ" tvg-name="EmanTv" tvg-logo="https://i.imgur.com/QmgaPSi.png" group-title="Family",EmanTv (1080p)
 https://avr.host247.net/live/emantv/playlist.m3u8
 #EXTINF:-1 tvg-id="EstrellaGames.us@SD" tvg-country="US" tvg-name="Estrella Games" tvg-logo="https://i.imgur.com/Z52nEnH.png" group-title="Family",Estrella Games (1080p)
 https://estrella-games-oando.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="GreenTV.bd@SD" tvg-country="BD" tvg-name="Green TV" tvg-logo="https://www.jagobd.com/wp-content/uploads/2022/12/green-tv.jpg" group-title="Family",Green TV (1080p)
+https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/greentv.stream/live-orgin/greentv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="HBOFamilyLatinAmerica.us@SD" tvg-country="US" tvg-name="HBO Family Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/HBO_Family.svg/960px-HBO_Family.svg.png" group-title="Family",HBO Family Latin America (1080p)
 http://45.171.64.30:6060/play/a00k/index.m3u8
 #EXTINF:-1 tvg-id="JojFamily.sk" tvg-country="SK" tvg-name="JOJ Family" tvg-logo="https://i.imgur.com/k1COMHi.png" group-title="Family",JOJ Family

@@ -23,14 +23,12 @@ https://iptv.bitred.cl/ELGOURMET_HD/index.m3u8
 https://jmp2.uk/rok-22d9d1cb36e855a2b40ba752313a50d9.m3u8
 #EXTINF:-1 tvg-id="FoodChannel.il@SD" tvg-country="IL" tvg-name="Food Channel" tvg-logo="https://images.open-epg.com/x1723.png" group-title="Cooking",Food Channel (1080p)
 http://str2.iptvhd.ru:8080/FoodChannel/index.m3u8
-#EXTINF:-1 tvg-id="FoodNetwork.us@East" tvg-country="US" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="Cooking",Food Network (720p)
-http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="Food.Network.it" tvg-country="IT" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="Cooking",Food Network
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/FOODNETWORK/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="FoodNetwork.us@East" tvg-country="US" tvg-name="Food Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="Cooking",Food Network (United States) (720p)
+http://23.237.104.106:8080/USA_FOOD_NETWORK/index.m3u8
 #EXTINF:-1 tvg-id="FoodNetworkLatinAmerica.us@Panregional" tvg-country="US" tvg-name="Food Network Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Food_Network_New_Logo.png/960px-Food_Network_New_Logo.png" group-title="Cooking",Food Network Latin America (1080p)
 http://168.196.127.137:6001/play/a09v/index.m3u8
-#EXTINF:-1 tvg-id="FoodTime.ru@HD" tvg-country="RU" tvg-name="FoodTime" tvg-logo="https://i.imgur.com/gxCYAwH.png" group-title="Cooking",FoodTime (1080p)
-http://str2.iptvhd.ru:8080/Eda/index.m3u8
 #EXTINF:-1 tvg-id="Foodxp.uk@SD" tvg-country="UK" tvg-name="Foodxp" tvg-logo="https://i.imgur.com/zOWog5j.png" group-title="Cooking" http-user-agent="Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36" http-referrer="https://bhoomtv.org/",Foodxp (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/154.0.0.0 Safari/537.36
 #EXTVLCOPT:http-referrer=https://bhoomtv.org/
@@ -54,7 +52,7 @@ https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8
 #EXTINF:-1 tvg-id="SBSFood.au" tvg-country="AU" tvg-name="SBS Food" tvg-logo="https://i.imgur.com/9A8BwQA.png" group-title="Cooking",SBS Food Ⓖ
 https://i.mjh.nz/.r/sbs-3syd.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-6041643175c115002dc5125d" tvg-country="US" tvg-name="So Yummy" tvg-logo="https://i.imgur.com/ju2NyoL.png" group-title="Cooking",So Yummy
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6041643175c115002dc5125d/?X-Plex-Token=jo76fEDJyVftxMh21djD
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6041643175c115002dc5125d/?X-Plex-Token=tv-pYJbQx_8saNWwrbG5
 #EXTINF:-1 tvg-id="TastemadeenEspanol.us@SD" tvg-country="US" tvg-name="Tastemade en Espanol" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Espanol (1080p)
 https://tastemadees16us-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="5a1dec25daac971f191b10e808ec0c5d" tvg-name="Tastemade Home" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/5a1dec25daac971f191b10e808ec0c5d/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1744402817287_260x147_TastemadeHome_LogoInfoHUD_Roku.png" group-title="Cooking",Tastemade Home
