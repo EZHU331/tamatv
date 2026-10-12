@@ -61,8 +61,6 @@ http://88.212.15.19/live/test_cai_hevc/playlist.m3u8
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Channel/SA_LIVE_hls_enc/master.m3u8
 #EXTINF:-1 tvg-id="ENTFamily.uk@HD" tvg-country="UK" tvg-name="ENT Family" tvg-logo="https://static.elektamedia.com/ch/entf.png" group-title="Entertainment",ENT Family (720p)
 https://cdn.global.elektamedia.com/live/c7eds/ENT_Family/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="ITV3.uk" tvg-country="UK" tvg-name="ITV 3" tvg-logo="https://i.imgur.com/JuyM2z5.png" group-title="Entertainment",ITV 3
-http://45.14.84.37/itv3/index.m3u8
 #EXTINF:-1 tvg-id="MagnavisionTV.uk@SD" tvg-country="UK" tvg-name="Magnavision TV" tvg-logo="https://i.imgur.com/mUHixbi.png" group-title="Entertainment",Magnavision TV (720p)
 https://manatv.akamaized.net/120723/smil:magnavision.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MTVGlobal.uk@SD" tvg-country="UK" tvg-name="MTV Global" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/68/MTV_2021_%28brand_version%29.svg" group-title="Entertainment",MTV Global (720p)
@@ -77,6 +75,8 @@ http://38.44.109.41:8003/play/a0eh
 http://193.46.58.239:8080/CbeebiesHD/index.m3u8
 #EXTINF:-1 tvg-id="BBCThreeCBBC.uk@HD" tvg-country="UK" tvg-name="BBC Three/CBBC" tvg-logo="https://svgmix.com/uploads/8a9370-cbbc-bbc-three.svg" group-title="Kids",BBC Three/CBBC (720p)
 http://193.46.58.239:8080/CBBCHD/index.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkCEE.uk@CzechRepublic" tvg-country="UK" tvg-name="Cartoon Network CEE" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network CEE Czech Republic
+http://88.212.15.17/live/test_cartoon_network_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="JimJamEurope.uk@SD" tvg-country="UK" tvg-name="JimJam Europe" tvg-logo="https://i.imgur.com/ODhkYyx.png" group-title="Kids",JimJam Europe (720p)
 http://212.5.144.156:8080/jimjam/index.m3u8
 #EXTINF:-1 tvg-id="MoonbugKids.uk@SD" tvg-country="UK" tvg-name="Moonbug Kids" tvg-logo="https://i.imgur.com/vZHtxQb.png" group-title="Kids",Moonbug Kids (1080p)
@@ -147,8 +147,6 @@ https://hnc-free-viewlift.amagi.tv/HNC_AUSTRALIA.m3u8
 https://bloomberg.com/media-manifest/streams/eu.m3u8
 #EXTINF:-1 tvg-id="CNBCEurope.uk" tvg-country="UK" tvg-name="CNBC Europe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/bc/CNBC_2025.svg" group-title="Business",CNBC Europe
 https://amg01079-nbcuuk-amg01079c1-samsung-es-1261.playouts.now.amagi.tv/playlist/amg01079-nbcuukfast-cnbcpe-samsunges/playlist.m3u8
-#EXTINF:-1 tvg-id="SkyNewsWeather.uk@SD" tvg-country="UK" tvg-name="Sky News Weather" tvg-logo="https://pbs.twimg.com/profile_images/1604994875459518464/lGt2wEqM_400x400.jpg" group-title="Weather",Sky News Weather (720p)
-https://distro001-gb-hls1-prd.delivery.skycdp.com/easel_cdn/ngrp:weather_loop.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="AhlulbaytTV.uk@SD" tvg-country="UK" tvg-name="Ahlulbayt TV" tvg-logo="https://i.imgur.com/lNGJGjy.png" group-title="Religious",Ahlulbayt TV (1080p)
 https://cd198.anystream.uk:8082/hls/abtv3ng/index.m3u8
 #EXTINF:-1 tvg-id="FaithUK.uk@SD" tvg-country="UK" tvg-name="Faith UK" tvg-logo="https://i.imgur.com/mn8I2wt.png" group-title="Religious",Faith UK (1080p)
@@ -277,14 +275,12 @@ https://vs-cmaf-pushb-uk-live.akamaized.net/x=4/i=urn:bbc:pips:service:bbc_two_n
 https://xemzi.short.gy/1000001
 #EXTINF:-1 tvg-id="BBCUHD2.uk@SD" tvg-country="UK" tvg-name="BBC UHD 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/960px-BBC_Logo_2021.svg.png" group-title="General",BBC UHD 2 (2160p)
 https://xemzi.short.gy/1000002
-#EXTINF:-1 tvg-id="BBCUHD3.uk@SD" tvg-country="UK" tvg-name="BBC UHD 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/960px-BBC_Logo_2021.svg.png" group-title="General",BBC UHD 3 (2160p)
-http://45.14.84.37/bbc3/index.m3u8
-#EXTINF:-1 tvg-id="BBCUHD4.uk@SD" tvg-country="UK" tvg-name="BBC UHD 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/BBC_Logo_2021.svg/960px-BBC_Logo_2021.svg.png" group-title="General",BBC UHD 4 (2160p)
-http://45.14.84.37/bbc4/index.m3u8
 #EXTINF:-1 tvg-id="BBCRadioWorldService.uk" tvg-country="UK" tvg-name="BBC World Service" tvg-logo="https://experiencersinternational.github.io/tvsetup/tvg-ico/bbcws-epg.png" group-title="General",BBC World Service
 http://a.files.bbci.co.uk/media/live/manifesto/audio/simulcast/hls/nonuk/sbr_low/ak/bbc_world_service.m3u8
 #EXTINF:-1 tvg-id="BritAsiaTV.uk@HD" tvg-country="UK" tvg-name="Brit Asia TV" tvg-logo="https://i.imgur.com/ULm80XF.png" group-title="General",Brit Asia TV (1080p)
 https://hls.autopo.st/hls/britasiatv/index.m3u8
+#EXTINF:-1 tvg-id="Canaf54TV.uk@SD" tvg-country="UK" tvg-name="Canaf54 TV" tvg-logo="https://i.imgur.com/viB0FS2.png" group-title="General",Canaf54 TV
+https://5caf24a595d94.streamlock.net:1937/pvyugfkzkc/pvyugfkzkc/playlist.m3u8
 #EXTINF:-1 tvg-id="Channel5.uk" tvg-country="UK" tvg-name="Channel 5" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1800.png" group-title="General",Channel 5
 http://193.46.58.239:8080/Channel5/index.m3u8
 #EXTINF:-1 tvg-id="DerTV.uk@SD" tvg-country="UK" tvg-name="Der TV" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/Der%20TV.jpeg" group-title="General",Der TV
@@ -297,10 +293,6 @@ https://l5.cloudskep.com/hellenictv/htv/playlist.m3u8
 https://ibc.massstream.net/IBC/index.m3u8
 #EXTINF:-1 tvg-id="ITV2.uk@HD" tvg-country="UK" tvg-name="ITV2" tvg-logo="https://i.imgur.com/2BpUK0W.png" group-title="General",ITV2 HD (1080p)
 https://xemzi.short.gy/1000012
-#EXTINF:-1 tvg-id="ITV1.uk" tvg-country="UK" tvg-name="ITV 1" tvg-logo="https://i.imgur.com/xwPekCF.png" group-title="General",ITV 1
-http://45.14.84.37/itv1/index.m3u8
-#EXTINF:-1 tvg-id="ITV4.uk" tvg-country="UK" tvg-name="ITV 4" tvg-logo="https://i.imgur.com/DYI4IA2.png" group-title="General",ITV 4
-http://45.14.84.37/itv4/index.m3u8
 #EXTINF:-1 tvg-id="645518dc5f92519688baed84d025b14e" tvg-country="UK" tvg-name="JAIL" tvg-logo="https://provider-static.plex.tv/epg/cms/production/08872b9b-a4a7-4533-a19b-d2c24a7bf2f1/JAIL_-_channel_logo_-_light_-_dark_-_1500x1000.png_James_Roebuck.png" group-title="General",JAIL
 https://jmp2.uk/rok-645518dc5f92519688baed84d025b14e.m3u8
 #EXTINF:-1 tvg-id="KanalJadid.uk@SD" tvg-country="UK" tvg-name="Kanal Jadid" tvg-logo="https://i.imgur.com/7oGGgfD.png" group-title="General",Kanal Jadid
