@@ -31,6 +31,8 @@ http://88.212.15.19/live/test_m_5_hun_atk_1200/playlist.m3u8
 https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 tvg-id="HangulatTV.hu@SD" tvg-country="HU" tvg-name="Hangulat TV" tvg-logo="https://play-lh.googleusercontent.com/uBasB1USS1zI0tdHUbhUg356TwmworMA5P_7UGnhvg3z6LXX6n1bEk7Qj3cE3-yuToA" group-title="Lifestyle",Hangulat TV (720p)
 https://iptv01.eurocable.co.hu/EC-HANGULATTV/index.m3u8
+#EXTINF:-1 tvg-id="HGTV.hu@SD" tvg-country="HU" tvg-name="HGTV" tvg-logo="https://i.imgur.com/KMcR9z9.png" group-title="Lifestyle",HGTV (Hungary)
+http://88.212.15.17/live/hgtv_hun/index.m3u8
 #EXTINF:-1 tvg-id="TheFishingHuntingChannel.hu@SD" tvg-country="HU" tvg-name="The Fishing & Hunting Channel" tvg-logo="https://i.imgur.com/KcTTnUA.png" group-title="Outdoor",The Fishing & Hunting Channel
 http://88.212.15.19/live/test_fishing_hunting/playlist.m3u8
 #EXTINF:-1 tvg-id="OrszaggyulesOGYplenaris.hu@SD" tvg-country="HU" tvg-name="Orszaggyules: OGY plenaris" tvg-logo="https://i.imgur.com/hbblRpZ.png" group-title="Legislative",Orszaggyules: OGY plenaris (720p)
@@ -45,6 +47,8 @@ https://dash2.antik.sk/live/ewtn_bonum/index.m3u8
 https://stream.medialive.hu/gran/grantvlive/playlist.m3u8
 #EXTINF:-1 tvg-country="HU" tvg-name="16TV" tvg-logo="https://i.imgur.com/7ZPYJJ0.jpg" group-title="General",16TV
 https://cloudfront44.lexanetwork.com:1344/freerelay/16tv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="AnimalPlanet.hu@SD" tvg-country="HU" tvg-name="Animal Planet" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/30/Animal_Planet_2018_II.svg/revision/latest?cb=20191206182106" group-title="General",Animal Planet (Hungary)
+http://88.212.15.17/live/animal_hun/index.m3u8
 #EXTINF:-1 tvg-id="ATV.hu" tvg-country="HU" tvg-name="ATV" tvg-logo="https://i.imgur.com/85sIvrX.png" group-title="General",ATV
 http://88.212.15.19/live/test_atv_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="BajaiTV.hu@SD" tvg-country="HU" tvg-name="Bajai TV" tvg-logo="https://i.imgur.com/cyReGWh.png" group-title="General",Bajai TV (720p)
@@ -131,6 +135,8 @@ http://iptv.eurocable.co.hu/EC-SZECSENYTVHD/index.m3u8
 https://cloudfront44.lexanetwork.com:1344/relay01/livestream004.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="TataiTV.hu@SD" tvg-country="HU" tvg-name="Tatai TV" tvg-logo="https://i.imgur.com/skXYntc.png" group-title="General",Tatai TV (1080p)
 https://cloudfront44.lexanetwork.com:1344/relay01/broadcast006.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelChannel.hu@SD" tvg-country="HU" tvg-name="Travel Channel" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a3/Travel_Channel_2D_2014.svg/revision/latest?cb=20180112215118" group-title="General",Travel Channel (Hungary)
+http://88.212.15.17/live/travel_hun/index.m3u8
 #EXTINF:-1 tvg-id="TrimedioTV.hu@SD" tvg-country="HU" tvg-name="Trimedio TV" tvg-logo="https://i.imgur.com/P4hxWVZ.png" group-title="General",Trimedio TV (1080p)
 https://stream.streaming4u.hu/TriMedioTV/index.m3u8
 #EXTINF:-1 tvg-id="TV2.hu" tvg-country="HU" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TV2_2008.svg/960px-TV2_2008.svg.png" group-title="General",TV2

@@ -79,8 +79,12 @@ https://srv.webtvmanager.fr:3697/stream/play.m3u8
 https://iptv01.eurocable.co.hu/EC-HANGULATTV/index.m3u8
 #EXTINF:-1 tvg-id="HealthChannel.il@SD" tvg-country="IL" tvg-name="Health Channel" tvg-logo="https://cdn.epg.one/img2/2709.png" group-title="Lifestyle",Health Channel (1080p)
 http://89.33.29.115:8080/Health/index.m3u8
-#EXTINF:-1 tvg-id="HGTV.it@SD" tvg-country="IT" tvg-name="HGTV" tvg-logo="https://i.imgur.com/ejPii8T.png" group-title="Lifestyle",HGTV (1080p)
+#EXTINF:-1 tvg-id="HGTV.hu@SD" tvg-country="HU" tvg-name="HGTV" tvg-logo="https://i.imgur.com/KMcR9z9.png" group-title="Lifestyle",HGTV (Hungary)
+http://88.212.15.17/live/hgtv_hun/index.m3u8
+#EXTINF:-1 tvg-id="HGTV.it@SD" tvg-country="IT" tvg-name="HGTV" tvg-logo="https://i.imgur.com/ejPii8T.png" group-title="Lifestyle",HGTV (Italy) (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/HGTV/CMAF/index.m3u8
+#EXTINF:-1 tvg-id="HGTV.pl@SD" tvg-country="PL" tvg-name="HGTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" group-title="Lifestyle",HGTV (Poland) (1080p)
+http://57.128.231.171:8080/241/index.m3u8
 #EXTINF:-1 tvg-id="HGTVLatinAmerica.us@Panregional" tvg-country="US" tvg-name="HGTV Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/HGTV_US_Logo_2015.svg/960px-HGTV_US_Logo_2015.svg.png" group-title="Lifestyle",HGTV Latin America (1080p)
 http://38.87.224.19:2220/play/a01p/index.m3u8
 #EXTINF:-1 tvg-id="HobbyMaker.uk@SD" tvg-country="UK" tvg-name="Hobby Maker" tvg-logo="https://i.imgur.com/VWHp5Tl.png" group-title="Lifestyle",Hobby Maker (720p)
@@ -117,6 +121,8 @@ https://vcp.myplaytv.com/glowtv/glowtv/playlist.m3u8
 https://linear-43.frequency.stream/dist/24i/43/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="RevryQueer.us@SD" tvg-country="US" tvg-name="Revry Queer" group-title="Lifestyle",Revry Queer (720p)
 https://linear-43.frequency.stream/dist/galxy/43/hls/master/playlist.m3u8
+#EXTINF:-1 tvg-id="SenalesTV.do@SD" tvg-country="DO" tvg-name="Senales TV" tvg-logo="https://i.imgur.com/7Zr79F2.png" group-title="Lifestyle",Senales TV
+https://live.dionelysterrero.com/senalestv/stream.m3u8
 #EXTINF:-1 tvg-id="SmartLifeStyleTV.us@SD" tvg-country="US" tvg-name="Smart LifeStyle TV" tvg-logo="https://i.imgur.com/kHFlTEy.png" group-title="Lifestyle",Smart LifeStyle TV (720p)
 https://brightstar-sls-pull-secure.akamaized.net/brightstarsls/stream.m3u8
 #EXTINF:-1 tvg-id="SoReal.us@UK" tvg-country="US" tvg-name="So... Real" tvg-logo="https://i.imgur.com/wZ2uj9d.png" group-title="Lifestyle",So... Real UK (720p)
