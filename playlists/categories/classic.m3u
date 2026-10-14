@@ -1,12 +1,10 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_TR1.xml.gz"
-#EXTINF:-1 tvg-id="CA35000078O" tvg-country="US" tvg-name="Cinevault Westerns" tvg-logo="https://i.imgur.com/K1W137J.png" group-title="Classic",Cinevault Westerns
-https://jmp2.uk/stvp-CA35000078O
 #EXTINF:-1 tvg-id="ClassicTV.ir@SD" tvg-country="IR" tvg-name="Classic TV" group-title="Classic",Classic TV
 https://clshls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="CAAJ2700008QA" tvg-country="US" tvg-name="FilmRise Classic TV" tvg-logo="https://provider-static.plex.tv/epg/cms/production/028c779c-2a24-4782-a9e4-f66614e170df/FilmRise_ClassicTV_1500x1000_Dark_Logo.png" group-title="Classic",FilmRise Classic TV
-https://jmp2.uk/stvp-CAAJ2700008QA
 #EXTINF:-1 tvg-id="GEMClassic.tr@SD" tvg-country="TR" tvg-name="GEM Classic" tvg-logo="https://i.imgur.com/25BhuOf.png" group-title="Classic",GEM Classic
 https://ca-rt.onetv.app/gemclassic/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="RetroCartoon.br@SD" tvg-country="BR" tvg-name="Retro Cartoon" tvg-logo="https://i.imgur.com/hIlEfhl.png" group-title="Classic",Retro Cartoon (720p)
+https://stmv1.video.brstream.com.br/retrotv/retrotv/chunklist_w1069200121.m3u8
 #EXTINF:-1 tvg-id="RetroTV.us@East" tvg-country="US" tvg-name="Retro TV" tvg-logo="https://i.imgur.com/ofairB5.png" group-title="Classic",Retro TV (720p)
 https://freecast-lukentvlive.vgcdn.net/out/v1/665e9f91614b43b0a0654e9317f1d9f3/index.m3u8
 #EXTINF:-1 tvg-id="RotanaClassic.sa@SD" tvg-country="SA" tvg-name="Rotana Classic" tvg-logo="https://i.imgur.com/pMMUvkt.png" group-title="Classic" http-referrer="https://rotana.net/",Rotana Classic (1080p)
@@ -24,8 +22,6 @@ https://shd-gcp-live.edgenextcdn.net/live/bitmovin-thikrayat/8cfa8fe0c9627573574
 https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
 #EXTINF:-1 tvg-id="TVSQuizShowNetwork.us@SD" tvg-country="US" tvg-name="TVS Quiz Show Network" tvg-logo="https://i.imgur.com/5ljQwx2.png" group-title="Classic",TVS Quiz Show Network (720p)
 https://rpn.bozztv.com/gusa/gusa-tvsgameshow/index.m3u8
-#EXTINF:-1 tvg-id="TVSRetro.gt@SD" tvg-country="GT" tvg-name="TVS Retro" tvg-logo="https://i.imgur.com/jdnHci0.png" group-title="Classic",TVS Retro (720p)
-https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
 #EXTINF:-1 tvg-id="WantedDeadorAlive.us@SD" tvg-country="US" tvg-name="Wanted: Dead or Alive" tvg-logo="https://i.imgur.com/vaSXaFp.png" group-title="Classic",Wanted: Dead or Alive (720p)
 https://aegis-cloudfront-1.tubi.video/d5171dc7-f8c6-469c-81eb-e1ffaaed5721/playlist.m3u8
 #EXTINF:-1 tvg-id="Westerns4U.us@SD" tvg-country="US" tvg-name="Westerns 4U" group-title="Classic",Westerns 4U (1080p)
