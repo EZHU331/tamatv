@@ -3,6 +3,8 @@
 https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
 #EXTINF:-1 tvg-id="FreshNews.kh@SD" tvg-country="KH" tvg-name="Fresh News" tvg-logo="https://i.imgur.com/bV6sawt.png" group-title="News",Fresh News
 http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8
+#EXTINF:-1 tvg-id="iTVHD.kh@SD" tvg-country="KH" tvg-name="iTV HD" tvg-logo="https://i.imgur.com/qIPvw8N.jpg" group-title="Entertainment",iTV HD (720p)
+https://ip.pdtvhd.com/Khmer/streams/ITVHD.m3u8
 #EXTINF:-1 tvg-id="EBCGeneralEducation.kh@SD" tvg-country="KH" tvg-name="EBC General Education" tvg-logo="https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png" group-title="Education",EBC General Education (720p)
 https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
 #EXTINF:-1 tvg-id="OneTVESchoolCambodia.kh@SD" tvg-country="KH" tvg-name="One TV E-School Cambodia" tvg-logo="https://i.imgur.com/wLzVdeT.png" group-title="Education",One TV E-School Cambodia (1080p)
@@ -11,8 +13,6 @@ http://49.156.33.114:5080/live/streams/elearning.playlist.m3u8
 https://live.kh.malimarcdn.com/live/tvk2.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="WikiTV.kh@SD" tvg-country="KH" tvg-name="Wiki TV" tvg-logo="https://i.imgur.com/rnV0Ui1.png" group-title="Education",Wiki TV (720p)
 https://stream.wikitv.asia/live/ngrp:myStream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="DMusic.kh@SD" tvg-country="KH" tvg-name="D Music" group-title="Music",D Music (1280p)
-http://43.252.18.195:5080/live/streams/WCVNews.playlist.m3u8
 #EXTINF:-1 tvg-id="ARDBTV.kh@SD" tvg-country="KH" tvg-name="ARDB TV" tvg-logo="https://i.imgur.com/yOncWla.png" group-title="Outdoor",ARDB TV (1080p)
 https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
 #EXTINF:-1 tvg-id="SangkemTV.kh@SD" tvg-country="KH" tvg-name="Sangkem TV" tvg-logo="https://i.imgur.com/728fAcC.png" group-title="Religious",Sangkem TV
@@ -21,6 +21,8 @@ https://live.sangkemtv.com/memfs/sangkem.m3u8
 https://live.ams.com.kh/app/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="BayonTV.kh@SD" tvg-country="KH" tvg-name="Bayon TV" tvg-logo="https://i.imgur.com/Gry2KEN.jpg" group-title="General",Bayon TV
 https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="CTV8HD.kh@SD" tvg-country="KH" tvg-name="CTV8 HD" tvg-logo="https://i.imgur.com/yrdr4Po.png" group-title="General",CTV8 HD (720p)
+https://ip.pdtvhd.com/Khmer/streams/CTV8HD.m3u8
 #EXTINF:-1 tvg-id="CTV9.kh@SD" tvg-country="KH" tvg-name="CTV 9" tvg-logo="https://i.imgur.com/jgVJt2G.png" group-title="General",CTV 9 (1080p)
 http://43.252.18.195:5080/live/streams/ctv9_hd_playlist.m3u8
 #EXTINF:-1 tvg-id="HangMeasHDTV.kh@SD" tvg-country="KH" tvg-name="Hang Meas HDTV" tvg-logo="https://i.imgur.com/P8oOR8I.png" group-title="General",Hang Meas HDTV (720p)
@@ -28,8 +30,6 @@ http://clive.malisresidences.com:1935/hm_hdtv/_definst_/smil:hmhdt12356.smil/pla
 #EXTINF:-1 tvg-id="MSJTV.kh@SD" tvg-country="KH" tvg-name="MSJ TV" tvg-logo="https://i.imgur.com/TilslGU.png" group-title="General" http-referrer="https://www.iptvservice.site/",MSJ TV (1080p)
 #EXTVLCOPT:http-referrer=https://www.iptvservice.site/
 https://live-ali7.tv360.metfone.com.kh/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="NTV.kh@SD" tvg-country="KH" tvg-name="NTV" tvg-logo="https://i.imgur.com/SoBhuIb.png" group-title="General",NTV (Cambodia)
-http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
 #EXTINF:-1 tvg-id="SEATV.kh@SD" tvg-country="KH" tvg-name="SEA TV" tvg-logo="https://i.imgur.com/oZPorvg.png" group-title="General",SEA TV (1080p)
 https://seatv.netlinkbroadcaster.com/hls/test.m3u8
 #EXTINF:-1 tvg-id="TownTV.kh@SD" tvg-country="KH" tvg-name="Town TV" tvg-logo="https://i.imgur.com/9fUGvVG.png" group-title="General",Town TV
