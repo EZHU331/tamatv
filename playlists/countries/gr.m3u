@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz"
+#EXTINF:-1 tvg-id="AstraTV.gr@SD" tvg-country="GR" tvg-name="Astra TV" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="News",Astra TV (1080p)
+https://server.gointernet.gr/live/livestream.m3u8
 #EXTINF:-1 tvg-id="CorfuChannel.gr@SD" tvg-country="GR" tvg-name="Corfu Channel" tvg-logo="https://i.imgur.com/EFL1Tjg.png" group-title="News",Corfu Channel (720p)
 https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="ERTNews.gr@HD" tvg-country="GR" tvg-name="ERT News" tvg-logo="https://www.ert.gr/wp-content/uploads/2025/09/ert-news-white-bg-menu-optimized.svg" group-title="News",ERT News HD (1080p)
@@ -23,8 +25,6 @@ http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Chrome
 #EXTVLCOPT:http-referrer=http://watch.antennaplus.gr
 https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
-#EXTINF:-1 tvg-id="ERT3.gr@SD" tvg-country="GR" tvg-name="ERT3" tvg-logo="https://i.imgur.com/f2l9bDR.png" group-title="Entertainment",ERT3 (1080p)
-https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8
 #EXTINF:-1 tvg-id="NetmaxTV.gr@SD" tvg-country="GR" tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" group-title="Entertainment",Netmax TV (720p)
 https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr@SD" tvg-country="GR" tvg-name="Star Channel" tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="Entertainment",Star Channel (Greece) (1080p)
