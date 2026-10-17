@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_KR1.xml.gz"
-#EXTINF:-1 tvg-id="ArirangTV.kr@SD" tvg-country="KR" tvg-name="Arirang TV" tvg-logo="https://i.imgur.com/kk2MdNC.png" group-title="News",Arirang TV (1080p)
-http://amdlive-ch01.ctnd.com.edgesuite.net/arirang_1ch/smil:arirang_1ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArirangUN.kr@SD" tvg-country="KR" tvg-name="Arirang UN" tvg-logo="https://i.imgur.com/Jdy3WNm.png" group-title="News",Arirang UN (1080p)
 https://amdlive-ch02-ctnd-com.akamaized.net/arirang_2ch/smil:arirang_2ch.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ArirangWorld.kr" tvg-country="KR" tvg-name="Arirang World" tvg-logo="https://i.imgur.com/5Aoithj.png" group-title="News",Arirang World
@@ -113,9 +111,6 @@ http://123.140.197.22/stream/1/play.m3u8
 https://61ff3340258d2.streamlock.net/jtv_live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="KBS1TV.kr" tvg-country="KR" tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/960px-KBS_1_logo.svg.png" group-title="General",KBS 1TV
 http://mytv.dothome.co.kr/ch/public/1.php
-#EXTINF:-1 tvg-id="KBSWorld.kr@SD" tvg-country="KR" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png" group-title="General" http-referrer="https://cinerama.uz/",KBS World (720p)
-#EXTVLCOPT:http-referrer=https://cinerama.uz/
-https://stream8.cinerama.uz/1448/playlist.m3u8
 #EXTINF:-1 tvg-id="KCTV.kr@SD" tvg-country="KR" tvg-name="KCTV" tvg-logo="https://i.imgur.com/IHkZpaI.png" group-title="General",KCTV (720p)
 http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCGyeongnamTV.kr@SD" tvg-country="KR" tvg-name="MBC Gyeongnam TV" tvg-logo="https://i.imgur.com/Ronb1JP.png" group-title="General",MBC Gyeongnam TV (1080p)
