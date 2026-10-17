@@ -111,6 +111,9 @@ http://123.140.197.22/stream/1/play.m3u8
 https://61ff3340258d2.streamlock.net/jtv_live/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="KBS1TV.kr" tvg-country="KR" tvg-name="KBS 1TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/KBS_1_logo.svg/960px-KBS_1_logo.svg.png" group-title="General",KBS 1TV
 http://mytv.dothome.co.kr/ch/public/1.php
+#EXTINF:-1 tvg-id="KBSWorld.kr@SD" tvg-country="KR" tvg-name="KBS World" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/98/NewsNetLogo2022.png" group-title="General" http-referrer="https://cinerama.uz/",KBS World (720p)
+#EXTVLCOPT:http-referrer=https://cinerama.uz/
+https://stream8.cinerama.uz/1448/playlist.m3u8
 #EXTINF:-1 tvg-id="KCTV.kr@SD" tvg-country="KR" tvg-name="KCTV" tvg-logo="https://i.imgur.com/IHkZpaI.png" group-title="General",KCTV (720p)
 http://119.77.96.184:1935/chn05/chn05/playlist.m3u8
 #EXTINF:-1 tvg-id="MBCGyeongnamTV.kr@SD" tvg-country="KR" tvg-name="MBC Gyeongnam TV" tvg-logo="https://i.imgur.com/Ronb1JP.png" group-title="General",MBC Gyeongnam TV (1080p)
