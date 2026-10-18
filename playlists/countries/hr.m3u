@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_HR1.xml.gz"
 #EXTINF:-1 tvg-id="OTV.hr@SD" tvg-country="HR" tvg-name="OTV" tvg-logo="https://i.imgur.com/67zVdu2.png" group-title="News",OTV (Croatia) (720p)
 https://stream.agatin.hr:3559/live/otvlive.m3u8
-#EXTINF:-1 tvg-id="TVJadran.hr@SD" tvg-country="HR" tvg-name="TV Jadran" tvg-logo="https://i.imgur.com/UWMHnOG.png" group-title="News",TV Jadran (720p)
-https://tvjadran.stream.agatin.hr:3412/live/tvjadranlive.m3u8
 #EXTINF:-1 tvg-id="SportskaTV.hr" tvg-country="HR" tvg-name="Sportska televizija" tvg-logo="https://i.imgur.com/TbLLi8j.png" group-title="Sports",Sportska televizija Ⓖ
 https://stream.agatin.hr:3087/live/sptvlive.m3u8
 #EXTINF:-1 tvg-id="Klasik.hr" tvg-country="HR" tvg-name="Klasik" tvg-logo="https://i.imgur.com/C90BYlb.png" group-title="Movies",Klasik
@@ -19,7 +17,7 @@ https://stream.cmctv.hr:49998/cmc/live.m3u8
 https://stream.cmctv.hr:49998/kit/live.m3u8
 #EXTINF:-1 tvg-id="ShiftTV.hr@SD" tvg-country="HR" tvg-name="Shift TV" tvg-logo="https://i.imgur.com/mudXVT8.png" group-title="Auto",Shift TV (1080p)
 https://hls.shift.tv/live/shifttv/playlist.m3u8
-#EXTINF:-1 tvg-id="DiadoraTV.hr" tvg-country="HR" tvg-name="Diadora" tvg-logo="https://i.imgur.com/qZzsASl.png" group-title="General",Diadora
+#EXTINF:-1 tvg-id="DiadoraTV.hr@SD" tvg-country="HR" tvg-name="Diadora TV" tvg-logo="https://i.imgur.com/qZzsASl.png" group-title="General",Diadora TV
 https://diadoratv.stream/live/diadora/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalRi.hr" tvg-country="HR" tvg-name="Kanal Ri" tvg-logo="https://i.imgur.com/aSPMh0o.png" group-title="General",Kanal Ri
 https://live.kanal-ri.click/LiveApp/streams/B6HK3voDwNsRQoLm1124882102135504.m3u8
