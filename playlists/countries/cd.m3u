@@ -1,10 +1,14 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="BarakaTelevision.cd@SD" tvg-country="CD" tvg-name="Baraka Television" tvg-logo="https://i.imgur.com/IKXddHN.png" group-title="News",Baraka Television (720p)
+https://stream.berosat.live:19360/baraka-hd/baraka-hd.m3u8
 #EXTINF:-1 tvg-id="Kin24.cd@SD" tvg-country="CD" tvg-name="Kin24" tvg-logo="https://i.imgur.com/Lak10Wo.png" group-title="News",Kin24
 http://51.254.199.122:8080/kin24/index.m3u8
 #EXTINF:-1 tvg-id="LollywoodHDTV.cd@SD" tvg-country="CD" tvg-name="Lollywood HD TV" tvg-logo="https://i.imgur.com/fQhrsdr.png" group-title="Movies",Lollywood HD TV (720p)
 https://stream.berosat.live/hls/lollywood-hd/lollywood-hd.m3u8
 #EXTINF:-1 tvg-id="EVITV.cd@SD" tvg-country="CD" tvg-name="EVI TV" tvg-logo="https://i.imgur.com/fBc9JSM.png" group-title="Entertainment",EVI TV (720p)
 https://mistserver.evi-tv.com/hls/evi_tv_live/index.m3u8
+#EXTINF:-1 tvg-id="RLPROTV.cd@SD" tvg-country="CD" tvg-name="RL PRO TV" tvg-logo="https://i.imgur.com/PIBtCEN.jpeg" group-title="Documentary",RL PRO TV
+https://stream.berosat.live:19360/rlpro-tv/rlpro-tv.m3u8
 #EXTINF:-1 tvg-id="ONETV.cd@SD" tvg-country="CD" tvg-name="ONE-TV" tvg-logo="https://i.imgur.com/Wob7gjp.png" group-title="Religious",ONE-TV (720p)
 https://core.live-apc.eu:5443/LiveApp/streams/backup.m3u8
 #EXTINF:-1 tvg-id="AntenneA.cd@SD" tvg-country="CD" tvg-name="Antenne A" tvg-logo="https://i.imgur.com/tgxrcv7.png" group-title="General",Antenne A
@@ -17,6 +21,8 @@ https://radio.congoplanet.com/Congo_Planet_TV.sdp/Congo_Planet_TV/playlist.m3u8
 http://51.254.199.122:8080/DigitalCongoTV/index.m3u8
 #EXTINF:-1 tvg-id="PSTVHD.cd@SD" tvg-country="CD" tvg-name="PSTV HD" tvg-logo="https://i.imgur.com/xQlkuAa.png" group-title="General",PSTV HD (720p)
 http://51.254.199.122:8080/PSTV/index.m3u8
+#EXTINF:-1 tvg-id="RTNC.cd@SD" tvg-country="CD" tvg-name="RTNC" tvg-logo="https://i.imgur.com/oVXO950.jpeg" group-title="General",RTNC (1080p)
+https://kali.vdopanel.com:3850/live/masterlive.m3u8
 #EXTINF:-1 tvg-id="RTNC3.cd@SD" tvg-country="CD" tvg-name="RTNC 3" tvg-logo="https://i.imgur.com/rr9Zsno.jpeg" group-title="General",RTNC 3
 http://51.254.199.122:8080/e-cableRTNC3/index.m3u8
 #EXTINF:-1 tvg-id="RTVS1.cd@SD" tvg-country="CD" tvg-name="RTVS1" tvg-logo="https://i.imgur.com/doaZCzy.png" group-title="General",RTVS1
