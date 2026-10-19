@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_FR1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
 #EXTINF:-1 tvg-id="10Bold.au@Sydney" tvg-country="AU" tvg-name="10 Bold" tvg-logo="https://i.imgur.com/2xglh33.png" group-title="Lifestyle",10 Bold (1080p)
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 tvg-id="30ALuxeLifeDiscovered.us@SD" tvg-country="US" tvg-name="30A Luxe Life Discovered" tvg-logo="https://m.media-amazon.com/images/I/51FJ5A0mEyL.jpg" group-title="Lifestyle",30A Luxe Life Discovered (720p)
@@ -26,7 +26,7 @@ http://livestream.biznetvideo.net/biznet_lifestyle/smil:lifestyle.smil/index.m3u
 #EXTINF:-1 tvg-id="BizzTV.tt@SD" tvg-country="TT" tvg-name="Bizz TV" tvg-logo="https://i.imgur.com/UxHaJNR.png" group-title="Lifestyle",Bizz TV (1080p)
 https://stream.bizzmedia.biz/bizz_tv/index.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f" tvg-country="ES" tvg-name="Buen Viaje" tvg-logo="https://i.ibb.co/VRP6BnZ/AMC-Living.png" group-title="Lifestyle",Buen Viaje
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=1J3WnF3Nxz3ZTSSuxKaK
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=G-2PMR9xLoNhDTNrwas2
 #EXTINF:-1 tvg-id="CinePride.us@SD" tvg-country="US" tvg-name="CinePride" tvg-logo="https://i.imgur.com/Y4Wgq8I.png" group-title="Lifestyle",CinePride (720p)
 https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=2223
 #EXTINF:-1 tvg-id="CityEdenMedZdrav.ru@HD" tvg-country="RU" tvg-name="City Eden MedZdrav" tvg-logo="https://i.imgur.com/BM4E0Kr.png" group-title="Lifestyle",City Eden MedZdrav
@@ -97,6 +97,8 @@ https://amg00861-terninternation-lifestyle-samsungau-kdlyy.amagi.tv/playlist/amg
 https://streamingserver000.viewtv.cloud/VIEWTVNETWORK-KALOOPY/index.m3u8
 #EXTINF:-1 tvg-id="Localish.us@SD" tvg-country="US" tvg-name="Localish" tvg-logo="https://i.imgur.com/ACEbGD5.png" group-title="Lifestyle",Localish (1080p)
 https://dnmfq3sh1jipj.cloudfront.net/DisneyLocalish.m3u8
+#EXTINF:-1 tvg-id="LogosTVSalud.es@SD" tvg-country="ES" tvg-name="Logos TV Salud" tvg-logo="https://i.imgur.com/qkHrttj.png" group-title="Lifestyle",Logos TV Salud (720p)
+https://streamer1.streamhost.org/salive/logossaludH/playlist.m3u8
 #EXTINF:-1 tvg-id="LuxeTV.lu@SD" tvg-country="LU" tvg-name="Luxe TV" tvg-logo="https://i.imgur.com/24ehonx.png" group-title="Lifestyle",Luxe TV (1080p)
 http://103.154.3.101:5001/live/1736.m3u8
 #EXTINF:-1 tvg-id="LuxembourgGlobalRadioTV.lu@HD" tvg-country="LU" tvg-name="Luxembourg Global Radio TV" tvg-logo="https://globalradio.lu/wp-content/uploads/2025/03/Mask-Group-1.jpg#10" group-title="Lifestyle",Luxembourg Global Radio TV (1080p)

@@ -95,6 +95,8 @@ http://vod.mpmbc.co.kr:1935/live/encoder-tv/playlist.m3u8
 http://211.33.246.4:32954/cj_live/myStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="HLAQDTV.kr@SD" tvg-country="KR" tvg-name="HLAQ-DTV" tvg-logo="https://i.imgur.com/FGsKCH3.png" group-title="General",HLAQ-DTV (1080p)
 http://123.254.93.7:1935/tvlive/livestream2/playlist.m3u8
+#EXTINF:-1 tvg-id="HLATDTV.kr@SD" tvg-country="KR" tvg-name="HLAT-DTV" tvg-logo="https://i.imgur.com/3VSuYsn.png" group-title="General",HLAT-DTV (1080p)
+https://5c3639aa99149.streamlock.net/live_TV/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="HLCNDTV.kr@SD" tvg-country="KR" tvg-name="HLCN-DTV" tvg-logo="https://i.imgur.com/wmGJgYh.png" group-title="General",HLCN-DTV (1080p)
 https://media.kjmbc.co.kr/hls/live/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="HLCQDTV.kr@SD" tvg-country="KR" tvg-name="HLCQ-DTV" tvg-logo="https://i.imgur.com/HCbvAiM.png" group-title="General",HLCQ-DTV (720p)
@@ -124,7 +126,7 @@ https://allanf181.github.io/adaptive-streams/streams/kr/OBSGyeonginTV.m3u8
 https://rtv-stream2.a04f922e9e85c8d25ebfeae3dfd22a67.com/rtv/rtv.m3u8
 #EXTINF:-1 tvg-id="SBSTV.kr" tvg-country="KR" tvg-name="SBS TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/SBS_Korea_Logo_%28Word_Only%29.svg/500px-SBS_Korea_Logo_%28Word_Only%29.svg.png" group-title="General",SBS TV
 https://allanf181.github.io/adaptive-streams/streams/kr/SBSTV.m3u8
-#EXTINF:-1 tvg-id="TBSTV.kr@SD" tvg-country="KR" tvg-name="TBS TV" tvg-logo="https://i.imgur.com/iOnWS6V.png" group-title="General",TBS TV (720p)
+#EXTINF:-1 tvg-id="TBSTV.kr@SD" tvg-country="KR" tvg-name="TBS TV" tvg-logo="https://i.imgur.com/iOnWS6V.png" group-title="General",TBS TV (South Korea) (720p)
 https://cdntv.tbs.seoul.kr/tbs/tbs_tv_web.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TJBTV.kr" tvg-country="KR" tvg-name="TJB TV" tvg-logo="https://i.imgur.com/grr8BlV.png" group-title="General",TJB TV
 http://1.245.74.5:1935/live/tv/.m3u8

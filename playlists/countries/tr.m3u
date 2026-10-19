@@ -101,8 +101,6 @@ https://kanal7.blutv.com/blutv_kanal7_live/live.m3u8
 https://livetv.radyotvonline.net/kanal7live/kanal7avr/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalDDrama.tr@SD" tvg-country="TR" tvg-name="Kanal D Drama" tvg-logo="https://i.imgur.com/WIeZMKT.png" group-title="Entertainment",Kanal D Drama (1080p)
 http://190.93.224.42/KANAL-D-DRAMA/index.m3u8
-#EXTINF:-1 tvg-id="NOWTV.tr@SD" tvg-country="TR" tvg-name="NOW TV" tvg-logo="https://i.imgur.com/5EYjWK7.png" group-title="Entertainment",NOW TV (720p)
-https://uycyyuuzyh.turknet.ercdn.net/nphindgytw/nowtv/nowtv.m3u8
 #EXTINF:-1 tvg-id="DisneyJr.tr@SD" tvg-country="TR" tvg-name="Disney Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/2024_Disney_Jr._Logo.svg" group-title="Kids",Disney Jr. (Turkiye) (1080p)
 https://saran-live.ercdn.net/disneyjunior/index.m3u8
 #EXTINF:-1 tvg-id="GEMJunior.tr@SD" tvg-country="TR" tvg-name="GEM Junior" tvg-logo="https://i.imgur.com/jK8yzj2.png" group-title="Kids",GEM Junior
@@ -234,6 +232,8 @@ https://edge1.socialsmart.tv/manisaetv/bant1/playlist.m3u8
 https://live.duhnet.tv/S2/HLS_LIVE/eurodnp/playlist.m3u8
 #EXTINF:-1 tvg-id="IcelTV.tr@SD" tvg-country="TR" tvg-name="Icel TV" tvg-logo="https://i.imgur.com/CGwImKv.png" group-title="General",Icel TV (720p)
 https://edge1.socialsmart.tv/iceltv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="IlkeTV.tr@HD" tvg-country="TR" tvg-name="Ilke TV" tvg-logo="https://ilketv.com.tr/wp-content/uploads/2024/06/logo.png" group-title="General",Ilke TV (1080p)
+https://stream.ilketv.com.tr/hls/ilkecanli.m3u8
 #EXTINF:-1 tvg-id="Kanal3.tr@SD" tvg-country="TR" tvg-name="Kanal 3" tvg-logo="https://i.imgur.com/eXErSv0.png" group-title="General",Kanal 3 (1080p)
 https://live.artidijitalmedya.com/artidijital_kanal3/kanal3/playlist.m3u8
 #EXTINF:-1 tvg-id="Kanal12.tr@SD" tvg-country="TR" tvg-name="Kanal 12" tvg-logo="https://i.imgur.com/51xCkXG.png" group-title="General",Kanal 12 (720p)
@@ -256,8 +256,8 @@ https://demiroren.daioncdn.net/kanald/kanald.m3u8?app=kanald_web&ce=3
 https://live.artidijitalmedya.com/artidijital_kanalfirat/kanalfirat/playlist.m3u8
 #EXTINF:-1 tvg-id="KanalV.tr@SD" tvg-country="TR" tvg-name="Kanal V" tvg-logo="https://i.imgur.com/7RNjTno.png" group-title="General",Kanal V (720p)
 https://live.artidijitalmedya.com/artidijital_kanalv/kanalv/playlist.m3u8
-#EXTINF:-1 tvg-id="KocaeliTV.tr@SD" tvg-country="TR" tvg-name="Kocaeli TV" tvg-logo="https://i.imgur.com/LeTP4zq.png" group-title="General",Kocaeli TV (1080p)
-https://edge.taksimbilisim.com/kocaelitv/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="KentTurk.tr@SD" tvg-country="TR" tvg-name="Kent Turk" tvg-logo="https://i.imgur.com/FQKPjsm.png" group-title="General",Kent Turk (1080p)
+https://live.artidijitalmedya.com/artidijital_kentturktv/kentturktv/playlist.m3u8
 #EXTINF:-1 tvg-id="KonyaOlayTV.tr@SD" tvg-country="TR" tvg-name="Konya Olay TV" tvg-logo="https://www.konyaolaytv.com/upload/tema/20230307__5154687762.jpg" group-title="General",Konya Olay TV (720p)
 https://live.artidijitalmedya.com/artidijital_konyaolaytv/konyaolaytv/playlist.m3u8
 #EXTINF:-1 tvg-id="LineTV.tr@SD" tvg-country="TR" tvg-name="Line TV" tvg-logo="https://i.imgur.com/6GNp7f8.png" group-title="General",Line TV (720p)
@@ -286,6 +286,8 @@ https://dogus.daioncdn.net/startv/startv_720p.m3u8?app=a20ac41e-bdc3-4aa1-934d-2
 https://live.artidijitalmedya.com/artidijital_sunrtv/sunrtv/playlist.m3u8
 #EXTINF:-1 tvg-id="TBMMTV.tr@SD" tvg-country="TR" tvg-name="TBMM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/TBMM_TV_logo.svg/960px-TBMM_TV_logo.svg.png" group-title="General",TBMM TV (720p)
 https://meclistv-live.ercdn.net/meclistv/meclistv.m3u8
+#EXTINF:-1 tvg-id="Tele1.tr@SD" tvg-country="TR" tvg-name="Tele 1" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/4/43/Tele1_logosu.png" group-title="General",Tele 1 (1080p)
+https://tele1-live.ercdn.net/tele1/tele1.m3u8
 #EXTINF:-1 tvg-id="TempoTV.tr@SD" tvg-country="TR" tvg-name="Tempo TV" tvg-logo="https://i.imgur.com/tZpx32y.png" group-title="General",Tempo TV (720p)
 https://live.artidijitalmedya.com/artidijital_tempotv/tempotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tivi6.tr@SD" tvg-country="TR" tvg-name="Tivi 6" tvg-logo="https://i.imgur.com/Mbi0jbz.png" group-title="General",Tivi 6 (720p)
@@ -306,6 +308,8 @@ https://tv-trtkurdi.medya.trt.com.tr/master.m3u8
 https://tv-trtspor2.medya.trt.com.tr/master.m3u8
 #EXTINF:-1 tvg-id="TRTTurk.tr@SD" tvg-country="TR" tvg-name="TRT Turk" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/TRT_T%C3%BCrk_logo.svg/960px-TRT_T%C3%BCrk_logo.svg.png" group-title="General",TRT Turk (720p)
 https://tv-trtturk.medya.trt.com.tr/master.m3u8
+#EXTINF:-1 tvg-id="TurksatTanitim.tr@SD" tvg-country="TR" tvg-name="Turksat Tanitim" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/T%C3%BCrksat_logo.svg/960px-T%C3%BCrksat_logo.svg.png" group-title="General",Turksat Tanitim (1080p)
+http://176.65.153.26:6004/play/a02s/index.m3u8
 #EXTINF:-1 tvg-id="TV8.tr@SD" tvg-country="TR" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/tr/thumb/6/68/Tv8_Yeni_Logo.png/960px-Tv8_Yeni_Logo.png" group-title="General",TV8 (Turkiye) (1080p)
 https://tv8.daioncdn.net/tv8/tv8.m3u8?app=7ddc255a-ef47-4e81-ab14-c0e5f2949788&ce=3
 #EXTINF:-1 tvg-id="TV1.tr@SD" tvg-country="TR" tvg-name="TV 1" tvg-logo="https://i.imgur.com/8CtrYVb.png" group-title="General",TV 1 (720p)
@@ -318,6 +322,8 @@ http://stream.taksimbilisim.com:1935/tv41/bant1/TV41.m3u8
 https://canli.tv42.com.tr/memfs/d936e417-c4bd-4d42-89a2-02f289892d1d.m3u8
 #EXTINF:-1 tvg-id="TV52.tr@SD" tvg-country="TR" tvg-name="TV 52" tvg-logo="https://i.imgur.com/k4R5CzO.png" group-title="General",TV 52 (720p)
 https://edge1.socialsmart.tv/tv52/bant1/playlist.m3u8
+#EXTINF:-1 tvg-id="TV264.tr@SD" tvg-country="TR" tvg-name="TV 264" tvg-logo="https://i.imgur.com/tudXdOZ.png" group-title="General",TV 264 (1080p)
+https://b01c02nl.mediatriple.net/videoonlylive/mtdxkkitgbrckilive/broadcast_5ee244263fd6d.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UlkeTV.tr@SD" tvg-country="TR" tvg-name="Ulke TV" tvg-logo="https://i.imgur.com/wdWR7Qk.png" group-title="General",Ulke TV
 http://217.174.229.138:8000/play/a0el
 #EXTINF:-1 tvg-id="UrfaNatikTV.tr@SD" tvg-country="TR" tvg-name="Urfa Natik TV" tvg-logo="https://i.imgur.com/8KO0uxn.png" group-title="General",Urfa Natik TV (720p)
