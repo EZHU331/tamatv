@@ -466,6 +466,8 @@ https://mntv.livebox.co.in/mntvhls/live.m3u8
 https://mmtv-vglivessai.akamaized.net/v1/master/673630b269b766886555eebfddd4f27f3de3ab50/f8a0827f-030f-4a0d-b7e5-338996c09a5b/index.m3u8
 #EXTINF:-1 tvg-id="NTCTV.in@SD" tvg-country="IN" tvg-name="NTC TV" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/ntvtamil.png" group-title="Entertainment",NTC TV (720p)
 https://galaxyott.live/hls/ntv.m3u8
+#EXTINF:-1 tvg-id="OliTV.in@SD" tvg-country="IN" tvg-name="Oli TV" tvg-logo="https://i.ibb.co/XfvTQyJn/main-removebg-preview.png" group-title="Entertainment",Oli TV (India) (1080p)
+https://live.olidigital.in/olitv/olitv/index.m3u8
 #EXTINF:-1 tvg-id="PolimerTV.in@SD" tvg-country="IN" tvg-name="Polimer TV" tvg-logo="https://dtil.tmsimg.com/assets/s143665_ld_h15_aa.png?lock=720x540" group-title="Entertainment",Polimer TV (720p)
 https://cdn.pishow.tv/ott/live/1241/master.m3u8
 #EXTINF:-1 tvg-id="PTCPunjabiGold.in@SD" tvg-country="IN" tvg-name="PTC Punjabi Gold" tvg-logo="https://dtil.tmsimg.com/assets/s143684_ld_h15_aa.png?lock=720x540" group-title="Entertainment",PTC Punjabi Gold (1080p)
@@ -716,8 +718,6 @@ https://hktv.harekrsnatv.com/HKTV/HKWebApp/manifest.mpd
 https://mumbai-edge.smartplaytv.in/HarvestTV/index.m3u8
 #EXTINF:-1 tvg-id="HarvestTVKeralam.in@SD" tvg-country="IN" tvg-name="Harvest TV Keralam" tvg-logo="https://i.imgur.com/1DyPuIt.png" group-title="Religious",Harvest TV Keralam (720p)
 https://7mbd4ogkr3gx-hls-live.wmncdn.net/harvestenglish/d1796a22d24e8696c7d5d0b5c349fdd2.sdp/index.m3u8
-#EXTINF:-1 tvg-id="HebronTV.in@SD" tvg-country="IN" tvg-name="Hebron TV" tvg-logo="https://i0.wp.com/hebrontv.in/wp-content/uploads/2023/11/hebron-.png?w=512" group-title="Religious",Hebron TV (1080p)
-https://account20.livebox.co.in/charleshls/live.m3u8
 #EXTINF:-1 tvg-id="HinduDharmam.in@SD" tvg-country="IN" tvg-name="Hindu Dharmam" tvg-logo="https://dtil.tmsimg.com/assets/s143131_ld_h15_aa.png?lock=720x540" group-title="Religious",Hindu Dharmam (1080p)
 https://mumbai-edge.smartplaytv.in/Hindudharmam/index.m3u8
 #EXTINF:-1 tvg-id="IshwarBhaktiTV.in@SD" tvg-country="IN" tvg-name="Ishwar Bhakti TV" tvg-logo="https://dtil.tmsimg.com/assets/s143213_ld_h9_aa.png?lock=720x540" group-title="Religious",Ishwar Bhakti TV (720p)
@@ -804,8 +804,6 @@ https://cdn.pishow.tv/ott/live/8/master.m3u8
 https://cdn.pishow.tv/ott/live/36/master.m3u8
 #EXTINF:-1 tvg-id="DDUttarakhand.in@SD" tvg-country="IN" tvg-name="DD Uttarakhand" tvg-logo="https://dtil.tmsimg.com/assets/s142809_ld_h15_aa.png?lock=720x540" group-title="General",DD Uttarakhand (720p)
 https://cdn.pishow.tv/ott/live/17/master.m3u8
-#EXTINF:-1 tvg-id="HSTV.in@SD" tvg-country="IN" tvg-name="HSTV" tvg-logo="https://ibb.co/Ng5nkX6F" group-title="General",HSTV (720p)
-https://live.castmaxcloud.com/live/hstv.m3u8
 #EXTINF:-1 tvg-id="KaumudyTV.in@SD" tvg-country="IN" tvg-name="Kaumudy TV" tvg-logo="https://dtil.tmsimg.com/assets/s143259_ld_h15_aa.png?lock=720x540" group-title="General",Kaumudy TV (720p)
 https://oqgdrkxby4rm-hls-live.5centscdn.com/kaumudytv/live.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="KTVBangla.in@SD" tvg-country="IN" tvg-name="KTV Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/channel/2f8e3b371c660faa2f43a7f0942948a4.png" group-title="General",KTV Bangla (720p)
@@ -848,3 +846,5 @@ https://stream.ottlive.co.in/ubangla/index.m3u8
 https://em4qj6nedyvg-hls-live.wmncdn.net/liveunit/89b1e919eed04e59383cf820d644c20e.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="VCV.in@SD" tvg-country="IN" tvg-name="VCV" tvg-logo="https://i.imgur.com/KbU36xI.png" group-title="General",VCV (720p)
 https://5a1178b42cc03.streamlock.net/8210/8210/playlist.m3u8
+#EXTINF:-1 tvg-id="VTU.in@SD" tvg-country="IN" tvg-name="VTU" tvg-logo="https://i.imgur.com/zMwZRGJ.png" group-title="General",VTU (1080p)
+https://lbgo.bozztv.com/ssh101/ssh101/afghantheatretv/playlist.m3u8

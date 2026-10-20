@@ -27,6 +27,8 @@ https://cdnlive.klicgo.net/esportsmax/live/playlist_dvr.m3u8
 https://cdnlive.klicgo.net/maxanime/live/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalDiplomatico.ve@SD" tvg-country="VE" tvg-name="Canal Diplomatico" tvg-logo="https://i.ibb.co/34vsSzS/1439-Canal-Diplomatico.png" group-title="Culture",Canal Diplomatico
 https://master.myplaytv.com:2020/hls/canaldiplomatico/canaldiplomatico.m3u8
+#EXTINF:-1 tvg-id="ShowVenTV.ve@SD" tvg-country="VE" tvg-name="ShowVen TV" tvg-logo="https://i.imgur.com/AJIN8Dc.png" group-title="Culture",ShowVen TV (720p)
+https://cdnbarinas.tvzamora.com/showven/index.m3u8
 #EXTINF:-1 tvg-id="BTATV.ve@SD" tvg-country="VE" tvg-name="BTA TV" tvg-logo="https://i.imgur.com/vygOosC.png" group-title="Music",BTA TV (720p)
 https://cloud.fastchannel.es/manifiest/hls/prog9/btatv.m3u8
 #EXTINF:-1 tvg-id="PlousTV.ve@SD" tvg-country="VE" tvg-name="Plous TV" tvg-logo="https://i.imgur.com/OSet4en.png" group-title="Lifestyle",Plous TV (1080p)
@@ -62,8 +64,6 @@ https://cloud2.streaminglivehd.com:1936/siembratv/siembratv/playlist.m3u8
 https://vcp3.myplaytv.com/somostv/somostv/playlist.m3u8
 #EXTINF:-1 tvg-id="TAMTV.ve@SD" tvg-country="VE" tvg-name="TAM TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/56/Logo_TAM.png" group-title="General",TAM TV
 https://rtmp.tamtv.com.ve/tmp_hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="Televen.ve@SD" tvg-country="VE" tvg-name="Televen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Televen_%282024%29.svg/1920px-Televen_%282024%29.svg.png" group-title="General",Televen (1080p)
-http://38.134.250.110:8000/play/a02i/index.m3u8
 #EXTINF:-1 tvg-id="TNORadio.ve@SD" tvg-country="VE" tvg-name="TNO Radio" tvg-logo="https://i.ibb.co/0rYsbRk/Logo-TNO-2021-white.png" group-title="General",TNO Radio (720p)
 https://stmv1.srvstm.com/tnovideo1/tnovideo1/playlist.m3u8
 #EXTINF:-1 tvg-id="TorococoTV.ve@SD" tvg-country="VE" tvg-name="Torococo TV" tvg-logo="https://i.ibb.co/9N7Scn8/1400-Torococo-TV.png" group-title="General",Torococo TV (720p)
@@ -74,8 +74,6 @@ https://astl-mainstr.qvixsolutions.com/asltvtu_ext/index.m3u8
 https://live.teve.pro/live/tvoasis/index.m3u8
 #EXTINF:-1 tvg-id="TVes.ve@SD" tvg-country="VE" tvg-name="TVes" tvg-logo="https://i.imgur.com/QX5DVUB.png" group-title="General",TVes (1080p)
 https://vs20.live.opencaster.com/tves_5fd18b1e/index.m3u8
-#EXTINF:-1 tvg-id="TVMparati.ve@SD" tvg-country="VE" tvg-name="TVM para ti" tvg-logo="https://intervenhosting.net/imagenes/tvmparati.jpg" group-title="General",TVM para ti (1080p)
-https://streamtv.intervenhosting.net:3529/live/tvmparatilive.m3u8
 #EXTINF:-1 tvg-id="TVS.ve@SD" tvg-country="VE" tvg-name="TVS" tvg-logo="https://i.imgur.com/J8ztiAN.png" group-title="General",TVS (Venezuela) (720p)
 https://vcp10.myplaytv.com/tvs/tvs/playlist.m3u8
 #EXTINF:-1 tvg-id="UniTV.ve@SD" tvg-country="VE" tvg-name="UniTV" tvg-logo="https://i.imgur.com/KLGeznX.png" group-title="General",UniTV (720p)

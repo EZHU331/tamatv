@@ -87,16 +87,8 @@ https://jmp2.uk/stvp-ESBD80000288
 https://jmp2.uk/stvp-ES2200003DA
 #EXTINF:-1 tvg-id="ESBD8000033W" tvg-country="ES" tvg-name="Runtime Comedia" tvg-logo="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_comedia_16x9.jpg" group-title="Entertainment",Runtime Comedia
 https://jmp2.uk/stvp-ESBD8000033W
-#EXTINF:-1 tvg-id="608049aefa2b8ae93c2c3a63-668434f6a017b7e51aeb28d3" tvg-country="ES" tvg-name="Runtime Crimen" tvg-logo="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_crimen_16x9.jpg" group-title="Entertainment",Runtime Crimen
-https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-668434f6a017b7e51aeb28d3/?X-Plex-Token=D1tYcQZoQpW-itnqQeYS
 #EXTINF:-1 tvg-id="ESBD800004KU" tvg-country="ES" tvg-name="Runtime Romance" tvg-logo="https://img1.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_romance_16x9.jpg" group-title="Entertainment",Runtime Romance
 https://jmp2.uk/stvp-ESBD800004KU
-#EXTINF:-1 tvg-id="643054b1fc3be59477853717-6684011fcd6f1d394094114d" tvg-country="ES" tvg-name="Runtime Series" tvg-logo="https://img2.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_series_16x9_0.jpg" group-title="Entertainment",Runtime Series
-https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6684011fcd6f1d394094114d/?X-Plex-Token=D1tYcQZoQpW-itnqQeYS
-#EXTINF:-1 tvg-id="643054b1fc3be59477853717-6683fcdf702b9db9f8177252" tvg-country="ES" tvg-name="Runtime Thriller" tvg-logo="https://img3.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_thriller.jpg" group-title="Entertainment",Runtime Thriller
-https://epg.provider.plex.tv/library/parts/643054b1fc3be59477853717-6683fcdf702b9db9f8177252/?X-Plex-Token=D1tYcQZoQpW-itnqQeYS
-#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-country="ES" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Entertainment",Univers TV (720p)
-https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-country="ES" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Entertainment",XPTV2 (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-country="ES" tvg-name="Clan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Clan_2026.svg" group-title="Kids",Clan (1080p)
@@ -127,6 +119,8 @@ https://cdn3.wowza.com/1/RERMR282dnU5eE5Z/OHY0dVFs/hls/live/playlist.m3u8
 https://rtvelivestream.rtve.es/rtvesec/rne/rne3_main.m3u8
 #EXTINF:-1 tvg-id="ActivaTV.es@SD" tvg-country="ES" tvg-name="Activa TV" tvg-logo="https://i.imgur.com/VCUZKiw.png" group-title="Music",Activa TV (720p)
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
+#EXTINF:-1 tvg-id="CadenaElite.es@SD" tvg-country="ES" tvg-name="Cadena Elite" tvg-logo="https://i.imgur.com/3yeGDTP.png" group-title="Music",Cadena Elite (720p)
+https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-id="LaUrbanTV.es@SD" tvg-country="ES" tvg-name="La Urban TV" tvg-logo="https://i.imgur.com/hythjEn.png" group-title="Music",La Urban TV (1080p)
 https://urbanrevolution.es:8443/live/TV/playlist.m3u8
 #EXTINF:-1 tvg-id="LiraTV.es@SD" tvg-country="ES" tvg-name="LiraTV" tvg-logo="https://i.imgur.com/hBswXYZ.png" group-title="Music",LiraTV (720p)
@@ -214,9 +208,6 @@ https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8
 https://streaming.28kanala.eus/hls/z.m3u8
 #EXTINF:-1 tvg-id="101tvCadiz.es@SD" tvg-country="ES" tvg-name="101tv Cadiz" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General",101tv Cadiz (1080p)
 https://streaming101tv.es:19360/cadiz/cadiz.m3u8
-#EXTINF:-1 tvg-id="101tvSevilla.es@SD" tvg-country="ES" tvg-name="101tv Sevilla" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General" http-referrer="https://player.instantvideocloud.net/",101tv Sevilla
-#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
-https://liveingesta318.cdnmedia.tv/101weblive/smil:sevilla.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es" tvg-country="ES" tvg-name="Alcarria TV" tvg-logo="https://i.imgur.com/pzJAYan.png" group-title="General",Alcarria TV
 http://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" tvg-country="ES" tvg-name="Antena 3 Internacional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="General",Antena 3 Internacional (1080p)
