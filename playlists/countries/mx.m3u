@@ -47,8 +47,6 @@ https://oly-ftvpc.otteravision.com/oly/ftvpc/ftvpc.m3u8
 http://200.115.120.1:8000/play/ca020/index.m3u8
 #EXTINF:-1 tvg-id="TlnovelasLatinAmerica.mx@SD" tvg-country="MX" tvg-name="Tlnovelas Latin America" tvg-logo="https://i.imgur.com/Rvm38Mu.png" group-title="Series",Tlnovelas Latin America (1080p)
 http://209.14.115.253:8081/TELENOVELAS/index.m3u8
-#EXTINF:-1 tvg-id="TlnovelasMexico.mx@SD" tvg-country="MX" tvg-name="Tlnovelas Mexico" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/62/Tlnovelas_logo_2021.png" group-title="Series",Tlnovelas Mexico (1080p)
-http://167.249.23.102:8000/play/a0g8/index.m3u8
 #EXTINF:-1 tvg-id="AzClic.mx@SD" tvg-country="MX" tvg-name="Az Clic" tvg-logo="https://i.imgur.com/ClqIQ4M.png" group-title="Entertainment",Az Clic (1080p)
 http://38.252.238.18:8000/play/a01g/index.m3u8
 #EXTINF:-1 tvg-id="AztecaInternacional.mx@SD" tvg-country="MX" tvg-name="Azteca Internacional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/eb/Azteca_Internacional_logo_2023.png" group-title="Entertainment",Azteca Internacional (1080p)
@@ -77,6 +75,8 @@ http://138.121.15.230:9002/NAT-GEO/index.m3u8
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="JaliscoTV.mx@SD" tvg-country="MX" tvg-name="Jalisco TV" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Education",Jalisco TV (720p)
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
+#EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-country="MX" tvg-name="Tele UV" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV
+https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBUAP.mx@SD" tvg-country="MX" tvg-name="TV BUAP" tvg-logo="https://i.imgur.com/hHrIn0r.png" group-title="Education",TV BUAP (1080p)
 https://tvenvivo.buap.mx/livestream/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVCuatro44.mx@SD" tvg-country="MX" tvg-name="TV Cuatro 4.4" tvg-logo="https://i.imgur.com/Of044Jx.png" group-title="Education",TV Cuatro 4.4 (1080p)
@@ -127,6 +127,8 @@ https://5fc584f3f19c9.streamlock.net/icrtvcolima/smil:icrtvcolima.smil/playlist.
 https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
 #EXTINF:-1 tvg-id="AlcanceTV.mx@SD" tvg-country="MX" tvg-name="Alcance TV" tvg-logo="https://i.imgur.com/5nYjRlb.png" group-title="Religious",Alcance TV (Mexico) (720p)
 https://5bf8041cb3fed.streamlock.net/AlcanceTV/AlcanceTV/playlist.m3u8
+#EXTINF:-1 tvg-id="BAMOSTV.mx@SD" tvg-country="MX" tvg-name="BAMOS TV" tvg-logo="https://i.imgur.com/ntK4D64.png" group-title="Religious",BAMOS TV (1080p)
+https://video2.getstreamhosting.com:19360/8092/8092.m3u8
 #EXTINF:-1 tvg-id="MonteMaria.mx@SD" tvg-country="MX" tvg-name="Monte Maria" tvg-logo="https://i.imgur.com/0rMHbbM.png" group-title="Religious",Monte Maria (1080p)
 https://5ca9af4645e15.streamlock.net/montemaria/videomontemaria/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioyTelevisionCrisoldelaAlegria.mx@SD" tvg-country="MX" tvg-name="Radio y Television Crisol de la Alegria" tvg-logo="https://i.imgur.com/EW2z5Ko.jpg" group-title="Religious",Radio y Television Crisol de la Alegria (1080p)
@@ -155,6 +157,8 @@ http://45.181.87.106/CANAL5HD/index.m3u8
 https://video0.rogohosting.com:19360/tvcozumel/tvcozumel.m3u8
 #EXTINF:-1 tvg-id="Canal10Cancun.mx@SD" tvg-country="MX" tvg-name="Canal 10 Cancun" tvg-logo="https://i.imgur.com/TvTn3hO.png" group-title="General",Canal 10 Cancun (720p)
 http://stream2.dynalias.com:1935/live/tvlive1/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal10Durango.mx@SD" tvg-country="MX" tvg-name="Canal 10 Durango" tvg-logo="https://i.imgur.com/H34quHQ.png" group-title="General",Canal 10 Durango (1080p)
+https://5e50264bd6766.streamlock.net/canal10durango/videocanal10durango/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22Nacional.mx@SD" tvg-country="MX" tvg-name="Canal 22 Nacional" tvg-logo="https://i.imgur.com/6qiYvhe.png" group-title="General",Canal 22 Nacional (720p)
 https://5fc584f3f19c9.streamlock.net/canal22/smil:canal22.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal26.mx@SD" tvg-country="MX" tvg-name="Canal 26" tvg-logo="https://i.imgur.com/PAvnVN9.png" group-title="General",Canal 26 (Mexico) (1080p)
@@ -163,6 +167,8 @@ https://60417ddeaf0d9.streamlock.net/telemetrika3/smil:telemetrika3.smil/playlis
 https://5e50264bd6766.streamlock.net/canal442/videocanal442/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalOnce.mx@HD" tvg-country="MX" tvg-name="Canal Once" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Canal_Once_logo_2025.png" group-title="General",Canal Once (1080p)
 https://vivo.canaloncelive.tv/securepkgr3/oncemexico/playlist.m3u8
+#EXTINF:-1 tvg-id="CBTVMichoacan.mx@SD" tvg-country="MX" tvg-name="CB TV Michoacan" tvg-logo="https://i.imgur.com/oFeCIeD.png" group-title="General",CB TV Michoacan
+https://5ca3e84a76d30.streamlock.net/cbtv/videoc3b3t3v3/playlist.m3u8
 #EXTINF:-1 tvg-id="CreaLaTV.mx@SD" tvg-country="MX" tvg-name="CreaLaTV" tvg-logo="https://i.imgur.com/Bnjj29f.png" group-title="General",CreaLaTV (1080p)
 https://stream.crealatv.com/live.m3u8
 #EXTINF:-1 tvg-id="EclipseTV.mx@SD" tvg-country="MX" tvg-name="Eclipse TV" tvg-logo="https://i.imgur.com/GiDD8xG.jpg" group-title="General",Eclipse TV (720p)
@@ -276,6 +282,8 @@ https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u
 http://138.121.15.230:9002/UNIVISION/index.m3u8
 #EXTINF:-1 tvg-id="XHBZCTDT.mx@SD" tvg-country="MX" tvg-name="XHBZC-TDT" tvg-logo="https://i.imgur.com/R3icGuG.png" group-title="General",XHBZC-TDT (1080p)
 https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
+#EXTINF:-1 tvg-id="XHFGLTDT.mx@SD" tvg-country="MX" tvg-name="XHFGL-TDT" tvg-logo="https://i.imgur.com/9ZXCQvy.png" group-title="General",XHFGL-TDT (1080p)
+https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8
 #EXTINF:-1 tvg-id="XHIJTDT.mx@SD" tvg-country="MX" tvg-name="XHIJ-TDT" tvg-logo="https://i.imgur.com/oRudPXX.png" group-title="General",XHIJ-TDT (720p)
 https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx@SD" tvg-country="MX" tvg-name="XHTTG-TDT" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="General",XHTTG-TDT (720p)
