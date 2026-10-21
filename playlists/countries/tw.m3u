@@ -19,6 +19,8 @@ http://nmk.ioapk.com:5050/4gtv-live106/index.m3u8
 http://www.dalitv.com.tw:4568/live/dali/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryAsiaTaiwan.tw@SD" tvg-country="TW" tvg-name="Discovery Asia Taiwan" tvg-logo="https://i.imgur.com/foLICwL.png" group-title="地方",Discovery Asia Taiwan (1080p)
 http://125.227.210.55:1004/VideoInput/play.ts
+#EXTINF:-1 tvg-id="EBCForeignMovie.tw@SD" tvg-country="TW" tvg-name="EBC Foreign Movie" tvg-logo="https://i.imgur.com/oUhYdea.png" group-title="地方",EBC Foreign Movie
+http://111.59.139.85:11888/tsfile/live/1217_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="Good2.tw@SD" tvg-country="TW" tvg-name="Good 2" tvg-logo="https://i.imgur.com/YxFRoft.png" group-title="地方",Good 2 (720p)
 https://live.streamingfast.net/osmflivech2.m3u8
 #EXTINF:-1 tvg-id="GoodTV.tw@SD" tvg-country="TW" tvg-name="Good TV" tvg-logo="https://i.imgur.com/k28Kc3o.png" group-title="地方",Good TV (Taiwan) (720p)
@@ -31,6 +33,10 @@ http://nmk.ioapk.com:5050/4gtv-live107/index.m3u8
 https://streamipcfapp.akamaized.net/live/_definst_/live_720/key_b1500.m3u8
 #EXTINF:-1 tvg-id="TVBSAsia.tw@SD" tvg-country="TW" tvg-name="TVBS-Asia" tvg-logo="https://i.imgur.com/4S1rkhm.png" group-title="地方",TVBS-Asia (1080p)
 http://38.64.72.148/hls/modn/list/4005/playlist.m3u8
+#EXTINF:-1 tvg-id="PTS3.tw@SD" tvg-country="TW" tvg-name="PTS 3" tvg-logo="https://i.imgur.com/I6sVDDt.png" group-title="其他",PTS 3
+http://111.59.139.85:11888/tsfile/live/1222_1.m3u8?key=txiptv
+#EXTINF:-1 tvg-id="SJTV.tw@SD" tvg-country="TW" tvg-name="SJTV" tvg-logo="https://i.imgur.com/PTsFn9B.png" group-title="其他",SJTV
+http://111.59.139.85:11888/tsfile/live/1220_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="SupremeMasterTV.tw@SD" tvg-country="TW" tvg-name="Supreme Master TV" tvg-logo="https://i.imgur.com/kFMHayP.png" group-title="其他",Supreme Master TV (720p)
 https://lbs-us1.suprememastertv.com/720p.m3u8
 #EXTINF:-1 tvg-id="TTV.tw@SD" tvg-country="TW" tvg-name="TTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/32/TTV_2nd_logo.svg/960px-TTV_2nd_logo.svg.png" group-title="其他",TTV (720p)
