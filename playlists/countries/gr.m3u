@@ -25,6 +25,8 @@ http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Chrome
 #EXTVLCOPT:http-referrer=http://watch.antennaplus.gr
 https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
+#EXTINF:-1 tvg-id="ERT3.gr@SD" tvg-country="GR" tvg-name="ERT3" tvg-logo="https://i.imgur.com/f2l9bDR.png" group-title="Entertainment",ERT3 (1080p)
+https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8
 #EXTINF:-1 tvg-id="NetmaxTV.gr@SD" tvg-country="GR" tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" group-title="Entertainment",Netmax TV (720p)
 https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr@SD" tvg-country="GR" tvg-name="Star Channel" tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="Entertainment",Star Channel (Greece) (1080p)
@@ -63,7 +65,7 @@ https://fr.crystalweb.net:1936/aigaiotv/aigaiotv/playlist.m3u8
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-country="GR" tvg-name="Alpha TV" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="General",Alpha TV (1080p)
 https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="ARTTV.gr@SD" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
+#EXTINF:-1 tvg-id="arttv.gr" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
 https://rtmp.win:3696/live/arttvgrlive.m3u8
 #EXTINF:-1 tvg-id="BestTV.gr@SD" tvg-country="GR" tvg-name="Best TV" tvg-logo="https://i.imgur.com/AeeeDUc.png" group-title="General",Best TV (720p)
 http://push-int.siliconweb.com/bestTV/stream/playlist.m3u8
@@ -111,6 +113,8 @@ https://eu1.streams.gr:8081/kostv/index.m3u8
 https://livetv.streams.ovh:8081/kriti/index.m3u8
 #EXTINF:-1 tvg-id="KritiTV.gr@SD" tvg-country="GR" tvg-name="Kriti TV" tvg-logo="https://i.imgur.com/X7jKwYl.png" group-title="General",Kriti TV (1080p)
 https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
+#EXTINF:-1 tvg-id="lepantortv.gr" tvg-country="GR" tvg-name="Lepanto" tvg-logo="https://i.imgur.com/h6Tqe0k.png" group-title="General",Lepanto
+https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 #EXTINF:-1 tvg-id="lychnostv.gr" tvg-country="GR" tvg-name="Lychnos" group-title="General",Lychnos
 https://thor.mental-media.gr:19360/imp/imp.m3u8
 #EXTINF:-1 tvg-id="MakTV.gr" tvg-country="GR" tvg-name="MAK TV" tvg-logo="https://i.imgur.com/90iDHbQ.png" group-title="General",MAK TV

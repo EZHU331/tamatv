@@ -39,6 +39,8 @@ https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8
 http://185.228.163.146:8000/play/a01y/index.m3u8
 #EXTINF:-1 tvg-id="TVParaense.br@HD" tvg-country="BR" tvg-name="TV Paraense" tvg-logo="https://duckduckgo.com/i/e408ea02.png" group-title="News",TV Paraense (720p)
 https://video09.logicahost.com.br/tvparaense/tvparaense/playlist.m3u
+#EXTINF:-1 tvg-id="TVSimCachoeiro.br@SD" tvg-country="BR" tvg-name="TV Sim Cachoeiro" tvg-logo="https://i.imgur.com/t5oUK3C.png" group-title="News",TV Sim Cachoeiro (720p)
+https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-id="TVZoom.br@SD" tvg-country="BR" tvg-name="TV Zoom" tvg-logo="https://i.imgur.com/jCGrjf5.png" group-title="News",TV Zoom (720p)
 https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
 #EXTINF:-1 tvg-id="TVideoNews.br@SD" tvg-country="BR" tvg-name="TVideoNews" tvg-logo="https://i.imgur.com/vstHOYx.png" group-title="News",TVideoNews (720p)
@@ -257,6 +259,8 @@ https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 http://170.82.202.31/Viva/index.m3u8
 #EXTINF:-1 tvg-id="Lke.br@SD" tvg-country="BR" tvg-name="L!ke" tvg-logo="https://i.imgur.com/chHsCzB.png" group-title="General",L!ke (1080p)
 https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8
+#EXTINF:-1 tvg-id="MBCBrasilTV.br@SD" tvg-country="BR" tvg-name="MBC Brasil TV" tvg-logo="https://eswqkrogupaisirwcsys.supabase.co/storage/v1/object/public/mbc-media/canais/1775702325773-d10vtu076za.png" group-title="General",MBC Brasil TV
+https://play.mbcbrasil.tv.br/playlist.m3u8
 #EXTINF:-1 tvg-id="NovaEraTV.br@SD" tvg-country="BR" tvg-name="Nova Era TV" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="General",Nova Era TV (1080p)
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 #EXTINF:-1 tvg-id="ODiaTV.br@SD" tvg-country="BR" tvg-name="O Dia TV" tvg-logo="https://i.imgur.com/1LUbAVP.png" group-title="General",O Dia TV
@@ -308,10 +312,16 @@ https://cdn.live.br1.jmvstream.com/webtv/AVJ-15235/playlist/playlist.m3u8
 http://45.162.64.114/REDE_TV/index.m3u8
 #EXTINF:-1 tvg-id="RedeTVParana.br@SD" tvg-country="BR" tvg-name="RedeTV! Parana" tvg-logo="https://i.imgur.com/D8R0Af4.png" group-title="General",RedeTV! Parana
 https://tv01.zas.media:1936/redetvparana/redetvparana/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTCuiaba.br@SD" tvg-country="BR" tvg-name="SBT Cuiaba" tvg-logo="https://i.imgur.com/EZJWQ3i.png" group-title="General",SBT Cuiaba
+https://video09.logicahost.com.br/sbtcuiaba/sbtcuiaba/playlist.m3u8
 #EXTINF:-1 tvg-id="SBTInterior.br@SD" tvg-country="BR" tvg-name="SBT Interior" tvg-logo="https://i.imgur.com/IkZfa4j.png" group-title="General",SBT Interior (720p)
 https://cdn.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/playlist.m3u8
 #EXTINF:-1 tvg-id="SBTNacional.br@SD" tvg-country="BR" tvg-name="SBT Nacional" tvg-logo="https://i.imgur.com/tc1ALuu.png" group-title="General",SBT Nacional (1080p)
 https://cdn.live.br1.jmvstream.com/w/LVW-10801/LVW10801_Xvg4R0u57n/chunklist.m3u8
+#EXTINF:-1 tvg-id="SBTNovaMutum.br@SD" tvg-country="BR" tvg-name="SBT Nova Mutum" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d0/Logotipo_do_SBT_Nova_Mutum.png" group-title="General",SBT Nova Mutum
+https://video09.logicahost.com.br/sbtmutum/sbtmutum/playlist.m3u8
+#EXTINF:-1 tvg-id="SBTRondonopolis.br@SD" tvg-country="BR" tvg-name="SBT Rondonopolis" tvg-logo="https://upload.wikimedia.org/wikipedia/pt/d/d5/Logotipo_do_SBT_Rondon%C3%B3polis.png" group-title="General",SBT Rondonopolis
+https://video09.logicahost.com.br/sbtroo/sbtroo/playlist.m3u8
 #EXTINF:-1 tvg-id="SertaoTV.br@SD" tvg-country="BR" tvg-name="Sertao TV" tvg-logo="https://i.imgur.com/b5xOCsC.png" group-title="General",Sertao TV (720p)
 http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="SICTV.br@SD" tvg-country="BR" tvg-name="SIC TV" tvg-logo="https://i.imgur.com/mHxQyB2.png" group-title="General",SIC TV (720p)
@@ -387,8 +397,6 @@ https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
 https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEBahia.br@SD" tvg-country="BR" tvg-name="TVE Bahia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png" group-title="General",TVE Bahia (1080p)
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 tvg-id="TVitape.br@SD" tvg-country="BR" tvg-name="TVitape" tvg-logo="https://i.imgur.com/XeqcwKe.png" group-title="General",TVitape (720p)
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br@HD" tvg-country="BR" tvg-name="TVLatinaSat" tvg-logo="https://latinasat.com.br/logo.png" group-title="General",TVLatinaSat (720p)
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVMaticCrafts.br@SD" tvg-country="BR" tvg-name="TVMatic Crafts" tvg-logo="https://i.imgur.com/l5PBcKN.png" group-title="General",TVMatic Crafts (720p)
