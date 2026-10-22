@@ -29,6 +29,10 @@ https://onic.dublin.live.stream.broadcasting.news/stream-fm104
 https://live-bauerie.sharp-stream.com/NT
 #EXTINF:-1 tvg-id="www.nova.ie" tvg-country="IE" tvg-name="Radio Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/en/a/a1/Nova-web1-228x150.jpg" group-title="General",Radio Nova
 https://playerservices.streamtheworld.com/api/livestream-redirect/RADIONOVA.mp3
+#EXTINF:-1 tvg-id="RTEjr.ie@SD" tvg-country="IE" tvg-name="RTEjr" tvg-logo="https://i.imgur.com/E3jxqu9.png" group-title="General" http-user-agent="Win64" http-referrer="https://www.rte.ie/",RTEjr
+#EXTVLCOPT:http-user-agent=Win64
+#EXTVLCOPT:http-referrer=https://www.rte.ie/
+http://etvhosts.site:55337/live/littlespiked/cam1gail2brian3/20641.m3u8
 #EXTINF:-1 tvg-id="RTE2.ie" tvg-country="IE" tvg-name="RTÉ2" tvg-logo="https://i.imgur.com/1RV97tP.png" group-title="General",RTÉ2
 https://live.rte.ie/live/a/channel2/channel2.isml/channel2.m3u8
 #EXTINF:-1 tvg-id="RTEOne.ie" tvg-country="IE" tvg-name="RTÉ One" tvg-logo="https://i.imgur.com/8uZSZdS.png" group-title="General",RTÉ One
