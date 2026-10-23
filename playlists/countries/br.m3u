@@ -51,6 +51,8 @@ https://gpa-vja.otteravision.com/gpa/vja/vja.m3u8
 https://cdn-5.nxplay.com.br/BAND_SPORTS/index.m3u8
 #EXTINF:-1 tvg-id="CanaldoInter.br@SD" tvg-country="BR" tvg-name="Canal do Inter" tvg-logo="https://i.imgur.com/TQFWEIS.png" group-title="Sports",Canal do Inter (720p)
 https://video01.soultv.com.br/internacional/internacional/playlist.m3u8
+#EXTINF:-1 tvg-id="CazeTV.br@SD" tvg-country="BR" tvg-name="CazeTV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/6/64/Caz%C3%A9TV_logo.svg/1280px-Caz%C3%A9TV_logo.svg.png" group-title="Sports",CazeTV
+http://138.204.86.4:8080/CAZE_TV/playlist.m3u8
 #EXTINF:-1 tvg-id="Combate.br@SD" tvg-country="BR" tvg-name="Combate" tvg-logo="https://i.imgur.com/ZPYK5jr.png" group-title="Sports",Combate (720p)
 http://143.14.134.107/167/index.m3u8
 #EXTINF:-1 tvg-id="ESPN3.br@SD" tvg-country="BR" tvg-name="ESPN 3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/ESPN3_Logo.png/960px-ESPN3_Logo.png" group-title="Sports",ESPN 3 (Brazil) (1080p)
@@ -259,8 +261,6 @@ https://cdn.jmvstream.com/w/LVW-8719/LVW8719_AcLVAxWy5J/playlist.m3u8
 http://170.82.202.31/Viva/index.m3u8
 #EXTINF:-1 tvg-id="Lke.br@SD" tvg-country="BR" tvg-name="L!ke" tvg-logo="https://i.imgur.com/chHsCzB.png" group-title="General",L!ke (1080p)
 https://cnl-cl.otteravision.com/cnl/cl_h265/cl_h265.m3u8
-#EXTINF:-1 tvg-id="MBCBrasilTV.br@SD" tvg-country="BR" tvg-name="MBC Brasil TV" tvg-logo="https://eswqkrogupaisirwcsys.supabase.co/storage/v1/object/public/mbc-media/canais/1775702325773-d10vtu076za.png" group-title="General",MBC Brasil TV
-https://play.mbcbrasil.tv.br/playlist.m3u8
 #EXTINF:-1 tvg-id="NovaEraTV.br@SD" tvg-country="BR" tvg-name="Nova Era TV" tvg-logo="https://i.imgur.com/IK3F9Uq.png" group-title="General",Nova Era TV (1080p)
 http://wz3.dnip.com.br:1935/novaeratv/novaeratv.sdp/live.m3u8
 #EXTINF:-1 tvg-id="ODiaTV.br@SD" tvg-country="BR" tvg-name="O Dia TV" tvg-logo="https://i.imgur.com/1LUbAVP.png" group-title="General",O Dia TV
@@ -328,8 +328,6 @@ http://wz4.dnip.com.br/sertaotv/sertaotv.sdp/playlist.m3u8
 https://parecisfmlive.brasilstream.com.br/hls/parecisfmlive/index.m3u8
 #EXTINF:-1 tvg-id="SonyChannel.br@SD" tvg-country="BR" tvg-name="Sony Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="General",Sony Channel (Brazil) (720p)
 http://170.83.16.50/SONY_CHANNEL/index.m3u8
-#EXTINF:-1 tvg-id="SOUTV.br@SD" tvg-country="BR" tvg-name="SOU TV" tvg-logo="https://i.ibb.co/8cKmCNm/ezgif-com-gif-maker.png" group-title="General",SOU TV
-https://video10.logicahost.com.br/soutv/soutv/playlist.m3u8
 #EXTINF:-1 tvg-id="TV3Curitiba.br@SD" tvg-country="BR" tvg-name="TV 3 Curitiba" tvg-logo="https://eswqkrogupaisirwcsys.supabase.co/storage/v1/object/public/mbc-media/canais/1776133208960-o2l2f7f02f.png" group-title="General",TV 3 Curitiba (720p)
 https://stmv.webtvninjas.com.br/tv3/tv3/playlist.m3u8
 #EXTINF:-1 tvg-id="TVACritica.br@SD" tvg-country="BR" tvg-name="TV A Critica" tvg-logo="https://i.imgur.com/j51rBro.png" group-title="General",TV A Critica
@@ -369,6 +367,8 @@ http://45.162.64.114/TV_GAZETA/index.m3u8
 http://170.84.165.204/Globo_HD/index.m3u8
 #EXTINF:-1 tvg-id="TVGraoPara.br@SD" tvg-country="BR" tvg-name="TV Grao Para" tvg-logo="https://i.imgur.com/1drg0E9.png" group-title="General",TV Grao Para (720p)
 https://video01.kshost.com.br:4443/moises3834/moises3834/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGuara.br@SD" tvg-country="BR" tvg-name="TV Guara" tvg-logo="https://i.imgur.com/8PErNBT.png" group-title="General",TV Guara (720p)
+https://video02.logicahost.com.br/tvguara23/tvguara23/playlist.m3u8
 #EXTINF:-1 tvg-id="TVJustica.br@SD" tvg-country="BR" tvg-name="TV Justica" tvg-logo="https://i.imgur.com/rOQKiMO.png" group-title="General",TV Justica (720p)
 http://45.162.64.114/TV_JUSTICA/index.m3u8
 #EXTINF:-1 tvg-id="TVLitoralRN.br@SD" tvg-country="BR" tvg-name="TV Litoral RN" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3e/TV_LITORAL_RN.jpg" group-title="General",TV Litoral RN (720p)

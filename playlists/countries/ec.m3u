@@ -10,6 +10,8 @@ https://sv72.ecuaradiotv.net/lanuevatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MakroDigitalTelevision.ec@SD" tvg-country="EC" tvg-name="MakroDigital Television" tvg-logo="https://makrodigitaltelevision.com/logo.jpg" group-title="Entertainment" http-referrer="https://makrodigitaltelevision.com",MakroDigital Television (1080p)
 #EXTVLCOPT:http-referrer=https://makrodigitaltelevision.com
 https://makrodigitaltv.makrodigital.com/makrodigitaltelevision/iptv/playlist.m3u8
+#EXTINF:-1 tvg-id="EducaTV.ec@SD" tvg-country="EC" tvg-name="Educa TV" tvg-logo="https://i.imgur.com/lY9Bx2u.png" group-title="Education",Educa TV (720p)
+https://avm.ecuamedia.net/educatv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IntiTV.ec@SD" tvg-country="EC" tvg-name="Inti TV" tvg-logo="https://i.imgur.com/2WirGqb.png" group-title="Education",Inti TV (1080p)
 https://5e2f36bc1c433.streamlock.net/inti/inti-network.stream/.m3u8
 #EXTINF:-1 tvg-id="UNIANDESTV.ec@SD" tvg-country="EC" tvg-name="UNIANDES TV" tvg-logo="https://i.imgur.com/1rluyB7.png" group-title="Education",UNIANDES TV (720p)
@@ -76,8 +78,6 @@ https://cloudvideo.servers10.com:8081/8118/index.m3u8
 https://stmv6.voxtvhd.com.br/radiosuprema/radiosuprema/playlist.m3u8
 #EXTINF:-1 tvg-id="OromarTV.ec@SD" tvg-country="EC" tvg-name="Oromar TV" tvg-logo="https://oromartv.com/images/OTV400.png" group-title="General",Oromar TV (1080p)
 http://45.224.97.181:9999/Oromar/index.m3u8
-#EXTINF:-1 tvg-id="PlanetaChannel.ec@SD" tvg-country="EC" tvg-name="Planeta Channel" tvg-logo="https://i.imgur.com/XyBKaXI.png" group-title="General",Planeta Channel
-https://vs20.live.opencaster.com/planetachannel_089eff6d/index.m3u8
 #EXTINF:-1 tvg-id="PlusTV.ec@SD" tvg-country="EC" tvg-name="Plus TV" tvg-logo="https://i.imgur.com/TZqOINg.png" group-title="General",Plus TV (Ecuador) (720p)
 https://plustv.streamseguro.com:5443/LiveApp/streams/streaming.m3u8
 #EXTINF:-1 tvg-id="PuruwaTV.ec@SD" tvg-country="EC" tvg-name="Puruwa TV" tvg-logo="https://i.imgur.com/CYldC2R.png" group-title="General",Puruwa TV (1080p)

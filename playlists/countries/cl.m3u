@@ -179,8 +179,6 @@ https://live.mtna.tv/hls/mtna/mtna.m3u8
 https://streamtv.novotempo.com/CDN-TV-ES/smil:tvnuevotiempo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PreludioTV.cl@SD" tvg-country="CL" tvg-name="Preludio TV" tvg-logo="https://www.preludioradio.cl/wp-content/uploads/2023/06/logopreludio.png" group-title="Religious",Preludio TV
 https://tv.arkeo.cl:1936/preludio/preludio/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimiciaVida.cl@SD" tvg-country="CL" tvg-name="Primicia Vida" tvg-logo="https://i.imgur.com/hnkVwTG.png" group-title="Religious",Primicia Vida (720p)
-https://mc.servidor.stream:19360/8248/8248.m3u8
 #EXTINF:-1 tvg-id="RadioArmoniaTV.cl@SD" tvg-country="CL" tvg-name="Radio Armonia TV" tvg-logo="https://i.imgur.com/puWBnP3.png" group-title="Religious",Radio Armonia TV (720p)
 https://v2.tustreaming.cl/armoniamovil/index.m3u8
 #EXTINF:-1 tvg-id="RadioElSembrador.cl@SD" tvg-country="CL" tvg-name="Radio El Sembrador" tvg-logo="https://i.imgur.com/gBpMAc3.png" group-title="Religious",Radio El Sembrador (720p)
@@ -189,8 +187,6 @@ https://tv.arkeo.cl:1936/elsembrador/elsembrador/playlist.m3u8
 https://tls-cl.cdnz.cl/televida/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TNE.cl@SD" tvg-country="CL" tvg-name="TNE" tvg-logo="https://i.imgur.com/8QbvXva.png" group-title="Religious",TNE (720p)
 https://v2.tustreaming.cl/tnetv/index.m3u8
-#EXTINF:-1 tvg-id="VidaNuevaTV.cl@SD" tvg-country="CL" tvg-name="Vida Nueva TV" tvg-logo="https://i.imgur.com/lxv1lre.png" group-title="Religious",Vida Nueva TV
-https://mc.servidor.stream:19360/8240/8240.m3u8
 #EXTINF:-1 tvg-id="TVN3.cl@SD" tvg-country="CL" tvg-name="TVN3" tvg-logo="https://i.imgur.com/9LEiQPJ.png" group-title="Classic",TVN3 (1080p)
 https://mdstrm.com/live-stream-playlist/5653641561b4eba30a7e4929.m3u8
 #EXTINF:-1 tvg-id="AlternativaTV.cl@SD" tvg-country="CL" tvg-name="Alternativa TV" tvg-logo="https://i.imgur.com/KCrSbgv.png" group-title="General",Alternativa TV (720p)
@@ -361,6 +357,10 @@ https://5eaccbab48461.streamlock.net:1936/8124/8124/playlist.m3u8
 https://5ff3d9babae13.streamlock.net/wympnqeqts/wympnqeqts/playlist.m3u8
 #EXTINF:-1 tvg-id="RTCTelevision.cl@SD" tvg-country="CL" tvg-name="RTC Television" tvg-logo="https://i.imgur.com/w91IBj7.png" group-title="General",RTC Television
 https://scl.edge.grupoz.cl/rtcstreaming/live/playlist.m3u8
+#EXTINF:-1 tvg-id="RTVNuble.cl@SD" tvg-country="CL" tvg-name="RTV Nuble" tvg-logo="https://i.imgur.com/BDKgDZG.png" group-title="General",RTV Nuble
+https://tv.arkeo.cl:1936/canalrtv/canalrtv/playlist.m3u8
+#EXTINF:-1 tvg-id="SanNicolasTV.cl@SD" tvg-country="CL" tvg-name="San Nicolas TV" tvg-logo="https://i.imgur.com/z94YCpH.png" group-title="General",San Nicolas TV (720p)
+https://v4.tustreaming.cl/sannicolastv/index.m3u8
 #EXTINF:-1 tvg-id="SantaMariaTelevision.cl@SD" tvg-country="CL" tvg-name="Santa Maria Television" tvg-logo="https://i.imgur.com/SnbGpoK.png" group-title="General",Santa Maria Television (720p)
 https://pantera1-100gb-cl-movistar.dps.live/smtv/smtv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Sextavision.cl@SD" tvg-country="CL" tvg-name="Sextavision" tvg-logo="https://i.imgur.com/mwUZBU9.png" group-title="General",Sextavision (1080p)
@@ -396,6 +396,8 @@ https://unlimited1-cl.dps.live/tvr/tvr.smil/playlist.m3u8
 https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ULosLagosTV.cl@SD" tvg-country="CL" tvg-name="U Los Lagos TV" tvg-logo="https://i.imgur.com/HxUZseV.png" group-title="General",U Los Lagos TV (1080p)
 http://tv.ulagos.cl/web/live.m3u8
+#EXTINF:-1 tvg-id="UATV.cl@SD" tvg-country="CL" tvg-name="UATV" tvg-logo="https://i.imgur.com/BdZGS66.png" group-title="General",UATV (1080p)
+https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UniregionTV.cl@SD" tvg-country="CL" tvg-name="Uniregion TV" tvg-logo="https://i.imgur.com/VEO6aos.png" group-title="General",Uniregion TV
 https://5ff3d9babae13.streamlock.net/ubyecbxnfd/ubyecbxnfd/playlist.m3u8
 #EXTINF:-1 tvg-id="UTV.cl@SD" tvg-country="CL" tvg-name="UTV" tvg-logo="https://i.imgur.com/ZJNSpfZ.png" group-title="General",UTV (Chile) (720p)

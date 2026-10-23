@@ -41,6 +41,8 @@ https://stream.oursnetworktv.com/latin/remaPresencia/playlist.m3u8
 http://45.171.64.30:6060/play/a04k/index.m3u8
 #EXTINF:-1 tvg-id="TVMaria.gt@SD" tvg-country="GT" tvg-name="TV Maria" tvg-logo="https://i.ibb.co/qY7T9s9/cropped-TV-MARIA-LOGO-C.jpg" group-title="Religious",TV Maria (720p)
 https://streamtv.intervenhosting.net:3155/live/juandelacruz3live.m3u8
+#EXTINF:-1 tvg-id="TVSRetro.gt@SD" tvg-country="GT" tvg-name="TVS Retro" tvg-logo="https://i.imgur.com/jdnHci0.png" group-title="Classic",TVS Retro (720p)
+https://cdn.streamhispanatv.net:3531/live/tvsretrogtlive.m3u8
 #EXTINF:-1 tvg-id="BarbeTV.gt@SD" tvg-country="GT" tvg-name="Barbe TV" tvg-logo="https://i.imgur.com/2Sekew2.png" group-title="General",Barbe TV (720p)
 https://cdn.streamhispanatv.net:3549/live/barbetvlive.m3u8
 #EXTINF:-1 tvg-id="BDTelevision.gt@SD" tvg-country="GT" tvg-name="BD Television" tvg-logo="https://i.ibb.co/VBJhHkJ/Fda27b8e352949c39c8d88de33a284a4.png" group-title="General",BD Television (720p)
@@ -51,8 +53,6 @@ https://stream.meteorito.cloud:1947/canal6/smil:canal6.smil/playlist.m3u8
 http://168.228.44.241:9999/play/a01m/index.m3u8
 #EXTINF:-1 tvg-id="Canal13.gt@SD" tvg-country="GT" tvg-name="Canal 13" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f2/Canal_13_Guatemala_Logo.svg" group-title="General",Canal 13 (Guatemala) (720p)
 http://190.61.101.11:7050/play/a07f/index.m3u8
-#EXTINF:-1 tvg-id="Canal13Esquipulas.gt@SD" tvg-country="GT" tvg-name="Canal 13 Esquipulas" tvg-logo="https://i.imgur.com/INKZvlN.png" group-title="General",Canal 13 Esquipulas (720p)
-https://tv91.hostingnuclear.com:19360/intercable/intercable.m3u8
 #EXTINF:-1 tvg-id="Canal100Chinique.gt@SD" tvg-country="GT" tvg-name="Canal 100 Chinique" tvg-logo="https://i.imgur.com/ygNKJXx.png" group-title="General",Canal 100 Chinique (1080p)
 https://live20.bozztv.com/giatv/giatv-chinique100tvenvivo/chinique100tvenvivo/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalVisof.gt@SD" tvg-country="GT" tvg-name="Canal Visof" tvg-logo="https://i.imgur.com/XiszuLl.png" group-title="General",Canal Visof (720p)
@@ -87,5 +87,7 @@ https://cdn.streamhispanatv.net:3819/live/tvflorecialive.m3u8
 https://cdn.streamhispanatv.net:3642/live/unicatvlive.m3u8
 #EXTINF:-1 tvg-id="VeaCanal.gt@SD" tvg-country="GT" tvg-name="Vea Canal" tvg-logo="https://i.imgur.com/oPJlbNf.png" group-title="General",Vea Canal (720p)
 http://181.78.106.127:5000/play/ca090/index.m3u8
+#EXTINF:-1 tvg-id="VisionTV.gt@SD" tvg-country="GT" tvg-name="Vision TV" tvg-logo="https://i.imgur.com/S0JrfIl.png" group-title="General",Vision TV (Guatemala) (720p)
+https://cdn.streamhispanatv.net:3076/live/visiontvlive.m3u8
 #EXTINF:-1 tvg-id="WorldTVGuatemala.gt@HD" tvg-country="GT" tvg-name="World TV Guatemala" tvg-logo="https://i.ibb.co/G4cTmRgz/World-Tv-Guatemala.png" group-title="General",World TV Guatemala (720p)
 https://183.bozztv.com/giatv/giatv-worldtvgt/worldtvgt/playlist.m3u8
