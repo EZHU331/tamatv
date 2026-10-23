@@ -1,6 +1,4 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz"
-#EXTINF:-1 tvg-id="24.sk@SD" tvg-country="SK" tvg-name=":24" tvg-logo="https://i.imgur.com/tTCuczU.png" group-title="News",:24 (1080p)
-http://88.212.15.17/live/test_trojka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="AntikInfoTV.sk@HD" tvg-country="SK" tvg-name="Antik Info TV" tvg-logo="https://i.imgur.com/Q0qL60o.png" group-title="News",Antik Info TV (1080p)
 https://dash4.antik.sk/live/test_infokanal_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalPlusSport2SK.sk@SD" tvg-country="SK" tvg-name="Canal+ Sport 2 SK" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/ab/CANAL%2B_SPORT_2.svg/revision/latest?cb=20241028202739" group-title="Sports",Canal+ Sport 2 SK
@@ -19,8 +17,8 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport7/live_fullhd?o
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport8/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="CanalPlusSportSK.sk@SD" tvg-country="SK" tvg-name="Canal+ Sport SK" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/25/Canal%2B_Sport_2023.svg/revision/latest?cb=20230901182304" group-title="Sports",Canal+ Sport SK
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-sk-canal-plus-sport/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="Sport.sk@SD" tvg-country="SK" tvg-name="Sport" tvg-logo="https://i.imgur.com/oAtcxNZ.png" group-title="Sports",Sport (Slovakia) (1080p)
-http://88.212.15.17/live/test_rtvs_sport_hevc/playlist.m3u8
+#EXTINF:-1 tvg-id="JojCinema.cz" tvg-country="SK" tvg-name="JOJ Cinema" tvg-logo="https://i.imgur.com/5Auduch.png" group-title="Movies",JOJ Cinema
+https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Cinema
 #EXTINF:-1 tvg-id="ducktv.sk@SD" tvg-country="SK" tvg-name="ducktv" tvg-logo="https://i.imgur.com/gRFQ35W.png" group-title="Kids",ducktv (720p)
 https://jmp2.uk/stvp-ESBC4700001GR
 #EXTINF:-1 tvg-id="ducktvPLUS.sk@SD" tvg-country="SK" tvg-name="ducktv PLUS" tvg-logo="https://i.imgur.com/RFhxfOx.png" group-title="Kids",ducktv PLUS
@@ -33,18 +31,12 @@ https://n11.stv.livebox.sk/stv-tv/stv4.stream/playlist.m3u8
 https://lifetv.mpks.sk/s.m3u8
 #EXTINF:-1 tvg-id="HAHATV.sk@SD" tvg-country="SK" tvg-name="HAHA TV" group-title="Comedy",HAHA TV
 https://dash3.antik.sk/live/test_haha_tv/playlist.m3u8
-#EXTINF:-1 tvg-id="JojFamily.sk" tvg-country="SK" tvg-name="JOJ Family" tvg-logo="https://i.imgur.com/k1COMHi.png" group-title="Family",JOJ Family
-https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Family
-#EXTINF:-1 tvg-id="Jednotka.sk@SD" tvg-country="SK" tvg-name="Jednotka" tvg-logo="https://i.imgur.com/aqVki9i.png" group-title="General",Jednotka
-http://88.212.15.17/live/test_jednotka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="Markiza.sk" tvg-country="SK" tvg-name="Markíza" tvg-logo="https://i.imgur.com/W56rOi2.png" group-title="General",Markíza
 https://cdnsk003.panaccess.com/local/Markiza/index.m3u8
 #EXTINF:-1 tvg-id="MTR.sk@SD" tvg-country="SK" tvg-name="MTR" tvg-logo="https://www.mtr.sk/img/logo-mtr-0.png" group-title="General",MTR (1080p)
 https://cdnsk003.panaccess.com/local/Ruzomberok/index.m3u8
 #EXTINF:-1 tvg-id="NZTV.sk@SD" tvg-country="SK" tvg-name="NZTV" tvg-logo="https://i.imgur.com/jGZlnzT.png" group-title="General",NZTV
 https://dash2.antik.sk/live/test_nove_zamky/playlist.m3u8
-#EXTINF:-1 tvg-id="PrimaCoolSK.sk@SD" tvg-country="SK" tvg-name="Prima Cool SK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/06/Prima_COOL_SK_logo.png" group-title="General",Prima Cool SK (1080p)
-http://88.212.15.17/live/prima_cool_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="Senzi.sk@SD" tvg-country="SK" tvg-name="Senzi" tvg-logo="https://i.imgur.com/1qJMmBu.png" group-title="General",Senzi (720p)
 http://lb.streaming.sk/senzi/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="RTVS24.sk" tvg-country="SK" tvg-name="STVR :24" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/slovakia/rtvs-24-sk.png" group-title="General",STVR :24
@@ -79,7 +71,5 @@ https://ottst05.flexitv.sk/2827-tv-pc.m3u8
 http://88.212.7.11/live/test_tv_romana_web_player/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRuzinov.sk@SD" tvg-country="SK" tvg-name="TV Ruzinov" tvg-logo="https://i.imgur.com/bUGuntH.png" group-title="General",TV Ruzinov (1080p)
 http://lb.streaming.sk/tvruzinov/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="VIATV.sk@SD" tvg-country="SK" tvg-name="VIA TV" tvg-logo="https://web02.antik.sk/assets/img/channels/247e7974b5eeaeda06744f312d2bbc51.svg" group-title="General",VIA TV
-http://88.212.15.17/live/via_tv/index.m3u8
 #EXTINF:-1 tvg-id="ZapadoslovenskaTV.sk@SD" tvg-country="SK" tvg-name="Zapadoslovenska TV" tvg-logo="https://i.imgur.com/D72Y1IB.png" group-title="General",Zapadoslovenska TV
 https://dash2.antik.sk/live/test_zapadoslovenska/playlist.m3u8
