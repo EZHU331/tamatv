@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-23T21:36:57Z",
+  "updated": "2026-10-24T11:12:00Z",
   "pipeline": [
     "ingest",
     "inspect",
@@ -13,124 +13,124 @@
   ],
   "live": {
     "playlists": 65,
-    "source": 31866,
-    "kept": 11694,
+    "source": 31983,
+    "kept": 11740,
     "countries": 175,
     "categories": 29,
     "probe": {
-      "ok": 8603,
-      "dead": 3797,
-      "unknown": 3247
+      "ok": 8627,
+      "dead": 3780,
+      "unknown": 3285
     },
     "quality": {
-      "channels": 11694,
-      "https": 9741,
-      "logos": 11560,
-      "tvg_id": 11536,
-      "hd": 5515
+      "channels": 11740,
+      "https": 9747,
+      "logos": 11608,
+      "tvg_id": 11582,
+      "hd": 5513
     },
     "inspect": {
-      "channels": 31866,
-      "junk_names": 565,
+      "channels": 31983,
+      "junk_names": 564,
       "vod_groups": 123,
-      "low_quality": 2091,
+      "low_quality": 2097,
       "no_logo": 2750,
       "no_tvg_id": 5890,
-      "http": 8965,
-      "country_as_group": 10142
+      "http": 9046,
+      "country_as_group": 10153
     },
     "enhance": {
-      "input": 31866,
-      "kept": 31774,
-      "matched": 18989,
-      "nsfw_closed": 92,
-      "logos_upgraded": 2480,
-      "tvg_filled": 1473,
-      "country_filled": 17745,
+      "input": 31983,
+      "kept": 31889,
+      "matched": 19026,
+      "nsfw_closed": 94,
+      "logos_upgraded": 2479,
+      "tvg_filled": 1477,
+      "country_filled": 17781,
       "groups_from_meta": 7842
     },
     "fix": {
-      "input": 31774,
-      "kept": 15647,
+      "input": 31889,
+      "kept": 15692,
       "dropped_unplayable": 0,
-      "dropped_junk": 560,
+      "dropped_junk": 559,
       "dropped_adult_or_vod": 73,
-      "dropped_low_quality": 2031,
-      "merged": 12777,
-      "merged_alias": 276,
+      "dropped_low_quality": 2035,
+      "merged": 12831,
+      "merged_alias": 289,
       "merged_url": 410,
-      "names_cleaned": 7525,
-      "dropped_dead": 3797
+      "names_cleaned": 7551,
+      "dropped_dead": 3780
     },
     "result": {
-      "channels": 11694,
+      "channels": 11740,
       "junk_names": 0,
       "vod_groups": 0,
       "low_quality": 0,
-      "no_logo": 134,
+      "no_logo": 132,
       "no_tvg_id": 158,
-      "http": 1953,
+      "http": 1993,
       "country_as_group": 0
     }
   },
   "aggregators": {
-    "source": 4498,
-    "kept": 2711,
+    "source": 4681,
+    "kept": 2881,
     "lists": 9,
     "probe": {
-      "ok": 769,
-      "dead": 204,
-      "unknown": 614,
+      "ok": 895,
+      "dead": 201,
+      "unknown": 658,
       "skipped": 1328
     },
     "inspect": {
-      "channels": 4498,
+      "channels": 4681,
       "junk_names": 6,
       "vod_groups": 24,
       "low_quality": 0,
       "no_logo": 281,
       "no_tvg_id": 1489,
-      "http": 2873,
+      "http": 2962,
       "country_as_group": 0
     },
     "enhance": {
-      "input": 4498,
-      "kept": 4498,
-      "matched": 968,
+      "input": 4681,
+      "kept": 4681,
+      "matched": 983,
       "nsfw_closed": 0,
       "logos_upgraded": 281,
       "tvg_filled": 305,
-      "country_filled": 968,
+      "country_filled": 983,
       "groups_from_meta": 29
     },
     "fix": {
-      "input": 4498,
-      "kept": 2915,
+      "input": 4681,
+      "kept": 3082,
       "dropped_unplayable": 0,
       "dropped_junk": 6,
       "dropped_adult_or_vod": 0,
       "dropped_low_quality": 0,
-      "merged": 1531,
-      "merged_alias": 16,
+      "merged": 1532,
+      "merged_alias": 31,
       "merged_url": 30,
       "names_cleaned": 8,
-      "dropped_dead": 204
+      "dropped_dead": 201
     },
     "result": {
-      "channels": 2711,
+      "channels": 2881,
       "junk_names": 0,
       "vod_groups": 0,
       "low_quality": 0,
       "no_logo": 0,
       "no_tvg_id": 0,
-      "http": 1650,
+      "http": 1721,
       "country_as_group": 0
     },
     "quality": {
-      "channels": 2711,
-      "https": 1061,
-      "logos": 2711,
-      "tvg_id": 2711,
+      "channels": 2881,
+      "https": 1160,
+      "logos": 2881,
+      "tvg_id": 2881,
       "hd": 23
     }
   },
@@ -140,9 +140,9 @@
     "errors": [],
     "countries": 175,
     "categories": 29,
-    "channels": 21906,
-    "logo_ratio": 0.9884,
-    "tvg_ratio": 0.9862,
-    "summary": "ok: 175 countries, 29 categories, 21906 entries, logos 98.8%, tvg-id 98.6%"
+    "channels": 22115,
+    "logo_ratio": 0.9887,
+    "tvg_ratio": 0.9863,
+    "summary": "ok: 175 countries, 29 categories, 22115 entries, logos 98.9%, tvg-id 98.6%"
   }
 }

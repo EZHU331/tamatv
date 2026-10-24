@@ -1,14 +1,12 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_SG1.xml.gz"
 #EXTINF:-1 tvg-id="CNA.sg@SD" tvg-country="SG" tvg-name="CNA" tvg-logo="https://i.imgur.com/awIDugE.png" group-title="News",CNA (Singapore) (1080p)
 https://d2e1asnsl7br7b.cloudfront.net/7782e205e72f43aeb4a48ec97f66ebbe/index.m3u8
-#EXTINF:-1 tvg-id="AXNAsia.sg@Malaysia" tvg-country="SG" tvg-name="AXN Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Movies",AXN Asia Malaysia (1080p)
-https://2x2.me/5aE8sA
+#EXTINF:-1 tvg-id="AXNAsia.sg@Taiwan" tvg-country="SG" tvg-name="AXN Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d0/AXN_Logo_2015.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Movies",AXN Asia Taiwan (1080p)
+http://125.227.210.55:4050/VideoInput/play.ts
 #EXTINF:-1 tvg-id="CinemaxAsia.sg@HD" tvg-country="SG" tvg-name="Cinemax Asia" tvg-logo="https://freem3u.xyz/static/images/global/cinemax.png" group-title="Movies",Cinemax Asia HD (1080p)
 http://125.227.210.55:1001/VideoInput/play.ts
-#EXTINF:-1 tvg-id="HBOAsia.sg@HD" tvg-country="SG" tvg-name="HBO Asia" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png" group-title="Movies",HBO Asia HD (1080p)
-https://2x2.me/yTKXaE
-#EXTINF:-1 tvg-id="HBOHitsAsia.sg@HD" tvg-country="SG" tvg-name="HBO Hits Asia" tvg-logo="https://i.imgur.com/CTjmocc.png" group-title="Movies",HBO Hits Asia HD (1080p)
-https://2x2.me/BbwzPx
+#EXTINF:-1 tvg-id="HBOAsia.sg@Taiwan" tvg-country="SG" tvg-name="HBO Asia" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/HBO_Asia.png/960px-HBO_Asia.png" group-title="Movies",HBO Asia Taiwan (1080p)
+http://125.227.210.55:1003/VideoInput/play.ts
 #EXTINF:-1 tvg-id="KCM.sg@India" tvg-country="SG" tvg-name="KCM" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KCM.png" group-title="Movies",KCM India (1080p)
 https://amg02159-amg02159c7-samsung-in-4001.playouts.now.amagi.tv/playlist/amg02159-kcglobal-kcm-samsungin/playlist.m3u8
 #EXTINF:-1 tvg-id="ChannelU.sg@SD" tvg-country="SG" tvg-name="Channel U" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Mediacorp_Channel_U_2023.svg/960px-Mediacorp_Channel_U_2023.svg.png" group-title="Entertainment",Channel U (720p)
