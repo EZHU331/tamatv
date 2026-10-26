@@ -5,8 +5,8 @@ https://1853185335.rsc.cdn77.org/K192/tv/playlist.m3u8
 https://rbmn-live.akamaized.net/hls/live/590964/BoRB-AT/master.m3u8
 #EXTINF:-1 tvg-id="TheCyclingChannel.at@SD" tvg-country="AT" tvg-name="The Cycling Channel" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpbjHW_j4DfsuAn4278ebtzhibMvY7KSOyow&s" group-title="Sports",The Cycling Channel
 https://cyclingtv.playout.vju.tv/cyclingtv/main.m3u8
-#EXTINF:-1 tvg-id="ServusTV.at@SD" tvg-country="AT" tvg-name="ServusTV" tvg-logo="https://i.imgur.com/6W637Gn.png" group-title="Movies",ServusTV (1080p)
-https://stv-live.akamaized.net/hls/live/2031011/lingeoSTVATwebPri/master.m3u8
+#EXTINF:-1 tvg-id="ServusTVOsterreich.at" tvg-country="AT" tvg-name="Servus TV" tvg-logo="https://i.imgur.com/6W637Gn.png" group-title="Movies",Servus TV Ⓖ
+https://rbmn-live.akamaized.net/hls/live/2002825/geoSTVATweb/master.m3u8
 #EXTINF:-1 tvg-id="ORFKids.at@SD" tvg-country="AT" tvg-name="ORF Kids" tvg-logo="https://i.imgur.com/Zxuah2b.png" group-title="Kids",ORF Kids (720p)
 https://web12.mdn.ors.at/orf/web12/qxa/manifest.mpd
 #EXTINF:-1 tvg-id="ORFIII.at@HD" tvg-country="AT" tvg-name="ORF III" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/ORF_III_Logo_Monochrom.svg/960px-ORF_III_Logo_Monochrom.svg.png" group-title="Culture",ORF III HD (720p)
@@ -43,6 +43,8 @@ https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
 https://cdn3.wowza.com/1/MHFtazJReW5rOFhP/N2NWNDZ2/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ORF1.at@SD" tvg-country="AT" tvg-name="ORF 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b2/ORF_1_2019.svg" group-title="General",ORF 1
 https://test02.mdn.ors.at/orf/orf1/qxa/manifest.m3u8
+#EXTINF:-1 tvg-id="ORF2.at@SD" tvg-country="AT" tvg-name="ORF 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e7/ORF2_logo_n.svg" group-title="General",ORF 2 (720p)
+http://88.212.7.14/live/test_orf_zwei_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="P3tv.at@SD" tvg-country="AT" tvg-name="P3tv" tvg-logo="https://i.imgur.com/qUOFiEe.png" group-title="General",P3tv (720p)
 http://p3-6.mov.at:1935/live/weekstream/master.m3u8
 #EXTINF:-1 tvg-id="R9.at@SD" tvg-country="AT" tvg-name="R9" tvg-logo="https://i.imgur.com/SVJiXxh.png" group-title="General",R9 (720p)
