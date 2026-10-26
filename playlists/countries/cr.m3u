@@ -9,6 +9,8 @@ https://latamvdo.com:3626/hybrid/play.m3u8
 http://191.102.39.254:5000/live/5up3r5/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleMas.cr@SD" tvg-country="CR" tvg-name="TeleMas" tvg-logo="https://i.imgur.com/5Rc8mA5.png" group-title="Entertainment",TeleMas (720p)
 https://acceso.mediosdecostarica.com:3192/hybrid/play.m3u8
+#EXTINF:-1 tvg-id="XperTV.cr@SD" tvg-country="CR" tvg-name="XperTV" tvg-logo="https://i.imgur.com/0Aftiln.png" group-title="Entertainment",XperTV (1080p)
+http://45.163.139.42:8000/play/a02x/index.m3u8
 #EXTINF:-1 tvg-id="OPA.cr@SD" tvg-country="CR" tvg-name="¡OPA!" tvg-logo="https://i.imgur.com/300c1ZH.png" group-title="Entertainment",¡OPA! (720p)
 https://5f1af61612fb5.streamlock.net/genteopa/videogenteopa_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="ExtremaKidsTV.cr@HD" tvg-country="CR" tvg-name="Extrema Kids TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3027-294x165-FFFFFF.jpg" group-title="Kids",Extrema Kids TV
@@ -39,6 +41,8 @@ https://acceso.radiosportstv.online:3022/stream/play.m3u8
 https://5fc584f3f19c9.streamlock.net/agrotendencia/videoagrotendencia_hls1/playlist.m3u8
 #EXTINF:-1 tvg-id="ConexionPositivaTelevision.cr@HD" tvg-country="CR" tvg-name="Conexion Positiva Television" tvg-logo="https://i.ibb.co/HSSyRDs/conexion-positiva.png" group-title="Religious",Conexion Positiva Television
 https://tvstream.conexionpositivaradio.com/memfs/69239c4d-4116-4f4f-b065-bf17e81b1411.m3u8
+#EXTINF:-1 tvg-id="CristoVisionCanal31.cr@SD" tvg-country="CR" tvg-name="Cristo Vision Canal 31" tvg-logo="https://i.imgur.com/CFXZ8j0.png" group-title="Religious",Cristo Vision Canal 31
+https://3a310f6ec721e6b362fcd22772b57f36a2fe6bb2.tabeelcr.com:8080/cristovision31/iptv.m3u8
 #EXTINF:-1 tvg-id="Enlace.cr@SD" tvg-country="CR" tvg-name="Enlace" tvg-logo="https://i.imgur.com/YwUVTmS.png" group-title="Religious",Enlace (1080p)
 http://138.121.15.230:9002/ENLACE/index.m3u8
 #EXTINF:-1 tvg-id="EnlaceJuvenil.cr@SD" tvg-country="CR" tvg-name="Enlace Juvenil" tvg-logo="https://i.imgur.com/GfpPQ5D.png" group-title="Religious",Enlace Juvenil
@@ -76,8 +80,6 @@ http://k4.usastreams.com/limontv1/limontv1/playlist.m3u8
 https://tiquiciatv.com/hls/lstv.m3u8
 #EXTINF:-1 tvg-id="NicoyaTV.cr@SD" tvg-country="CR" tvg-name="NicoyaTV" tvg-logo="https://i.imgur.com/Lj2jRn3.png" group-title="General",NicoyaTV (720p)
 https://59ef525c24caa.streamlock.net/nicoyatv/nicoyatv/playlist.m3u8
-#EXTINF:-1 tvg-id="RTTV.cr@SD" tvg-country="CR" tvg-name="RTTV" tvg-logo="https://i.imgur.com/eTfsCCq.png" group-title="General",RTTV (720p)
-https://cloudvideo.servers10.com:19360/8212/8212.m3u8
 #EXTINF:-1 tvg-id="SanVitoTelevision.cr@SD" tvg-country="CR" tvg-name="San Vito Television" tvg-logo="https://i.imgur.com/Yd7JOxr.png" group-title="General",San Vito Television
 https://stream.lamegatv.com/hls/sanvitotelevision/index.m3u8
 #EXTINF:-1 tvg-id="SarapiquiTV.cr@SD" tvg-country="CR" tvg-name="Sarapiqui TV" tvg-logo="https://i.imgur.com/obTnd32.png" group-title="General",Sarapiqui TV (720p)
