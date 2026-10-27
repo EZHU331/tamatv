@@ -15,10 +15,12 @@ http://74.91.26.218:82/live/cctv3hd.m3u8
 https://global.cgtn.cicc.media.caton.cloud/master/cgtn-america.m3u8
 #EXTINF:-1 tvg-id="CCTV4Asia.cn@SD" tvg-country="CN" tvg-name="CCTV-4 Asia" tvg-logo="https://i.imgur.com/tWt4Wou.png" group-title="央视",CCTV-4 Asia (720p)
 http://74.91.26.218:82/live/cctv4hd.m3u8
-#EXTINF:-1 tvg-id="CCTV4Europe.cn@SD" tvg-country="CN" tvg-name="CCTV-4 Europe" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="央视",CCTV-4 Europe
+#EXTINF:-1 tvg-id="CCTV4Europe.cn" tvg-country="CN" tvg-name="CCTV-4 中文国际（欧）" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="央视",CCTV-4 中文国际（欧）
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
 #EXTINF:-1 tvg-id="CCTV-4k" tvg-country="CN" tvg-name="CCTV-4K" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="央视",CCTV-4K (2160p)
-https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1793106000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-906c28c72314c0e05289b17ba9bd2577&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1793156400-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-943a6c73d71d1bd8eda88590fc753bb7&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
+#EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-country="CN" tvg-name="CCTV-5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="央视",CCTV-5+ (1080p)
+https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 #EXTINF:-1 tvg-id="CCTV6.cn@HD" tvg-country="CN" tvg-name="CCTV-6" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="央视",CCTV-6 HD (1080p)
 http://69.30.245.50/live/cctv6.m3u8
 #EXTINF:-1 tvg-id="CCTV7.cn@SD" tvg-country="CN" tvg-name="CCTV-7" tvg-logo="https://i.imgur.com/CKcPMQC.png" group-title="央视",CCTV-7 (720p)
@@ -65,6 +67,8 @@ https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
 http://t.061899.xyz/tl/tl.php?id=shics
 #EXTINF:-1 tvg-id="SihaiFishingChannel.cn" tvg-country="CN" tvg-name="四海钓鱼" tvg-logo="https://i.imgur.com/BCJes2k.png" group-title="央视",四海钓鱼
 http://t.061899.xyz/tl/tl.php?id=shdy
+#EXTINF:-1 tvg-id="DragonTV.cn" tvg-country="CN" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="卫视",东方卫视 (720p)
+https://stream1.freetv.fun/83c3a916916d31715425b6e333fa1bc61dd7401ec2e546e2e62e0dacdeac543a.ctv
 #EXTINF:-1 tvg-id="BingtuanSatelliteTV.cn" tvg-country="CN" tvg-name="兵团卫视" tvg-logo="https://i.imgur.com/Y4qxDqz.png" group-title="卫视",兵团卫视
 https://liveout.btzx.com.cn/62ds9e/yil08g.m3u8
 #EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-country="CN" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="卫视",宁夏卫视
@@ -75,8 +79,8 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225697/index.m3u8
 http://183.207.248.71/cntv/live1/HD-2500k-1080P-jiangsustv/HD-2500k-1080P-jiangsustv
 #EXTINF:-1 tvg-id="海峡卫视" tvg-country="CN" tvg-name="福建海峡卫视" tvg-logo="https://i.imgur.com/oNM7aiL.png" group-title="卫视",福建海峡卫视
 https://cdn16.123.rr.kg/163189/hxws
-#EXTINF:-1 tvg-id="ChongqingSatelliteTV.cn" tvg-country="CN" tvg-name="重庆卫视" tvg-logo="https://i.imgur.com/t05JHEc.png" group-title="卫视",重庆卫视 (720p)
-https://stream1.freetv.fun/2af0c7392453c9de383e05a4ae3af9a959fb2ed1172733a27f7b5286bd6be067.ctv
+#EXTINF:-1 tvg-id="ShaanxiSatelitalTV.cn" tvg-country="CN" tvg-name="陕西卫视" tvg-logo="https://logo9.net/userfiles/images/877r3.jpg" group-title="卫视",陕西卫视 (720p)
+https://stream1.freetv.fun/871a47698ab331b58861b25f028f40587602ea02b336853cb105edd68f78b022.ctv
 #EXTINF:-1 tvg-id="iQIYI.cn" tvg-country="CN" tvg-name="爱奇艺" tvg-logo="https://i.imgur.com/LA3gBcn.png" group-title="港澳台",爱奇艺
 http://php.jdshipin.com/smt.php?id=Qiyi
 #EXTINF:-1 tvg-id="CETV1.cn" tvg-country="CN" tvg-name="CETV1" tvg-logo="https://i.imgur.com/6sOHLq8.png" group-title="地方",[BD]cetv1
@@ -90,11 +94,11 @@ https://stream1.freetv.fun/6f60d2f0c11750b138929b982c3fb04c375a7005d91bafadbebc4
 #EXTINF:-1 tvg-id="ModernEducationChannel.cn" tvg-country="CN" tvg-name="现代教育" tvg-logo="https://image.qcc.com/product/66d8b7f2-9aac-4323-962b-cd746731a17b.jpg?x-oss-process=style/logo_200" group-title="地方",[BD]现代教育
 https://stream1.freetv.fun/054a74039124dae0f6d03f80e0851d324e25f7325220987177f45a16864ddce2.m3u8
 #EXTINF:-1 tvg-id="JiangsuCityChannel.cn" tvg-country="CN" tvg-name="江苏城市" tvg-logo="https://www.tvchinese.net/uploads/tv/jscs.jpg" group-title="地方",[VGA]江苏城市
-https://stream1.freetv.fun/53ba3e81b7b02f6745060f81ab832928da171b657adec7db5e7571e98a1ed8f1.ctv
+https://stream1.freetv.fun/66fdfe8e0dfc07f6d88c42008aba5eb9ca5c5ee9900b01b370a9c356a6d365bc.ctv
 #EXTINF:-1 tvg-id="JiangsuEducationalChannel.cn" tvg-country="CN" tvg-name="江苏教育" tvg-logo="https://www.tvchinese.net/uploads/tv/jsjy.jpg" group-title="地方",[VGA]江苏教育
-https://stream1.freetv.fun/38c52ac794874983f6d5f2df6443cb38df0ce082d1484f231b7147b7d3bae3c2.ctv
+https://stream1.freetv.fun/8df554be8b3f2506b68f421e3008a2f46e5accabefa623c601b494bed816049d.ctv
 #EXTINF:-1 tvg-id="JiangsuVarietyChannel.cn" tvg-country="CN" tvg-name="江苏综艺" tvg-logo="https://www.tvchinese.net/uploads/tv/jszy.jpg" group-title="地方",[VGA]江苏综艺
-https://stream1.freetv.fun/f8ef469943662bed2abc6609d9ef1720b9e93a8a0bd6f5789133461e36763f37.ctv
+https://stream1.freetv.fun/bcb5015b43c604477cbade5cdd74ed45750966d9fd3170e3acef238f8b0353a7.ctv
 #EXTINF:-1 tvg-id="AndoTV.cn@SD" tvg-country="CN" tvg-name="Ando TV" tvg-logo="https://i.imgur.com/EpTsFVu.png" group-title="地方",Ando TV (1080p)
 http://play.kankanlive.com/live/1711956137852982.m3u8
 #EXTINF:-1 tvg-id="AnshunComprehensiveNewsChannel.cn@SD" tvg-country="CN" tvg-name="Anshun Comprehensive News Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/anshun.jpg" group-title="地方",Anshun Comprehensive News Channel
@@ -115,8 +119,6 @@ https://english-livebkali.cgtn.com/live/doccgtn.m3u8
 https://amg01314-cgtn-amg01314c2-rakuten-us-1319.playouts.now.amagi.tv/cgtn-fr-rakuten/playlist.m3u8
 #EXTINF:-1 tvg-id="CGTNGlobalBiz.cn@SD" tvg-country="CN" tvg-name="CGTN Global Biz" tvg-logo="https://i.imgur.com/qBmomnF.png" group-title="地方",CGTN Global Biz (1080p)
 https://fastlive.cctvplus.com/out/v1/2b3d8a0c805d437f9dc85b764c2ac599/index.m3u8
-#EXTINF:-1 tvg-id="CGTNRussian.cn@SD" tvg-country="CN" tvg-name="CGTN Russian" tvg-logo="https://i.imgur.com/nDWkCmL.png" group-title="地方",CGTN Russian (1080p)
-https://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd/playlist.m3u8
 #EXTINF:-1 tvg-id="ChaozhouPublicChannel.cn@SD" tvg-country="CN" tvg-name="Chaozhou Public Channel" tvg-logo="https://i.imgur.com/8YIrgB7.png" group-title="地方",Chaozhou Public Channel
 http://113.64.146.48:1688/hls/4/index.m3u8
 #EXTINF:-1 tvg-id="CHCAction.cn@SD" tvg-country="CN" tvg-name="CHC Action" tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="地方",CHC Action (1080p)
@@ -139,7 +141,7 @@ https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8
 https://restream.pdtvhd.com/memfs/0b1b95c9-3543-4af9-9fdb-cf45f1602f17.m3u8
 #EXTINF:-1 tvg-id="FengshangShoppingChannel.cn@SD" tvg-country="CN" tvg-name="Fengshang Shopping Channel" tvg-logo="https://i.imgur.com/WNhfnUR.png" group-title="地方",Fengshang Shopping Channel (1080p)
 http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
-#EXTINF:-1 tvg-id="GoldenEagleCartoon.cn" tvg-country="CN" tvg-name="Golden_Eagle_Cartoon" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="地方",Golden_Eagle_Cartoon
+#EXTINF:-1 tvg-id="GoldenEagleCartoon.cn@SD" tvg-country="CN" tvg-name="Golden Eagle Cartoon" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="地方",Golden Eagle Cartoon
 http://1.24.190.98:10080/hls/51/index.m3u8
 #EXTINF:-1 tvg-id="GuangxiVarietyTravelChannel.cn@SD" tvg-country="CN" tvg-name="Guangxi Variety & Travel Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/gxzypd.jpg" group-title="地方",Guangxi Variety & Travel Channel
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?key=txiptv&playlive=1&authid=0
@@ -159,7 +161,7 @@ http://117.156.28.119/270000001111/1110000149/index.m3u8
 https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
 #EXTINF:-1 tvg-id="HunanNewsChannel.cn@SD" tvg-country="CN" tvg-name="Hunan News Channel" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/hunantv_logo.png" group-title="地方",Hunan News Channel
 http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-#EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn" tvg-country="CN" tvg-name="Jiangsu_Public_&_News_Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jsgg.jpg" group-title="地方",Jiangsu_Public_&_News_Channel
+#EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn@SD" tvg-country="CN" tvg-name="Jiangsu Public & News Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jsgg.jpg" group-title="地方",Jiangsu Public & News Channel
 https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 #EXTINF:-1 tvg-id="JiangxiChildrensChannel.cn@SD" tvg-country="CN" tvg-name="Jiangxi Children's Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jxtv6.jpg" group-title="地方",Jiangxi Children's Channel
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
@@ -220,7 +222,7 @@ https://hwapi.yunshicloud.com/8xughf/e0bx15.m3u8
 #EXTINF:-1 tvg-id="ChineseSpecialityChannel.cn" tvg-country="CN" tvg-name="Chinese Speciality Channel" tvg-logo="https://i.imgur.com/mP34i7z.png" group-title="地方",中华特产
 http://120.76.248.139/live/bfgd/4200000158.m3u8
 #EXTINF:-1 tvg-id="GuangdongPearlRiverChannel.cn" tvg-country="CN" tvg-name="广东珠江" tvg-logo="https://www.tvchinese.net/uploads/tv/gdzjpd.jpg" group-title="地方",广东珠江 (720p)
-https://stream1.freetv.fun/dc7f3b675a2baae6a354ab6794efeb7a0a09c2f8b595fb26bed508d7950e80b6.ctv
+https://stream1.freetv.fun/697b3b96d04443fcd4ba17b16cf9f2ac36746a44175e2f7339f37f0398b6edfb.m3u8
 #EXTINF:-1 tvg-id="GuangdongMobileChannel.cn" tvg-country="CN" tvg-name="广东移动" tvg-logo="https://www.tvchinese.net/uploads/tv/gzydpd.jpg" group-title="地方",广东移动 (720p)
 https://stream1.freetv.fun/ef054656d7deb2e72d56609d1cb441d2680cde24e52ff750b1ef59e79a268f7c.m3u8
 #EXTINF:-1 tvg-id="GuangdongEconomyScienceandEducationChannel.cn" tvg-country="CN" tvg-name="广东经济科教" tvg-logo="https://upload.wikimedia.org/wikipedia/zh/8/8d/GRT_Economy_and_Science_%26_Technology_logo_2019.png" group-title="地方",广东经济科教
@@ -243,8 +245,8 @@ https://stream1.freetv.fun/hu-bei-jing-shi-2.ctv
 https://stream1.freetv.fun/hu-bei-zong-he-4.ctv
 #EXTINF:-1 tvg-id="湖南公共" tvg-country="CN" tvg-name="湖南公共" tvg-logo="https://www.tvchinese.net/uploads/tv/hngg.jpg" group-title="地方",湖南公共
 https://stream1.freetv.fun/hu-nan-gong-gong-5.ctv
-#EXTINF:-1 tvg-id="HunanEntertainmentChannel.cn" tvg-country="CN" tvg-name="湖南娱乐" tvg-logo="https://www.tvchinese.net/uploads/tv/hnyl.jpg" group-title="地方",湖南娱乐 (720p)
-https://stream1.freetv.fun/d823f63f178d27fa744c94a23baa86fac9d249923cf03843d769b3bae2e70a8a.m3u8
+#EXTINF:-1 tvg-id="湖南娱乐" tvg-country="CN" tvg-name="湖南娱乐" tvg-logo="https://www.tvchinese.net/uploads/tv/hnyl.jpg" group-title="地方",湖南娱乐
+https://stream1.freetv.fun/hu-nan-yu-le-9.ctv
 #EXTINF:-1 tvg-id="湖南电视剧" tvg-country="CN" tvg-name="湖南电视剧" tvg-logo="https://www.tvchinese.net/uploads/tv/hndsj.jpg" group-title="地方",湖南电视剧
 https://stream1.freetv.fun/hu-nan-dian-shi-ju-2.m3u8
 #EXTINF:-1 tvg-id="湖南都市" tvg-country="CN" tvg-name="湖南都市" tvg-logo="https://www.tvchinese.net/uploads/tv/hnds.jpg" group-title="地方",湖南都市
@@ -280,7 +282,7 @@ https://stream1.freetv.fun/48e8e8d0fc6a429f90921269888907d31e377c22e5fc3018702e6
 #EXTINF:-1 tvg-id="ChenzouNewsChannel.cn" tvg-country="CN" tvg-name="郴州新闻综合" tvg-logo="https://www.tvchinese.net/uploads/tv/czxwzh.jpg" group-title="新闻",[VGA]徐州新闻综合
 https://stream1.freetv.fun/4df1f1b314c65498a91fd4c9435c48285dffd4dc9fce1db55941c04b6601280b.ctv
 #EXTINF:-1 tvg-id="GuangdongNewsChannel.cn" tvg-country="CN" tvg-name="广东新闻" tvg-logo="https://www.tvchinese.net/uploads/tv/gdxwpd.jpg" group-title="新闻",广东新闻 (720p)
-https://stream1.freetv.fun/566b660ec1dca1eeb9240a2670ed7faa6f9989dbc20845436cc253de73b91704.m3u8
+https://stream1.freetv.fun/2024dc9d8ccfdb5fb2225f051ad63efdc9584be1740a701f0c43a256f0cf4039.m3u8
 #EXTINF:-1 tvg-id="济南新闻综合" tvg-country="CN" tvg-name="济南新闻综合" tvg-logo="https://www.tvchinese.net/uploads/tv/jnxwzh.jpg" group-title="新闻",济南新闻综合
 https://stream1.freetv.fun/ji-nan-zong-he-2.m3u8
 #EXTINF:-1 tvg-id="JS05" tvg-country="CN" tvg-name="江苏体育休闲" tvg-logo="https://www.tvchinese.net/uploads/tv/jsty.jpg" group-title="体育",江苏体育休闲
@@ -323,7 +325,7 @@ http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jb
 http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
 #EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-country="CN" tvg-name="Nei Monggol TV" tvg-logo="https://i.imgur.com/WeugJBE.png" group-title="其他",Nei Monggol TV (1080i)
 http://play1-qk.nmtv.cn/live/1769652018126032.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-country="CN" tvg-name="Qinghai_TV" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="其他",Qinghai_TV
+#EXTINF:-1 tvg-id="QinghaiTV.cn@SD" tvg-country="CN" tvg-name="Qinghai TV" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="其他",Qinghai TV
 https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 tvg-id="ShandongTVLifeChannel.cn@SD" tvg-country="CN" tvg-name="Shandong TV Life Channel" tvg-logo="https://i.imgur.com/bWPiC14.png" group-title="其他",Shandong TV Life Channel (1080p)
 http://livealone302.iqilu.com/iqilu/shpd.m3u8
