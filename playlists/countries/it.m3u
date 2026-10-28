@@ -3,6 +3,8 @@
 https://635320cd397eb.streamlock.net/live/calabriaunolive/playlist.m3u8
 #EXTINF:-1 tvg-id="EtnaEspressoChannel.it@SD" tvg-country="IT" tvg-name="Etna Espresso Channel" tvg-logo="https://i.imgur.com/lSI5QgV.png" group-title="News",Etna Espresso Channel (720p)
 https://5db313b643fd8.streamlock.net/Etnachannelponte/Etnachannelponte/playlist.m3u8
+#EXTINF:-1 tvg-id="GiornaleRadioTV.it@SD" tvg-country="IT" tvg-name="Giornale Radio TV" tvg-logo="https://i.imgur.com/2Y5qiao.png" group-title="News",Giornale Radio TV (720p)
+https://5f204aff97bee.streamlock.net/GR_tv/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="LaltroCorriereTV.it" tvg-country="IT" tvg-name="L'Altro Corriere Tv" tvg-logo="https://i.imgur.com/05YWVCq.png" group-title="News",L'Altro Corriere Tv
 https://stream.cp.ets-sistemi.it:1936/laltrocorriere-tv/laltrocorriere-tv/playlist.m3u8
 #EXTINF:-1 tvg-id="LaCNews24.it@SD" tvg-country="IT" tvg-name="LaC News 24" tvg-logo="https://www.omnys.com/media/news/lac-news24-icona.png" group-title="News",LaC News 24 (720p)
@@ -182,8 +184,12 @@ https://iptv.peer.biz/live/peertv-it.m3u8
 https://iptv.peer.biz/live/peertv-en.m3u8
 #EXTINF:-1 tvg-id="PeerTVSudtirol.it@SD" tvg-country="IT" tvg-name="Peer TV Sudtirol" tvg-logo="https://www.peer.biz/peertv-iptv/peer-tv-suedtirol.png" group-title="Travel",Peer TV Sudtirol (1080p)
 https://iptv.peer.biz/live/peertv.m3u8
+#EXTINF:-1 tvg-id="CacciaePesca.it@SD" tvg-country="IT" tvg-name="Caccia e Pesca" tvg-logo="https://i.imgur.com/uZr0cXB.png" group-title="Outdoor",Caccia e Pesca (720p)
+http://102.129.186.182:81/cacciapesca/index.m3u8
 #EXTINF:-1 tvg-id="ItalianFishingTV.it@SD" tvg-country="IT" tvg-name="Italian Fishing TV" tvg-logo="https://i.imgur.com/qrn6tUO.png" group-title="Outdoor",Italian Fishing TV (1080p)
 https://fms.premio.link/fishingtv/playlist.m3u8
+#EXTINF:-1 tvg-id="PescaeCaccia.it@SD" tvg-country="IT" tvg-name="Pesca e Caccia" tvg-logo="https://i.imgur.com/nW5dJBl.png" group-title="Outdoor",Pesca e Caccia (720p)
+http://102.129.186.182:81/pescacaccia/index.m3u8
 #EXTINF:-1 tvg-id="DiscoveryTurbo.it@SD" tvg-country="IT" tvg-name="Discovery Turbo" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Discovery_Turbo_Italy.svg/1920px-Discovery_Turbo_Italy.svg.png" group-title="Auto",Discovery Turbo (Italy) (1080p)
 https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out/v1/IT_SIMULCAST/TURBO/CMAF/index.m3u8
 #EXTINF:-1 tvg-id="MotoriTV.it" tvg-country="IT" tvg-name="Motori Tv" tvg-logo="https://i.imgur.com/p0CWi2T.png" group-title="Auto",Motori Tv
@@ -720,8 +726,8 @@ https://5db313b643fd8.streamlock.net/TRL/TRL/playlist.m3u8
 https://5a1178b42cc03.streamlock.net/trsptv/trsptv/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Tuscia Sabina 2000Tv" tvg-logo="https://i.imgur.com/Tq5nEAy.png" group-title="General",Tuscia Sabina 2000Tv
 http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
-#EXTINF:-1 tvg-id="TV8.HD.it" tvg-country="IT" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TV8_logo.svg/500px-TV8_logo.svg.png" group-title="General",TV8 Ⓖ
-https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11223/tv8web/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
+#EXTINF:-1 tvg-id="TV8.it@SD" tvg-country="IT" tvg-name="TV8" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/TV8_logo.svg/500px-TV8_logo.svg.png" group-title="General",TV8 (Italy) (720p)
+http://102.129.186.182:81/tv8/index.m3u8
 #EXTINF:-1 tvg-id="TVCampane1.it@SD" tvg-country="IT" tvg-name="TV Campane 1" tvg-logo="https://i.imgur.com/GsdVpll.png" group-title="General",TV Campane 1 (720p)
 https://eu1.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Tv Campi Flegrei" tvg-logo="https://i.imgur.com/9d2K1nX.png" group-title="General",Tv Campi Flegrei
@@ -770,5 +776,7 @@ https://5f22d76e220e1.streamlock.net/vintageradiotv/vintageradiotv/playlist.m3u8
 https://live02-seg.msr.cdn.mediaset.net/live/ch-ew/ew-clr.isml/index.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Webcom Tv" tvg-logo="https://i.imgur.com/KLwj2vj.png" group-title="General",Webcom Tv
 https://www.webcomiptv.it/mistserver/passionelotto/index.m3u8
+#EXTINF:-1 tvg-country="IT" tvg-name="WLTV" tvg-logo="https://i.imgur.com/aL8jKtU.png" group-title="General",WLTV
+https://5db313b643fd8.streamlock.net/WLTV/WLTV/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Yvii Tv" tvg-logo="https://i.imgur.com/yP5AvDo.png" group-title="General",Yvii Tv
 https://stream.wired-shop.com/hls/yviitv.m3u8
