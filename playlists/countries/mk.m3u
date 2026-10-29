@@ -61,7 +61,11 @@ https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(TV_Shenja)/index.
 https://live.vtv.mk/live/vtv/chunks.m3u8
 #EXTINF:-1 tvg-id="zona m1" tvg-country="MK" tvg-name="ЗОНА М1 ТВ" tvg-logo="https://i.imgur.com/yTR7A0d.png" group-title="General",ЗОНА М1 ТВ
 https://zonam1.ddns.net/hls/stream1.m3u8
+#EXTINF:-1 tvg-id="TV Orbis" tvg-country="MK" tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" group-title="General",Орбис
+http://tvorbis.hugo.mk:1935/live/orbis/index.m3u8
 #EXTINF:-1 tvg-id="tvnova12.mk" tvg-country="MK" tvg-name="ТВ НОВА 12" tvg-logo="https://i.imgur.com/Qo3Hj3t.png" group-title="General",ТВ НОВА 12
 http://151.236.247.171:8080/nova/index.m3u8
+#EXTINF:-1 tvg-id="Zdravkin" tvg-country="MK" tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" group-title="General",Телевизија Здравкин
+http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
 #EXTINF:-1 tvg-id="Hugo2.mk" tvg-country="MK" tvg-name="Хуго 2" tvg-logo="https://i.imgur.com/yb3xjOZ.png" group-title="General",Хуго 2
 http://fta.hugo.mk:1935/live/tvhugo/stream/2.m3u8
