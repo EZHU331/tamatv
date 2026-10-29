@@ -1,8 +1,12 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BG1.xml.gz"
+#EXTINF:-1 tvg-id="CineStar1Bulgaria.bg@SD" tvg-country="BG" tvg-name="CineStar 1 Bulgaria" tvg-logo="https://i.imgur.com/t9vVTLH.png" group-title="Movies",CineStar 1 Bulgaria
+http://213.91.179.28:8000/play/a05h
 #EXTINF:-1 tvg-id="ThisisBulgariaHD.bg@SD" tvg-country="BG" tvg-name="This is Bulgaria HD" tvg-logo="https://i.imgur.com/062jkXw.png" group-title="Entertainment",This is Bulgaria HD (1080p)
 https://streamer103.neterra.tv/thisisbulgaria/live.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.bg@SD" tvg-country="BG" tvg-name="Disney Channel" tvg-logo="https://i.imgur.com/UxrAiAe.png" group-title="Kids",Disney Channel (Bulgaria) (576i)
 http://87.120.179.187:8000/play/a010
+#EXTINF:-1 tvg-id="ID.bg@SD" tvg-country="BG" tvg-name="ID" group-title="Documentary",ID
+http://213.91.179.28:8000/play/a0cf
 #EXTINF:-1 tvg-id="City.bg" tvg-country="BG" tvg-name="City TV" tvg-logo="https://i.imgur.com/mFL452f.png" group-title="Music",City TV
 https://tv.city.bg/play/tshls/citytv/index.m3u8
 #EXTINF:-1 tvg-id="MagicTV.bg@SD" tvg-country="BG" tvg-name="Magic TV" tvg-logo="https://i.imgur.com/n7bcrrp.png" group-title="Music",Magic TV (Bulgaria) (720p)

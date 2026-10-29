@@ -1,8 +1,8 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz"
 #EXTINF:-1 tvg-id="SterkTV.be@SD" tvg-country="BE" tvg-name="Sterk TV" tvg-logo="https://i.imgur.com/bIheNAI.png" group-title="News",Sterk TV (1080p)
 https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8
-#EXTINF:-1 tvg-id="LaUne.be" tvg-country="BE" tvg-name="La Une" tvg-logo="https://i.imgur.com/jMwZp7z.png" group-title="Entertainment",La Une
-http://145.239.5.177/329/index.m3u8
+#EXTINF:-1 tvg-id="LaUne.be@SD" tvg-country="BE" tvg-name="La Une" tvg-logo="https://i.imgur.com/jMwZp7z.png" group-title="Entertainment",La Une (1080p)
+http://41.205.93.154/LA-UNE/index.m3u8
 #EXTINF:-1 tvg-id="JapanimTV.be@SD" tvg-country="BE" tvg-name="JapanimTV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png" group-title="Kids",JapanimTV (1080p)
 https://foxkidstv.be:3369/stream/play.m3u8
 #EXTINF:-1 tvg-id="BAMTV.be@SD" tvg-country="BE" tvg-name="BAM-TV" tvg-logo="https://i.imgur.com/9UmR6cs.png" group-title="Culture",BAM-TV

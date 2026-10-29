@@ -65,7 +65,7 @@ https://cdn.istoikona.com/aeolostv/live/playlist.m3u8
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-country="GR" tvg-name="Alpha TV" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="General",Alpha TV (1080p)
 https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="arttv.gr" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
+#EXTINF:-1 tvg-id="ARTTV.gr@SD" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
 https://rtmp.win:3696/live/arttvgrlive.m3u8
 #EXTINF:-1 tvg-id="BestTV.gr@SD" tvg-country="GR" tvg-name="Best TV" tvg-logo="https://i.imgur.com/AeeeDUc.png" group-title="General",Best TV (720p)
 http://push-int.siliconweb.com/bestTV/stream/playlist.m3u8
@@ -81,8 +81,6 @@ http://live.streams.ovh:1935/tvcreta/tvcreta/playlist.m3u8
 http://81.171.10.42:554/liveD/DStream.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="DionTV.gr@SD" tvg-country="GR" tvg-name="Dion TV" tvg-logo="https://i.imgur.com/13MverN.png" group-title="General",Dion TV (1080p)
 https://rtmp.win:3650/live/diontvlive.m3u8
-#EXTINF:-1 tvg-id="EcclesiaTV.gr@SD" tvg-country="GR" tvg-name="Ecclesia TV" tvg-logo="https://i.imgur.com/QQSSMZx.png" group-title="General",Ecclesia TV (Greece) (1080p)
-https://liveopen.siliconweb.com/openTvLive/openEcclessia/playlist.m3u8
 #EXTINF:-1 tvg-id="egnatiatv.gr" tvg-country="GR" tvg-name="Egnatia" tvg-logo="https://i.imgur.com/zuyYIca.png" group-title="General",Egnatia
 https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
 #EXTINF:-1 tvg-id="ENAChannel.gr@SD" tvg-country="GR" tvg-name="ENA Channel" tvg-logo="https://i.imgur.com/3g3yjAq.png" group-title="General",ENA Channel (1080p)
@@ -113,8 +111,6 @@ https://eu1.streams.gr:8081/kostv/index.m3u8
 https://livetv.streams.ovh:8081/kriti/index.m3u8
 #EXTINF:-1 tvg-id="KritiTV.gr@SD" tvg-country="GR" tvg-name="Kriti TV" tvg-logo="https://i.imgur.com/X7jKwYl.png" group-title="General",Kriti TV (1080p)
 https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="lepantortv.gr" tvg-country="GR" tvg-name="Lepanto" tvg-logo="https://i.imgur.com/h6Tqe0k.png" group-title="General",Lepanto
-https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 #EXTINF:-1 tvg-id="lychnostv.gr" tvg-country="GR" tvg-name="Lychnos" group-title="General",Lychnos
 https://thor.mental-media.gr:19360/imp/imp.m3u8
 #EXTINF:-1 tvg-id="MakTV.gr" tvg-country="GR" tvg-name="MAK TV" tvg-logo="https://i.imgur.com/90iDHbQ.png" group-title="General",MAK TV
@@ -141,5 +137,5 @@ https://eco.streams.ovh:1936/syrostv1/syrostv1/playlist.m3u8
 https://cdn.onestreaming.com/thrakinettv/thrakinettv/playlist.m3u8
 #EXTINF:-1 tvg-id="TopChannel.gr@SD" tvg-country="GR" tvg-name="Top Channel" tvg-logo="https://i.imgur.com/SfV2gJg.png" group-title="General",Top Channel (720p)
 https://fr.crystalweb.net:1936/topchannel/topchannel/playlist.m3u8
-#EXTINF:-1 tvg-id="TV100.gr@SD" tvg-country="GR" tvg-name="TV 100" tvg-logo="https://i.imgur.com/OBH2DfE.png" group-title="General",TV 100 (720p)
+#EXTINF:-1 tvg-id="TV100.gr@SD" tvg-country="GR" tvg-name="TV 100" tvg-logo="https://i.imgur.com/OBH2DfE.png" group-title="General",TV 100 (Greece) (720p)
 https://gwebstream.net/hls/master.m3u8
