@@ -146,7 +146,7 @@ https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-country="ES" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="Music",XPTV1 (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f" tvg-country="ES" tvg-name="Buen Viaje" tvg-logo="https://i.ibb.co/VRP6BnZ/AMC-Living.png" group-title="Lifestyle",Buen Viaje
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=PFabBbyikZJ5CjyTp5Zd
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=comsExixfm3WyqBGAaV8
 #EXTINF:-1 tvg-id="Divinity.es" tvg-country="ES" tvg-name="Divinity" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Divinity.svg" group-title="Lifestyle",Divinity Ⓖ
 https://directos.divinity.es/orilinear04/live/linear04/main/main.isml/main-audio_spa=128000-video=1500000.m3u8
 #EXTINF:-1 tvg-id="IT12000029J" tvg-country="ES" tvg-name="Viaggi & Sapori" tvg-logo="https://provider-static.plex.tv/epg/cms/production/0a60d1de-0e20-4df9-aa1d-88a5610bac1b/Logo_Viaggi_Sapori_1500x1000_DarkBackground_-_Borja_M__ndez.png" group-title="Lifestyle",Viaggi & Sapori
@@ -210,6 +210,9 @@ https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8
 https://streaming.28kanala.eus/hls/z.m3u8
 #EXTINF:-1 tvg-id="101tvCadiz.es@SD" tvg-country="ES" tvg-name="101tv Cadiz" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General",101tv Cadiz (1080p)
 https://streaming101tv.es:19360/cadiz/cadiz.m3u8
+#EXTINF:-1 tvg-id="101tvSevilla.es@SD" tvg-country="ES" tvg-name="101tv Sevilla" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General" http-referrer="https://player.instantvideocloud.net/",101tv Sevilla
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta318.cdnmedia.tv/101weblive/smil:sevilla.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es" tvg-country="ES" tvg-name="Alcarria TV" tvg-logo="https://i.imgur.com/pzJAYan.png" group-title="General",Alcarria TV
 http://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" tvg-country="ES" tvg-name="Antena 3 Internacional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="General",Antena 3 Internacional (1080p)
@@ -234,8 +237,6 @@ https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
 https://videoserver.tmcreativos.com:19360/hkbpjryheu/hkbpjryheu.m3u8
 #EXTINF:-1 tvg-id="Canal25TV.es@SD" tvg-country="ES" tvg-name="Canal 25 TV" tvg-logo="https://i.imgur.com/p6YA5k0.png" group-title="General",Canal 25 TV (1080p)
 https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
-#EXTINF:-1 tvg-id="Canal33Madrid.es@SD" tvg-country="ES" tvg-name="Canal 33 Madrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg" group-title="General",Canal 33 Madrid
-https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2000.es@SD" tvg-country="ES" tvg-name="Canal 2000" tvg-logo="https://i.imgur.com/9RoBASf.png" group-title="General",Canal 2000 (720p)
 http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
 #EXTINF:-1 tvg-id="CanalDonana.es@SD" tvg-country="ES" tvg-name="Canal Donana" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="General",Canal Donana (720p)

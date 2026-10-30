@@ -59,7 +59,7 @@ https://tmf-nl-nl.fast.rakuten.tv/v1/master/0547f18649bd788bec7b67b746e47670f558
 #EXTINF:-1 tvg-id="XITE.nl@SD" tvg-country="NL" tvg-name="XITE" tvg-logo="https://i.imgur.com/jxuwGRi.png" group-title="Music",XITE (720p)
 https://xite-rakuten.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-688005bc015fe7e375a1a0aa" tvg-country="NL" tvg-name="XITE 60s & 70s Groove" tvg-logo="https://provider-static.plex.tv/epg/cms/production/8889551a-8796-41d0-b6b5-c7fad08fb62e/xite60s70sgroove_logo_WHT-_Arlette_FiranRDX.png" group-title="Music",XITE 60s & 70s Groove
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-688005bc015fe7e375a1a0aa/?X-Plex-Token=PFabBbyikZJ5CjyTp5Zd
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-688005bc015fe7e375a1a0aa/?X-Plex-Token=comsExixfm3WyqBGAaV8
 #EXTINF:-1 tvg-id="XITEHits.nl@NL" tvg-country="NL" tvg-name="XITE Hits" tvg-logo="https://i.imgur.com/N51Rp7E.png" group-title="Music",XITE Hits (1080p)
 https://d726x48n2pd5h.cloudfront.net/XITE_Hits.m3u8
 #EXTINF:-1 tvg-id="XITEJustChill.nl@US" tvg-country="NL" tvg-name="XITE Just Chill" tvg-logo="https://provider-static.plex.tv/epg/cms/production/927dd614-017d-49dd-9eb9-0ed79d09084e/xitejustchill_logo_light_-_Arlette_FiranRDX.png" group-title="Music",XITE Just Chill (1080p)
@@ -94,6 +94,8 @@ https://livestreaming.b67buv2.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&
 https://livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&keyframes=1&subtitles=live
 #EXTINF:-1 tvg-id="TweedeKamerWttewaallvanStoetwegenzaal.nl@SD" tvg-country="NL" tvg-name="Tweede Kamer: Wttewaall van Stoetwegenzaal" tvg-logo="https://i.imgur.com/X9fezZ8.png" group-title="Legislative",Tweede Kamer: Wttewaall van Stoetwegenzaal (1080p)
 https://livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
+#EXTINF:-1 tvg-id="BTLTV.nl@SD" tvg-country="NL" tvg-name="BTL TV" tvg-logo="https://yt3.googleusercontent.com/ytc/APkrFKZYgQTsDhkbaqmPRCPZIf0UgZqF1wa6aG2eo8ti=s176-c-k-c0x00ffffff-no-rj-mo" group-title="Religious",BTL TV (Netherlands) (720p)
+https://livecdn.live247stream.com/btl/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="1AlmereTV.nl@SD" tvg-country="NL" tvg-name="1AlmereTV" tvg-logo="https://i.imgur.com/XfkbTrU.png" group-title="General",1AlmereTV (720p)
 https://d3472rjicrodic.cloudfront.net/nlpo/clr-nlpo/709d5260/index.m3u8
 #EXTINF:-1 tvg-id="1TwenteTV.nl@SD" tvg-country="NL" tvg-name="1Twente TV" tvg-logo="https://i.imgur.com/ftiuNK3.png" group-title="General",1Twente TV (1080p)
@@ -132,8 +134,6 @@ https://ms7.mx-cd.net/tv/278-3414514/RTV_Lansingerland.smil/playlist.m3u8
 https://58c04fb1d143f.streamlock.net/loemedia/loemedia/playlist.m3u8
 #EXTINF:-1 tvg-id="LokaleOmroepZeewolde.nl@SD" tvg-country="NL" tvg-name="Lokale Omroep Zeewolde" tvg-logo="https://i.imgur.com/Dw4u9wT.png" group-title="General",Lokale Omroep Zeewolde (720p)
 https://5e2b3e3114872.streamlock.net:1443/lozlive/smil:lozlive/playlist.m3u8
-#EXTINF:-1 tvg-id="LONTV.nl@SD" tvg-country="NL" tvg-name="LON TV" tvg-logo="https://i.imgur.com/bH4XSGw.png" group-title="General",LON TV (720p)
-https://streamingserver02.omroepnuenen.nl/lon/lonweb/chunklist_w1463772894.m3u8
 #EXTINF:-1 tvg-id="MeerTV.nl@SD" tvg-country="NL" tvg-name="Meer TV" tvg-logo="https://i.imgur.com/p4TXVkE.png" group-title="General",Meer TV (720p)
 https://593aed234297b.streamlock.net/meervandaag/meervandaag/playlist.m3u8
 #EXTINF:-1 tvg-id="MerweTV.nl@SD" tvg-country="NL" tvg-name="MerweTV" tvg-logo="https://i.imgur.com/JjB7U1q.png" group-title="General",MerweTV (720p)

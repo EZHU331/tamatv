@@ -23,8 +23,6 @@ https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8
 http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-id="VIVETV.ar@HD" tvg-country="AR" tvg-name="VIVE TV" tvg-logo="https://raw.githubusercontent.com/vivetvargentina/vive-tv/main/Logo%20512x512-04.png" group-title="News",VIVE TV (1080p)
 https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
-#EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-country="AR" tvg-name="Canal Showsport" tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="Sports",Canal Showsport (720p)
-https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-country="AR" tvg-name="DeporTV" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="Sports",DeporTV (1080p)
 http://158.172.155.130:8000/play/a09y/index.m3u8
 #EXTINF:-1 tvg-id="ESPNPremium.ar@HD" tvg-country="AR" tvg-name="ESPN Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" group-title="Sports",ESPN Premium (Argentina) HD (1080p)
@@ -78,7 +76,7 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalUniversidad.ar@SD" tvg-country="AR" tvg-name="Canal Universidad" tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="Education",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
+#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-country="AR" tvg-name="Encuentro" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Culture",Encuentro (720p)
 http://138.59.227.20:8000/play/a05s/index.m3u8
@@ -146,8 +144,6 @@ https://stream.arcast.net:4443/gualeguay/gualeguay/playlist.m3u8
 https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8
 #EXTINF:-1 tvg-id="Canal2Misiones.ar@SD" tvg-country="AR" tvg-name="Canal 2 Misiones" tvg-logo="https://i.imgur.com/YqTNXDf.png" group-title="General",Canal 2 Misiones (1080p)
 https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
-#EXTINF:-1 tvg-id="Canal2NexTVRafaela.ar@SD" tvg-country="AR" tvg-name="Canal 2 NexTV Rafaela" tvg-logo="https://i.imgur.com/hgj3CaR.jpeg" group-title="General",Canal 2 NexTV Rafaela (720p)
-https://edge.enhdtv.com/nexthd/index.m3u8
 #EXTINF:-1 tvg-id="Canal3Formosa.ar@SD" tvg-country="AR" tvg-name="Canal 3 Formosa" tvg-logo="https://i.imgur.com/rVDrNIy.png" group-title="General",Canal 3 Formosa
 https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3LaPampa.ar@SD" tvg-country="AR" tvg-name="Canal 3 La Pampa" tvg-logo="https://i.imgur.com/SsNFudZ.png" group-title="General",Canal 3 La Pampa (1080p)
@@ -271,8 +267,10 @@ http://200.115.120.1:8000/play/ca016/index.m3u8
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
 #EXTINF:-1 tvg-id="TelefeTucuman.ar@SD" tvg-country="AR" tvg-name="Telefe Tucuman" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Telefe_Tucum%C3%A1n_%282018%29.png/960px-Telefe_Tucum%C3%A1n_%282018%29.png" group-title="General",Telefe Tucuman (1080p)
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-country="AR" tvg-name="Telemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="General",Telemax (Argentina)
+#EXTINF:-1 tvg-id="Telemax.ar" tvg-country="AR" tvg-name="Telemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="General",Telemax
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+#EXTINF:-1 tvg-id="Telenord.ar@SD" tvg-country="AR" tvg-name="Telenord" tvg-logo="https://i.imgur.com/yqXORkt.png" group-title="General",Telenord (Argentina) (1080p)
+http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesol.ar@SD" tvg-country="AR" tvg-name="Telesol" tvg-logo="https://i.imgur.com/79sTxtP.png" group-title="General",Telesol (1080p)
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCanal72.ar@SD" tvg-country="AR" tvg-name="TV Canal 72" tvg-logo="https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png" group-title="General",TV Canal 72
