@@ -127,6 +127,8 @@ http://45.162.64.114/AGRO_CANAL/index.m3u8
 https://video09.logicahost.com.br/bemmaistv01/bemmaistv01/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalEducacao.br@SD" tvg-country="BR" tvg-name="Canal Educacao" tvg-logo="https://i.imgur.com/OOB7nrS.png" group-title="Education",Canal Educacao (720p)
 http://45.162.64.114/CANAL_EDUCACAO/index.m3u8
+#EXTINF:-1 tvg-id="CanalFDR.br@SD" tvg-country="BR" tvg-name="Canal FDR" tvg-logo="https://i.imgur.com/7SE4CkE.png" group-title="Education",Canal FDR
+https://v-us-01.wisestream.io/memfs/e4ade538-7924-4359-81ef-b9d4dd229e91.m3u8
 #EXTINF:-1 tvg-id="CanalFutura.br@SD" tvg-country="BR" tvg-name="Canal Futura" tvg-logo="https://i.imgur.com/LgynEBC.png" group-title="Education",Canal Futura (720p)
 http://45.162.64.114/FUTURA/index.m3u8
 #EXTINF:-1 tvg-id="CanalSaude.br@SD" tvg-country="BR" tvg-name="Canal Saude" tvg-logo="https://i.imgur.com/ht4tUOc.png" group-title="Education",Canal Saude
@@ -181,6 +183,8 @@ https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8
 https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="DespertarTV.br@HD" tvg-country="BR" tvg-name="Despertar TV" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Religious",Despertar TV (720p)
 https://br.conectmy.com.br/DespertarTV/index.m3u8
+#EXTINF:-1 tvg-id="FonteTV.br@SD" tvg-country="BR" tvg-name="Fonte TV" tvg-logo="https://i.imgur.com/7q2BmNc.png" group-title="Religious",Fonte TV
+https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
 #EXTINF:-1 tvg-id="IMPDTVWorldwide.br@SD" tvg-country="BR" tvg-name="IMPD TV Worldwide" tvg-logo="https://i.imgur.com/9dW3AUQ.png" group-title="Religious" http-referrer="https://igrejamundial.nuvemplay.live",IMPD TV Worldwide (1080p)
 #EXTVLCOPT:http-referrer=https://igrejamundial.nuvemplay.live
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
@@ -395,8 +399,6 @@ https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
 https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEBahia.br@SD" tvg-country="BR" tvg-name="TVE Bahia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png" group-title="General",TVE Bahia (1080p)
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 tvg-id="TVitape.br@SD" tvg-country="BR" tvg-name="TVitape" tvg-logo="https://i.imgur.com/XeqcwKe.png" group-title="General",TVitape (720p)
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br@HD" tvg-country="BR" tvg-name="TVLatinaSat" tvg-logo="https://latinasat.com.br/logo.png" group-title="General",TVLatinaSat (720p)
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVMaticCrafts.br@SD" tvg-country="BR" tvg-name="TVMatic Crafts" tvg-logo="https://i.imgur.com/l5PBcKN.png" group-title="General",TVMatic Crafts (720p)

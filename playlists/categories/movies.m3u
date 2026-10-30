@@ -203,8 +203,6 @@ https://v2.catcast.tv/content/38128/index.m3u8
 http://158.172.217.18:8000/play/a00d/index.m3u8
 #EXTINF:-1 tvg-id="ColorsCineplex.in@HD" tvg-country="IN" tvg-name="Colors Cineplex" tvg-logo="https://dtil.tmsimg.com/assets/s158147_ld_h15_aa.png?lock=720x540" group-title="Movies",Colors Cineplex HD (1080p)
 http://103.151.60.162:2122/play/a02s/index.m3u8?hls
-#EXTINF:-1 tvg-id="CSFilm.cz" tvg-country="CZ" tvg-name="CS Film" tvg-logo="https://i.imgur.com/BAAuBB2.png" group-title="Movies",CS Film
-https://sktv.mxnticek.eu/new/stream.php?ch=CS%20Film
 #EXTINF:-1 tvg-id="CTBPerthMoviesChannel.au@SD" tvg-country="AU" tvg-name="CTB Perth Movies Channel" tvg-logo="https://i.imgur.com/VB8gtCy.jpeg" group-title="Movies",CTB Perth Movies Channel (720p)
 https://movies.ctbperth.net.au/hls/stream.m3u8
 #EXTINF:-1 tvg-id="DePeliculaLatinAmerica.mx@SD" tvg-country="MX" tvg-name="De Pelicula Latin America" tvg-logo="https://i.imgur.com/aksM8pa.png" group-title="Movies",De Pelicula Latin America (1080p)
@@ -339,30 +337,28 @@ http://stream.mcquack.net/363/index.m3u8
 http://31.148.48.15/MGM_HD/index.m3u8
 #EXTINF:-1 tvg-id="HorosheeKino.ru@SD" tvg-country="RU" tvg-name="Horoshee Kino" tvg-logo="https://i.imgur.com/ZbOqfy4.png" group-title="Movies",Horoshee Kino (720p)
 https://live-rian.cdnvideo.ru/rian/rus-radio/playlist.m3u8
+#EXTINF:-1 tvg-id="HTVCMovies.vn@SD" tvg-country="VN" tvg-name="HTVC Movies" tvg-logo="https://raw.githubusercontent.com/HaNoiIPTV/HaNoiIPTV.m3u/refs/heads/master/HTVC%20Phim%20HD.png" group-title="Movies",HTVC Movies (720p)
+https://dethich.pw/htvcphim/index.m3u8
 #EXTINF:-1 tvg-id="IFC.us@East" tvg-country="US" tvg-name="IFC" tvg-logo="https://i.imgur.com/bQdkyF9.png" group-title="Movies",IFC (1080p)
 http://23.237.104.106:8080/USA_IFC/index.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-5fc705eb052f6f002ef46057" tvg-country="US" tvg-name="IFC Films Picks" tvg-logo="https://i.imgur.com/Li36xwE.png" group-title="Movies",IFC Films Picks
 https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5fc705eb052f6f002ef46057/?X-Plex-Token=comsExixfm3WyqBGAaV8
-#EXTINF:-1 tvg-id="iFilmPersian.ir" tvg-country="IR" tvg-name="iFilm" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm
-https://live.presstv.co.uk/hls/ifilmfa.m3u8
-#EXTINF:-1 tvg-id="iFilm2.ir" tvg-country="IR" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="Movies",iFilm 2
+#EXTINF:-1 tvg-id="iFilm2.ir@SD" tvg-country="IR" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="Movies",iFilm 2
 https://live.presstv.co.uk/hls/ifilm2.m3u8
-#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-country="IR" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Arabic
+#EXTINF:-1 tvg-id="iFilmArabic.ir@SD" tvg-country="IR" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Arabic
 https://live.presstv.co.uk/hls/ifilmar.m3u8
-#EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-country="IR" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm English
+#EXTINF:-1 tvg-id="iFilmEnglish.ir@SD" tvg-country="IR" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm English
 https://live.presstv.co.uk/hls/ifilmen.m3u8
+#EXTINF:-1 tvg-id="iFilmPersian.ir@SD" tvg-country="IR" tvg-name="iFilm Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Persian
+https://live.presstv.co.uk/hls/ifilmfa.m3u8
 #EXTINF:-1 tvg-id="爱院线" tvg-name="爱院线" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/IHOT爱院线.png" group-title="Movies",iHOT 爱院线
 http://111.22.153.159:35455/itv/2000000004000000034.m3u8?cdn=hnbblive
 #EXTINF:-1 tvg-id="IPTV经典电影" tvg-name="IPTV经典电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/IPTV经典电影.png" group-title="Movies",IPTV经典电影
 http://43.138.0.72:35455/yy/1382754187
-#EXTINF:-1 tvg-id="Tamasha.ir" tvg-country="IR" tvg-name="IRIB Tamasha" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/960px-IRIB_tamashaTV.svg.png" group-title="Movies",IRIB Tamasha
-https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8
 #EXTINF:-1 tvg-id="ItageTV.ng" tvg-country="NG" tvg-name="Itage TV" tvg-logo="https://i.imgur.com/FP1aUPw.jpg" group-title="Movies",Itage TV
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_011/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="JalshaMovies.in@HD" tvg-country="IN" tvg-name="Jalsha Movies" tvg-logo="https://dtil.tmsimg.com/assets/s143219_ld_h15_aa.png?lock=720x540" group-title="Movies",Jalsha Movies HD (1080p)
 http://103.151.60.162:2122/play/a00x/index.m3u8?hls
-#EXTINF:-1 tvg-id="JojCinema.cz" tvg-country="SK" tvg-name="JOJ Cinema" tvg-logo="https://i.imgur.com/5Auduch.png" group-title="Movies",JOJ Cinema
-https://sktv.mxnticek.eu/new/stream.php?ch=JOJ%20Cinema
 #EXTINF:-1 tvg-id="KantipurMax.np@SD" tvg-country="NP" tvg-name="Kantipur Max" tvg-logo="https://i.ibb.co/KzQzd3Tw/kantipurmaxhd.png" group-title="Movies",Kantipur Max
 https://ktvhdsg.ekantipur.com:8443/ktvmax2025/match2/playlist.m3u8
 #EXTINF:-1 tvg-id="KCM.sg@India" tvg-country="SG" tvg-name="KCM" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/KCM.png" group-title="Movies",KCM India (1080p)
@@ -643,6 +639,8 @@ http://92.114.85.87:8003/play/a004/index.m3u8
 http://23.237.104.106:8080/USA_SYFY/index.m3u8
 #EXTINF:-1 tvg-id="T2Movies.ir@SD" tvg-country="IR" tvg-name="T2 Movies" group-title="Movies",T2 Movies
 https://ca-rt.onetv.app/T2Movies/index-0.m3u8?token=onetv202
+#EXTINF:-1 tvg-id="Tamasha.ir@SD" tvg-country="IR" tvg-name="Tamasha" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/f2/IRIB_tamashaTV.svg/960px-IRIB_tamashaTV.svg.png" group-title="Movies",Tamasha
+https://ncdn.telewebion.ir/hdtest/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TCM.us@East" tvg-country="US" tvg-name="TCM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/TCM_2021.svg/960px-TCM_2021.svg.png" group-title="Movies",TCM (720p)
 https://turnerlive.warnermediacdn.com/hls/live/2023186/tcmeast/noslate/VIDEO_1_5128000.m3u8
 #EXTINF:-1 tvg-id="TelecineAction.br@SD" tvg-country="BR" tvg-name="Telecine Action" tvg-logo="https://i.imgur.com/BHYWG0h.png" group-title="Movies",Telecine Action (1080p)
@@ -717,17 +715,17 @@ https://stream1.freetv.fun/dong-sen-chao-shi-7.ctv
 http://l.cztvcloud.com/channels/lantian/SXdongyang1/720p.m3u8
 #EXTINF:-1 tvg-id="豆瓣电影" tvg-name="豆瓣电影" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/豆瓣电影.png" group-title="Movies",中国电影频道
 https://live.tvfix.org/live/cmc/index.m3u8
-#EXTINF:-1 tvg-id="人在囧途" tvg-name="人在囧途" tvg-logo="https://tb.zbds.top/logo/人在囧途.png" group-title="Movies",人在囧途
+#EXTINF:-1 tvg-id="人在囧途" tvg-name="人在囧途" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",人在囧途
 https://vip.ffzy-play.com/20221018/1953_2d6ba500/index.m3u8
-#EXTINF:-1 tvg-id="人在囧途之泰囧" tvg-name="人在囧途之泰囧" tvg-logo="https://tb.zbds.top/logo/人在囧途之泰囧.png" group-title="Movies",人在囧途之泰囧
+#EXTINF:-1 tvg-id="人在囧途之泰囧" tvg-name="人在囧途之泰囧" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",人在囧途之泰囧
 https://vip.ffzy-play.com/20221018/1951_47e1adc8/index.m3u8
-#EXTINF:-1 tvg-id="人在囧途之港囧" tvg-name="人在囧途之港囧" tvg-logo="https://tb.zbds.top/logo/人在囧途之港囧.png" group-title="Movies",人在囧途之港囧
+#EXTINF:-1 tvg-id="人在囧途之港囧" tvg-name="人在囧途之港囧" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",人在囧途之港囧
 https://vip.ffzy-play7.com/20230112/11082_fde1a94d/index.m3u8
-#EXTINF:-1 tvg-id="倩女幽魂人间道" tvg-name="倩女幽魂人间道" tvg-logo="https://tb.zbds.top/logo/倩女幽魂人间道.png" group-title="Movies",倩女幽魂人间道
+#EXTINF:-1 tvg-id="倩女幽魂人间道" tvg-name="倩女幽魂人间道" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",倩女幽魂人间道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5250634317044855747_hlsb.m3u8
-#EXTINF:-1 tvg-id="倩女幽魂妖魔道" tvg-name="倩女幽魂妖魔道" tvg-logo="https://tb.zbds.top/logo/倩女幽魂妖魔道.png" group-title="Movies",倩女幽魂妖魔道
+#EXTINF:-1 tvg-id="倩女幽魂妖魔道" tvg-name="倩女幽魂妖魔道" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",倩女幽魂妖魔道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5232901391302199073_hlsb.m3u8
-#EXTINF:-1 tvg-id="倩女幽魂道道道" tvg-name="倩女幽魂道道道" tvg-logo="https://tb.zbds.top/logo/倩女幽魂道道道.png" group-title="Movies",倩女幽魂道道道
+#EXTINF:-1 tvg-id="倩女幽魂道道道" tvg-name="倩女幽魂道道道" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",倩女幽魂道道道
 http://jsmov2.a.yximgs.com/bs3/video-hls/5216294367991385255_hlsb.m3u8
 #EXTINF:-1 tvg-id="冰冰影剧" tvg-name="冰冰影剧" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/斗鱼.png" group-title="Movies",冰冰影剧
 http://www.goodiptv.club/douyu/74374
@@ -751,7 +749,7 @@ https://live.metshop.top/huya/29982675
 http://www.goodiptv.club/douyu/2793084
 #EXTINF:-1 tvg-id="周星驰电影" tvg-name="周星驰电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",周星驰电影
 https://live.metshop.top/huya/11342412
-#EXTINF:-1 tvg-id="哈尔滨影视" tvg-name="哈尔滨影视" tvg-logo="https://tb.zbds.top/logo/哈尔滨影视.png" group-title="Movies",哈尔滨影视
+#EXTINF:-1 tvg-id="哈尔滨影视" tvg-name="哈尔滨影视" tvg-logo="https://live.fanmingming.cn/tv/哈尔滨影视.png" group-title="Movies",哈尔滨影视
 http://stream.hrbtv.net/yspd/sd/live.m3u8?zheild
 #EXTINF:-1 tvg-id="四川影视文艺" tvg-name="四川影视文艺" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/sichuan/Sichuan4.png" group-title="Movies",四川影视文艺
 http://wouu.net:9977/udp/239.93.0.166:5140
@@ -759,7 +757,7 @@ http://wouu.net:9977/udp/239.93.0.166:5140
 https://hls-gateway.vpstv.net/streams/709488.m3u8
 #EXTINF:-1 tvg-id="宇宙科幻合集" tvg-name="宇宙科幻合集" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",宇宙科幻合集
 https://live.metshop.top/huya/11342428
-#EXTINF:-1 tvg-id="寒战" tvg-name="寒战" tvg-logo="https://tb.zbds.top/logo/寒战.png" group-title="Movies",寒战
+#EXTINF:-1 tvg-id="寒战" tvg-name="寒战" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",寒战
 https://vip.ffzy-play6.com/20221019/157_bf0740ee/index.m3u8
 #EXTINF:-1 tvg-id="小鬼华语影院" tvg-name="小鬼华语影院" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",小鬼华语影院
 http://tc-tct.douyucdn2.cn/dyliveflv1a/3928r9p0BHMDG_2000.xs?wsAuth=3c48b706fe90d736d90b5622adfc09d2&token=web-h5-0-3928-15d95fcfde11a749199abfc5ac7bdee6727c6402febadfb8&logo=0&expire=0&did=24482b48b98804f2b0a5b17400041701
@@ -775,17 +773,17 @@ https://live.metshop.top/huya/21059581
 https://live.metshop.top/huya/21059577
 #EXTINF:-1 tvg-id="成龙电影" tvg-name="成龙电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",成龙电影
 https://live.metshop.top/huya/11342386
-#EXTINF:-1 tvg-id="我不是药神" tvg-name="我不是药神" tvg-logo="https://tb.zbds.top/logo/我不是药神.png" group-title="Movies",我不是药神
+#EXTINF:-1 tvg-id="我不是药神" tvg-name="我不是药神" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",我不是药神
 https://vip.ffzy-play1.com/20221018/478_c3afed66/index.m3u8
 #EXTINF:-1 tvg-id="战争电影" tvg-name="战争电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",战争电影
 https://live.metshop.top/huya/21059574
-#EXTINF:-1 tvg-id="拆弹专家1" tvg-name="拆弹专家1" tvg-logo="https://tb.zbds.top/logo/拆弹专家1.png" group-title="Movies",拆弹专家1
+#EXTINF:-1 tvg-id="拆弹专家1" tvg-name="拆弹专家1" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",拆弹专家1
 https://vip.ffzy-online.com/20221015/719_80ff87c2/index.m3u8
-#EXTINF:-1 tvg-id="拆弹专家2" tvg-name="拆弹专家2" tvg-logo="https://tb.zbds.top/logo/拆弹专家2.png" group-title="Movies",拆弹专家2
+#EXTINF:-1 tvg-id="拆弹专家2" tvg-name="拆弹专家2" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",拆弹专家2
 https://vip.ffzy-online.com/20221015/722_e32c42bc/index.m3u8
 #EXTINF:-1 tvg-id="斗鱼港剧" tvg-name="斗鱼港剧" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/斗鱼.png" group-title="Movies",斗鱼港剧
 http://www.goodiptv.club/douyu/5061550
-#EXTINF:-1 tvg-id="新昌休闲影视" tvg-name="新昌休闲影视" tvg-logo="https://live.fanmingming.com/tv/%E6%96%B0%E6%98%8C%E4%BC%91%E9%97%B2%E5%BD%B1%E8%A7%86.png" group-title="Movies",新昌休闲影视 (1080p)
+#EXTINF:-1 tvg-id="新昌休闲影视_(1080p)_[Not_24/7]" tvg-name="新昌休闲影视_ _[Not_24/7]" tvg-logo="https://live.fanmingming.com/tv/%E6%96%B0%E6%98%8C%E4%BC%91%E9%97%B2%E5%BD%B1%E8%A7%86_%281080p%29_%5BNot_24/7%5D.png" group-title="Movies",新昌休闲影视_ _[Not_24/7] (1080p)
 https://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8
 #EXTINF:-1 tvg-id="末日电影合集" tvg-name="末日电影合集" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",末日电影合集
 https://live.ottiptv.cc/yy/1354889019
@@ -807,7 +805,7 @@ https://live.metshop.top/huya/11342427
 https://live.metshop.top/huya/11601968
 #EXTINF:-1 tvg-id="河北影视" tvg-name="河北影视" tvg-logo="https://live.fanmingming.cn/tv/河北影视.png" group-title="Movies",河北影视
 http://1.94.31.214/php/hebei.php?id=hbys
-#EXTINF:-1 tvg-id="浙江 Ⅰ 绍兴影视" tvg-name="浙江 Ⅰ 绍兴影视" tvg-logo="https://live.fanmingming.com/tv/%E6%B5%99%E6%B1%9F%20%E2%85%A0%20%E7%BB%8D%E5%85%B4%E5%BD%B1%E8%A7%86.png" group-title="Movies",浙江 Ⅰ 绍兴影视 (720p)
+#EXTINF:-1 tvg-id="浙江_Ⅰ_绍兴影视_(720p)" tvg-name="浙江_Ⅰ_绍兴影视_" tvg-logo="https://live.fanmingming.com/tv/%E6%B5%99%E6%B1%9F_%E2%85%A0_%E7%BB%8D%E5%85%B4%E5%BD%B1%E8%A7%86_%28720p%29.png" group-title="Movies",浙江_Ⅰ_绍兴影视_ (720p)
 http://live.shaoxing.com.cn/video/s10001-sxtv3/index.m3u8
 #EXTINF:-1 tvg-id="淘电影" tvg-name="淘电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/淘电影.png" group-title="Movies",淘电影
 https://stream1.freetv.fun/tao-dian-ying-8.ctv
@@ -831,11 +829,11 @@ https://live.metshop.top/huya/11602058
 https://live.metshop.top/huya/11352935
 #EXTINF:-1 tvg-id="GS05" tvg-name="甘肃文化影视" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gansu/Gansu3.png" group-title="Movies",甘肃文化影视
 https://hls.gstv.com.cn/49048r/w1l6d5.m3u8
-#EXTINF:-1 tvg-id="电影" tvg-name="电影" tvg-logo="https://live.fanmingming.com/tv/%E7%94%B5%E5%BD%B1.png" group-title="Movies",电影 (1080p)
+#EXTINF:-1 tvg-id="高清电影_(1080p)" tvg-name="电影_" tvg-logo="https://live.fanmingming.com/tv/%E9%AB%98%E6%B8%85%E7%94%B5%E5%BD%B1_%281080p%29.png" group-title="Movies",电影_ (1080p)
 http://39.134.19.76/dbiptv.sn.chinamobile.com/PLTV/88888888/224/3221226463/index.m3u8
 #EXTINF:-1 tvg-id="神乐华语影院" tvg-name="神乐华语影院" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",神乐华语影院
 http://tc-tct.douyucdn2.cn/dyliveflv1a/85894rmovieChow_4000.xs?wsAuth=ba1c90644d5727f7eff2d821807aceb6&token=web-h5-90270207-85894-853ec75fcb0c6ecaca17aa65580152fde64a0f1c44c269f0&logo=0&expire=0&did=d1bae13724faf6e93becdd6000021601&origin=hw
-#EXTINF:-1 tvg-id="精品电影" tvg-name="精品电影" tvg-logo="https://live.fanmingming.com/tv/%E7%B2%BE%E5%93%81%E7%94%B5%E5%BD%B1.png" group-title="Movies",精品电影 (1080p)
+#EXTINF:-1 tvg-id="精品电影_(1080p)" tvg-name="精品电影_" tvg-logo="https://live.fanmingming.com/tv/%E7%B2%BE%E5%93%81%E7%94%B5%E5%BD%B1_%281080p%29.png" group-title="Movies",精品电影_ (1080p)
 http://183.207.248.71/cntv/live1/jdianying/jdianying
 #EXTINF:-1 tvg-id="精彩影视" tvg-name="精彩影视" tvg-logo="https://epg.iill.top/logo/精彩影视.png" group-title="Movies",精彩影视
 http://home.wwang.pw:35455/itv/6000000006000320630.m3u8?cdn=wasusyt
@@ -851,7 +849,7 @@ https://live.metshop.top/huya/11352962
 https://live.tvfix.org/live/mydy/index.m3u8
 #EXTINF:-1 tvg-id="蓝翔华语影院" tvg-name="蓝翔华语影院" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",蓝翔华语影院
 http://tc-tct.douyucdn2.cn/dyliveflv1a/276200rR0hxzxiSE_2000.xs?wsAuth=c730a6bd353acb1cece18da714cad1ed&token=web-h5-90270207-276200-cc6734cdfb126f8dfd0af3f748a120f583360a45720d9797&logo=0&expire=0&did=d1bae13724faf6e93becdd6000021601&origin=hw
-#EXTINF:-1 tvg-id="让子弹飞" tvg-name="让子弹飞" tvg-logo="https://tb.zbds.top/logo/让子弹飞.png" group-title="Movies",让子弹飞
+#EXTINF:-1 tvg-id="让子弹飞" tvg-name="让子弹飞" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",让子弹飞
 https://vip.ffzy-play7.com/20230116/11563_b9f44814/index.m3u8
 #EXTINF:-1 tvg-id="谍战电影" tvg-name="谍战电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",谍战电影
 https://live.metshop.top/huya/21059585
@@ -875,10 +873,6 @@ https://live.metshop.top/huya/11342435
 https://epg.pw/stream/318a64a14fc9f1b992a21c72c71cfd4a89394cc5c5223234aa15277077764e2b.m3u8
 #EXTINF:-1 tvg-id="靖天映画" tvg-name="靖天映画" tvg-logo="https://www.xn--rgv465a.top/tvlogo/靖天映画.png" group-title="Movies",靖天映画
 https://hls-gateway.vpstv.net/streams/476302.m3u8
-#EXTINF:-1 tvg-id="韩国电影1" tvg-name="韩国电影1" tvg-logo="https://tb.zbds.top/logo/韩国电影1.png" group-title="Movies",韩国电影1
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
-#EXTINF:-1 tvg-id="韩国电影2" tvg-name="韩国电影2" tvg-logo="https://tb.zbds.top/logo/韩国电影2.png" group-title="Movies",韩国电影2
-https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
 #EXTINF:-1 tvg-id="黄渤电影" tvg-name="黄渤电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="Movies",黄渤电影
 https://live.metshop.top/huya/11352876
 #EXTINF:-1 tvg-id="黑莓电影" tvg-name="黑莓电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/黑莓电影.png" group-title="Movies",黑莓电影
@@ -887,5 +881,5 @@ https://epg.pw/stream/ffcb6572863f0745a7369fbd9d901f1dfd0ab8fab8bad8bebb4e01c90b
 https://stream1.freetv.fun/hei-long-jiang-ying-shi-1.m3u8
 #EXTINF:-1 tvg-id="龙祥电影" tvg-name="龙祥电影" tvg-logo="https://www.xn--rgv465a.top/tvlogo/龙祥电影.png" group-title="Movies",龙祥电影
 http://31.43.191.125:8080/vip6821768502490/6c17bae55394/34825
-#EXTINF:-1 tvg-id="龙门飞甲" tvg-name="龙门飞甲" tvg-logo="https://tb.zbds.top/logo/龙门飞甲.png" group-title="Movies",龙门飞甲
+#EXTINF:-1 tvg-id="龙门飞甲" tvg-name="龙门飞甲" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/img/电影.png" group-title="Movies",龙门飞甲
 http://jsmov2.a.yximgs.com/bs3/video-hls/5203346449046555193_hlsb.m3u8
