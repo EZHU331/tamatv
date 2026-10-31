@@ -11,8 +11,6 @@ http://190.93.224.42/EXITOSA/index.m3u8
 https://dai.google.com/linear/hls/event/oYQGDqEGTmGdHE_fz9oLlg/master.m3u8
 #EXTINF:-1 tvg-id="PBO.pe@SD" tvg-country="PE" tvg-name="PBO" tvg-logo="https://i.imgur.com/vBpxX4S.png" group-title="News",PBO (1080p)
 http://190.93.224.42/PBO/index.m3u8
-#EXTINF:-1 tvg-id="QosqoTimes.pe@SD" tvg-country="PE" tvg-name="Qosqo Times" tvg-logo="https://i.imgur.com/oWJauwQ.png" group-title="News",Qosqo Times (720p)
-https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioUnoTacna.pe@SD" tvg-country="PE" tvg-name="Radio Uno Tacna" tvg-logo="https://i.imgur.com/PswowQP.png" group-title="News",Radio Uno Tacna (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/radiounotv/playlist.m3u8
 #EXTINF:-1 tvg-id="RPPTV.pe@SD" tvg-country="PE" tvg-name="RPP TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/36/RPP_logo.png" group-title="News",RPP TV (1080p)
@@ -55,6 +53,8 @@ https://www.opencaster.com/resources/hls_stream/cultura24.m3u8
 http://187.102.210.46/USMP/index.m3u8
 #EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-country="PE" tvg-name="Folklore TV" tvg-logo="https://i.imgur.com/QdOGJes.png" group-title="Music",Folklore TV (720p)
 https://play.folkloretv.pe/StreamSD/index.m3u8
+#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" tvg-country="PE" tvg-name="Galactica TV" tvg-logo="https://i.imgur.com/byL1zCV.jpeg" group-title="Music",Galactica TV
+https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
 #EXTINF:-1 tvg-id="Karibena.pe@SD" tvg-country="PE" tvg-name="Karibena" tvg-logo="https://i.imgur.com/cgHjg1e.png" group-title="Music",Karibena (720p)
 http://187.102.210.46/KARIBENA/index.m3u8
 #EXTINF:-1 tvg-id="LaFabulosaTV.pe@SD" tvg-country="PE" tvg-name="La Fabulosa TV" tvg-logo="https://i.imgur.com/GjME5H0.png" group-title="Music",La Fabulosa TV (720p)
@@ -65,6 +65,8 @@ https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/play
 https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Millenium109FM.pe@SD" tvg-country="PE" tvg-name="Millenium 109 FM" tvg-logo="https://i.imgur.com/sfNL6Bv.png" group-title="Music",Millenium 109 FM
 https://videoserver.tmcreativos.com:19360/nqvnhujhrx/nqvnhujhrx.m3u8
+#EXTINF:-1 tvg-id="RadioChalaca.pe@SD" tvg-country="PE" tvg-name="Radio Chalaca" tvg-logo="https://i.imgur.com/9A6DBG7.png" group-title="Music",Radio Chalaca
+https://servilive.com:3414/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="RadioMaster.pe@HD" tvg-country="PE" tvg-name="Radio Master" tvg-logo="https://i.imgur.com/AUoxyzP.png" group-title="Music",Radio Master (720p)
 https://videoserver.tmcreativos.com:19360/radiomaster/radiomaster.m3u8
 #EXTINF:-1 tvg-id="RadioOndaDigital.pe@SD" tvg-country="PE" tvg-name="Radio Onda Digital" tvg-logo="https://i.imgur.com/Lid5RTv.png" group-title="Music",Radio Onda Digital (1080p)
@@ -95,6 +97,8 @@ https://alfa.betheltv.tv/srt/3_abr/playlist.m3u8
 http://187.102.210.46/IPE/index.m3u8
 #EXTINF:-1 tvg-id="36TVHuacho.pe@SD" tvg-country="PE" tvg-name="36 TV Huacho" tvg-logo="https://i.imgur.com/F4NZM3s.jpeg" group-title="General",36 TV Huacho (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCTeleshow.pe@SD" tvg-country="PE" tvg-name="ABC Teleshow" tvg-logo="https://i.imgur.com/cF7gJ2Q.jpeg" group-title="General",ABC Teleshow (720p)
+https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABTelevision.pe@SD" tvg-country="PE" tvg-name="ABTelevision" tvg-logo="https://i.imgur.com/tqMDscD.png" group-title="General",ABTelevision (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AmazoniaTV.pe@SD" tvg-country="PE" tvg-name="Amazonia TV" tvg-logo="https://i.imgur.com/sSW7d8e.png" group-title="General",Amazonia TV
@@ -105,6 +109,8 @@ https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8
 http://190.93.224.42/AMERICA-TV/index.m3u8
 #EXTINF:-1 tvg-id="AntenaSUR.pe@SD" tvg-country="PE" tvg-name="Antena SUR" tvg-logo="https://i.imgur.com/4aHrD2l.jpeg" group-title="General",Antena SUR (720p)
 https://cloudpro.servidoresdestream.com:8081/8010/index.m3u8
+#EXTINF:-1 tvg-id="AtlantisRadioTV.pe@SD" tvg-country="PE" tvg-name="Atlantis Radio TV" tvg-logo="https://i.imgur.com/1eB9roP.png" group-title="General",Atlantis Radio TV (720p)
+https://live-evg8.tv360.bitel.com.pe/bitel/atlantisSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ATV.pe@SD" tvg-country="PE" tvg-name="ATV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/ATV_Peru_2025.svg/1920px-ATV_Peru_2025.svg.png" group-title="General",ATV (Peru) (1080p)
 http://190.93.224.42/ATV/index.m3u8
 #EXTINF:-1 tvg-id="ATVSur.pe@SD" tvg-country="PE" tvg-name="ATV Sur" tvg-logo="https://i.imgur.com/LnyVa5H.png" group-title="General",ATV Sur (1080p)
@@ -131,6 +137,8 @@ https://live-evg7.tv360.bitel.com.pe/bitel/casmatvSRT-TRA/playlist.m3u8
 https://live-evg10.tv360.bitel.com.pe/bitel/charapatvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="CRTelevision.pe@SD" tvg-country="PE" tvg-name="CR Television" tvg-logo="https://i.imgur.com/oxycMeA.png" group-title="General",CR Television (720p)
 https://live.obslivestream.com/crtvmux/index.m3u8
+#EXTINF:-1 tvg-id="CVNTV.pe@SD" tvg-country="PE" tvg-name="CVN TV" tvg-logo="https://i.imgur.com/QF5VUcy.png" group-title="General",CVN TV
+https://7.innovatestream.pe:19360/cvntumbes/cvntumbes.m3u8
 #EXTINF:-1 tvg-id="DacTV.pe@SD" tvg-country="PE" tvg-name="Dac TV" tvg-logo="https://i.imgur.com/g4pZ3ZW.jpeg" group-title="General",Dac TV (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/dactvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="DeltaTV.pe@SD" tvg-country="PE" tvg-name="DeltaTV" tvg-logo="https://i.imgur.com/crttwAR.png" group-title="General",DeltaTV
@@ -199,14 +207,14 @@ https://live.obslivestream.com/tvoriente/index.m3u8
 https://live-evg10.tv360.bitel.com.pe/bitel/realtv/playlist.m3u8
 #EXTINF:-1 tvg-id="RegionTVCallao.pe@SD" tvg-country="PE" tvg-name="Region TV Callao" tvg-logo="https://i.imgur.com/I4grcqk.png" group-title="General",Region TV Callao (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/regiontvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="RNTelevision.pe@SD" tvg-country="PE" tvg-name="RN Television" tvg-logo="https://i.imgur.com/oFGiW7u.png" group-title="General",RN Television (720p)
-https://videoserver.tmcreativos.com:19360/rnyurimaguas/rnyurimaguas.m3u8
 #EXTINF:-1 tvg-id="RTP.pe@SD" tvg-country="PE" tvg-name="RTP" tvg-logo="https://i.imgur.com/nHMqAHn.jpeg" group-title="General",RTP (Peru) (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/rtp/playlist.m3u8
 #EXTINF:-1 tvg-id="RumboMineroTV.pe@SD" tvg-country="PE" tvg-name="Rumbo Minero TV" tvg-logo="https://www.rumbominero.com/wp-content/uploads/2021/05/logo_RM_AM_2.png" group-title="General",Rumbo Minero TV (1080p)
 http://45.70.201.81:8000/play/a018/index.m3u8
 #EXTINF:-1 tvg-id="SiscomTV.pe@SD" tvg-country="PE" tvg-name="Siscom TV" tvg-logo="https://i.imgur.com/0JUlFZ4.png" group-title="General",Siscom TV
 https://video2.lhdserver.es/siscomtv/live.m3u8
+#EXTINF:-1 tvg-id="SolarTelevision.pe@SD" tvg-country="PE" tvg-name="Solar Television" tvg-logo="https://i.imgur.com/ufnWpUf.png" group-title="General",Solar Television (720p)
+https://live-evg11.tv360.bitel.com.pe/bitel/solartvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="SolTV.pe@SD" tvg-country="PE" tvg-name="SolTV" tvg-logo="https://i.imgur.com/GtNkuAc.png" group-title="General",SolTV (Peru)
 https://5790d294af2dc.streamlock.net:443/streamtv/streamtv/playlist.m3u8
 #EXTINF:-1 tvg-id="StudioPascoTV.pe@SD" tvg-country="PE" tvg-name="Studio Pasco TV" tvg-logo="https://i.imgur.com/zgyNuVE.jpeg" group-title="General",Studio Pasco TV (720p)
@@ -215,6 +223,8 @@ https://live-evg7.tv360.bitel.com.pe/bitel/studiopasco/playlist.m3u8
 https://live.obslivestream.com/telecolormux/index.m3u8
 #EXTINF:-1 tvg-id="Teleselva.pe@SD" tvg-country="PE" tvg-name="Teleselva" tvg-logo="https://i.imgur.com/cu7hTn8.png" group-title="General",Teleselva (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/teleselva/playlist.m3u8
+#EXTINF:-1 tvg-id="TelesystemTV.pe@SD" tvg-country="PE" tvg-name="Telesystem TV" tvg-logo="https://i.imgur.com/CI4CNgL.jpeg" group-title="General",Telesystem TV (720p)
+https://live-evg5.tv360.bitel.com.pe/bitel/telesystemSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TelevisionTarapoto.pe@SD" tvg-country="PE" tvg-name="Television Tarapoto" tvg-logo="https://i.imgur.com/Dzen7sh.png" group-title="General",Television Tarapoto (720p)
 https://live-evg11.tv360.bitel.com.pe/bitel/tvtarapotoSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TeveEmpresa.pe@SD" tvg-country="PE" tvg-name="Teve Empresa" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/04/07/02/1775503150878/c34840061c94_480_270.png" group-title="General",Teve Empresa (720p)
@@ -227,6 +237,8 @@ http://190.93.224.42/TRIVU-TV/index.m3u8
 https://s2.tvdatta.com:3687/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="TVCosmos.pe@SD" tvg-country="PE" tvg-name="TV Cosmos" tvg-logo="https://i.imgur.com/nr4ctt4.png" group-title="General",TV Cosmos (720p)
 https://videoserver.tmcreativos.com:19360/tvcosmos/tvcosmos.m3u8
+#EXTINF:-1 tvg-id="TVMAR.pe@SD" tvg-country="PE" tvg-name="TV MAR" tvg-logo="https://i.imgur.com/VXvbNjT.png" group-title="General",TV MAR (720p)
+https://live-evg11.tv360.bitel.com.pe/bitel/tvmarSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMAX.pe@SD" tvg-country="PE" tvg-name="TV MAX" tvg-logo="https://i.imgur.com/JFBpDJ1.jpeg" group-title="General",TV MAX (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/nexSRT_TRA/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNorteChiclayo.pe@SD" tvg-country="PE" tvg-name="TV Norte Chiclayo" tvg-logo="https://i.imgur.com/0fg6m2L.png" group-title="General",TV Norte Chiclayo (720p)
@@ -245,8 +257,6 @@ https://live-evg11.tv360.bitel.com.pe/bitel/unicentroSRT/playlist.m3u8
 https://play.agenciastreaming.com:8081/uniteltv/index.m3u8
 #EXTINF:-1 tvg-id="UniversitariaTV.pe@SD" tvg-country="PE" tvg-name="Universitaria TV" tvg-logo="https://i.imgur.com/OcDimHX.png" group-title="General",Universitaria TV (720p)
 https://live-evg11.tv360.bitel.com.pe/bitel/uraniotv/playlist.m3u8
-#EXTINF:-1 tvg-id="UranioTV.pe@SD" tvg-country="PE" tvg-name="Uranio TV" tvg-logo="https://i.imgur.com/EeNpfIr.png" group-title="General",Uranio TV (720p)
-https://live-evg8.tv360.bitel.com.pe/bitel/uranioyurimaguasSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ViaAltomayo.pe@SD" tvg-country="PE" tvg-name="Via Altomayo" tvg-logo="https://i.imgur.com/aJ4XExn.png" group-title="General",Via Altomayo (720p)
 https://live.obslivestream.com/viaaltomayomux/index.m3u8
 #EXTINF:-1 tvg-id="ViaTelevision.pe@SD" tvg-country="PE" tvg-name="Via Television" tvg-logo="https://i.imgur.com/FiptbGQ.png" group-title="General",Via Television
@@ -263,9 +273,5 @@ https://live-evg11.tv360.bitel.com.pe/bitel/wayratv/playlist.m3u8
 http://190.93.224.42/WILLAX/index.m3u8
 #EXTINF:-1 tvg-id="Wtv.pe@SD" tvg-country="PE" tvg-name="Wtv" tvg-logo="https://i.imgur.com/V10iVeh.png" group-title="General",Wtv (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/ncanalSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="YurimaguasTV.pe@SD" tvg-country="PE" tvg-name="Yurimaguas TV" tvg-logo="https://i.imgur.com/VWC6Pt1.png" group-title="General",Yurimaguas TV (720p)
-https://live-evg7.tv360.bitel.com.pe/bitel/yurimaguastvSRT/playlist.m3u8
-#EXTINF:-1 tvg-id="Yurivision.pe@SD" tvg-country="PE" tvg-name="Yurivision" tvg-logo="https://i.imgur.com/VhWuaER.jpeg" group-title="General",Yurivision (720p)
-https://live-evg5.tv360.bitel.com.pe/bitel/yurivisionSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ZeleveTV.pe@SD" tvg-country="PE" tvg-name="Zeleve TV" tvg-logo="https://i.imgur.com/CGWaunJ.jpeg" group-title="General",Zeleve TV (720p)
 https://live-evg11.tv360.bitel.com.pe/bitel/zeleve/playlist.m3u8

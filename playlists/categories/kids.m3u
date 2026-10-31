@@ -11,7 +11,7 @@ https://epg.pw/stream/3db55b1054c684fb8a548a10a0d6cb7855c453b8786c8716dbb2c27c91
 https://epg.pw/stream/063f86620cbc5947dba09359a7e98b196ab92dfdcbb2c725b247793d4e48c506.ctv
 #EXTINF:-1 tvg-id="GuangdongChildrensChannel.cn" tvg-country="CN" tvg-name="广东少儿" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRr6XcXfM0_VXiN4QKCzSjR1Or1mr789o88IA&usqp=CAU" group-title="Kids",[BD]广东少儿 (720p)
 https://stream1.freetv.fun/9f3e33c6a37116c66b6d9630d2811d1cd233a02c2aedd96130ceb94323d70411.ctv
-#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530221145480622_53.jpg" group-title="Kids",[BD]浙江少儿
+#EXTINF:-1 tvg-id="[BD]浙江少儿" tvg-name="[BD]浙江少儿" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E6%B5%99%E6%B1%9F%E5%B0%91%E5%84%BF.png" group-title="Kids",[BD]浙江少儿
 https://epg.pw/stream/61763493836696939da31f5856221e08038a6e814dc1fe983cd0d335b284104e.m3u8
 #EXTINF:-1 tvg-id="[VGA]嘉佳卡通" tvg-name="[VGA]嘉佳卡通" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E5%98%89%E4%BD%B3%E5%8D%A1%E9%80%9A.png" group-title="Kids",[VGA]嘉佳卡通
 https://stream1.freetv.fun/40ac1ef17a23871d6aa0baf4a5059ac120263db6dcce85ed04b0156fbdba8cda.ctv
@@ -67,6 +67,8 @@ https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6164a963766a
 http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/canalinfantil/playlist.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru@SD" tvg-country="RU" tvg-name="Carousel" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="Kids",Carousel (1080p)
 http://31.148.48.15/Karusel_HD/index.m3u8
+#EXTINF:-1 tvg-id="CartoonClassics.pl@FAST" tvg-country="PL" tvg-name="Cartoon Classics" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/3227c06e-333b-4b1b-b657-3e3ab99ebd06-width200-quality90.jpeg" group-title="Kids",Cartoon Classics (Poland)
+https://daiconnect.com/live/hls/tvup/rk-cartoonclassics/578f4b7eb725168349ec0af81b21d388/index.m3u8
 #EXTINF:-1 tvg-id="CartoonClassics.ru@SD" tvg-country="RU" tvg-name="Cartoon Classics" tvg-logo="https://sales.planbkino.tv//b/c/471.png" group-title="Kids",Cartoon Classics (Russia)
 http://88.218.242.237:8001/Cartoon_Classics
 #EXTINF:-1 tvg-id="CartoonNetwork.in@SD" tvg-country="IN" tvg-name="Cartoon Network" tvg-logo="https://dtil.tmsimg.com/assets/s157576_ld_h15_aa.png?lock=720x540" group-title="Kids",Cartoon Network (India) (720p)
@@ -229,6 +231,8 @@ https://dltiqboxjw21d.cloudfront.net/index.m3u8
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 #EXTINF:-1 tvg-id="MNetKids.mk@SD" tvg-country="MK" tvg-name="M-Net Kids" tvg-logo="https://i.imgur.com/SbKkpuH.png" group-title="Kids",M-Net Kids (720p)
 http://ares.mnet.mk/hls/mnet-kids.m3u8
+#EXTINF:-1 tvg-id="608049aefa2b8ae93c2c3a63-69a526053eb39481c7edd563" tvg-country="CY" tvg-name="Masha y el Oso" tvg-logo="https://i.imgur.com/YB2LEk4.png" group-title="Kids",Masha y el Oso
+https://epg.provider.plex.tv/library/parts/608049aefa2b8ae93c2c3a63-69a526053eb39481c7edd563/?X-Plex-Token=QViL9g3DxHhoMhf6Gu5-
 #EXTINF:-1 tvg-id="MBC3USA.us@SD" tvg-country="US" tvg-name="MBC 3 USA" tvg-logo="https://i.imgur.com/PVt8OPN.png" group-title="Kids",MBC 3 USA (1080p)
 https://shd-gcp-live.edgenextcdn.net/live/bitmovin-mbc-3-usa/5d58265a862a476dc7f97694addb5ded/index.m3u8
 #EXTINF:-1 tvg-id="MCN6MusicChannel.us@SD" tvg-country="US" tvg-name="MCN6 Music Channel" tvg-logo="https://i.imgur.com/j6IiysJ.png" group-title="Kids",MCN6 Music Channel (1080p)
@@ -391,8 +395,6 @@ https://restreamer1.tnt.ba/hls/tntkids.m3u8
 https://live20.bozztv.com/giatvplayout7/giatv-208314/playlist.m3u8
 #EXTINF:-1 tvg-id="Tooku.ru@SD" tvg-country="RU" tvg-name="Tooku" tvg-logo="https://tooku.ru/wp-content/uploads/2024/11/tooku-kanal-logo.png" group-title="Kids",Tooku (1080p)
 http://live-saha.cdnvideo.ru/saha/tooky/playlist.m3u8
-#EXTINF:-1 tvg-id="Tooncast.us@SD" tvg-country="US" tvg-name="Tooncast" tvg-logo="https://i.imgur.com/3yXRbQy.png" group-title="Kids",Tooncast (1080p)
-http://38.134.250.110:8000/play/a01t/index.m3u8
 #EXTINF:-1 tvg-id="ToonGoggles.us@SD" tvg-country="US" tvg-name="ToonGoggles" tvg-logo="https://i.imgur.com/JMnxswq.png" group-title="Kids",ToonGoggles (720p)
 https://amg01329-otterainc-toongoggles-samsungau-ad-4c.amagi.tv/playlist/amg01329-otterainc-toongoggles-samsungau/playlist.m3u8
 #EXTINF:-1 tvg-id="TraLaLaDSN.ro@SD" tvg-country="RO" tvg-name="TraLaLa DSN" tvg-logo="https://tralaladsn.ro/assets/identity/logo.svg" group-title="Kids",TraLaLa DSN
@@ -430,8 +432,10 @@ https://d3knqoaufvjug3.cloudfront.net/yas.m3u8
 https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-country="SG" tvg-name="ZooMoo" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Kids",ZooMoo (1080p)
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530225428953453_32.jpg" group-title="Kids",优漫卡通 (720p)
+#EXTINF:-1 tvg-id="[HD]优漫卡通[ipv6]" tvg-name="优漫卡通" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%5Bipv6%5D.png" group-title="Kids",优漫卡通 (720p)
 https://epg.pw/stream/1a493f984affc629db2079c4527d4cf799d8ed816b577fcb57a045bf2ac989e7.m3u8
+#EXTINF:-1 tvg-id="NM04" tvg-name="内蒙古少儿" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Neimeng5.png" group-title="Kids",内蒙古少儿
+https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=ff5a1fd70ea228ee35b0d29895f37c56&txTime=771E8800
 #EXTINF:-1 tvg-id="内蒙古少儿" tvg-name="内蒙古少儿" tvg-logo="https://live.fanmingming.cn/tv/内蒙古少儿.png" group-title="Kids",内蒙少儿
 https://livestream-bt.nmtv.cn/nmtv/2318general.m3u8?txSecret=a2c948908728a0733cecbe1fadea23dc&txTime=771E8800
 #EXTINF:-1 tvg-id="AnimationShowChannel.cn" tvg-country="CN" tvg-name="动漫秀场" tvg-logo="https://i.imgur.com/Ul1pjUN.png" group-title="Kids",动漫秀场
@@ -448,9 +452,11 @@ https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
 http://livealone302.iqilu.com/iqilu/sepd.m3u8
 #EXTINF:-1 tvg-id="河北少儿" tvg-name="河北少儿" tvg-logo="https://live.fanmingming.cn/tv/河北少儿.png" group-title="Kids",河北少儿
 http://1.94.31.214/php/hebei.php?id=sekj
+#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江少儿.png" group-title="Kids",浙江少儿
+https://stream1.freetv.fun/zhe-jiang-shao-er-4.ctv
 #EXTINF:-1 tvg-id="GS04" tvg-name="甘肃少儿" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gansu/Gansu4.png" group-title="Kids",甘肃少儿
 https://hls.gstv.com.cn/49048r/922k96.m3u8
-#EXTINF:-1 tvg-id="福州电视台少儿频道_(FZTV-少儿)_(1080p)" tvg-name="福州电视台少儿频道_(FZTV-少儿)_" tvg-logo="https://live.fanmingming.com/tv/%E7%A6%8F%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93_%28FZTV-%E5%B0%91%E5%84%BF%29_%281080p%29.png" group-title="Kids",福州电视台少儿频道_(FZTV-少儿)_ (1080p)
+#EXTINF:-1 tvg-id="福州电视台少儿频道 (FZTV-少儿)" tvg-name="福州电视台少儿频道 (FZTV-少儿)" tvg-logo="https://live.fanmingming.com/tv/%E7%A6%8F%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93%20%28FZTV-%E5%B0%91%E5%84%BF%29.png" group-title="Kids",福州电视台少儿频道 (FZTV-少儿) (1080p)
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-id="福建少儿" tvg-country="CN" tvg-name="福建少儿" tvg-logo="https://i.imgur.com/0lhiBNa.png" group-title="Kids",福建少儿
 https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8

@@ -53,6 +53,9 @@ https://30a-tv.com/ln.m3u8
 https://30a-tv.com/loomer.m3u8
 #EXTINF:-1 tvg-id="99TV.in@SD" tvg-country="IN" tvg-name="99TV" tvg-logo="https://i.imgur.com/dZA4gel.png" group-title="News",99TV (720p)
 https://cdn.pishow.tv/ott/live/1211/master.m3u8
+#EXTINF:-1 tvg-id="101tvMalaga.es@SD" tvg-country="ES" tvg-name="101tv Malaga" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="News" http-referrer="https://player.instantvideocloud.net/",101tv Malaga
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta318.cdnmedia.tv/101weblive/smil:malaga.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="360.tr@SD" tvg-country="TR" tvg-name="360" tvg-logo="https://i.imgur.com/agn47sQ.png" group-title="News",360 (720p)
 https://turkmedya-live.ercdn.net/tv360/tv360.m3u8
 #EXTINF:-1 tvg-id="360News.ru@SD" tvg-country="RU" tvg-name="360° News" tvg-logo="https://i.imgur.com/YXDeX8q.png" group-title="News",360° News (1080p)
@@ -65,11 +68,11 @@ https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunk
 http://88.212.15.50/live/test_trojka_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="[BD]rkb_news_24" tvg-name="[BD]rkb_news_24" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5Drkb_news_24.png" group-title="News",[BD]rkb_news_24
 https://epg.pw/stream/5c0a5e9b24538982f2adc32190019a57ce3b22128142d163af46657413602453.m3u8
-#EXTINF:-1 tvg-id="上虞新闻综合" tvg-name="上虞新闻综合" tvg-logo="https://epg.pw/media/images/channel/2016/04/23/large/20160423152732409826_29.jpg" group-title="News",[BD]上虞新闻综合
+#EXTINF:-1 tvg-id="[BD]上虞新闻综合" tvg-name="[BD]上虞新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E4%B8%8A%E8%99%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]上虞新闻综合
 https://epg.pw/stream/c263e1828b4fb93d5bff50bf91136b93920a674c1bd19ccf1e4922baecfc3acc.m3u8
 #EXTINF:-1 tvg-id="[BD]乌海新闻综合" tvg-name="[BD]乌海新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E4%B9%8C%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]乌海新闻综合
 https://stream1.freetv.fun/70f34e395a3ad3bed2026b85d131ce4c546c1a90efbace5bdd88fc3ae6c7e27b.m3u8
-#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://epg.pw/media/images/channel/2022/05/13/large/20220513145911554540_68.jpg" group-title="News",[BD]北京新闻
+#EXTINF:-1 tvg-id="[BD]北京新闻" tvg-name="[BD]北京新闻" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E5%8C%97%E4%BA%AC%E6%96%B0%E9%97%BB.png" group-title="News",[BD]北京新闻
 https://epg.pw/stream/df5f291b3e91d85d43f12c1253c789da96a06b0263fd5ccd662fd90514379fda.ctv
 #EXTINF:-1 tvg-id="[BD]嘉兴新闻综合" tvg-name="[BD]嘉兴新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E5%98%89%E5%85%B4%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]嘉兴新闻综合
 https://stream1.freetv.fun/896ca707b844180e10fd9501bddd73f95d1493423adb2f0ae0acdff060297426.m3u8
@@ -77,23 +80,23 @@ https://stream1.freetv.fun/896ca707b844180e10fd9501bddd73f95d1493423adb2f0ae0acd
 https://stream1.freetv.fun/39ab3ae3ed28f9820adb3df173f784af647e03121c7dba0fd9b3f2da1cb36ae6.ctv
 #EXTINF:-1 tvg-id="[BD]揭阳综合高清" tvg-name="[BD]揭阳综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E6%8F%AD%E9%98%B3%E7%BB%BC%E5%90%88%E9%AB%98%E6%B8%85.png" group-title="News",[BD]揭阳综合 (720p)
 https://stream1.freetv.fun/d49d41d9ceb97e07341c1579705a77c11628092576082ca219be9f79cc35c612.ctv
-#EXTINF:-1 tvg-id="新昌新闻综合" tvg-name="新昌新闻综合" tvg-logo="https://epg.pw/media/img/logo/3_8.jpg" group-title="News",[BD]新昌新闻综合
+#EXTINF:-1 tvg-id="[BD]新昌新闻综合" tvg-name="[BD]新昌新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E6%96%B0%E6%98%8C%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]新昌新闻综合
 https://epg.pw/stream/7f856c798f5a5167cf5966b25d0ab5d352c40c5975d4a78d25e6a92c0251cb89.m3u8
 #EXTINF:-1 tvg-id="[BD]晋城新闻" tvg-name="[BD]晋城新闻" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E6%99%8B%E5%9F%8E%E6%96%B0%E9%97%BB.png" group-title="News",[BD]晋城新闻
 https://stream1.freetv.fun/da893d9b0113218f080fe13e82cae10b9502c0be8f3ca470983cc8b1722f8558.m3u8
 #EXTINF:-1 tvg-id="[BD]浙江公共新闻" tvg-name="[BD]浙江公共新闻" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E6%B5%99%E6%B1%9F%E5%85%AC%E5%85%B1%E6%96%B0%E9%97%BB.png" group-title="News",[BD]浙江公共新闻
 https://epg.pw/stream/52e6b218b89c4eb770a708a7ad50bce31279aa79c1d0f6bed318afb57ae35287.m3u8
-#EXTINF:-1 tvg-id="14183" tvg-name="第一财经" tvg-logo="https://epg.pw/media/images/channel/2019/01/16/large/20190116221721249151_66.jpg" group-title="News",[BD]第一财经
+#EXTINF:-1 tvg-id="[BD]第一财经[ipv6]" tvg-name="[BD]第一财经" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E7%AC%AC%E4%B8%80%E8%B4%A2%E7%BB%8F%5Bipv6%5D.png" group-title="News",[BD]第一财经
 https://epg.pw/stream/63130d80f95b886c9cf36daad57424b42b19018b62bd3e9490d26d3140ab5464.m3u8
 #EXTINF:-1 tvg-id="[BD]荆门新闻综合" tvg-name="[BD]荆门新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E8%8D%86%E9%97%A8%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]荆门新闻综合
 https://stream1.freetv.fun/93151160c381a034f6cf7e560a6fa981282baea3f54a177ee39ec6c5222f5f01.m3u8
-#EXTINF:-1 tvg-id="西青新闻综合" tvg-name="西青新闻综合" tvg-logo="https://epg.pw/media/img/logo/3_182.jpg" group-title="News",[BD]西青新闻综合
+#EXTINF:-1 tvg-id="[BD]西青新闻综合" tvg-name="[BD]西青新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E8%A5%BF%E9%9D%92%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]西青新闻综合
 https://epg.pw/stream/1eb4e6c1fa0e3cc1b6570703f93d6848eae2013d17a2889d5307ac984d5d108a.m3u8
 #EXTINF:-1 tvg-id="ZhanjiangComprehensiveNewsChannel.cn" tvg-country="CN" tvg-name="湛江新闻综合" tvg-logo="https://www.tvchinese.net/uploads/tv/zhanjiang.jpg" group-title="News",[BD]重庆|江津新闻综合
 https://stream1.freetv.fun/48e8e8d0fc6a429f90921269888907d31e377c22e5fc3018702e6a9762873a42.m3u8
 #EXTINF:-1 tvg-id="[BD]金川新闻综合" tvg-name="[BD]金川新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E9%87%91%E5%B7%9D%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[BD]金川新闻综合
 https://stream1.freetv.fun/506c3267cad24416b7cac2f65e053b9d32e3a702c36e2dd4dddfc69ec776a6cf.m3u8
-#EXTINF:-1 tvg-id="陕西新闻资讯" tvg-name="陕西新闻资讯" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531151006730386_52.jpg" group-title="News",[BD]陕西新闻资讯
+#EXTINF:-1 tvg-id="[BD]陕西新闻资讯[ipv6]" tvg-name="[BD]陕西新闻资讯" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E9%99%95%E8%A5%BF%E6%96%B0%E9%97%BB%E8%B5%84%E8%AE%AF%5Bipv6%5D.png" group-title="News",[BD]陕西新闻资讯
 https://epg.pw/stream/fa7439d84d8a9e3a9eca9d6053e963a0306dfa3f593e2f978b228bb96b06ee29.m3u8
 #EXTINF:-1 tvg-id="[BD]韶关综合" tvg-name="[BD]韶关综合" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E9%9F%B6%E5%85%B3%E7%BB%BC%E5%90%88.png" group-title="News",[BD]韶关综合
 https://stream1.freetv.fun/13ed16dda5256856a43863b3e3840c0cf70753842c7b2f184474628f653afd3d.m3u8
@@ -101,11 +104,11 @@ https://stream1.freetv.fun/13ed16dda5256856a43863b3e3840c0cf70753842c7b2f1844746
 https://stream1.freetv.fun/8d7a82b063ccefe97ed46e90766f40b3257b84934c76d0fc82fcb53d8d9a9b54.ctv
 #EXTINF:-1 tvg-id="[VGA]东莞新闻综合" tvg-name="[VGA]东莞新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E4%B8%9C%E8%8E%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[VGA]东莞新闻综合
 https://stream1.freetv.fun/9f43896bbea68d05a4ca43c45893f843057deab8532475242b0a525f089a33f6.m3u8
-#EXTINF:-1 tvg-id="玉林新闻综合" tvg-name="玉林新闻综合" tvg-logo="https://epg.pw/media/images/channel/2022/05/27/large/20220527162205528949_87.jpg" group-title="News",[VGA]吉林新闻综合
+#EXTINF:-1 tvg-id="[VGA]吉林新闻综合" tvg-name="[VGA]吉林新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E5%90%89%E6%9E%97%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[VGA]吉林新闻综合
 https://epg.pw/stream/04ac8c4edbe52123a87086c280432bedc30a94e45ba312eca7fc80f16bfee3c7.m3u8
-#EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="https://epg.pw/media/img/logo/2_48.jpg" group-title="News",[VGA]哈尔滨新闻综合
+#EXTINF:-1 tvg-id="[VGA]哈尔滨新闻综合" tvg-name="[VGA]哈尔滨新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E5%93%88%E5%B0%94%E6%BB%A8%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[VGA]哈尔滨新闻综合
 https://epg.pw/stream/ca8f57fc39d536dd721699325e3fc7ac9ca96fbe65f453531c01227f830b12cb.m3u8
-#EXTINF:-1 tvg-id="定州新闻综合" tvg-name="定州新闻综合" tvg-logo="https://epg.pw/media/img/logo/2_29.jpg" group-title="News",[VGA]定州新闻综合
+#EXTINF:-1 tvg-id="[VGA]定州新闻综合" tvg-name="[VGA]定州新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E5%AE%9A%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[VGA]定州新闻综合
 https://epg.pw/stream/e4ac775539e3deda7b1f48dc307097fbcb03725429d1188b393f60124f4e05a9.m3u8
 #EXTINF:-1 tvg-id="[VGA]宿迁新闻综合" tvg-name="[VGA]宿迁新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E5%AE%BF%E8%BF%81%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",[VGA]宿迁新闻综合
 https://stream1.freetv.fun/52e85973ac868bb2e72880af3ca872209544ae3d2a9eb7215326ded08d0e2aa4.ctv
@@ -178,6 +181,8 @@ https://d1rc86nwwc9fag.cloudfront.net/vglive-sk-472500/abpnews/master.m3u8
 https://acentotv01.streamprolive.com/hls/live.m3u8
 #EXTINF:-1 tvg-id="AcustikTV.mx@SD" tvg-country="MX" tvg-name="Acustik TV" tvg-logo="https://i.imgur.com/dhiNIng.png" group-title="News",Acustik TV
 https://s5.mexside.net:1936/clientetv/clientetv/playlist.m3u8
+#EXTINF:-1 tvg-id="ADNTV.cl@SD" tvg-country="CL" tvg-name="ADN TV" tvg-logo="https://i.imgur.com/AVfTwNw.png" group-title="News",ADN TV (720p)
+https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AdvocateBroadcastingNetwork.ng" tvg-country="NG" tvg-name="Advocate Broadcasting Network" tvg-logo="https://i.imgur.com/ZkBEAp7.png" group-title="News",Advocate Broadcasting Network
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_045/Stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AfghanistanInternational.uk@SD" tvg-country="UK" tvg-name="Afghanistan International" tvg-logo="https://i.imgur.com/r8MmFRX.png" group-title="News",Afghanistan International (720p)
@@ -496,8 +501,6 @@ https://citynewsregional.akamaized.net/hls/live/1024053/Regional_Live_8/Video-2M
 https://citynewsregional.akamaized.net/hls/live/1024052/Regional_Live_7/master.m3u8
 #EXTINF:-1 tvg-id="CityNewsVancouver.ca@SD" tvg-country="CA" tvg-name="CityNews Vancouver" tvg-logo="https://m.media-amazon.com/images/I/51Icdznow+L.png" group-title="News",CityNews Vancouver (720p)
 https://citynewsregional.akamaized.net/hls/live/1024054/Regional_Live_9/master.m3u8
-#EXTINF:-1 tvg-id="d0d9af56b7735c318b66afe21089d028" tvg-name="Cleveland 19 News Plus" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d0d9af56b7735c318b66afe21089d028/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1684345937107_WOIO_EPG%2526Hud_LogoWOIO_HUD_logo_260x147.png" group-title="News",Cleveland 19 News Plus
-https://jmp2.uk/rok-d0d9af56b7735c318b66afe21089d028.m3u8
 #EXTINF:-1 tvg-id="CNA.al@SD" tvg-country="AL" tvg-name="CNA" tvg-logo="https://codeit.al/wp-content/uploads/2020/08/cna.png" group-title="News",CNA (Albania) (1080p)
 https://live1.mediadesk.al/cnatvlive.m3u8
 #EXTINF:-1 tvg-id="CNA.sg@SD" tvg-country="SG" tvg-name="CNA" tvg-logo="https://i.imgur.com/awIDugE.png" group-title="News",CNA (Singapore) (1080p)
@@ -600,8 +603,6 @@ https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 https://tv.elyssatv.com/live/master.m3u8
 #EXTINF:-1 tvg-id="EntertainmentTonight.us@SD" tvg-country="US" tvg-name="Entertainment Tonight" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Entertainment_Tonight_2021.svg/960px-Entertainment_Tonight_2021.svg.png" group-title="News",Entertainment Tonight (1080p)
 https://enterbcef94b.airspace-cdn.cbsivideo.com/master.m3u8
-#EXTINF:-1 tvg-id="ERTNews.gr@HD" tvg-country="GR" tvg-name="ERT News" tvg-logo="https://www.ert.gr/wp-content/uploads/2025/09/ert-news-white-bg-menu-optimized.svg" group-title="News",ERT News HD (1080p)
-https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTNews/default/index.m3u8
 #EXTINF:-1 tvg-id="EspresoTV.ua@SD" tvg-country="UA" tvg-name="Espreso TV" tvg-logo="https://i.imgur.com/xNatV8K.png" group-title="News",Espreso TV (1080p)
 https://api-tv.ipnet.ua/api/v1/manifest/2118742594.m3u8
 #EXTINF:-1 tvg-id="EstrellaNews.us@SD" tvg-country="US" tvg-name="Estrella News" tvg-logo="https://cdn-profiles.tunein.com/s320627/images/logoq.png?t=1" group-title="News",Estrella News (1080p)
@@ -716,8 +717,6 @@ https://stream.hc2tv.bj/2/live/stream.m3u8
 https://live.streamhch.com/live/streams/hch1.m3u8
 #EXTINF:-1 tvg-id="HeadlinesTripura.in@SD" tvg-country="IN" tvg-name="Headlines Tripura" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Headlines_Tripura.png" group-title="News",Headlines Tripura (720p)
 https://distro.ottlive.co.in/headlinestripura/headlinestripura/index.m3u8
-#EXTINF:-1 tvg-id="HermanasMirabalTV.do@SD" tvg-country="DO" tvg-name="Hermanas Mirabal TV" tvg-logo="https://i.imgur.com/cbKgcGh.png" group-title="News",Hermanas Mirabal TV (720p)
-https://fox.hostlagarto.com:8081/hmtv/index.m3u8
 #EXTINF:-1 tvg-id="HindiKhabar.in@SD" tvg-country="IN" tvg-name="Hindi Khabar" tvg-logo="https://i.imgur.com/iuz6K6i.png" group-title="News",Hindi Khabar (1080p)
 https://stream.ottlive.co.in/hindikhabar/index.m3u8
 #EXTINF:-1 tvg-id="HispanTV.ir@SD" tvg-country="IR" tvg-name="Hispan TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9f/Hispantv_logo.jpg" group-title="News",Hispan TV
@@ -856,8 +855,6 @@ https://lencatelevision.com/hls/stream.m3u8
 https://live.artidijitalmedya.com/artidijital_lifetv/lifetv/playlist.m3u8
 #EXTINF:-1 tvg-id="LingkarTV.id@SD" tvg-country="ID" tvg-name="Lingkar TV" tvg-logo="https://lingkartv.com/assets/img/logo-square.png" group-title="News",Lingkar TV
 https://lingkartv.my.id/hls/lingkartv.m3u8
-#EXTINF:-1 tvg-id="LiraTV.it@SD" tvg-country="IT" tvg-name="Lira TV" tvg-logo="https://i.imgur.com/sC9ELuY.jpg" group-title="News",Lira TV
-https://a928c0678d284da5b383f29ecc5dfeec.msvdn.net/live/S57315730/8kTBWibNteJA/playlist.m3u8
 #EXTINF:-1 tvg-id="LiveTimes.in@SD" tvg-country="IN" tvg-name="Live Times" tvg-logo="https://www.livetimes.news/wp-content/uploads/2021/11/LT-logoConverted-01.png" group-title="News",Live Times (720p)
 https://stream.ottlive.co.in/livetimetv/index.m3u8
 #EXTINF:-1 tvg-id="LiveNOWfromFOX.us@SD" tvg-country="US" tvg-name="LiveNOW from FOX" tvg-logo="https://i.imgur.com/1JnyzHv.png" group-title="News",LiveNOW from FOX (720p)
@@ -979,12 +976,16 @@ http://103.250.28.74:8000/play/a01p/index.m3u8
 https://live-us1.thaimomo.com/live-as/chnews1-2/playlist.m3u8
 #EXTINF:-1 tvg-id="News9Live.in@SD" tvg-country="IN" tvg-name="News9Live" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News9.png" group-title="News",News9Live (1080p)
 https://amg01106-amg01106c3-amgplt0844.playout.now3.amagi.tv/ts-ap-s1-n1/playlist/amg01106-amg01106c3-amgplt0844/playlist.m3u8
-#EXTINF:-1 tvg-id="News12PlusHudsonValley.us@HD" tvg-country="US" tvg-name="News12+ Hudson Valley" tvg-logo="https://i.ibb.co/cKkdC203/news12plus-HV.jpg" group-title="News",News12+ Hudson Valley (1080p)
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_WC_A1/index_new.m3u8
+#EXTINF:-1 tvg-id="News12Bronx.us@SD" tvg-country="US" tvg-name="News12 Bronx" tvg-logo="https://i.imgur.com/d6xQiaf.png" group-title="News",News12 Bronx
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12XH_A1/index_new.m3u8?omap=https
+#EXTINF:-1 tvg-id="News12Brooklyn.us@SD" tvg-country="US" tvg-name="News12 Brooklyn" tvg-logo="https://i.imgur.com/fvcOzzK.png" group-title="News",News12 Brooklyn
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12KH_A1/index_new.m3u8?omap=https
+#EXTINF:-1 tvg-id="News12Westchester.us@SD" tvg-country="US" tvg-name="News12 Westchester" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/News_12_logo_2019.png/960px-News_12_logo_2019.png" group-title="News",News12 Westchester
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12WH_A1/index_new.m3u8?omap=https
+#EXTINF:-1 tvg-id="News12PlusConnecticut.us@HD" tvg-country="US" tvg-name="News12+ Connecticut" tvg-logo="https://i.ibb.co/n8m2mcsV/news12plus-CT.jpg" group-title="News",News12+ Connecticut (1080p)
+https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_CT_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News12PlusLongIsland.us@HD" tvg-country="US" tvg-name="News12+ Long Island" tvg-logo="https://i.ibb.co/p6FPNcCk/news12plus-LI.jpg" group-title="News",News12+ Long Island (1080p)
 https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_LI_A1/index_new.m3u8
-#EXTINF:-1 tvg-id="News12PlusNewJersey.us@HD" tvg-country="US" tvg-name="News12+ New Jersey" tvg-logo="https://i.ibb.co/qYCVcWDV/news12plus-NJ.jpg" group-title="News",News12+ New Jersey (1080p)
-https://mdc.ott.alticeusa.net/live4.ott.optimum.net/live4-uploads/N12PLUS_H_NJ_A1/index_new.m3u8
 #EXTINF:-1 tvg-id="News18AssamNorthEast.in@SD" tvg-country="IN" tvg-name="News18 Assam North-East" tvg-logo="https://dtil.tmsimg.com/assets/s143606_ld_h15_aa.png?lock=720x540" group-title="News",News18 Assam North-East (1080p)
 https://n18syndication.akamaized.net/bpk-tv/News18_Assam_North_East_NW18_MOB/output01/master.m3u8
 #EXTINF:-1 tvg-id="News18Bangla.in@SD" tvg-country="IN" tvg-name="News18 Bangla" tvg-logo="https://dtil.tmsimg.com/assets/s143607_ld_h15_aa.png?lock=720x540" group-title="News",News18 Bangla (1080p)
@@ -1035,8 +1036,6 @@ https://cdn.pishow.tv/ott/live/1279/master.m3u8
 https://live1.ottlive.co.in/newsmarathi/newsmarathi/index.m3u8
 #EXTINF:-1 tvg-id="NewsNation.in@SD" tvg-country="IN" tvg-name="News Nation" tvg-logo="https://dtil.tmsimg.com/assets/s143596_ld_h15_aa.png?lock=720x540" group-title="News",News Nation (1080p)
 https://d3qs3d2rkhfqrt.cloudfront.net/out/v1/6cd2f649739a45ca9de1daf81cc7d0f2/index.m3u8
-#EXTINF:-1 tvg-id="NewsNation81.in@SD" tvg-country="IN" tvg-name="News Nation 81" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/News_Nation_81.png" group-title="News",News Nation 81 (1080p)
-https://live.newsnation81.com/newsnation81/newsnation81/index.m3u8
 #EXTINF:-1 tvg-id="NewsoftheWorld.us@Spanish" tvg-country="US" tvg-name="News of the World" tvg-logo="https://i.imgur.com/MfyRQCs.png" group-title="News",News of the World Spanish (1080p)
 https://live.nowtelly.com/now_spanish/live/playlist.m3u8
 #EXTINF:-1 tvg-id="NewsOne.pk@SD" tvg-country="PK" tvg-name="News One" tvg-logo="https://i.imgur.com/2N45SPQ.png" group-title="News",News One (720p)
@@ -1156,6 +1155,8 @@ https://stream.ottlive.co.in/primenews/index.m3u8
 http://158.69.24.53:8080/probashi_tv/index.m3u8
 #EXTINF:-1 tvg-id="PROTVNews.ro@SD" tvg-country="RO" tvg-name="PROTV News" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/85/Pro_TV_News_%282017%29.png/revision/latest?cb=20171005155753" group-title="News",PROTV News
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-voyo-news/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="PrudentMedia.in@SD" tvg-country="IN" tvg-name="Prudent Media" tvg-logo="https://i.imgur.com/DG0x4UD.png" group-title="News",Prudent Media (1080p)
+https://prudentmcdn.rixcast.com/prudentm.m3u8
 #EXTINF:-1 tvg-id="PSMNews.mv@SD" tvg-country="MV" tvg-name="PSM News" tvg-logo="https://i.imgur.com/mGuBbPv.png" group-title="News",PSM News
 https://customer-ujex1meek7koqd9x.cloudflarestream.com/21262545317dadfa20dab4f9bd37c7c2/manifest/video.m3u8
 #EXTINF:-1 tvg-id="PTV.ua@SD" tvg-country="UA" tvg-name="PTV" tvg-logo="https://i.imgur.com/WDHoSVz.png" group-title="News",PTV (Ukraine) (720p)
@@ -1172,8 +1173,6 @@ https://pnt.janusmedia.tv/hls/pnt.m3u8
 https://samitaorigin.tangotv.in/PUTHIYAEXPRESS/SAMITAORIGIN/index.m3u8
 #EXTINF:-1 tvg-id="QBC.qa@HD" tvg-country="QA" tvg-name="QBC" tvg-logo="https://www.qbc.news/_next/static/media/logo.0~2x9wpd284~a.svg" group-title="News",QBC (1080p)
 https://googlecdn1.alkassdigital.net/livestream/qbc4/main.m3u8
-#EXTINF:-1 tvg-id="QosqoTimes.pe@SD" tvg-country="PE" tvg-name="Qosqo Times" tvg-logo="https://i.imgur.com/oWJauwQ.png" group-title="News",Qosqo Times (720p)
-https://live-evg5.tv360.bitel.com.pe/bitel/qosqo/playlist.m3u8
 #EXTINF:-1 tvg-id="QuanticaTV.ar@SD" tvg-country="AR" tvg-name="Quantica TV" tvg-logo="https://i.imgur.com/6f8EYC2.jpeg" group-title="News",Quantica TV
 https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8
 #EXTINF:-1 tvg-id="RaatdinBangla.in@SD" tvg-country="IN" tvg-name="Raatdin Bangla" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/raatdinbangla.png" group-title="News",Raatdin Bangla (720p)
@@ -1253,6 +1252,8 @@ https://sabctretalh.cdn.mangomolo.com/lehae/smil:lehae.stream.smil/master.m3u8
 https://sabconetanw.cdn.mangomolo.com/news/smil:news.stream.smil/master.m3u8
 #EXTINF:-1 tvg-id="SadhnaPlusNews.in@SD" tvg-country="IN" tvg-name="Sadhna Plus News" tvg-logo="https://i.imgur.com/h4UehKC.png" group-title="News",Sadhna Plus News (720p)
 https://6n3yow8pl9ok-hls-live.5centscdn.com/sadhananewstv/live.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="Sahara24.mr@HD" tvg-country="MR" tvg-name="Sahara 24" tvg-logo="https://i.imgur.com/pnzWYwT.png" group-title="News",Sahara 24 (1080p)
+https://live.saharamedias.net:3317/live/shara24live.m3u8
 #EXTINF:-1 tvg-id="SalaamTV.in@SD" tvg-country="IN" tvg-name="Salaam TV" tvg-logo="https://dtil.tmsimg.com/assets/s144466_ld_h15_aa.png?lock=720x540" group-title="News",Salaam TV (720p)
 https://d2o3r1shda7xvv.cloudfront.net/index_5.m3u8
 #EXTINF:-1 tvg-id="SalemNewsChannel.us@SD" tvg-country="US" tvg-name="Salem News Channel" tvg-logo="https://salemnewschannel.com/img/logo3.svg" group-title="News",Salem News Channel (1080p)
@@ -1284,8 +1285,6 @@ https://stream.skynewsarabia.com/ott/ott.m3u8
 https://stream.skynewsarabia.com/vertical/vertical.m3u8
 #EXTINF:-1 tvg-id="SkyNewsExtra3.au@SD" tvg-country="AU" tvg-name="Sky News Extra 3" tvg-logo="https://i.imgur.com/ZsPb8nL.png" group-title="News",Sky News Extra 3 (1080p)
 https://skynewsau-live.akamaized.net/hls/live/2002691/skynewsau-extra3/master.m3u8
-#EXTINF:-1 tvg-id="SkyNewsUrdu.pk@SD" tvg-country="PK" tvg-name="Sky News Urdu" tvg-logo="https://raw.githubusercontent.com/songwenhui239/Songwenhui239/refs/heads/main/sky-news-urdu-pk.png" group-title="News",Sky News Urdu (720p)
-https://lbgo.bozztv.com/ssh101/ssh101/skynews/playlist.m3u8
 #EXTINF:-1 tvg-id="SkyNews.uk" tvg-country="UK" tvg-name="Sky News" tvg-logo="https://d2n0069hmnqmmx.cloudfront.net/epgdata/1.0/newchanlogos/512/512/skychb1404.png" group-title="News",Sky News Ⓖ
 https://linear021-gb-hls1-prd-ak.cdn.skycdp.com/Content/HLS_001_hd/Live/channel(skynews)/index_mob.m3u8
 #EXTINF:-1 tvg-id="Sochi24.ru@SD" tvg-country="RU" tvg-name="Sochi24" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="News",Sochi24 (720p)
@@ -1327,6 +1326,8 @@ https://live.tcm10.com.br/tcm10hd/stream.m3u8
 https://jmp2.uk/stvp-FRBD4100010ZZ
 #EXTINF:-1 tvg-id="Telecanal.cl@SD" tvg-country="CL" tvg-name="Telecanal" tvg-logo="https://i.imgur.com/3g6SbSt.png" group-title="News",Telecanal (720p)
 http://45.232.210.1:8029/play/a00s/index.m3u8
+#EXTINF:-1 tvg-id="TeleCauquenes.cl@SD" tvg-country="CL" tvg-name="TeleCauquenes" tvg-logo="https://i.imgur.com/cNYDqhp.png" group-title="News",TeleCauquenes (720p)
+https://lbgo.bozztv.com/ssh101/ssh101/telecauquenestv/playlist.m3u8
 #EXTINF:-1 tvg-id="ceb64d994c7756c2a8f09ace94c3e43f" tvg-name="Telediario Now" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/ceb64d994c7756c2a8f09ace94c3e43f/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1715804997455_Logtipo_TDNOW_260x147_centradoaleje.png" group-title="News",Telediario Now
 https://jmp2.uk/rok-ceb64d994c7756c2a8f09ace94c3e43f.m3u8
 #EXTINF:-1 tvg-id="Telegela647.it@SD" tvg-country="IT" tvg-name="Telegela 647" tvg-logo="https://i.imgur.com/ppkX45f.png" group-title="News",Telegela 647
@@ -1362,6 +1363,8 @@ https://ssai2-ads.api.leiniao.com/global-adinsertion-api/hls/live/v2/21fdb6dd749
 https://dztlhgid9me95.cloudfront.net/live-tv/Vidgyor/timesnow/timesnow_master.m3u8
 #EXTINF:-1 tvg-id="TimesNowNavbharat.in@HD" tvg-country="IN" tvg-name="Times Now Navbharat" tvg-logo="https://dtil.tmsimg.com/assets/s144007_ld_h15_aa.png?lock=720x540" group-title="News",Times Now Navbharat HD (1080p)
 https://yupprestreamliveus.akamaized.net/v1/vglive-sk-717514/main.m3u8
+#EXTINF:-1 tvg-id="TN.ar@SD" tvg-country="AR" tvg-name="TN" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News",TN (1080p)
+http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-id="TNLive.cz" tvg-country="CZ" tvg-name="TN Live" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/czech-republic/nova-cz.png" group-title="News",TN Live
 https://sktv.mxnticek.eu/new/stream.php?ch=Nova%20TN%20Live
 #EXTINF:-1 tvg-id="TNPNews.in@SD" tvg-country="IN" tvg-name="TNP News" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/TNP_News.png" group-title="News",TNP News (1080p)
@@ -1514,6 +1517,8 @@ https://dash4.antik.sk/live/test_welt_tizen/playlist.m3u8
 http://vg-zeefta.akamaized.net/ptnr-yupptv/title-wion/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/20c3c0d9-0256-43fe-bca6-70fdd490b957/main.m3u8
 #EXTINF:-1 tvg-id="WorldPunjabiTV.in@SD" tvg-country="IN" tvg-name="World Punjabi TV" tvg-logo="https://papaji.freetvindia.com/media/World_Punjabi_TV.png" group-title="News",World Punjabi TV (1080p)
 https://live1.ottlive.co.in/worldpunjabitv/worldpunjabitv/index.m3u8
+#EXTINF:-1 tvg-id="WPLG101.us@HD" tvg-country="US" tvg-name="WPLG 10.1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg/500px-WPLG_Local_10_%282014%2C_without_ABC_logo%29.svg.png" group-title="News",WPLG 10.1 (720p)
+https://pubads.g.doubleclick.net/ssai/event/tQD6w9OJQVOobcyV3Dammw/master.m3u8
 #EXTINF:-1 tvg-id="d53b1fb8c41f574387cde82d084515ea" tvg-name="WSMV 4 News" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/d53b1fb8c41f574387cde82d084515ea/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1703177208613_WSMV_EPG%2526Hud_LogoWSMV_HUD_logo_260x147_.png" group-title="News",WSMV 4 News
 https://jmp2.uk/rok-d53b1fb8c41f574387cde82d084515ea.m3u8
 #EXTINF:-1 tvg-id="WSOCNow.us@SD" tvg-country="US" tvg-name="WSOC Now" tvg-logo="https://i.imgur.com/tUb1mdc.png" group-title="News",WSOC Now (1080p)
@@ -1563,8 +1568,10 @@ https://ls.qingting.fm/live/5022100/64k.m3u8
 https://stream1.freetv.fun/san-li-xin-wen-5.ctv
 #EXTINF:-1 tvg-id="[HD]上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E4%B8%8A%E6%B5%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",上海新闻综合 (720p)
 https://stream1.freetv.fun/d44ff7c1a00af1ee4a74dd801d9be1bf9f91b9c2874d1367713e68ba3006c3b7.ctv
-#EXTINF:-1 tvg-id="上虞1新闻综合_(720p)_[Not_24/7]" tvg-name="上虞1新闻综合_ _[Not_24/7]" tvg-logo="https://live.fanmingming.com/tv/%E4%B8%8A%E8%99%9E1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%28720p%29_%5BNot_24/7%5D.png" group-title="News",上虞1新闻综合_ _[Not_24/7] (720p)
+#EXTINF:-1 tvg-id="上虞1新闻综合" tvg-name="上虞1新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E4%B8%8A%E8%99%9E1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",上虞1新闻综合 (720p)
 https://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8
+#EXTINF:-1 tvg-id="上虞新闻综合" tvg-name="上虞新闻综合" tvg-logo="https://tb.zbds.top/logo/上虞新闻综合.png" group-title="News",上虞新闻综合
+http://l.cztvcloud.com/channels/lantian/SXshangyu1/720p.m3u8?zzhed
 #EXTINF:-1 tvg-id="[HD]东莞新闻综合" tvg-name="东莞新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E4%B8%9C%E8%8E%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",东莞新闻综合 (720p)
 https://stream1.freetv.fun/0e4ec0d4d0c1ee3ba02ddb214dc5cc5a5f754b50fbf81ee700f1af9d67eeb9d0.m3u8
 #EXTINF:-1 tvg-id="中国蓝新闻" tvg-name="中国蓝新闻" tvg-logo="https://tb.zbds.top/logo/中国蓝新闻.png" group-title="News",中国蓝新闻
@@ -1603,26 +1610,30 @@ https://livestream-bt.nmtv.cn/nmtv/2316general.m3u8?txSecret=b4373417a82ed64e52b
 https://stream2.jlntv.cn/naxw/sd/live.m3u8
 #EXTINF:-1 tvg-id="包头新闻综合" tvg-name="包头新闻综合" tvg-logo="https://live.fanmingming.cn/tv/包头新闻综合.png" group-title="News",包头新闻综合
 https://livestream-bt.nmtv.cn/nmtv/2358general.m3u8?txSecret=98390a77c143a68f0fd64bfe6e181dcb&txTime=771E8800
+#EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://tb.zbds.top/logo/北京新闻.png" group-title="News",北京新闻
+https://satellitepull.cnr.cn/live/wxbjxwgb/playlist.m3u8
 #EXTINF:-1 tvg-id="十堰新闻" tvg-name="十堰新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/十堰新闻.png" group-title="News",十堰新闻
 https://stream1.freetv.fun/shi-yan-xin-wen-1.m3u8
 #EXTINF:-1 tvg-id="[HD]南京新闻综合" tvg-name="南京新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E5%8D%97%E4%BA%AC%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",南京新闻综合 (720p)
 https://stream1.freetv.fun/5b4b16310f8c33dd6977992d1d1fa402cff0c85f10d68bbfc4e0415e95a74492.m3u8
 #EXTINF:-1 tvg-id="[HD]南宁新闻综合" tvg-name="南宁新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E5%8D%97%E5%AE%81%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",南宁新闻综合 (720p)
 https://stream1.freetv.fun/407744f7fb47c88ea74cdafe06903296c02e65ec29ef487568b8a2a2ac66c80e.m3u8
-#EXTINF:-1 tvg-id="南阳新闻_(1080p)_[Not_24/7]" tvg-name="南阳新闻_ _[Not_24/7]" tvg-logo="https://live.fanmingming.com/tv/%E5%8D%97%E9%98%B3%E6%96%B0%E9%97%BB_%281080p%29_%5BNot_24/7%5D.png" group-title="News",南阳新闻_ _[Not_24/7] (1080p)
+#EXTINF:-1 tvg-id="南阳新闻" tvg-name="南阳新闻" tvg-logo="https://live.fanmingming.com/tv/%E5%8D%97%E9%98%B3%E6%96%B0%E9%97%BB.png" group-title="News",南阳新闻 (1080p)
 http://30539.hlsplay.aodianyun.com/lms_30539/tv_channel_142.m3u8
 #EXTINF:-1 tvg-id="叙州新闻综合" tvg-name="叙州新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/叙州新闻综合.png" group-title="News",叙州新闻综合
 https://stream1.freetv.fun/xu-zhou-xin-wen-zong-he-6.m3u8
-#EXTINF:-1 tvg-id="吉州新闻综合_(1080p)" tvg-name="吉州新闻综合_" tvg-logo="https://live.fanmingming.com/tv/%E5%90%89%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%281080p%29.png" group-title="News",吉州新闻综合_ (1080p)
+#EXTINF:-1 tvg-id="吉州新闻综合" tvg-name="吉州新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%90%89%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",吉州新闻综合 (1080p)
 http://218.204.153.158/10.m3u8
 #EXTINF:-1 tvg-id="吉林市新闻综合" tvg-name="吉林市新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%90%89%E6%9E%97%E5%B8%82%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",吉林市新闻综合
 https://stream2.jlntv.cn/jilin1/sd/live.m3u8
-#EXTINF:-1 tvg-id="吴江新闻综合_(720p)_[Not_24/7]" tvg-name="吴江新闻综合_ _[Not_24/7]" tvg-logo="https://live.fanmingming.com/tv/%E5%90%B4%E6%B1%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%28720p%29_%5BNot_24/7%5D.png" group-title="News",吴江新闻综合_ _[Not_24/7] (720p)
+#EXTINF:-1 tvg-id="吴江新闻综合" tvg-name="吴江新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%90%B4%E6%B1%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",吴江新闻综合 (720p)
 http://30515.hlsplay.aodianyun.com/lms_30515/tv_channel_239.m3u8
 #EXTINF:-1 tvg-id="周口新闻综合" tvg-name="周口新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/周口新闻综合.png" group-title="News",周口新闻综合
 https://stream1.freetv.fun/zhou-kou-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-id="呼和浩特新闻综合" tvg-name="呼和浩特新闻综合" tvg-logo="https://live.fanmingming.cn/tv/呼和浩特新闻综合.png" group-title="News",呼市新闻综合
 https://livestream-bt.nmtv.cn/nmtv/2331general.m3u8?txSecret=4d7342ca5cd74480526ab6d292247aff&txTime=771E8800
+#EXTINF:-1 tvg-id="哈尔滨新闻综合" tvg-name="哈尔滨新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/哈尔滨新闻综合.png" group-title="News",哈尔滨新闻综合
+https://stream1.freetv.fun/ha-er-bin-xin-wen-zong-he-4.m3u8
 #EXTINF:-1 tvg-id="四川新闻" tvg-name="四川新闻" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/sichuan/Sichuan3.png" group-title="News",四川新闻
 http://wouu.net:9977/udp/239.93.0.47:5140
 #EXTINF:-1 tvg-id="四平新闻综合" tvg-name="四平新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%9B%9B%E5%B9%B3%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",四平新闻综合
@@ -1632,12 +1643,12 @@ http://www.guzhenm.com:7001/hls/hd-live.m3u8
 #EXTINF:-1 tvg-id="大庆新闻综合" tvg-name="大庆新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/大庆新闻综合.png" group-title="News",大庆新闻综合
 https://stream1.freetv.fun/da-qing-xin-wen-zong-he-1.m3u8
 #EXTINF:-1 tvg-id="[HD]太谷新闻综合" tvg-name="太谷新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E5%A4%AA%E8%B0%B7%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",太谷新闻综合 (720p)
-https://stream1.freetv.fun/63a19973d726fe3a5047df542074d4f01d156e4756dfc656240239aee1433dc1.m3u8
+https://stream1.freetv.fun/8f602122de2f42aa4be17046a365eaf5c63229adc490509a1b8f0037e6444359.m3u8
 #EXTINF:-1 tvg-id="夹江新闻综合" tvg-name="夹江新闻综合" tvg-logo="https://tb.zbds.top/logo/夹江新闻综合.png" group-title="News",夹江新闻综合
 http://tvfile.jjrm.org.cn/nmip-media/channellive/channel106282/playlist.m3u8?zsicd
 #EXTINF:-1 tvg-id="[HD]宜兴新闻综合" tvg-name="宜兴新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E5%AE%9C%E5%85%B4%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",宜兴新闻综合 (720p)
 https://stream1.freetv.fun/c350dd99e01319b8ba7331db5fc290aa53f7d316728665ce63eb173ec1810f66.ctv
-#EXTINF:-1 tvg-id="宿州新闻综合_(1080p)_[Not_24/7]" tvg-name="宿州新闻综合_ _[Not_24/7]" tvg-logo="https://live.fanmingming.com/tv/%E5%AE%BF%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%281080p%29_%5BNot_24/7%5D.png" group-title="News",宿州新闻综合_ _[Not_24/7] (1080p)
+#EXTINF:-1 tvg-id="宿州新闻综合" tvg-name="宿州新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%AE%BF%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",宿州新闻综合 (1080p)
 http://live.ahsz.tv/video/s10001-szzh/index.m3u8
 #EXTINF:-1 tvg-id="山东新闻" tvg-name="山东新闻" tvg-logo="https://live.fanmingming.com/tv/%E5%B1%B1%E4%B8%9C%E6%96%B0%E9%97%BB.png" group-title="News",山东新闻 (1080p)
 http://livealone302.iqilu.com/iqilu/ggpd.m3u8
@@ -1649,7 +1660,7 @@ http://tvpull.dxhmt.cn:9081/tv/10325-1.m3u8?zhendhttp://wshls.live.migucloud.com
 http://tvpull.dxhmt.cn:9081/tv/10181-1.m3u8
 #EXTINF:-1 tvg-id="巴彦淖尔新闻综合" tvg-name="巴彦淖尔新闻综合" tvg-logo="https://live.fanmingming.cn/tv/巴彦淖尔新闻综合.png" group-title="News",巴彦淖尔新闻
 https://livestream-bt.nmtv.cn/nmtv/2348general.m3u8?txSecret=6a4ddce077e41b976fe33619fbef2b30&txTime=771E8800
-#EXTINF:-1 tvg-id="平湖新闻综合" tvg-name="平湖新闻综合" tvg-logo="https://epg.pw/media/img/logo/3_109.jpg" group-title="News",平湖新闻综合 (720p)
+#EXTINF:-1 tvg-id="[HD]平湖新闻综合" tvg-name="平湖新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E5%B9%B3%E6%B9%96%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",平湖新闻综合 (720p)
 https://epg.pw/stream/42b48170548b6a57776c7592ecda1c9f326f0ed39dc0631337d1e8961aa97486.m3u8
 #EXTINF:-1 tvg-id="平遥新闻综合" tvg-name="平遥新闻综合" tvg-logo="https://tb.zbds.top/logo/平遥新闻综合.png" group-title="News",平遥新闻综合
 https://tntgjhjb.live.sxmty.com/live/hls/3a4585ac11ec4e1bb07b419101b370c3/baf63e2b313440c2a25d7859f9b73b05-1.m3u8?zshanxd
@@ -1661,13 +1672,13 @@ http://guangshui.live.tempsource.cjyun.org/videotmp/s10146-GSXW.m3u8
 http://198.204.228.26/live/gxxw.m3u8
 #EXTINF:-1 tvg-id="延边新闻综合" tvg-name="延边新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%BB%B6%E8%BE%B9%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",延边新闻综合
 https://stream2.jlntv.cn/jlyb/sd/live.m3u8
-#EXTINF:-1 tvg-id="开化新闻综合" tvg-name="开化新闻综合" tvg-logo="https://epg.pw/media/img/logo/2_16.jpg" group-title="News",开化新闻综合 (720p)
+#EXTINF:-1 tvg-id="[HD]开化新闻综合" tvg-name="开化新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E5%BC%80%E5%8C%96%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",开化新闻综合 (720p)
 https://epg.pw/stream/3bbb603477d99145f17fd829b0c986cc487070e09e0ca75d4617ed3cad784c5f.m3u8
 #EXTINF:-1 tvg-id="开封新闻综合" tvg-name="开封新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/开封新闻综合.png" group-title="News",开封新闻综合
 https://stream1.freetv.fun/kai-feng-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-id="张掖新闻综合" tvg-name="张掖新闻综合" tvg-logo="https://tb.zbds.top/logo/张掖新闻综合.png" group-title="News",张掖新闻综合
 https://play.kankanlive.com/live/1720583434627241.m3u8
-#EXTINF:-1 tvg-id="徐州新闻综合_(1080p)" tvg-name="徐州新闻综合_" tvg-logo="https://live.fanmingming.com/tv/%E5%BE%90%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%281080p%29.png" group-title="News",徐州新闻综合_ (1080p)
+#EXTINF:-1 tvg-id="徐州新闻综合" tvg-name="徐州新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E5%BE%90%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",徐州新闻综合 (1080p)
 http://223.110.245.165/ott.js.chinamobile.com/PLTV/3/224/3221225945/index.m3u8
 #EXTINF:-1 tvg-id="德阳新闻综合" tvg-name="德阳新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/德阳新闻综合.png" group-title="News",德阳新闻综合
 https://stream1.freetv.fun/de-yang-xin-wen-zong-he-2.m3u8
@@ -1675,6 +1686,8 @@ https://stream1.freetv.fun/de-yang-xin-wen-zong-he-2.m3u8
 http://m3u8.channel.wsrtv.com.cn/cms/videos/nmip-media/channellive/channel7/playlist.m3u8?zyund
 #EXTINF:-1 tvg-id="新安新闻综合" tvg-name="新安新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/新安新闻综合.png" group-title="News",新安新闻综合
 http://tvpull.dxhmt.cn:9081/tv/10323-1.m3u8
+#EXTINF:-1 tvg-id="新昌新闻综合" tvg-name="新昌新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E6%96%B0%E6%98%8C%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",新昌新闻综合 (1080p)
+https://l.cztvcloud.com/channels/lantian/SXxinchang1/720p.m3u8
 #EXTINF:-1 tvg-id="新沂新闻" tvg-name="新沂新闻" tvg-logo="https://tb.zbds.top/logo/新沂新闻.png" group-title="News",新沂新闻
 http://live.xysrmt.cn/xwzh/sd/live.m3u8?zjiangsd"
 #EXTINF:-1 tvg-id="陕西新闻咨询" tvg-name="陕西新闻咨询" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Shanxi1.png" group-title="News",新闻咨询
@@ -1693,7 +1706,7 @@ http://iptv.4666888.xyz/iptv2A.php?id=31
 http://120.76.248.139/live/bfgd/4200000282.m3u8
 #EXTINF:-1 tvg-id="松原新闻综合" tvg-name="松原新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E6%9D%BE%E5%8E%9F%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",松原新闻综合
 https://stream2.jlntv.cn/sytv/sd/live.m3u8
-#EXTINF:-1 tvg-id="松潘新闻综合" tvg-name="松潘新闻综合" tvg-logo="https://tb.zbds.top/logo/松潘新闻综合.png" group-title="News",松潘新闻综合
+#EXTINF:-1 tvg-id="松潘新闻综合" tvg-name="松潘新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/松潘新闻综合.png" group-title="News",松潘新闻综合
 http://live.spccmc.com:90/live/spxwzh.m3u8
 #EXTINF:-1 tvg-id="桐柏新闻综合" tvg-name="桐柏新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/桐柏新闻综合.png" group-title="News",桐柏新闻综合
 http://tvpull.dxhmt.cn:9081/tv/11330-1.m3u8
@@ -1703,7 +1716,7 @@ https://stream1.freetv.fun/wu-yi-xin-wen-zong-he-3.m3u8
 http://uzoiczhh.live.sxmty.com/live/hls/0d41f1480c4042d49927858f01fde707/53130407737b417b9a6259b57246bae3.m3u8?zshanxd
 #EXTINF:-1 tvg-id="武汉新闻综合" tvg-name="武汉一台新闻综合" tvg-logo="https://tb.zbds.top/logo/武汉一台新闻综合.png" group-title="News",武汉一台新闻综合
 https://ls.qingting.fm/live/20198/64k.m3u8
-#EXTINF:-1 tvg-id="14197" tvg-name="武汉新闻综合" tvg-logo="https://epg.pw/media/images/channel/2022/05/31/large/20220531142758356475_67.jpg" group-title="News",武汉新闻综合 (720p)
+#EXTINF:-1 tvg-id="[HD]武汉新闻综合" tvg-name="武汉新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E6%AD%A6%E6%B1%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",武汉新闻综合 (720p)
 https://epg.pw/stream/277c2b350a2b37b80dd8a4b766d55c7bf7b44e2b0cdfbe38024cf5803f80ace4.m3u8
 #EXTINF:-1 tvg-id="14200" tvg-name="武汉经济" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530223218382697_19.jpg" group-title="News",武汉经济 (720p)
 https://epg.pw/stream/60692e28a9cf28d4d2bc7f266c2bca9418f30b3ffdc15f5f702871690d35acfa.m3u8
@@ -1730,7 +1743,7 @@ https://stream1.freetv.fun/78ff2a1906b458cac0f424556a4d75cad5a332397e9f103400ef6
 #EXTINF:-1 tvg-id="济南新闻综合" tvg-country="CN" tvg-name="济南新闻综合" tvg-logo="https://www.tvchinese.net/uploads/tv/jnxwzh.jpg" group-title="News",济南新闻综合
 https://stream1.freetv.fun/ji-nan-zong-he-2.m3u8
 #EXTINF:-1 tvg-id="浙江公共新闻" tvg-name="浙江公共新闻" tvg-logo="https://tb.zbds.top/logo/浙江公共新闻.png" group-title="News",浙江公共新闻
-https://ali-m-l.cztv.com/channels/lantian/channel007/1080p.m3u8
+http://ali-m-l.cztv.com/channels/lantian/channel07/1080p.m3u8
 #EXTINF:-1 tvg-id="[HD]浙江新闻" tvg-name="浙江新闻" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E6%B5%99%E6%B1%9F%E6%96%B0%E9%97%BB.png" group-title="News",浙江新闻 (720p)
 https://stream1.freetv.fun/03d41c16ba390e8c132dda44c07c14d196b43567d8d030a6a69515bb2a1bb4c5.m3u8
 #EXTINF:-1 tvg-id="海南新闻" tvg-name="海南新闻" tvg-logo="https://www.xn--rgv465a.top/tvlogo/海南新闻.png" group-title="News",海南新闻
@@ -1743,7 +1756,7 @@ http://tvpull.dxhmt.cn:9081/tv/11221-1.m3u8
 http://play.kankanlive.com/live/1720408280309109.m3u8
 #EXTINF:-1 tvg-id="湖州新闻综合" tvg-name="湖州新闻综合" tvg-logo="https://tb.zbds.top/logo/湖州新闻综合.png" group-title="News",湖州新闻综合
 http://hzcm-live.media.hugd.com/3f5fa7d64c7c46a38c6bd8ad35e836cc/65128273761b4731ae53729ea6dcf932.m3u8?auth_key=2277598215-9d21c15111244bea8d298c361d31a72e-0-d031198f58d44b0e91ba2e3f3b188865
-#EXTINF:-1 tvg-id="湘潭新闻综合_(720p)" tvg-name="湘潭新闻综合_" tvg-logo="https://live.fanmingming.com/tv/%E6%B9%98%E6%BD%AD%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%28720p%29.png" group-title="News",湘潭新闻综合_ (720p)
+#EXTINF:-1 tvg-id="湘潭新闻综合" tvg-name="湘潭新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E6%B9%98%E6%BD%AD%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",湘潭新闻综合 (720p)
 http://live.hnxttv.com:9601/live/xwzh/800K/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="[HD]溧水新闻综合" tvg-name="溧水新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E6%BA%A7%E6%B0%B4%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",溧水新闻综合 (720p)
 https://stream1.freetv.fun/bc6ce82955dde88faa3a6714def7e94325c04a72f88750293ed163e8560cd894.ctv
@@ -1753,7 +1766,7 @@ http://live.cztv.cc:85/live/xwpd.m3u8?zanhd
 http://tvpull.dxhmt.cn:9081/tv/10526-1.m3u8?%E5%85%B3%E6%B3%A8%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7[%E6%99%B4%E5%9B%AD]
 #EXTINF:-1 tvg-id="滦平新闻" tvg-name="滦平新闻" tvg-logo="https://tb.zbds.top/logo/滦平新闻.png" group-title="News",滦平新闻
 http://jwplay.hebyun.com.cn/live/LPTV001/1500k/tzwj_video.m3u8
-#EXTINF:-1 tvg-id="滨海新闻_(1080p)" tvg-name="滨海新闻_" tvg-logo="https://live.fanmingming.com/tv/%E6%BB%A8%E6%B5%B7%E6%96%B0%E9%97%BB_%281080p%29.png" group-title="News",滨海新闻_ (1080p)
+#EXTINF:-1 tvg-id="滨海新闻" tvg-name="滨海新闻" tvg-logo="https://live.fanmingming.com/tv/%E6%BB%A8%E6%B5%B7%E6%96%B0%E9%97%BB.png" group-title="News",滨海新闻 (1080p)
 http://60.30.52.41/live/bhtv1/playlist.m3u8
 #EXTINF:-1 tvg-id="漳州新闻综合" tvg-name="漳州新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E6%BC%B3%E5%B7%9E%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",漳州新闻综合 (720p)
 https://31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175.m3u8
@@ -1761,7 +1774,7 @@ https://31182.hlsplay.aodianyun.com/lms_31182/tv_channel_175.m3u8
 https://stream1.freetv.fun/ipv6-wei-fang-xin-wen-zong-he-2.m3u8
 #EXTINF:-1 tvg-id="灌阳新闻综合" tvg-name="灌阳新闻综合" tvg-logo="https://tb.zbds.top/logo/灌阳新闻综合.png" group-title="News",灌阳新闻综合
 https://ls.qingting.fm/live/5043/64k.m3u8
-#EXTINF:-1 tvg-id="灵台新闻综合_(1080p)" tvg-name="灵台新闻综合_" tvg-logo="https://live.fanmingming.com/tv/%E7%81%B5%E5%8F%B0%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%281080p%29.png" group-title="News",灵台新闻综合_ (1080p)
+#EXTINF:-1 tvg-id="灵台新闻综合" tvg-name="灵台新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E7%81%B5%E5%8F%B0%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",灵台新闻综合 (1080p)
 http://117.156.28.119/270000001111/1110000145/index.m3u8
 #EXTINF:-1 tvg-id="灵宝新闻综合" tvg-name="灵宝新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/灵宝新闻综合.png" group-title="News",灵宝新闻综合
 http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8?zhend
@@ -1775,12 +1788,10 @@ https://stream2.jlntv.cn/baishan1/sd/live.m3u8
 https://stream1.freetv.fun/d3a7390774857f44105c49014cc8b829c5cdead36133c4ee079c24c23a12280f.ctv
 #EXTINF:-1 tvg-id="石家庄新闻综合" tvg-name="石家庄新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/石家庄新闻综合.png" group-title="News",石家庄新闻综合
 https://stream1.freetv.fun/shi-jia-zhuang-xin-wen-zong-he-5.ctv
-#EXTINF:-1 tvg-id="福州广播电视台新闻综合频道_(FZTV-1)_(1080p)" tvg-name="福州广播电视台新闻综合频道_(FZTV-1)_" tvg-logo="https://live.fanmingming.com/tv/%E7%A6%8F%E5%B7%9E%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%8F%B0%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93_%28FZTV-1%29_%281080p%29.png" group-title="News",福州广播电视台新闻综合频道_(FZTV-1)_ (1080p)
+#EXTINF:-1 tvg-id="福州广播电视台新闻综合频道 (FZTV-1)" tvg-name="福州广播电视台新闻综合频道 (FZTV-1)" tvg-logo="https://live.fanmingming.com/tv/%E7%A6%8F%E5%B7%9E%E5%B9%BF%E6%92%AD%E7%94%B5%E8%A7%86%E5%8F%B0%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88%E9%A2%91%E9%81%93%20%28FZTV-1%29.png" group-title="News",福州广播电视台新闻综合频道 (FZTV-1) (1080p)
 http://live.zohi.tv/video/s10001-fztv-1/index.m3u8
 #EXTINF:-1 tvg-id="绍兴新闻综合" tvg-name="绍兴新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/绍兴新闻综合.png" group-title="News",绍兴新闻综合
 https://t.freetv.fun/live/shao-xing-xin-wen-zong-he-2.m3u8
-#EXTINF:-1 tvg-id="缙云新闻综合" tvg-name="缙云新闻综合" tvg-logo="https://tb.zbds.top/logo/缙云新闻综合.png" group-title="News",缙云新闻综合
-http://l.cztvcloud.com/channels/lantian/SXjinyun1/720p.m3u8
 #EXTINF:-1 tvg-id="苍南新闻综合" tvg-name="苍南新闻综合" tvg-logo="https://www.xn--rgv465a.top/tvlogo/苍南新闻综合.png" group-title="News",苍南新闻综合
 https://stream1.freetv.fun/cang-nan-xin-wen-zong-he-4.ctv
 #EXTINF:-1 tvg-id="苏州新闻综合" tvg-name="苏州新闻综合" tvg-logo="https://tb.zbds.top/logo/苏州新闻综合.png" group-title="News",苏州新闻综合
@@ -1789,7 +1800,7 @@ https://live-auth.51kandianshi.com/szgd/csztv1.m3u8
 https://stream1.freetv.fun/jing-men-xin-wen-zong-he-6.m3u8
 #EXTINF:-1 tvg-id="萧山新闻综合" tvg-name="萧山新闻综合" tvg-logo="https://live.fanmingming.com/tv/%E8%90%A7%E5%B1%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",萧山新闻综合 (720p)
 https://l.cztvcloud.com/channels/lantian/SXxiaoshan1/720p.m3u8
-#EXTINF:-1 tvg-id="蓬安新闻综合" tvg-name="蓬安新闻综合" tvg-logo="https://epg.pw/media/uploads/tmp_logo/2018/10/29/20181029070101598442_29.jpg" group-title="News",蓬安新闻综合 (720p)
+#EXTINF:-1 tvg-id="[HD]蓬安新闻综合" tvg-name="蓬安新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E8%93%AC%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",蓬安新闻综合 (720p)
 https://epg.pw/stream/8c5ee0bba6ced1dbcc2a892b8fe4aaaa2a0dcf75e0d618cb21a0944508a5692d.m3u8
 #EXTINF:-1 tvg-id="蓬安新闻综合_(720p)_[Not_24/7]" tvg-name="蓬安新闻综合_ _[Not_24/7]" tvg-logo="https://live.fanmingming.com/tv/%E8%93%AC%E5%AE%89%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88_%28720p%29_%5BNot_24/7%5D.png" group-title="News",蓬安新闻综合_ _[Not_24/7] (720p)
 http://palive.patv123.com:8091/live/xwpd_800K.m3u8
@@ -1799,7 +1810,7 @@ https://liveplay-srs.voc.com.cn/hls/tv/183_554704.m3u8
 https://t.freetv.fun/live/qu-jiang-xin-wen-zong-he.m3u8
 #EXTINF:-1 tvg-id="诸暨新闻综合" tvg-name="诸暨新闻综合" tvg-logo="https://tb.zbds.top/logo/诸暨新闻综合.png" group-title="News",诸暨新闻综合
 https://l.cztvcloud.com/channels/lantian/SXzhuji3/720p.m3u8
-#EXTINF:-1 tvg-id="象山新闻综合" tvg-name="象山新闻综合" tvg-logo="https://epg.pw/media/img/logo/3_388.jpg" group-title="News",象山新闻综合 (720p)
+#EXTINF:-1 tvg-id="[HD]象山新闻综合" tvg-name="象山新闻综合" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E8%B1%A1%E5%B1%B1%E6%96%B0%E9%97%BB%E7%BB%BC%E5%90%88.png" group-title="News",象山新闻综合 (720p)
 https://epg.pw/stream/19c5142ea270b459d4f7b4bd6ee40d94f774a61bfc3ee98a4a41f31e4a2956f6.m3u8
 #EXTINF:-1 tvg-id="赣州新闻" tvg-name="赣州新闻" tvg-logo="https://live.fanmingming.cn/tv/赣州新闻.png" group-title="News",赣州新闻
 https://pili-live-hls-sjxgz2024.sobeylive.com/jxgz2024/396_q_live172526329228525.m3u8

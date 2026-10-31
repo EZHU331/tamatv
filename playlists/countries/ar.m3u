@@ -19,10 +19,10 @@ https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
 https://videostream.shockmedia.com.ar/hls/multivisionfederal/multivisionfederal.m3u8
 #EXTINF:-1 tvg-id="QuanticaTV.ar@SD" tvg-country="AR" tvg-name="Quantica TV" tvg-logo="https://i.imgur.com/6f8EYC2.jpeg" group-title="News",Quantica TV
 https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8
+#EXTINF:-1 tvg-id="TN.ar@SD" tvg-country="AR" tvg-name="TN" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News",TN (1080p)
+http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-id="VIVETV.ar@HD" tvg-country="AR" tvg-name="VIVE TV" tvg-logo="https://raw.githubusercontent.com/vivetvargentina/vive-tv/main/Logo%20512x512-04.png" group-title="News",VIVE TV (1080p)
 https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
-#EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-country="AR" tvg-name="Canal Showsport" tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="Sports",Canal Showsport (720p)
-https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-country="AR" tvg-name="DeporTV" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="Sports",DeporTV (1080p)
 http://158.172.155.130:8000/play/a09y/index.m3u8
 #EXTINF:-1 tvg-id="ESPNPremium.ar@HD" tvg-country="AR" tvg-name="ESPN Premium" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/ESPN_Premium_logo.svg/960px-ESPN_Premium_logo.svg.png" group-title="Sports",ESPN Premium HD (1080p)
@@ -259,6 +259,8 @@ http://45.171.64.30:6060/play/a04n/index.m3u8
 https://stream.t5satelital.blog/hls/t5satelitalweb.m3u8
 #EXTINF:-1 tvg-id="Telefe.ar@SD" tvg-country="AR" tvg-name="Telefe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe (1080p)
 http://45.173.231.22:8000/play/a053/index.m3u8
+#EXTINF:-1 tvg-id="TelefeBuenosAires.ar@SD" tvg-country="AR" tvg-name="Telefe Buenos Aires" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Buenos Aires (1080p)
+http://45.134.141.161:2200/ARG/TELEFE_HD/index.m3u8
 #EXTINF:-1 tvg-id="TelefeInterior.ar@SD" tvg-country="AR" tvg-name="Telefe Interior" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Telefe_%28nuevo_logo%29.png/960px-Telefe_%28nuevo_logo%29.png" group-title="General",Telefe Interior (720p)
 http://200.91.32.158:8080/telefehdvalle/index.m3u8
 #EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-country="AR" tvg-name="Telefe Internacional" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="General",Telefe Internacional (1080p)
@@ -269,6 +271,8 @@ https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Telemax.ar@SD" tvg-country="AR" tvg-name="Telemax" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Telemax_Argentina_%282018%29.png/960px-Telemax_Argentina_%282018%29.png" group-title="General",Telemax (Argentina)
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
+#EXTINF:-1 tvg-id="Telenord.ar@SD" tvg-country="AR" tvg-name="Telenord" tvg-logo="https://i.imgur.com/yqXORkt.png" group-title="General",Telenord (Argentina) (1080p)
+http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Telesol.ar@SD" tvg-country="AR" tvg-name="Telesol" tvg-logo="https://i.imgur.com/79sTxtP.png" group-title="General",Telesol (1080p)
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
 #EXTINF:-1 tvg-id="TIVTelevision.ar@SD" tvg-country="AR" tvg-name="TIV Television" tvg-logo="https://i.imgur.com/gsgXGEj.png" group-title="General",TIV Television (720p)
@@ -277,8 +281,6 @@ https://videohd.live:19360/8008/8008.m3u8
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPublicaFueguina.ar@SD" tvg-country="AR" tvg-name="TV Publica Fueguina" tvg-logo="https://i.imgur.com/4dUvFqa.png" group-title="General",TV Publica Fueguina (1080p)
 https://nd106.republicaservers.com/hls/c8094/index.m3u8
-#EXTINF:-1 tvg-id="TVPublicaMarcosPaz.ar@SD" tvg-country="AR" tvg-name="TV Publica Marcos Paz" tvg-logo="https://i.imgur.com/CRmY4Oi.png" group-title="General",TV Publica Marcos Paz (720p)
-https://ca.centaurychile.com:2443/hls/mediospublicos.m3u8
 #EXTINF:-1 tvg-id="Uniteve.ar@SD" tvg-country="AR" tvg-name="Uniteve" tvg-logo="https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg" group-title="General",Uniteve (720p)
 https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8
 #EXTINF:-1 tvg-id="UrbanMix.ar@SD" tvg-country="AR" tvg-name="Urban Mix" tvg-logo="https://tvomix.com/Logos/Urbanmix.png" group-title="General",Urban Mix (720p)

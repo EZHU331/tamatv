@@ -15,6 +15,8 @@ https://copacogen.desdeparaguay.net/npy/npy_py_alta/playlist.m3u8?admin=tvaccion
 https://live.enhdtv.com:8081/8060/index.m3u8
 #EXTINF:-1 tvg-id="Unicanal.py@SD" tvg-country="PY" tvg-name="Unicanal" tvg-logo="https://i.imgur.com/cgTD2TW.png" group-title="News",Unicanal
 http://45.170.130.224:8000/play/a04y/index.m3u8?hls
+#EXTINF:-1 tvg-id="TigoSports.py@SD" tvg-country="PY" tvg-name="Tigo Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Tigo_Sports_2025.png/960px-Tigo_Sports_2025.png" group-title="Sports",Tigo Sports (Paraguay)
+http://45.134.141.161:2200/ARG/Tigo_Sports/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="NextHD.py@SD" tvg-country="PY" tvg-name="Next HD" tvg-logo="https://i.imgur.com/c2rF3SS.png" group-title="Movies",Next HD (720p)
 https://live.enhdtv.com:19360/nexthd/nexthd.m3u8
 #EXTINF:-1 tvg-id="AltMediaTV.py@SD" tvg-country="PY" tvg-name="Alt Media TV" tvg-logo="https://i.imgur.com/YkOgWMc.png" group-title="Entertainment",Alt Media TV
@@ -61,8 +63,6 @@ http://45.170.130.224:8000/play/a03x/index.m3u8?hls
 https://rds3.desdeparaguay.net/caritastv/caritastv/playlist.m3u8
 #EXTINF:-1 tvg-id="NandejaraNeeTV.py@SD" tvg-country="PY" tvg-name="Nandejara Ne'e TV" tvg-logo="https://i.imgur.com/VFxuBdL.jpg" group-title="Religious",Nandejara Ne'e TV
 https://copacogen.desdeparaguay.net/nandejaraneetv/nandejaraneetv/playlist.m3u8?admin=tvaccion
-#EXTINF:-1 tvg-id="RadioTVElArcadelPacto.py@SD" tvg-country="PY" tvg-name="Radio TV El Arca del Pacto" tvg-logo="https://i.imgur.com/Oq0i3Rb.png" group-title="Religious",Radio TV El Arca del Pacto (1080p)
-https://video.wilohosting.com:19360/radiotvelarcadelpacto/radiotvelarcadelpacto.m3u8
 #EXTINF:-1 tvg-id="RCCTV.py@SD" tvg-country="PY" tvg-name="RCC TV" tvg-logo="https://i.imgur.com/sd9iOIh.png" group-title="Religious",RCC TV (1080p)
 https://copacoradios.desdeparaguay.net/rcctv/rcctv/playlist.m3u8?admin=nacion
 #EXTINF:-1 tvg-id="AGRFMTV.py@SD" tvg-country="PY" tvg-name="AGR FM TV" tvg-logo="https://i.imgur.com/tg6EjTU.png" group-title="General",AGR FM TV
@@ -88,8 +88,6 @@ https://copacotf.desdeparaguay.net/latele/latele_py_alta/playlist.m3u8?admin=tva
 #EXTINF:-1 tvg-id="MonumentalTV.py@SD" tvg-country="PY" tvg-name="Monumental TV" tvg-logo="https://i.imgur.com/kEcOYML.png" group-title="General" http-referrer="https://www.monumental.com.py/",Monumental TV (1080p)
 #EXTVLCOPT:http-referrer=https://www.monumental.com.py/
 https://copacogen.desdeparaguay.net/monumentaltv/monumentaltv_alta/playlist.m3u8?admin=tvaccion
-#EXTINF:-1 tvg-id="OviedoTV.py@SD" tvg-country="PY" tvg-name="Oviedo TV" tvg-logo="https://i.imgur.com/6OlfgSQ.png" group-title="General",Oviedo TV
-https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8
 #EXTINF:-1 tvg-id="ParaguayTV.py@SD" tvg-country="PY" tvg-name="Paraguay TV" tvg-logo="https://i.imgur.com/fkK7i8g.png" group-title="General",Paraguay TV (1080p)
 https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
 #EXTINF:-1 tvg-id="Paravision.py@SD" tvg-country="PY" tvg-name="Paravision" tvg-logo="https://i.imgur.com/yd9Dw2G.png" group-title="General",Paravision
@@ -100,6 +98,8 @@ https://tvdatta.com:3991/live/guairatvlive.m3u8
 https://video.hostingcaaguazu.com:19360/rbtv/rbtv.m3u8
 #EXTINF:-1 tvg-id="RedDigital.py@SD" tvg-country="PY" tvg-name="Red Digital" tvg-logo="https://i.imgur.com/3jj0MQP.jpg" group-title="General",Red Digital (1080p)
 https://video.hostingcaaguazu.com:19360/reddigitalsanpedro/reddigitalsanpedro.m3u8
+#EXTINF:-1 tvg-id="RedInteriorTV.py@SD" tvg-country="PY" tvg-name="Red Interior TV" tvg-logo="https://i.imgur.com/z89GLCw.png" group-title="General",Red Interior TV
+https://video.wilohosting.com:19360/redinteriortv/redinteriortv.m3u8
 #EXTINF:-1 tvg-id="RegionalTVYaguaron.py@SD" tvg-country="PY" tvg-name="Regional TV Yaguaron" tvg-logo="https://i.imgur.com/iL5JnSy.jpeg" group-title="General",Regional TV Yaguaron (1080p)
 https://video.hostingcaaguazu.com:19360/regionaltv/regionaltv.m3u8
 #EXTINF:-1 tvg-id="RepublicaTV.py@SD" tvg-country="PY" tvg-name="Republica TV" tvg-logo="https://i.ibb.co/qYRw4JP/Captura.png" group-title="General",Republica TV (720p)
