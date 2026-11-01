@@ -3,6 +3,8 @@
 https://stream-aleph.m.ro/Aleph/ngrp:Alephnewsmain.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Antena3CNN.ro" tvg-country="RO" tvg-name="Antena 3 CNN" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/82/Antena_3_CNN_2022_v1.png/revision/latest/scale-to-width-down/512" group-title="News",Antena 3 CNN
 https://live3vox.antenaplay.ro/a3free/a3free.m3u8
+#EXTINF:-1 tvg-id="Antena3Suceava.ro@SD" tvg-country="RO" tvg-name="Antena 3 Suceava" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/65/Antena_3_Suceava_slogan.svg/revision/latest/scale-to-width-down/1000?cb=20240522203102" group-title="News",Antena 3 Suceava (576i)
+https://livestream.a3sv.ro/master.m3u8
 #EXTINF:-1 tvg-id="B1.ro@SD" tvg-country="RO" tvg-name="B1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/B1_TV_logo.svg/960px-B1_TV_logo.svg.png" group-title="News",B1
 https://hls02ns.antenaplay.ro/hls/b1-tv-hd/index.m3u8
 #EXTINF:-1 tvg-id="Digi24.ro@SD" tvg-country="RO" tvg-name="Digi 24" tvg-logo="https://i.imgur.com/qmRnD0M.png" group-title="News",Digi 24 (720p)
@@ -19,7 +21,7 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-voyo-news/live_fullhd?offsetSec
 https://vdo.ssl-stream.com:3247/stream/play.m3u8
 #EXTINF:-1 tvg-id="TVSUD.ro@SD" tvg-country="RO" tvg-name="TV SUD" tvg-logo="https://i.imgur.com/m3Slmbe.png" group-title="News",TV SUD (1080p)
 https://stream2.live-stream.ro/WebRTCApp/streams/118334672595255049029831.m3u8
-#EXTINF:-1 tvg-id="TVRInfo.ro@SD" tvg-country="RO" tvg-name="TVR Info" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="News",TVR Info
+#EXTINF:-1 tvg-id="TVRInfo.ro" tvg-country="RO" tvg-name="TVR Info" tvg-logo="https://i.imgur.com/7oE7ThR.png" group-title="News",TVR Info Ⓖ
 https://tvr-info.lg.mncdn.com/tvrinfo/smil:tvrinfo.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NHLAntenaPlay.ro@SD" tvg-country="RO" tvg-name="NHL AntenaPlay" tvg-logo="https://assets.antenaplay.ro/2024/10/25/SN0nevshXwKDcZ2Tw1jm.png" group-title="Sports",NHL AntenaPlay
 https://live4dai.antenaplay.ro/live2_sdi03/live2_sdi03_600k.m3u8
@@ -67,6 +69,8 @@ https://tvr-cultural.lg.mncdn.com/tvrcultural/smil:tvrcultural.smil/playlist.m3u
 #EXTINF:-1 tvg-id="BoomTV.ro@HD" tvg-country="RO" tvg-name="Boom TV" tvg-logo="https://live.radioboom.ro/live-tv/poster.jpg" group-title="Music" http-referrer="https://tvboom.ro/",Boom TV (1080p)
 #EXTVLCOPT:http-referrer=https://tvboom.ro/
 https://tvboom.ro/live-tv/live.m3u8
+#EXTINF:-1 tvg-id="DiscoMix.ro@SD" tvg-country="RO" tvg-name="Disco Mix" tvg-logo="https://www.discomix.ro/wp-content/uploads/2023/03/Disco-Mix-1.png" group-title="Music",Disco Mix (576i)
+https://vs2129.vcdn.biz/781da550c3e711e56f17de33318050f9_megogo/live/hls/b/700_2490_4000/u_sid/0/o/183395021/rsid/39f910cb-e9d4-46a0-b2fb-a12bfc104baf/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.41*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8
 #EXTINF:-1 tvg-id="EMITV.ro@SD" tvg-country="RO" tvg-name="EMI TV" tvg-logo="https://i.imgur.com/B5zssCz.png" group-title="Music",EMI TV (576i)
 https://hls01ns.antenaplay.ro/hls/emi-tv-sd/index.m3u8
 #EXTINF:-1 tvg-id="ImpactTV2.ro@HD" tvg-country="RO" tvg-name="Impact TV 2" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwL2-8r1l1NDdmA6jkZYvHxPFrsIA7a8m-XdSpwC6Z&s=10" group-title="Music",Impact TV 2 (1080p)
@@ -82,8 +86,8 @@ https://online.tvimpact.live/hls/impact_tv.m3u8
 https://tv.broadcasting.ro/kisstv/a629c031-2170-4ee9-a36d-87a891aa3131.m3u8
 #EXTINF:-1 tvg-id="MagicTV.ro@SD" tvg-country="RO" tvg-name="Magic TV" tvg-logo="https://i.imgur.com/9izrr4d.png" group-title="Music",Magic TV (Romania) (720p)
 https://tv.broadcasting.ro/magictv/925f90db-5c88-4190-a53d-5163cdffe6f4.m3u8
-#EXTINF:-1 tvg-id="MoozDance.ro@SD" tvg-country="RO" tvg-name="Mooz Dance" tvg-logo="https://i.imgur.com/aX70RD2.png" group-title="Music",Mooz Dance
-https://tvextra-hls.b-cdn.net/moozdance/moozdance.m3u8
+#EXTINF:-1 tvg-id="MoozDance.ro@HD" tvg-country="RO" tvg-name="Mooz Dance" tvg-logo="https://i.imgur.com/aX70RD2.png" group-title="Music",Mooz Dance HD (1080i) (720p)
+https://meta.vcdn.biz/bb45aeed3156b62f01b6ca222920d46b_megogo/live/hls/b/700_2500/u_sid/0/o/183161921/rsid/20877e0c-fb47-4c47-a29d-19fadadbccb7/u_uid/2260062697/u_vod/0/u_device/cms_html5/u_devicekey/_site/lip/81.196.174.41*asn/u_srvc/109126/u_did/web_c02d0d195494991ada83b5ae2a2f87d6041c11b1b8f79fc86ae5b7b557894fa0/type.live/playlist.m3u8
 #EXTINF:-1 tvg-id="MoozHits.ro@SD" tvg-country="RO" tvg-name="Mooz Hits" tvg-logo="https://i.imgur.com/GwATd3Y.png" group-title="Music",Mooz Hits
 https://tvextra-hls.b-cdn.net/moozhits/moozhits.m3u8
 #EXTINF:-1 tvg-id="MoozRo.ro@SD" tvg-country="RO" tvg-name="Mooz Ro!" tvg-logo="https://i.imgur.com/Ft24x5T.png" group-title="Music",Mooz Ro!
@@ -174,6 +178,8 @@ http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-international/live_fullhd
 https://live.ro24tv.ro/hls/stream.m3u8
 #EXTINF:-1 tvg-id="QubTV.ro@SD" tvg-country="RO" tvg-name="Qub TV" tvg-logo="https://i.imgur.com/GvyF2Wh.png" group-title="General",Qub TV
 https://live.djemba.ro/memfs/474f9942-f72b-4130-817a-435cd54b2c36.m3u8
+#EXTINF:-1 tvg-id="RapsodiaTV.ro@SD" tvg-country="RO" tvg-name="Rapsodia TV" tvg-logo="https://i.imgur.com/mwMG7BB.png" group-title="General",Rapsodia TV
+http://hls02ns.antenaplay.ro/hls/rapsoida-tv-sd/index.m3u8
 #EXTINF:-1 tvg-id="RealitateaPlus.ro@SD" tvg-country="RO" tvg-name="Realitatea Plus" tvg-logo="https://mailx.realitatea.net/skins/elastic/rtv.svg?s=1769106830" group-title="General",Realitatea Plus (720p)
 https://stream.realitatea.net/realitatea/plus_md/ts:playlist.m3u8
 #EXTINF:-1 tvg-id="RealitateaStar.ro@SD" tvg-country="RO" tvg-name="Realitatea Star" tvg-logo="https://i.imgur.com/bNdpyAZ.png" group-title="General",Realitatea Star (576i)
@@ -182,27 +188,27 @@ https://stream.realitatea.net/realitatea/star_md/ts:playlist.m3u8
 https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tele7ABCHD.ro@SD" tvg-country="RO" tvg-name="Tele7ABC HD" tvg-logo="https://i.imgur.com/CheqyWH.png" group-title="General",Tele7ABC HD (720p)
 https://live.tele7abc.ro/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="Telestar1.ro@SD" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
+#EXTINF:-1 tvg-id="Telestar1.ro" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 #EXTINF:-1 tvg-id="TrinitasTV.ro@SD" tvg-country="RO" tvg-name="Trinitas TV" tvg-logo="https://i.imgur.com/mOPEttN.png" group-title="General",Trinitas TV (576i)
 https://hls01ns.antenaplay.ro/hls/trinitas-tv-sd/index.m3u8
 #EXTINF:-1 tvg-id="TVArad.ro@SD" tvg-country="RO" tvg-name="TV Arad" tvg-logo="https://i.imgur.com/4yZV72X.png" group-title="General",TV Arad (576i)
 https://live.djemba.ro/memfs/1b01c281-126d-4787-9d51-9e06c96bb9f9.m3u8
-#EXTINF:-1 tvg-id="TVR1.ro@SD" tvg-country="RO" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CcUX1gB.png" group-title="General",TVR 1
+#EXTINF:-1 tvg-id="TVR1.ro" tvg-country="RO" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CcUX1gB.png" group-title="General",TVR 1 Ⓖ
 https://tvr-1.lg.mncdn.com/tvr1/smil:tvr1.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR2.ro@SD" tvg-country="RO" tvg-name="TVR 2" tvg-logo="https://i.imgur.com/mKouHIZ.png" group-title="General",TVR 2
+#EXTINF:-1 tvg-id="TVR2.ro" tvg-country="RO" tvg-name="TVR 2" tvg-logo="https://i.imgur.com/mKouHIZ.png" group-title="General",TVR 2 Ⓖ
 https://tvr-2.lg.mncdn.com/tvr2/smil:tvr2.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVR3.ro@SD" tvg-country="RO" tvg-name="TVR 3" tvg-logo="https://i.imgur.com/yHCuTap.png" group-title="General",TVR 3
+#EXTINF:-1 tvg-id="TVR3.ro" tvg-country="RO" tvg-name="TVR 3" tvg-logo="https://i.imgur.com/yHCuTap.png" group-title="General",TVR 3 Ⓖ
 https://tvr-3.lg.mncdn.com/tvr3/smil:tvr3.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRCluj.ro@SD" tvg-country="RO" tvg-name="TVR Cluj" tvg-logo="https://i.imgur.com/RkDra93.png" group-title="General",TVR Cluj
+#EXTINF:-1 tvg-id="TVRCluj.ro" tvg-country="RO" tvg-name="TVR Cluj" tvg-logo="https://i.imgur.com/RkDra93.png" group-title="General",TVR Cluj Ⓖ
 https://tvr-cluj.lg.mncdn.com/tvrcluj/smil:tvrcluj.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRCraiova.ro@SD" tvg-country="RO" tvg-name="TVR Craiova" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="General",TVR Craiova
+#EXTINF:-1 tvg-id="TVRCraiova.ro" tvg-country="RO" tvg-name="TVR Craiova" tvg-logo="https://i.imgur.com/vxWbQiy.png" group-title="General",TVR Craiova Ⓖ
 https://tvr-craiova.lg.mncdn.com/tvrcraiova/smil:tvrcraiova.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRIasi.ro@SD" tvg-country="RO" tvg-name="TVR Iasi" tvg-logo="https://i.imgur.com/Kxkihds.png" group-title="General",TVR Iasi
 https://tvr-iasi.lg.mncdn.com/tvriasi/smil:tvriasi.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRInternational.ro@SD" tvg-country="RO" tvg-name="TVR International" tvg-logo="https://i.imgur.com/w28wcHs.png" group-title="General",TVR International
+#EXTINF:-1 tvg-id="TVRInternational.ro" tvg-country="RO" tvg-name="TVR International" tvg-logo="https://i.imgur.com/w28wcHs.png" group-title="General",TVR International Ⓖ
 https://tvr-international.lg.mncdn.com/tvrinternational/smil:tvrinternational.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRTarguMures.ro@SD" tvg-country="RO" tvg-name="TVR Targu-Mures" tvg-logo="https://i.imgur.com/9Hptdqj.png" group-title="General",TVR Targu-Mures
-https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="TVRTimisoara.ro@SD" tvg-country="RO" tvg-name="TVR Timisoara" tvg-logo="https://i.imgur.com/0x6Edei.png" group-title="General",TVR Timisoara
+#EXTINF:-1 tvg-id="TVRTimisoara.ro" tvg-country="RO" tvg-name="TVR Timișoara" tvg-logo="https://i.imgur.com/0x6Edei.png" group-title="General",TVR Timișoara Ⓖ
 https://tvr-timisoara.lg.mncdn.com/tvrtimisoara/smil:tvrtimisoara.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVRTarguMures.ro" tvg-country="RO" tvg-name="TVR Tîrgu-Mureș" tvg-logo="https://i.imgur.com/9Hptdqj.png" group-title="General",TVR Tîrgu-Mureș Ⓖ
+https://tvr-tgmures.lg.mncdn.com/tvrtgmures/smil:tvrtgmures.smil/playlist.m3u8
