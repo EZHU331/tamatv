@@ -1,10 +1,16 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="CEACOMTV.bo@SD" tvg-country="BO" tvg-name="CEACOM TV" tvg-logo="https://i.imgur.com/hutdRfk.png" group-title="News",CEACOM TV (1080p)
 https://eu1.servers10.com:8081/ceacom/index.m3u8
+#EXTINF:-1 tvg-id="UMSATVULP.bo@SD" tvg-country="BO" tvg-name="UMSA TVU LP" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/logo+tvu+icon.png/4367e79e-4541-d340-0e82-3943b73e7b18?t=1747686917412" group-title="News",UMSA TVU LP (720p)
+https://edge.enhdtv.com/8190/index.m3u8
 #EXTINF:-1 tvg-id="Unifranz.bo@HD" tvg-country="BO" tvg-name="Unifranz" tvg-logo="https://unifranz.edu.bo/wp-content/themes/unifranz-web/public/images/logos/logo-light-min.442cee.svg" group-title="News",Unifranz (720p)
 https://edge.enhdtv.com/8192/index.m3u8
 #EXTINF:-1 tvg-id="FTV.bo@SD" tvg-country="BO" tvg-name="FTV" tvg-logo="https://i.imgur.com/YOr1Oac.png" group-title="Sports",FTV (Bolivia) (720p)
 https://master.tucableip.com/ftvhd/index.m3u8
+#EXTINF:-1 tvg-id="UMSATVUInternacional.bo@HD" tvg-country="BO" tvg-name="UMSA TVU Internacional" tvg-logo="https://tvu.umsa.bo/documents/780216/12171558/Logo+TVU-Int.png/b67c9c61-7516-e38a-a425-72e61f3824c6?t=1751574228493" group-title="Documentary",UMSA TVU Internacional (720p)
+https://edge.enhdtv.com/8026/index.m3u8
+#EXTINF:-1 tvg-id="RadioUniversitariaSanAndres.bo@SD" tvg-country="BO" tvg-name="Radio Universitaria San Andres" tvg-logo="https://tvu.umsa.bo/documents/780216/0/LogoRUSA+%283%29.jpg" group-title="Education",Radio Universitaria San Andres (720p)
+https://edge.enhdtv.com/8054/index.m3u8
 #EXTINF:-1 tvg-id="Audiokiss.bo@SD" tvg-country="BO" tvg-name="Audiokiss" tvg-logo="https://www.audiokiss.com/audiokiss/wp-content/uploads/sites/4/2021/02/Audio_kiss800-768x405.png" group-title="Music",Audiokiss (1080p)
 https://master.tucableip.com/audiokisstv/index.m3u8
 #EXTINF:-1 tvg-id="RadioClasicaTV.bo@SD" tvg-country="BO" tvg-name="Radio Clasica TV" tvg-logo="https://radioclasicapotosi.com/players/nexoplayer/assets/logo.png" group-title="Music",Radio Clasica TV (720p)
@@ -63,6 +69,8 @@ https://59d39900ebfb8.streamlock.net/telefehd/telefehd/playlist.m3u8
 https://59d39900ebfb8.streamlock.net/teleestrella/teleestrella/playlist.m3u8
 #EXTINF:-1 tvg-id="TVLatina.bo@SD" tvg-country="BO" tvg-name="TV Latina" tvg-logo="https://i.imgur.com/V6wxEdh.png" group-title="General",TV Latina (1080p)
 https://castv10.plugstreaming.com:19360/redtv/redtv.m3u8
+#EXTINF:-1 tvg-id="TVUSucre.bo@SD" tvg-country="BO" tvg-name="TVU Sucre" tvg-logo="https://i.imgur.com/7c0b4Y4.png" group-title="General",TVU Sucre (720p)
+https://edge.enhdtv.com/8214/index.m3u8
 #EXTINF:-1 tvg-id="Unitel.bo@SantaCruz" tvg-country="BO" tvg-name="Unitel" tvg-logo="https://integraciones.unitel.bo/v25/resources/unitel/images/png/logo-unitel-2026.png" group-title="General",Unitel (Bolivia) (1080p)
 http://190.181.61.93:8000/play/1909/index.m3u8
 #EXTINF:-1 tvg-id="UnivalleTelevision.bo@SD" tvg-country="BO" tvg-name="Univalle Television" tvg-logo="https://i.imgur.com/qgrWDIs.png" group-title="General",Univalle Television (1080p)
