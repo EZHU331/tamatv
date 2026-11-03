@@ -41,6 +41,8 @@ http://45.171.108.253:8888/LATINA/index.m3u8
 https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8
 #EXTINF:-1 tvg-id="LaTele.pe@SD" tvg-country="PE" tvg-name="La Tele" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png" group-title="Entertainment",La Tele (1080p)
 http://190.93.224.42/LA-TELE/index.m3u8
+#EXTINF:-1 tvg-id="NeoTV.pe@SD" tvg-country="PE" tvg-name="Neo TV" tvg-logo="https://i.imgur.com/bS5JtYX.jpeg" group-title="Entertainment",Neo TV (Peru) (720p)
+http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8
 #EXTINF:-1 tvg-id="RikuTV.pe@SD" tvg-country="PE" tvg-name="Riku TV" tvg-logo="https://i.imgur.com/XIDC4Mv.png" group-title="Entertainment",Riku TV (1080p)
 https://amixtv.com:8081/rikutv/index.m3u8
 #EXTINF:-1 tvg-id="TVKaliente.pe@SD" tvg-country="PE" tvg-name="TV Kaliente" tvg-logo="https://i.imgur.com/MFQpLuQ.png" group-title="Entertainment",TV Kaliente (720p)
@@ -51,6 +53,8 @@ https://cablered.iptvperu.tv:1936/cablered/west/playlist.m3u8
 http://45.70.201.81:8000/play/a00p/index.m3u8
 #EXTINF:-1 tvg-id="PequesTV.pe@SD" tvg-country="PE" tvg-name="Peques TV" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/01/06/04/1767647409377/6123aa5e7fc7.png" group-title="Kids",Peques TV (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8
+#EXTINF:-1 tvg-id="AsiriTV.pe@SD" tvg-country="PE" tvg-name="AsiriTV" tvg-logo="https://i.imgur.com/7bGVFBa.png" group-title="Culture",AsiriTV (720p)
+https://video2.lhdserver.es/asiritv/live.m3u8
 #EXTINF:-1 tvg-id="Cultura24.pe@SD" tvg-country="PE" tvg-name="Cultura 24" tvg-logo="https://i.imgur.com/h0LxXsx.png" group-title="Culture",Cultura 24
 https://www.opencaster.com/resources/hls_stream/cultura24.m3u8
 #EXTINF:-1 tvg-id="USMPTV.pe@SD" tvg-country="PE" tvg-name="USMPTV" tvg-logo="https://i.imgur.com/9cmIv3q.png" group-title="Culture",USMPTV (720p)
@@ -101,6 +105,10 @@ https://alfa.betheltv.tv/srt/3_abr/playlist.m3u8
 http://187.102.210.46/IPE/index.m3u8
 #EXTINF:-1 tvg-id="36TVHuacho.pe@SD" tvg-country="PE" tvg-name="36 TV Huacho" tvg-logo="https://i.imgur.com/F4NZM3s.jpeg" group-title="General",36 TV Huacho (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCTeleshow.pe@SD" tvg-country="PE" tvg-name="ABC Teleshow" tvg-logo="https://i.imgur.com/cF7gJ2Q.jpeg" group-title="General",ABC Teleshow (720p)
+https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8
+#EXTINF:-1 tvg-id="ABTelevision.pe@SD" tvg-country="PE" tvg-name="ABTelevision" tvg-logo="https://i.imgur.com/tqMDscD.png" group-title="General",ABTelevision (720p)
+https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AmazoniaTV.pe@SD" tvg-country="PE" tvg-name="Amazonia TV" tvg-logo="https://i.imgur.com/sSW7d8e.png" group-title="General",Amazonia TV
 https://servilive.com:3199/live/amazoniatvlive.m3u8
 #EXTINF:-1 tvg-id="AmazonicaTV.pe@SD" tvg-country="PE" tvg-name="Amazonica TV" tvg-logo="https://i.imgur.com/22ebHAX.jpeg" group-title="General",Amazonica TV (720p)
@@ -121,6 +129,8 @@ https://live.obslivestream.com/autenticatvmux/index.m3u8
 https://live-evg8.tv360.bitel.com.pe/bitel/bnbSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="CadenaTV.pe@HD" tvg-country="PE" tvg-name="Cadena TV" tvg-logo="https://i.imgur.com/stvzqzd.png" group-title="General",Cadena TV (720p)
 https://tv.bitstreaming.net:3789/live/cdntvlive.m3u8
+#EXTINF:-1 tvg-id="CajamarcaTV.pe@SD" tvg-country="PE" tvg-name="Cajamarca TV" tvg-logo="https://i.imgur.com/pC57NYv.png" group-title="General",Cajamarca TV (720p)
+https://live-evg8.tv360.bitel.com.pe/bitel/cajamarcatvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal8Catacaos.pe@SD" tvg-country="PE" tvg-name="Canal 8 Catacaos" tvg-logo="https://i.imgur.com/O5MrFjY.png" group-title="General",Canal 8 Catacaos (720p)
 https://live.obslivestream.com/canal8/index.m3u8
 #EXTINF:-1 tvg-id="Canal21Huancayo.pe@HD" tvg-country="PE" tvg-name="Canal 21 Huancayo" tvg-logo="https://i.imgur.com/Kfdkm06.png" group-title="General",Canal 21 Huancayo (720p)
