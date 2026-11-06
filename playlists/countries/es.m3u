@@ -66,7 +66,7 @@ http://181.78.109.48:8000/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="TodoNovelas.es@SD" tvg-country="ES" tvg-name="Todo Novelas" tvg-logo="https://i.imgur.com/NuYwGok.png" group-title="Series",Todo Novelas (1080p)
 https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-country="ES" tvg-name="TVE Star" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Star_TVE_2026.svg" group-title="Series",TVE Star HD (1080p)
-https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
+http://38.252.238.18:8000/play/a01h/index.m3u8
 #EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-country="ES" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Series",XPTV US (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-id="CiudadesdelOcioTV.es@SD" tvg-country="ES" tvg-name="Ciudades del Ocio TV" tvg-logo="https://i.imgur.com/CTQgqsM.png" group-title="Entertainment",Ciudades del Ocio TV (720p)
@@ -89,6 +89,8 @@ https://jmp2.uk/stvp-ES2200003DA
 https://jmp2.uk/stvp-ESBD8000033W
 #EXTINF:-1 tvg-id="ESBD800004KU" tvg-country="ES" tvg-name="Runtime Romance" tvg-logo="https://img1.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_romance_16x9.jpg" group-title="Entertainment",Runtime Romance
 https://jmp2.uk/stvp-ESBD800004KU
+#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-country="ES" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Entertainment",Univers TV (720p)
+https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-country="ES" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Entertainment",XPTV2 (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-country="ES" tvg-name="Clan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Clan_2026.svg" group-title="Kids",Clan (1080p)
@@ -123,6 +125,8 @@ https://streamtv.mediasector.es/hls/activatv/index.m3u8
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
 #EXTINF:-1 tvg-id="LaUrbanTV.es@SD" tvg-country="ES" tvg-name="La Urban TV" tvg-logo="https://i.imgur.com/hythjEn.png" group-title="Music",La Urban TV (1080p)
 https://urbanrevolution.es:8443/live/TV/playlist.m3u8
+#EXTINF:-1 tvg-id="LiraTV.es@SD" tvg-country="ES" tvg-name="LiraTV" tvg-logo="https://i.imgur.com/hBswXYZ.png" group-title="Music",LiraTV (720p)
+https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="MolahitsTV.es@SD" tvg-country="ES" tvg-name="Molahits TV" tvg-logo="https://i.imgur.com/FYcLtqT.png" group-title="Music",Molahits TV (720p)
 http://ventdelnord.tv:8080/mola/directe.m3u8
 #EXTINF:-1 tvg-id="MusicTVGranada.es@SD" tvg-country="ES" tvg-name="Music TV Granada" tvg-logo="https://i.ibb.co/Swd9NP7n/music-tv-granada.png" group-title="Music",Music TV Granada (1080p)
@@ -144,7 +148,7 @@ https://cloud.tvomix.com/TVOMIX/index.m3u8
 #EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-country="ES" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="Music",XPTV1 (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f" tvg-country="ES" tvg-name="Buen Viaje" tvg-logo="https://i.ibb.co/VRP6BnZ/AMC-Living.png" group-title="Lifestyle",Buen Viaje
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=Qws9zqXtnPnuFyn2uJVL
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=x5LUHh6Nszp5vnxuMecJ
 #EXTINF:-1 tvg-id="Divinity.es" tvg-country="ES" tvg-name="Divinity" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Divinity.svg" group-title="Lifestyle",Divinity Ⓖ
 https://directos.divinity.es/orilinear04/live/linear04/main/main.isml/main-audio_spa=128000-video=1500000.m3u8
 #EXTINF:-1 tvg-id="IT12000029J" tvg-country="ES" tvg-name="Viaggi & Sapori" tvg-logo="https://provider-static.plex.tv/epg/cms/production/0a60d1de-0e20-4df9-aa1d-88a5610bac1b/Logo_Viaggi_Sapori_1500x1000_DarkBackground_-_Borja_M__ndez.png" group-title="Lifestyle",Viaggi & Sapori
@@ -191,7 +195,7 @@ https://ztnr.rtve.es/ztnr/5190066.m3u8
 https://ztnr.rtve.es/ztnr/3293681.m3u8
 #EXTINF:-1 tvg-id="La1.es@UHD" tvg-country="ES" tvg-name="La 1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b6/La_1_2026.svg" group-title="Public",La 1 UHD (2160p)
 http://185.47.212.25:8080/tdp_HD/index.m3u8
-#EXTINF:-1 tvg-id="La2.es@SD" tvg-country="ES" tvg-name="La 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/La_2_2026.svg" group-title="Public",La 2
+#EXTINF:-1 tvg-id="La2.es@SD" tvg-country="ES" tvg-name="La 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/aa/La_2_2026.svg" group-title="Public",La 2 (720p)
 https://rtvelivestream.rtve.es/rtvesec/la2/la2_main.m3u8
 #EXTINF:-1 tvg-id="La2Canarias.es@SD" tvg-country="ES" tvg-name="La 2 Canarias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Logo_La_2_Canarias.png/960px-Logo_La_2_Canarias.png" group-title="Public",La 2 Canarias (720p)
 https://ztnr.rtve.es/ztnr/5468585.m3u8
@@ -232,10 +236,12 @@ https://5924d3ad0efcf.streamlock.net/canal4/canal4live/playlist.m3u8
 https://videoserver.tmcreativos.com:19360/hkbpjryheu/hkbpjryheu.m3u8
 #EXTINF:-1 tvg-id="Canal25TV.es@SD" tvg-country="ES" tvg-name="Canal 25 TV" tvg-logo="https://i.imgur.com/p6YA5k0.png" group-title="General",Canal 25 TV (1080p)
 https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
-#EXTINF:-1 tvg-id="Canal33Madrid.es@SD" tvg-country="ES" tvg-name="Canal 33 Madrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg" group-title="General",Canal 33 Madrid
+#EXTINF:-1 tvg-id="Canal33Madrid.es@SD" tvg-country="ES" tvg-name="Canal 33 Madrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Logo_Canal_33_Madrid_2025.jpg/960px-Logo_Canal_33_Madrid_2025.jpg" group-title="General",Canal 33 Madrid (720p)
 https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2000.es@SD" tvg-country="ES" tvg-name="Canal 2000" tvg-logo="https://i.imgur.com/9RoBASf.png" group-title="General",Canal 2000 (720p)
 http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
+#EXTINF:-1 tvg-id="CanalDonana.es@SD" tvg-country="ES" tvg-name="Canal Donana" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="General",Canal Donana (720p)
+https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="CanalMalagaRTV.es@SD" tvg-country="ES" tvg-name="Canal Malaga RTV" tvg-logo="https://i.imgur.com/QSUOxtM.png" group-title="General",Canal Malaga RTV (720p)
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSanRoque.es@SD" tvg-country="ES" tvg-name="Canal San Roque" tvg-logo="https://i.imgur.com/SN9kFKh.png" group-title="General",Canal San Roque (1080p)

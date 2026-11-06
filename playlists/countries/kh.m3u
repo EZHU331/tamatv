@@ -1,5 +1,7 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="FreshNews.kh@SD" tvg-country="KH" tvg-name="Fresh News" tvg-logo="https://i.imgur.com/bV6sawt.png" group-title="News",Fresh News
+#EXTINF:-1 tvg-id="EACNewsTV.kh@SD" tvg-country="KH" tvg-name="EAC News TV" tvg-logo="https://i.imgur.com/EuYhS9Z.png" group-title="News",EAC News TV
+https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
+#EXTINF:-1 tvg-id="FreshNews.kh@SD" tvg-country="KH" tvg-name="Fresh News" tvg-logo="https://i.imgur.com/bV6sawt.png" group-title="News",Fresh News (720p)
 http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="EBCGeneralEducation.kh@SD" tvg-country="KH" tvg-name="EBC General Education" tvg-logo="https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png" group-title="Education",EBC General Education (720p)
 https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
@@ -15,8 +17,6 @@ https://ardbtv.ardb.com.kh:8443/tv-live/tv-online.m3u8
 https://live.sangkemtv.com/memfs/sangkem.m3u8
 #EXTINF:-1 tvg-id="ApsaraTV11.kh@SD" tvg-country="KH" tvg-name="Apsara TV11" tvg-logo="https://i.imgur.com/9wJe71I.png" group-title="General",Apsara TV11 (720p)
 https://live.ams.com.kh/app/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="BayonTV.kh@SD" tvg-country="KH" tvg-name="Bayon TV" tvg-logo="https://i.imgur.com/Gry2KEN.jpg" group-title="General",Bayon TV
-https://live-evg2.tv360.metfone.com.kh/livebayontv/bayontvhd.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="CTV9.kh@SD" tvg-country="KH" tvg-name="CTV 9" tvg-logo="https://i.imgur.com/jgVJt2G.png" group-title="General",CTV 9 (1080p)
 http://43.252.18.195:5080/live/streams/ctv9_hd_playlist.m3u8
 #EXTINF:-1 tvg-id="MSJTV.kh@SD" tvg-country="KH" tvg-name="MSJ TV" tvg-logo="https://i.imgur.com/TilslGU.png" group-title="General" http-referrer="https://www.iptvservice.site/",MSJ TV (1080p)

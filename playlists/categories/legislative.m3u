@@ -1,7 +1,7 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_NL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IE1.xml.gz"
 #EXTINF:-1 tvg-id="AccessVisionChannel17.us@SD" tvg-country="US" tvg-name="AccessVision Channel 17" tvg-logo="https://i.imgur.com/vi4TCdb.png" group-title="Legislative",AccessVision Channel 17 (720p)
 https://livestream.telvue.com/accvision2/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="ACTV.us@SD" tvg-country="US" tvg-name="ACTV" tvg-logo="https://i.imgur.com/Z6lB0Ww.png" group-title="Legislative",ACTV (United States)
+#EXTINF:-1 tvg-id="ACTV.us@SD" tvg-country="US" tvg-name="ACTV" tvg-logo="https://i.imgur.com/Z6lB0Ww.png" group-title="Legislative",ACTV (United States) (720p)
 https://castus-vod-dev.s3.amazonaws.com/vod_clients/athens/live/ch2/video.m3u8
 #EXTINF:-1 tvg-id="ANTV.ve@SD" tvg-country="VE" tvg-name="ANTV" tvg-logo="https://i.imgur.com/Qm88HT0.png" group-title="Legislative",ANTV (Venezuela) (720p)
 http://181.78.8.199:8000/play/a0fo/index.m3u8
@@ -13,7 +13,7 @@ https://securestream11.champds.com/LIVE/AtlantaGALIVE/AtlantaGALIVE.m3u8
 https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(616d6f49-eaec-6f7e-7186-2bbaf66c69c0)/index.m3u8
 #EXTINF:-1 tvg-id="ATXN2.us@SD" tvg-country="US" tvg-name="ATXN2" tvg-logo="https://i.imgur.com/tSMtDlz.png" group-title="Legislative",ATXN2 (1080p)
 https://cdn-atxn-01.vos360.video/Content/HLS/Live/channel(f97b5ddc-b7e4-dff8-9f10-8c16d0833639)/index.m3u8
-#EXTINF:-1 tvg-id="BATVGovernmentChannel.us@SD" tvg-country="US" tvg-name="BATV Government Channel" tvg-logo="https://i.imgur.com/4MdSstx.png" group-title="Legislative",BATV Government Channel
+#EXTINF:-1 tvg-id="BATVGovernmentChannel.us@SD" tvg-country="US" tvg-name="BATV Government Channel" tvg-logo="https://i.imgur.com/4MdSstx.png" group-title="Legislative",BATV Government Channel (1080p)
 https://livestream.telvue.com/billerica3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="BrevardGovernmentAccessTV.us@SD" tvg-country="US" tvg-name="Brevard Government Access TV" tvg-logo="https://i.imgur.com/eUTDIQ2.png" group-title="Legislative",Brevard Government Access TV (720p)
 https://cdn3.wowza.com/5/cXdyRHF0Z3kxN0k2/brevardfl/G2111_002/playlist.m3u8
@@ -57,7 +57,7 @@ https://reflect-contra-costa.cablecast.tv/live-7/live/live.m3u8
 https://irctv.cablecast.tv/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="CPACEnglish.ca@SD" tvg-country="CA" tvg-name="CPAC English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/2016_CPAC_logo.svg/960px-2016_CPAC_logo.svg.png" group-title="Legislative",CPAC English (720p)
 https://d7z3qjdsxbwoq.cloudfront.net/groupa/live/f9809cea-1e07-47cd-a94d-2ddd3e1351db/live.isml/.m3u8
-#EXTINF:-1 tvg-id="CruzTV.us@SD" tvg-country="US" tvg-name="Cruz TV" tvg-logo="https://i.imgur.com/qOO2SaH.png" group-title="Legislative",Cruz TV
+#EXTINF:-1 tvg-id="CruzTV.us@SD" tvg-country="US" tvg-name="Cruz TV" tvg-logo="https://i.imgur.com/qOO2SaH.png" group-title="Legislative",Cruz TV (1080p)
 https://reflect-communitytv.cablecast.tv/live-4/live/stream-2/live.m3u8
 #EXTINF:-1 tvg-id="CTNTVConneticut.us@SD" tvg-country="US" tvg-name="CT-N TV Conneticut" tvg-logo="https://i.imgur.com/pb0TFQt.jpg" group-title="Legislative",CT-N TV Conneticut (720p)
 http://video.ct-n.com/live/ctnstream/playlist_DVR.m3u8
@@ -111,12 +111,10 @@ https://live-scjn.ovp-vivaro.digital/ovp-origin/638a22b47746d/playlist.m3u8
 http://190.93.224.42/JUSTICIA-TV/index.m3u8
 #EXTINF:-1 tvg-id="KBRI8.us@SD" tvg-country="US" tvg-name="KBRI-8" tvg-logo="https://i.imgur.com/r8lLsyh.png" group-title="Legislative",KBRI-8 (720p)
 https://brightonco.cablecast.tv/live-4/live/live.m3u8
-#EXTINF:-1 tvg-id="KernCountyTV.us@SD" tvg-country="US" tvg-name="Kern County TV" tvg-logo="https://i.imgur.com/AJcuBCF.png" group-title="Legislative",Kern County TV
+#EXTINF:-1 tvg-id="KernCountyTV.us@SD" tvg-country="US" tvg-name="Kern County TV" tvg-logo="https://i.imgur.com/AJcuBCF.png" group-title="Legislative",Kern County TV (720p)
 https://cdn3.wowza.com/5/dk84U1p2UUdoMGxT/kern/G0169_003/playlist.m3u8
 #EXTINF:-1 tvg-id="LACityView35.us@SD" tvg-country="US" tvg-name="LA CityView 35" tvg-logo="https://i.imgur.com/3PnD83G.png" group-title="Legislative",LA CityView 35 (1080p)
 https://reflect-losangeles.cablecast.tv/live-3/live/live.m3u8
-#EXTINF:-1 tvg-id="LakeHavasuCity4.us@SD" tvg-country="US" tvg-name="Lake Havasu City 4" tvg-logo="https://yt3.googleusercontent.com/ytc/AIdro_lQ_vy6By43AoSdSQbFUzQePU0NWWIM-uzsAqnbbQXAql4=s512" group-title="Legislative",Lake Havasu City 4
-https://cdn3.wowza.com/5/cHYzekYzM2kvTVFH/lakehavasucity/G0643_003/playlist.m3u8
 #EXTINF:-1 tvg-id="LakeFrontTV.us@SD" tvg-country="US" tvg-name="LakeFront TV" tvg-logo="https://i.imgur.com/ROb1BNG.png" group-title="Legislative",LakeFront TV (720p)
 https://reflect-lakefront-leesburgflorida.cablecast.tv/live-6/live/live.m3u8
 #EXTINF:-1 tvg-id="LegislativeAssemblyofBritishColumbia.ca@SD" tvg-country="CA" tvg-name="Legislative Assembly of British Columbia" tvg-logo="https://i.imgur.com/5QGxHhh.png" group-title="Legislative",Legislative Assembly of British Columbia
@@ -131,8 +129,6 @@ https://livestream.telvue.com/leominster3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/p
 https://cdn3.wowza.com/5/M0lyamVmM2JWcjhQ/lfucg/G0264_005/playlist.m3u8
 #EXTINF:-1 tvg-id="LGTV.us@SD" tvg-country="US" tvg-name="LGTV" tvg-logo="https://i.imgur.com/d5w2pT4.png" group-title="Legislative",LGTV (1080p)
 https://livestream.telvue.com/lexmedia3/f7b44cfafd5c52223d5498196c8a2e7b.sdp/lexmedia3/stream1/playlist.m3u8
-#EXTINF:-1 tvg-id="MartinCountyTV.us@SD" tvg-country="US" tvg-name="Martin County TV" tvg-logo="https://i.imgur.com/7VzlbLp.png" group-title="Legislative",Martin County TV (720p)
-https://cdn3.wowza.com/5/UWpORHhLSEs5SkJs/martin/G0074_002/playlist.m3u8
 #EXTINF:-1 tvg-id="MBGTV.id@FHD" tvg-country="ID" tvg-name="MBG TV" tvg-logo="https://i.imgur.com/t7GsFJN.jpeg" group-title="Legislative",MBG TV (1080p)
 https://stream.convergen.co/mbg_stream/smil:mbStream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MBTV.us@SD" tvg-country="US" tvg-name="MBTV" tvg-logo="https://i.imgur.com/LyqFr9E.png" group-title="Legislative",MBTV (720p)
@@ -187,16 +183,16 @@ https://ptvlive.kordia.net.nz/out/v1/daf20b9a9ec5449dadd734e50ce52b74/index.m3u8
 https://pbcvideostreams1.pbc.gov/memfs/1af49f9a-6b90-4ec2-a640-7f65ceebed4a.m3u8
 #EXTINF:-1 tvg-id="PHLgovTV.us@SD" tvg-country="US" tvg-name="PHLgovTV" tvg-logo="https://i.imgur.com/BmNc3hu.png" group-title="Legislative",PHLgovTV (720p)
 https://livestream.telvue.com/ctyphiladelphia1/f7b44cfafd5c52223d5498196c8a2e7b.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="PHXTV.us@SD" tvg-country="US" tvg-name="PHXTV" tvg-logo="https://i.imgur.com/RkTKR6x.png" group-title="Legislative",PHXTV
+#EXTINF:-1 tvg-id="PHXTV.us@SD" tvg-country="US" tvg-name="PHXTV" tvg-logo="https://i.imgur.com/RkTKR6x.png" group-title="Legislative",PHXTV (720p)
 https://cdn3.wowza.com/5/bGZUOHp2TnhudnM2/phoenix/G1498_006/playlist.m3u8
 #EXTINF:-1 tvg-id="PrivescEuTV.md@SD" tvg-country="MD" tvg-name="Privesc.Eu TV" tvg-logo="https://i.imgur.com/ukBacSn.png" group-title="Legislative",Privesc.Eu TV (2160p)
 https://cachestar.privesc.eu/liniar/moldova/playlist.m3u8
 #EXTINF:-1 tvg-id="RadaTV.ua@SD" tvg-country="UA" tvg-name="Rada TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Rada_TV_%282021%29.svg/960px-Rada_TV_%282021%29.svg.png" group-title="Legislative",Rada TV (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/rada-abr/playlist.m3u8
-#EXTINF:-1 tvg-id="RTMParlimenDewanNegara.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Negara" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen Dewan Negara
+#EXTINF:-1 tvg-id="RTMParlimenDewanNegara.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Negara" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen Dewan Negara (1080p)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
-#EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Rakyat" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen Dewan Rakyat
+#EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Rakyat" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen Dewan Rakyat (1080p)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
 #EXTINF:-1 tvg-id="SansadTV1.in@SD" tvg-country="IN" tvg-name="Sansad TV 1" tvg-logo="https://dtil.tmsimg.com/assets/s143760_ld_h15_aa.png?lock=720x540" group-title="Legislative" http-referrer="https://webcast.gov.in/",Sansad TV 1 (1080p)
@@ -258,7 +254,7 @@ https://livestreaming.b67buv2.tweedekamer.nl/live/thorbeckezaal/index.m3u8?hd=1&
 https://livestreaming.b67buv2.tweedekamer.nl/live/troelstrazaal/index.m3u8?hd=1&keyframes=1&subtitles=live
 #EXTINF:-1 tvg-id="TweedeKamerWttewaallvanStoetwegenzaal.nl@SD" tvg-country="NL" tvg-name="Tweede Kamer: Wttewaall van Stoetwegenzaal" tvg-logo="https://i.imgur.com/X9fezZ8.png" group-title="Legislative",Tweede Kamer: Wttewaall van Stoetwegenzaal (1080p)
 https://livestreaming.b67buv2.tweedekamer.nl/live/wttewaallvanstoetwegenzaal/index.m3u8?hd=1&keyframes=1&subtitles=live
-#EXTINF:-1 tvg-id="YouDotGov.us@SD" tvg-country="US" tvg-name="YouDotGov" tvg-logo="https://i.imgur.com/4Mc7baR.png" group-title="Legislative",YouDotGov
+#EXTINF:-1 tvg-id="YouDotGov.us@SD" tvg-country="US" tvg-name="YouDotGov" tvg-logo="https://i.imgur.com/4Mc7baR.png" group-title="Legislative",YouDotGov (1080p)
 https://reflect-communitytv.cablecast.tv/live-3/live/stream-1/live.m3u8
 #EXTINF:-1 tvg-id="Yuma77.us@SD" tvg-country="US" tvg-name="Yuma77" tvg-logo="https://i.imgur.com/KBriwwj.png" group-title="Legislative",Yuma77
 https://securestream10.champds.com/LIVE/YumaCoAZLIVE/YumaCoAZLIVE.m3u8

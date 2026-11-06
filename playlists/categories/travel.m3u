@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
 #EXTINF:-1 tvg-id="ArubaTV.aw@SD" tvg-country="AW" tvg-name="Aruba.TV" tvg-logo="https://i.imgur.com/9fWY09U.png" group-title="Travel",Aruba.TV (1080p)
 https://cdn01.setar.aw/Canal49/canal49/playlist.m3u8
 #EXTINF:-1 tvg-id="BeachTVFloridaAlabama.us@SD" tvg-country="US" tvg-name="Beach TV Florida & Alabama" tvg-logo="https://i.imgur.com/weypM9C.png" group-title="Travel",Beach TV Florida & Alabama (720p)
@@ -50,15 +50,13 @@ https://iptv.peer.biz/live/peertv.m3u8
 #EXTINF:-1 tvg-id="PoconoTelevisionNetwork.us@HD" tvg-country="US" tvg-name="Pocono Television Network" tvg-logo="https://i.imgur.com/et6giFo.png" group-title="Travel",Pocono Television Network (1080p)
 https://dfoiz3dv1euv7.cloudfront.net/ptnlive-s3/live1.m3u8
 #EXTINF:-1 tvg-id="RTGTV.ru@HD" tvg-country="RU" tvg-name="RTG TV" tvg-logo="https://i.imgur.com/ZMKPAho.png" group-title="Travel",RTG TV HD (1080p)
-http://stream.mcquack.net/164/index.m3u8
+http://46.53.200.153:7777/play/a00u/index.m3u8
 #EXTINF:-1 tvg-id="SchladmingDachsteinTV.at@SD" tvg-country="AT" tvg-name="Schladming-Dachstein TV" tvg-logo="https://i.ibb.co/VjnzhMM/Logo-Schl-Dachstein-TV-HP-JPG.jpg" group-title="Travel",Schladming-Dachstein TV (720p)
 https://m317.video-stream-hosting.de/gzSoftware-live/_definst_/smil:livestream.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SpaceLivepoweredbysen.uk@SD" tvg-country="UK" tvg-name="Space Live powered by sen" tvg-logo="https://static.frequency.com/studio/itv/channels/1224-400x200.png" group-title="Travel",Space Live powered by sen (1080p)
 https://linear-1224.frequency.stream/dist/lg-uk/1224/hls/master/playlist.m3u8
 #EXTINF:-1 tvg-id="SunChannel.ve@SD" tvg-country="VE" tvg-name="Sun Channel" tvg-logo="https://i.imgur.com/B26qL3e.png" group-title="Travel",Sun Channel (720p)
 http://168.196.127.137:6001/play/a06p/index.m3u8
-#EXTINF:-1 tvg-id="Teletur.do@SD" tvg-country="DO" tvg-name="Teletur" tvg-logo="https://i.imgur.com/Ig4gR93.png" group-title="Travel",Teletur (720p)
-https://fox.hostlagarto.com:8081/teleturtv/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TravelBoxBrazil.br@SD" tvg-country="BR" tvg-name="Travel Box Brazil" tvg-logo="https://i.imgur.com/3tBJERH.png" group-title="Travel",Travel Box Brazil (720p)
 http://168.197.104.22/TRAVEL_BOX_BRASIL/index.m3u8
 #EXTINF:-1 tvg-id="TravelChannel.pl@SD" tvg-country="PL" tvg-name="Travel Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Travel_Channel_logo-cerulean_blue.png/960px-Travel_Channel_logo-cerulean_blue.png" group-title="Travel",Travel Channel (Poland) (576i)
@@ -67,8 +65,8 @@ http://92.114.85.87:8011/play/a00d/index.m3u8
 https://hls02ns.antenaplay.ro/hls/travel-mix-hd/index.m3u8
 #EXTINF:-1 tvg-id="TravelTV.it" tvg-country="BG" tvg-name="Travel TV" tvg-logo="https://i.imgur.com/5xllfed.png" group-title="Travel",Travel TV
 https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
-#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@HD" tvg-country="RU" tvg-name="Travel+Adventure" tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="Travel",Travel+Adventure HD (1080p)
-http://stream.mcquack.net/206/index.m3u8
+#EXTINF:-1 tvg-id="TravelPlusAdventure.ru@SD" tvg-country="RU" tvg-name="Travel+Adventure" tvg-logo="https://i.imgur.com/AlpdXC4.png" group-title="Travel",Travel+Adventure (1080p)
+http://31.148.48.15/Travel_Adventure_HD/index.m3u8
 #EXTINF:-1 tvg-id="Travelxp.in@4KHDR" tvg-country="IN" tvg-name="Travelxp" tvg-logo="https://i.imgur.com/HUWEnc5.png" group-title="Travel",Travelxp 4K HDR (2160p)
 https://deltatesttatasky.akamaized.net/out/i/968284.m3u8
 #EXTINF:-1 tvg-id="TurismoRDTV.do@HD" tvg-country="DO" tvg-name="Turismo RDTV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3800-294x165-FFFFFF.jpg" group-title="Travel",Turismo RDTV (720p)
