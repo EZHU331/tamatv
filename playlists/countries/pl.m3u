@@ -14,12 +14,10 @@ https://cdn-s-lb2.pluscdn.pl/lv/1511888/322/hls/bd3b0bfe/masterlist.m3u8
 #EXTINF:-1 tvg-id="SuperExpressTV.pl@FAST" tvg-country="PL" tvg-name="Super Express TV" tvg-logo="https://i.imgur.com/HuIsALV.png" group-title="News",Super Express TV (1080p)
 https://prx-y5cf8.mediatool.tv/playout/sepl-abr67/index.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-5eea71d65252710041e0ccbc" tvg-country="PL" tvg-name="The Reuters 60" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/c3defe95-3188-4b5d-9cf6-68ca7b3e1767-width200-quality90.jpeg" group-title="News",The Reuters 60
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5eea71d65252710041e0ccbc/?X-Plex-Token=x5LUHh6Nszp5vnxuMecJ
-#EXTINF:-1 tvg-id="TVPWilno.pl@SD" tvg-country="PL" tvg-name="TVP Wilno" tvg-logo="https://i.imgur.com/8oORLGF.png" group-title="News",TVP Wilno
-http://78.62.9.23:55555/TVP%20Wilno%20HD
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-5eea71d65252710041e0ccbc/?X-Plex-Token=REJkcmQ3HWxytFczDVVx
 #EXTINF:-1 tvg-id="TVPWorld.pl@SD" tvg-country="PL" tvg-name="TVP World" tvg-logo="https://i.imgur.com/lB4MgRI.png" group-title="News",TVP World
 https://dash2.antik.sk/live/test_tvp_world/playlist.m3u8
-#EXTINF:-1 tvg-id="Wydarzenia24.pl@SD" tvg-country="PL" tvg-name="Wydarzenia 24" tvg-logo="https://i.imgur.com/uYpUnHP.png" group-title="News",Wydarzenia 24 (576i)
+#EXTINF:-1 tvg-id="Wydarzenia24.pl" tvg-country="PL" tvg-name="Wydarzenia 24 (576i)" tvg-logo="https://i.imgur.com/uYpUnHP.png" group-title="News",Wydarzenia 24 (576i)
 http://92.114.85.87:8016/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="ElevenSports1.pl@SD" tvg-country="PL" tvg-name="Eleven Sports 1" tvg-logo="https://i.imgur.com/AOu4FXH.png" group-title="Sports",Eleven Sports 1
 http://92.114.85.87:8002/play/a00e/index.m3u8
@@ -38,8 +36,6 @@ http://57.128.210.196:8080/263/index.m3u8
 http://91.228.35.249:8001/1:0:1:3D:1964:13E:820000:0:0:0
 #EXTINF:-1 tvg-id="RACERInternational.pl@FAST" tvg-country="PL" tvg-name="RACER International" tvg-logo="https://provider-static.plex.tv/epg/cms/production/dd4e5871-4347-49e3-9ea1-a8770ea9c518/RACER_Intl_logo_1500x1000.png" group-title="Sports",RACER International (1080p)
 https://amg00378-mavtv-amg00378c2-rakuten-us-1048.playouts.now.amagi.tv/playlist/amg00378-mavtvfast-motorsportsnetwork-rakutenus/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPSport.pl@SD" tvg-country="PL" tvg-name="TVP Sport" tvg-logo="https://i.imgur.com/JUZDOCO.png" group-title="Sports",TVP Sport (1080p)
-http://57.128.210.196:8080/134/index.m3u8
 #EXTINF:-1 tvg-id="AXNPoland.pl@SD" tvg-country="PL" tvg-name="AXN Poland" tvg-logo="https://i.imgur.com/i5wOhkf.png" group-title="Movies",AXN Poland (1080p)
 http://92.114.85.87:8015/play/a00f/index.m3u8
 #EXTINF:-1 tvg-id="AXNWhite.pl@SD" tvg-country="PL" tvg-name="AXN White" tvg-logo="https://i.imgur.com/DaAyLE7.png" group-title="Movies",AXN White (Poland) (576i)
@@ -66,9 +62,11 @@ http://92.63.196.180:8080/live/74173747597177/7vfxky4rjx3j/10208.m3u8?token=Q0Fa
 http://92.114.85.87:8003/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="AXNBlack.pl@SD" tvg-country="PL" tvg-name="AXN Black" tvg-logo="https://i.imgur.com/Nqvx6nz.png" group-title="Series",AXN Black (Poland) (576i)
 http://92.114.85.87:8014/play/a00h/index.m3u8
+#EXTINF:-1 tvg-id="AXNSpin.pl@SD" tvg-country="PL" tvg-name="AXN Spin" tvg-logo="https://i.imgur.com/LGEbwnT.png" group-title="Series",AXN Spin (Poland)
+http://92.114.85.87:8010/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="PolsatSeriale.pl@SD" tvg-country="PL" tvg-name="Polsat Seriale" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Polsat_Seriale_2021_gradient.svg/500px-Polsat_Seriale_2021_gradient.svg.png" group-title="Series",Polsat Seriale (1080p)
 http://57.128.210.196:8080/196/index.m3u8
-#EXTINF:-1 tvg-id="TVPSeriale.pl@SD" tvg-country="PL" tvg-name="TVP Seriale" tvg-logo="https://i.imgur.com/MuRtvXk.png" group-title="Series",TVP Seriale (1080p)
+#EXTINF:-1 tvg-id="TVPSeriale.pl" tvg-country="PL" tvg-name="TVP Seriale" tvg-logo="https://i.imgur.com/MuRtvXk.png" group-title="Series",TVP Seriale (1080p)
 http://92.114.85.87:8019/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="AmericanCrimeChannel.pl@Poland" tvg-country="PL" tvg-name="American Crime Channel" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4ac35c-dd3f-4f56-a272-41ebfe3477a9/american_crime_channel_dark_logo_-_Kam_JeyRDXV2.png" group-title="Entertainment",American Crime Channel (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883104
@@ -88,7 +86,7 @@ https://stream.4fun.tv:8889/hls/4fk.m3u8
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 #EXTINF:-1 tvg-id="NickJr.pl@SD" tvg-country="PL" tvg-name="Nick Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Kids",Nick Jr. (Poland) (576i)
 http://92.114.85.87:8013/play/a004/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.pl@SD" tvg-country="PL" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (Poland) (576i)
+#EXTINF:-1 tvg-id="Nickelodeon.pl" tvg-country="PL" tvg-name="Nickelodeon (Poland) (576i)" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (Poland) (576i)
 http://92.114.85.87:8013/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.pl@SD" tvg-country="PL" tvg-name="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Nicktoons_Logo_2023.svg" group-title="Kids",Nicktoons (Poland) (576i)
 http://92.114.85.87:8013/play/a008/index.m3u8
@@ -98,12 +96,16 @@ http://92.114.85.87:8014/play/a00d/index.m3u8
 http://92.114.85.87:8010/play/a009/index.m3u8
 #EXTINF:-1 tvg-id="TeletoonPlus.pl@HD" tvg-country="PL" tvg-name="Teletoon+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" group-title="Kids",Teletoon+ HD (1080i) (720p)
 http://92.114.85.87:8009/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="TVPABC.pl@SD" tvg-country="PL" tvg-name="TVP ABC" tvg-logo="https://i.imgur.com/wP2mpfM.png" group-title="Kids",TVP ABC (576i)
+#EXTINF:-1 tvg-id="TVPABC.pl" tvg-country="PL" tvg-name="TVP ABC (576i)" tvg-logo="https://i.imgur.com/wP2mpfM.png" group-title="Kids",TVP ABC (576i)
 http://92.114.85.87:8002/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="History.pl@SD" tvg-country="PL" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History (Poland) (576i)
 http://92.114.85.87:8015/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.pl@SD" tvg-country="PL" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Poland) (576i)
 http://92.114.85.87:8006/play/a00a/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicWild.pl@SD" tvg-country="PL" tvg-name="National Geographic Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (Poland) (576i)
+http://92.114.85.87:8010/play/a005/index.m3u8
+#EXTINF:-1 tvg-id="NutaGold.pl@SD" tvg-country="PL" tvg-name="Nuta Gold" tvg-logo="https://i.imgur.com/BEs160o.png" group-title="Documentary",Nuta Gold
+http://92.114.85.87:8010/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="PolsatViasatExplore.pl@SD" tvg-country="PL" tvg-name="Polsat Viasat Explore" tvg-logo="https://i.imgur.com/gDlqO9h.png" group-title="Documentary",Polsat Viasat Explore
 http://92.114.85.87:8014/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" tvg-country="PL" tvg-name="Polsat Viasat History" tvg-logo="https://i.imgur.com/X16UGUf.png" group-title="Documentary",Polsat Viasat History (1080p)
@@ -152,6 +154,8 @@ https://103f01c3ff79408e83c9212f8a374ecc.mediatailor.us-east-1.amazonaws.com/v1/
 https://emisja.btb.j00r.us/iptv/session/1/hls.m3u8
 #EXTINF:-1 tvg-id="BTB2.pl@SD" tvg-country="PL" tvg-name="BTB 2" tvg-logo="https://i.imgur.com/C5g0ejM.png" group-title="General",BTB 2 (1080p)
 https://emisja.btb.j00r.us/iptv/session/2/hls.m3u8
+#EXTINF:-1 tvg-id="BTB3.pl@HD" tvg-country="PL" tvg-name="BTB 3" tvg-logo="https://i.imgur.com/Z193940.png" group-title="General",BTB 3 (1080p)
+https://emisja3.btb.j00r.us/iptv/session/3/live.m3u8
 #EXTINF:-1 tvg-id="BuzzfeedUnsolved.pl@FAST" tvg-country="PL" tvg-name="Buzzfeed Unsolved" tvg-logo="https://images-0.rakuten.tv/storage/global-live-channel/translation/artwork/e16cfcc7-2040-4bd5-8339-16d499f8799e-width200-quality90.png" group-title="General",Buzzfeed Unsolved (720p)
 https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883099
 #EXTINF:-1 tvg-id="CanalPlusDomo.pl@SD" tvg-country="PL" tvg-name="Canal+ Domo" tvg-logo="https://i.imgur.com/Iz2BxbR.png" group-title="General",Canal+ Domo (576i)
@@ -178,8 +182,8 @@ https://1409502578.rsc.cdn77.org/live/stream-1/chunklist.m3u8
 http://92.114.85.87:8001/play/a013/index.m3u8
 #EXTINF:-1 tvg-id="Polonia1.pl@SD" tvg-country="PL" tvg-name="Polonia 1" tvg-logo="https://i.imgur.com/4TVDMGD.png" group-title="General",Polonia 1 (576i)
 http://92.114.85.87:8012/play/a006/index.m3u8
-#EXTINF:-1 tvg-id="Polsat.pl@SD" tvg-country="PL" tvg-name="Polsat" tvg-logo="https://i.imgur.com/xff6zGN.png" group-title="General",Polsat
-https://srv7.flussonic111.com/PL_POLSAT_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Polsat.pl@SD" tvg-country="PL" tvg-name="Polsat" tvg-logo="https://i.imgur.com/xff6zGN.png" group-title="General",Polsat (1080p)
+https://cdn-s-playnow-live.pluscdn.pl/ch/1502600/308/dash/20a18c30/live.mpd
 #EXTINF:-1 tvg-id="Polsat2.pl@SD" tvg-country="PL" tvg-name="Polsat 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Polsat_2_2021_gradient.svg/960px-Polsat_2_2021_gradient.svg.png" group-title="General",Polsat 2 (1080p)
 http://57.128.210.196:8080/208/index.m3u8
 #EXTINF:-1 tvg-id="PolsatGames.pl@HD" tvg-country="PL" tvg-name="Polsat Games" tvg-logo="https://i.imgur.com/OSCrBvh.png" group-title="General",Polsat Games HD (1080p)
@@ -210,6 +214,8 @@ http://92.114.85.87:8001/play/a00o/index.m3u8
 http://92.114.85.87:8018/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="SuperPolsat.pl@SD" tvg-country="PL" tvg-name="Super Polsat" tvg-logo="https://i.imgur.com/6KXJRHc.png" group-title="General",Super Polsat
 http://92.114.85.87:8004/play/a00c/index.m3u8
+#EXTINF:-1 tvg-id="SzlagierTV.pl@SD" tvg-country="PL" tvg-name="Szlagier TV" tvg-logo="https://i.imgur.com/VQk19Ng.png" group-title="General",Szlagier TV
+http://92.114.85.87:8010/play/a00l/index.m3u8
 #EXTINF:-1 tvg-id="Tele5.pl@SD" tvg-country="PL" tvg-name="Tele5" tvg-logo="https://i.imgur.com/36ZNsIL.png" group-title="General",Tele5 (576i)
 http://92.114.85.87:8012/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="TelewizjaiTTV.pl@SD" tvg-country="PL" tvg-name="Telewizja iTTV" tvg-logo="https://www.ittv.pl/media/images/ittv-logo.png" group-title="General",Telewizja iTTV (1080p)
@@ -222,8 +228,6 @@ http://stream.herissons.cloud/hls/tvluban.m3u8
 https://tvregfull.mailfull.pl/tvregfull/memfs/e64b3e05-649c-4939-9ff6-584e79285ccd_output_0.m3u8
 #EXTINF:-1 tvg-id="TelewizjaRelax.pl@SD" tvg-country="PL" tvg-name="Telewizja Relax" tvg-logo="https://i.imgur.com/dejnH0O.png" group-title="General",Telewizja Relax (1080p)
 https://srv1.streamingo.pl/memfs/be50f17e-6579-4bdf-86b1-31207aec85b8.m3u8
-#EXTINF:-1 tvg-id="TNAWrestlingChannel.pl@SD" tvg-country="PL" tvg-name="TNA Wrestling Channel" tvg-logo="https://provider-static.plex.tv/epg/cms/production/5d4f68c3-82af-45e7-b2c4-39aff69f3ce0/TNAWrestling_Plex_LogoforDarkBG_1500x1000_-_Alex_TushinghamRDX.png" group-title="General",TNA Wrestling Channel (720p)
-https://d39g1vxj2ef6in.cloudfront.net/v1/master/3fec3e5cac39a52b2132f9c66c83dae043dc17d4/prod-rakuten-stitched/master.m3u8?ads.xumo_channelId=88883039
 #EXTINF:-1 tvg-id="TOPBarca.pl@SD" tvg-country="PL" tvg-name="TOP Barca" tvg-logo="https://images-2.rakuten.tv/storage/global-live-channel/translation/artwork/7c59e962-086b-4d64-afb3-7f83ca8c3377-width200-quality90.jpeg" group-title="General",TOP Barca (1080p)
 https://amg17560-fcb-amg17560c1-rakuten-uk-4891.playouts.now.amagi.tv/playlist/amg17560-fcbarcelona-topbarcaenglish-rakutenuk/playlist.m3u8
 #EXTINF:-1 tvg-id="TopMoviesPolska.pl@SD" tvg-country="PL" tvg-name="Top Movies Polska" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/39a979b9-49df-48c1-8c1c-5763828b60aa-width200-quality90.png" group-title="General",Top Movies Polska (1080p)
@@ -246,17 +250,13 @@ http://92.114.85.87:8018/play/a008/index.m3u8
 http://217.173.176.107:1935/live/tvk.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVTrwam.pl@SD" tvg-country="PL" tvg-name="TV Trwam" tvg-logo="https://i.imgur.com/yq10wS5.png" group-title="General",TV Trwam (1080p)
 https://live-ch1.trwam.cf.insyscd.net/out/v1/b99041a282774d4a8fe84a54243af5de/trwamtv-live-ch1.mpd
-#EXTINF:-1 tvg-id="TVP1.pl@SD" tvg-country="PL" tvg-name="TVP1" tvg-logo="https://i.imgur.com/ewpSjBs.png" group-title="General",TVP1 (1080p)
-http://57.128.210.196:8080/144/index.m3u8
-#EXTINF:-1 tvg-id="TVP2.pl@SD" tvg-country="PL" tvg-name="TVP2" tvg-logo="https://i.imgur.com/XxCc32B.png" group-title="General",TVP2 (1080p)
-http://57.128.210.196:8080/143/index.m3u8
-#EXTINF:-1 tvg-id="TVPHD.pl@SD" tvg-country="PL" tvg-name="TVP HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/TVP_HD_logo.svg/960px-TVP_HD_logo.svg.png" group-title="General",TVP HD (1080p)
-http://57.128.210.196:8080/141/index.m3u8
-#EXTINF:-1 tvg-id="TVPHistoria.pl@SD" tvg-country="PL" tvg-name="TVP Historia" tvg-logo="https://i.imgur.com/Bc4QZiy.png" group-title="General",TVP Historia (576i)
+#EXTINF:-1 tvg-id="TVP1.pl@SD" tvg-country="PL" tvg-name="TVP1" tvg-logo="https://i.imgur.com/ewpSjBs.png" group-title="General",TVP1
+http://92.114.85.87:8009/play/a009/index.m3u8
+#EXTINF:-1 tvg-id="TVPHistoria.pl" tvg-country="PL" tvg-name="TVP Historia (576i)" tvg-logo="https://i.imgur.com/Bc4QZiy.png" group-title="General",TVP Historia (576i)
 http://92.114.85.87:8002/play/a00d/index.m3u8
 #EXTINF:-1 tvg-id="TVPInfo.pl@SD" tvg-country="PL" tvg-name="TVP Info" tvg-logo="https://i.imgur.com/qXrrNxv.png" group-title="General",TVP Info
 https://dash4.antik.sk/live/test_tvp_info/playlist.m3u8
-#EXTINF:-1 tvg-id="TVPKultura.pl@SD" tvg-country="PL" tvg-name="TVP Kultura" tvg-logo="https://i.imgur.com/JU858Es.png" group-title="General",TVP Kultura (1080p)
+#EXTINF:-1 tvg-id="TVPKultura.pl" tvg-country="PL" tvg-name="TVP Kultura" tvg-logo="https://i.imgur.com/JU858Es.png" group-title="General",TVP Kultura (1080p)
 http://92.114.85.87:8006/play/a007/index.m3u8
 #EXTINF:-1 tvg-id="TVPPolonia.pl@SD" tvg-country="PL" tvg-name="TVP Polonia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/TVP_Polonia_Logo_2020.svg/960px-TVP_Polonia_Logo_2020.svg.png" group-title="General",TVP Polonia
 https://dash2.antik.sk/live/test_tvp_polonia/playlist.m3u8
@@ -270,5 +270,5 @@ https://da9c49fa.wurl.com/master/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdX
 https://str.onnetwork.tv/hls/onnet-358726_hi/index.m3u8
 #EXTINF:-1 tvg-id="WorldBilliards.pl@SD" tvg-country="PL" tvg-name="World Billiards" tvg-logo="https://images-3.rakuten.tv/storage/global-live-channel/translation/artwork/80af06f2-a12e-4406-bd13-b932fd69fffe-width200-quality90.png" group-title="General",World Billiards (720p)
 https://9a81dd4ee3884d0dbcacafaf0d81327a.mediatailor.us-east-1.amazonaws.com/v1/master/04fd913bb278d8775298c26fdca9d9841f37601f/RakutenTV-eu_BilliardsTV/playlist.m3u8
-#EXTINF:-1 tvg-id="ZoomTV.pl@SD" tvg-country="PL" tvg-name="Zoom TV" tvg-logo="https://zoomtv.pl/wp-content/themes/zoomtv2026/assets/img/zoom-logo.svg" group-title="General",Zoom TV (576i)
+#EXTINF:-1 tvg-id="ZoomTV.pl" tvg-country="PL" tvg-name="Zoom TV (576i)" tvg-logo="https://zoomtv.pl/wp-content/themes/zoomtv2026/assets/img/zoom-logo.svg" group-title="General",Zoom TV (576i)
 http://92.114.85.87:8001/play/a00y/index.m3u8

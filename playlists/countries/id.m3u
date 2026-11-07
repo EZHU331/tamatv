@@ -129,6 +129,9 @@ https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 http://122.248.43.242:1935/PADANGTV/_definst_/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="PONTV.id@SD" tvg-country="ID" tvg-name="PONTV" tvg-logo="https://i.imgur.com/P5erWzm.png" group-title="General",PONTV (720p)
 http://122.248.43.242:1935/PONTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="PujaTVAceh.id@SD" tvg-country="ID" tvg-name="Puja TV Aceh" tvg-logo="https://i.imgur.com/0TqABCL.png" group-title="General" http-referrer="https://www.pujatvaceh.com/",Puja TV Aceh (1080p)
+#EXTVLCOPT:http-referrer=https://www.pujatvaceh.com/
+https://pujatv.siar.us/live/pujatv.m3u8
 #EXTINF:-1 tvg-id="RadarTasikmalayaTV.id@SD" tvg-country="ID" tvg-name="Radar Tasikmalaya TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/1a/Logo_Radar_Tasikmalaya_TV.png" group-title="General",Radar Tasikmalaya TV (720p)
 https://v2.siar.us/radartasikmalaya/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RBTVJogja.id@SD" tvg-country="ID" tvg-name="RBTV Jogja" tvg-logo="https://upload.wikimedia.org/wikipedia/id/3/31/RBTV_Jogjakarta.png" group-title="General" http-referrer="https://official.rbtvjogja.tv/live.php",RBTV Jogja (1080p)
@@ -141,6 +144,8 @@ http://202.150.172.59/RCTIHD/index.m3u8
 https://v10.siar.us/rctv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="RiauTV.id@SD" tvg-country="ID" tvg-name="Riau TV" tvg-logo="https://i.imgur.com/1g8FtJi.png" group-title="General",Riau TV (1080p)
 http://122.248.43.242:1935/RIAUTV/_definst_/myStream/playlist.m3u8
+#EXTINF:-1 tvg-id="RodjaTV.id@SD" tvg-country="ID" tvg-name="Rodja TV" tvg-logo="https://i.imgur.com/XwCeHlC.png" group-title="General",Rodja TV (720p)
+https://rodjatv.com/rodjatv/live.m3u8
 #EXTINF:-1 tvg-id="SalamTV.id@SD" tvg-country="ID" tvg-name="Salam TV" tvg-logo="https://i.imgur.com/00Ifzgo.png" group-title="General" http-referrer="salamtelevisi.com",Salam TV (720p)
 #EXTVLCOPT:http-referrer=salamtelevisi.com
 https://live.salamtelevisi.com/hls/0/stream.m3u8
@@ -151,6 +156,9 @@ https://sampit-tv.siar.us/live/sampit-tv.m3u8
 https://cdn.adyadigitalteknologi.com:8090/vod/relay.m3u8
 #EXTINF:-1 tvg-id="SCTV.id@SD" tvg-country="ID" tvg-name="SCTV" tvg-logo="https://i.imgur.com/EMmOvnQ.png" group-title="General",SCTV
 http://202.150.172.59/SCTV/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="SelaparangTV.id@SD" tvg-country="ID" tvg-name="Selaparang TV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/c/ce/Logo_Selaparang_TV.png" group-title="General" http-referrer="selaparangtv.net",Selaparang TV (720p)
+#EXTVLCOPT:http-referrer=selaparangtv.net
+https://selaparangtv.siar.us/live/selaparangtv.m3u8
 #EXTINF:-1 tvg-id="SemarangTV.id@SD" tvg-country="ID" tvg-name="Semarang TV" tvg-logo="https://i.imgur.com/KFC2WSB.png" group-title="General",Semarang TV (720p)
 http://116.254.112.74/hls/cakralive.m3u8
 #EXTINF:-1 tvg-id="SMTV.id@SD" tvg-country="ID" tvg-name="SMTV" tvg-logo="https://upload.wikimedia.org/wikipedia/id/6/6e/Logo_SMTV_Sumedang.png" group-title="General" http-referrer="https://smtv.digital/",SMTV (720p)
@@ -179,6 +187,3 @@ https://ott-balancer.tvri.go.id/live/eds/TVRIWorld/hls/TVRIWorld.m3u8
 https://srs.u-channel.tv/live/uchannel-tv.m3u8
 #EXTINF:-1 tvg-id="UGTV.id@SD" tvg-country="ID" tvg-name="UGTV" tvg-logo="https://i.imgur.com/iEKDH26.png" group-title="General",UGTV (720p)
 https://cdn.gunadarma.ac.id/streams/ugtv/ingestugtv.m3u8
-#EXTINF:-1 tvg-id="USMTV.id@SD" tvg-country="ID" tvg-name="USM TV" tvg-logo="https://usmtv.id/wp-content/uploads/2024/01/logo-large-1.png" group-title="General" http-referrer="https://usmtv.id/live-tv/",USM TV (1080p)
-#EXTVLCOPT:http-referrer=https://usmtv.id/live-tv/
-https://play.fsa-stream.my.id/hls/siaran.m3u8

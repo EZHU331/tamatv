@@ -155,8 +155,6 @@ https://cloudfront44.lexanetwork.com:1344/relay01/HDE017.sdp/playlist.m3u8
 https://budapest-cache-1.antik.sk/live/kossuth_radio/index.m3u8
 #EXTINF:-1 tvg-id="OroszlanyiVarosiTelevizio.hu@SD" tvg-country="HU" tvg-name="Oroszlanyi Varosi Televizio" tvg-logo="https://i.imgur.com/P0fxUH5.png" group-title="General",Oroszlanyi Varosi Televizio (720p)
 https://cloudfront44.lexanetwork.com:1344/relay01/broadcast002.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="OzdiVarosiTV.hu@SD" tvg-country="HU" tvg-name="Ozdi Varosi TV" tvg-logo="https://i.imgur.com/t0Aq3UD.png" group-title="General",Ozdi Varosi TV (720p)
-http://stream.nmih.hu:7980/live.m3u8
 #EXTINF:-1 tvg-country="HU" tvg-name="Parlamenti közvetítés" group-title="General",Parlamenti közvetítés
 https://plenaris.parlament.hu:446/edgelive/smil:mkogyplen.smil/playlist.m3u8
 #EXTINF:-1 tvg-country="HU" tvg-name="Parlamenti TAB közvetítés" group-title="General",Parlamenti TAB közvetítés
@@ -205,10 +203,10 @@ http://88.212.7.14/live/travel_hun/index.m3u8
 https://stream.streaming4u.hu/TriMedioTV/index.m3u8
 #EXTINF:-1 tvg-id="TV2.hu" tvg-country="HU" tvg-name="TV2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/TV2_2008.svg/960px-TV2_2008.svg.png" group-title="General",TV2
 http://141.94.193.53:80/TV2_HD/index.m3u8
+#EXTINF:-1 tvg-id="TV4.hu" tvg-country="HU" tvg-name="TV4" tvg-logo="https://i.imgur.com/cjypCfu.png" group-title="General",TV4
+http://141.94.193.53:80/TV4_HD/index.m3u8
 #EXTINF:-1 tvg-country="HU" tvg-name="TV7 Békéscsaba" tvg-logo="https://i.imgur.com/G9Ib5K3.png" group-title="General",TV7 Békéscsaba
 https://stream.y5.hu/stream/stream_bekescsaba/stream.m3u8
-#EXTINF:-1 tvg-id="TVEger.hu@SD" tvg-country="HU" tvg-name="TV Eger" tvg-logo="https://i.imgur.com/GUVW073.png" group-title="General",TV Eger (1080p)
-http://stream.tveger.hu:8010/live.m3u8
 #EXTINF:-1 tvg-id="Viasat3.hu" tvg-country="HU" tvg-name="Viasat3." tvg-logo="https://i.imgur.com/ehx7R3A.png" group-title="General",Viasat3.
 http://141.94.193.53:80/VIASAT3_HD/index.m3u8
 #EXTINF:-1 tvg-id="Viasat6.hu" tvg-country="HU" tvg-name="Viasat 6" tvg-logo="https://i.imgur.com/kypSbFX.png" group-title="General",Viasat 6
