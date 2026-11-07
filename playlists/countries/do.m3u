@@ -82,8 +82,6 @@ https://lbgo.bozztv.com/ssh101/ssh101/montonestv1/playlist.m3u8
 https://streamunoapp.com:3809/live/siembratvlive.m3u8
 #EXTINF:-1 tvg-id="TarimaTV.do@HD" tvg-country="DO" tvg-name="Tarima TV" tvg-logo="https://vercanalesdominicanos.com/wp-content/uploads/2026/03/tarima.png" group-title="Music",Tarima TV (720p)
 http://190.122.104.210:5080/LiveApp/streams/tarima.m3u8
-#EXTINF:-1 tvg-id="TeleDominicanaTV.do@SD" tvg-country="DO" tvg-name="Tele Dominicana TV" tvg-logo="https://dominicanchannels.com/wp-content/uploads/teledominicana.png" group-title="Music",Tele Dominicana TV (720p)
-https://vdopanel.jlahozconsulting.com/p/3417/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="TVExitos.do@SD" tvg-country="DO" tvg-name="TV Exitos" tvg-logo="https://i.imgur.com/ahz7X7u.png" group-title="Music",TV Exitos (720p)
 https://streaming.grupomediosdelnorte.com:19360/tvexitos/tvexitos.m3u8
 #EXTINF:-1 tvg-id="SenalesTV.do@SD" tvg-country="DO" tvg-name="Senales TV" tvg-logo="https://i.imgur.com/7Zr79F2.png" group-title="Lifestyle",Senales TV
@@ -108,6 +106,8 @@ https://live.lavozdemaria.com:3436/live/lavozdemarialive.m3u8
 https://tv.wracanal10.com:3776/live/luzdivinatvlive.m3u8
 #EXTINF:-1 tvg-id="MisionELTV.do@SD" tvg-country="DO" tvg-name="Mision ELTV" tvg-logo="https://i.imgur.com/hwC1stN.png" group-title="Religious",Mision ELTV (720p)
 https://rd.tvabierta.net/live/misioneltv.m3u8
+#EXTINF:-1 tvg-id="TeleBendicion.do@SD" tvg-country="DO" tvg-name="TeleBendicion" tvg-logo="https://i.imgur.com/nh4sNVI.png" group-title="Religious",TeleBendicion (720p)
+https://ss2.tvrdomi.com:1936/telebendicion/telebendicion/playlist.m3u8
 #EXTINF:-1 tvg-id="Televida.do@SD" tvg-country="DO" tvg-name="Televida" tvg-logo="https://i.imgur.com/S8Zdn41.png" group-title="Religious",Televida (Dominican Republic) (1080p)
 https://cnn.hostlagarto.com/televida/playlist.m3u8
 #EXTINF:-1 tvg-id="Telenovisa43.do@SD" tvg-country="DO" tvg-name="Telenovisa43" tvg-logo="https://i.imgur.com/iHvf3bR.png" group-title="Family",Telenovisa43 (720p)
@@ -150,6 +150,8 @@ https://s.emisoras.tv:8081/dtv/index.m3u8
 https://canalda.rgradio.net:3084/live/canaldalive.m3u8
 #EXTINF:-1 tvg-id="CanangaTV.do@SD" tvg-country="DO" tvg-name="Cananga TV" tvg-logo="https://i.imgur.com/isXlMAh.png" group-title="General",Cananga TV (720p)
 https://cdn.streamingcpanel.com:3545/live/canangatlive.m3u8
+#EXTINF:-1 tvg-id="CaobaTVRadio.do@HD" tvg-country="DO" tvg-name="Caoba TV Radio" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3906-294x165-FFFFFF.jpg" group-title="General",Caoba TV Radio (720p)
+https://host.streamingnation.live:3940/live/caobatvlive.m3u8
 #EXTINF:-1 tvg-id="CascaraTV.do@SD" tvg-country="DO" tvg-name="Cascara TV" tvg-logo="https://i.imgur.com/DEUR7mB.png" group-title="General",Cascara TV (720p)
 https://ss2.tvrdomi.com:1936/cascaratv/cascaratv/playlist.m3u8
 #EXTINF:-1 tvg-id="CenovisionHD.do@HD" tvg-country="DO" tvg-name="Cenovision HD" tvg-logo="https://imgur.com/ShPaOvn.jpg" group-title="General",Cenovision HD (720p)
@@ -214,6 +216,8 @@ https://cdn.streamingcpanel.com:3447/live/hainavisionlive.m3u8
 https://imagenuniversaltv.net:3771/live/iutvlive.m3u8
 #EXTINF:-1 tvg-id="InformeTV.do@HD" tvg-country="DO" tvg-name="Informe TV" tvg-logo="https://imgur.com/TmJaXrO.jpg" group-title="General",Informe TV (1080p)
 https://edge.essastream.com/informetv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="JPDTV.do@HD" tvg-country="DO" tvg-name="JPD TV" tvg-logo="https://i0.wp.com/juanpabloduartetv.com/wp-content/uploads/2024/08/logo-JPDTV-100-x-100.png" group-title="General",JPD TV
+https://imagenuniversaltv.net:3026/live/juanpabloduartetvlive.m3u8
 #EXTINF:-1 tvg-id="JuniorTechnologiaTV.do@HD" tvg-country="DO" tvg-name="Junior Technologia TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3812-294x165-FFFFFF.jpg" group-title="General",Junior Technologia TV (1080p)
 https://streamunoapp.com:3616/live/juniorrodrigueztvlive.m3u8
 #EXTINF:-1 tvg-id="LaDescargaTV.do@HD" tvg-country="DO" tvg-name="La Descarga TV" tvg-logo="https://imgur.com/kq1CrDE.png" group-title="General",La Descarga TV
@@ -230,8 +234,6 @@ https://live.larivision.net/livelan/live.m3u8
 https://5790d294af2dc.streamlock.net/latinatv/latinatv/chunklist.m3u8
 #EXTINF:-1 tvg-id="LunaTVCanal53.do@SD" tvg-country="DO" tvg-name="Luna TV Canal 53" tvg-logo="https://i.imgur.com/EvX5aqI.png" group-title="General",Luna TV Canal 53 (720p)
 https://tv.wracanal10.com:3671/live/lunatvcanal53live.m3u8
-#EXTINF:-1 tvg-id="MakinaTV.do@SD" tvg-country="DO" tvg-name="Makina TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/2951-294x165-FFFFFF.jpg" group-title="General",Makina TV (720p)
-https://vdopanel.jlahozconsulting.com:3303/live/makinalive.m3u8
 #EXTINF:-1 tvg-id="ManielTV.do@HD" tvg-country="DO" tvg-name="Maniel TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/4060-294x165-FFFFFF.jpg" group-title="General",Maniel TV (720p)
 https://5790d294af2dc.streamlock.net/manieltv/manieltv/playlist.m3u8
 #EXTINF:-1 tvg-id="MITurnoTV.do@SD" tvg-country="DO" tvg-name="MI Turno TV" tvg-logo="https://imgur.com/uODDaEY.png" group-title="General",MI Turno TV
@@ -260,8 +262,6 @@ https://cnn.hostlagarto.com/ondatv/index.m3u8
 https://edge.essastream.com/orbittv/index.m3u8
 #EXTINF:-1 tvg-id="OxiTV.do@HD" tvg-country="DO" tvg-name="OxiTV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3801-294x165-FFFFFF.jpg" group-title="General",OxiTV (720p)
 https://streamunoapp.com:3520/live/oxitvcanal36live.m3u8
-#EXTINF:-1 tvg-id="PalmarTV.do@SD" tvg-country="DO" tvg-name="Palmar TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3328-294x165-FFFFFF.jpg" group-title="General",Palmar TV
-https://streamunoapp.com:3255/live/palmartvlive.m3u8
 #EXTINF:-1 tvg-id="PortalDigitalTV.do@HD" tvg-country="DO" tvg-name="Portal Digital TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3664-294x165-FFFFFF.jpg" group-title="General",Portal Digital TV (720p)
 https://cdn-us-east-prod-ingest-infra-dacast-com.akamaized.net/5ccadd2a-00ad-4a5b-8322-4b5f69464a68/source/index.m3u8
 #EXTINF:-1 tvg-id="PuntaCanaTV.do@SD" tvg-country="DO" tvg-name="Punta Cana TV" tvg-logo="https://i.imgur.com/KF7fLTx.png" group-title="General",Punta Cana TV (720p)
@@ -276,6 +276,8 @@ https://streaming.telecablecentral.com.do/ReadyTV/ReadyHD/playlist.m3u8
 https://mp.panelchs.com:1936/8040/8040/playlist.m3u8
 #EXTINF:-1 tvg-id="ReporteroTV.do@HD" tvg-country="DO" tvg-name="Reportero TV" tvg-logo="https://dominicanchannels.com/wp-content/uploads/Reportero-100x75-1.png" group-title="General",Reportero TV
 https://streamrd.cloud:5443/LiveApp/streams/J3E3REmLNBzirS9A10575071547538.m3u8
+#EXTINF:-1 tvg-id="RocavisionTV.do@SD" tvg-country="DO" tvg-name="Rocavision TV" tvg-logo="https://imgur.com/FkHqqsi.jpg" group-title="General",Rocavision TV
+https://streamunoapp.com:3331/live/rocavisiontvlive.m3u8
 #EXTINF:-1 tvg-id="Ruta66TV.do@SD" tvg-country="DO" tvg-name="Ruta 66 TV" tvg-logo="https://i.imgur.com/oY4Xfvq.png" group-title="General",Ruta 66 TV (1080p)
 https://edge.livestreaminggroup.info/ruta66tvlive/index.m3u8
 #EXTINF:-1 tvg-id="SanIsidroTV.do@SD" tvg-country="DO" tvg-name="San Isidro TV" tvg-logo="https://i.imgur.com/pwmJrsm.jpg" group-title="General",San Isidro TV (720p)
@@ -324,8 +326,6 @@ https://edge.essastream.com/telecibaotv/tracks-v1a1/mono.m3u8
 https://streaming.grupomediosdelnorte.com:19360/telecontacto/telecontacto.m3u8
 #EXTINF:-1 tvg-id="Teleimpacto.do@SD" tvg-country="DO" tvg-name="Teleimpacto" tvg-logo="https://i.imgur.com/dBEysOV.png" group-title="General",Teleimpacto (720p)
 https://vpss2003.streamprolive.com/hls/live.m3u8
-#EXTINF:-1 tvg-id="TelemediosCanal8.do@SD" tvg-country="DO" tvg-name="Telemedios Canal 8" tvg-logo="https://i.imgur.com/xhEAw7z.png" group-title="General",Telemedios Canal 8 (1080p)
-https://hls.tvabierta.net/hls/008.m3u8
 #EXTINF:-1 tvg-id="TelemetroTV.do@SD" tvg-country="DO" tvg-name="Telemetro TV" tvg-logo="https://imgur.com/Ck2NL0t.png" group-title="General",Telemetro TV
 https://streamunoapp.com:3366/live/telemetrolive.m3u8
 #EXTINF:-1 tvg-id="TelemicroInternacional.do@SD" tvg-country="DO" tvg-name="Telemicro Internacional" tvg-logo="https://i.imgur.com/507tvMY.png" group-title="General",Telemicro Internacional (720p)
@@ -347,6 +347,8 @@ https://cdn4.wind.do/streams/telesistema/telesistema_master.m3u8
 http://server2grupocam.com:1945/teleunion/TU/playlist.m3u8
 #EXTINF:-1 tvg-id="Teleuniverso.do@SD" tvg-country="DO" tvg-name="Teleuniverso" tvg-logo="https://i.imgur.com/gQev8ST.png" group-title="General",Teleuniverso (720p)
 https://hls.tvabierta.net/hls/029.m3u8
+#EXTINF:-1 tvg-id="Telever.do@SD" tvg-country="DO" tvg-name="Telever" tvg-logo="https://imgur.com/ejKctXc.png" group-title="General",Telever (1080p)
+https://soportedvb.click:3413/live/televerlive.m3u8
 #EXTINF:-1 tvg-id="TenarensesTV.do@SD" tvg-country="DO" tvg-name="Tenarenses TV" tvg-logo="https://i.imgur.com/cPIgs0v.png" group-title="General",Tenarenses TV (1080p)
 https://edge.essastream.com/tenarensestvrd/playlist.m3u8
 #EXTINF:-1 tvg-id="ToraCanal69.do@HD" tvg-country="DO" tvg-name="Tora Canal 69" tvg-logo="https://latoratv69.com.do/wp-content/themes/bootscore/assets/img/logo-tora-tv.png" group-title="General",Tora Canal 69
@@ -357,6 +359,8 @@ https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8
 https://live20.bozztv.com/akamaissh101/ssh101/tvcotui/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPlata.do@SD" tvg-country="DO" tvg-name="TV Plata" tvg-logo="https://i.imgur.com/r3urUnn.png" group-title="General",TV Plata (720p)
 https://ss2.tvrdomi.com:1936/tvplata/tvplata/playlist.m3u8
+#EXTINF:-1 tvg-id="TVN.do@HD" tvg-country="DO" tvg-name="TVN" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/4037-294x165-FFFFFF.jpg" group-title="General",TVN (Dominican Republic) (1080p)
+https://5790d294af2dc.streamlock.net/tvn/tvn/playlist.m3u8
 #EXTINF:-1 tvg-id="TVO.do@SD" tvg-country="DO" tvg-name="TVO" tvg-logo="https://i.imgur.com/MhloaFB.png" group-title="General",TVO (720p)
 https://videoserver.tmcreativos.com:19360/gkemzxrrmr/gkemzxrrmr.m3u8
 #EXTINF:-1 tvg-id="UVATV.do@HD" tvg-country="DO" tvg-name="UVA TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3918-294x165-FFFFFF.jpg" group-title="General",UVA TV (720p)

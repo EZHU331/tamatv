@@ -17,8 +17,6 @@ https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
 https://videostream.shockmedia.com.ar/hls/multivisionfederal/multivisionfederal.m3u8
 #EXTINF:-1 tvg-id="QuanticaTV.ar@SD" tvg-country="AR" tvg-name="Quantica TV" tvg-logo="https://i.imgur.com/6f8EYC2.jpeg" group-title="News",Quantica TV
 https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8
-#EXTINF:-1 tvg-id="TN.ar@SD" tvg-country="AR" tvg-name="TN" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News",TN (1080p)
-http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-id="VIVETV.ar@HD" tvg-country="AR" tvg-name="VIVE TV" tvg-logo="https://raw.githubusercontent.com/vivetvargentina/vive-tv/main/Logo%20512x512-04.png" group-title="News",VIVE TV (1080p)
 https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-country="AR" tvg-name="Canal Showsport" tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="Sports",Canal Showsport (720p)
@@ -76,7 +74,7 @@ https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalUniversidad.ar@SD" tvg-country="AR" tvg-name="Canal Universidad" tvg-logo="https://i.imgur.com/trmPKYw.png" group-title="Education",Canal Universidad
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
-#EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
+#EXTINF:-1 tvg-id="TVUniversidad.ar" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-country="AR" tvg-name="Encuentro" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Culture",Encuentro (720p)
 http://138.59.227.20:8000/play/a05s/index.m3u8
@@ -241,6 +239,8 @@ https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8
 http://45.134.141.161:2200/ARG/Net_TV/index.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-country="AR" tvg-name="NG Federal" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="General",NG Federal (720p)
 http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
+#EXTINF:-1 tvg-id="NorteTV.ar@SD" tvg-country="AR" tvg-name="Norte TV" tvg-logo="https://i.imgur.com/jTX2vp0.png" group-title="General",Norte TV (720p)
+https://ntvcanal7.com.ar:81/dash/stream.mpd
 #EXTINF:-1 tvg-id="PowerHD.ar@SD" tvg-country="AR" tvg-name="PowerHD" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="General",PowerHD (720p)
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1 tvg-id="RadioTVNeuquen.ar@SD" tvg-country="AR" tvg-name="Radio TV Neuquen" tvg-logo="https://i.imgur.com/HXBLozl.png" group-title="General",Radio TV Neuquen (720p)
@@ -253,6 +253,10 @@ http://204.199.3.2/.m3u8
 https://media.neuquen.gov.ar/rtn/television/media.m3u8
 #EXTINF:-1 tvg-id="SanLuisPlus.ar@SD" tvg-country="AR" tvg-name="San Luis +" tvg-logo="https://i.imgur.com/bGoGiry.png" group-title="General",San Luis +
 https://stream.radiosmundiales.com/hls/sanluismas/sanluismas.m3u8
+#EXTINF:-1 tvg-id="SanPedroTV.ar@SD" tvg-country="AR" tvg-name="San Pedro TV" tvg-logo="https://i.imgur.com/UkpXogr.png" group-title="General",San Pedro TV (1080p)
+https://iptv.ixfo.com.ar:30443/live/sanpedrotv/playlist.m3u8
+#EXTINF:-1 tvg-id="SicardiTV.ar@SD" tvg-country="AR" tvg-name="Sicardi TV" tvg-logo="https://i.imgur.com/W2EUIL2.png" group-title="General",Sicardi TV (720p)
+https://vivo.solumedia.com:19360/sicarditv/sicarditv.m3u8
 #EXTINF:-1 tvg-id="SoliveTV.ar@SD" tvg-country="AR" tvg-name="Solive TV" tvg-logo="https://i.imgur.com/dyUxugT.png" group-title="General",Solive TV
 https://stmv6.voxtvhd.com.br/solivetv/solivetv/playlist.m3u8
 #EXTINF:-1 tvg-id="SonyChannel.ar@SD" tvg-country="AR" tvg-name="Sony Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Sony_Channel_Logo.png/960px-Sony_Channel_Logo.png" group-title="General",Sony Channel (Argentina) (1080p)
