@@ -33,6 +33,8 @@ https://stream.realitatea.net/realitatea/sportiva_md/ts:playlist.m3u8
 https://livesptfm.com/SPTFM/Live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVRSport.ro@SD" tvg-country="RO" tvg-name="TVR Sport" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/TVR_Sport_Logo_2023.svg/960px-TVR_Sport_Logo_2023.svg.png" group-title="Sports",TVR Sport (1440p)
 https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="VoyoEvents.ro@SD" tvg-country="RO" tvg-name="Voyo Events" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Voyo_2026.svg/revision/latest/scale-to-width-down/1000?cb=20261006171646" group-title="Sports",Voyo Events (576i)
+http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-country="RO" tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Movies",Bollywood HD Russia (720p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 tvg-id="CinemaratonPlus.ro@HD" tvg-country="RO" tvg-name="Cinemaraton Plus" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RMNdkVBCTNfsogsYqHaB.png" group-title="Movies",Cinemaraton Plus (1080i)
@@ -55,9 +57,6 @@ https://live77cdn2.antenaplay.ro/live2_aws4_sdi10/live2_aws4_sdi10_5000k.m3u8
 https://live77cdn2.antenaplay.ro/live2_aws4_sdi12/live2_aws4_sdi12_5000k.m3u8
 #EXTINF:-1 tvg-id="Insulanonstop.ro@SD" tvg-country="RO" tvg-name="Insula non stop" tvg-logo="https://assets.antenaplay.ro/2026/08/20/DlZIyQ0kSAH3YYj30Ovi.png" group-title="Entertainment",Insula non stop (576i)
 https://live77cdn2.antenaplay.ro/live2_sdi05/live2_sdi05.m3u8
-#EXTINF:-1 tvg-id="Minimax.ro@SD" tvg-country="RO" tvg-name="Minimax" tvg-logo="https://upload.wikimedia.org/wikipedia/en/b/ba/Minimax_2021.svg" group-title="Kids" http-referrer="https://cool-tv.net/",Minimax (Romania)
-#EXTVLCOPT:http-referrer=https://cool-tv.net/
-https://atlantida1.aquax1.cfd/minimaxy/usergendxny9zrnd.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.ro@SD" tvg-country="RO" tvg-name="Nickelodeon" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318" group-title="Kids",Nickelodeon (Romania)
 http://178.76.68.60:7442/64/mpegts
 #EXTINF:-1 tvg-id="Nicktoons.ro@SD" tvg-country="RO" tvg-name="Nicktoons" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/NickToons_US_2023_Splat_Variant.png/revision/latest?cb=20251214221939" group-title="Kids",Nicktoons (Romania)
@@ -116,6 +115,8 @@ https://tvr-folclor.lg.mncdn.com/tvrfolclor/smil:tvrfolclor.smil/playlist.m3u8
 https://stream1.antenaplay.ro/live/AntenaMonden/playlist.m3u8
 #EXTINF:-1 tvg-id="MediCOOLTV.ro@SD" tvg-country="RO" tvg-name="MediCOOL TV" tvg-logo="https://i.imgur.com/Xe7x1k2.png" group-title="Lifestyle",MediCOOL TV
 https://live77cdn2.antenaplay.ro/live2_fast/ch1/stream.m3u8
+#EXTINF:-1 tvg-id="Chefilacutite.ro@SD" tvg-country="RO" tvg-name="Chefi la cutite" tvg-logo="https://assets.antenaplay.ro/2026/11/04/G8N7skUwdPOXMI5hwmDm.png" group-title="Cooking",Chefi la cutite (576i)
+https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8
 #EXTINF:-1 tvg-id="Chefiro.ro@SD" tvg-country="RO" tvg-name="Chefi.ro" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Chefi.ro_2026.png" group-title="Cooking",Chefi.ro (1080p)
 https://live77cdn2.antenaplay.ro/live2_aws4_sdi13/live2_aws4_sdi13.m3u8
 #EXTINF:-1 tvg-id="TravelMix.ro@SD" tvg-country="RO" tvg-name="Travel Mix" tvg-logo="https://i.imgur.com/4dMeEQO.png" group-title="Travel",Travel Mix

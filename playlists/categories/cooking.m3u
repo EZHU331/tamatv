@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_RO1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz"
 #EXTINF:-1 tvg-id="bonappetit.us@SD" tvg-country="US" tvg-name="bon appetit" tvg-logo="https://i.imgur.com/YhFFxlE.png" group-title="Cooking",bon appetit (1080p)
 https://bonappetit-samsung.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalPlusKuchnia.pl" tvg-country="PL" tvg-name="Canal+ Kuchnia (576i)" tvg-logo="https://i.imgur.com/d1JTJBl.png" group-title="Cooking",Canal+ Kuchnia (576i)
@@ -9,6 +9,8 @@ https://rpn.bozztv.com/gusa/gusa-chefchampion/index.m3u8
 https://rpn.bozztv.com/gusa/gusa-chefrock/index.m3u8
 #EXTINF:-1 tvg-id="ChefTV.br@SD" tvg-country="BR" tvg-name="Chef TV" tvg-logo="https://i.imgur.com/UYksTee.png" group-title="Cooking",Chef TV (720p)
 http://168.197.104.22/CHEF_TV/index.m3u8
+#EXTINF:-1 tvg-id="Chefilacutite.ro@SD" tvg-country="RO" tvg-name="Chefi la cutite" tvg-logo="https://assets.antenaplay.ro/2026/11/04/G8N7skUwdPOXMI5hwmDm.png" group-title="Cooking",Chefi la cutite (576i)
+https://live77cdn2.antenaplay.ro/live2_fast/ch5/stream.m3u8
 #EXTINF:-1 tvg-id="Chefiro.ro@SD" tvg-country="RO" tvg-name="Chefi.ro" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/1/1c/Chefi.ro_2026.png" group-title="Cooking",Chefi.ro (1080p)
 https://live77cdn2.antenaplay.ro/live2_aws4_sdi13/live2_aws4_sdi13.m3u8
 #EXTINF:-1 tvg-id="CityEdenReceptyGurmana.ru@HD" tvg-country="RU" tvg-name="City Eden Recepty Gurmana" tvg-logo="https://i.imgur.com/wR0pvRc.png" group-title="Cooking",City Eden Recepty Gurmana
@@ -53,8 +55,6 @@ https://playlist.fasttvcdn.com/pl/cc0blorawy1ibohhrupraa/cooking/playlist.m3u8
 https://a-cdn.klowdtv.com/live2/recipetv_720p/playlist.m3u8
 #EXTINF:-1 tvg-id="SBSFood.au" tvg-country="AU" tvg-name="SBS Food" tvg-logo="https://i.imgur.com/9A8BwQA.png" group-title="Cooking",SBS Food Ⓖ
 https://i.mjh.nz/.r/sbs-3syd.m3u8
-#EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-6041643175c115002dc5125d" tvg-country="US" tvg-name="So Yummy" tvg-logo="https://i.imgur.com/ju2NyoL.png" group-title="Cooking",So Yummy
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6041643175c115002dc5125d/?X-Plex-Token=REJkcmQ3HWxytFczDVVx
 #EXTINF:-1 tvg-id="TastemadeenEspanol.us@SD" tvg-country="US" tvg-name="Tastemade en Espanol" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade en Espanol (1080p)
 https://tastemadees16us-xumo.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TastemadeTravel.us@SD" tvg-country="US" tvg-name="Tastemade Travel" tvg-logo="https://i.imgur.com/8s6aRwv.png" group-title="Cooking",Tastemade Travel (1080p)

@@ -17,8 +17,8 @@ https://videostream.shockmedia.com.ar/hls/mercuriotv/mercuriotv.m3u8
 https://videostream.shockmedia.com.ar/hls/multivisionfederal/multivisionfederal.m3u8
 #EXTINF:-1 tvg-id="QuanticaTV.ar@SD" tvg-country="AR" tvg-name="Quantica TV" tvg-logo="https://i.imgur.com/6f8EYC2.jpeg" group-title="News",Quantica TV
 https://videostream.shockmedia.com.ar:19360/quanticatv/quanticatv.m3u8
-#EXTINF:-1 tvg-id="VIVETV.ar@HD" tvg-country="AR" tvg-name="VIVE TV" tvg-logo="https://raw.githubusercontent.com/vivetvargentina/vive-tv/main/Logo%20512x512-04.png" group-title="News",VIVE TV (1080p)
-https://vivo.solumedia.com:19360/vivetv/vivetv.m3u8
+#EXTINF:-1 tvg-id="TN.ar@SD" tvg-country="AR" tvg-name="TN" tvg-logo="https://i.imgur.com/vFwPhPS.png" group-title="News",TN (1080p)
+http://158.172.155.130:8000/play/a0dp/index.m3u8
 #EXTINF:-1 tvg-id="CanalShowsport.ar@SD" tvg-country="AR" tvg-name="Canal Showsport" tvg-logo="https://i.imgur.com/0L9tW3Z.png" group-title="Sports",Canal Showsport (720p)
 https://livestream.lumpentv.com.ar/hls/lumpen.m3u8
 #EXTINF:-1 tvg-id="DeporTV.ar@SD" tvg-country="AR" tvg-name="DeporTV" tvg-logo="https://i.imgur.com/THk9ARS.png" group-title="Sports",DeporTV (1080p)
@@ -158,8 +158,6 @@ https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3LasHeras.ar@SD" tvg-country="AR" tvg-name="Canal 3 Las Heras" tvg-logo="https://i.imgur.com/bd2afET.png" group-title="General",Canal 3 Las Heras (720p)
 https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3Pinamar.ar@SD" tvg-country="AR" tvg-name="Canal 3 Pinamar" tvg-logo="https://i.imgur.com/IABFaH1.png" group-title="General",Canal 3 Pinamar
-http://intelincloud01.com.ar/hls/cn3/index.m3u8
 #EXTINF:-1 tvg-id="Canal3Tacural.ar@SD" tvg-country="AR" tvg-name="Canal 3 Tacural" tvg-logo="https://i.imgur.com/RKvSa52.jpeg" group-title="General",Canal 3 Tacural
 http://vivo.canal3tacural.com.ar:8081/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Canal4Esquel.ar@SD" tvg-country="AR" tvg-name="Canal 4 Esquel" tvg-logo="https://i.imgur.com/6kbOr16.png" group-title="General",Canal 4 Esquel (720p)
@@ -287,8 +285,6 @@ https://videohd.live:19360/8008/8008.m3u8
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPublicaFueguina.ar@SD" tvg-country="AR" tvg-name="TV Publica Fueguina" tvg-logo="https://i.imgur.com/4dUvFqa.png" group-title="General",TV Publica Fueguina (1080p)
 https://nd106.republicaservers.com/hls/c8094/index.m3u8
-#EXTINF:-1 tvg-id="TVPublicaMarcosPaz.ar@SD" tvg-country="AR" tvg-name="TV Publica Marcos Paz" tvg-logo="https://i.imgur.com/CRmY4Oi.png" group-title="General",TV Publica Marcos Paz (720p)
-https://ca.centaurychile.com:2443/hls/mediospublicos.m3u8
 #EXTINF:-1 tvg-id="Uniteve.ar@SD" tvg-country="AR" tvg-name="Uniteve" tvg-logo="https://pbs.twimg.com/profile_images/720276300888453120/a_SDOmBc_400x400.jpg" group-title="General",Uniteve (720p)
 https://vivo.solumedia.com:19360/uniteve/uniteve.m3u8
 #EXTINF:-1 tvg-id="UrbanMix.ar@SD" tvg-country="AR" tvg-name="Urban Mix" tvg-logo="https://tvomix.com/Logos/Urbanmix.png" group-title="General",Urban Mix (720p)
