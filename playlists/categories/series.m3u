@@ -32,10 +32,8 @@ https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AWTV.br@HD" tvg-country="BR" tvg-name="AWTV" tvg-logo="https://i.imgur.com/2tdMyef.png" group-title="Series" http-referrer="https://awtv.com.br",AWTV (1080p)
 #EXTVLCOPT:http-referrer=https://awtv.com.br
 https://awtv.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AXNBlack.pl" tvg-country="PL" tvg-name="AXN Black (Poland) (576i)" tvg-logo="https://i.imgur.com/Nqvx6nz.png" group-title="Series",AXN Black (Poland) (576i)
+#EXTINF:-1 tvg-id="AXNBlack.pl@SD" tvg-country="PL" tvg-name="AXN Black" tvg-logo="https://i.imgur.com/Nqvx6nz.png" group-title="Series",AXN Black (Poland) (576i)
 http://92.114.85.87:8014/play/a00h/index.m3u8
-#EXTINF:-1 tvg-id="AXNSpin.pl@SD" tvg-country="PL" tvg-name="AXN Spin" tvg-logo="https://i.imgur.com/LGEbwnT.png" group-title="Series",AXN Spin (Poland)
-http://92.114.85.87:8010/play/a00b/index.m3u8
 #EXTINF:-1 tvg-id="AzCorazon.mx@SD" tvg-country="MX" tvg-name="Az Corazon" tvg-logo="https://i.imgur.com/KIpSdQC.png" group-title="Series",Az Corazon (720p)
 http://200.115.120.1:8000/play/ca020/index.m3u8
 #EXTINF:-1 tvg-id="BabAlHara.sa@SD" tvg-country="SA" tvg-name="Bab Al Hara" tvg-logo="https://i.imgur.com/QtlnZbq.png" group-title="Series",Bab Al Hara (1080p)
@@ -169,16 +167,12 @@ http://wms.shared.streamshow.it/supertv/mp4:supertv/playlist.m3u8
 https://amg00627-amg00627c16-samsung-nz-2811.playouts.now.amagi.tv/playlist/amg00627-banijayfast-survivor-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="TPlusE.ca@SD" tvg-country="CA" tvg-name="T+E" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4e/T%2BE_Television.png" group-title="Series",T+E (720p)
 http://185.246.209.113/T+E/index.m3u8
-#EXTINF:-1 tvg-id="Telecyan.us@HD" tvg-country="US" tvg-name="Telecyan" tvg-logo="https://i.imgur.com/9BnHCj5.png" group-title="Series",Telecyan (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-211227/playlist.m3u8
 #EXTINF:-1 tvg-id="TheAsylum.us@US" tvg-country="US" tvg-name="The Asylum" tvg-logo="https://i.imgur.com/dx9tt1B.png" group-title="Series",The Asylum (1080p)
 https://d1i3g4v4xlfhad.cloudfront.net/The_Asylum.m3u8
 #EXTINF:-1 tvg-id="TheChatShowChannel.uk@SD" tvg-country="UK" tvg-name="The Chat Show Channel" tvg-logo="https://yt3.googleusercontent.com/aQ_vvywmcBt4X1SmeEMgT3uf7bb1Z__I9XVwabeg7RrSSEuIhswMlvwhyi0Wl4PlLHwXufLgOg=s900-c-k-c0x00ffffff-no-rj" group-title="Series",The Chat Show Channel (1080p)
 https://amg00426-littledotstudio-thechatshow-samsungnz-uqmtt.amagi.tv/playlist/amg00426-littledotstudio-thechatshow-samsungnz/playlist.m3u8
 #EXTINF:-1 tvg-id="TheDoctors.us@HD" tvg-country="US" tvg-name="The Doctors" tvg-logo="https://i.imgur.com/2sAz8dZ.png" group-title="Series",The Doctors (720p)
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/Doctors/index.m3u8
-#EXTINF:-1 tvg-id="TheLoop.us@SD" tvg-country="US" tvg-name="The Loop" tvg-logo="https://i.imgur.com/iyYLuJj.png" group-title="Series",The Loop (1080p)
-https://tgn.bozztv.com/watc57/watc57-theloop/watc57-theloop/index.m3u8
 #EXTINF:-1 tvg-id="TheWalkingDeadUniverse.us@SD" tvg-country="US" tvg-name="The Walking Dead Universe" tvg-logo="https://i.imgur.com/IwJ5Pnc.png" group-title="Series",The Walking Dead Universe (1080p)
 https://amc-twdfanexperience-1-us.xumo.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ThisOldHouse.us@SD" tvg-country="US" tvg-name="This Old House" tvg-logo="https://i.imgur.com/nrVLyE6.png" group-title="Series",This Old House (1080p)
@@ -215,7 +209,7 @@ https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
 https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
 #EXTINF:-1 tvg-id="VelvetWorldSeries.ru@HD" tvg-country="RU" tvg-name="Velvet. World Series" tvg-logo="https://antiabuse-container.b-cdn.net/mirseriallogo.png" group-title="Series",Velvet. World Series (1080p)
 https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
-#EXTINF:-1 tvg-id="ViasatEpicDrama.uk" tvg-country="UK" tvg-name="Viasat Epic Drama Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/Viasat_Epic_Drama_2026.svg" group-title="Series",Viasat Epic Drama Poland (1080p)
+#EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Poland" tvg-country="UK" tvg-name="Viasat Epic Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/Viasat_Epic_Drama_2026.svg" group-title="Series",Viasat Epic Drama Poland (1080p)
 http://92.114.85.87:8001/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000romantica.ru@HD" tvg-country="RU" tvg-name="viju TV1000 romantica" tvg-logo="https://rnnxdki1nv.a.trbcdn.net/viasat/production/tvchannels/dc243048-c5ad-4ccc-86c6-3a480874ec29/logos/flo59mr6lh1jf68g3021urgwtd5k" group-title="Series",viju TV1000 romantica HD (1080p)
 http://46.53.200.153:7777/play/Viju_Drama/index.m3u8

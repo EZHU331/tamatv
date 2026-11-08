@@ -41,8 +41,6 @@ https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8
 https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8
 #EXTINF:-1 tvg-id="BarazaTVRelaxing.gr@SD" tvg-country="GR" tvg-name="Baraza TV Relaxing" tvg-logo="https://i.imgur.com/TZ1unwF.png" group-title="Music",Baraza TV Relaxing (720p)
 https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8
-#EXTINF:-1 tvg-id="EllinikosFM.gr@SD" tvg-country="GR" tvg-name="Ellinikos FM" tvg-logo="https://i.ibb.co/y0ydCNB/unnamed-4.png" group-title="Music",Ellinikos FM (720p)
-https://rtmp.win:3603/live/ellinikosfmlive.m3u8
 #EXTINF:-1 tvg-id="MessatidaTV.gr@SD" tvg-country="GR" tvg-name="Messatida TV" tvg-logo="https://i.imgur.com/WEYrIrC.png" group-title="Music",Messatida TV (720p)
 https://rtmp.streams.ovh:8081/mtv/index.m3u8
 #EXTINF:-1 tvg-id="NRG91.gr@SD" tvg-country="GR" tvg-name="NRG 91" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" group-title="Music",NRG 91 (720p)
@@ -67,7 +65,7 @@ https://fr.crystalweb.net:1936/aigaiotv/aigaiotv/playlist.m3u8
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-country="GR" tvg-name="Alpha TV" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="General",Alpha TV (1080p)
 https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="arttv.gr" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
+#EXTINF:-1 tvg-id="ARTTV.gr@SD" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
 https://rtmp.win:3696/live/arttvgrlive.m3u8
 #EXTINF:-1 tvg-id="BestTV.gr@SD" tvg-country="GR" tvg-name="Best TV" tvg-logo="https://i.imgur.com/AeeeDUc.png" group-title="General",Best TV (720p)
 http://push-int.siliconweb.com/bestTV/stream/playlist.m3u8
@@ -97,12 +95,8 @@ https://neon.streams.gr:8081/epsilontv/index.m3u8
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTCosmos/default/index.m3u8
 #EXTINF:-1 tvg-id="ERTSports4.gr" tvg-country="GR" tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" group-title="General",ERT Sports 4
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTSports4/default/index.mpd
-#EXTINF:-1 tvg-id="eurotv.gr" tvg-country="GR" tvg-name="Euro" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="General",Euro
-https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="GnomiTV.gr@SD" tvg-country="GR" tvg-name="Gnomi TV" tvg-logo="https://i.ibb.co/ZNCXr79/gnomi-logo.png" group-title="General",Gnomi TV (1080p)
 https://live.streams.ovh:8081/gnomitv/index.m3u8
-#EXTINF:-1 tvg-id="hlektra.gr" tvg-country="GR" tvg-name="Hlektra" tvg-logo="https://i.imgur.com/LbogUPS.png" group-title="General",Hlektra
-https://live20.bozztv.com/giatv/giatv-hlektratv/hlektratv/playlist.m3u8
 #EXTINF:-1 tvg-id="IonianTV.gr@SD" tvg-country="GR" tvg-name="Ionian TV" tvg-logo="https://i.imgur.com/JILN3kS.png" group-title="General",Ionian TV (1080p)
 http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8
 #EXTINF:-1 tvg-id="KontraChannel.gr@SD" tvg-country="GR" tvg-name="Kontra Channel" tvg-logo="https://kontrachannel.gr/images/kontrachannel24.png" group-title="General",Kontra Channel (1080p)

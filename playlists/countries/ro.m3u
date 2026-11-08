@@ -35,6 +35,8 @@ https://livesptfm.com/SPTFM/Live/playlist.m3u8
 https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VoyoEvents.ro@SD" tvg-country="RO" tvg-name="Voyo Events" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Voyo_2026.svg/revision/latest/scale-to-width-down/1000?cb=20261006171646" group-title="Sports",Voyo Events (576i)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0
+#EXTINF:-1 tvg-id="VoyoSport1.ro@HD" tvg-country="RO" tvg-name="Voyo Sport 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg" group-title="Sports",Voyo Sport 1 (1080i)
+https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-country="RO" tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Movies",Bollywood HD Russia (720p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 tvg-id="CinemaratonPlus.ro@HD" tvg-country="RO" tvg-name="Cinemaraton Plus" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RMNdkVBCTNfsogsYqHaB.png" group-title="Movies",Cinemaraton Plus (1080i)
@@ -195,7 +197,7 @@ https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
 https://live.senstv.ro/live/senstv_1080p/chunklist.m3u8
 #EXTINF:-1 tvg-id="Tele7ABCHD.ro@SD" tvg-country="RO" tvg-name="Tele7ABC HD" tvg-logo="https://i.imgur.com/CheqyWH.png" group-title="General",Tele7ABC HD (720p)
 https://live.tele7abc.ro/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="Telestar1.ro" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
+#EXTINF:-1 tvg-id="Telestar1.ro@SD" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 #EXTINF:-1 tvg-id="TrinitasTV.ro@SD" tvg-country="RO" tvg-name="Trinitas TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/91/Trinitas_TV_%282018%29.svg/revision/latest?cb=20210506192259" group-title="General",Trinitas TV (576i)
 https://hls01ns.antenaplay.ro/hls/trinitas-tv-sd/index.m3u8

@@ -17,6 +17,8 @@ http://79.127.238.228:14093
 http://170.82.202.31/GNT/index.m3u8
 #EXTINF:-1 tvg-id="J3NEWSTV.br@SD" tvg-country="BR" tvg-name="J3NEWS TV" tvg-logo="https://i.imgur.com/lezIQyL.png" group-title="News",J3NEWS TV
 https://video01.brascast.com/d92ebb4f/d92ebb4f/playlist.m3u8
+#EXTINF:-1 tvg-id="PlenaTV.br@SD" tvg-country="BR" tvg-name="Plena TV" tvg-logo="https://i.imgur.com/lH4RT7b.png" group-title="News",Plena TV (720p)
+https://cdn.jmvstream.com/w/LVW-9591/LVW9591_PmXtgATnaS/playlist.m3u8
 #EXTINF:-1 tvg-id="RecordNews.br@SD" tvg-country="BR" tvg-name="Record News" tvg-logo="https://i.imgur.com/HZDRG0K.png" group-title="News",Record News (720p)
 http://45.162.64.114/RECORD_NEWS/index.m3u8
 #EXTINF:-1 tvg-id="SBTNews.br@SD" tvg-country="BR" tvg-name="SBT News" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/4/42/SBT_News_2025.svg" group-title="News",SBT News (720p)
@@ -33,6 +35,8 @@ https://video01.logicahost.com.br/tvafolha/tvafolha/playlist.m3u8
 https://5ad482a77183d.streamlock.net/rodrigotvbrusque.com.br/5d880199c902eb4a1e8df00d/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNatal.br@SD" tvg-country="BR" tvg-name="TV Natal" tvg-logo="https://i.imgur.com/wqQmQml.png" group-title="News",TV Natal (1080p)
 http://185.228.163.146:8000/play/a01y/index.m3u8
+#EXTINF:-1 tvg-id="TVSimCachoeiro.br@SD" tvg-country="BR" tvg-name="TV Sim Cachoeiro" tvg-logo="https://i.imgur.com/t5oUK3C.png" group-title="News",TV Sim Cachoeiro (720p)
+https://5cf4a2c2512a2.streamlock.net/8104/8104/playlist.m3u8
 #EXTINF:-1 tvg-id="TVZoom.br@SD" tvg-country="BR" tvg-name="TV Zoom" tvg-logo="https://i.imgur.com/jCGrjf5.png" group-title="News",TV Zoom (720p)
 https://cdn.jmvstream.com/w/LVW-9730/LVW9730_LmUwslM8jt/playlist.m3u8
 #EXTINF:-1 tvg-id="TVideoNews.br@SD" tvg-country="BR" tvg-name="TVideoNews" tvg-logo="https://i.imgur.com/vstHOYx.png" group-title="News",TVideoNews (720p)
@@ -384,8 +388,6 @@ https://cdn.jmvstream.com/w/LVW-10841/LVW10841_mT77z9o2cP/playlist.m3u8
 https://video05.logicahost.com.br/comunitariario/comunitariario/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEBahia.br@SD" tvg-country="BR" tvg-name="TVE Bahia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/TVE_Bahia_logo.svg/960px-TVE_Bahia_logo.svg.png" group-title="General",TVE Bahia (1080p)
 http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
-#EXTINF:-1 tvg-id="TVitape.br@SD" tvg-country="BR" tvg-name="TVitape" tvg-logo="https://i.imgur.com/XeqcwKe.png" group-title="General",TVitape (720p)
-https://stream01.msolutionbrasil.com.br/hls/tvitape/live.m3u8
 #EXTINF:-1 tvg-id="TVLatinaSat.br@HD" tvg-country="BR" tvg-name="TVLatinaSat" tvg-logo="https://latinasat.com.br/logo.png" group-title="General",TVLatinaSat (720p)
 https://www.latinasat.com.br/hls/live/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVMaticCrafts.br@SD" tvg-country="BR" tvg-name="TVMatic Crafts" tvg-logo="https://i.imgur.com/l5PBcKN.png" group-title="General",TVMatic Crafts (720p)
