@@ -2,24 +2,16 @@
 #EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-country="MY" tvg-name="Berita RTM" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="News" http-referrer="https://rtm-player.glueapi.io/",Berita RTM (1080p)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
-#EXTINF:-1 tvg-id="CinemaWorld.my@SD" tvg-country="MY" tvg-name="CinemaWorld" tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld (720p)
-http://nmk.ioapk.com:5050/4gtv-live069/index.m3u8
 #EXTINF:-1 tvg-id="MaahTV.my@SD" tvg-country="MY" tvg-name="Maah TV" tvg-logo="https://i.imgur.com/FkyueH6.png" group-title="Movies",Maah TV (720p)
 https://hls.maahtv.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="RTMParlimenDewanNegara.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Negara" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen Dewan Negara (1080p)
-#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
-https://d25tgymtnqzu8s.cloudfront.net/smil:negara/playlist.m3u8?id=8
-#EXTINF:-1 tvg-id="RTMParlimenDewanRakyat.my@SD" tvg-country="MY" tvg-name="RTM Parlimen Dewan Rakyat" tvg-logo="https://i.postimg.cc/mgrVsTMY/header.png" group-title="Legislative" http-referrer="https://rtm-player.glueapi.io/",RTM Parlimen Dewan Rakyat (1080p)
-#EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
-https://d25tgymtnqzu8s.cloudfront.net/smil:rakyat/playlist.m3u8?id=7
 #EXTINF:-1 tvg-id="Okey.my@SD" tvg-country="MY" tvg-name="Okey" tvg-logo="https://i.imgur.com/V2jREQ5.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",Okey (1080p)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:okey/playlist.m3u8?id=3
-#EXTINF:-1 tvg-id="TV6.my@SD" tvg-country="MY" tvg-name="TV6" tvg-logo="https://i.imgur.com/bK8UH9D.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",TV6 (Malaysia) (1080p)
+#EXTINF:-1 tvg-id="TV1.my@SD" tvg-country="MY" tvg-name="TV1" tvg-logo="https://i.imgur.com/wSyPmiY.png" group-title="General",TV1 (Malaysia) (1080p)
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv1/manifest.mpd
+#EXTINF:-1 tvg-id="TV2.my@SD" tvg-country="MY" tvg-name="TV2" tvg-logo="https://i.imgur.com/LGEdeyJ.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",TV2 (Malaysia) (1080p)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
-https://d25tgymtnqzu8s.cloudfront.net/smil:tv6/playlist.m3u8?id=6
-#EXTINF:-1 tvg-id="TVS.my@SD" tvg-country="MY" tvg-name="TVS" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/TVS_Sarawak.jpg/960px-TVS_Sarawak.jpg" group-title="General",TVS (Malaysia) (1080p)
-https://api.dani-dev.co.za/v1/stream/mytv/live/tvs
+https://d25tgymtnqzu8s.cloudfront.net/smil:tv2/playlist.m3u8?id=2
 #EXTINF:-1 tvg-id="AstroAEC.my" tvg-country="MY" tvg-name="Astro AEC" tvg-logo="https://i.postimg.cc/wTQ0nC4r/Astro-AEC.png" group-title="港澳台",Astro AEC
 http://php.jdshipin.com/smt.php?id=AEC
 #EXTINF:-1 tvg-id="AstroAOD.my" tvg-country="MY" tvg-name="ASTRO AOD" tvg-logo="https://freetv.fun/media/images/channel/2022/08/26/large/20220826114608609036_92.png" group-title="港澳台",ASTRO AOD
