@@ -15,8 +15,6 @@ https://redirector.dps.live/hls/pinguinotv/playlist.m3u8
 http://15.204.196.147:22880/MEGANOTICIA-MEGAMEDIA-EE.UU-PROVEEDOR/video.m3u8
 #EXTINF:-1 tvg-id="NCTV.cl@SD" tvg-country="CL" tvg-name="NCTV" tvg-logo="https://i.imgur.com/oo5vDBv.png" group-title="News",NCTV (1080p)
 https://pantera1-100gb-cl-movistar.dps.live/nctv/nctv.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="Opinionsur.cl@SD" tvg-country="CL" tvg-name="Opinionsur" tvg-logo="https://i.imgur.com/4IjhXKm.png" group-title="News",Opinionsur (720p)
-https://183.bozztv.com/giatv/giatv-opinionsurc/opinionsurc/playlist.m3u8
 #EXTINF:-1 tvg-id="PuranoticiaTV.cl@SD" tvg-country="CL" tvg-name="Puranoticia TV" tvg-logo="https://i.imgur.com/NklUi6Y.png" group-title="News",Puranoticia TV (720p)
 https://pnt.janusmedia.tv/hls/pnt.m3u8
 #EXTINF:-1 tvg-id="T13EnVivo.cl@SD" tvg-country="CL" tvg-name="T13 En Vivo" tvg-logo="https://i.imgur.com/2Vlkl2x.png" group-title="News",T13 En Vivo (1080p)
@@ -55,6 +53,8 @@ https://v1.tustreaming.cl/melinkana/index.m3u8
 https://redirector.rudo.video/hls-video/339f69c6122f6d8f4574732c235f09b7683e31a5/ln/ln.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="NadaEsImposibleTV.cl@SD" tvg-country="CL" tvg-name="Nada Es Imposible TV" tvg-logo="https://i.imgur.com/cGNgvOD.png" group-title="Entertainment",Nada Es Imposible TV
 https://vdochile.com:3194/live/mvqutymylive.m3u8
+#EXTINF:-1 tvg-id="ZonaPlayTV.cl@SD" tvg-country="CL" tvg-name="Zona Play TV" tvg-logo="https://i.imgur.com/GewcpHv.png" group-title="Entertainment",Zona Play TV (720p)
+https://tv1.mediacp.eu:3131/live/dilxbgxylive.m3u8
 #EXTINF:-1 tvg-id="FunBox.cl@SD" tvg-country="CL" tvg-name="FunBox" tvg-logo="https://i.imgur.com/9MXM6jD.png" group-title="Kids",FunBox
 http://186.148.196.100:8000/play/a00d
 #EXTINF:-1 tvg-id="EnerGeek.cl@HD" tvg-country="CL" tvg-name="EnerGeek" tvg-logo="https://cdn.energeek.cl/logos/EG-Retro-2025_pfp.png" group-title="Animation",EnerGeek (1080p)
@@ -265,6 +265,8 @@ https://video.ipstream.cl:3710/hybrid/play.m3u8
 https://tv1.ninatv.cl/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OdiseaTV.cl@SD" tvg-country="CL" tvg-name="Odisea TV" tvg-logo="https://i.imgur.com/8SCnoiZ.png" group-title="General",Odisea TV (720p)
 https://v2.tustreaming.cl/odiseatv/index.m3u8
+#EXTINF:-1 tvg-id="OliTV.cl@SD" tvg-country="CL" tvg-name="Oli TV" tvg-logo="https://i.imgur.com/2emMRvf.jpeg" group-title="General",Oli TV (Chile) (1080p)
+https://v4.tustreaming.cl/retroplaytv/index.m3u8
 #EXTINF:-1 tvg-id="PichilemuTV.cl@SD" tvg-country="CL" tvg-name="Pichilemu TV" tvg-logo="https://i.imgur.com/eaJVCwM.png" group-title="General",Pichilemu TV (1080p)
 https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cl@SD" tvg-country="CL" tvg-name="Polar TV" tvg-logo="https://i.imgur.com/4exfvPt.png" group-title="General",Polar TV (Chile) (1080p)

@@ -13,6 +13,8 @@ http://183.196.25.171:808/hls/11/index.m3u8
 http://183.196.25.171:808/hls/93/index.m3u8
 #EXTINF:-1 tvg-id="三沙卫视" tvg-name="三沙卫视" tvg-logo="https://live.fanmingming.com/tv/三沙卫视.png" group-title="卫视",三沙卫视
 https://srs.ssws.tv/video/sstv-10/index.m3u8
+#EXTINF:-1 tvg-id="云南卫视" tvg-country="CN" tvg-name="Yunnan Satellite TV" tvg-logo="https://www.tvchinese.net/uploads/tv/yunnantv.jpg" group-title="卫视",云南卫视
+http://p2.ioioz.com/xgplayer.php?id=https://hwapi.yntv.net/ew265l/z1z6s5.m3u8
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png" group-title="卫视",江西卫视
 https://jsp-tv-live.jxtvcn.com.cn/live-jsp/tv_jxtv1.m3u8?t=1794013596&token=2ac29651-e452-41aa-8610-576600b95a78&d=bdbf52e6ef194344b818495cfe62811d
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视",河南卫视
@@ -25,8 +27,6 @@ http://120.196.232.43:8088/rrs03.hw.gmcc.net/PLTV/651/224/3221226698/1.m3u8
 http://61.244.22.4/ch1/ch1.live/playlist.m3u8
 #EXTINF:-1 tvg-id="辽宁卫视" tvg-name="辽宁卫视" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视.png" group-title="卫视",辽宁卫视
 https://piccpndks.v.kcdnvip.com/audio/liaoning_2/index.m3u8
-#EXTINF:-1 tvg-id="陕西卫视" tvg-country="CN" tvg-name="Shaanxi Satelital TV" tvg-logo="https://live.fanmingming.com/tv/陕西卫视.png" group-title="卫视",陕西卫视
-http://stream.snrtv.com/sxbc-star-lyJQT7.m3u8
 #EXTINF:-1 tvg-id="Beautiful Life TV" tvg-country="TW" tvg-name="Beautiful Life TV" tvg-logo="https://i.imgur.com/hkwcBM9.png" group-title="港澳台",Beautiful Life TV
 https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/playlist.m3u8
 #EXTINF:-1 tvg-id="Bloomberg TV Asia" tvg-name="Bloomberg TV Asia" tvg-logo="https://i.imgur.com/OuogLHx.png" group-title="港澳台",Bloomberg TV Asia
