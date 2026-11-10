@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_PL1.xml.gz"
 #EXTINF:-1 tvg-id="AdventureEarth.de@SD" tvg-country="DE" tvg-name="Adventure Earth" tvg-logo="https://d3b6luslimvglo.cloudfront.net/images/79/rlaxximages/channels-rescaled/icon-white/adventureearth_white.png" group-title="Documentary",Adventure Earth (1080p)
 https://a57e9c69976649b582a8d7604c00e69a.mediatailor.us-east-1.amazonaws.com/v1/master/44f73ba4d03e9607dcd9bebdcb8494d86964f1d8/RlaxxTV-eu_AdventureEarth/playlist.m3u8
 #EXTINF:-1 tvg-id="AlJazeeraDocumentary.qa@SD" tvg-country="QA" tvg-name="Al Jazeera Documentary" tvg-logo="https://i.imgur.com/5dNJlLo.png" group-title="Documentary",Al Jazeera Documentary (1080p)
@@ -29,7 +29,7 @@ https://aegis-cloudfront-1.tubi.video/c95700f8-e51c-4a36-ad46-56f70fc9f1d9/playl
 https://jmp2.uk/stvp-FRBC3900004DS
 #EXTINF:-1 tvg-name="CCTV-9_(576i)" group-title="Documentary",CCTV-9_(576i)
 https://xykt-fix.github.io/Y77.m3u8
-#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="Documentary",CGTN纪录
+#EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://tb.zbds.top/logo/CGTN纪录.png" group-title="Documentary",CGTN纪录
 https://0472.org/hls/cgtnd.m3u8
 #EXTINF:-1 tvg-id="CNAOriginals.sg@SD" tvg-country="SG" tvg-name="CNA Originals" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/CNA_new_logo.svg" group-title="Documentary",CNA Originals (1080p)
 https://amg01082-cna-amg01082c1-rlaxx-us-11304.playouts.now.amagi.tv/playlist.m3u8
@@ -57,6 +57,8 @@ https://ef79b15c8c7c46c7a9de9d33001dbd07.mediatailor.us-west-2.amazonaws.com/v1/
 https://docurama-plex-ingest.cinedigm.com/playlist.m3u8
 #EXTINF:-1 tvg-id="Dokusat.de@SD" tvg-country="DE" tvg-name="Dokusat" tvg-logo="https://i.imgur.com/GadfTwF.png" group-title="Documentary",Dokusat (1080p)
 https://muc3.iptv-playoutcenter.de/dokusat/dokusat1/playlist.m3u8
+#EXTINF:-1 tvg-id="Ecovision.do@SD" tvg-country="DO" tvg-name="Ecovision" tvg-logo="https://imgur.com/Y4ahiYu.png" group-title="Documentary",Ecovision (720p)
+https://streaming.grupomediosdelnorte.com:19360/ecovision/ecovision.m3u8
 #EXTINF:-1 tvg-id="EpicCrimes.in@SD" tvg-country="IN" tvg-name="Epic Crimes" tvg-logo="https://i.imgur.com/a5kaqDc.png" group-title="Documentary",Epic Crimes (1080p)
 https://cc-wsuyg2uxeak04.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-wsuyg2uxeak04/master.m3u8
 #EXTINF:-1 tvg-id="EPlanetTV.ir@SD" tvg-country="IR" tvg-name="EPlanet TV" group-title="Documentary",EPlanet TV
@@ -71,7 +73,7 @@ https://d1nhni5l2n8hjt.cloudfront.net/gf.m3u8
 http://138.121.15.230:9002/HISTORY-2/index.m3u8
 #EXTINF:-1 tvg-id="History.br@SD" tvg-country="BR" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History (Brazil) (720p)
 http://45.177.114.114/HISTORY/index.m3u8
-#EXTINF:-1 tvg-id="History.pl@SD" tvg-country="PL" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History (Poland) (576i)
+#EXTINF:-1 tvg-id="History.pl" tvg-country="PL" tvg-name="History (Poland) (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History (Poland) (576i)
 http://92.114.85.87:8015/play/a00c/index.m3u8
 #EXTINF:-1 tvg-id="History.si@HD" tvg-country="SI" tvg-name="History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/History_%282021%29.svg/500px-History_%282021%29.svg.png" group-title="Documentary",History (Slovenia) (1080p)
 https://streamer12.xploretv.si/__cl/cg:prod/__c/A1_SI_HISTORYHD_ott/__op/dash-default/__dci/__f/index.m3u8?admin=xploreTv_test_user&redirect=true
@@ -131,14 +133,12 @@ http://176.61.157.250/NationalGeographic/index.m3u8
 http://103.135.253.32:8080/NATGEO-HD/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.mx@SD" tvg-country="MX" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Mexico) (1080p)
 http://138.121.15.230:9002/NAT-GEO/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographic.pl@SD" tvg-country="PL" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Poland) (576i)
+#EXTINF:-1 tvg-id="NationalGeographic.pl" tvg-country="PL" tvg-name="National Geographic (Poland) (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic (Poland) (576i)
 http://92.114.85.87:8006/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographic.us@East" tvg-country="US" tvg-name="National Geographic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic (United States) (720p)
 http://212.5.144.156:8080/natgeo/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us@Panregional" tvg-country="US" tvg-name="National Geographic Latin America" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Natgeologo.svg/960px-Natgeologo.svg.png" group-title="Documentary",National Geographic Latin America (1080p)
 http://15.204.246.24:8080/NatGeoHD/index.m3u8
-#EXTINF:-1 tvg-id="NationalGeographicWild.pl@SD" tvg-country="PL" tvg-name="National Geographic Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (Poland) (576i)
-http://92.114.85.87:8010/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="NationalGeographicWild.us@HDEast" tvg-country="US" tvg-name="National Geographic Wild" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/National_Geographic_Wild_logo.svg/960px-National_Geographic_Wild_logo.svg.png" group-title="Documentary",National Geographic Wild (United States) HD East (720p)
 http://198.58.104.90:8989/natgeowild/index.m3u8
 #EXTINF:-1 tvg-id="098bce44be895630a3e437516fe70853" tvg-name="Naturaleza Salvaje" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/098bce44be895630a3e437516fe70853/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1704747063109_NaturalezaSalvaje_Image_HUD2.png" group-title="Documentary",Naturaleza Salvaje
@@ -151,8 +151,6 @@ https://bamusa-naturetime-emea-eng-rakuten.amagi.tv/playlist.m3u8
 http://31.148.48.15/Nauka_2.0/index.m3u8
 #EXTINF:-1 tvg-id="newtv精品纪录" tvg-name="newtv精品纪录" tvg-logo="https://live.fanmingming.com/tv/NEWTV精品纪录.png" group-title="Documentary",NewTV精品纪录
 http://gslbserv.itv.cmvideo.cn/1000000004000013730/1.m3u8?channel-id=ystenlive&Contentid=1000000004000013730&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="NutaGold.pl@SD" tvg-country="PL" tvg-name="Nuta Gold" tvg-logo="https://i.imgur.com/BEs160o.png" group-title="Documentary",Nuta Gold
-http://92.114.85.87:8010/play/a00i/index.m3u8
 #EXTINF:-1 tvg-id="OzbekistonTarixi.uz@SD" tvg-country="UZ" tvg-name="O'zbekiston Tarixi" tvg-logo="https://i.imgur.com/iTTd3Ir.png" group-title="Documentary",O'zbekiston Tarixi (1080p)
 https://stream8.cinerama.uz/1209/tracks-v1a1/playlist.m3u8
 #EXTINF:-1 tvg-id="62fc9a6990970240178dae0203ef63e8" tvg-name="Paranormal Chronicles" tvg-logo="https://images.sr.roku.com/idType/roku-trc/context/trc/id/62fc9a6990970240178dae0203ef63e8/https%3A%2F%2Fimage.roku.com%2Fbh-uploads%2Fproduction%2FinfoHUDLogo%2F1787162028645_paranormal_chronicles_logo_hud.png" group-title="Documentary",Paranormal Chronicles
@@ -161,11 +159,11 @@ https://jmp2.uk/rok-62fc9a6990970240178dae0203ef63e8.m3u8
 https://scihls.persiana.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="PersianaTravel.fr@SD" tvg-country="FR" tvg-name="Persiana Travel" group-title="Documentary",Persiana Travel
 https://ptravelhls.persiana.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatExplore.pl@SD" tvg-country="PL" tvg-name="Polsat Viasat Explore" tvg-logo="https://i.imgur.com/gDlqO9h.png" group-title="Documentary",Polsat Viasat Explore
+#EXTINF:-1 tvg-id="PolsatViasatExplore.pl" tvg-country="PL" tvg-name="Polsat Viasat Explore" tvg-logo="https://i.imgur.com/gDlqO9h.png" group-title="Documentary",Polsat Viasat Explore
 http://92.114.85.87:8014/play/a00g/index.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatHistory.pl@SD" tvg-country="PL" tvg-name="Polsat Viasat History" tvg-logo="https://i.imgur.com/X16UGUf.png" group-title="Documentary",Polsat Viasat History (1080p)
+#EXTINF:-1 tvg-id="PolsatViasatHistory.pl" tvg-country="PL" tvg-name="Polsat Viasat History" tvg-logo="https://i.imgur.com/X16UGUf.png" group-title="Documentary",Polsat Viasat History (1080p)
 http://185.227.34.179:8080/polsat-viasat-history-hd/index.m3u8
-#EXTINF:-1 tvg-id="PolsatViasatNature.pl@SD" tvg-country="PL" tvg-name="Polsat Viasat Nature" tvg-logo="https://i.imgur.com/TUcM0oS.png" group-title="Documentary",Polsat Viasat Nature
+#EXTINF:-1 tvg-id="PolsatViasatNature.pl" tvg-country="PL" tvg-name="Polsat Viasat Nature" tvg-logo="https://i.imgur.com/TUcM0oS.png" group-title="Documentary",Polsat Viasat Nature
 http://92.114.85.87:8016/play/a004/index.m3u8
 #EXTINF:-1 tvg-id="RT07" tvg-name="RT Doc-Русский" tvg-logo="https://gh.tryxd.cn/raw.githubusercontent.com/suxuang/myIPTV/main/tvlog/RTDoc.png" group-title="Documentary",RT Doc-Русский（俄语纪录）
 https://rt-doc.rttv.com/dvr/rtdru/rtdru1080.m3u8
@@ -213,7 +211,7 @@ https://dqga3jatxofgx.cloudfront.net/WildEarth.m3u8
 http://stream5.jlntv.cn/df/sd/live.m3u8?zjild
 #EXTINF:-1 tvg-id="中国村庄" tvg-name="中国村庄" tvg-logo="https://tb.zbds.top/logo/中国村庄.png" group-title="Documentary",中国村庄
 http://newcntv.qcloudcdn.com/asp/hls/4000/0303000a/3/default/93fc12dbf14241c18c23da104fbade23/4000.m3u8
-#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://tb.zbds.top/logo/之江纪录.png" group-title="Documentary",之江纪录
+#EXTINF:-1 tvg-id="之江纪录" tvg-name="之江纪录" tvg-logo="https://www.xn--rgv465a.top/tvlogo/之江纪录.png" group-title="Documentary",之江纪录
 https://ali-m-l.cztv.com/channels/lantian/channel12/720p.m3u8
 #EXTINF:-1 tvg-id="人与自然" tvg-name="人与自然" tvg-logo="https://tb.zbds.top/logo/人与自然.png" group-title="Documentary",人与自然
 http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/1425e1d505654cb48ba82b807b221193/1200.m3u8

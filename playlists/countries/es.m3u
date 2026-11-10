@@ -13,6 +13,9 @@ https://ztnr.rtve.es/ztnr/1694255.m3u8
 http://185.47.212.25:8080/24h_HD/index.m3u8
 #EXTINF:-1 tvg-id="24HorasCatalunya.es@SD" tvg-country="ES" tvg-name="24 Horas Catalunya" tvg-logo="https://i.ibb.co/21sXZ3GT/24h.png" group-title="News",24 Horas Catalunya (720p)
 https://ztnr.rtve.es/ztnr/4952053.m3u8
+#EXTINF:-1 tvg-id="101tvMalaga.es@SD" tvg-country="ES" tvg-name="101tv Malaga" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="News" http-referrer="https://player.instantvideocloud.net/",101tv Malaga
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta318.cdnmedia.tv/101weblive/smil:malaga.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal1MarMenorTorrePacheco.es@SD" tvg-country="ES" tvg-name="Canal 1 Mar Menor Torre Pacheco" tvg-logo="https://i.imgur.com/MQOwCdZ.png" group-title="News",Canal 1 Mar Menor Torre Pacheco (1080p)
 https://directo.tuwebtv.es/canal1.m3u8
 #EXTINF:-1 tvg-id="CanalSurNoticias.es@SD" tvg-country="ES" tvg-name="Canal Sur Noticias" tvg-logo="https://i.imgur.com/A3JscwS.png" group-title="News",Canal Sur Noticias
@@ -89,6 +92,8 @@ https://jmp2.uk/stvp-ES2200003DA
 https://jmp2.uk/stvp-ESBD8000033W
 #EXTINF:-1 tvg-id="ESBD800004KU" tvg-country="ES" tvg-name="Runtime Romance" tvg-logo="https://img1.static-ottera.com/prod/run/linear_channel/thumbnails/widescreen/360x180/runtime_romance_16x9.jpg" group-title="Entertainment",Runtime Romance
 https://jmp2.uk/stvp-ESBD800004KU
+#EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-country="ES" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Entertainment",Univers TV (720p)
+https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
 #EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-country="ES" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Entertainment",XPTV2 (720p)
 https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-country="ES" tvg-name="Clan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Clan_2026.svg" group-title="Kids",Clan (1080p)
@@ -127,8 +132,6 @@ https://urbanrevolution.es:8443/live/TV/playlist.m3u8
 https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="MolahitsTV.es@SD" tvg-country="ES" tvg-name="Molahits TV" tvg-logo="https://i.imgur.com/FYcLtqT.png" group-title="Music",Molahits TV (720p)
 http://ventdelnord.tv:8080/mola/directe.m3u8
-#EXTINF:-1 tvg-id="MusicTVGranada.es@SD" tvg-country="ES" tvg-name="Music TV Granada" tvg-logo="https://i.ibb.co/Swd9NP7n/music-tv-granada.png" group-title="Music",Music TV Granada (1080p)
-https://cloudvideo.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-id="Pequeradio.es@SD" tvg-country="ES" tvg-name="Pequeradio" tvg-logo="https://i.imgur.com/BNqZwxS.png" group-title="Music",Pequeradio (720p)
 https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
 #EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-country="ES" tvg-name="POP World TV" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Music",POP World TV (720p)
@@ -210,6 +213,9 @@ https://cloud.fastchannel.es/mic/manifiest/hls/12tv/12tv.m3u8
 https://streaming.28kanala.eus/hls/z.m3u8
 #EXTINF:-1 tvg-id="101tvCadiz.es@SD" tvg-country="ES" tvg-name="101tv Cadiz" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General",101tv Cadiz (1080p)
 https://streaming101tv.es:19360/cadiz/cadiz.m3u8
+#EXTINF:-1 tvg-id="101tvSevilla.es@SD" tvg-country="ES" tvg-name="101tv Sevilla" tvg-logo="https://i.imgur.com/GzI3RC4.png" group-title="General" http-referrer="https://player.instantvideocloud.net/",101tv Sevilla
+#EXTVLCOPT:http-referrer=https://player.instantvideocloud.net/
+https://liveingesta318.cdnmedia.tv/101weblive/smil:sevilla.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AlcarriaTV.es" tvg-country="ES" tvg-name="Alcarria TV" tvg-logo="https://i.imgur.com/pzJAYan.png" group-title="General",Alcarria TV
 http://cls.alcarria.tv/live/alcarriatv-livestream.m3u8
 #EXTINF:-1 tvg-id="Antena3Internacional.es@SD" tvg-country="ES" tvg-name="Antena 3 Internacional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/83/Antena3Internacional2025.png" group-title="General",Antena 3 Internacional (1080p)
@@ -238,8 +244,6 @@ https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
 https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2000.es@SD" tvg-country="ES" tvg-name="Canal 2000" tvg-logo="https://i.imgur.com/9RoBASf.png" group-title="General",Canal 2000 (720p)
 http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
-#EXTINF:-1 tvg-id="CanalDonana.es@SD" tvg-country="ES" tvg-name="Canal Donana" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="General",Canal Donana (720p)
-https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="CanalMalagaRTV.es@SD" tvg-country="ES" tvg-name="Canal Malaga RTV" tvg-logo="https://i.imgur.com/QSUOxtM.png" group-title="General",Canal Malaga RTV (720p)
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSanRoque.es@SD" tvg-country="ES" tvg-name="Canal San Roque" tvg-logo="https://i.imgur.com/SN9kFKh.png" group-title="General",Canal San Roque (1080p)
@@ -315,8 +319,6 @@ https://canadaremar2.todostreaming.es/live/solidariatv-webhd.m3u8
 https://tvdirecto.teleelx.es/stream/teleelx.m3u8
 #EXTINF:-1 tvg-id="TeleSafor.es@SD" tvg-country="ES" tvg-name="Tele Safor" tvg-logo="https://i.imgur.com/EowJfr0.png" group-title="General",Tele Safor (720p)
 https://video.telesafor.com/hls/video.m3u8
-#EXTINF:-1 tvg-id="Teleganes.es@SD" tvg-country="ES" tvg-name="Teleganes" tvg-logo="https://i.imgur.com/BXyplMX.png" group-title="General",Teleganes (720p)
-https://nlb2-live.emitstream.com/hls/5z6oj7ziwxzfnj78vg2m/master.m3u8
 #EXTINF:-1 tvg-id="Telemadrid.es@HD" tvg-country="ES" tvg-name="Telemadrid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/TeleMadrid.svg/960px-TeleMadrid.svg.png" group-title="General",Telemadrid HD (1080p)
 https://live.telemadrid.cross-media.es/6389770581112/eu-central-1/6416060453001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiajI5YjgyLmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjQxNjA2MDQ1MzAwMSIsImVobiI6ImxpdmUudGVsZW1hZHJpZC5jcm9zcy1tZWRpYS5lcyIsImlzcyI6ImJsaXZlLXBsYXliYWNrLXNvdXJjZS1hcGkiLCJzdWIiOiJwYXRobWFwdG9rZW4iLCJhdWQiOlsiNjQxNjA2MDQ1MzAwMSJdLCJqdGkiOiI2Mzg5NzcwNTgxMTEyIn0.kqriAMUkHT6m0V6wkCHJum_EUyL4PAi1zJMKlfmYHEU/playlist-hls.m3u8
 #EXTINF:-1 tvg-id="TeleRibera.es@SD" tvg-country="ES" tvg-name="TeleRibera" tvg-logo="https://pbs.twimg.com/profile_images/780539549239902208/g2MfVVuY_400x400.jpg" group-title="General",TeleRibera (720p)
