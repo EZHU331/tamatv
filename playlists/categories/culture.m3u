@@ -10,7 +10,7 @@ https://dlttx48mxf9m3.cloudfront.net/vod_clients/amp/live/ch2/video.m3u8
 #EXTINF:-1 tvg-id="apartTV.lu@SD" tvg-country="LU" tvg-name="apart TV" tvg-logo="https://i.imgur.com/IBcMIcZ.png" group-title="Culture",apart TV (1080p)
 https://2-fss-2.streamhoster.com/pl_124/206820-4338160-1/playlist.m3u8
 #EXTINF:-1 tvg-id="Arte1.br@SD" tvg-country="BR" tvg-name="Arte 1" tvg-logo="https://i.imgur.com/Ivnk7A6.png" group-title="Culture",Arte 1 (720p)
-http://45.162.64.114/ARTE1/index.m3u8
+http://45.177.114.115/ARTE1/index.m3u8
 #EXTINF:-1 tvg-id="AsiriTV.pe@SD" tvg-country="PE" tvg-name="AsiriTV" tvg-logo="https://i.imgur.com/7bGVFBa.png" group-title="Culture",AsiriTV (720p)
 https://video2.lhdserver.es/asiritv/live.m3u8
 #EXTINF:-1 tvg-id="ATR.ua@SD" tvg-country="UA" tvg-name="ATR" tvg-logo="https://i.imgur.com/lRJAXC7.png" group-title="Culture",ATR (1080p)
@@ -63,8 +63,6 @@ http://cdn12.henico.net:8080/live/dncal/index.m3u8
 https://streamer12.vdn.dstreamone.net/saazoawaz/saazoawaz/playlist.m3u8
 #EXTINF:-1 tvg-id="EBS.us@HD" tvg-country="US" tvg-name="EBS" tvg-logo="https://i.imgur.com/zqbK2IB.png" group-title="Culture",EBS HD (1080p)
 https://rpn.bozztv.com/ebstv/ebstv/index.m3u8
-#EXTINF:-1 tvg-id="EETTV.ca@SD" tvg-country="CA" tvg-name="EET TV" tvg-logo="https://i.imgur.com/rntSEDZ.png" group-title="Culture",EET TV (1080p)
-https://eu.streamjo.com/eetlive/eettv.m3u8
 #EXTINF:-1 tvg-id="El33.es@SD" tvg-country="ES" tvg-name="El 33" tvg-logo="https://i.imgur.com/frKCBTN.png" group-title="Culture",El 33 (1080p)
 https://directes-tv-cat.3catdirectes.cat/live-content/c33-super3-hls/master.m3u8
 #EXTINF:-1 tvg-id="ElSonorense.mx@SD" tvg-country="MX" tvg-name="El Sonorense" tvg-logo="https://i.imgur.com/aKvPd4g.jpg" group-title="Culture",El Sonorense (1080p)
@@ -91,9 +89,7 @@ https://unlimited1-us.dps.live/holvoettv/holvoettv.smil/playlist.m3u8
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ImaiTV.lk@SD" tvg-country="LK" tvg-name="Imai TV" tvg-logo="https://i.imgur.com/9tODclu.png" group-title="Culture",Imai TV (1080p)
 https://live20.bozztv.com/akamaissh101/ssh101/imaitv/playlist.m3u8
-#EXTINF:-1 tvg-id="OfoghTV.ir" tvg-country="IR" tvg-name="IRIB Ofogh" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png" group-title="Culture",IRIB Ofogh
-https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
-#EXTINF:-1 tvg-id="IRIB4.ir" tvg-country="IR" tvg-name="IRIB TV4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png" group-title="Culture",IRIB TV4
+#EXTINF:-1 tvg-id="IRIB4.ir@SD" tvg-country="IR" tvg-name="IRIB 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png" group-title="Culture",IRIB 4
 https://ncdn.telewebion.ir/tv4/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IshtarTV.iq@SD" tvg-country="IQ" tvg-name="Ishtar TV" tvg-logo="https://i.imgur.com/qzApokm.png" group-title="Culture",Ishtar TV SD (1080p)
 https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8
@@ -147,7 +143,7 @@ https://vipottbpkstream.vip.hr/Content/onevip-hls/Live/Channel(MRT_2)/index.m3u8
 https://vod-c57.interspace.com:443/channel_abr/46/playlist.m3u8?wmsAuthSign=c2VydmVyX3RpbWU9NC8yNy8yMDI2IDI6NTE6MDkgUE0maGFzaF92YWx1ZT05S1hVR3ExVVVPUnU5Zk9sTGpDY2dRPT0mdmFsaWRtaW51dGVzPTMwJmlkPTY5ZWY3N2RkZGIxYTU=
 #EXTINF:-1 tvg-id="MRTVNRC.mm@SD" tvg-country="MM" tvg-name="MRTV NRC" tvg-logo="https://i.imgur.com/5aLFslk.jpg" group-title="Culture",MRTV NRC
 https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
-#EXTINF:-1 tvg-id="NatGeoPeople.pl" tvg-country="PL" tvg-name="Nat Geo People (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/960px-New_NatGeo_People_logo.svg.png" group-title="Culture",Nat Geo People (576i)
+#EXTINF:-1 tvg-id="NatGeoPeople.pl@SD" tvg-country="PL" tvg-name="Nat Geo People" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/960px-New_NatGeo_People_logo.svg.png" group-title="Culture",Nat Geo People (576i)
 http://92.114.85.87:8016/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-country="TR" tvg-name="Natural TV" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="Culture",Natural TV (720p)
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
@@ -159,6 +155,8 @@ https://i.mjh.nz/.r/sbs-5nsw.m3u8
 https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8
 #EXTINF:-1 tvg-id="OdishaTV.in@SD" tvg-country="IN" tvg-name="Odisha TV" tvg-logo="https://dtil.tmsimg.com/assets/s143639_ld_h15_aa.png?lock=720x540" group-title="Culture",Odisha TV (720p)
 https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8
+#EXTINF:-1 tvg-id="OfoghTV.ir@SD" tvg-country="IR" tvg-name="Ofogh TV" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png" group-title="Culture",Ofogh TV
+https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Olelo53.us@SD" tvg-country="US" tvg-name="Olelo 53" tvg-logo="https://i.imgur.com/xDuUrj9.png" group-title="Culture",Olelo 53 (720p)
 https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8
 #EXTINF:-1 tvg-id="OmanTVCultural.om@SD" tvg-country="OM" tvg-name="Oman TV Cultural" tvg-logo="https://i.imgur.com/b38wNPK.png" group-title="Culture",Oman TV Cultural (1080p)
