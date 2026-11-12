@@ -25,8 +25,6 @@ https://64b16f23efbee.streamlock.net/telegela/telegela/playlist.m3u8
 https://telejato.liberotratto.com/hls/0/stream.m3u8
 #EXTINF:-1 tvg-id="TGCom24.it@SD" tvg-country="IT" tvg-name="TGCom24" tvg-logo="https://i.imgur.com/fPmvbGH.png" group-title="News",TGCom24 (720p)
 https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8
-#EXTINF:-1 tvg-id="TSNTeleSondrioNews.it" tvg-country="IT" tvg-name="TSN Tele Sondrio News" tvg-logo="https://i.imgur.com/eE37h7Q.png" group-title="News",TSN Tele Sondrio News
-https://189790-castr.akamaized.net/633d685a281cd401ae82c2f7/live_bc04bf70449f11ed80952100db9e5fd9/tracks-v1a1/rewind-3600.m3u8
 #EXTINF:-1 tvg-id="ZerounoTVNews.it" tvg-country="IT" tvg-name="Zerouno Tv News" tvg-logo="https://i.imgur.com/wYntmOt.png" group-title="News",Zerouno Tv News
 https://5f22d76e220e1.streamlock.net/01news/01news/playlist.m3u8
 #EXTINF:-1 tvg-id="ACISportTV.it@SD" tvg-country="IT" tvg-name="ACI Sport TV" tvg-logo="https://i.imgur.com/U8cHMOt.png" group-title="Sports",ACI Sport TV SD (1080p)
@@ -53,6 +51,8 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=358025&output=7&forc
 https://64b16f23efbee.streamlock.net/rete8sport/rete8sport/playlist.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it@SD" tvg-country="IT" tvg-name="Sportitalia" tvg-logo="https://i.imgur.com/0CJGGgd.png" group-title="Sports",Sportitalia (1080p)
 https://edge-001.streamup.eu/sportitalia/sihd_abr/playlist.m3u8
+#EXTINF:-1 tvg-id="SportitaliaMotori.it@SD" tvg-country="IT" tvg-name="Sportitalia Motori" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sports",Sportitalia Motori (720p)
+https://di-yx2saj20.vo.lswcdn.net/sportitalia/smil:simotori.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="SportitaliaSolocalcio.it@SD" tvg-country="IT" tvg-name="Sportitalia Solocalcio" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sports",Sportitalia Solocalcio (1080p)
 https://distribution.sportitalialive.it/sportitalia/sisolocalcio_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperTennis.it" tvg-country="IT" tvg-name="SuperTennis" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/6/6a/SuperTennis_-_Logo_2016.svg/960px-SuperTennis_-_Logo_2016.svg.png" group-title="Sports",SuperTennis
@@ -92,8 +92,6 @@ https://live02-seg.msf.cdn.mediaset.net/live/ch-ki/ki-clr.isml/index.m3u8
 https://live02-seg.msf.cdn.mediaset.net/live/ch-i2/i2-clr.isml/index.m3u8
 #EXTINF:-1 tvg-id="La.5.it" tvg-country="IT" tvg-name="La 5" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/La5_Mediaset.svg/960px-La5_Mediaset.svg.png" group-title="Entertainment",La 5 Ⓖ
 https://live02-seg.msf.cdn.mediaset.net/live/ch-ka/ka-clr.isml/index.m3u8
-#EXTINF:-1 tvg-id="NuovaTV1.it" tvg-country="IT" tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/zRu9WGh.png" group-title="Entertainment",Nuova Tv 1
-https://nuovatv.net:8443/tv/stream.m3u8
 #EXTINF:-1 tvg-id="BeJoykids.it@HD" tvg-country="IT" tvg-name="BeJoy.kids" tvg-logo="https://bejoy.kids/wp-content/uploads/2025/09/Logo_Bejoy.png" group-title="Kids",BeJoy.kids (1080p)
 https://stream.paroledivita.org/bejoy.m3u8
 #EXTINF:-1 tvg-id="Boing.it@HD" tvg-country="IT" tvg-name="Boing" tvg-logo="https://i.imgur.com/rabKj9i.png" group-title="Kids",Boing (Italy) HD (1080p)
@@ -288,8 +286,6 @@ https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
 https://samson.streamerr.co:8081/carinatv/index.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" group-title="General",Casa Sanremo Tv
 https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
-#EXTINF:-1 tvg-country="IT" tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" group-title="General",Castrovillari Tv
-http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="cielo.it" tvg-country="IT" tvg-name="Cielo" tvg-logo="https://i.imgur.com/tWUy3yx.png" group-title="General",Cielo Ⓖ
 https://hlslive-web-gcdn-skycdn-it.akamaized.net/TACT/11219/cieloweb/master.m3u8?hdnts=st=1764666351~exp=1829466206~acl=/*~hmac=b0e9165b6c55027903ad103c8219f363d8765eb300c0d9a339e9767fc3509556
 #EXTINF:-1 tvg-country="IT" tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" group-title="General",Cittaceleste Tv
@@ -336,8 +332,6 @@ https://64b16f23efbee.streamlock.net/canale157/canale157/playlist.m3u8
 https://bbtv.intvstream.net:3988/hybrid/play.m3u8
 #EXTINF:-1 tvg-id="Focus.it" tvg-country="IT" tvg-name="Focus" tvg-logo="https://upload.wikimedia.org/wikipedia/it/thumb/1/11/Focus_Logo.svg/960px-Focus_Logo.svg.png" group-title="General",Focus Ⓖ
 https://live02-seg.msf.cdn.mediaset.net/live/ch-fu/fu-clr.isml/index.m3u8
-#EXTINF:-1 tvg-country="IT" tvg-name="GarganoTv" tvg-logo="https://i.imgur.com/OlJohKK.png" group-title="General",GarganoTv
-https://cdn80-ger.azotosolutions.com:8443/cdnedge3/smil:live3.smil/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Globo Tv" tvg-logo="https://i.imgur.com/lR08pb3.jpeg" group-title="General",Globo Tv
 https://nrvideo1.newradio.it:1936/awrgaebshj/awrgaebshj/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Globus Television" tvg-logo="https://i.imgur.com/yUTYqCv.png" group-title="General",Globus Television
@@ -390,6 +384,8 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 https://www.ntimedia.it/video/S0B/S0B_master.m3u8
 #EXTINF:-1 tvg-id="NTN.it@SD" tvg-country="IT" tvg-name="NTN" tvg-logo="https://i.imgur.com/AW5fJwa.png" group-title="General",NTN (Italy) (720p)
 https://stream4.xdevel.com/video0s975955-782/stream/playlist.m3u8
+#EXTINF:-1 tvg-country="IT" tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" group-title="General",Nuvola Tv
+https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
 #EXTINF:-1 tvg-id="Odeon24.it" tvg-country="IT" tvg-name="Odeon 24" tvg-logo="https://i.imgur.com/Ho7SdXY.png" group-title="General",Odeon 24
 https://streaming.softwarecreation.it/Odeon/Odeon/manifest.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Ofanto Tv" tvg-logo="https://i.imgur.com/UCgATWn.png" group-title="General",Ofanto Tv
@@ -404,6 +400,8 @@ http://178.33.224.197:1935/ondaradioweb/ondaradioweb/playlist.m3u8
 https://ottop-live-meride.akamaized.net/hls/live/2039996/ch1/playlist.m3u8
 #EXTINF:-1 tvg-id="ParadiseTV.it" tvg-country="IT" tvg-name="Paradise Tv" tvg-logo="https://i.imgur.com/OKhpyWr.png" group-title="General",Paradise Tv
 https://tsw.streamingwebtv24.it:1936/paradisetv/paradisetv/playlist.m3u8
+#EXTINF:-1 tvg-id="PartenopeTV.it" tvg-country="IT" tvg-name="Partenope Tv" tvg-logo="https://i.imgur.com/6PxkHBR.png" group-title="General",Partenope Tv
+https://diretta.arcapuglia.it:8080/live/partenope/index.m3u8
 #EXTINF:-1 tvg-id="PrimaFree.it@SD" tvg-country="IT" tvg-name="Prima Free" tvg-logo="https://irp.cdn-website.com/184bfd6a/MOBILE/jpg/477.jpg" group-title="General",Prima Free (720p)
 https://5f22d76e220e1.streamlock.net/primafree/primafree/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaTVNapoli.it" tvg-country="IT" tvg-name="Prima Tv Napoli" tvg-logo="https://i.imgur.com/48BCOUZ.png" group-title="General",Prima Tv Napoli
@@ -656,6 +654,8 @@ https://64b16f23efbee.streamlock.net/telecityvda/telecityvda/playlist.m3u8
 https://1aadf145546f475282c5b4e658c0ac4b.msvdn.net/live/324149/hlbAWtl/playlist.m3u8
 #EXTINF:-1 tvg-country="IT" tvg-name="Telecolor Sicilia" tvg-logo="https://i.imgur.com/rfNg6fw.png" group-title="General",Telecolor Sicilia
 https://antennasicilialive.cdn.netrw.it/antennasicilialive/hls/ccr/telecolor/master.m3u8
+#EXTINF:-1 tvg-country="IT" tvg-name="Telecolore Salerno" tvg-logo="https://i.imgur.com/3vBq2g2.png" group-title="General",Telecolore Salerno
+https://stream10.xdevel.com/video14s975955-1911/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="Telefriuli.it@SD" tvg-country="IT" tvg-name="Telefriuli" tvg-logo="https://i.imgur.com/He3uCs6.png" group-title="General",Telefriuli (1080p)
 https://5757bf2aa08e42248fb9b9d620f5d900.msvdn.net/live/S11646715/pE3ax0lT0rBd/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleGenova.it" tvg-country="IT" tvg-name="Telegenova" tvg-logo="https://i.imgur.com/UYIUDWF.png" group-title="General",Telegenova

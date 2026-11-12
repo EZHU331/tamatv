@@ -99,6 +99,8 @@ https://cl-2.backend.energeek.cl/bkp/egradio/mobile/index.m3u8?token=IPTVgh26
 https://v2.tustreaming.cl/fmplus/index.m3u8
 #EXTINF:-1 tvg-id="GenialTV.cl@SD" tvg-country="CL" tvg-name="Genial TV" tvg-logo="https://i.imgur.com/uBC8e96.png" group-title="Music",Genial TV (720p)
 https://v1.tustreaming.cl/genialtv/index.m3u8
+#EXTINF:-1 tvg-id="LaClave.cl@SD" tvg-country="CL" tvg-name="La Clave" tvg-logo="https://cdn.m3u.cl/logo/1270_La_Clave.png" group-title="Music",La Clave (720p)
+https://unlimited1-cl-isp.dps.live/laclavetv/laclavetv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="PatagoniaRadioTV.cl@SD" tvg-country="CL" tvg-name="Patagonia Radio TV" tvg-logo="https://i.imgur.com/oFuWBZO.png" group-title="Music",Patagonia Radio TV (720p)
 https://video01.logicahost.com.br/grupomedia/grupomedia/playlist.m3u8
 #EXTINF:-1 tvg-id="Pauta.cl@SD" tvg-country="CL" tvg-name="Pauta" tvg-logo="https://i.imgur.com/UAKLJAt.png" group-title="Music",Pauta (1080p)
@@ -263,8 +265,6 @@ https://video.ipstream.cl:3710/hybrid/play.m3u8
 https://tv1.ninatv.cl/hls/stream.m3u8
 #EXTINF:-1 tvg-id="OdiseaTV.cl@SD" tvg-country="CL" tvg-name="Odisea TV" tvg-logo="https://i.imgur.com/8SCnoiZ.png" group-title="General",Odisea TV (720p)
 https://v2.tustreaming.cl/odiseatv/index.m3u8
-#EXTINF:-1 tvg-id="OliTV.cl@SD" tvg-country="CL" tvg-name="Oli TV" tvg-logo="https://i.imgur.com/2emMRvf.jpeg" group-title="General",Oli TV (Chile) (1080p)
-https://v4.tustreaming.cl/retroplaytv/index.m3u8
 #EXTINF:-1 tvg-id="PichilemuTV.cl@SD" tvg-country="CL" tvg-name="Pichilemu TV" tvg-logo="https://i.imgur.com/eaJVCwM.png" group-title="General",Pichilemu TV (1080p)
 https://5ff3d9babae13.streamlock.net/8028/8028/playlist.m3u8
 #EXTINF:-1 tvg-id="PolarTV.cl@SD" tvg-country="CL" tvg-name="Polar TV" tvg-logo="https://i.imgur.com/4exfvPt.png" group-title="General",Polar TV (Chile) (1080p)
@@ -348,8 +348,6 @@ https://unlimited1-us.dps.live/tvr/tvr.smil/playlist.m3u8
 https://unlimited1-cl-isp.dps.live/tvu/tvu.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="ULosLagosTV.cl@SD" tvg-country="CL" tvg-name="U Los Lagos TV" tvg-logo="https://i.imgur.com/HxUZseV.png" group-title="General",U Los Lagos TV (1080p)
 http://tv.ulagos.cl/web/live.m3u8
-#EXTINF:-1 tvg-id="UATV.cl@SD" tvg-country="CL" tvg-name="UATV" tvg-logo="https://i.imgur.com/BdZGS66.png" group-title="General",UATV (1080p)
-https://unlimited1-us.dps.live/uatv/uatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="UniregionTV.cl@SD" tvg-country="CL" tvg-name="Uniregion TV" tvg-logo="https://i.imgur.com/VEO6aos.png" group-title="General",Uniregion TV (1080p)
 https://5ff3d9babae13.streamlock.net/ubyecbxnfd/ubyecbxnfd/playlist.m3u8
 #EXTINF:-1 tvg-id="UTV.cl@SD" tvg-country="CL" tvg-name="UTV" tvg-logo="https://i.imgur.com/ZJNSpfZ.png" group-title="General",UTV (Chile) (720p)

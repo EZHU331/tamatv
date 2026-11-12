@@ -37,6 +37,8 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
 https://jmp2.uk/rok-c0de867f29485305b9197b14cd08240f.m3u8
 #EXTINF:-1 tvg-id="NeiMonggolTV.cn" tvg-country="CN" tvg-name="Nei_Monggol_TV" tvg-logo="https://i.imgur.com/WeugJBE.png" group-title="Other",Nei_Monggol_TV
 http://1.24.190.98:10080/hls/39/index.m3u8
+#EXTINF:-1 tvg-id="PTS3.tw@SD" tvg-country="TW" tvg-name="PTS 3" tvg-logo="https://i.imgur.com/I6sVDDt.png" group-title="Other",PTS 3
+http://111.59.139.85:11888/tsfile/live/1222_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="RTHKTV31.hk@SD" tvg-country="HK" tvg-name="RTHK TV 31" tvg-logo="https://i.imgur.com/kf818kM.png" group-title="Other",RTHK TV 31 (1080p)
 https://rthktv31-live.akamaized.net/hls/live/2036818/RTHKTV31/master.m3u8
 #EXTINF:-1 tvg-id="RTHKTV32.hk@SD" tvg-country="HK" tvg-name="RTHK TV 32" tvg-logo="https://i.imgur.com/MXLuUoU.png" group-title="Other",RTHK TV 32 (1080p)
@@ -51,6 +53,8 @@ http://livealone302.iqilu.com/iqilu/shpd.m3u8
 http://livealone302.iqilu.com/iqilu/qlpd.m3u8
 #EXTINF:-1 tvg-id="ShenzhenSatelliteTV.cn@SD" tvg-country="CN" tvg-name="Shenzhen Satellite TV" tvg-logo="https://live.fanmingming.com/tv/Shenzhen%20Satellite%20TV.png" group-title="Other",Shenzhen Satellite TV (2160p)
 https://livepull-tcms.sztv.com.cn/live/sz4Kpgm.m3u8
+#EXTINF:-1 tvg-id="SJTV.tw@SD" tvg-country="TW" tvg-name="SJTV" tvg-logo="https://i.imgur.com/PTsFn9B.png" group-title="Other",SJTV
+http://111.59.139.85:11888/tsfile/live/1220_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="SupremeMasterTV.tw@SD" tvg-country="TW" tvg-name="Supreme Master TV" tvg-logo="https://i.imgur.com/kFMHayP.png" group-title="Other",Supreme Master TV (720p)
 https://lbs-us1.suprememastertv.com/720p.m3u8
 #EXTINF:-1 tvg-id="TianjinTV.cn@SD" tvg-country="CN" tvg-name="Tianjin TV" tvg-logo="https://i.imgur.com/Bg24eaH.png" group-title="Other",Tianjin TV (1080p)
@@ -79,10 +83,6 @@ http://39.134.115.163:8080/PLTV/88888910/224/3221225703/index.m3u8
 http://119.39.242.52:1935/live/zonghe/playlist.m3u8
 #EXTINF:-1 tvg-id="数码时代" tvg-name="数码时代" tvg-logo="https://live.fanmingming.com/tv/%E6%95%B0%E7%A0%81%E6%97%B6%E4%BB%A3.png" group-title="Other",数码时代
 http://ali-m-l.cztv.com/channels/lantian/channel012/1080p.m3u8
-#EXTINF:-1 tvg-id="欧美大片1" tvg-name="欧美大片1" tvg-logo="https://live.fanmingming.com/tv/%E6%AC%A7%E7%BE%8E%E5%A4%A7%E7%89%871.png" group-title="Other",欧美大片1
-http://epg.112114.xyz/douyu/20415
-#EXTINF:-1 tvg-id="欧美大片2" tvg-name="欧美大片2" tvg-logo="https://live.fanmingming.com/tv/%E6%AC%A7%E7%BE%8E%E5%A4%A7%E7%89%872.png" group-title="Other",欧美大片2
-http://epg.112114.xyz/douyu/2793084
 #EXTINF:-1 tvg-id="浙江教科影院" tvg-name="浙江教科影院" tvg-logo="https://live.fanmingming.com/tv/%E6%B5%99%E6%B1%9F%E6%95%99%E7%A7%91%E5%BD%B1%E9%99%A2.png" group-title="Other",浙江教科影院
 http://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 tvg-id="纯享4K" tvg-name="纯享4K" tvg-logo="https://live.fanmingming.com/tv/%E7%BA%AF%E4%BA%AB4K.png" group-title="Other",纯享4K (2160p)
