@@ -1,6 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="4DmasNoticiasTV.py@SD" tvg-country="PY" tvg-name="4Dmas Noticias TV" tvg-logo="https://i.ibb.co/1fb5BtN/unnamed.png" group-title="News",4Dmas Noticias TV (1080p)
 https://rds3.desdeparaguay.net/4dmasnoticiastv/4dmasnoticiastv/playlist.m3u8
+#EXTINF:-1 tvg-id="A24Paraguay.py@SD" tvg-country="PY" tvg-name="A24 Paraguay" tvg-logo="https://i.imgur.com/XWBmjBk.png" group-title="News",A24 Paraguay
+https://tv.mitvparaguay.com/hls?type=hls&id=a24
 #EXTINF:-1 tvg-id="MegaTV.py@SD" tvg-country="PY" tvg-name="Mega TV" tvg-logo="https://i.imgur.com/CaA7l86.png" group-title="News",Mega TV (Paraguay) (1080p)
 https://www.desde-paraguay.com/mega.m3u8
 #EXTINF:-1 tvg-id="Nanduti.py@SD" tvg-country="PY" tvg-name="Nanduti" tvg-logo="https://i.imgur.com/AsuVsLa.png" group-title="News",Nanduti (1080p)
@@ -21,8 +23,6 @@ https://video.hostingcaaguazu.com:19360/delreytv/delreytv.m3u8
 http://190.128.214.97:64333/play/a02w/index.m3u8
 #EXTINF:-1 tvg-id="OasisTV.py@SD" tvg-country="PY" tvg-name="Oasis TV" tvg-logo="https://i.imgur.com/u9umNKp.jpeg" group-title="Entertainment",Oasis TV (Paraguay) (720p)
 https://video.hostingcaaguazu.com:19360/oasistv/oasistv.m3u8
-#EXTINF:-1 tvg-id="CosmosTV.py@SD" tvg-country="PY" tvg-name="Cosmos TV" tvg-logo="https://i.imgur.com/dAMyExY.jpg" group-title="Science",Cosmos TV (720p)
-https://video.hostingcaaguazu.com:19360/cosmostv/cosmostv.m3u8
 #EXTINF:-1 tvg-id="AlcanceFMPLAYTV.py@SD" tvg-country="PY" tvg-name="Alcance FM PLAY TV" tvg-logo="https://i.imgur.com/ymcWecA.png" group-title="Music",Alcance FM PLAY TV
 https://video.wilohosting.com:19360/alcancefmtv/alcancefmtv.m3u8
 #EXTINF:-1 tvg-id="DismarRadioTV.py@SD" tvg-country="PY" tvg-name="Dismar Radio TV" tvg-logo="https://i.imgur.com/KOuxdMD.png" group-title="Music",Dismar Radio TV (720p)
@@ -73,6 +73,9 @@ https://video.hostingcaaguazu.com:19360/canal8cvs/canal8cvs.m3u8
 #EXTINF:-1 tvg-id="Canal8VisionTV.py@SD" tvg-country="PY" tvg-name="Canal 8 Vision TV" tvg-logo="https://i.imgur.com/mKju6hk.png" group-title="General" http-referrer="https://www.visioncomunicaciones.com.py/",Canal 8 Vision TV (1080p)
 #EXTVLCOPT:http-referrer=https://www.visioncomunicaciones.com.py/
 https://tigocloudgen.desdeparaguay.net/satelitaltv/satelitaltv/playlist.m3u8
+#EXTINF:-1 tvg-id="Gen.py@SD" tvg-country="PY" tvg-name="Gen" tvg-logo="https://i.imgur.com/vEMnZF4.png" group-title="General" http-referrer="https%3A//gentv.desdepylabs.com/External/gentv",Gen
+#EXTVLCOPT:http-referrer=https%3A//gentv.desdepylabs.com/External/gentv
+https://tv.mitvparaguay.com/hls?type=hls&url=https%3A%2F%2Fcopacogen.desdeparaguay.net%2Fgentv%2Fgentv_py_baja%2Fchunklist_w2016222336.m3u8%3Fk%3D6de8e821fe4afa30bafdeab37d3d09300b830f37e1c3a1499ce23c9220df2ba8%26exp%3D1794402945&referer=https%3A//gentv.desdepylabs.com/External/gentv&origin=https%3A//www.gen.com.py
 #EXTINF:-1 tvg-id="InvasivaTV.py@SD" tvg-country="PY" tvg-name="Invasiva TV" tvg-logo="https://i.imgur.com/R9E6jEC.png" group-title="General",Invasiva TV (720p)
 https://tv-omega-nine.vercel.app/hls/live.m3u8
 #EXTINF:-1 tvg-id="Latele.py@SD" tvg-country="PY" tvg-name="Latele" tvg-logo="https://i.imgur.com/Qcf6Qev.png" group-title="General",Latele (1080p)
@@ -81,6 +84,8 @@ http://190.128.214.97:64333/play/a03i/index.m3u8
 http://190.128.214.97:64333/play/a046/index.m3u8
 #EXTINF:-1 tvg-id="OccidentalTV.py@SD" tvg-country="PY" tvg-name="Occidental TV" tvg-logo="https://i.imgur.com/8IRBA9h.png" group-title="General",Occidental TV
 https://video.wilohosting.com:19360/occidentaltv/occidentaltv.m3u8
+#EXTINF:-1 tvg-id="OviedoTV.py@SD" tvg-country="PY" tvg-name="Oviedo TV" tvg-logo="https://i.imgur.com/6OlfgSQ.png" group-title="General",Oviedo TV
+https://video.wilohosting.com:19360/oviedotv/oviedotv.m3u8
 #EXTINF:-1 tvg-id="ParaguayTV.py@SD" tvg-country="PY" tvg-name="Paraguay TV" tvg-logo="https://i.imgur.com/fkK7i8g.png" group-title="General",Paraguay TV (1080p)
 https://stream.paraguaytv.gov.py/memfs/bbe36fed-9b49-4d1d-adaa-4bd6d1b2e386.m3u8
 #EXTINF:-1 tvg-id="Paravision.py@SD" tvg-country="PY" tvg-name="Paravision" tvg-logo="https://i.imgur.com/yd9Dw2G.png" group-title="General",Paravision

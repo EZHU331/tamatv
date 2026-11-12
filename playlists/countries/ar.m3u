@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_AR1.xml.gz"
 #EXTINF:-1 tvg-id="MasPerfil.ar" tvg-country="AR" tvg-name="+Perfil" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/60/%2BPerfil_Logo_2026.png" group-title="News",+Perfil
 https://unlimited1-us.dps.live/perfiltv/perfiltv.smil/perfiltv/livestream2/chunks.m3u8
-#EXTINF:-1 tvg-id="A24.ar@SD" tvg-country="AR" tvg-name="A24" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="News",A24 (1080p)
-http://138.59.227.20:8000/play/a05u/index.m3u8
 #EXTINF:-1 tvg-id="Canal26.ar@SD" tvg-country="AR" tvg-name="Canal 26" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Canal_26_logo_%282022%29.svg/500px-Canal_26_logo_%282022%29.svg.png" group-title="News",Canal 26 (Argentina) (1080p)
 https://stream-gtlc.telecentro.net.ar/hls/canal26hls/main.m3u8
 #EXTINF:-1 tvg-id="CanalTDC.ar@SD" tvg-country="AR" tvg-name="Canal TDC" tvg-logo="https://i.imgur.com/nPG38B2.png" group-title="News",Canal TDC
@@ -29,6 +27,8 @@ http://158.172.155.130:8000/play/a09y/index.m3u8
 http://158.172.155.130:8000/play/a0ao/index.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" tvg-country="AR" tvg-name="TyC Sports" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports (1080p)
 https://amg26268-amg26268c14-freelivesports-emea-10267.playouts.now.amagi.tv/ts-us-e2-n2/playlist/amg26268-sportsstudio-tycsports-freelivesportsemea/playlist.m3u8
+#EXTINF:-1 tvg-id="TyCSportsUSA.ar@SD" tvg-country="AR" tvg-name="TyC Sports USA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/TyC_Sports_logo.svg/960px-TyC_Sports_logo.svg.png" group-title="Sports",TyC Sports USA
+http://45.170.130.224:8000/play/a020/index.m3u8
 #EXTINF:-1 tvg-id="AlternaTV.ar@SD" tvg-country="AR" tvg-name="AlternaTV" tvg-logo="https://tv.alterna.ar/alternatv.png" group-title="Movies",AlternaTV (720p)
 https://tv.alterna.ar/stream/hls/live.m3u8
 #EXTINF:-1 tvg-id="CineAr.ar" tvg-country="AR" tvg-name="Cine.AR" tvg-logo="https://i.imgur.com/Iozv4tT.png" group-title="Movies",Cine.AR
@@ -72,8 +72,6 @@ https://vtm2.msinteractiva.com/lamil35/lamil35/playlist.m3u8
 https://videostream.shockmedia.com.ar/hls/canaluniversidadmdp/canaluniversidadmdp.m3u8
 #EXTINF:-1 tvg-id="TVUniversidad.ar@SD" tvg-country="AR" tvg-name="TV Universidad" tvg-logo="https://i.imgur.com/0MXsQ25.png" group-title="Education",TV Universidad
 https://stratus.stream.cespi.unlp.edu.ar/hls/tvunlp.m3u8
-#EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-country="AR" tvg-name="Encuentro" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Culture",Encuentro (720p)
-http://138.59.227.20:8000/play/a05s/index.m3u8
 #EXTINF:-1 tvg-id="SenalU.ar@SD" tvg-country="AR" tvg-name="Senal U" tvg-logo="https://i.ibb.co/yBYcKTj/Senal-U-Uncuyo-en-vivo-Online.png" group-title="Culture",Senal U
 https://live20.bozztv.com/giatv/giatv-canal30tda/canal30tda/chunks.m3u8
 #EXTINF:-1 tvg-id="AllegroHD.ar@SD" tvg-country="AR" tvg-name="Allegro HD" tvg-logo="https://i.imgur.com/bRH34Rn.png" group-title="Music",Allegro HD (1080p)
@@ -153,10 +151,6 @@ https://envivo.cespalarroyito.coop/live/Canal3Arroyito.m3u8
 https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3LaPampa.ar@SD" tvg-country="AR" tvg-name="Canal 3 La Pampa" tvg-logo="https://i.imgur.com/SsNFudZ.png" group-title="General",Canal 3 La Pampa (1080p)
 https://stream.arcast.com.ar/c3lapampa/ngrp:c3lapampa_all/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3LasHeras.ar@SD" tvg-country="AR" tvg-name="Canal 3 Las Heras" tvg-logo="https://i.imgur.com/bd2afET.png" group-title="General",Canal 3 Las Heras (720p)
-https://stream.arcast.com.ar/canal3/canal3/playlist.m3u8
-#EXTINF:-1 tvg-id="Canal3Pinamar.ar@SD" tvg-country="AR" tvg-name="Canal 3 Pinamar" tvg-logo="https://i.imgur.com/IABFaH1.png" group-title="General",Canal 3 Pinamar
-http://intelincloud01.com.ar/hls/cn3/index.m3u8
 #EXTINF:-1 tvg-id="Canal3Tacural.ar@SD" tvg-country="AR" tvg-name="Canal 3 Tacural" tvg-logo="https://i.imgur.com/RKvSa52.jpeg" group-title="General",Canal 3 Tacural
 http://vivo.canal3tacural.com.ar:8081/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Canal4Esquel.ar@SD" tvg-country="AR" tvg-name="Canal 4 Esquel" tvg-logo="https://i.imgur.com/6kbOr16.png" group-title="General",Canal 4 Esquel (720p)
@@ -232,8 +226,6 @@ https://stmvideo6.livecastv.com/radioactivasanjuan/radioactivasanjuan/playlist.m
 https://proxystream.iteltv.com.ar/output/iteltv/playlist.m3u8
 #EXTINF:-1 tvg-id="KpopMix.ar@SD" tvg-country="AR" tvg-name="Kpop Mix" tvg-logo="https://tvomix.com/Logos/Kpopmix.png" group-title="General",Kpop Mix (720p)
 https://cloud.tvomix.com/KPOPMIX/index.m3u8
-#EXTINF:-1 tvg-id="LitusTV.ar@SD" tvg-country="AR" tvg-name="Litus TV" tvg-logo="https://i.imgur.com/QIGSf4L.png" group-title="General",Litus TV (720p)
-https://edge.enhdtv.com/litustv/index.m3u8
 #EXTINF:-1 tvg-id="MisionesCuatro.ar@SD" tvg-country="AR" tvg-name="Misiones Cuatro" tvg-logo="https://i.imgur.com/HXRpRlK.png" group-title="General",Misiones Cuatro
 https://iptv.ixfo.com.ar:30443/live-HD/MISIONES4/playlist.m3u8
 #EXTINF:-1 tvg-id="NeoTV.ar@SD" tvg-country="AR" tvg-name="Neo TV" tvg-logo="https://i.imgur.com/Xtu85tb.png" group-title="General",Neo TV (Argentina)

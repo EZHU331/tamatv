@@ -15,6 +15,8 @@ https://musichls.persiana.live/hls/stream.m3u8
 http://stream.mcquack.net/257/index.m3u8
 #EXTINF:-1 tvg-id="4Kurd.fr@SD" tvg-country="FR" tvg-name="4Kurd" tvg-logo="https://www.aparatchi.com/images/chanells-logo/4kurd.svg" group-title="Music",4Kurd
 https://4kuhls.persiana.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="7XMusic.in@SD" tvg-country="IN" tvg-name="7X Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/7X_Music.png" group-title="Music",7X Music (1080p)
+https://7xshreeshyam.akamaized.net/7XPunjabi/index.m3u8
 #EXTINF:-1 tvg-id="8XM.pk@HD" tvg-country="PK" tvg-name="8XM" tvg-logo="https://i.imgur.com/KLrfKRn.png" group-title="Music",8XM
 https://cdn4.mjunoon.tv:8087/streamtest/131M/chunks.m3u8
 #EXTINF:-1 tvg-id="9XJalwa.in@SD" tvg-country="IN" tvg-name="9X Jalwa" tvg-logo="https://i.imgur.com/qubgOi5.png" group-title="Music",9X Jalwa (1080p)
@@ -476,8 +478,6 @@ https://hdbox.chunklistv.com/live?stream=megabox
 #EXTINF:-1 tvg-id="MegogoMusic.ua@SD" tvg-country="UA" tvg-name="Megogo Music" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/04/MEGOGO_Music_%28%D1%82%D0%B5%D0%BB%D0%B5%D0%BA%D0%B0%D0%BD%D0%B0%D0%BB%29.png" group-title="Music" http-user-agent="curl/8.16.0",Megogo Music
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.2.214/index.m3u8
-#EXTINF:-1 tvg-id="MelodyFM.jo@SD" tvg-country="JO" tvg-name="Melody FM" tvg-logo="https://i.imgur.com/J8omcNz.png" group-title="Music",Melody FM (720p)
-https://cdn3.wowza.com/1/OVRrOWxXUEswS2Yv/eGVxSWZy/hls/live/playlist.m3u8
 #EXTINF:-1 tvg-id="MessatidaTV.gr@SD" tvg-country="GR" tvg-name="Messatida TV" tvg-logo="https://i.imgur.com/WEYrIrC.png" group-title="Music",Messatida TV (720p)
 https://rtmp.streams.ovh:8081/mtv/index.m3u8
 #EXTINF:-1 tvg-id="MetaleitorTV.us@SD" tvg-country="US" tvg-name="Metaleitor TV" tvg-logo="https://new.opencaster.com/uploads/logos/logo_14_1752798826.png" group-title="Music",Metaleitor TV
@@ -539,8 +539,6 @@ https://mic.siar.us/mic/live/mic.m3u8
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-country="AR" tvg-name="MusicTop" tvg-logo="https://cdn.mitvstatic.com/channels/ar_musictop_m.png" group-title="Music",MusicTop (1080p)
 http://190.128.214.97:64333/play/a06o/index.m3u8
-#EXTINF:-1 tvg-id="MuzTVUzbekistan.uz@SD" tvg-country="UZ" tvg-name="Muz TV Uzbekistan" tvg-logo="https://s8.vcdn.biz/static/f/6010782281/image.jpg" group-title="Music",Muz TV Uzbekistan
-https://stream8.cinerama.uz/1063/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="MuzangalaTV.ao@SD" tvg-country="AO" tvg-name="Muzangala TV" tvg-logo="https://i.imgur.com/fBeaJoS.png" group-title="Music",Muzangala TV (1080p)
 https://5cf4a2c2512a2.streamlock.net/tvmuzangala/tvmuzangala/playlist.m3u8
 #EXTINF:-1 tvg-id="Muzvar.ua@SD" tvg-country="UA" tvg-name="Muzvar" tvg-logo="https://i.imgur.com/Klu5k9U.png" group-title="Music",Muzvar (1080p)
@@ -602,6 +600,8 @@ https://oneadriaapp.b-cdn.net/1080p/index.m3u8
 https://oneapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="OneTV.lb@SD" tvg-country="LB" tvg-name="One TV" tvg-logo="https://i.imgur.com/O4DuR9G.png" group-title="Music",One TV (720p)
 https://hms.pfs.gdn/v1/broadcast/one/playlist.m3u8
+#EXTINF:-1 tvg-id="OneFM.lb@SD" tvg-country="LB" tvg-name="OneFM" tvg-logo="https://i.ibb.co/Vp2G9wTz/onefmlb.png" group-title="Music",OneFM (720p)
+https://hms.pfs.gdn/v1/broadcast/onefm/playlist.m3u8
 #EXTINF:-1 tvg-id="OrangeBanglaTV.in@SD" tvg-country="IN" tvg-name="Orange Bangla TV" tvg-logo="https://i.imgur.com/wjSaHj5.png" group-title="Music",Orange Bangla TV (720p)
 https://cdn.pishow.tv/ott/live/1499/master.m3u8
 #EXTINF:-1 tvg-id="OrizontTV.ro@SD" tvg-country="RO" tvg-name="Orizont TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/8/8b/Orizont_TV.svg/revision/latest/scale-to-width-down/1000?cb=20241219232954" group-title="Music",Orizont TV (576i)
@@ -734,8 +734,6 @@ https://58d921499d3d3.streamlock.net/RadioPiterpanTV/livestream/playlist.m3u8
 https://unlimited2-cl-isp.dps.live/pudahueltv/pudahueltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioRealpolitik.ar@SD" tvg-country="AR" tvg-name="Radio Realpolitik" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="Music",Radio Realpolitik (720p)
 https://vivo.solumedia.com:19360/realpolitik/realpolitik.m3u8
-#EXTINF:-1 tvg-id="RadioRomaniaAntenaSatelor.ro@720p" tvg-country="RO" tvg-name="Radio Romania Antena Satelor" tvg-logo="https://www.antenasatelor.ro/templates/default/images/custom/logo-main.svg" group-title="Music",Radio Romania Antena Satelor (720p)
-https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8
 #EXTINF:-1 tvg-id="RadioRomaniaIasi.ro@SD" tvg-country="RO" tvg-name="Radio Romania Iasi" tvg-logo="https://www.radioiasi.ro/wp-content/themes/radioiasi/images/custom/logo-iasi.svg" group-title="Music",Radio Romania Iasi (576i)
 https://stream3.srr.ro/live/radio-iasi/chunklist_w1565024915.m3u8
 #EXTINF:-1 tvg-id="RadioRumbaTV.pe@SD" tvg-country="PE" tvg-name="Radio Rumba TV" tvg-logo="https://i.imgur.com/BYcxI03.png" group-title="Music",Radio Rumba TV (720p)
@@ -1026,8 +1024,6 @@ https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
 https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-country="FR" tvg-name="Trace Latina" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="Music",Trace Latina (1080p)
 https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceMboa.fr@SD" tvg-country="FR" tvg-name="Trace Mboa" tvg-logo="https://i.imgur.com/cYwkCj2.png" group-title="Music",Trace Mboa (1080p)
-https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceMuzika.fr@SD" tvg-country="FR" tvg-name="Trace Muzika" tvg-logo="https://i.imgur.com/xsEGIXO.png" group-title="Music",Trace Muzika (1080p)
 https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceMziki.fr@SD" tvg-country="FR" tvg-name="Trace Mziki" tvg-logo="https://i.imgur.com/l3X9Gg4.png" group-title="Music",Trace Mziki (1080p)
@@ -1188,6 +1184,8 @@ https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 https://ylestudiolive.akamaized.net/hls/live/2007826/ylestudiolive-YleX/master.m3u8
 #EXTINF:-1 tvg-id="YRFMusic.in@SD" tvg-country="IN" tvg-name="YRF Music" tvg-logo="https://i.imgur.com/mxx05Z9.png" group-title="Music",YRF Music (1080p)
 https://cdn-uw2-prod.tsv2.amagi.tv/linear/amg01412-xiaomiasia-yrfmusic-xiaomi/playlist.m3u8
+#EXTINF:-1 tvg-id="ZBMusic.in@HD" tvg-country="IN" tvg-name="ZB Music" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbmusic.png" group-title="Music",ZB Music (720p)
+https://server.zillarbarta.com/zbmusic/index.m3u8
 #EXTINF:-1 tvg-id="ZICOTV.rs@SD" tvg-country="RS" tvg-name="ZICO TV" tvg-logo="https://i.imgur.com/8wbTnNW.png" group-title="Music",ZICO TV (720p)
 https://gjirafa-video-live.gjirafa.net/gjvideo-live/j3a-n14-2pf-g3s/index.m3u8
 #EXTINF:-1 tvg-id="ZonaMusicTV.cr@SD" tvg-country="CR" tvg-name="Zona Music TV" tvg-logo="https://i.imgur.com/TJ5l9iI.png" group-title="Music",Zona Music TV (1080p)

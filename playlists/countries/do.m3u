@@ -2,6 +2,8 @@
 #EXTINF:-1 tvg-id="AcentoTV.do@SD" tvg-country="DO" tvg-name="Acento TV" tvg-logo="https://i.imgur.com/jhiZfHf.png" group-title="News" http-referrer="https://acentotv01.streamprolive.com/i/cp/hls/player.html",Acento TV
 #EXTVLCOPT:http-referrer=https://acentotv01.streamprolive.com/i/cp/hls/player.html
 https://acentotv01.streamprolive.com/hls/live.m3u8
+#EXTINF:-1 tvg-id="Carivision.do@SD" tvg-country="DO" tvg-name="Carivision" tvg-logo="https://i.imgur.com/XjGb2UM.png" group-title="News",Carivision (1080p)
+https://ss2.tvrdomi.com:1936/carivision/carivision/playlist.m3u8
 #EXTINF:-1 tvg-id="DeUltimoMinutoTV.do@SD" tvg-country="DO" tvg-name="De Ultimo Minuto TV" tvg-logo="https://i.imgur.com/6ML2z17.png" group-title="News",De Ultimo Minuto TV
 https://soportedvb.click:3620/live/deultimominutomedialive.m3u8
 #EXTINF:-1 tvg-id="HermanasMirabalTV.do@SD" tvg-country="DO" tvg-name="Hermanas Mirabal TV" tvg-logo="https://i.imgur.com/cbKgcGh.png" group-title="News",Hermanas Mirabal TV (720p)
@@ -34,6 +36,8 @@ https://fox.hostlagarto.com:8081/bellavision8hd/tracks-v1a1/mono.m3u8
 https://5790d294af2dc.streamlock.net/latinostv/latinostv/playlist.m3u8
 #EXTINF:-1 tvg-id="CibaenaTV.do@SD" tvg-country="DO" tvg-name="Cibaena TV" tvg-logo="https://i.imgur.com/iHjdckl.png" group-title="Entertainment",Cibaena TV (720p)
 https://streamunoapp.com:3958/live/cibaenatvlive.m3u8
+#EXTINF:-1 tvg-id="ClaroVisionTV.do@SD" tvg-country="DO" tvg-name="Claro Vision TV" tvg-logo="https://i.imgur.com/MpTgJMJ.png" group-title="Entertainment",Claro Vision TV (720p)
+https://streamunoapp.com:3057/live/clarovisiontvlive.m3u8
 #EXTINF:-1 tvg-id="COCOTV.do@SD" tvg-country="DO" tvg-name="COCO TV" tvg-logo="https://i.imgur.com/CnAc7jU.png" group-title="Entertainment",COCO TV (1080p)
 https://edge.essastream.com/canalcocotv/playlist.m3u8
 #EXTINF:-1 tvg-id="USBD1200002PM" tvg-country="DO" tvg-name="get TV" tvg-logo="https://tvpnlogopus.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/USBD1200002PM_20260421T134200SQUARE.png" group-title="Entertainment",get TV
@@ -252,6 +256,8 @@ https://soportedvb.click:3400/live/montecristitvlive.m3u8
 https://fox.hostlagarto.com:8081/morrotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Musavision.do@SD" tvg-country="DO" tvg-name="Musavision" tvg-logo="https://i.imgur.com/wMse6cT.png" group-title="General",Musavision (1080p)
 https://cnn.hostlagarto.com/musavisiontv/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="NaranjaTV.do@SD" tvg-country="DO" tvg-name="Naranja TV" tvg-logo="https://i.imgur.com/g7iFN3s.png" group-title="General",Naranja TV (720p)
+https://cdn.streamingcpanel.com:3526/live/teleraiceslive.m3u8
 #EXTINF:-1 tvg-id="NavarreteTelevision.do@HD" tvg-country="DO" tvg-name="Navarrete Television" tvg-logo="https://dominicanchannels.com/wp-content/uploads/navarrete.png" group-title="General",Navarrete Television (1080p)
 https://cnn.hostlagarto.com/ntvnavarrete/index.m3u8
 #EXTINF:-1 tvg-id="NexxoTV.do@SD" tvg-country="DO" tvg-name="Nexxo TV" tvg-logo="https://i.imgur.com/2OpCxa6.png" group-title="General",Nexxo TV (1080p)
@@ -294,12 +300,12 @@ https://edge.essastream.com/telemilenio/playlist.m3u8
 https://soportedvb.click:3494/live/senaldigitaltvlive.m3u8
 #EXTINF:-1 tvg-id="SimavisionCanal18.do@SD" tvg-country="DO" tvg-name="Simavision Canal 18" tvg-logo="https://i.imgur.com/io9o30K.jpg" group-title="General",Simavision Canal 18 (720p)
 https://soportedvb.click:3668/live/simavisiontvlive.m3u8
-#EXTINF:-1 tvg-id="SiTV.do@SD" tvg-country="DO" tvg-name="SiTV" tvg-logo="https://i.imgur.com/f8bDccF.png" group-title="General",SiTV (1080p)
-http://190.122.104.210:5080/LiveApp/streams/sitv2.m3u8
+#EXTINF:-1 tvg-id="SuperCanal.do@SD" tvg-country="DO" tvg-name="Super Canal" tvg-logo="https://i.imgur.com/AZBamNi.png" group-title="General",Super Canal (Dominican Republic) (1080p)
+https://cnn.hostlagarto.com/supercanalhd/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperDigitalTV.do@SD" tvg-country="DO" tvg-name="Super Digital TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3431-294x165-FFFFFF.jpg" group-title="General",Super Digital TV (1080p)
 https://cdn.streamrd.cloud/live/ch_kb5qe1zr.m3u8
-#EXTINF:-1 tvg-id="SurTV.do@SD" tvg-country="DO" tvg-name="Sur TV" tvg-logo="https://i.imgur.com/oAyvK0N.jpeg" group-title="General",Sur TV (720p)
-https://ss2.tvrdomi.com:1936/eradiofonicas/eradiofonicas/playlist.m3u8
+#EXTINF:-1 tvg-id="TDNMedios.do@SD" tvg-country="DO" tvg-name="TDN Medios" tvg-logo="https://i.imgur.com/C8dSJM7.png" group-title="General",TDN Medios (720p)
+https://castv10.plugstreaming.com:19360/tdntv/tdntv.m3u8
 #EXTINF:-1 tvg-id="TeleAntillas.do@SD" tvg-country="DO" tvg-name="Tele Antillas" tvg-logo="https://i.imgur.com/G1pJZkC.png" group-title="General",Tele Antillas (1080p)
 http://45.171.108.253:8888/TELEANTILLAS/index.m3u8
 #EXTINF:-1 tvg-id="TeleDajabonTV.do@HD" tvg-country="DO" tvg-name="Tele Dajabon TV" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3822-294x165-FFFFFF.jpg" group-title="General",Tele Dajabon TV (720p)
@@ -328,14 +334,10 @@ https://streaming.grupomediosdelnorte.com:19360/telecomerciotv/telecomerciotv.m3
 https://streaming.grupomediosdelnorte.com:19360/telecontacto/telecontacto.m3u8
 #EXTINF:-1 tvg-id="Teleimpacto.do@SD" tvg-country="DO" tvg-name="Teleimpacto" tvg-logo="https://i.imgur.com/dBEysOV.png" group-title="General",Teleimpacto (720p)
 https://vpss2003.streamprolive.com/hls/live.m3u8
-#EXTINF:-1 tvg-id="TelemediosCanal8.do@SD" tvg-country="DO" tvg-name="Telemedios Canal 8" tvg-logo="https://i.imgur.com/xhEAw7z.png" group-title="General",Telemedios Canal 8 (1080p)
-https://hls.tvabierta.net/hls/008.m3u8
 #EXTINF:-1 tvg-id="TelemetroTV.do@SD" tvg-country="DO" tvg-name="Telemetro TV" tvg-logo="https://imgur.com/Ck2NL0t.png" group-title="General",Telemetro TV
 https://streamunoapp.com:3366/live/telemetrolive.m3u8
 #EXTINF:-1 tvg-id="Telemicro.do@HD" tvg-country="DO" tvg-name="Telemicro" tvg-logo="https://i.imgur.com/WhgySAk.png" group-title="General",Telemicro HD (720p)
 https://cdn4.wind.do/streams/telemicro/telemicro_1080.m3u8
-#EXTINF:-1 tvg-id="TelemicroInternacional.do@SD" tvg-country="DO" tvg-name="Telemicro Internacional" tvg-logo="https://i.imgur.com/507tvMY.png" group-title="General",Telemicro Internacional (720p)
-http://45.228.234.60:8880/play/a05f/index.m3u8
 #EXTINF:-1 tvg-id="Telenord8.do@SD" tvg-country="DO" tvg-name="Telenord 8" tvg-logo="https://i.imgur.com/1Ei0kB8.png" group-title="General",Telenord 8 (1080p)
 https://fox.hostlagarto.com:8081/telenord8/playlist.m3u8
 #EXTINF:-1 tvg-id="Telenord10.do@SD" tvg-country="DO" tvg-name="Telenord 10" tvg-logo="https://i.imgur.com/1Ei0kB8.png" group-title="General",Telenord 10 (720p)
@@ -359,8 +361,6 @@ https://soportedvb.click:3413/live/televerlive.m3u8
 https://edge.essastream.com/tenarensestvrd/playlist.m3u8
 #EXTINF:-1 tvg-id="ToraCanal69.do@HD" tvg-country="DO" tvg-name="Tora Canal 69" tvg-logo="https://latoratv69.com.do/wp-content/themes/bootscore/assets/img/logo-tora-tv.png" group-title="General",Tora Canal 69
 https://tv.wracanal10.com:3012/live/latoratvlive.m3u8
-#EXTINF:-1 tvg-id="TV10SanJuan.do@SD" tvg-country="DO" tvg-name="TV 10 San Juan" tvg-logo="https://i.imgur.com/e2BXUdH.png" group-title="General",TV 10 San Juan (720p)
-https://59d39900ebfb8.streamlock.net/tv10sanjuan/tv10sanjuan/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCotuiCanal31.do@SD" tvg-country="DO" tvg-name="TV Cotui Canal 31" tvg-logo="https://i.imgur.com/sMF7JDm.png" group-title="General",TV Cotui Canal 31 (1080p)
 https://live20.bozztv.com/akamaissh101/ssh101/tvcotui/playlist.m3u8
 #EXTINF:-1 tvg-id="TVHigueyDigital.do@SD" tvg-country="DO" tvg-name="TV Higuey Digital" tvg-logo="https://i.imgur.com/ptQyOMi.png" group-title="General",TV Higuey Digital (720p)
@@ -379,8 +379,6 @@ https://www.uvatvhd.com/hls.php?file=live.m3u8
 https://stmv6.voxtvhd.com.br/vallenuevotv/vallenuevotv/playlist.m3u8
 #EXTINF:-1 tvg-id="Vallevision.do@SD" tvg-country="DO" tvg-name="Vallevision" tvg-logo="https://i.imgur.com/lNpgFAU.png" group-title="General",Vallevision (720p)
 https://streaming.telecablecentral.com.do/Vallevision/ValleHD/playlist.m3u8
-#EXTINF:-1 tvg-id="VegaTeve.do@SD" tvg-country="DO" tvg-name="Vega Teve" tvg-logo="https://i.imgur.com/jiyMOZx.png" group-title="General",Vega Teve (720p)
-https://cloud5.livescast.com:19360/canalvegateve/canalvegateve.m3u8
 #EXTINF:-1 tvg-id="VegavisionCanal18.do@SD" tvg-country="DO" tvg-name="Vegavision Canal 18" tvg-logo="https://i.imgur.com/352jxnd.png" group-title="General",Vegavision Canal 18 (1080p)
 https://fox.hostlagarto.com:8081/canal26/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Vision3000.do@SD" tvg-country="DO" tvg-name="Vision 3000" tvg-logo="https://i.imgur.com/mogsnzp.png" group-title="General",Vision 3000 (720p)

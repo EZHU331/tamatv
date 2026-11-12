@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_BE2.xml.gz"
 #EXTINF:-1 tvg-id="SterkTV.be@SD" tvg-country="BE" tvg-name="Sterk TV" tvg-logo="https://i.imgur.com/bIheNAI.png" group-title="News",Sterk TV (1080p)
 https://hlspackager.akamaized.net/live/DB/STERK_TV/HLS/STERK_TV.m3u8
+#EXTINF:-1 tvg-id="LaUne.be@SD" tvg-country="BE" tvg-name="La Une" tvg-logo="https://i.imgur.com/jMwZp7z.png" group-title="Entertainment",La Une (1080p)
+http://41.205.93.154/LA-UNE/index.m3u8
 #EXTINF:-1 tvg-id="JapanimTV.be@SD" tvg-country="BE" tvg-name="JapanimTV" tvg-logo="https://static-cdn.jtvnw.net/jtv_user_pictures/6b97e19f-4243-4d48-b794-ff8cf54d795f-profile_image-300x300.png" group-title="Kids",JapanimTV (1080p)
 https://foxkidstv.be:3369/stream/play.m3u8
 #EXTINF:-1 tvg-id="BAMTV.be@SD" tvg-country="BE" tvg-name="BAM-TV" tvg-logo="https://i.imgur.com/9UmR6cs.png" group-title="Culture",BAM-TV
@@ -39,6 +41,8 @@ https://live.vrtcdn.be/groupa/live/3c3a12b5-093d-4a19-ae1f-3e775433286e/live.ism
 https://live.vrtcdn.be/groupa/live/66a9668e-b37b-4de2-878e-0218563b2dd2/live.isml/.m3u8
 #EXTINF:-1 tvg-id="TeleMB.be@SD" tvg-country="BE" tvg-name="Tele MB" tvg-logo="https://i.imgur.com/XAggjM4.png" group-title="General",Tele MB (1080p)
 https://tvlocales-live.freecaster.com/telemb/95d2f6ca-817a-48c0-aba5-6323a621c2d6/95d2f6ca-817a-48c0-aba5-6323a621c2d6.isml/master.m3u8
+#EXTINF:-1 tvg-id="Tipik.be@SD" tvg-country="BE" tvg-name="Tipik" tvg-logo="https://i.imgur.com/LKLjnrp.png" group-title="General",Tipik (1080p)
+http://41.205.93.154/TIPIK/index.m3u8
 #EXTINF:-1 tvg-id="TVLux.be@SD" tvg-country="BE" tvg-name="TV Lux" tvg-logo="https://i.imgur.com/ljbdWkC.png" group-title="General",TV Lux (Belgium) (1080p)
 https://tvlocales-live.freecaster.com/tvlux/95d2f632-0780-4ac1-9895-9e50212dd3b6/95d2f632-0780-4ac1-9895-9e50212dd3b6.isml/master.m3u8
 #EXTINF:-1 tvg-id="TVcom.be@SD" tvg-country="BE" tvg-name="TVcom" tvg-logo="https://i.imgur.com/3KuRD19.png" group-title="General",TVcom (1080p)

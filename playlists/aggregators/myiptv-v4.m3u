@@ -45,14 +45,12 @@ http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226724/1.m3u8
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CGTN.png" group-title="央视",CGTN
 http://t.061899.xyz/tl/tl.php?id=cgtn
+#EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.cn/tv/CGTN俄语.png" group-title="央视",CGTN俄语
+http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMHsb1VosgoT220802cd.m3u8
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.cn/tv/CGTN法语.png" group-title="央视",CGTN法语
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视",CGTN记录
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
-#EXTINF:-1 tvg-id="CHCAction.cn" tvg-country="CN" tvg-name="CHC动作电影" tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="央视",CHC动作电影
-http://t.061899.xyz/tl/tl.php?id=chcdzdy
-#EXTINF:-1 tvg-id="ColorfulDramaChannel.cn" tvg-country="CN" tvg-name="七彩戏剧" tvg-logo="https://i.imgur.com/1pprDEC.png" group-title="央视",七彩戏剧
-http://t.061899.xyz/tl/tl.php?id=qcxj
 #EXTINF:-1 tvg-id="ICS.cn" tvg-country="CN" tvg-name="上海外语" tvg-logo="https://i.imgur.com/iHGKPCO.png" group-title="央视",上海外语
 http://t.061899.xyz/tl/tl.php?id=shics
 #EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/上海新闻综合.png" group-title="央视",上海新闻综合
@@ -318,6 +316,8 @@ http://live4play.uk/livehttpplay?channel_id=12037
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 #EXTINF:-1 tvg-id="韩国电影2" tvg-name="韩国电影2" tvg-logo="https://live.fanmingming.cn/tv/韩国电影2.png" group-title="港澳台",韩国电影2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
+#EXTINF:-1 tvg-id="龙华偶像" tvg-name="龙华偶像" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV6.png" group-title="港澳台",龙华偶像
+https://cdn8.163189.xyz/live/lhox/stream.m3u8
 #EXTINF:-1 tvg-id="1987年春晚" tvg-name="1987年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="地方",1987年春晚
 https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
 #EXTINF:-1 tvg-id="1988年春晚" tvg-name="1988年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="地方",1988年春晚
@@ -648,8 +648,6 @@ https://live.metshop.top/huya/29465848
 https://live.metshop.top/huya/29465849
 #EXTINF:-1 tvg-id="射雕英雄传" tvg-name="射雕英雄传" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",射雕英雄传
 https://live.metshop.top/huya/23824164
-#EXTINF:-1 tvg-id="少年包青天第一部" tvg-name="少年包青天第一部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/少年包青天.png" group-title="地方",少年包青天第一部
-https://live.ottiptv.cc/yy/1356043677
 #EXTINF:-1 tvg-id="少年包青天第二部" tvg-name="少年包青天第二部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/少年包青天2.png" group-title="地方",少年包青天第二部
 https://live.ottiptv.cc/huya/11342425
 #EXTINF:-1 tvg-id="SX05" tvg-name="山西文体生活" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/shanxi1/shanxi_5.png" group-title="地方",山西文体生活
@@ -698,8 +696,6 @@ https://live.ottiptv.cc/huya/11352944
 https://live.ottiptv.cc/douyu/5908256
 #EXTINF:-1 tvg-id="新水浒传" tvg-name="新水浒传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/新水浒.png" group-title="地方",新水浒传
 https://live.ottiptv.cc/huya/11342384
-#EXTINF:-1 tvg-id="新白娘子传奇" tvg-name="新白娘子传奇" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/新白娘子传奇.png" group-title="地方",新白娘子传奇
-https://live.ottiptv.cc/yy/1354490667
 #EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://live.fanmingming.cn/tv/纪实人文.png" group-title="地方",新纪实
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/xsj.png" group-title="地方",新视觉HD
@@ -720,6 +716,8 @@ https://live.ottiptv.cc/huya/23860039
 https://live.ottiptv.cc/huya/26355765
 #EXTINF:-1 tvg-id="楚汉骄雄" tvg-name="楚汉骄雄" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",楚汉骄雄
 https://live.metshop.top/huya/29465854
+#EXTINF:-1 tvg-id="欢乐颂" tvg-name="欢乐颂" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",欢乐颂
+https://live.ottiptv.cc/yy/1382735624
 #EXTINF:-1 tvg-id="LaughterTheater.cn" tvg-country="CN" tvg-name="欢笑剧场" tvg-logo="https://i.imgur.com/CrFesS6.png" group-title="地方",欢笑剧场
 https://zby.130519.xyz/PLTV/11/224/3221225771/index.m3u8
 #EXTINF:-1 tvg-id="武汉文体" tvg-name="武汉文体" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/hubei/Wuhan5.png" group-title="地方",武汉文体
@@ -824,6 +822,8 @@ http://wouu.net:9977/udp/239.93.0.97:5140
 https://live.ottiptv.cc/huya/11336726
 #EXTINF:-1 tvg-id="爱情公寓（斗鱼）" tvg-name="爱情公寓（斗鱼）" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/爱情公寓.png" group-title="地方",爱情公寓（斗鱼）
 https://live.ottiptv.cc/douyu/4105989
+#EXTINF:-1 tvg-id="狂飙" tvg-name="狂飙" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/狂飙.png" group-title="地方",狂飙
+https://live.ottiptv.cc/yy/1355142167
 #EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/猫和老鼠.png" group-title="地方",猫和老鼠
 https://live.ottiptv.cc/huya/11352879
 #EXTINF:-1 tvg-id="玫瑰的故事" tvg-name="玫瑰的故事" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",玫瑰的故事
@@ -968,8 +968,6 @@ https://live.ottiptv.cc/huya/29465862
 http://112.46.105.20:8009/hls/22/index.m3u8
 #EXTINF:-1 tvg-id="陕西银龄" tvg-name="陕西银龄" tvg-logo="https://live.fanmingming.cn/tv/陕西银龄.png" group-title="地方",陕西银龄
 http://112.46.105.20:8009/hls/20/index.m3u8
-#EXTINF:-1 tvg-id="隋唐英雄传" tvg-name="隋唐英雄传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/隋唐英雄传.png" group-title="地方",隋唐英雄传
-https://live.ottiptv.cc/yy/1352475619
 #EXTINF:-1 tvg-id="雪豹" tvg-name="雪豹" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/雪豹.png" group-title="地方",雪豹
 https://live.ottiptv.cc/huya/29580970
 #EXTINF:-1 tvg-id="青川综合" tvg-name="青川综合" tvg-logo="https://live.fanmingming.cn/tv/青川综合.png" group-title="地方",青川综合
@@ -1202,8 +1200,6 @@ https://vip.ffzy-online.com/20221015/719_80ff87c2/index.m3u8
 https://vip.ffzy-online.com/20221015/722_e32c42bc/index.m3u8
 #EXTINF:-1 tvg-id="斗鱼港剧" tvg-name="斗鱼港剧" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/斗鱼.png" group-title="电影",斗鱼港剧
 http://www.goodiptv.club/douyu/5061550
-#EXTINF:-1 tvg-id="末日电影合集" tvg-name="末日电影合集" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="电影",末日电影合集
-https://live.ottiptv.cc/yy/1354889019
 #EXTINF:-1 tvg-id="李连杰电影" tvg-name="李连杰电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="电影",李连杰电影
 https://live.metshop.top/huya/11342390
 #EXTINF:-1 tvg-id="林正英电影" tvg-name="林正英电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="电影",林正英电影

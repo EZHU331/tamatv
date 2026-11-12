@@ -25,6 +25,8 @@ http://190.93.224.42/TV-PERU-NOTICIAS/index.m3u8
 https://videoserver.tmcreativos.com:19360/visionnoticias/visionnoticias.m3u8
 #EXTINF:-1 tvg-id="BicolorPlusPremium.pe@SD" tvg-country="PE" tvg-name="Bicolor+ Premium" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/00/1790183086681/1dff7002a22a_640_360.png" group-title="Sports",Bicolor+ Premium
 https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium_abr/bitel/bicolorpremium_720p/chunks.m3u8
+#EXTINF:-1 tvg-id="BicolorPlusPremium2.pe@SD" tvg-country="PE" tvg-name="Bicolor+ Premium 2" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/09/24/03/1790194132371/1e57475a9a6b_640_360.png" group-title="Sports",Bicolor+ Premium 2 (720p)
+https://live-evg10.tv360.bitel.com.pe/bitel/bicolorpremium2_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="L1.pe@SD" tvg-country="PE" tvg-name="L1" tvg-logo="https://i.imgur.com/eRmXneK.png" group-title="Sports",L1 (1080p)
 http://45.4.1.201:8000/play/a1ai/index.m3u8
 #EXTINF:-1 tvg-id="L1Max.pe@SD" tvg-country="PE" tvg-name="L1 Max" tvg-logo="https://i.imgur.com/2fziU2B.png" group-title="Sports",L1 Max (1080p)
@@ -43,8 +45,6 @@ http://45.171.108.253:8888/LATINA/index.m3u8
 https://s3.tvdatta.com:3700/live/jjrtvlive.m3u8
 #EXTINF:-1 tvg-id="LaTele.pe@SD" tvg-country="PE" tvg-name="La Tele" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/LaTele_Per%C3%BA_2018_Logo.png/960px-LaTele_Per%C3%BA_2018_Logo.png" group-title="Entertainment",La Tele (1080p)
 http://190.93.224.42/LA-TELE/index.m3u8
-#EXTINF:-1 tvg-id="NeoTV.pe@SD" tvg-country="PE" tvg-name="Neo TV" tvg-logo="https://i.imgur.com/bS5JtYX.jpeg" group-title="Entertainment",Neo TV (Peru) (720p)
-http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/DigitalTV/playlist.m3u8
 #EXTINF:-1 tvg-id="TVKaliente.pe@SD" tvg-country="PE" tvg-name="TV Kaliente" tvg-logo="https://i.imgur.com/MFQpLuQ.png" group-title="Entertainment",TV Kaliente (720p)
 https://lbgo.bozztv.com/ssh101/ssh101/kalientecusco/playlist.m3u8
 #EXTINF:-1 tvg-id="WEST.pe@SD" tvg-country="PE" tvg-name="WEST" tvg-logo="https://aptcperu.org/wp-content/uploads/2026/04/logoMesa-de-trabajo-1-copia-5.png" group-title="Entertainment",WEST (1080p)
@@ -267,8 +267,6 @@ https://live-evg11.tv360.bitel.com.pe/bitel/unicentroSRT/playlist.m3u8
 https://play.agenciastreaming.com:8081/uniteltv/index.m3u8
 #EXTINF:-1 tvg-id="UniversitariaTV.pe@SD" tvg-country="PE" tvg-name="Universitaria TV" tvg-logo="https://i.imgur.com/OcDimHX.png" group-title="General",Universitaria TV (720p)
 https://live-evg11.tv360.bitel.com.pe/bitel/uraniotv/playlist.m3u8
-#EXTINF:-1 tvg-id="UranioTV.pe@SD" tvg-country="PE" tvg-name="Uranio TV" tvg-logo="https://i.imgur.com/EeNpfIr.png" group-title="General",Uranio TV (720p)
-https://live-evg8.tv360.bitel.com.pe/bitel/uranioyurimaguasSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="ViaAltomayo.pe@SD" tvg-country="PE" tvg-name="Via Altomayo" tvg-logo="https://i.imgur.com/aJ4XExn.png" group-title="General",Via Altomayo (720p)
 https://live.obslivestream.com/viaaltomayomux/index.m3u8
 #EXTINF:-1 tvg-id="ViaTelevision.pe@SD" tvg-country="PE" tvg-name="Via Television" tvg-logo="https://i.imgur.com/FiptbGQ.png" group-title="General",Via Television

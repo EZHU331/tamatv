@@ -37,8 +37,6 @@ https://livesptfm.com/SPTFM/Live/playlist.m3u8
 https://tvr-sport.lg.mncdn.com/tvrsport/smil:tvrsport.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="VoyoEvents.ro@SD" tvg-country="RO" tvg-name="Voyo Events" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/d/df/Voyo_2026.svg/revision/latest/scale-to-width-down/1000?cb=20261006171646" group-title="Sports",Voyo Events (576i)
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/cme-ro-protv-plus5/live_fullhd?offsetSeconds=0
-#EXTINF:-1 tvg-id="VoyoSport1.ro@HD" tvg-country="RO" tvg-name="Voyo Sport 1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a3/VoyoSport1.svg" group-title="Sports",Voyo Sport 1 (1080i)
-https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/16677.m3u8
 #EXTINF:-1 tvg-id="BollywoodHD.ro@Russia" tvg-country="RO" tvg-name="Bollywood HD" tvg-logo="https://i.imgur.com/scDKOLS.png" group-title="Movies",Bollywood HD Russia (720p)
 https://xykt-fix.github.io/cinerama_edge01/hls/BOLLYWOOD_RU/Movie009.m3u8
 #EXTINF:-1 tvg-id="CinemaratonPlus.ro@HD" tvg-country="RO" tvg-name="Cinemaraton Plus" tvg-logo="https://assets.antenaplay.ro/2026/03/10/RMNdkVBCTNfsogsYqHaB.png" group-title="Movies",Cinemaraton Plus (1080i)
@@ -101,8 +99,6 @@ https://hls01ns.antenaplay.ro/hls/orizont-tv-sd/index.m3u8
 https://hls02ns.antenaplay.ro/hls/party-mix-hd/index.m3u8
 #EXTINF:-1 tvg-id="RadioFxNet.ro@HD" tvg-country="RO" tvg-name="Radio Fx Net" tvg-logo="https://radiofxnet.ro/wp-content/uploads/2021/03/cropped-cropped-cropped-cropped-Radio_FX_Net_logo-1-1.png" group-title="Music",Radio Fx Net (720p)
 https://streamlov.alsolnet.com/radiofxnet/live/playlist.m3u8
-#EXTINF:-1 tvg-id="RadioRomaniaAntenaSatelor.ro@720p" tvg-country="RO" tvg-name="Radio Romania Antena Satelor" tvg-logo="https://www.antenasatelor.ro/templates/default/images/custom/logo-main.svg" group-title="Music",Radio Romania Antena Satelor (720p)
-https://stream3.srr.ro/live/antenasatelor/chunklist_w1642210843.m3u8
 #EXTINF:-1 tvg-id="RadioRomaniaIasi.ro@SD" tvg-country="RO" tvg-name="Radio Romania Iasi" tvg-logo="https://www.radioiasi.ro/wp-content/themes/radioiasi/images/custom/logo-iasi.svg" group-title="Music",Radio Romania Iasi (576i)
 https://stream3.srr.ro/live/radio-iasi/chunklist_w1565024915.m3u8
 #EXTINF:-1 tvg-id="RadioZU.ro@720p" tvg-country="RO" tvg-name="Radio ZU" tvg-logo="https://radiozu.ro/img/logo-zu.png" group-title="Music",Radio ZU (720p)
@@ -169,6 +165,8 @@ https://s2.netstreaming.eu/hd365.m3u8
 https://tv.streambox.ro/hls/itv/index.m3u8
 #EXTINF:-1 tvg-id="IneditTV.ro@SD" tvg-country="RO" tvg-name="Inedit TV" tvg-logo="https://i.imgur.com/HcFpNwA.png" group-title="General",Inedit TV
 https://hls02ns.antenaplay.ro/hls/inedit-tv-hd/index.m3u8
+#EXTINF:-1 tvg-id="InfoHD.ro@SD" tvg-country="RO" tvg-name="Info HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/e/ec/Info_TV_Deva.png/revision/latest?cb=20241109152015" group-title="General",Info HD (576i) (720p)
+https://netstreaming.eu/InfoHd.m3u8
 #EXTINF:-1 tvg-id="KanalD2.ro@SD" tvg-country="RO" tvg-name="Kanal D2" tvg-logo="https://i.imgur.com/0SMSIm9.png" group-title="General",Kanal D2 (1080i)
 https://stream2.kanald.ro/iphone/knd2-live.m3u8
 #EXTINF:-1 tvg-id="KapitalTV.ro@SD" tvg-country="RO" tvg-name="Kapital TV" tvg-logo="https://i.imgur.com/Q1PYwkZ.png" group-title="General",Kapital TV (576i)
@@ -213,6 +211,8 @@ https://live.tele7abc.ro/hls/stream/index.m3u8
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 #EXTINF:-1 tvg-id="TrinitasTV.ro@SD" tvg-country="RO" tvg-name="Trinitas TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/9/91/Trinitas_TV_%282018%29.svg/revision/latest?cb=20210506192259" group-title="General",Trinitas TV (576i)
 https://hls01ns.antenaplay.ro/hls/trinitas-tv-sd/index.m3u8
+#EXTINF:-1 tvg-id="TV1.ro@SD" tvg-country="RO" tvg-name="TV1" tvg-logo="https://tv1sm.ro/uploads/logo/logo_6725d98a792221-79839652.jpg" group-title="General",TV1 (Romania) (576i)
+https://netstreaming.eu/tv1.m3u8
 #EXTINF:-1 tvg-id="TVArad.ro@SD" tvg-country="RO" tvg-name="TV Arad" tvg-logo="https://i.imgur.com/4yZV72X.png" group-title="General",TV Arad (576i)
 https://live.djemba.ro/memfs/1b01c281-126d-4787-9d51-9e06c96bb9f9.m3u8
 #EXTINF:-1 tvg-id="TVR1.ro@SD" tvg-country="RO" tvg-name="TVR 1" tvg-logo="https://i.imgur.com/CcUX1gB.png" group-title="General",TVR 1 (1440p)

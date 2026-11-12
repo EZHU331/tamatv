@@ -11,8 +11,6 @@ https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8
 https://video.govoritmoskva.ru/rufm/index.m3u8
 #EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-country="RU" tvg-name="Izvestia" tvg-logo="https://i.imgur.com/r5HzA6J.png" group-title="News",Izvestia (1080p)
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
-#EXTINF:-1 tvg-id="KrikTV.ru@SD" tvg-country="RU" tvg-name="Krik-TV" tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="News",Krik-TV (1080p)
-http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
 #EXTINF:-1 tvg-id="Legendarnyy24.ru@SD" tvg-country="RU" tvg-name="Legendarnyy 24" tvg-logo="https://i.imgur.com/z9t6x8B.png" group-title="News",Legendarnyy 24
 https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 #EXTINF:-1 tvg-id="Millet.ru@SD" tvg-country="RU" tvg-name="Millet" tvg-logo="https://i.imgur.com/hUjLRLy.png" group-title="News",Millet (720p)
@@ -41,6 +39,8 @@ https://stream.smotrim.ru/hls2/vesti_fm/playlist_4.m3u8
 https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="BoksTV.ru@SD" tvg-country="RU" tvg-name="Boks TV" tvg-logo="https://i.imgur.com/R1UjyfX.png" group-title="Sports",Boks TV (720p)
 http://31.148.48.15/Boks_TV/index.m3u8
+#EXTINF:-1 tvg-id="FONTV.ru@HD" tvg-country="RU" tvg-name="FON TV" tvg-logo="https://play-lh.googleusercontent.com/J0YeRB884koVfecR2mp43Y2mbNtRVTSSOiq2U1gkITJ9IxzIM4VA71Rqbh3UlREI4mCnlxGHm4wxoujt5ZH1AQ" group-title="Sports",FON TV (1080p)
+https://fontvlive.mediacdn.ru/stream/fontv/playlist.m3u8
 #EXTINF:-1 tvg-id="KHL.ru@SD" tvg-country="RU" tvg-name="KHL" tvg-logo="https://i.imgur.com/RgdHdOV.png" group-title="Sports",KHL (720p)
 http://31.148.48.15/KHL_TV/index.m3u8
 #EXTINF:-1 tvg-id="MatchArena.ru@SD" tvg-country="RU" tvg-name="Match! Arena" tvg-logo="https://i.imgur.com/udTzwzu.png" group-title="Sports",Match! Arena (720p)
@@ -121,6 +121,8 @@ http://kino-1.catcast.tv/content/38617/index.m3u8
 http://176.118.197.101/KinoTvHD/playlist.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@HD" tvg-country="RU" tvg-name="Kinopremyera" tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="Movies",Kinopremyera HD (1080p)
 https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
+#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" tvg-country="RU" tvg-name="Kinouzhas" tvg-logo="https://i.imgur.com/mAcAAQF.png" group-title="Movies",Kinouzhas (1080p)
+http://s1.merlive.am/Kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="Muzhskoy.ru@HD" tvg-country="RU" tvg-name="Muzhskoy" tvg-logo="https://i.imgur.com/xyztpBf.png" group-title="Movies",Muzhskoy HD (1080p)
 https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
 #EXTINF:-1 tvg-id="NashKinopokaz.ru@HD" tvg-country="RU" tvg-name="Nash Kinopokaz" tvg-logo="https://i.imgur.com/iwTMl8O.png" group-title="Movies",Nash Kinopokaz HD (720p)
@@ -141,8 +143,6 @@ http://31.148.48.15/Russkiy_Roman_HD/index.m3u8
 http://stream.mcquack.net/75/index.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Klassika.ru@SD" tvg-country="RU" tvg-name="Smotrim 100% Klassika" tvg-logo="https://i.imgur.com/aASNpKq.png" group-title="Movies",Smotrim 100% Klassika (720p)
 https://stream.smotrim.ru/hls/fasttv03/playlist_3.m3u8
-#EXTINF:-1 tvg-id="StarCinema.ru@SD" tvg-country="RU" tvg-name="Star Cinema" tvg-logo="https://i.imgur.com/5sis895.png" group-title="Movies",Star Cinema
-https://dash2.antik.sk/live/test_star_cinema_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarFamily.ru@SD" tvg-country="RU" tvg-name="Star Family" tvg-logo="https://i.imgur.com/eGuGHnZ.png" group-title="Movies",Star Family (1080p)
 https://dash2.antik.sk/live/test_star_family_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="STARTAir.ru@SD" tvg-country="RU" tvg-name="START Air" tvg-logo="https://images.iptv.rt.ru/images/d60qp8omife4gis72tk0.png" group-title="Movies",START Air (1080p)
@@ -253,8 +253,8 @@ http://31.148.48.15/Nauka_2.0/index.m3u8
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD" tvg-country="RU" tvg-name="Smotrim 100% Fakty" tvg-logo="https://i.imgur.com/dB3cJzO.png" group-title="Documentary",Smotrim 100% Fakty (720p)
 https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
-#EXTINF:-1 tvg-id="TERRA.ru@SD" tvg-country="RU" tvg-name="TERRA" tvg-logo="https://i.imgur.com/ZxUjCpF.png" group-title="Documentary",TERRA (720p)
-http://31.148.48.15/Terra_HD/index.m3u8
+#EXTINF:-1 tvg-id="TERRA.ru@SD" tvg-country="RU" tvg-name="TERRA" tvg-logo="https://i.imgur.com/ZxUjCpF.png" group-title="Documentary",TERRA (1080p)
+http://s1.merlive.am/TerraHD/index.m3u8
 #EXTINF:-1 tvg-id="TheExplorers.ru@SD" tvg-country="RU" tvg-name="The Explorers" tvg-logo="https://www.oreol.tv/img/news/Logo_The_Explorers_Bleu.png" group-title="Documentary",The Explorers (1080p)
 https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
 #EXTINF:-1 tvg-id="vijuPlusPlanet.ru@HD" tvg-country="RU" tvg-name="viju+ Planet" tvg-logo="https://i.imgur.com/9Weqdsk.png" group-title="Documentary",viju+ Planet HD (1080p)
