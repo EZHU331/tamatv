@@ -1,4 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_GR1.xml.gz"
+#EXTINF:-1 tvg-id="AstraTV.gr@SD" tvg-country="GR" tvg-name="Astra TV" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="News",Astra TV (1080p)
+https://server.gointernet.gr/live/livestream.m3u8
 #EXTINF:-1 tvg-id="CorfuChannel.gr@SD" tvg-country="GR" tvg-name="Corfu Channel" tvg-logo="https://i.imgur.com/EFL1Tjg.png" group-title="News",Corfu Channel (720p)
 https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="ERTNews.gr@HD" tvg-country="GR" tvg-name="ERT News" tvg-logo="https://www.ert.gr/wp-content/uploads/2025/09/ert-news-white-bg-menu-optimized.svg" group-title="News",ERT News HD (1080p)
@@ -11,8 +13,6 @@ https://telmaco-cdn.akamaized.net/starcgr/default/index.m3u8
 https://av.hellasnet.tv/rst/trt/main_stream.m3u8
 #EXTINF:-1 tvg-id="VerginaTV.gr@SD" tvg-country="GR" tvg-name="Vergina TV" tvg-logo="https://i.imgur.com/abQmFoH.png" group-title="News",Vergina TV (1080p)
 https://verginanews.gr:8443/hls_live/stream1.m3u8
-#EXTINF:-1 tvg-id="ERTSports1.gr" tvg-country="GR" tvg-name="ERT Sports 1" tvg-logo="https://i.imgur.com/EsczO2H.png" group-title="Sports",ERT Sports 1
-https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTSports1/default/index.mpd
 #EXTINF:-1 tvg-id="ERTSports2.gr" tvg-country="GR" tvg-name="ERT Sports 2" tvg-logo="https://i.imgur.com/b2SNQPi.png" group-title="Sports",ERT Sports 2
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTSports2/default/index.mpd
 #EXTINF:-1 tvg-id="ERTSports3.gr" tvg-country="GR" tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/HbXg3li.png" group-title="Sports",ERT Sports 3
@@ -39,6 +39,8 @@ https://eco.streams.ovh:8081/barazatv/tracks-v1a1/mono.m3u8
 https://rtmp.streams.ovh:1936/barazarelax/barazazararelax/barazarelax/playlist.m3u8
 #EXTINF:-1 tvg-id="BarazaTVRelaxing.gr@SD" tvg-country="GR" tvg-name="Baraza TV Relaxing" tvg-logo="https://i.imgur.com/TZ1unwF.png" group-title="Music",Baraza TV Relaxing (720p)
 https://rtmp.streams.ovh:1936/barazarelax/barazarelax/playlist.m3u8
+#EXTINF:-1 tvg-id="EllinikosFM.gr@SD" tvg-country="GR" tvg-name="Ellinikos FM" tvg-logo="https://i.ibb.co/y0ydCNB/unnamed-4.png" group-title="Music",Ellinikos FM (720p)
+https://rtmp.win:3603/live/ellinikosfmlive.m3u8
 #EXTINF:-1 tvg-id="MessatidaTV.gr@SD" tvg-country="GR" tvg-name="Messatida TV" tvg-logo="https://i.imgur.com/WEYrIrC.png" group-title="Music",Messatida TV (720p)
 https://rtmp.streams.ovh:8081/mtv/index.m3u8
 #EXTINF:-1 tvg-id="NRG91.gr@SD" tvg-country="GR" tvg-name="NRG 91" tvg-logo="https://i.imgur.com/1Zl1OJ5.png" group-title="Music",NRG 91 (720p)
@@ -63,7 +65,7 @@ https://fr.crystalweb.net:1936/aigaiotv/aigaiotv/playlist.m3u8
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-country="GR" tvg-name="Alpha TV" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="General",Alpha TV (1080p)
 https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="ARTTV.gr@SD" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
+#EXTINF:-1 tvg-id="arttv.gr" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
 https://rtmp.win:3696/live/arttvgrlive.m3u8
 #EXTINF:-1 tvg-id="BestTV.gr@SD" tvg-country="GR" tvg-name="Best TV" tvg-logo="https://i.imgur.com/AeeeDUc.png" group-title="General",Best TV (720p)
 http://push-int.siliconweb.com/bestTV/stream/playlist.m3u8

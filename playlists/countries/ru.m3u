@@ -3,14 +3,14 @@
 https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-03-srt.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Astrahan24.ru@SD" tvg-country="RU" tvg-name="Astrahan 24" tvg-logo="https://i.imgur.com/9WcnjQN.png" group-title="News",Astrahan 24 (720p)
 https://streaming.astrakhan.ru/astrakhan24/playlist.m3u8
-#EXTINF:-1 tvg-id="Crimea24.ru@SD" tvg-country="RU" tvg-name="Crimea 24" tvg-logo="https://i.imgur.com/k4C0uvp.png" group-title="News",Crimea 24
-https://cdn.1tvcrimea.ru/24tvcrimea.m3u8
 #EXTINF:-1 tvg-id="Don24.ru@SD" tvg-country="RU" tvg-name="Don 24" tvg-logo="https://i.imgur.com/fW15la1.png" group-title="News",Don 24 (1080p)
 https://donmedia.bonus-tv.ru/cdn/donmedia/playlist.m3u8
 #EXTINF:-1 tvg-id="GovoritMoskva.ru@SD" tvg-country="RU" tvg-name="Govorit Moskva" tvg-logo="https://i.imgur.com/z2mxf3E.png" group-title="News",Govorit Moskva (720p)
 https://video.govoritmoskva.ru/rufm/index.m3u8
 #EXTINF:-1 tvg-id="Izvestia.ru@SD" tvg-country="RU" tvg-name="Izvestia" tvg-logo="https://i.imgur.com/r5HzA6J.png" group-title="News",Izvestia (1080p)
 http://igi-hls.cdnvideo.ru/igi/igi_tcode/playlist.m3u8
+#EXTINF:-1 tvg-id="KrikTV.ru@SD" tvg-country="RU" tvg-name="Krik-TV" tvg-logo="https://i.imgur.com/rtuChZR.png" group-title="News",Krik-TV (1080p)
+http://cdn-01.bonus-tv.ru/kriktv_edge/playlist.m3u8
 #EXTINF:-1 tvg-id="Legendarnyy24.ru@SD" tvg-country="RU" tvg-name="Legendarnyy 24" tvg-logo="https://i.imgur.com/z9t6x8B.png" group-title="News",Legendarnyy 24
 https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 #EXTINF:-1 tvg-id="Millet.ru@SD" tvg-country="RU" tvg-name="Millet" tvg-logo="https://i.imgur.com/hUjLRLy.png" group-title="News",Millet (720p)
@@ -49,8 +49,6 @@ http://31.148.48.15/Match_Arena_HD/index.m3u8
 http://31.148.48.15/Match_Igra_HD/index.m3u8
 #EXTINF:-1 tvg-id="MatchStrana.ru@SD" tvg-country="RU" tvg-name="Match! Strana" tvg-logo="https://i.imgur.com/X02s2UE.png" group-title="Sports",Match! Strana (720p)
 http://31.148.48.15/Match_Strana/index.m3u8
-#EXTINF:-1 tvg-id="MatchUltra.ru@4K" tvg-country="RU" tvg-name="Match! Ultra" tvg-logo="https://www.kartina.tv/media/news/images/News/SEO/kanal-match-ultra.jpg" group-title="Sports",Match! Ultra (1080p)
-http://31.148.5.241/kanal_3/index.m3u8
 #EXTINF:-1 tvg-id="MMATVcom.ru@SD" tvg-country="RU" tvg-name="MMA-TV.com" tvg-logo="https://i.imgur.com/QhdxNsB.png" group-title="Sports",MMA-TV.com (1080p)
 https://streams2.sofast.tv/vglive-sk-462904/playlist.m3u8
 #EXTINF:-1 tvg-id="OkkoPrajmSport.ru@SD" tvg-country="RU" tvg-name="Okko Prajm Sport" tvg-logo="https://i.imgur.com/kQq5DMU.png" group-title="Sports",Okko Prajm Sport (1080p)
@@ -121,8 +119,6 @@ http://kino-1.catcast.tv/content/38617/index.m3u8
 http://176.118.197.101/KinoTvHD/playlist.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@HD" tvg-country="RU" tvg-name="Kinopremyera" tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="Movies",Kinopremyera HD (1080p)
 https://fs.uplink.kz/kinopremiera_hd/mono.m3u8?token=onlinetv
-#EXTINF:-1 tvg-id="Kinouzhas.ru@SD" tvg-country="RU" tvg-name="Kinouzhas" tvg-logo="https://i.imgur.com/mAcAAQF.png" group-title="Movies",Kinouzhas (1080p)
-http://s1.merlive.am/Kinoujas/index.m3u8
 #EXTINF:-1 tvg-id="Muzhskoy.ru@HD" tvg-country="RU" tvg-name="Muzhskoy" tvg-logo="https://i.imgur.com/xyztpBf.png" group-title="Movies",Muzhskoy HD (1080p)
 https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
 #EXTINF:-1 tvg-id="NashKinopokaz.ru@HD" tvg-country="RU" tvg-name="Nash Kinopokaz" tvg-logo="https://i.imgur.com/iwTMl8O.png" group-title="Movies",Nash Kinopokaz HD (720p)
@@ -253,8 +249,6 @@ http://31.148.48.15/Nauka_2.0/index.m3u8
 https://rt-rtd.rttv.com/dvr/rtdoc/playlist.m3u8
 #EXTINF:-1 tvg-id="Smotrim100Fakty.ru@SD" tvg-country="RU" tvg-name="Smotrim 100% Fakty" tvg-logo="https://i.imgur.com/dB3cJzO.png" group-title="Documentary",Smotrim 100% Fakty (720p)
 https://stream.smotrim.ru/hls/fasttv06/playlist_3.m3u8
-#EXTINF:-1 tvg-id="TERRA.ru@SD" tvg-country="RU" tvg-name="TERRA" tvg-logo="https://i.imgur.com/ZxUjCpF.png" group-title="Documentary",TERRA (1080p)
-http://s1.merlive.am/TerraHD/index.m3u8
 #EXTINF:-1 tvg-id="TheExplorers.ru@SD" tvg-country="RU" tvg-name="The Explorers" tvg-logo="https://www.oreol.tv/img/news/Logo_The_Explorers_Bleu.png" group-title="Documentary",The Explorers (1080p)
 https://sofast-yupptv.vgcdn.net/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/4804aca3-dd54-43d1-8caa-0b836a76d9e9/manifest.m3u8
 #EXTINF:-1 tvg-id="vijuPlusPlanet.ru@HD" tvg-country="RU" tvg-name="viju+ Planet" tvg-logo="https://i.imgur.com/9Weqdsk.png" group-title="Documentary",viju+ Planet HD (1080p)
@@ -319,6 +313,8 @@ http://31.148.48.15/Zhivi/index.m3u8
 http://ott-cdn.ucom.am/s88/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenReceptyGurmana.ru@HD" tvg-country="RU" tvg-name="City Eden Recepty Gurmana" tvg-logo="https://i.imgur.com/wR0pvRc.png" group-title="Cooking",City Eden Recepty Gurmana
 https://cityeden.catcast.tv/content/47516/index.m3u8
+#EXTINF:-1 tvg-id="Telecafe.ru@SD" tvg-country="RU" tvg-name="Telecafe" tvg-logo="https://i.imgur.com/1H3h1HL.png" group-title="Cooking",Telecafe (Russia) (1080p)
+http://s1.merlive.am/telekafe/index.m3u8
 #EXTINF:-1 tvg-id="GlazamiTurista.ru@SD" tvg-country="RU" tvg-name="Glazami Turista" tvg-logo="https://i.imgur.com/GXJKWdy.png" group-title="Travel",Glazami Turista (576i)
 https://stream8.cinerama.uz/1423/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Moyastikhiya.ru@HD" tvg-country="RU" tvg-name="Moya stikhiya" tvg-logo="https://i.imgur.com/Sl8c9eB.png" group-title="Travel",Moya stikhiya HD (1080p)
@@ -471,8 +467,6 @@ https://tele2dvrnat01-02.cdnvideo.ru/stream/NAT_Prima/hls/index.m3u8
 http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
 #EXTINF:-1 tvg-id="Prodvizhenie.ru@SD" tvg-country="RU" tvg-name="Prodvizhenie" tvg-logo="https://i.imgur.com/KlsnfG9.png" group-title="General",Prodvizhenie (1080p)
 https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
-#EXTINF:-1 tvg-id="Radio1.ru@SD" tvg-country="RU" tvg-name="Radio 1" tvg-logo="https://radiopotok.ru/f/station/512/1812.png" group-title="General",Radio 1 (Russia) (720p)
-https://stream.radio1.ru/memfs/49dee7fe-77ba-4e6b-8cdc-fa840535b242.m3u8
 #EXTINF:-1 tvg-id="RadioRossii.ru@HD" tvg-country="RU" tvg-name="Radio Rossii" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Radio_Rossii_logo.svg/1920px-Radio_Rossii_logo.svg.png" group-title="General",Radio Rossii (720p)
 https://stream.smotrim.ru/hls2/radio_rus/playlist_4.m3u8
 #EXTINF:-1 tvg-id="RTD.ru" tvg-country="RU" tvg-name="RT Д Русский" tvg-logo="https://i.imgur.com/v5fpEBo.png" group-title="General",RT Д Русский Ⓖ
