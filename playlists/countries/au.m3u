@@ -33,12 +33,13 @@ https://movies.ctbperth.net.au/hls/stream.m3u8
 https://i.mjh.nz/.r/sbs-4syd.m3u8
 #EXTINF:-1 tvg-id="ABCTVPlus.au@Sydney" tvg-country="AU" tvg-name="ABC TV Plus" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/ABC_TV_Plus_logo_2021.svg/500px-ABC_TV_Plus_logo_2021.svg.png" group-title="Entertainment",ABC TV Plus (720p)
 https://c.mjh.nz/abc-tv-plus.m3u8
-#EXTINF:-1 tvg-id="10Shake.au" tvg-country="AU" tvg-name="10 Shake" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/10_Shake_logo_2020.svg/960px-10_Shake_logo_2020.svg.png" group-title="Kids",10 Shake
-https://i.mjh.nz/.r/10shake-nsw.m3u8
 #EXTINF:-1 tvg-id="ABCEntertains.au@Sydney" tvg-country="AU" tvg-name="ABC Entertains" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png" group-title="Kids",ABC Entertains (720p)
 https://c.mjh.nz/abc-me.m3u8
-#EXTINF:-1 tvg-id="ABCKids.au" tvg-country="AU" tvg-name="ABC Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Kids",ABC Kids
+#EXTINF:-1 tvg-id="ABCKids.au@Sydney" tvg-country="AU" tvg-name="ABC Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Kids",ABC Kids
 https://c.mjh.nz/abc-kids.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.au@SD" tvg-country="AU" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids" http-user-agent="otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56",Nickelodeon (Australia)
+#EXTVLCOPT:http-user-agent=otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56
+https://i.mjh.nz/.r/10shake-nsw.m3u8
 #EXTINF:-1 tvg-id="NickToons90s.au@AU" tvg-country="AU" tvg-name="NickToons 90s" tvg-logo="https://images.pluto.tv/channels/64805525536e0c0008a19ca8/colorLogoSVG.svg" group-title="Kids" http-user-agent="otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56",NickToons 90s
 #EXTVLCOPT:http-user-agent=otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56
 https://i.mjh.nz/.r/10-nicktoons-90s.m3u8
@@ -54,8 +55,6 @@ http://tv1.intv.mk:1935/live/intv/index.m3u8
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
 #EXTINF:-1 tvg-id="SBSFood.au" tvg-country="AU" tvg-name="SBS Food" tvg-logo="https://i.imgur.com/9A8BwQA.png" group-title="Cooking",SBS Food Ⓖ
 https://i.mjh.nz/.r/sbs-3syd.m3u8
-#EXTINF:-1 tvg-id="AusbizTV.au@SD" tvg-country="AU" tvg-name="Ausbiz TV" tvg-logo="https://i.imgur.com/8vGGdB0.png" group-title="Business",Ausbiz TV (720p)
-https://d9quh89lh7dtw.cloudfront.net/public-output/index.m3u8
 #EXTINF:-1 tvg-id="News24Weather.au@SD" tvg-country="AU" tvg-name="News24 Weather" tvg-logo="https://i.imgur.com/HkBec1e.png" group-title="Weather",News24 Weather
 https://skynewsau-live-premium.akamaized.net/hls/live/2105305/skynewsweather/live_540p.m3u8
 #EXTINF:-1 tvg-id="WeatherSpy.au@SD" tvg-country="AU" tvg-name="WeatherSpy" tvg-logo="https://i.imgur.com/GTxN2nH.png" group-title="Weather",WeatherSpy (Australia) (720p)

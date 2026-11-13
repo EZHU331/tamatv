@@ -77,8 +77,6 @@ http://138.121.15.230:9002/NAT-GEO/index.m3u8
 https://live-ilce.ovp-vivaro.digital/ovp-origin-abr/ngrp:6359ef999f3fb_all/playlist.m3u8
 #EXTINF:-1 tvg-id="JaliscoTV.mx@SD" tvg-country="MX" tvg-name="Jalisco TV" tvg-logo="https://i.imgur.com/N4meE8I.png" group-title="Education",Jalisco TV (720p)
 https://video0.rogohosting.com:19360/sisjalisciense/sisjalisciense.m3u8
-#EXTINF:-1 tvg-id="TeleUV.mx@SD" tvg-country="MX" tvg-name="Tele UV" tvg-logo="https://i.imgur.com/8MdUH69.jpeg" group-title="Education",Tele UV
-https://58fe359775f31.streamlock.net/tvuv/myStream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVBUAP.mx@SD" tvg-country="MX" tvg-name="TV BUAP" tvg-logo="https://i.imgur.com/hHrIn0r.png" group-title="Education",TV BUAP (1080p)
 https://tvenvivo.buap.mx/livestream/stream/index.m3u8
 #EXTINF:-1 tvg-id="TVCuatro44.mx@SD" tvg-country="MX" tvg-name="TV Cuatro 4.4" tvg-logo="https://i.imgur.com/Of044Jx.png" group-title="Education",TV Cuatro 4.4 (1080p)
@@ -151,8 +149,6 @@ http://38.44.109.41:8003/play/a033/index.m3u8
 https://s5.mexside.net:1936/lsac/lsac/playlist.m3u8
 #EXTINF:-1 tvg-id="B15Zacatecas.mx@SD" tvg-country="MX" tvg-name="B15 Zacatecas" tvg-logo="https://i.imgur.com/kaUhEQy.png" group-title="General",B15 Zacatecas (1080p)
 https://s5.mexside.net:1936/envio2/envio2/playlist.m3u8
-#EXTINF:-1 tvg-id="CaliforniaMediosTV.mx@SD" tvg-country="MX" tvg-name="California Medios TV" tvg-logo="https://i.imgur.com/IDvpRNI.png" group-title="General",California Medios TV (720p)
-https://s5.mexside.net:1936/medios/medios/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal5.mx@SD" tvg-country="MX" tvg-name="Canal 5" tvg-logo="https://i.imgur.com/uZdVSoW.png" group-title="General",Canal 5 (Mexico) (1080p)
 http://45.181.87.106/CANAL5HD/index.m3u8
 #EXTINF:-1 tvg-id="Canal5TVCozumel.mx@SD" tvg-country="MX" tvg-name="Canal 5 TV Cozumel" tvg-logo="https://i.imgur.com/0nzNMuP.jpeg" group-title="General",Canal 5 TV Cozumel (1080p)
@@ -235,6 +231,9 @@ https://servilive.com:3263/live/channel12live.m3u8
 https://stream.oursnetworktv.com/latin/encoder53/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleSaltillo.mx@SD" tvg-country="MX" tvg-name="Tele Saltillo" tvg-logo="https://i.imgur.com/PgBtvgO.png" group-title="General",Tele Saltillo
 https://servilive.com:3879/live/telesaltillolive.m3u8
+#EXTINF:-1 tvg-id="TeleYucatan.mx@SD" tvg-country="MX" tvg-name="Tele Yucatan" tvg-logo="https://i.imgur.com/XkpDSmO.png" group-title="General" http-referrer="https://www.teleyucatan.gob.mx/",Tele Yucatan (1080p)
+#EXTVLCOPT:http-referrer=https://www.teleyucatan.gob.mx/
+https://5ca3e84a76d30.streamlock.net/teleyucatan/videoteleyucatan/playlist.m3u8
 #EXTINF:-1 tvg-id="Telemax.mx@XEWHTDT" tvg-country="MX" tvg-name="Telemax" tvg-logo="https://i.imgur.com/klhTyDU.png" group-title="General",Telemax (Mexico) XEWH-TDT (1080p)
 https://s5.mexside.net:1936/telemax/telemax/playlist.m3u8
 #EXTINF:-1 tvg-id="Teleritmo.mx@SD" tvg-country="MX" tvg-name="Teleritmo" tvg-logo="https://i.imgur.com/9s380Bz.png" group-title="General",Teleritmo (720p)
@@ -275,6 +274,8 @@ https://60417ddeaf0d9.streamlock.net/montemorelos/videomontemorelos/playlist.m3u
 http://138.121.15.230:9002/UNIVISION/index.m3u8
 #EXTINF:-1 tvg-id="XHBZCTDT.mx@SD" tvg-country="MX" tvg-name="XHBZC-TDT" tvg-logo="https://i.imgur.com/R3icGuG.png" group-title="General",XHBZC-TDT (1080p)
 https://s5.mexside.net:1936/xhbzc81/xhbzc81/playlist.m3u8
+#EXTINF:-1 tvg-id="XHFGLTDT.mx@SD" tvg-country="MX" tvg-name="XHFGL-TDT" tvg-logo="https://i.imgur.com/9ZXCQvy.png" group-title="General",XHFGL-TDT (1080p)
+https://stream.ontvmx.com/ontv/Wn3jgo4UYNSmwRDIev/playlist.m3u8
 #EXTINF:-1 tvg-id="XHIJTDT.mx@SD" tvg-country="MX" tvg-name="XHIJ-TDT" tvg-logo="https://i.imgur.com/oRudPXX.png" group-title="General",XHIJ-TDT (720p)
 https://5e50264bd6766.streamlock.net/canal44/videocanal44/playlist.m3u8
 #EXTINF:-1 tvg-id="XHTTGTDT.mx@SD" tvg-country="MX" tvg-name="XHTTG-TDT" tvg-logo="https://i.imgur.com/dw6puHC.png" group-title="General",XHTTG-TDT (720p)
