@@ -47,6 +47,8 @@ http://stream.mcquack.net/258/index.m3u8
 http://stream.mcquack.net/322/index.m3u8
 #EXTINF:-1 tvg-id="FilmUALive.ua@SD" tvg-country="UA" tvg-name="FilmUA Live" tvg-logo="https://i.imgur.com/kizTBgS.png" group-title="Movies",FilmUA Live
 https://dash2.antik.sk/live/test_film_life_atktv/playlist.m3u8
+#EXTINF:-1 tvg-id="FilmUADrama.ua@SD" tvg-country="UA" tvg-name="FilmUADrama" tvg-logo="https://i.imgur.com/Hnwsh5d.png" group-title="Movies",FilmUADrama
+https://dash2.antik.sk/live/test_film_drama_atktv/playlist.m3u8
 #EXTINF:-1 tvg-id="ViasatKino.ua@Balkan" tvg-country="UA" tvg-name="Viasat Kino" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2b/Viasat_Kino_Logo_2025.svg" group-title="Movies",Viasat Kino Balkan (1080p)
 http://176.61.157.250/TV1000/index.m3u8
 #EXTINF:-1 tvg-id="4everDrama.ua@SD" tvg-country="UA" tvg-name="4ever Drama" tvg-logo="https://i.imgur.com/CD3vZU6.png" group-title="Series",4ever Drama (1080p)
@@ -152,6 +154,8 @@ http://stream.mcquack.net/288/index.m3u8
 http://cdnua05.hls.tv/624/hls/f62d71219200da4130d13b21d23fb23c/4896/stream.m3u8
 #EXTINF:-1 tvg-id="InterPlus.ua@SD" tvg-country="UA" tvg-name="Inter+" tvg-logo="https://i.imgur.com/Y392Hh4.png" group-title="General",Inter+ (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/inter-abr/playlist.m3u8
+#EXTINF:-1 tvg-id="IRT.ua@SD" tvg-country="UA" tvg-name="IRT" tvg-logo="https://i.imgur.com/tDTUIRm.png" group-title="General",IRT (720p)
+https://stream.irt.ua/memfs/8fac7cbb-3356-4a03-bb77-4439b727ebd2.m3u8
 #EXTINF:-1 tvg-id="Islandia.ua@SD" tvg-country="UA" tvg-name="Islandia" tvg-logo="https://i.imgur.com/9ql4jXv.png" group-title="General",Islandia (720p)
 https://cdn15.live-tv.cloud/ua_infinitas_tv/islandiya-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="ITV.ua@SD" tvg-country="UA" tvg-name="ITV" tvg-logo="https://i.imgur.com/NZdT9yJ.png" group-title="General",ITV (720p)

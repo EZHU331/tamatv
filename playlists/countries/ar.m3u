@@ -52,8 +52,6 @@ http://38.252.238.18:8000/play/a01d/index.m3u8
 https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal10MardelPlata.ar@SD" tvg-country="AR" tvg-name="Canal 10 Mar del Plata" tvg-logo="https://i.imgur.com/bq29sfG.png" group-title="Entertainment",Canal 10 Mar del Plata
 https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true
-#EXTINF:-1 tvg-id="CanalPulpoTV.ar@SD" tvg-country="AR" tvg-name="Canal Pulpo TV" tvg-logo="https://new.opencaster.com/uploads/logos/logo_306_1756336707.png" group-title="Entertainment",Canal Pulpo TV
-https://vs20.live.opencaster.com/canalpulpotv_bdeee6e2/index.m3u8
 #EXTINF:-1 tvg-id="CarasTV.ar@SD" tvg-country="AR" tvg-name="Caras TV" tvg-logo="https://i.imgur.com/7dl4yQY.jpeg" group-title="Entertainment",Caras TV (1080p)
 https://unlimited1-us.dps.live/carastv/carastv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MetroTV.ar@SD" tvg-country="AR" tvg-name="Metro TV" tvg-logo="https://i.imgur.com/7f7M7zl.png" group-title="Entertainment",Metro TV (Argentina) (720p)
@@ -96,6 +94,8 @@ https://mdstrm.com/live-stream-playlist/68b74fd1d6512526f1f7c75a.m3u8
 https://vivo.solumedia.com:19360/masfm/masfm.m3u8
 #EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-country="AR" tvg-name="MusicTop" tvg-logo="https://cdn.mitvstatic.com/channels/ar_musictop_m.png" group-title="Music",MusicTop (1080p)
 http://190.128.214.97:64333/play/a06o/index.m3u8
+#EXTINF:-1 tvg-id="QuieroMusicaenmiIdioma.ar@SD" tvg-country="AR" tvg-name="Quiero Musica en mi Idioma" tvg-logo="https://i.imgur.com/RO9Dz3X.png" group-title="Music",Quiero Musica en mi Idioma (1080p)
+http://158.172.155.130:8000/play/a00a/index.m3u8
 #EXTINF:-1 tvg-id="RadioConexionWebTV.ar@SD" tvg-country="AR" tvg-name="Radio Conexion Web TV" tvg-logo="https://i.imgur.com/pXS38zo.png" group-title="Music",Radio Conexion Web TV (720p)
 https://tuvideoonline.com.ar:3391/live/radioconexionlive.m3u8
 #EXTINF:-1 tvg-id="RadioRealpolitik.ar@SD" tvg-country="AR" tvg-name="Radio Realpolitik" tvg-logo="https://i.imgur.com/L9KCdTX.png" group-title="Music",Radio Realpolitik (720p)
@@ -213,8 +213,6 @@ https://online.coopmorteros.coop/canal50/vivo.m3u8
 https://streamconex.com:19360/mardelplata/mardelplata.m3u8
 #EXTINF:-1 tvg-id="Canal79VillaMaza.ar@SD" tvg-country="AR" tvg-name="Canal 79 Villa Maza" tvg-logo="https://i.imgur.com/HYuSqJy.png" group-title="General",Canal 79 Villa Maza
 https://streamconex.com:19360/villamaza/villamaza.m3u8
-#EXTINF:-1 tvg-id="Canal99Miramar.ar@SD" tvg-country="AR" tvg-name="Canal 99 Miramar" tvg-logo="https://i.imgur.com/PblsZxz.jpeg" group-title="General",Canal 99 Miramar
-https://vivo.solumedia.com:19360/cardinal/cardinal.m3u8
 #EXTINF:-1 tvg-id="CiudadTVResistencia.ar@SD" tvg-country="AR" tvg-name="Ciudad TV Resistencia" tvg-logo="https://i.imgur.com/oL8SMTL.png" group-title="General",Ciudad TV Resistencia (720p)
 https://617c5175c970b.streamlock.net:4444/chacodxdtv/livenew/playlist.m3u8
 #EXTINF:-1 tvg-id="CorrientesTV.ar@SD" tvg-country="AR" tvg-name="Corrientes TV" tvg-logo="https://i.imgur.com/7PBkvRp.png" group-title="General",Corrientes TV
@@ -246,8 +244,6 @@ https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8
 http://45.226.205.96:48000/play/a09p/index.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-country="AR" tvg-name="NG Federal" tvg-logo="https://i.imgur.com/lJCIqYn.png" group-title="General",NG Federal (720p)
 http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
-#EXTINF:-1 tvg-id="NorteTV.ar@SD" tvg-country="AR" tvg-name="Norte TV" tvg-logo="https://i.imgur.com/jTX2vp0.png" group-title="General",Norte TV (720p)
-https://ntvcanal7.com.ar:81/dash/stream.mpd
 #EXTINF:-1 tvg-id="PowerHD.ar@SD" tvg-country="AR" tvg-name="PowerHD" tvg-logo="https://i.imgur.com/15gMDG0.png" group-title="General",PowerHD (720p)
 https://live2.tensila.com/1-1-1.power-tv/hls/master.m3u8
 #EXTINF:-1 tvg-id="RadioTVNeuquen.ar@SD" tvg-country="AR" tvg-name="Radio TV Neuquen" tvg-logo="https://i.imgur.com/HXBLozl.png" group-title="General",Radio TV Neuquen (720p)
@@ -284,8 +280,6 @@ https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlis
 https://stream-gtlc.telecentro.net.ar/hls/telemaxhls/main.m3u8
 #EXTINF:-1 tvg-id="Telesol.ar@SD" tvg-country="AR" tvg-name="Telesol" tvg-logo="https://i.imgur.com/79sTxtP.png" group-title="General",Telesol (1080p)
 https://cdn1.tvlin.net/open/telesol/playlist.m3u8
-#EXTINF:-1 tvg-id="TIVTelevision.ar@SD" tvg-country="AR" tvg-name="TIV Television" tvg-logo="https://i.imgur.com/gsgXGEj.png" group-title="General",TIV Television (720p)
-https://videohd.live:19360/8008/8008.m3u8
 #EXTINF:-1 tvg-id="TVCanal72.ar@SD" tvg-country="AR" tvg-name="TV Canal 72" tvg-logo="https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png" group-title="General",TV Canal 72
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVPublicaFueguina.ar@SD" tvg-country="AR" tvg-name="TV Publica Fueguina" tvg-logo="https://i.imgur.com/4dUvFqa.png" group-title="General",TV Publica Fueguina (1080p)
