@@ -23,6 +23,8 @@ https://api-tv.ipnet.ua/api/v1/manifest/1293296300.m3u8
 #EXTINF:-1 tvg-id="ObozrevatelTV.ua@SD" tvg-country="UA" tvg-name="Obozrevatel TV" tvg-logo="https://i.imgur.com/ubldSBv.png" group-title="News" http-user-agent="curl/8.16.0",Obozrevatel TV
 #EXTVLCOPT:http-user-agent=curl/8.16.0
 https://ext.cdn.nashnet.tv/228.0.0.148/index.m3u8
+#EXTINF:-1 tvg-id="PTV.ua@SD" tvg-country="UA" tvg-name="PTV" tvg-logo="https://i.imgur.com/WDHoSVz.png" group-title="News",PTV (Ukraine) (720p)
+https://cdn15.live-tv.cloud/ua_infinitas_tv/hrpl-abr/playlist.m3u8
 #EXTINF:-1 tvg-id="Reporter.ua@SD" tvg-country="UA" tvg-name="Reporter" tvg-logo="https://i.imgur.com/LyA3kBR.png" group-title="News",Reporter (720p)
 http://cdn1.live-tv.od.ua:8081/31chod/31chod-abr/31chod/31chod/playlist.m3u8
 #EXTINF:-1 tvg-id="SK1.ua@SD" tvg-country="UA" tvg-name="SK 1" tvg-logo="https://i.imgur.com/XiXwr5h.png" group-title="News",SK 1 (720p)
@@ -144,8 +146,6 @@ https://ext.cdn.nashnet.tv/228.0.0.138/index.m3u8
 https://11tv-dp.cdn-04.cosmonova.net.ua/hls/11tv-dp_ua_hi/index.m3u8
 #EXTINF:-1 tvg-id="Dacha.ua@SD" tvg-country="UA" tvg-name="Dacha" tvg-logo="https://i.imgur.com/xq6p9BZ.png" group-title="General",Dacha (1080p)
 https://dash2.antik.sk/live/test_dacha_tv_atktv/playlist.m3u8
-#EXTINF:-1 tvg-id="DniproTV.ua@SD" tvg-country="UA" tvg-name="Dnipro TV" tvg-logo="https://i.imgur.com/mbPTVh1.png" group-title="General",Dnipro TV (1080p)
-http://vcdn1.produck.company:1935/out/dtv/playlist.m3u8
 #EXTINF:-1 tvg-id="Fashion.ua@SD" tvg-country="UA" tvg-name="Fashion" tvg-logo="https://ukrtvr.org/images/%D1%82%D0%B5%D0%BB%D0%B5%D0%B2%D0%B5%D0%B6%D1%96/%D1%81%D1%82%D0%B0%D1%80%D1%96_%D0%BB%D0%BE%D0%B3%D0%BE/FASHION%20TV%20UKRAINE/FASHION%20TV%20UKRAINE.png" group-title="General",Fashion (1080p)
 http://stream.mcquack.net/288/index.m3u8
 #EXTINF:-1 tvg-id="ICTVSerialy.ua" tvg-country="UA" tvg-name="ICTV Serialy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/7/7a/ICTV_Serialy_%282024%29.png" group-title="General",ICTV Serialy
@@ -190,6 +190,8 @@ http://stream.mcquack.net/338/index.m3u8
 #EXTINF:-1 tvg-id="TRKIldana.ua@SD" tvg-country="UA" tvg-name="TRK Ildana" tvg-logo="https://i.imgur.com/cN7VRYv.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0",TRK Ildana (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:97.0) Gecko/20100101 Firefox/97.0
 https://pravdatytkyiv.cdn-01.cosmonova.net.ua/hls/pradva-tut-ildana_ua_hi/index.m3u8
+#EXTINF:-1 tvg-id="TV7Plus.ua" tvg-country="UA" tvg-name="TV7+" tvg-logo="https://i.imgur.com/PcTDZ8e.png" group-title="General",TV7+
+https://tv7plus.com/hls/tv7_site.m3u8
 #EXTINF:-1 tvg-id="TV4.ua@SD" tvg-country="UA" tvg-name="TV-4" tvg-logo="https://i.imgur.com/gOtk81v.png" group-title="General",TV-4 (720p)
 https://vs2126.vcdn.biz/c27a63fda28be51f87a7d0046de1f4b8_megogo/live/hls/b/700_2490/u_sid/0/o/71044361/rsid/393818da-edd4-44bd-b2db-4ebf226abd3d/u_uid/0/u_vod/1/u_device/cms_webandroid/u_devicekey/_site_mobile/lip/5.63.189.224*asn/u_did/web_0voqy4czLIxD4iwJZ0z0GctEMa9GIH7A/type.live/playlist.m3u8
 #EXTINF:-1 tvg-id="TVA.ua" tvg-country="UA" tvg-name="TVA" tvg-logo="https://i.imgur.com/PtTQ5lv.png" group-title="General",TVA

@@ -1,8 +1,10 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz"
 #EXTINF:-1 tvg-id="3ABNKids.us@SD" tvg-country="US" tvg-name="3ABN Kids" tvg-logo="https://i.imgur.com/z3npqO1.png" group-title="Kids",3ABN Kids (720p)
 https://3abn.bozztv.com/3abn2/Kids_live/smil:Kids_live.smil/playlist.m3u8
-#EXTINF:-1 tvg-id="4FunKids.pl@SD" tvg-country="PL" tvg-name="4 Fun Kids" tvg-logo="https://i.imgur.com/2JO5Y8c.png" group-title="Kids",4 Fun Kids (576i)
+#EXTINF:-1 tvg-id="4FunKids.pl" tvg-country="PL" tvg-name="4 Fun Kids (576i)" tvg-logo="https://i.imgur.com/2JO5Y8c.png" group-title="Kids",4 Fun Kids (576i)
 https://stream.4fun.tv:8889/hls/4fk.m3u8
+#EXTINF:-1 tvg-id="10Shake.au" tvg-country="AU" tvg-name="10 Shake" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/c/cc/10_Shake_logo_2020.svg/960px-10_Shake_logo_2020.svg.png" group-title="Kids",10 Shake
+https://i.mjh.nz/.r/10shake-nsw.m3u8
 #EXTINF:-1 tvg-id="NewAnimeChannel.cn" tvg-country="CN" tvg-name="新动漫" tvg-logo="https://i.imgur.com/QEGfqBe.png" group-title="Kids",[BD]三新动漫
 https://epg.pw/stream/3db55b1054c684fb8a548a10a0d6cb7855c453b8786c8716dbb2c27c917a8c6d.ctv
 #EXTINF:-1 tvg-id="[BD]动漫秀场" tvg-name="[BD]动漫秀场" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E5%8A%A8%E6%BC%AB%E7%A7%80%E5%9C%BA.png" group-title="Kids",[BD]动漫秀场
@@ -11,12 +13,14 @@ https://epg.pw/stream/063f86620cbc5947dba09359a7e98b196ab92dfdcbb2c725b247793d4e
 https://stream1.freetv.fun/9f3e33c6a37116c66b6d9630d2811d1cd233a02c2aedd96130ceb94323d70411.ctv
 #EXTINF:-1 tvg-id="[BD]浙江少儿" tvg-name="[BD]浙江少儿" tvg-logo="https://live.fanmingming.com/tv/%5BBD%5D%E6%B5%99%E6%B1%9F%E5%B0%91%E5%84%BF.png" group-title="Kids",[BD]浙江少儿
 https://epg.pw/stream/61763493836696939da31f5856221e08038a6e814dc1fe983cd0d335b284104e.m3u8
-#EXTINF:-1 tvg-id="[VGA]浙江少儿" tvg-name="[VGA]浙江少儿" tvg-logo="https://live.fanmingming.com/tv/%5BVGA%5D%E6%B5%99%E6%B1%9F%E5%B0%91%E5%84%BF.png" group-title="Kids",[VGA]浙江少儿
+#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://epg.pw/media/images/channel/2022/05/30/large/20220530221145480622_53.jpg" group-title="Kids",[VGA]浙江少儿
 https://stream1.freetv.fun/50c4a249494de61824ce97ab733b7617ab321cbe8dcb427681e0a93701dbf02a.m3u8
 #EXTINF:-1 tvg-id="ABCEntertains.au@Sydney" tvg-country="AU" tvg-name="ABC Entertains" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/35/ABC_Entertains_logo.svg/960px-ABC_Entertains_logo.svg.png" group-title="Kids",ABC Entertains (720p)
 https://c.mjh.nz/abc-me.m3u8
-#EXTINF:-1 tvg-id="ABCKids.au@Sydney" tvg-country="AU" tvg-name="ABC Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Kids",ABC Kids
+#EXTINF:-1 tvg-id="ABCKids.au" tvg-country="AU" tvg-name="ABC Kids" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/2/29/ABC_Kids_%282020%29.svg/revision/latest/scale-to-width-down/512" group-title="Kids",ABC Kids
 https://c.mjh.nz/abc-kids.m3u8
+#EXTINF:-1 tvg-id="AfarinBaxcha.iq@SD" tvg-country="IQ" tvg-name="Afarin Baxcha" tvg-logo="https://i.postimg.cc/4xRkBDRx/Afarin-Baxcha-200.png" group-title="Kids",Afarin Baxcha (1080p)
+https://5dcabf026b188.streamlock.net/afarinTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="AfarinTV.iq@SD" tvg-country="IQ" tvg-name="Afarin TV" tvg-logo="https://i.imgur.com/6MnXD7g.png" group-title="Kids",Afarin TV (720p)
 https://65f16f0fdfc51.streamlock.net/afarinTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="AkiliKids.ke@SD" tvg-country="KE" tvg-name="Akili Kids!" tvg-logo="https://i.imgur.com/xFm2co6.png" group-title="Kids",Akili Kids! (720p)
@@ -45,6 +49,10 @@ https://stream.paroledivita.org/bejoy.m3u8
 https://srtblive.streamakaci.tv/ortb/ortb2-multi/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="Boing.it@HD" tvg-country="IT" tvg-name="Boing" tvg-logo="https://i.imgur.com/rabKj9i.png" group-title="Kids",Boing (Italy) HD (1080p)
 https://boing.akamaized.net/6380392800112/eu-central-1/6284318116001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0Ijoib3dwbnN1LmVncmVzcy5haGc3NmwiLCJhY2NvdW50X2lkIjoiNjI4NDMxODExNjAwMSIsImVobiI6ImJvaW5nLmFrYW1haXplZC5uZXQiLCJpc3MiOiJibGl2ZS1wbGF5YmFjay1zb3VyY2UtYXBpIiwic3ViIjoicGF0aG1hcHRva2VuIiwiYXVkIjpbIjYyODQzMTgxMTYwMDEiXSwianRpIjoiNjM4MDM5MjgwMDExMiJ9.0RWQ0yZrauU0cHSnbpBYhgyRPeq1Lyw6nOn_fo7_cg0/playlist-hls.m3u8
+#EXTINF:-1 tvg-id="Boomerang.fr@HD" tvg-country="FR" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang (France) HD (720p)
+http://41.205.93.154/BOOMERANG/index.m3u8
+#EXTINF:-1 tvg-id="Boomerang.it@SD" tvg-country="IT" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang (Italy)
+http://sultanios.alwaysdata.net/vavo.php?ID=2705627802
 #EXTINF:-1 tvg-id="Boomerang.th@SD" tvg-country="TH" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang (Thailand)
 https://live-us1.thaimomo.com/live-as/chboomerang-2/chunklist_w135479847.m3u8
 #EXTINF:-1 tvg-id="Boomerang.us@SD" tvg-country="US" tvg-name="Boomerang" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Boomerang_2014_logo.svg/960px-Boomerang_2014_logo.svg.png" group-title="Kids",Boomerang (United States) (720p)
@@ -56,7 +64,7 @@ https://streams2.sofast.tv/v1/master/611d79b11b77e2f571934fd80ca1413453772ac7/04
 #EXTINF:-1 tvg-id="BRTV卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://live.fanmingming.cn/tv/卡酷少儿.png" group-title="Kids",BRTV卡酷少儿
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226677/1.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-6164a963766ab4f9f57e81b1" tvg-country="US" tvg-name="Camp Spoopy" tvg-logo="https://img2.static-ottera.com/prod/tg/linear_channel/logo/640x360/camp-spoopy-2021_1920-x-1080_option-5.jpg" group-title="Kids",Camp Spoopy
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6164a963766ab4f9f57e81b1/?X-Plex-Token=eXyLHAkGRXLbN6ks_hsf
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-6164a963766ab4f9f57e81b1/?X-Plex-Token=DxoTLJvQAiQXEG-h_bLy
 #EXTINF:-1 tvg-id="CanalInfantil.us@SD" tvg-country="US" tvg-name="Canal Infantil" tvg-logo="https://i.imgur.com/WGk7MJ3.png" group-title="Kids",Canal Infantil (1080p)
 http://179.1.196.222:9000/play/a02y/index.m3u8
 #EXTINF:-1 tvg-id="Carousel.ru@SD" tvg-country="RU" tvg-name="Carousel" tvg-logo="https://i.imgur.com/4wmnx1W.png" group-title="Kids",Carousel (1080p)
@@ -67,8 +75,6 @@ http://88.218.242.237:8001/Cartoon_Classics
 https://vodzong.mjunoon.tv:8087/streamtest/cartoon-network-87/live/87H/chunks.m3u8
 #EXTINF:-1 tvg-id="CartoonNetwork.tr@SD" tvg-country="TR" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network (Turkiye)
 http://176.65.153.40:6002/play/a013/index.m3u8
-#EXTINF:-1 tvg-id="CartoonNetwork.us@West" tvg-country="US" tvg-name="Cartoon Network" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network (United States) West (1080p)
-http://212.5.144.156:8080/cartoon/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkArabic.ae" tvg-country="AE" tvg-name="Cartoon Network Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Cartoon_Network_Arabic_logo.png/960px-Cartoon_Network_Arabic_logo.png" group-title="Kids",Cartoon Network Arabic
 https://shls-cartoon-net-prod-dub.shahid.net/out/v1/dc4aa87372374325a66be458f29eab0f/index.m3u8
 #EXTINF:-1 tvg-id="CartoonNetworkAsia.sg@Thailand" tvg-country="SG" tvg-name="Cartoon Network Asia" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Cartoon_Network_2010_logo.svg/960px-Cartoon_Network_2010_logo.svg.png" group-title="Kids",Cartoon Network Asia Thailand
@@ -111,7 +117,7 @@ http://87.120.179.187:8000/play/a010
 http://88.212.15.50/live/test_disney/playlist.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.de@HD" tvg-country="DE" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Germany) HD (720p)
 http://109.85.181.77:9981/stream/channelid/652495718?profile=pass
-#EXTINF:-1 tvg-id="DisneyChannel.pl@HD" tvg-country="PL" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Poland) HD (1080p)
+#EXTINF:-1 tvg-id="DisneyChannel.pl" tvg-country="PL" tvg-name="Disney Channel (Poland) HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Poland) HD (1080p)
 http://185.227.34.179:8080/disney-channel-hd/index.m3u8
 #EXTINF:-1 tvg-id="DisneyChannel.pt@SD" tvg-country="PT" tvg-name="Disney Channel" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/3/3d/2022_Disney_Channel_logo.svg" group-title="Kids",Disney Channel (Portugal) (1080p)
 http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
@@ -140,9 +146,9 @@ https://livetv.shamon-cable.net:8443/Duronto/index.m3u8
 #EXTINF:-1 tvg-id="EBSKids.kr" tvg-country="KR" tvg-name="EBS Kids" tvg-logo="https://i.imgur.com/62oo8Bx.png" group-title="Kids",EBS Kids
 https://ebsonair.ebs.co.kr/ebsufamilypc/familypc1m/playlist.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-618ab1f175913b296fbe56db" tvg-country="US" tvg-name="Eddie's Wonderland" tvg-logo="https://img1.static-ottera.com/prod/tg/linear_channel/logo/640x360/eddies-wonderland-2021_d_0.jpg" group-title="Kids",Eddie's Wonderland
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-618ab1f175913b296fbe56db/?X-Plex-Token=eXyLHAkGRXLbN6ks_hsf
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-618ab1f175913b296fbe56db/?X-Plex-Token=DxoTLJvQAiQXEG-h_bLy
 #EXTINF:-1 tvg-id="ElChavoTV.mx@HD" tvg-country="MX" tvg-name="El Chavo TV" tvg-logo="https://gia.tv/streams/pptv/211465.png" group-title="Kids",El Chavo TV (720p)
-https://live20.bozztv.com/giatvplayout7/giatv-211465/playlist.m3u8
+https://183.giatvcdn.com/giatvplayout7/giatv-211465/playlist.m3u8
 #EXTINF:-1 tvg-id="EpicKids.in@Digital" tvg-country="IN" tvg-name="Epic Kids" tvg-logo="https://dtil.tmsimg.com/assets/GNLZZGG0032BVSR.png?lock=720x540" group-title="Kids",Epic Kids Digital (1080p)
 https://cc-t8lqe1o99pszu.akamaized.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-t8lqe1o99pszu/playlist.m3u8
 #EXTINF:-1 tvg-id="ERTKids.gr" tvg-country="GR" tvg-name="ERT Kids" tvg-logo="https://i.imgur.com/XkSR66q.png" group-title="Kids",ERT Kids Ⓖ
@@ -156,7 +162,7 @@ https://627bb251f23c7.streamlock.net:444/ExtremaKids/ExtremaKids/playlist.m3u8
 #EXTINF:-1 tvg-id="FMHKids.us@SD" tvg-country="US" tvg-name="FMH Kids" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2024/12/31/22/1735657792230/b870c45f862d_480_270.png" group-title="Kids",FMH Kids (720p)
 http://38.87.224.19:2220/play/a03u/index.m3u8
 #EXTINF:-1 tvg-id="France4.fr@SD" tvg-country="FR" tvg-name="France 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/France_4_2018.svg/960px-France_4_2018.svg.png" group-title="Kids",France 4 (1080p)
-http://149.62.177.107:9999/France_4/index.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_4/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Frisbee.it" tvg-country="IT" tvg-name="Frisbee" tvg-logo="https://i.imgur.com/U1MF1vR.png" group-title="Kids",Frisbee
 https://d6m7lubks416z.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-zmbstsedxme9s/Frisbee_IT.m3u8
 #EXTINF:-1 tvg-id="FunBox.cl@SD" tvg-country="CL" tvg-name="FunBox" tvg-logo="https://i.imgur.com/9MXM6jD.png" group-title="Kids",FunBox
@@ -183,7 +189,7 @@ https://northtelecom.b-cdn.net/hodhodtv.m3u8
 http://stream.mcquack.net/44/index.m3u8
 #EXTINF:-1 tvg-id="爱动漫" tvg-name="爱动漫" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/IHOT爱动漫.png" group-title="Kids",iHOT 爱动漫
 http://111.22.153.159:35455/itv/2000000004000000059.m3u8?cdn=hnbblive
-#EXTINF:-1 tvg-id="IRIBOmid.ir@SD" tvg-country="IR" tvg-name="IRIB Omid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png" group-title="Kids",IRIB Omid
+#EXTINF:-1 tvg-id="IRIBOmid.ir" tvg-country="IR" tvg-name="IRIB Omid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png" group-title="Kids",IRIB Omid
 https://ncdn.telewebion.ir/omid/live/playlist.m3u8
 #EXTINF:-1 tvg-id="PooyaTV.ir" tvg-country="IR" tvg-name="IRIB Pooya & Nahal" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/5/5a/POOYA_tv_2.png" group-title="Kids",IRIB Pooya & Nahal
 https://ncdn.telewebion.ir/pooya/live/playlist.m3u8
@@ -255,23 +261,20 @@ https://cdn10jtedge.indihometv.com/atm/DASH/mykids/manifest.mpd
 https://reflect-npa.cablecast.tv/live-9/live/live.m3u8
 #EXTINF:-1 tvg-id="NickJr.it@SD" tvg-country="IT" tvg-name="Nick Jr." tvg-logo="https://i.imgur.com/6p3eFgf.png" group-title="Kids",Nick Jr. (Italy) (720p)
 http://102.129.186.182:81/nick/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.pl@SD" tvg-country="PL" tvg-name="Nick Jr." tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Kids",Nick Jr. (Poland) (576i)
+#EXTINF:-1 tvg-id="NickJr.pl" tvg-country="PL" tvg-name="Nick Jr. (Poland) (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png" group-title="Kids",Nick Jr. (Poland) (576i)
 http://92.114.85.87:8013/play/a004/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.us@East" tvg-country="US" tvg-name="Nick Jr." tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Kids",Nick Jr. (United States) (720p)
-http://212.5.144.156:8080/nickjr/index.m3u8
 #EXTINF:-1 tvg-id="NickJrLatinAmerica.us@Panregional" tvg-country="US" tvg-name="Nick Jr. Latin America" tvg-logo="https://i.imgur.com/KT4tdQs.png" group-title="Kids",Nick Jr. Latin America (1080p)
 https://streaming.onnethn.com/NICK_JR/playlist.m3u8
 #EXTINF:-1 tvg-id="NickSchweiz.ch@SD" tvg-country="CH" tvg-name="Nick Schweiz" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/NickSchweiz.png/960px-NickSchweiz.png" group-title="Kids",Nick Schweiz
 https://hostemea1236.s.gy/hostemea/nickschweiz/28/25/65/74/gg/locos.m3u8
 #EXTINF:-1 tvg-id="NickComedyCentralPlus1.de@SD" tvg-country="DE" tvg-name="Nick/Comedy Central +1" tvg-logo="https://i.imgur.com/lf34V3Y.png" group-title="Kids",Nick/Comedy Central +1
 http://90.183.52.46:4000/play/a046/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.au@SD" tvg-country="AU" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids" http-user-agent="otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56",Nickelodeon (Australia)
-#EXTVLCOPT:http-user-agent=otg/1.5.1 (AppleTv Apple TV 4; tvOS16.0; appletv.client) libcurl/7.58.0 OpenSSL/1.0.2o zlib/1.2.11 clib/1.8.56
-https://i.mjh.nz/.r/10shake-nsw.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.bg@SD" tvg-country="BG" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (Bulgaria)
 http://87.120.179.187:8000/play/a00x
 #EXTINF:-1 tvg-id="Nickelodeon.hr@SD" tvg-country="HR" tvg-name="Nickelodeon" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Nickelodeon_2009_logo.svg/960px-Nickelodeon_2009_logo.svg.png" group-title="Kids",Nickelodeon (Croatia) (720p)
 http://5.175.174.49:1234/stream/maxtvhr/nickelodeonhr/master.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.fr@SD" tvg-country="FR" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.de@SD" tvg-country="DE" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (Germany)
 https://ma.anixa.tv/clips/stream/nickelodeon/playlist.php
 #EXTINF:-1 tvg-id="Nickelodeon.nl@SD" tvg-country="NL" tvg-name="Nickelodeon" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon (Netherlands)
@@ -280,8 +283,12 @@ http://185.77.12.179:9981/stream/channelid/788918401?profile=pass
 http://92.114.85.87:8013/play/a005/index.m3u8
 #EXTINF:-1 tvg-id="Nickelodeon.ro@SD" tvg-country="RO" tvg-name="Nickelodeon" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/60/Nickelodeon_Splat_2023.png/revision/latest?cb=20241009234318" group-title="Kids",Nickelodeon (Romania)
 http://178.76.68.60:7442/64/mpegts
+#EXTINF:-1 tvg-id="NickelodeonArabia.ae@SD" tvg-country="AE" tvg-name="Nickelodeon Arabia" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon Arabia (1080i)
+http://85.237.89.159:3342/ar-s/Nickelodeon/index.m3u8
 #EXTINF:-1 tvg-id="NickelodeonCIS.kz@SD" tvg-country="KZ" tvg-name="Nickelodeon CIS" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon CIS (1080p)
 https://stream8.cinerama.uz/1500/playlist.m3u8
+#EXTINF:-1 tvg-id="NickelodeonJunior.fr@SD" tvg-country="FR" tvg-name="Nickelodeon Junior" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Nickelodeon_Junior.png/960px-Nickelodeon_Junior.png" group-title="Kids",Nickelodeon Junior (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nickelodeon_junior/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="NickelodeonLatinAmerica.us@Panregional" tvg-country="US" tvg-name="Nickelodeon Latin America" tvg-logo="https://i.imgur.com/E84jnP8.png" group-title="Kids",Nickelodeon Latin America (1080p)
 http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 tvg-id="NickOnline.br@HD" tvg-country="BR" tvg-name="NickOnline" tvg-logo="https://x1colegal.com/logo.png" group-title="Kids",NickOnline HD (720p)
@@ -291,19 +298,19 @@ https://x1colegal.com/hls/stream.m3u8
 https://i.mjh.nz/.r/10-nicktoons-90s.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.cz@SD" tvg-country="CZ" tvg-name="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png" group-title="Kids",Nicktoons (Czech Republic)
 http://88.212.15.50/live/test_nicktoons/playlist.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.pl@SD" tvg-country="PL" tvg-name="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Nicktoons_Logo_2023.svg" group-title="Kids",Nicktoons (Poland) (576i)
+#EXTINF:-1 tvg-id="Nicktoons.fr@SD" tvg-country="FR" tvg-name="Nicktoons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Nicktoons_Logo_2023.svg" group-title="Kids",Nicktoons (France) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/nicktoons/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.pl" tvg-country="PL" tvg-name="Nicktoons (Poland) (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/be/Nicktoons_Logo_2023.svg" group-title="Kids",Nicktoons (Poland) (576i)
 http://92.114.85.87:8013/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="Nicktoons.ro@SD" tvg-country="RO" tvg-name="Nicktoons" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/7/71/NickToons_US_2023_Splat_Variant.png/revision/latest?cb=20251214221939" group-title="Kids",Nicktoons (Romania)
 http://178.76.68.60:7442/80/mpegts
-#EXTINF:-1 tvg-id="Nicktoons.us@East" tvg-country="US" tvg-name="Nicktoons" tvg-logo="https://images.pluto.tv/channels/654ca7f92c1d3300086b608c/colorLogoSVG_1751457678313.svg" group-title="Kids",Nicktoons (United States) (720p)
-http://41.205.93.154/NICKTOONS/index.m3u8
 #EXTINF:-1 tvg-id="NikiJunior.ua@SD" tvg-country="UA" tvg-name="Niki Junior" tvg-logo="https://i.imgur.com/DrHsNin.png" group-title="Kids",Niki Junior (1080p)
 http://stream.mcquack.net/262/index.m3u8
 #EXTINF:-1 tvg-id="NikiKids.ua@SD" tvg-country="UA" tvg-name="Niki Kids" tvg-logo="https://i.imgur.com/HH4HZ2J.png" group-title="Kids",Niki Kids (1080p)
 http://stream.mcquack.net/271/index.m3u8
 #EXTINF:-1 tvg-id="NinjaKidzTV.us@SD" tvg-country="US" tvg-name="Ninja Kidz TV" tvg-logo="https://i.imgur.com/7EngqUi.png" group-title="Kids",Ninja Kidz TV (1080p)
 https://playworksdigital-ninjakidztv-1-us.xumo.wurl.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="NRKSuper.no@SD" tvg-country="NO" tvg-name="NRK Super" tvg-logo="https://i.imgur.com/xIATe2T.png" group-title="Kids",NRK Super (1080i)
+#EXTINF:-1 tvg-id="NRKSuper.no" tvg-country="NO" tvg-name="NRK Super" tvg-logo="https://i.imgur.com/xIATe2T.png" group-title="Kids",NRK Super Ⓖ
 https://nrk-live-no.akamaized.net/nrksuper/muxed.m3u8
 #EXTINF:-1 tvg-id="O.ru@International" tvg-country="RU" tvg-name="O!" tvg-logo="https://i.imgur.com/pDc665V.png" group-title="Kids",O! International (720p)
 http://88.212.15.50/live/test_telekanal_o/playlist.m3u8
@@ -324,7 +331,7 @@ https://livestream.pbskids.org/out/v1/3fe3030a2c8045a3932f4289d9eba3e6/mst.m3u8
 #EXTINF:-1 tvg-id="PBSKidsPacific.us@SD" tvg-country="US" tvg-name="PBS Kids Pacific" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e3/PBS_Kids_logo_%282022%29.svg" group-title="Kids",PBS Kids Pacific (1080p)
 https://livestream.pbskids.org/out/v1/11f2e6b73eaa4887b3746cb863960e79/pst.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-65fb337f00433c8a0799ce98" tvg-country="US" tvg-name="PBS Retro" tvg-logo="https://i.imgur.com/3iWzQqw.png" group-title="Kids",PBS Retro
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-65fb337f00433c8a0799ce98/?X-Plex-Token=eXyLHAkGRXLbN6ks_hsf
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-65fb337f00433c8a0799ce98/?X-Plex-Token=DxoTLJvQAiQXEG-h_bLy
 #EXTINF:-1 tvg-id="PequesTV.pe@SD" tvg-country="PE" tvg-name="Peques TV" tvg-logo="https://img-evg3.tv360.bitel.com.pe/peru-image/2026/01/06/04/1767647409377/6123aa5e7fc7.png" group-title="Kids",Peques TV (720p)
 https://live-evg7.tv360.bitel.com.pe/bitel/pequestv/playlist.m3u8
 #EXTINF:-1 tvg-id="PersianaJunior.fr@SD" tvg-country="FR" tvg-name="Persiana Junior" tvg-logo="https://i.imgur.com/zeKHZYG.png" group-title="Kids",Persiana Junior
@@ -349,8 +356,6 @@ https://ncdn.telewebion.ir/javaneh/live/playlist.m3u8
 https://amg01753-amg01753c9-samsung-gb-8005.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeuk-popup-samsunggb/playlist.m3u8
 #EXTINF:-1 tvg-id="RaiYoyo.it" tvg-country="IT" tvg-name="Rai YoYo" tvg-logo="https://i.imgur.com/9gCxiDy.png" group-title="Kids",Rai YoYo Ⓖ
 https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=746899&output=7&forceUserAgent=rainet/4.0.5
-#EXTINF:-1 tvg-id="ReinoInfantil.mz@SD" tvg-country="MZ" tvg-name="Reino Infantil" tvg-logo="https://i.imgur.com/oAygpDw.png" group-title="Kids",Reino Infantil
-https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8
 #EXTINF:-1 tvg-id="RiC.de@SD" tvg-country="DE" tvg-name="RiC" tvg-logo="https://i.imgur.com/4wMZ8Em.png" group-title="Kids",RiC (1080p)
 https://rictv.iptv-playoutcenter.de/rictv/rictv-web/playlist.m3u8
 #EXTINF:-1 tvg-id="RUTVKids.ru@SD" tvg-country="RU" tvg-name="RU.TV Kids" tvg-logo="https://rutvkids.ru/brand/logo-kids.png" group-title="Kids",RU.TV Kids (720p)
@@ -382,15 +387,13 @@ http://31.148.48.15/STS_Kids_HD/index.m3u8
 https://janson-supersimplesongs-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperToons.bg@SD" tvg-country="BG" tvg-name="Super Toons" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/02/SuperToons.png" group-title="Kids",Super Toons (1080p)
 https://d3bxvshzgfq6in.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-8a0c583l9gryw/feed/samsung/streams/SUPERTOONS_EN/master.m3u8?token=737aa2c3f17862a448f403cd2ac2b5ef1a0c413e1cf080a13a19cea99119221f
-#EXTINF:-1 tvg-id="Super.it@SD" tvg-country="IT" tvg-name="Super!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Super%21_logo_2015.svg" group-title="Kids",Super!
+#EXTINF:-1 tvg-id="Super!.it" tvg-country="IT" tvg-name="Super!" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Super%21_logo_2015.svg" group-title="Kids",Super!
 https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_hbbtv/playlist.m3u8
 #EXTINF:-1 tvg-id="SuperGeroi.ru@SD" tvg-country="RU" tvg-name="SuperGeroi" tvg-logo="https://i.imgur.com/c0zZUR1.png" group-title="Kids",SuperGeroi (1080p)
 http://31.148.48.15/Malish_TV/index.m3u8
 #EXTINF:-1 tvg-id="SX3.es@SD" tvg-country="ES" tvg-name="SX3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SX3_logo.svg/960px-SX3_logo.svg.png" group-title="Kids",SX3 (1080p)
 https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
-#EXTINF:-1 tvg-id="TeenNick.pl@SD" tvg-country="PL" tvg-name="TeenNick" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/TeenNick_logo_2023_%28outline%29.svg/1280px-TeenNick_logo_2023_%28outline%29.svg.png" group-title="Kids",TeenNick (Poland) (576i)
-http://92.114.85.87:8010/play/a009/index.m3u8
-#EXTINF:-1 tvg-id="TeletoonPlus.pl@HD" tvg-country="PL" tvg-name="Teletoon+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" group-title="Kids",Teletoon+ HD (1080i) (720p)
+#EXTINF:-1 tvg-id="TeletoonPlus.pl" tvg-country="PL" tvg-name="Teletoon+ HD (1080i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/T%C3%A9l%C3%A9toon%2B_Logo.png/960px-T%C3%A9l%C3%A9toon%2B_Logo.png" group-title="Kids",Teletoon+ HD (1080i) (720p)
 http://92.114.85.87:8009/play/a006/index.m3u8
 #EXTINF:-1 tvg-id="Teletubbies.uk@SD" tvg-country="UK" tvg-name="Teletubbies" tvg-logo="https://i.imgur.com/J9iWjWL.png" group-title="Kids",Teletubbies (720p)
 https://dv8lsrd8fecw9.cloudfront.net/master.m3u8
@@ -446,8 +449,6 @@ https://yuppparoriglin.akamaized.net/181224/smil:wowkidztam.smil/playlist.m3u8?h
 https://stmv6.voxtvhd.com.br/xtremacartoons/xtremacartoons/playlist.m3u8
 #EXTINF:-1 tvg-id="YAAAS.uk@HD" tvg-country="UK" tvg-name="YAAAS!" tvg-logo="https://www.freeview.co.uk/sites/default/files/styles/255_wide/public/2019-12/yaas-logo250x144.png" group-title="Kids",YAAAS! (720p)
 https://d3knqoaufvjug3.cloudfront.net/yas.m3u8
-#EXTINF:-1 tvg-id="ZBCartoon.in@HD" tvg-country="IN" tvg-name="ZB Cartoon" tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/zbcatun.png" group-title="Kids",ZB Cartoon (1080p)
-https://server.zillarbarta.com/zbcatun/video.m3u8
 #EXTINF:-1 tvg-id="ZooMoo.sg@SD" tvg-country="SG" tvg-name="ZooMoo" tvg-logo="https://i.imgur.com/ciTJrnl.png" group-title="Kids",ZooMoo (1080p)
 https://zoomoo-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="[HD]优漫卡通[ipv6]" tvg-name="优漫卡通" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E4%BC%98%E6%BC%AB%E5%8D%A1%E9%80%9A%5Bipv6%5D.png" group-title="Kids",优漫卡通 (720p)
@@ -466,23 +467,21 @@ http://wouu.net:9977/udp/239.93.0.219:5140
 https://hls.ningxiahuangheyun.com/live/nxse1M.m3u8
 #EXTINF:-1 tvg-id="山东少儿" tvg-name="山东少儿" tvg-logo="https://i.imgur.com/ph7YKNa.png" group-title="Kids",山东少儿
 http://livealone302.iqilu.com/iqilu/sepd.m3u8
-#EXTINF:-1 tvg-id="[HD]江西少儿家庭" tvg-name="江西少儿家庭" tvg-logo="https://live.fanmingming.com/tv/%5BHD%5D%E6%B1%9F%E8%A5%BF%E5%B0%91%E5%84%BF%E5%AE%B6%E5%BA%AD.png" group-title="Kids",江西少儿家庭 (720p)
+#EXTINF:-1 tvg-id="江西少儿" tvg-name="江西少儿" tvg-logo="https://epg.pw/media/images/channel/2021/10/12/large/20211012201424902703_24.png" group-title="Kids",江西少儿家庭 (720p)
 https://stream1.freetv.fun/e96d8291fd582b22cd23c2fb27ef3544c0bea6408d44673f0e8f6afb21e068e9.m3u8
 #EXTINF:-1 tvg-id="河北少儿" tvg-name="河北少儿" tvg-logo="https://live.fanmingming.cn/tv/河北少儿.png" group-title="Kids",河北少儿
 http://1.94.31.214/php/hebei.php?id=sekj
-#EXTINF:-1 tvg-id="浙江少儿" tvg-name="浙江少儿" tvg-logo="https://www.xn--rgv465a.top/tvlogo/浙江少儿.png" group-title="Kids",浙江少儿
-https://stream1.freetv.fun/zhe-jiang-shao-er-4.ctv
 #EXTINF:-1 tvg-id="海绵宝宝" tvg-name="海绵宝宝" tvg-logo="https://tb.zbds.top/logo/海绵宝宝.png" group-title="Kids",海绵宝宝
 https://live.metshop.top/douyu/3949681
 #EXTINF:-1 tvg-id="GS04" tvg-name="甘肃少儿" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gansu/Gansu4.png" group-title="Kids",甘肃少儿
 https://hls.gstv.com.cn/49048r/922k96.m3u8
-#EXTINF:-1 tvg-id="福州电视台少儿频道 (FZTV-少儿)" tvg-name="福州电视台少儿频道 (FZTV-少儿)" tvg-logo="https://live.fanmingming.com/tv/%E7%A6%8F%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93%20%28FZTV-%E5%B0%91%E5%84%BF%29.png" group-title="Kids",福州电视台少儿频道 (FZTV-少儿) (1080p)
+#EXTINF:-1 tvg-id="福州电视台少儿频道_(FZTV-少儿)_(1080p)" tvg-name="福州电视台少儿频道_(FZTV-少儿)_" tvg-logo="https://live.fanmingming.com/tv/%E7%A6%8F%E5%B7%9E%E7%94%B5%E8%A7%86%E5%8F%B0%E5%B0%91%E5%84%BF%E9%A2%91%E9%81%93_%28FZTV-%E5%B0%91%E5%84%BF%29_%281080p%29.png" group-title="Kids",福州电视台少儿频道_(FZTV-少儿)_ (1080p)
 http://live.zohi.tv/video/s10001-fztv-4/index.m3u8
 #EXTINF:-1 tvg-id="福建少儿" tvg-country="CN" tvg-name="福建少儿" tvg-logo="https://i.imgur.com/0lhiBNa.png" group-title="Kids",福建少儿
 https://stream1.freetv.fun/fu-jian-shao-er-1.m3u8
 #EXTINF:-1 tvg-id="金鹰卡通" tvg-name="金鹰卡通" tvg-logo="https://www.xn--rgv465a.top/tvlogo/金鹰卡通.png" group-title="Kids",金鹰卡通
 https://stream1.freetv.fun/jin-ying-qia-tong-22.m3u8
-#EXTINF:-1 tvg-id="韩国EBS少儿" tvg-name="韩国EBS少儿" tvg-logo="https://tb.zbds.top/logo/韩国EBS少儿.png" group-title="Kids",韩国EBS少儿
+#EXTINF:-1 tvg-id="韩国EBS少儿" tvg-name="韩国EBS少儿" tvg-logo="https://live.fanmingming.cn/tv/韩国EBS少儿.png" group-title="Kids",韩国EBS少儿
 http://ebsonairios.ebs.co.kr/ebsutablet500k/tablet500k/playlist.m3u8
 #EXTINF:-1 tvg-id="黑龙江少儿" tvg-name="黑龙江少儿" tvg-logo="https://tb.zbds.top/logo/黑龙江少儿.png" group-title="Kids",黑龙江少儿
 https://ls.qingting.fm/live/4972/64k.m3u8
