@@ -13,7 +13,7 @@ http://88.212.15.50/live/test_ctsport_25p/playlist.m3u8
 https://dash4.antik.sk/live/test_golf_channel/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaSportCzechia.cz@SD" tvg-country="CZ" tvg-name="Prima Sport Czechia" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/69/Prima_Sport_%28Czech_Republic%29.svg/revision/latest?cb=20260728085614" group-title="Sports",Prima Sport Czechia
 http://rpprod.hbbtv.cdn.cra.cz:8080/hbbTV/prima_sport/live_mq?offsetSeconds=0
-#EXTINF:-1 tvg-id="Sport1.cz@HD" tvg-country="CZ" tvg-name="Sport1" tvg-logo="https://i.imgur.com/X5X3tKC.png" group-title="Sports",Sport1 HD (720p)
+#EXTINF:-1 tvg-id="Sport1.cz@HD" tvg-country="CZ" tvg-name="Sport1" tvg-logo="https://i.imgur.com/X5X3tKC.png" group-title="Sports",Sport1 (Czech Republic) HD (720p)
 http://88.212.7.14/live/sport1_cz_avc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="Sport2.cz@HD" tvg-country="CZ" tvg-name="Sport2" tvg-logo="https://i.imgur.com/UxflVoU.png" group-title="Sports",Sport2 HD (720p)
 http://88.212.7.14/live/sport2_cz_avc_25p/playlist.m3u8
@@ -105,6 +105,8 @@ http://88.212.15.50/live/prima_avc_25p/playlist.m3u8
 http://88.212.15.50/live/prima_cool_cz_avc/index.m3u8
 #EXTINF:-1 tvg-id="PrimaLove.cz@SD" tvg-country="CZ" tvg-name="Prima Love" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Prima_Love_logo_2018.png/960px-Prima_Love_logo_2018.png" group-title="General",Prima Love
 http://88.212.15.50/live/prima_love_cz_avc/index.m3u8
+#EXTINF:-1 tvg-id="PrimaMax.cz" tvg-country="CZ" tvg-name="Prima MAX" tvg-logo="https://i.imgur.com/ePrdyLi.png" group-title="General",Prima MAX
+https://sktv.mxnticek.eu/new/stream.php?ch=PrimaMax
 #EXTINF:-1 tvg-id="PrimaShow.cz@SD" tvg-country="CZ" tvg-name="Prima Show" tvg-logo="https://i.imgur.com/XbwAwkp.png" group-title="General",Prima Show (1080p)
 http://88.212.15.50/live/test_prima_show_hevc_25p/playlist.m3u8
 #EXTINF:-1 tvg-id="PrimaStar.cz@SD" tvg-country="CZ" tvg-name="Prima Star" tvg-logo="https://i.imgur.com/ppqgNDA.png" group-title="General",Prima Star (1080p)

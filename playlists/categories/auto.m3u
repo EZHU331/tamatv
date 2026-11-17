@@ -1,8 +1,10 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_BR1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_IT1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_DE1.xml.gz"
 #EXTINF:-1 tvg-id="30AWeLoveCars.us@SD" tvg-country="US" tvg-name="30A We Love Cars" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxroqfE_hvEApKMQx03sSYXPeEh4ClaF5QSa8XfRwJW_So3vfSN0CjqzxN30H-qEBswqU&usqp=CAU" group-title="Auto",30A We Love Cars (720p)
 https://30a-tv.com/feeds/vidaa/cars.m3u8
 #EXTINF:-1 tvg-id="AutoTV.br" tvg-country="BR" tvg-name="Auto TV" tvg-logo="https://i.imgur.com/FRnE50u.png" group-title="Auto",Auto TV (720p)
 https://cdn4.skygo.mn/live/disk1/AutoTV/HLSv3-FTA/AutoTV.m3u8
+#EXTINF:-1 tvg-id="Automotolachaine.fr@SD" tvg-country="FR" tvg-name="Automoto la chaine" tvg-logo="https://i.imgur.com/ebf2uc7.png" group-title="Auto",Automoto la chaine (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/automoto/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalMotor.no@SD" tvg-country="NO" tvg-name="Canal Motor" tvg-logo="https://i.imgur.com/nCAt3QN.png" group-title="Auto",Canal Motor (720p)
 https://digicom.hls.iptvdc.com/canalmotor/index.m3u8
 #EXTINF:-1 tvg-id="CarsTV.us@SD" tvg-country="US" tvg-name="Cars.TV" tvg-logo="https://i.imgur.com/JLSHiTp.png" group-title="Auto",Cars.TV (720p)
@@ -25,6 +27,8 @@ https://stream1.sersat.com/hls/garagetv.m3u8
 https://64b16f23efbee.streamlock.net/servizio01/servizio01/playlist.m3u8
 #EXTINF:-1 tvg-id="Motorvision.de@SD" tvg-country="DE" tvg-name="Motorvision" tvg-logo="https://i.imgur.com/v4kj8pI.png" group-title="Auto",Motorvision (1080i)
 https://mvg-mv.otteravision.com/mvg/mv/mv_1080p.m3u8
+#EXTINF:-1 tvg-id="MotorvisionPlus.de@SD" tvg-country="DE" tvg-name="Motorvision+" tvg-logo="https://i.imgur.com/5cs5GkJ.png" group-title="Auto",Motorvision+ (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/motorvision_en/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="PowerNationTV.us@SD" tvg-country="US" tvg-name="PowerNation TV" tvg-logo="https://i.imgur.com/jguTO8E.png" group-title="Auto",PowerNation TV (1080p)
 https://amg01258-raycomsports-powernationau-samsungau-18bwc.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="RevnTV.us" tvg-country="US" tvg-name="Rev'n" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Rev%27n_logo.jpg/960px-Rev%27n_logo.jpg" group-title="Auto",Rev'n

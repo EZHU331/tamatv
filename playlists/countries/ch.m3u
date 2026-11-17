@@ -49,10 +49,12 @@ https://edge14.vedge.infomaniak.com/livecast/ik:rhonetv/manifest.m3u8
 http://190.2.155.162/RSI1/index.m3u8
 #EXTINF:-1 tvg-id="RSILa2.ch" tvg-country="CH" tvg-name="RSI La 2" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/RSI_La_2_2012.svg/960px-RSI_La_2_2012.svg.png" group-title="General",RSI La 2
 http://190.2.155.162/RSI2/index.m3u8
-#EXTINF:-1 tvg-id="RTS1.ch" tvg-country="CH" tvg-name="RTS Un" tvg-logo="https://i.imgur.com/OP5lHv9.png" group-title="General",RTS Un
-http://hotiptv.site:8080/zkby2013/1d469e6d9e42/67585
+#EXTINF:-1 tvg-id="RTS1.ch@SD" tvg-country="CH" tvg-name="RTS 1" tvg-logo="https://i.imgur.com/OP5lHv9.png" group-title="General",RTS 1 (Switzerland) (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/rts_un/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="SRF1.ch" tvg-country="CH" tvg-name="SRF 1" tvg-logo="https://i.imgur.com/xgml2Pl.png" group-title="General",SRF 1
 http://51.91.73.99:25461/sweden/PM66f7Y43H/25849
+#EXTINF:-1 tvg-id="SRFinfo.ch@SD" tvg-country="CH" tvg-name="SRF info" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Logo_SRF_info.svg/960px-Logo_SRF_info.svg.png" group-title="General",SRF info (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/srf_info/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="TeleTicino.ch@SD" tvg-country="CH" tvg-name="TeleTicino" tvg-logo="https://i.imgur.com/u6dLKa9.png" group-title="General",TeleTicino (720p)
 https://vstream-cdn.ch/hls/teleticino.m3u8
 #EXTINF:-1 tvg-id="TeleZuri.ch@SD" tvg-country="CH" tvg-name="TeleZuri" tvg-logo="https://i.imgur.com/f8kzNT1.png" group-title="General",TeleZuri (720p)

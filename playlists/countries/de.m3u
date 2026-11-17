@@ -103,6 +103,8 @@ https://s6.hopslan.com/dmaxX/index.m3u8
 https://cdn6.goprimetime.info/feed/202306140918/LC18/index.m3u8
 #EXTINF:-1 tvg-id="Motorvision.de@SD" tvg-country="DE" tvg-name="Motorvision" tvg-logo="https://i.imgur.com/v4kj8pI.png" group-title="Auto",Motorvision (1080i)
 https://mvg-mv.otteravision.com/mvg/mv/mv_1080p.m3u8
+#EXTINF:-1 tvg-id="MotorvisionPlus.de@SD" tvg-country="DE" tvg-name="Motorvision+" tvg-logo="https://i.imgur.com/5cs5GkJ.png" group-title="Auto",Motorvision+ (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/motorvision_en/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="Parlamentsfernsehen1.de@SD" tvg-country="DE" tvg-name="Parlamentsfernsehen 1" tvg-logo="https://i.imgur.com/mksEgwx.png" group-title="Legislative",Parlamentsfernsehen 1 (1080p)
 https://cldf-hlsgw.r53.cdn.tv1.eu/1000153copo/hk1.m3u8
 #EXTINF:-1 tvg-id="EchtJetztTV.de@SD" tvg-country="DE" tvg-name="EchtJetzt TV" tvg-logo="https://i.ibb.co/ccNRGVj/download-10.png" group-title="Religious",EchtJetzt TV (720p)
@@ -335,9 +337,9 @@ https://dash4.antik.sk/live/test_vox_tizen/playlist.m3u8
 https://wdr-live.ard-mcdn.de/wdr/live/hls/de/master.m3u8
 #EXTINF:-1 tvg-id="YOLTV.de@SD" tvg-country="DE" tvg-name="YOL TV" tvg-logo="https://i.imgur.com/rTBX6lS.png" group-title="General",YOL TV (720p)
 https://live.yoltv.com/hls/stream.m3u8
-#EXTINF:-1 tvg-id="ZDF.de@SD" tvg-country="DE" tvg-name="ZDF" tvg-logo="https://i.imgur.com/rtLb6m9.png" group-title="General",ZDF
-https://dash4.antik.sk/live/test_zdf_avc_25p/playlist.m3u8
+#EXTINF:-1 tvg-id="ZDF.de@HD" tvg-country="DE" tvg-name="ZDF" tvg-logo="https://i.imgur.com/rtLb6m9.png" group-title="General",ZDF HD (720p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdf/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="ZDFinfo.de@SD" tvg-country="DE" tvg-name="ZDFinfo" tvg-logo="https://i.imgur.com/vtq1IWp.png" group-title="General",ZDFinfo (720p)
-https://zdf-hls-17.akamaized.net/hls/live/2016500/de/high/master.m3u8
-#EXTINF:-1 tvg-id="ZDFneo.de@SD" tvg-country="DE" tvg-name="ZDFneo" tvg-logo="https://i.imgur.com/1JIIGgL.png" group-title="General",ZDFneo (720p)
-http://5.180.164.197:8080/ZDFNEO/index.m3u8
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfinfo/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="ZDFneo.de@SD" tvg-country="DE" tvg-name="ZDFneo" tvg-logo="https://i.imgur.com/1JIIGgL.png" group-title="General",ZDFneo (1080p)
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/zdfneo/live.livx/playlist.m3u8
