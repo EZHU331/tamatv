@@ -17,9 +17,17 @@ http://khkbh.dk:8080/hls/livestream/index.m3u8
 https://livecdn.euw1-0005.jwplive.com/live/sites/J42OBHtp/media/vvNWt4O9/live.isml/.m3u8
 #EXTINF:-1 tvg-id="TV2Fyn.dk" tvg-country="DK" tvg-name="TV 2/Fyn" tvg-logo="https://i.imgur.com/4L6AIMH.png" group-title="General",TV 2/Fyn
 https://cdn.jwplayer.com/live/broadcast/igp9r9oc.mpd
+#EXTINF:-1 tvg-id="TV2Nord.dk" tvg-country="DK" tvg-name="TV 2/Nord" tvg-logo="https://i.imgur.com/tEJ22UW.png" group-title="General",TV 2/Nord
+http://grevsen.dk/live/catchuptv/catchuptv/14.m3u8
+#EXTINF:-1 tvg-id="TV2Ost.dk" tvg-country="DK" tvg-name="TV 2/Øst" tvg-logo="https://i.imgur.com/H9l6Ulw.png" group-title="General",TV 2/Øst
+http://grevsen.dk/live/catchuptv/catchuptv/16.m3u8
+#EXTINF:-1 tvg-id="TV2Ostjylland.dk" tvg-country="DK" tvg-name="TV 2/Østjylland" tvg-logo="https://i.imgur.com/qEUXjHp.png" group-title="General",TV 2/Østjylland
+http://grevsen.dk/live/catchuptv/catchuptv/17.m3u8
 #EXTINF:-1 tvg-id="TVStorbyen.dk@SD" tvg-country="DK" tvg-name="TV Storbyen" tvg-logo="https://i.ibb.co/X5h3hJL/tvstb.png" group-title="General",TV Storbyen (720p)
 https://5eeb3940cfaa0.streamlock.net/webtv_live/_definst_/mp4:kanalnordvest/playlist.m3u8
 #EXTINF:-1 tvg-id="TVSYD.dk" tvg-country="DK" tvg-name="TV Syd+" tvg-logo="https://i.imgur.com/k2jf591.png" group-title="General",TV Syd+
 https://cdn.jwplayer.com/live/broadcast/bcZFHqNK.m3u8
+#EXTINF:-1 tvg-id="TVMidtvest.dk" tvg-country="DK" tvg-name="TV/Midt-Vest" tvg-logo="https://i.imgur.com/OU7xIVa.png" group-title="General",TV/Midt-Vest
+http://grevsen.dk/live/catchuptv/catchuptv/13.m3u8
 #EXTINF:-1 tvg-id="TVMarineret.dk@SD" tvg-country="DK" tvg-name="TVMarineret" tvg-logo="https://i.imgur.com/r1Caske.jpg" group-title="General",TVMarineret (1080p)
 http://sdream.info:8080/hls/livestream/index.m3u8
