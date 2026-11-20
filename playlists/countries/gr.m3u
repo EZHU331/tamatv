@@ -53,6 +53,8 @@ https://livetv.streams.ovh:1936/paniktv/paniktv/playlist.m3u8
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/VOULITV/default/index.m3u8
 #EXTINF:-1 tvg-id="4E.gr@SD" tvg-country="GR" tvg-name="4E" tvg-logo="https://i.imgur.com/Na0UCV7.png" group-title="Religious",4E (1080p)
 http://eu2.tv4e.gr:554/live/smil:myStream.sdp.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="400000301" tvg-country="GR" tvg-name="Mad TV" tvg-logo="https://i.imgur.com/W3sGgWd.png" group-title="Comedy",MADtv
+https://live-manifest.production-public.tubi.io/live/d78316c4-6126-4ade-bdba-c4186d5408d1/playlist.m3u8
 #EXTINF:-1 tvg-id="HighTV.gr@SD" tvg-country="GR" tvg-name="High TV" tvg-logo="https://i.imgur.com/8gHuwt7.png" group-title="Shop",High TV (720p)
 http://live.streams.ovh:1935/hightv/hightv/playlist.m3u8
 #EXTINF:-1 tvg-id="acheloostv.gr" tvg-country="GR" tvg-name="Acheloos" tvg-logo="https://i.imgur.com/5SVMxcu.png" group-title="General",Acheloos
@@ -111,8 +113,6 @@ https://eu1.streams.gr:8081/kostv/index.m3u8
 https://livetv.streams.ovh:8081/kriti/index.m3u8
 #EXTINF:-1 tvg-id="KritiTV.gr@SD" tvg-country="GR" tvg-name="Kriti TV" tvg-logo="https://i.imgur.com/X7jKwYl.png" group-title="General",Kriti TV (1080p)
 https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="LepantoTV.gr@SD" tvg-country="GR" tvg-name="Lepanto TV" tvg-logo="https://static-media.streema.com/media/cache/52/5e/525e3ae49d881cb702f2d4156b3c14a3.jpg" group-title="General",Lepanto TV (1080p)
-https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 #EXTINF:-1 tvg-id="MakTV.gr" tvg-country="GR" tvg-name="MAK TV" tvg-logo="https://i.imgur.com/90iDHbQ.png" group-title="General",MAK TV
 https://mcdn.antennaplus.gr/live/media0/MAK/HLS/MAK.m3u8
 #EXTINF:-1 tvg-id="MegaChannel.gr" tvg-country="GR" tvg-name="Mega News" tvg-logo="https://i.imgur.com/UsyFADE.png" group-title="General",Mega News

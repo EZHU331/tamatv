@@ -11,6 +11,8 @@ https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
 https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
 #EXTINF:-1 tvg-id="BFM2.fr@HD" tvg-country="FR" tvg-name="BFM2" tvg-logo="https://alloforfait.fr/wp-content/uploads/2024/03/logo-bfm2-300x200.jpg" group-title="News",BFM2 (1080p)
 https://d1ib1gsg71oarf.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-scp7wda722jph/BFM2_FR.m3u8
+#EXTINF:-1 tvg-id="FRBD4100006OC" tvg-country="FR" tvg-name="BFM Business" tvg-logo="https://i.imgur.com/psqIHn4.png" group-title="News",BFM Business
+https://jmp2.uk/stvp-FRBD4100006OC
 #EXTINF:-1 tvg-id="BFMTV.fr@SD" tvg-country="FR" tvg-name="BFM TV" tvg-logo="https://i.imgur.com/YJCcczD.png" group-title="News",BFM TV (1080p)
 https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/bfm_tv/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="CNews.fr@SD" tvg-country="FR" tvg-name="CNews" tvg-logo="https://i.imgur.com/sSNhk2g.png" group-title="News",CNews (1080p)
@@ -39,6 +41,8 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/france_info/live.livx/playlist.
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/lci/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="RTFrance.fr@SD" tvg-country="FR" tvg-name="RT France" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/RT-France-logo.svg/960px-RT-France-logo.svg.png" group-title="News",RT France (1080p)
 https://rt-fra.rttv.com/dvr/rtfrance/playlist.m3u8
+#EXTINF:-1 tvg-id="FRBD4100010ZZ" tvg-country="FR" tvg-name="Tech & Co" tvg-logo="https://upload.wikimedia.org/wikipedia/fr/thumb/8/83/Tech_%26_Co.svg/960px-Tech_%26_Co.svg.png" group-title="News",Tech & Co
+https://jmp2.uk/stvp-FRBD4100010ZZ
 #EXTINF:-1 tvg-id="TV5MondeInfo.fr@SD" tvg-country="FR" tvg-name="TV5Monde Info" tvg-logo="https://i.imgur.com/AJx5Fy2.png" group-title="News",TV5Monde Info (1080p)
 http://91.235.255.32:8001/1:0:1:2CA:14B4:13E:820000:0:0:0
 #EXTINF:-1 tvg-id="CanalPlusSport.fr@SD" tvg-country="FR" tvg-name="Canal+ Sport" tvg-logo="https://i.imgur.com/EOXnU15.png" group-title="Sports",Canal+ Sport (France) (1080p)
@@ -183,42 +187,12 @@ https://raphls.persiana.live/hls/stream.m3u8
 https://qwestjazz-rakuten.amagi.tv/hls/amagi_hls_data_rakutenAA-qwestjazz-rakuten/CDN/master.m3u8
 #EXTINF:-1 tvg-id="QwestTVJazzBeyond.fr@SD" tvg-country="FR" tvg-name="Qwest TV Jazz & Beyond" tvg-logo="https://i.imgur.com/89yWH5L.png" group-title="Music",Qwest TV Jazz & Beyond (1080p)
 https://samsungau-qwestjazz-samsungtv-zw2jc.amagi.tv/playlist/samsungau-qwestjazz-samsungtv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceAfrica.fr@SD" tvg-country="FR" tvg-name="Trace Africa" tvg-logo="https://i.imgur.com/kPUkoS7.png" group-title="Music",Trace Africa (1080p)
-https://channels.trace.plus/Traceprod/AFRICA_FR_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceAfrikora.fr@SD" tvg-country="FR" tvg-name="Trace Afrikora" tvg-logo="https://i.imgur.com/CQDdnhp.png" group-title="Music",Trace Afrikora (1080p)
-https://channels.trace.plus/Traceprod/TERANGA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceAyiti.fr@SD" tvg-country="FR" tvg-name="Trace Ayiti" tvg-logo="https://i.imgur.com/KkJ6fet.png" group-title="Music",Trace Ayiti (1080p)
-https://channels.trace.plus/Traceprod/AYITI_hd/index.m3u8
 #EXTINF:-1 tvg-id="TraceBrazuca.fr@SD" tvg-country="FR" tvg-name="Trace Brazuca" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b7/Trace_Brasil_logo.PNG" group-title="Music",Trace Brazuca (1080p)
 https://amg01131-tracetv-amg01131c4-stirr-us-4390.playouts.now.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="TraceCaribbean.fr@SD" tvg-country="FR" tvg-name="Trace Caribbean" tvg-logo="https://i.imgur.com/ZHD7Vxy.png" group-title="Music",Trace Caribbean (1080p)
-https://channels.trace.plus/Traceprod/CARIBBEAN_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceGospel.fr@SD" tvg-country="FR" tvg-name="Trace Gospel" tvg-logo="https://i.imgur.com/X0UmU3K.png" group-title="Music",Trace Gospel (1080p)
-https://channels.trace.plus/Traceprod/GOSPEL_FR_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceIvoire.fr@SD" tvg-country="FR" tvg-name="Trace Ivoire" tvg-logo="https://i.imgur.com/W2l3rVx.png" group-title="Music",Trace Ivoire (1080p)
-https://channels.trace.plus/Traceprod/TRACE_IVOIRE_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceJama.fr@SD" tvg-country="FR" tvg-name="Trace Jama" tvg-logo="https://i.imgur.com/pthX34m.png" group-title="Music",Trace Jama (1080p)
-https://channels.trace.plus/Traceprod/JAMA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceKitoko.fr@SD" tvg-country="FR" tvg-name="Trace Kitoko" tvg-logo="https://i.imgur.com/q6vkMrU.png" group-title="Music",Trace Kitoko (1080p)
-https://channels.trace.plus/Traceprod/KITOKO_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceLatina.fr@SD" tvg-country="FR" tvg-name="Trace Latina" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="Music",Trace Latina (1080p)
-https://channels.trace.plus/Traceprod/LATINA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceMboa.fr@SD" tvg-country="FR" tvg-name="Trace Mboa" tvg-logo="https://i.imgur.com/cYwkCj2.png" group-title="Music",Trace Mboa (1080p)
-https://channels.trace.plus/Traceprod/MBOA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceMuzika.fr@SD" tvg-country="FR" tvg-name="Trace Muzika" tvg-logo="https://i.imgur.com/xsEGIXO.png" group-title="Music",Trace Muzika (1080p)
-https://channels.trace.plus/Traceprod/MUZIKA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceMziki.fr@SD" tvg-country="FR" tvg-name="Trace Mziki" tvg-logo="https://i.imgur.com/l3X9Gg4.png" group-title="Music",Trace Mziki (1080p)
-https://channels.trace.plus/Traceprod/MZIKI_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceNaija.fr@SD" tvg-country="FR" tvg-name="Trace Naija" tvg-logo="https://i.imgur.com/Rguekcp.png" group-title="Music",Trace Naija (1080p)
-https://channels.trace.plus/Traceprod/NAIJA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceNgoma.fr@SD" tvg-country="FR" tvg-name="Trace Ngoma" tvg-logo="https://www.hypresslive.com/wp-content/uploads/2025/12/9cf0931b-5e1e-16da-515a-bd203ca3c928-1536x1074.png" group-title="Music",Trace Ngoma (1080p)
-https://channels.trace.plus/Traceprod/AFRICA_EN_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceToca.fr@SD" tvg-country="FR" tvg-name="Trace Toca" tvg-logo="https://i.imgur.com/6SpWnBR.png" group-title="Music",Trace Toca (1080p)
-https://channels.trace.plus/Traceprod/TOCA_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceUrban.fr@HD" tvg-country="FR" tvg-name="Trace Urban" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban HD (1080p)
-https://channels.trace.plus/Traceprod/URBAN_FR_hd/index.m3u8
-#EXTINF:-1 tvg-id="TraceVanillaIslands.fr@SD" tvg-country="FR" tvg-name="Trace Vanilla Islands" tvg-logo="https://i.imgur.com/ngF58fe.png" group-title="Music",Trace Vanilla Islands (1080p)
-https://channels.trace.plus/Traceprod/VANILLA_hd/index.m3u8
+#EXTINF:-1 tvg-id="ESBA3300042Y6" tvg-country="FR" tvg-name="Trace Latina" tvg-logo="https://i.imgur.com/CUVAi4u.png" group-title="Music",Trace Latina
+https://jmp2.uk/stvp-ESBA3300042Y6
+#EXTINF:-1 tvg-id="TraceUrban.fr@SD" tvg-country="FR" tvg-name="Trace Urban" tvg-logo="https://i.imgur.com/DLIbUMx.png" group-title="Music",Trace Urban (1080p)
+https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="TZiK.fr@SD" tvg-country="FR" tvg-name="TZiK" tvg-logo="https://i.imgur.com/TAagRkn.png" group-title="Music",TZiK
 https://54627d4fc5996.streamlock.net/tzik/tzik/chunklist.m3u8
 #EXTINF:-1 tvg-id="FashionTVEurope.fr@SD" tvg-country="FR" tvg-name="FashionTV Europe" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Fashion_TV_logo.svg/960px-Fashion_TV_logo.svg.png" group-title="Lifestyle",FashionTV Europe (1080p)
@@ -321,8 +295,6 @@ http://103.190.232.129/stream/tvb/pacifique/master.m3u8?p=967e33767f592e1aaf3d40
 http://194.163.157.137:8080/hls/radioalsace.m3u8
 #EXTINF:-1 tvg-id="TVBreizh.fr@SD" tvg-country="FR" tvg-name="TV Breizh" tvg-logo="https://i.imgur.com/O8W4yhn.png" group-title="General",TV Breizh (720p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/tv_breizh/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="TVMulhouse.fr@HD" tvg-country="FR" tvg-name="TV Mulhouse" tvg-logo="https://academie.kasumay.international/ico/radiomulhouse.png" group-title="General",TV Mulhouse (1080p)
-http://194.163.157.137:8080/hls/radiomulhouse.m3u8
 #EXTINF:-1 tvg-id="UshuaiaTV.fr@SD" tvg-country="FR" tvg-name="Ushuaia TV" tvg-logo="https://i.imgur.com/WjjlqbP.png" group-title="General",Ushuaia TV (720p)
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/ushuaia/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="ViaMatele.fr@SD" tvg-country="FR" tvg-name="ViaMatele" tvg-logo="https://i.imgur.com/XVCV9rj.png" group-title="General",ViaMatele (1080p)
