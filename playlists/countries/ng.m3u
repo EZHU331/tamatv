@@ -7,7 +7,7 @@ https://live20.bozztv.com/dvrfl06/astv/astv-channel24africa/index.m3u8
 https://cs2.push2stream.com/CHANNELSTV-DVR/playlist.m3u8
 #EXTINF:-1 tvg-id="LN247.ng@SD" tvg-country="NG" tvg-name="LN247" tvg-logo="https://i.imgur.com/s6PUehQ.jpg" group-title="News",LN247 (1080p)
 https://go5lmb6oyawb-hls-live.5centscdn.com/station/3dfd3752af3d7aec5c53992c2da3a316.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="NewsCentral.ng@SD" tvg-country="NG" tvg-name="News Central" tvg-logo="https://i.imgur.com/qvCgI8N.png" group-title="News",News Central
+#EXTINF:-1 tvg-id="NewsCentral.ng" tvg-country="NG" tvg-name="News Central" tvg-logo="https://i.imgur.com/qvCgI8N.png" group-title="News",News Central
 https://wf.newscentral.ng:8443/hls/stream.m3u8
 #EXTINF:-1 tvg-id="SilverbirdNews24.ng" tvg-country="NG" tvg-name="Silverbird News 24" tvg-logo="https://i.imgur.com/9jcV9oG.png" group-title="News",Silverbird News 24
 https://viewmedia7219.bozztv.com/wmedia/viewmedia100/web_029/Stream/playlist.m3u8
@@ -28,8 +28,6 @@ https://customer-yzxu6n447dx2x45h.cloudflarestream.com/f255a1e5ef17a8277e15e5f40
 #EXTINF:-1 tvg-id="ApprovalTV.ng@HD" tvg-country="NG" tvg-name="Approval TV" tvg-logo="https://storage.approvaltv.com/2026/03/approvallogo.png" group-title="Religious" http-referrer="https://live.approvaltv.com/",Approval TV (720p)
 #EXTVLCOPT:http-referrer=https://live.approvaltv.com/
 https://live.approvaltv.com/approvaltv/index.m3u8
-#EXTINF:-1 tvg-id="LoveWorldPersia.ng@SD" tvg-country="NG" tvg-name="LoveWorld Persia" tvg-logo="https://i.imgur.com/Vd2xPxh.png" group-title="Religious",LoveWorld Persia (720p)
-https://cdn3.wowza.com/5/aVJETlF0UFdmYTFu/LWPP/ngrp:persia.stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveWorldUK.ng@SD" tvg-country="NG" tvg-name="LoveWorld UK" tvg-logo="https://i.imgur.com/JgHbDmF.png" group-title="Religious",LoveWorld UK (1080p)
 https://cdn3.wowza.com/5/L1Uzd2FrbVlLRG1W/live/smil:lwukweb.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LoveWorldUSA.ng@SD" tvg-country="NG" tvg-name="LoveWorld USA" group-title="Religious",LoveWorld USA (720p)

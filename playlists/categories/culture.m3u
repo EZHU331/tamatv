@@ -37,8 +37,6 @@ https://2-fss-2.streamhoster.com/pl_120/206508-3261972-1/playlist.m3u8
 https://cdn.protvradiostream.com/rtvd17/ngrp:rtvd17_all/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalDiplomatico.ve@SD" tvg-country="VE" tvg-name="Canal Diplomatico" tvg-logo="https://i.ibb.co/34vsSzS/1439-Canal-Diplomatico.png" group-title="Culture",Canal Diplomatico
 https://master.myplaytv.com:2020/hls/canaldiplomatico/canaldiplomatico.m3u8
-#EXTINF:-1 tvg-name="CCTV-8_" group-title="Culture",CCTV-8_ (720p)
-http://74.91.26.218:82/live/cctv8hd.m3u8
 #EXTINF:-1 tvg-id="ChannelS.bd@SD" tvg-country="BD" tvg-name="Channel S" tvg-logo="https://www.channels.com.bd/storage/project_files/logo/2024-05-14a_n17156821814310.png" group-title="Culture",Channel S (Bangladesh) (720p)
 https://app.ncare.live/c3VydmVyX8RpbEU9Mi8xNy8yMDE0GIDU6RgzQ6NTAgdEoaeFzbF92YWxIZTO0U0ezN1IzMyfvcGVMZEJCTEFWeVN3PTOmdFsaWRtaW51aiPhnPTI2/channels.stream/live-orgin/channels.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="ChiloeRed25.cl@SD" tvg-country="CL" tvg-name="Chiloe Red 25" tvg-logo="https://i.imgur.com/3tqrImm.png" group-title="Culture",Chiloe Red 25 (720p)
@@ -91,7 +89,9 @@ https://unlimited1-us.dps.live/holvoettv/holvoettv.smil/playlist.m3u8
 https://cdn.live247stream.com/hyder/tv/playlist.m3u8
 #EXTINF:-1 tvg-id="ImaiTV.lk@SD" tvg-country="LK" tvg-name="Imai TV" tvg-logo="https://i.imgur.com/9tODclu.png" group-title="Culture",Imai TV (576i)
 https://jalworldiptv.vercel.app/iptv/imaitv/playlist.m3u8
-#EXTINF:-1 tvg-id="IRIB4.ir@SD" tvg-country="IR" tvg-name="IRIB 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png" group-title="Culture",IRIB 4
+#EXTINF:-1 tvg-id="OfoghTV.ir" tvg-country="IR" tvg-name="IRIB Ofogh" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png" group-title="Culture",IRIB Ofogh
+https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
+#EXTINF:-1 tvg-id="IRIB4.ir" tvg-country="IR" tvg-name="IRIB TV4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_TV4_logo.svg/960px-IRIB_TV4_logo.svg.png" group-title="Culture",IRIB TV4
 https://ncdn.telewebion.ir/tv4/live/playlist.m3u8
 #EXTINF:-1 tvg-id="IshtarTV.iq@SD" tvg-country="IQ" tvg-name="Ishtar TV" tvg-logo="https://i.imgur.com/qzApokm.png" group-title="Culture",Ishtar TV SD (1080p)
 https://stream.ishtartv.com/live/iShtarHD/playlist.m3u8
@@ -119,8 +119,6 @@ https://raw.githubusercontent.com/yaskar661-lgtm/stream/refs/heads/main/filbox/k
 https://kwtktvata.cdn.mangomolo.com/ktva/smil:tktva.stream.smil/chunklist.m3u8
 #EXTINF:-1 tvg-id="KulturMD.de@SD" tvg-country="DE" tvg-name="KulturMD" tvg-logo="https://i.imgur.com/io7cJ1Z.png" group-title="Culture",KulturMD (1080p)
 http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
-#EXTINF:-1 tvg-id="USBB1000002TK" tvg-country="US" tvg-name="Loupe 4K" tvg-logo="https://www.samsung.com/us/smg/content/dam/s7/home/televisions-and-home-theater/tvs/tvplus/03232021/Loupe4K_190x190.png?raw=true" group-title="Culture",Loupe 4K (2160p)
-https://jmp2.uk/stvp-USBB1000002TK
 #EXTINF:-1 tvg-id="LuysTV.tr@SD" tvg-country="TR" tvg-name="Luys TV" tvg-logo="https://i.imgur.com/9EruWIQ.png" group-title="Culture",Luys TV (1080p)
 https://b01c02nl.mediatriple.net/videoonlylive/mtpayqrfkgirxelive/broadcast_5e91c5ac96898.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="MalchinTV.mn" tvg-country="MN" tvg-name="Malchin TV" tvg-logo="https://www.mongolsat.mn/assets/img/channel/12.png" group-title="Culture",Malchin TV
@@ -147,7 +145,7 @@ https://vod-c57.interspace.com:443/channel_abr/46/playlist.m3u8?wmsAuthSign=c2Vy
 https://mrtvott.com/cache/MRTV-NRC-HD/master.m3u8
 #EXTINF:-1 tvg-id="MedeniyyetTV.az" tvg-country="AZ" tvg-name="Mədəniyyət TV" tvg-logo="https://i.imgur.com/PlvaDIa.png" group-title="Culture",Mədəniyyət TV
 https://str.yodacdn.net/medeniyyettele/index.m3u8
-#EXTINF:-1 tvg-id="NatGeoPeople.pl@SD" tvg-country="PL" tvg-name="Nat Geo People" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/960px-New_NatGeo_People_logo.svg.png" group-title="Culture",Nat Geo People (576i)
+#EXTINF:-1 tvg-id="NatGeoPeople.pl" tvg-country="PL" tvg-name="Nat Geo People (576i)" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/New_NatGeo_People_logo.svg/960px-New_NatGeo_People_logo.svg.png" group-title="Culture",Nat Geo People (576i)
 http://92.114.85.87:8016/play/a003/index.m3u8
 #EXTINF:-1 tvg-id="NaturalTV.tr@SD" tvg-country="TR" tvg-name="Natural TV" tvg-logo="https://i.imgur.com/rfcJ674.png" group-title="Culture",Natural TV (720p)
 http://broadcasttr.com:1935/naturaltv/bant1/playlist.m3u8
@@ -159,8 +157,6 @@ https://i.mjh.nz/.r/sbs-5nsw.m3u8
 https://reflect-stream-bronxnet.cablecast.tv/live-10/live/live.m3u8
 #EXTINF:-1 tvg-id="OdishaTV.in@SD" tvg-country="IN" tvg-name="Odisha TV" tvg-logo="https://dtil.tmsimg.com/assets/s143639_ld_h15_aa.png?lock=720x540" group-title="Culture",Odisha TV (720p)
 https://livetv.tarangplus.in/otv-origin/live/playlist.m3u8
-#EXTINF:-1 tvg-id="OfoghTV.ir@SD" tvg-country="IR" tvg-name="Ofogh TV" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/thumb/f/fe/Ofogh_TV_logo.svg/960px-Ofogh_TV_logo.svg.png" group-title="Culture",Ofogh TV
-https://ncdn.telewebion.ir/ofogh/live/playlist.m3u8
 #EXTINF:-1 tvg-id="Olelo53.us@SD" tvg-country="US" tvg-name="Olelo 53" tvg-logo="https://i.imgur.com/xDuUrj9.png" group-title="Culture",Olelo 53 (720p)
 https://cdn3.wowza.com/5/V2Y2VmhqMEFDTUkx/olelo/G0125_011/playlist.m3u8
 #EXTINF:-1 tvg-id="OmanTVCultural.om@SD" tvg-country="OM" tvg-name="Oman TV Cultural" tvg-logo="https://i.imgur.com/b38wNPK.png" group-title="Culture",Oman TV Cultural (1080p)
