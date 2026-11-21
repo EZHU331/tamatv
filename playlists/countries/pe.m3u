@@ -63,12 +63,12 @@ https://www.opencaster.com/resources/hls_stream/cultura24.m3u8
 http://187.102.210.46/USMP/index.m3u8
 #EXTINF:-1 tvg-id="FolkloreTV.pe@SD" tvg-country="PE" tvg-name="Folklore TV" tvg-logo="https://i.imgur.com/QdOGJes.png" group-title="Music",Folklore TV (720p)
 https://play.folkloretv.pe/StreamSD/index.m3u8
-#EXTINF:-1 tvg-id="GalacticaTV.pe@SD" tvg-country="PE" tvg-name="Galactica TV" tvg-logo="https://i.imgur.com/byL1zCV.jpeg" group-title="Music",Galactica TV
-https://stream.neux.site/memfs/e3f59eec-6b93-45e1-a2ab-c82381c2a9ec.m3u8
 #EXTINF:-1 tvg-id="Karibena.pe@SD" tvg-country="PE" tvg-name="Karibena" tvg-logo="https://i.imgur.com/cgHjg1e.png" group-title="Music",Karibena (720p)
 http://187.102.210.46/KARIBENA/index.m3u8
 #EXTINF:-1 tvg-id="LaFabulosaTV.pe@SD" tvg-country="PE" tvg-name="La Fabulosa TV" tvg-logo="https://i.imgur.com/GjME5H0.png" group-title="Music",La Fabulosa TV (720p)
 https://eu1.servers10.com:8081/8004/index.m3u8
+#EXTINF:-1 tvg-id="MetropolitanadelCuzco.pe@SD" tvg-country="PE" tvg-name="Metropolitana del Cuzco" tvg-logo="https://i.imgur.com/0B04qgM.png" group-title="Music",Metropolitana del Cuzco
+https://video1.earthcam.com/myearthcam/075ff02f78c35af55564cf3af3b3f750.flv/playlist.m3u8
 #EXTINF:-1 tvg-id="MielTV.pe@SD" tvg-country="PE" tvg-name="Miel TV" tvg-logo="https://i.imgur.com/dPSFrCs.png" group-title="Music",Miel TV (720p)
 https://live-evg5.tv360.bitel.com.pe/bitel/mieltvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="Millenium109FM.pe@SD" tvg-country="PE" tvg-name="Millenium 109 FM" tvg-logo="https://i.imgur.com/sfNL6Bv.png" group-title="Music",Millenium 109 FM
@@ -103,12 +103,12 @@ http://187.102.210.46/JN19/index.m3u8
 http://187.102.210.46/IPE/index.m3u8
 #EXTINF:-1 tvg-id="36TVHuacho.pe@SD" tvg-country="PE" tvg-name="36 TV Huacho" tvg-logo="https://i.imgur.com/F4NZM3s.jpeg" group-title="General",36 TV Huacho (720p)
 https://live-evg10.tv360.bitel.com.pe/bitel/36tvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCTeleshow.pe@SD" tvg-country="PE" tvg-name="ABC Teleshow" tvg-logo="https://i.imgur.com/cF7gJ2Q.jpeg" group-title="General",ABC Teleshow (720p)
+https://live-evg10.tv360.bitel.com.pe/bitel/abctv/playlist.m3u8
 #EXTINF:-1 tvg-id="ABTelevision.pe@SD" tvg-country="PE" tvg-name="ABTelevision" tvg-logo="https://i.imgur.com/tqMDscD.png" group-title="General",ABTelevision (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/abctelevisionSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AmazoniaTV.pe@SD" tvg-country="PE" tvg-name="Amazonia TV" tvg-logo="https://i.imgur.com/sSW7d8e.png" group-title="General",Amazonia TV
 https://servilive.com:3199/live/amazoniatvlive.m3u8
-#EXTINF:-1 tvg-id="AmazonicaTV.pe@SD" tvg-country="PE" tvg-name="Amazonica TV" tvg-logo="https://i.imgur.com/22ebHAX.jpeg" group-title="General",Amazonica TV (720p)
-https://live-evg8.tv360.bitel.com.pe/bitel/amazonicatvSRT/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaTelevision.pe@SD" tvg-country="PE" tvg-name="America Television" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Am%C3%A9rica_HD.svg/960px-Am%C3%A9rica_HD.svg.png?utm_source=es.wikipedia.org&utm_campaign=index&utm_content=thumbnail" group-title="General",America Television (1080p)
 http://190.93.224.42/AMERICA-TV/index.m3u8
 #EXTINF:-1 tvg-id="AntenaSUR.pe@SD" tvg-country="PE" tvg-name="Antena SUR" tvg-logo="https://i.imgur.com/4aHrD2l.jpeg" group-title="General",Antena SUR (720p)
@@ -147,6 +147,8 @@ https://live.obslivestream.com/crtvmux/index.m3u8
 https://7.innovatestream.pe:19360/cvntumbes/cvntumbes.m3u8
 #EXTINF:-1 tvg-id="DacTV.pe@SD" tvg-country="PE" tvg-name="Dac TV" tvg-logo="https://i.imgur.com/g4pZ3ZW.jpeg" group-title="General",Dac TV (720p)
 https://live-evg8.tv360.bitel.com.pe/bitel/dactvSRT/playlist.m3u8
+#EXTINF:-1 tvg-id="DeltaTV.pe@SD" tvg-country="PE" tvg-name="DeltaTV" tvg-logo="https://i.imgur.com/crttwAR.png" group-title="General",DeltaTV
+https://tv2.bitstreaming.net:3539/live/deltanetlive.m3u8
 #EXTINF:-1 tvg-id="DobleCTelevision.pe@SD" tvg-country="PE" tvg-name="Doble C Television" tvg-logo="https://i.imgur.com/2zCD4TB.png" group-title="General",Doble C Television (720p)
 https://live20.bozztv.com/giatv/giatv-doblec1/doblec1/playlist.m3u8
 #EXTINF:-1 tvg-id="DTV.pe@SD" tvg-country="PE" tvg-name="DTV" tvg-logo="https://i.imgur.com/OSvegAq.png" group-title="General",DTV (Peru) (720p)
