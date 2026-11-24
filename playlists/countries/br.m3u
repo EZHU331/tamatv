@@ -135,8 +135,6 @@ https://eitv7.cdn.broadpeak.io/account351-i1495/event/canalsaude/format720p.m3u8
 http://170.83.49.66:8083/FUTURAHD/index.m3u8
 #EXTINF:-1 tvg-id="ISTV.br@SD" tvg-country="BR" tvg-name="ISTV" tvg-logo="https://i.imgur.com/RUKVrOH.png" group-title="Education",ISTV (Brazil) (720p)
 https://stmv1.srvstm.com/sistema7933/sistema7933/playlist.m3u8
-#EXTINF:-1 tvg-id="RedeMinas.br@SD" tvg-country="BR" tvg-name="Rede Minas" tvg-logo="https://i.imgur.com/MtQWAHv.png" group-title="Education",Rede Minas (720p)
-https://8hzcavccys.zoeweb.tv/redeminas/ngrp:redeminas_all/playlist.m3u8
 #EXTINF:-1 tvg-id="SantaCeciliaTV.br@SD" tvg-country="BR" tvg-name="Santa Cecilia TV" tvg-logo="https://i.imgur.com/KxYsq1d.png" group-title="Education",Santa Cecilia TV (1080p)
 https://5fb29de4928ea.streamlock.net/2063/2063/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUFOP.br@HD" tvg-country="BR" tvg-name="TV UFOP" tvg-logo="https://raw.githubusercontent.com/daniloroxette/tvufop/refs/heads/main/images/tvufop_logo.png" group-title="Education",TV UFOP (1080p)
@@ -163,6 +161,8 @@ http://200.189.113.201/hls/tve.m3u8
 http://45.162.230.234:1935/agrobrasiltv/agrobrasiltv/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaldoCriador.br@SD" tvg-country="BR" tvg-name="Canal do Criador" tvg-logo="https://i.imgur.com/k29So6X.png" group-title="Outdoor",Canal do Criador (1080p)
 https://607d2a1a47b1f.streamlock.net/crur/smil:canaldocriador.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalRural.br@SD" tvg-country="BR" tvg-name="Canal Rural" tvg-logo="https://i.imgur.com/w9R9IIX.png" group-title="Outdoor",Canal Rural (720p)
+http://170.83.49.66:8083/CANALRURALHD/index.m3u8
 #EXTINF:-1 tvg-id="TerraViva.br@SD" tvg-country="BR" tvg-name="Terra Viva" tvg-logo="https://i.imgur.com/wnYsE3O.png" group-title="Outdoor",Terra Viva (720p)
 http://45.177.114.115/TERRAVIVA/index.m3u8
 #EXTINF:-1 tvg-id="AutoTV.br" tvg-country="BR" tvg-name="Auto TV" tvg-logo="https://i.imgur.com/FRnE50u.png" group-title="Auto",Auto TV (720p)
@@ -177,6 +177,8 @@ https://stmv1.srvstm.com/piaui8071/piaui8071/playlist.m3u8
 https://stream3.camara.gov.br/tv1/manifest.m3u8
 #EXTINF:-1 tvg-id="DespertarTV.br@HD" tvg-country="BR" tvg-name="Despertar TV" tvg-logo="https://res.cloudinary.com/dpkehkbpv/image/upload/v1721839192/logo/mixtv/despertar_tv_ieb2l3.png" group-title="Religious",Despertar TV (720p)
 https://br.conectmy.com.br/DespertarTV/index.m3u8
+#EXTINF:-1 tvg-id="FonteTV.br@SD" tvg-country="BR" tvg-name="Fonte TV" tvg-logo="https://i.imgur.com/7q2BmNc.png" group-title="Religious",Fonte TV
+https://59fb88a1b1108.streamlock.net/fonte/_definst_/fontetv/chunklist_w1224511652.m3u8
 #EXTINF:-1 tvg-id="IMPDTVWorldwide.br@SD" tvg-country="BR" tvg-name="IMPD TV Worldwide" tvg-logo="https://i.imgur.com/9dW3AUQ.png" group-title="Religious" http-referrer="https://igrejamundial.nuvemplay.live",IMPD TV Worldwide (1080p)
 #EXTVLCOPT:http-referrer=https://igrejamundial.nuvemplay.live
 https://igrejamundial.nuvemplay.live/hls/stream.m3u8
@@ -218,6 +220,8 @@ https://5b01a3d32b65c.streamlock.net:1936/tvalpha/tvalpha/playlist.m3u8
 https://amazonsat.brasilstream.com.br/hls/amazonsat/index.m3u8
 #EXTINF:-1 tvg-id="Band.br@SD" tvg-country="BR" tvg-name="Band" tvg-logo="https://i.imgur.com/1r5T6Pw.png" group-title="General",Band (720p)
 http://170.84.165.204/BAND_HD/index.m3u8
+#EXTINF:-1 tvg-id="BoasNovas.br@SD" tvg-country="BR" tvg-name="Boas Novas" tvg-logo="https://i.imgur.com/ZqhizdP.png" group-title="General",Boas Novas (1080p)
+https://cdn.jmvstream.com/w/LVW-9375/LVW9375_6i0wPBCHYc/playlist.m3u8
 #EXTINF:-1 tvg-id="CanaldoBoi.br@SD" tvg-country="BR" tvg-name="Canal do Boi" tvg-logo="https://i.imgur.com/pVM5MhS.png" group-title="General",Canal do Boi (720p)
 http://170.83.16.50/CANAL_DO_BOI/index.m3u8
 #EXTINF:-1 tvg-id="CanalUOL.br@SD" tvg-country="BR" tvg-name="Canal UOL" tvg-logo="https://conteudo.imguol.com.br/c/play/logo_canaluol_2024.svg" group-title="General",Canal UOL (1080p)
@@ -276,6 +280,8 @@ https://playplusrjo-lh.akamaihd.net/i/pp_rj@377859/index_720_av-p.m3u8
 https://playplusspo-lh.akamaihd.net/i/pp_sp@350176/index_720_av-p.m3u8
 #EXTINF:-1 tvg-id="RedeBrasil.br@SD" tvg-country="BR" tvg-name="Rede Brasil" tvg-logo="https://i.imgur.com/TXJKwzZ.png" group-title="General",Rede Brasil (1080p)
 https://redebrasil.nuvemplay.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="RedeCNTRiodeJaneiro.br@SD" tvg-country="BR" tvg-name="Rede CNT Rio de Janeiro" tvg-logo="https://i.imgur.com/jcasAmw.png" group-title="General",Rede CNT Rio de Janeiro (720p)
+http://170.83.49.66:8083/REDECNTHD/index.m3u8
 #EXTINF:-1 tvg-id="RedeCNTSalvador.br@SD" tvg-country="BR" tvg-name="Rede CNT Salvador" tvg-logo="https://i.imgur.com/jcasAmw.png" group-title="General" http-user-agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64;rv:60.0)Gecko/20100101 Firefox/67.0",Rede CNT Salvador (576i)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64;rv:60.0)Gecko/20100101 Firefox/67.0
 http://168.205.87.198:8555/live/1368/123456/150.m3u8
@@ -336,8 +342,6 @@ https://televisaocidadeverde.brasilstream.com.br/hls/televisaocidadeverde/index.
 https://5c483b9d1019c.streamlock.net/8186/8186/playlist.m3u8
 #EXTINF:-1 tvg-id="TVCultura.br@SD" tvg-country="BR" tvg-name="TV Cultura" tvg-logo="https://i.ibb.co/nm0jXMM/cultura-3x.png" group-title="General",TV Cultura (720p)
 http://45.177.114.115/TV_CULTURA/index.m3u8
-#EXTINF:-1 tvg-id="TVDiarioMacapa.br@SD" tvg-country="BR" tvg-name="TV Diario Macapa" tvg-logo="https://i.imgur.com/yAW2Z5j.jpg" group-title="General",TV Diario Macapa (1080p)
-https://5ad482a77183d.streamlock.net/marliomelohotmail.com/marliomelohotmail.com/playlist.m3u8
 #EXTINF:-1 tvg-id="TVDifusao.br@SD" tvg-country="BR" tvg-name="TV Difusao" tvg-logo="https://storage.googleapis.com/soultv-prod-media/media/brand/LOGO_TV_DIFUS%C3%83O_100x100px_doiivZN.png" group-title="General",TV Difusao (720p)
 https://tvdsoultv.acessaradios.com.br/tvdsoultv/tvdsoultv.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TVEncontrodasAguas.br@SD" tvg-country="BR" tvg-name="TV Encontro das Aguas" group-title="General",TV Encontro das Aguas

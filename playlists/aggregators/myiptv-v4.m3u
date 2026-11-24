@@ -37,8 +37,8 @@ https://zby.130519.xyz/PLTV/11/224/3221226147/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221226120/index.m3u8
 #EXTINF:-1 tvg-id="卫视健康" tvg-name="卫生健康" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/卫生健康.png" group-title="央视",CCTV-卫生健康
 http://nas.hssvm.com:8888/udp/225.1.1.210:5002
-#EXTINF:-1 tvg-id="CCTV中学生" tvg-name="CCTV中学生" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV中学生.png" group-title="央视",CCTV中学生
-http://t.061899.xyz/tl/tl.php?id=zxs
+#EXTINF:-1 tvg-id="CCTV老故事" tvg-name="CCTV老故事" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/CCTV老故事.png" group-title="央视",CCTV老故事
+http://t.061899.xyz/tl/tl.php?id=lgs
 #EXTINF:-1 tvg-id="CETV3" tvg-country="CN" tvg-name="CETV3" tvg-logo="https://i.imgur.com/nkXzRJ6.png" group-title="央视",CETV-3 教育服务
 http://rrs01.hw.gmcc.net:8088/PLTV/81/224/3221226722/1.m3u8
 #EXTINF:-1 tvg-id="CETV4" tvg-country="CN" tvg-name="CETV4" tvg-logo="https://i.imgur.com/a1N6wB7.png" group-title="央视",CETV-4 职业教育
@@ -51,18 +51,34 @@ http://russian-livews.cgtn.com/hls/LSvexABhNipibK5KRuUkvHZ7220802LSTeze9o8tdFXMH
 http://espanol-liveali.cgtn.com/hls/LSveOGBaBw41Ea7ukkVAUdKQ220802LSTexu6xAuFH8VZNBLE1ZNEa220802cd.m3u8
 #EXTINF:-1 tvg-id="CGTN纪录" tvg-name="CGTN纪录" tvg-logo="https://live.fanmingming.cn/tv/CGTN纪录.png" group-title="央视",CGTN记录
 https://english-livetx.cgtn.com/hls/yypdjlctzb_hd.m3u8
+#EXTINF:-1 tvg-id="CHCAction.cn" tvg-country="CN" tvg-name="CHC动作电影" tvg-logo="https://i.imgur.com/AuiVcyh.png" group-title="央视",CHC动作电影
+http://t.061899.xyz/tl/tl.php?id=chcdzdy
+#EXTINF:-1 tvg-id="ColorfulDramaChannel.cn" tvg-country="CN" tvg-name="七彩戏剧" tvg-logo="https://i.imgur.com/1pprDEC.png" group-title="央视",七彩戏剧
+http://t.061899.xyz/tl/tl.php?id=qcxj
+#EXTINF:-1 tvg-id="ICS.cn" tvg-country="CN" tvg-name="上海外语" tvg-logo="https://i.imgur.com/iHGKPCO.png" group-title="央视",上海外语
+http://t.061899.xyz/tl/tl.php?id=shics
+#EXTINF:-1 tvg-id="上海新闻综合" tvg-name="上海新闻综合" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/上海新闻综合.png" group-title="央视",上海新闻综合
+http://t.061899.xyz/tl/tl.php?id=shxwzh
 #EXTINF:-1 tvg-id="上海第一财经" tvg-name="上海第一财经" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/上海第一财经.png" group-title="央视",上海第一财经
 http://t.061899.xyz/tl/tl.php?id=dycj
 #EXTINF:-1 tvg-id="上海纪实" tvg-name="上海纪实" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/上海纪实.png" group-title="央视",上海纪实
 http://iptv.huuc.edu.cn/hls/docuchina.m3u8
+#EXTINF:-1 tvg-id="上视纪实人文" tvg-name="上视纪实人文" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/上视纪实人文.png" group-title="央视",上视纪实人文
+http://t.061899.xyz/tl/tl.php?id=shjsrw
 #EXTINF:-1 tvg-id="中国交通" tvg-name="中国交通" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/中国交通.png" group-title="央视",中国交通
 http://drive.mxmy.net:8888/udp/239.3.1.188:8001
 #EXTINF:-1 tvg-id="中国天气" tvg-name="中国天气" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/中国天气.png" group-title="央视",中国天气
 http://hls.weathertv.cn/tslslive/qCFIfHB/hls/live_sd.m3u8
+#EXTINF:-1 tvg-id="优漫卡通" tvg-name="优漫卡通" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/优漫卡通.png" group-title="央视",优漫卡通
+http://t.061899.xyz/tl/tl.php?id=ymkt
+#EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/内蒙古卫视.png" group-title="央视",内蒙古卫视
+http://t.061899.xyz/tl/tl.php?id=nmws
 #EXTINF:-1 tvg-id="劲爆体育" tvg-name="劲爆体育" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/劲爆体育.png" group-title="央视",劲爆体育
 http://t.061899.xyz/tl/tl.php?id=jbty
 #EXTINF:-1 tvg-id="北京新闻" tvg-name="北京新闻" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/北京新闻.png" group-title="央视",北京新闻
 http://iptv.huuc.edu.cn/hls/btv9hd.m3u8
+#EXTINF:-1 tvg-id="SihaiFishingChannel.cn" tvg-country="CN" tvg-name="四海钓鱼" tvg-logo="https://i.imgur.com/BCJes2k.png" group-title="央视",四海钓鱼
+http://t.061899.xyz/tl/tl.php?id=shdy
 #EXTINF:-1 tvg-id="大湾区卫视" tvg-name="大湾区卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/大湾区卫视.png" group-title="央视",大湾区卫视
 http://t.061899.xyz/tl/tl.php?id=dwqws
 #EXTINF:-1 tvg-id="NingxiaSatelliteChannel.cn" tvg-country="CN" tvg-name="宁夏卫视" tvg-logo="https://i.imgur.com/nUQE4Ib.png" group-title="央视",宁夏卫视
@@ -152,9 +168,6 @@ https://zby.130519.xyz/PLTV/11/224/3221225728/index.m3u8
 https://zby.130519.xyz/PLTV/11/224/3221225729/index.m3u8
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/湖南卫视.png" group-title="卫视",湖南卫视
 https://zby.130519.xyz/PLTV/11/224/3221225726/index.m3u8
-#EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/湖南卫视4K.png" group-title="卫视" http-user-agent="aliplayer",湖南卫视4K
-#EXTVLCOPT:http-user-agent=aliplayer
-http://8.138.7.223/tv/api.php?id=hnws4k
 #EXTINF:-1 tvg-id="澳亚卫视" tvg-name="澳亚卫视" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Aoya.png" group-title="卫视",澳亚卫视
 http://cdn9.163189.xyz/live/as/stream.m3u8
 #EXTINF:-1 tvg-id="澳门卫视" tvg-name="澳门卫视" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Aoshi1.png" group-title="卫视",澳门卫视
@@ -292,7 +305,7 @@ https://cdn6.163189.xyz/163189/asam
 #EXTINF:-1 tvg-id="iQIYI.cn" tvg-country="CN" tvg-name="爱奇艺" tvg-logo="https://i.imgur.com/LA3gBcn.png" group-title="港澳台",爱奇艺
 http://php.jdshipin.com/smt.php?id=Qiyi
 #EXTINF:-1 tvg-id="特种兵之火凤凰" tvg-name="特种兵之火凤凰" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/特种兵之火凤凰.png" group-title="港澳台",特种兵之火凤凰
-https://live.ottiptv.cc/huya/29982636
+https://live.metshop.top/huya/29982636
 #EXTINF:-1 tvg-id="环球电视" tvg-name="环球电视" tvg-logo="https://live.fanmingming.cn/tv/环球电视台.png" group-title="港澳台",环球电视
 http://utv1.hqtvzb.com:9999/hls/world.m3u8
 #EXTINF:-1 tvg-id="纬来电影" tvg-name="纬来电影台" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/gangaotai/Weilai4.png" group-title="港澳台",纬来电影
@@ -311,8 +324,6 @@ http://live4play.uk/livehttpplay?channel_id=12037
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=595
 #EXTINF:-1 tvg-id="韩国电影2" tvg-name="韩国电影2" tvg-logo="https://live.fanmingming.cn/tv/韩国电影2.png" group-title="港澳台",韩国电影2
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=743
-#EXTINF:-1 tvg-id="龙华戏剧" tvg-name="龙华戏剧" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/LTV4.png" group-title="港澳台",龙华戏剧
-https://cdn8.163189.xyz/live/lhxj/stream.m3u8
 #EXTINF:-1 tvg-id="1987年春晚" tvg-name="1987年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="地方",1987年春晚
 https://txmov2.a.kwimgs.com/bs3/video-hls/5195746663405928031_hlsb.m3u8
 #EXTINF:-1 tvg-id="1988年春晚" tvg-name="1988年春晚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/春晚.png" group-title="地方",1988年春晚
@@ -419,9 +430,9 @@ http://r.jdshipin.com/vSJvl
 #EXTINF:-1 tvg-id="七台河民生社教" tvg-name="七台河民生社教" tvg-logo="https://live.fanmingming.cn/tv/七台河民生社教.png" group-title="地方",七台河民生社教
 http://live.qthnews.org.cn:1935/live/live2/800k/tzwj_video.m3u8
 #EXTINF:-1 tvg-id="七龙珠" tvg-name="七龙珠" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/七龙珠.png" group-title="地方",七龙珠
-https://live.ottiptv.cc/huya/11601966
+https://live.metshop.top/huya/11601966
 #EXTINF:-1 tvg-id="三国演义" tvg-name="三国演义" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/三国演义.png" group-title="地方",三国演义
-https://live.ottiptv.cc/huya/11602081
+https://live.metshop.top/huya/11602081
 #EXTINF:-1 tvg-id="三明综合" tvg-name="三明综合" tvg-logo="https://live.fanmingming.cn/tv/三明综合.png" group-title="地方",三明综合
 http://8.138.7.223/tv/fjtv1.php?id=sm1
 #EXTINF:-1 tvg-id="上海教育" tvg-name="上海教育" tvg-logo="https://live.fanmingming.cn/tv/上海教育.png" group-title="地方",上海教育
@@ -429,31 +440,31 @@ http://61.173.144.157:9901/tsfile/live/1007_1.m3u8
 #EXTINF:-1 tvg-id="上海都市" tvg-name="上海都市" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/上海都市.png" group-title="地方",上海都市
 https://zby.130519.xyz/PLTV/11/224/3221225749/index.m3u8
 #EXTINF:-1 tvg-id="与凤行" tvg-name="与凤行" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",与凤行
-https://live.ottiptv.cc/huya/26355866
+https://live.metshop.top/huya/26355866
 #EXTINF:-1 tvg-id="东方财经" tvg-name="东方财经" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/东方财经.png" group-title="地方",东方财经
 https://zby.130519.xyz/PLTV/11/224/3221226134/index.m3u8
 #EXTINF:-1 tvg-id="中华小当家" tvg-name="中华小当家" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/中华小当家.png" group-title="地方",中华小当家
-https://live.ottiptv.cc/huya/11342413
+https://live.metshop.top/huya/11342413
 #EXTINF:-1 tvg-id="ChineseSpecialityChannel.cn" tvg-country="CN" tvg-name="Chinese Speciality Channel" tvg-logo="https://i.imgur.com/mP34i7z.png" group-title="地方",中华特产
 http://120.76.248.139/live/bfgd/4200000158.m3u8
 #EXTINF:-1 tvg-id="乌龙闯情关" tvg-name="乌龙闯情关" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/乌龙闯情关.png" group-title="地方",乌龙闯情关
-https://live.ottiptv.cc/huya/26355767
+https://live.metshop.top/huya/26355767
 #EXTINF:-1 tvg-id="乐游频道" tvg-name="乐游频道" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/乐游频道.png" group-title="地方",乐游频道
 https://zby.130519.xyz/PLTV/11/224/3221226157/index.m3u8
 #EXTINF:-1 tvg-id="乐至综合" tvg-name="乐至综合" tvg-logo="https://live.fanmingming.com/tv/%E4%B9%90%E8%87%B3%E7%BB%BC%E5%90%88.png" group-title="地方",乐至综合
 http://175.155.106.72:89/live1/live1.m3u8?zsicd
 #EXTINF:-1 tvg-id="亮剑" tvg-name="亮剑" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/亮剑.png" group-title="地方",亮剑
-https://live.ottiptv.cc/huya/30080238
+https://live.metshop.top/huya/30080238
 #EXTINF:-1 tvg-id="仙剑奇侠传" tvg-name="仙剑奇侠传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/仙剑奇侠传.png" group-title="地方",仙剑奇侠传
-https://live.ottiptv.cc/yy/1382749903
+https://live.metshop.top/yy/1382749903
 #EXTINF:-1 tvg-id="优优宝贝" tvg-name="优优宝贝" tvg-logo="https://live.fanmingming.com/tv/%E4%BC%98%E4%BC%98%E5%AE%9D%E8%B4%9D.png" group-title="地方",优优宝贝
 http://120.76.248.139/live/bfgd/4200000153.m3u8
 #EXTINF:-1 tvg-id="伪装者" tvg-name="伪装者" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/伪装者.png" group-title="地方",伪装者
-https://live.ottiptv.cc/yy/1354936244
+https://live.metshop.top/yy/1354936244
 #EXTINF:-1 tvg-id="使徒行者" tvg-name="使徒行者" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",使徒行者
 https://live.metshop.top/huya/23734256
 #EXTINF:-1 tvg-id="倚天屠龙记" tvg-name="倚天屠龙记" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/倚天屠龙记苏有朋.png" group-title="地方",倚天屠龙记
-https://live.ottiptv.cc/huya/11342403
+https://live.metshop.top/huya/11342403
 #EXTINF:-1 tvg-id="内蒙古农牧" tvg-name="内蒙古农牧" tvg-logo="https://live.fanmingming.cn/tv/内蒙古农牧.png" group-title="地方",内蒙农牧
 https://livestream-bt.nmtv.cn/nmtv/2320general.m3u8?txSecret=4d368a175afa19737a9f5be10af24fe2&txTime=771E8800
 #EXTINF:-1 tvg-id="内蒙古文体娱乐" tvg-name="内蒙古文体娱乐" tvg-logo="https://live.fanmingming.cn/tv/内蒙古文体娱乐.png" group-title="地方",内蒙文体
@@ -477,7 +488,7 @@ https://tencentplay.gztv.com/live/nanguodushi.m3u8?txSecret=550af55c0ea34ce49274
 #EXTINF:-1 tvg-id="南平综合" tvg-name="南平综合" tvg-logo="https://live.fanmingming.cn/tv/南平综合.png" group-title="地方",南平综合
 http://8.138.7.223/tv/fjtv1.php?id=np1
 #EXTINF:-1 tvg-id="名侦探柯南" tvg-name="名侦探柯南" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/名侦探柯南.png" group-title="地方",名侦探柯南
-https://live.ottiptv.cc/huya/30080236
+https://live.metshop.top/huya/30080236
 #EXTINF:-1 tvg-id="咪咕视频4K" tvg-name="咪咕视频4K" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/咪咕视频4K.png" group-title="地方",咪咕视频4K
 http://r.jdshipin.com/ln4xk
 #EXTINF:-1 tvg-id="咪咕视频4K-2" tvg-name="咪咕视频4K-2" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/咪咕视频4K-2.png" group-title="地方",咪咕视频4K-2
@@ -593,7 +604,7 @@ http://vip.lqcc.xyz:35455/itv/3000000010000031669.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-id="咪咕赛事播53" tvg-name="咪咕赛事播53" tvg-logo="https://epg.iill.top/logo/咪咕.png" group-title="地方",咪咕赛事播53
 http://vip.lqcc.xyz:35455/itv/3000000010000032106.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-id="哆啦A梦" tvg-name="哆啦A梦" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/哆啦A梦.png" group-title="地方",哆啦A梦
-https://live.ottiptv.cc/huya/11601963
+https://live.metshop.top/huya/11601963
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/哈哈炫动.png" group-title="地方",哈哈炫动
 https://zby.130519.xyz/PLTV/11/224/3221226161/index.m3u8
 #EXTINF:-1 tvg-id="哈尔滨娱乐" tvg-name="哈尔滨娱乐" tvg-logo="https://live.fanmingming.cn/tv/哈尔滨娱乐.png" group-title="地方",哈尔滨娱乐
@@ -605,9 +616,9 @@ http://stream.hrbtv.net/zxpd/sd/live.m3u8?zheild
 #EXTINF:-1 tvg-id="哒啵电竞" tvg-name="哒啵电竞" tvg-logo="https://live.fanmingming.cn/tv/哒啵电竞.png" group-title="地方",哒啵电竞
 http://111.22.153.159:35455/itv/1000000006000032327.m3u8?cdn=ystenlive
 #EXTINF:-1 tvg-id="唐诡之西行" tvg-name="唐诡之西行" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",唐诡之西行
-https://live.ottiptv.cc/huya/26355763
+https://live.metshop.top/huya/26355763
 #EXTINF:-1 tvg-id="喜羊羊与灰太狼" tvg-name="喜羊羊与灰太狼" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/喜羊羊灰太狼.png" group-title="地方",喜羊羊与灰太狼
-https://live.ottiptv.cc/huya/23865080
+https://live.metshop.top/huya/23865080
 #EXTINF:-1 tvg-id="四川乡村" tvg-name="四川乡村" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/sichuan/Sichuan6.png" group-title="地方",四川公共乡村
 http://wouu.net:9977/udp/239.93.0.52:5140
 #EXTINF:-1 tvg-id="四川文化旅游" tvg-name="四川文化旅游" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/sichuan/Sichuan2.png" group-title="地方",四川文化旅游
@@ -617,19 +628,19 @@ http://182.150.115.21:8030/pcgacg/pcgacg_0.m3u8
 #EXTINF:-1 tvg-id="四川经济" tvg-name="四川经济" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/sichuan/Sichuan1.png" group-title="地方",四川经济
 http://wouu.net:9977/udp/239.93.1.101:5140
 #EXTINF:-1 tvg-id="士兵突击" tvg-name="士兵突击" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/士兵突击.png" group-title="地方",士兵突击
-https://live.ottiptv.cc/huya/11342430
+https://live.metshop.top/huya/11342430
 #EXTINF:-1 tvg-id="大唐双龙传" tvg-name="大唐双龙传" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",大唐双龙传
 https://live.metshop.top/huya/29465850
 #EXTINF:-1 tvg-id="大时代" tvg-name="大时代" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",大时代
 https://live.metshop.top/huya/23865161
 #EXTINF:-1 tvg-id="大秦赋" tvg-name="大秦赋" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",大秦赋
-https://live.ottiptv.cc/huya/23903130
+https://live.metshop.top/huya/23903130
 #EXTINF:-1 tvg-id="天元围棋" tvg-name="天元围棋" tvg-logo="https://live.fanmingming.cn/tv/天元围棋.png" group-title="地方",天元围棋
 http://wouu.net:9977/udp/239.93.42.55:5140
 #EXTINF:-1 tvg-id="天龙八部" tvg-name="天龙八部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/天龙八部.png" group-title="地方",天龙八部
-https://live.ottiptv.cc/huya/20985816
+https://live.metshop.top/huya/20985816
 #EXTINF:-1 tvg-id="如懿传" tvg-name="如懿传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",如懿传
-https://live.ottiptv.cc/huya/29465868
+https://live.metshop.top/huya/29465868
 #EXTINF:-1 tvg-id="妙手仁心" tvg-name="妙手仁心" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",妙手仁心
 https://live.metshop.top/huya/29465853
 #EXTINF:-1 tvg-id="NX01" tvg-name="宁夏公共" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/ningxia/Ningxia1.png" group-title="地方",宁夏公共
@@ -641,17 +652,17 @@ https://hls.ningxiahuangheyun.com/live/nxjj1M.m3u8
 #EXTINF:-1 tvg-id="安徽经济生活" tvg-name="安徽经济生活" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/anhui/Anhui1.png" group-title="地方",安徽经济生活
 http://112.30.194.221:20080/live/eac499adad7b49ff9cfa79ba84693959/hls.m3u8
 #EXTINF:-1 tvg-id="寻秦记" tvg-name="寻秦记" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",寻秦记
-https://live.metshop.top/huya/29465848
+https://live.metshop.top/huya/30080146
 #EXTINF:-1 tvg-id="封神榜" tvg-name="封神榜" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",封神榜
 https://live.metshop.top/huya/29465849
 #EXTINF:-1 tvg-id="射雕英雄传" tvg-name="射雕英雄传" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",射雕英雄传
 https://live.metshop.top/huya/23824164
 #EXTINF:-1 tvg-id="少年包青天第一部" tvg-name="少年包青天第一部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/少年包青天.png" group-title="地方",少年包青天第一部
-https://live.ottiptv.cc/yy/1356043677
+https://live.metshop.top/yy/1356043677
 #EXTINF:-1 tvg-id="少年包青天第三部" tvg-name="少年包青天第三部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/少年包青天3.png" group-title="地方",少年包青天第三部
-https://live.ottiptv.cc/yy/1382736814
+https://live.metshop.top/yy/1382736814
 #EXTINF:-1 tvg-id="少年包青天第二部" tvg-name="少年包青天第二部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/少年包青天2.png" group-title="地方",少年包青天第二部
-https://live.ottiptv.cc/huya/11342425
+https://live.metshop.top/huya/11342425
 #EXTINF:-1 tvg-id="SX05" tvg-name="山西文体生活" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/shanxi1/shanxi_5.png" group-title="地方",山西文体生活
 http://liveflash.sxrtv.com/live/sxpublic.m3u8?sub_m3u8=true&edge_slice=true
 #EXTINF:-1 tvg-id="SX04" tvg-name="山西社会与法治" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/shanxi1/Shanxi_3.png" group-title="地方",山西社会与法治
@@ -683,27 +694,27 @@ http://8.138.7.223/tv/gzjs.m3u8
 #EXTINF:-1 tvg-id="广州综合" tvg-name="广州综合" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/广州综合.png" group-title="地方",广州综合
 http://r.jdshipin.com/iR6Gq
 #EXTINF:-1 tvg-id="庆余年" tvg-name="庆余年" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/庆余年.png" group-title="地方",庆余年
-https://live.ottiptv.cc/huya/11352960
+https://live.metshop.top/huya/11352960
 #EXTINF:-1 tvg-id="康熙微服私访记" tvg-name="康熙微服私访记" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",康熙微服私访记
-https://live.ottiptv.cc/huya/11342418
+https://live.metshop.top/huya/11342418
 #EXTINF:-1 tvg-id="康熙王朝" tvg-name="康熙王朝" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/康熙王朝.png" group-title="地方",康熙王朝
-https://live.ottiptv.cc/huya/11352940
+https://live.metshop.top/huya/11352940
 #EXTINF:-1 tvg-id="延禧攻略" tvg-name="延禧攻略" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/延禧攻略.png" group-title="地方",延禧攻略
-https://live.ottiptv.cc/huya/26355864
+https://live.metshop.top/huya/26355864
 #EXTINF:-1 tvg-id="快乐垂钓" tvg-name="快乐垂钓" tvg-logo="https://live.fanmingming.cn/tv/快乐垂钓.png" group-title="地方",快乐垂钓
 http://drive.mxmy.net:8888/udp/239.3.1.164:8001
 #EXTINF:-1 tvg-id="我是特种兵之利刃出鞘" tvg-name="我是特种兵之利刃出鞘" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/利刃出鞘.png" group-title="地方",我是特种兵之利刃出鞘
-https://live.ottiptv.cc/yy/37999586
+https://live.metshop.top/yy/37999586
 #EXTINF:-1 tvg-id="扫黄先锋" tvg-name="扫黄先锋" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",扫黄先锋
 https://live.metshop.top/huya/29465855
 #EXTINF:-1 tvg-id="新三国" tvg-name="新三国" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/新三国.png" group-title="地方",新三国
-https://live.ottiptv.cc/huya/11352944
+https://live.metshop.top/huya/11352944
 #EXTINF:-1 tvg-id="新三国（斗鱼）" tvg-name="新三国（斗鱼）" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/新三国.png" group-title="地方",新三国（斗鱼）
-https://live.ottiptv.cc/douyu/5908256
+https://live.metshop.top/douyu/5908256
 #EXTINF:-1 tvg-id="新水浒传" tvg-name="新水浒传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/新水浒.png" group-title="地方",新水浒传
-https://live.ottiptv.cc/huya/11342384
+https://live.metshop.top/huya/11342384
 #EXTINF:-1 tvg-id="新白娘子传奇" tvg-name="新白娘子传奇" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/新白娘子传奇.png" group-title="地方",新白娘子传奇
-https://live.ottiptv.cc/yy/1354490667
+https://live.metshop.top/yy/1354490667
 #EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://live.fanmingming.cn/tv/纪实人文.png" group-title="地方",新纪实
 http://bp-resource-dfl.bestv.cn/155/3/video.m3u8
 #EXTINF:-1 tvg-id="新视觉" tvg-name="新视觉" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/xsj.png" group-title="地方",新视觉HD
@@ -712,18 +723,20 @@ http://120.76.248.139/live/bfgd/4200000249.m3u8
 https://live.metshop.top/huya/30080233
 #EXTINF:-1 tvg-id="昌黎综合" tvg-name="昌黎综合" tvg-logo="https://live.fanmingming.cn/tv/昌黎综合.png" group-title="地方",昌黎综合
 https://jwcdnqx.hebyun.com.cn/live/clzhpd/1500k/tzwj_video.m3u8
+#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/明珠台.png" group-title="地方",明珠台
+http://r.jdshipin.com/ZQ4kN
 #EXTINF:-1 tvg-id="昭化综合" tvg-name="昭化综合" tvg-logo="https://live.fanmingming.cn/tv/昭化综合.png" group-title="地方",昭化综合
 http://live.zhgbtv.cn:3100/hls/kwqtkbbi/index.m3u8
 #EXTINF:-1 tvg-id="朝天综合" tvg-name="朝天综合" tvg-logo="https://live.fanmingming.cn/tv/朝天综合.png" group-title="地方",朝天综合
 https://m3u8.channel.dzsm.com/nmip-media/channellive/channel104601/playlist.m3u8
 #EXTINF:-1 tvg-id="柳舟计" tvg-name="柳舟计" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",柳舟计
-https://live.ottiptv.cc/huya/23860039
+https://live.metshop.top/huya/23860039
 #EXTINF:-1 tvg-id="梦中的那片海" tvg-name="梦中的那片海" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",梦中的那片海
-https://live.ottiptv.cc/huya/26355765
+https://live.metshop.top/huya/26355765
 #EXTINF:-1 tvg-id="楚汉骄雄" tvg-name="楚汉骄雄" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",楚汉骄雄
 https://live.metshop.top/huya/29465854
 #EXTINF:-1 tvg-id="欢乐颂" tvg-name="欢乐颂" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",欢乐颂
-https://live.ottiptv.cc/yy/1382735624
+https://live.metshop.top/yy/1382735624
 #EXTINF:-1 tvg-id="LaughterTheater.cn" tvg-country="CN" tvg-name="欢笑剧场" tvg-logo="https://i.imgur.com/CrFesS6.png" group-title="地方",欢笑剧场
 https://zby.130519.xyz/PLTV/11/224/3221225771/index.m3u8
 #EXTINF:-1 tvg-id="武汉文体" tvg-name="武汉文体" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/hubei/Wuhan5.png" group-title="地方",武汉文体
@@ -735,7 +748,7 @@ http://stream.appwuhan.com/3tzb/sd/live.m3u8
 #EXTINF:-1 tvg-id="武汉经济" tvg-name="武汉经济" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/hubei/Wuhan4.png" group-title="地方",武汉经济
 http://stream.appwuhan.com/4tzb/sd/live.m3u8
 #EXTINF:-1 tvg-id="永夜星河" tvg-name="永夜星河" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",永夜星河
-https://live.ottiptv.cc/huya/23734169
+https://live.metshop.top/huya/23734169
 #EXTINF:-1 tvg-id="184" tvg-name="求索动物" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/shuzi/Qiusuo3.png" group-title="地方",求索动物
 http://111.22.153.159:35455/itv/2000000004000000009.m3u8?cdn=hnbblive
 #EXTINF:-1 tvg-id="171" tvg-name="求索生活" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/shuzi/Qiusuo4.png" group-title="地方",求索生活
@@ -777,7 +790,7 @@ https://live.metshop.top/huya/29465851
 #EXTINF:-1 tvg-id="活佛济公3" tvg-name="活佛济公3" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",活佛济公3
 https://live.metshop.top/huya/23903123
 #EXTINF:-1 tvg-id="流水迢迢" tvg-name="流水迢迢" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",流水迢迢
-https://live.ottiptv.cc/huya/23865036
+https://live.metshop.top/huya/23865036
 #EXTINF:-1 tvg-id="浙江教科" tvg-name="浙江教科影视" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang3.png" group-title="地方",浙江教科
 https://ali-m-l.cztv.com/channels/lantian/channel004/1080p.m3u8
 #EXTINF:-1 tvg-id="浙江民生" tvg-name="浙江民生休闲" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Zhejiang4.png" group-title="地方",浙江民生
@@ -792,6 +805,8 @@ http://nn.7x9d.cn/地方台8563/海南.php?id=ggpd
 http://nn.7x9d.cn/地方台8563/海南.php?id=wlpd
 #EXTINF:-1 tvg-id="海南自贸" tvg-name="海南自贸" tvg-logo="https://gitee.com/qttv/tv/raw/master/logo/海南自贸.png" group-title="地方",海南自贸
 http://nn.7x9d.cn/地方台8563/海南.php?id=jjpd
+#EXTINF:-1 tvg-id="海绵宝宝" tvg-name="海绵宝宝" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/海绵宝宝.png" group-title="地方",海绵宝宝
+https://live.metshop.top/douyu/3949681
 #EXTINF:-1 tvg-id="北京淘BABY" tvg-name="北京淘BABY" tvg-logo="https://live.fanmingming.cn/tv/北京淘BABY.png" group-title="地方",淘BABY
 http://[2409:8087:1:20:20::2c]/otttv.bj.chinamobile.com/PLTV/88888888/224/3221226554/1.m3u8?GuardEncType=2&accountinfo=%7E%7EV2.0%7EN0sbBMpQv4sLsW5foy3YfA%7E_eNUbgU9sJGUcVVduOMKhafLvQUgE_zlz_7pvDimJNNg3bzRax0E9tLmO9xgXVx8%2CEND
 #EXTINF:-1 tvg-id="北京淘剧场" tvg-name="北京淘剧场" tvg-logo="https://live.fanmingming.cn/tv/北京淘剧场.png" group-title="地方",淘剧场
@@ -823,21 +838,21 @@ http://tvbox6.icu/tv/mgtv.php?id=484
 #EXTINF:-1 tvg-id="湖南都市" tvg-country="CN" tvg-name="湖南都市" tvg-logo="https://www.tvchinese.net/uploads/tv/hnds.jpg" group-title="地方",湖南都市
 http://tvbox6.icu/tv/mgtv.php?id=346
 #EXTINF:-1 tvg-id="灌篮高手" tvg-name="灌篮高手" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/灌篮高手.png" group-title="地方",灌篮高手
-https://live.ottiptv.cc/yy/1382735626
+https://live.metshop.top/yy/1382735626
 #EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://live.fanmingming.com/tv/%E7%88%B1%E4%B8%8A4K.png" group-title="地方",爱上4K
 http://wouu.net:9977/udp/239.93.0.97:5140
 #EXTINF:-1 tvg-id="爱情公寓" tvg-name="爱情公寓" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/爱情公寓.png" group-title="地方",爱情公寓
-https://live.ottiptv.cc/huya/11336726
+https://live.metshop.top/huya/11336726
 #EXTINF:-1 tvg-id="爱情公寓（斗鱼）" tvg-name="爱情公寓（斗鱼）" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/爱情公寓.png" group-title="地方",爱情公寓（斗鱼）
-https://live.ottiptv.cc/douyu/4105989
+https://live.metshop.top/douyu/4105989
 #EXTINF:-1 tvg-id="父母爱情" tvg-name="父母爱情" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",父母爱情
-https://live.ottiptv.cc/yy/1354926650
+https://live.metshop.top/yy/1354926650
 #EXTINF:-1 tvg-id="狂飙" tvg-name="狂飙" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/狂飙.png" group-title="地方",狂飙
-https://live.ottiptv.cc/yy/1355142167
+https://live.metshop.top/yy/1355142167
 #EXTINF:-1 tvg-id="猫和老鼠" tvg-name="猫和老鼠" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/猫和老鼠.png" group-title="地方",猫和老鼠
-https://live.ottiptv.cc/huya/11352879
+https://live.metshop.top/huya/11352879
 #EXTINF:-1 tvg-id="玫瑰的故事" tvg-name="玫瑰的故事" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",玫瑰的故事
-https://live.ottiptv.cc/huya/23865142
+https://live.metshop.top/huya/23865142
 #EXTINF:-1 tvg-id="环球旅游" tvg-name="环球旅游" tvg-logo="https://live.fanmingming.com/tv/%E7%8E%AF%E7%90%83%E6%97%85%E6%B8%B8.png" group-title="地方",环球旅游
 http://120.76.248.139/live/bfgd/4200000147.m3u8
 #EXTINF:-1 tvg-id="GS02" tvg-name="甘肃公共应急" tvg-logo="https://upload.112114.xyz/logo/%E7%94%98%E8%82%83%E5%85%AC%E5%85%B1%E5%BA%94%E6%80%A5.png" group-title="地方",甘肃公共应急
@@ -857,19 +872,19 @@ https://zby.130519.xyz/PLTV/11/224/3221226116/index.m3u8
 #EXTINF:-1 tvg-id="睛彩篮球" tvg-name="睛彩篮球" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/睛彩篮球.png" group-title="地方",睛彩篮球
 https://zby.130519.xyz/PLTV/11/224/3221226118/index.m3u8
 #EXTINF:-1 tvg-id="知否知否" tvg-name="知否知否" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",知否知否
-https://live.ottiptv.cc/yy/21881901
+https://live.metshop.top/yy/21881901
 #EXTINF:-1 tvg-id="石家庄城市服务" tvg-name="石家庄城市服务" tvg-logo="https://live.fanmingming.cn/tv/石家庄城市服务.png" group-title="地方",石家庄城市服务
 http://nn.7x9d.cn/石家庄.php?id=5
 #EXTINF:-1 tvg-id="石家庄文化娱乐" tvg-name="石家庄文化娱乐" tvg-logo="https://live.fanmingming.cn/tv/石家庄文化娱乐.png" group-title="地方",石家庄文化娱乐
 http://nn.7x9d.cn/石家庄.php?id=6
 #EXTINF:-1 tvg-id="神探狄仁杰第一部" tvg-name="神探狄仁杰第一部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/神探狄仁杰1.png" group-title="地方",神探狄仁杰第一部
-https://live.ottiptv.cc/yy/1354930934
+https://live.metshop.top/yy/1354930934
 #EXTINF:-1 tvg-id="神探狄仁杰第三部" tvg-name="神探狄仁杰第三部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/神探狄仁杰3.png" group-title="地方",神探狄仁杰第三部
-https://live.ottiptv.cc/douyu/6027991
+https://live.metshop.top/douyu/6027991
 #EXTINF:-1 tvg-id="神探狄仁杰第二部" tvg-name="神探狄仁杰第二部" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/神探狄仁杰2.png" group-title="地方",神探狄仁杰第二部
-https://live.ottiptv.cc/douyu/12655359
+https://live.metshop.top/douyu/12655359
 #EXTINF:-1 tvg-id="神雕侠侣" tvg-name="神雕侠侣" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/神雕侠侣.png" group-title="地方",神雕侠侣
-https://live.ottiptv.cc/huya/11352964
+https://live.metshop.top/huya/11352964
 #EXTINF:-1 tvg-id="福建乡村振兴公共" tvg-name="福建乡村振兴公共" tvg-logo="https://live.fanmingming.cn/tv/福建乡村振兴公共.png" group-title="地方",福建乡村振兴公共
 http://8.138.7.223/tv/fjtv1.php?id=fjxc
 #EXTINF:-1 tvg-id="FujianCultureSportsChannel.cn" tvg-country="CN" tvg-name="福建文体" tvg-logo="https://i.imgur.com/UZrfUXV.png" group-title="地方",福建文体
@@ -883,13 +898,13 @@ http://8.138.7.223/tv/fjtv1.php?id=fjjj
 #EXTINF:-1 tvg-id="FujianComprehensiveChannel.cn" tvg-country="CN" tvg-name="福建综合" tvg-logo="https://i.imgur.com/rePTGa6.png" group-title="地方",福建综合
 http://8.138.7.223/tv/fjtv1.php?id=fjzh
 #EXTINF:-1 tvg-id="笑傲江湖" tvg-name="笑傲江湖" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/笑傲江湖.png" group-title="地方",笑傲江湖
-https://live.ottiptv.cc/huya/26355790
+https://live.metshop.top/huya/26355790
 #EXTINF:-1 tvg-id="笑看风云" tvg-name="笑看风云" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",笑看风云
 https://live.metshop.top/huya/29465858
 #EXTINF:-1 tvg-id="第一财经" tvg-name="第一财经" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/第一财经.png" group-title="地方",第一财经
 https://zby.130519.xyz/PLTV/11/224/3221225737/index.m3u8
 #EXTINF:-1 tvg-id="精灵宝可梦" tvg-name="精灵宝可梦" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精灵宝可梦.png" group-title="地方",精灵宝可梦
-https://live.ottiptv.cc/huya/23749096
+https://live.metshop.top/huya/23749096
 #EXTINF:-1 tvg-id="上海纪实人文" tvg-name="上海纪实人文" tvg-logo="https://live.fanmingming.cn/tv/纪实人文.png" group-title="地方",纪实人文
 http://8.138.7.223/tv/shtv.php?id=xjs
 #EXTINF:-1 tvg-id="纪实科教" tvg-name="纪实科教" tvg-logo="https://live.fanmingming.cn/tv/北京纪实科教.png" group-title="地方",纪实科教
@@ -901,7 +916,7 @@ http://119.6.59.216:60033/tsfile/live/1007_1.m3u8?key=txiptv
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/翡翠台.png" group-title="地方",翡翠台
 http://r.jdshipin.com/qClQf
 #EXTINF:-1 tvg-id="芈月传" tvg-name="芈月传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",芈月传
-https://live.ottiptv.cc/huya/11352975
+https://live.metshop.top/huya/11352975
 #EXTINF:-1 tvg-id="苏州文化生活" tvg-name="苏州文化生活" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/jiangsu/Suzhou3.png" group-title="地方",苏州文化生活
 https://live-auth.51kandianshi.com/szgd/csztv3.m3u8
 #EXTINF:-1 tvg-id="苏州生活资讯" tvg-name="苏州生活资讯" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/jiangsu/Suzhou5.png" group-title="地方",苏州生活资讯
@@ -923,15 +938,15 @@ https://livestream-bt.nmtv.cn/nmtv/2321general.m3u8?txSecret=d9d0fd7a252ef56b515
 #EXTINF:-1 tvg-id="西安都市" tvg-name="西安都市" tvg-logo="https://live.fanmingming.cn/tv/西安都市.png" group-title="地方",西安都市
 http://112.46.105.20:8009/hls/29/index.m3u8
 #EXTINF:-1 tvg-id="西游记" tvg-name="西游记" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/电视剧.png" group-title="地方",西游记
-https://live.ottiptv.cc/huya/26355861
+https://live.metshop.top/huya/26355861
 #EXTINF:-1 tvg-id="西游记2" tvg-name="西游记2" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",西游记2
 https://live.metshop.top/huya/29465859
 #EXTINF:-1 tvg-id="西游记后传" tvg-name="西游记后传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/西游记后传.png" group-title="地方",西游记后传
-https://live.ottiptv.cc/yy/1353392400
+https://live.metshop.top/yy/1353392400
 #EXTINF:-1 tvg-id="西游记续集" tvg-name="西游记续集" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/西游记续集.png" group-title="地方",西游记续集
-https://live.ottiptv.cc/douyu/3113309
+https://live.metshop.top/douyu/3113309
 #EXTINF:-1 tvg-id="谈判专家" tvg-name="谈判专家" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",谈判专家
-https://live.ottiptv.cc/yy/1382735560
+https://live.metshop.top/yy/1382735560
 #EXTINF:-1 tvg-id="赛事睛彩竞技" tvg-name="赛事睛彩竞技" tvg-logo="https://live.fanmingming.cn/tv/睛彩竞技.png" group-title="地方",赛事睛彩竞技
 http://vip.lqcc.xyz:35455/itv/3000000020000011528.m3u8?cdn=FifastbLive
 #EXTINF:-1 tvg-id="赛事睛彩篮球" tvg-name="赛事睛彩篮球" tvg-logo="https://live.fanmingming.cn/tv/睛彩篮球.png" group-title="地方",赛事睛彩篮球
@@ -983,7 +998,7 @@ http://tvbox6.icu/tv/mgtv.php?id=316
 #EXTINF:-1 tvg-id="鉴证实录" tvg-name="鉴证实录" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",鉴证实录
 https://live.metshop.top/huya/23903183
 #EXTINF:-1 tvg-id="铁齿铜牙纪晓岚" tvg-name="铁齿铜牙纪晓岚" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/铁齿铜牙纪晓岚.png" group-title="地方",铁齿铜牙纪晓岚
-https://live.ottiptv.cc/huya/11342396
+https://live.metshop.top/huya/11342396
 #EXTINF:-1 tvg-id="长宁综合" tvg-name="长宁综合" tvg-logo="https://live.fanmingming.cn/tv/长宁综合.png" group-title="地方",长宁综合
 http://cnpull.sccnfb.com:80/live/123456.m3u8
 #EXTINF:-1 tvg-id="长影频道" tvg-name="长影频道" tvg-logo="https://live.fanmingming.cn/tv/长影频道.png" group-title="地方",长影频道
@@ -995,29 +1010,29 @@ http://tvbox6.icu/tv/mgtv.php?id=254
 #EXTINF:-1 tvg-id="陀枪师姐" tvg-name="陀枪师姐" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",陀枪师姐
 https://live.metshop.top/huya/29465857
 #EXTINF:-1 tvg-id="陈情令" tvg-name="陈情令" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/陈情令.png" group-title="地方",陈情令
-https://live.ottiptv.cc/huya/29465862
+https://live.metshop.top/huya/29465862
 #EXTINF:-1 tvg-id="陕西秦腔" tvg-name="陕西秦腔" tvg-logo="https://live.fanmingming.cn/tv/陕西秦腔.png" group-title="地方",陕西秦腔
 http://112.46.105.20:8009/hls/22/index.m3u8
 #EXTINF:-1 tvg-id="陕西银龄" tvg-name="陕西银龄" tvg-logo="https://live.fanmingming.cn/tv/陕西银龄.png" group-title="地方",陕西银龄
 http://112.46.105.20:8009/hls/20/index.m3u8
 #EXTINF:-1 tvg-id="隋唐英雄传" tvg-name="隋唐英雄传" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/隋唐英雄传.png" group-title="地方",隋唐英雄传
-https://live.ottiptv.cc/yy/1352475619
+https://live.metshop.top/yy/1352475619
 #EXTINF:-1 tvg-id="雪豹" tvg-name="雪豹" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/雪豹.png" group-title="地方",雪豹
-https://live.ottiptv.cc/huya/29580970
+https://live.metshop.top/huya/29580970
 #EXTINF:-1 tvg-id="青川综合" tvg-name="青川综合" tvg-logo="https://live.fanmingming.cn/tv/青川综合.png" group-title="地方",青川综合
 http://qcfile.qcrmt.com/nmip-media/channellive/channel100933/playlist.m3u8
 #EXTINF:-1 tvg-id="青田电视台" tvg-name="青田电视台" tvg-logo="https://live.fanmingming.cn/tv/青田电视台.png" group-title="地方",青田电视台
 http://l.cztvcloud.com/channels/lantian/SXqingtian1/720p.m3u8
 #EXTINF:-1 tvg-id="鬼吹灯之云南虫谷" tvg-name="鬼吹灯之云南虫谷" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/云南虫谷.png" group-title="地方",鬼吹灯之云南虫谷
-https://live.ottiptv.cc/huya/11352898
+https://live.metshop.top/huya/11352898
 #EXTINF:-1 tvg-id="鬼吹灯之怒晴湘西" tvg-name="鬼吹灯之怒晴湘西" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/怒晴湘西.png" group-title="地方",鬼吹灯之怒晴湘西
-https://live.ottiptv.cc/huya/11602075
+https://live.metshop.top/huya/11602075
 #EXTINF:-1 tvg-id="鬼吹灯之精绝古城" tvg-name="鬼吹灯之精绝古城" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/精绝古城.png" group-title="地方",鬼吹灯之精绝古城
-https://live.ottiptv.cc/huya/11352871
+https://live.metshop.top/huya/11352871
 #EXTINF:-1 tvg-id="鬼吹灯之龙岭迷窟" tvg-name="鬼吹灯之龙岭迷窟" tvg-logo="https://ghproxy.net/raw.githubusercontent.com/suxuang/myIPTV/main/img/龙岭迷窟.png" group-title="地方",鬼吹灯之龙岭迷窟
-https://live.ottiptv.cc/huya/29465863
+https://live.metshop.top/huya/29465863
 #EXTINF:-1 tvg-id="鹿鼎记" tvg-name="鹿鼎记" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/埋堆堆.png" group-title="地方",鹿鼎记
-https://live.ottiptv.cc/yy/28265277
+https://live.metshop.top/huya/23650774
 #EXTINF:-1 tvg-id="SX01" tvg-name="黄河卫视" tvg-logo="https://gitee.com/suxuang/epglogo/raw/master/weishi/Huanghe.png" group-title="地方",黄河电视台
 http://liveflash.sxrtv.com/live/huanghe.m3u8?sub_m3u8=true&edge_slice=true
 #EXTINF:-1 tvg-id="HLJ05" tvg-name="黑龙江农业科教" tvg-logo="https://gitee.com/suxuang/TVlogo/raw/main/img/Heilongjiang5.png" group-title="地方",黑龙江公共农村
@@ -1249,7 +1264,7 @@ https://vip.ffzy-online.com/20221015/722_e32c42bc/index.m3u8
 #EXTINF:-1 tvg-id="斗鱼港剧" tvg-name="斗鱼港剧" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/斗鱼.png" group-title="电影",斗鱼港剧
 http://www.goodiptv.club/douyu/5061550
 #EXTINF:-1 tvg-id="末日电影合集" tvg-name="末日电影合集" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="电影",末日电影合集
-https://live.ottiptv.cc/yy/1354889019
+https://live.metshop.top/yy/1354889019
 #EXTINF:-1 tvg-id="李连杰电影" tvg-name="李连杰电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="电影",李连杰电影
 https://live.metshop.top/huya/11342390
 #EXTINF:-1 tvg-id="林正英电影" tvg-name="林正英电影" tvg-logo="https://gitee.com/suxuang/logo/raw/master/mylogo/虎牙直播.png" group-title="电影",林正英电影

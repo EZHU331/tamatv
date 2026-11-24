@@ -1,6 +1,8 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_CL1.xml.gz"
 #EXTINF:-1 tvg-id="24Horas.cl" tvg-country="CL" tvg-name="24 horas" tvg-logo="https://i.imgur.com/CEE9zPe.png" group-title="News",24 horas
 https://mdstrm.com/live-stream-playlist/689ba606ecfe7915e1f8f741.m3u8
+#EXTINF:-1 tvg-id="ADNTV.cl@SD" tvg-country="CL" tvg-name="ADN TV" tvg-logo="https://i.imgur.com/AVfTwNw.png" group-title="News",ADN TV (720p)
+https://redirector.rudo.video/hls-video/931b584451fa6dd1313ee66efbfd5802e3f3bcea/adntv/adntv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AtacamaNoticias.cl@SD" tvg-country="CL" tvg-name="Atacama Noticias" tvg-logo="https://i.imgur.com/Avx4Ecf.png" group-title="News",Atacama Noticias (720p)
 https://v2.tustreaming.cl/atacamanoticias/index.m3u8
 #EXTINF:-1 tvg-id="Contivision.cl@SD" tvg-country="CL" tvg-name="Contivision" tvg-logo="https://i.imgur.com/Lz2OlKf.png" group-title="News",Contivision (720p)
@@ -151,6 +153,8 @@ https://scl.edge.grupoz.cl/isatv/live/playlist.m3u8
 https://live.mtna.tv/hls/mtna/mtna.m3u8
 #EXTINF:-1 tvg-id="NuevoTiempoTV.cl@SD" tvg-country="CL" tvg-name="Nuevo Tiempo TV" tvg-logo="https://i.imgur.com/eCPzibM.png" group-title="Religious",Nuevo Tiempo TV (1080p)
 http://190.181.61.93:8000/play/a00o/index.m3u8
+#EXTINF:-1 tvg-id="RadioArmoniaTV.cl@SD" tvg-country="CL" tvg-name="Radio Armonia TV" tvg-logo="https://i.imgur.com/puWBnP3.png" group-title="Religious",Radio Armonia TV (720p)
+https://v2.tustreaming.cl/armoniamovil/index.m3u8
 #EXTINF:-1 tvg-id="RadioElSembrador.cl@SD" tvg-country="CL" tvg-name="Radio El Sembrador" tvg-logo="https://i.imgur.com/gBpMAc3.png" group-title="Religious",Radio El Sembrador (720p)
 https://tv.arkeo.cl:1936/elsembrador/elsembrador/playlist.m3u8
 #EXTINF:-1 tvg-id="Televida.cl@SD" tvg-country="CL" tvg-name="Televida" tvg-logo="https://i.imgur.com/bmNA8hq.png" group-title="Religious",Televida (Chile) (1080p)
@@ -223,6 +227,8 @@ https://video.ipstream.cl:3459/hybrid/play.m3u8
 https://v2.tustreaming.cl/enlineamauletv/index.m3u8
 #EXTINF:-1 tvg-id="EnfoqueDigitalTV.cl@SD" tvg-country="CL" tvg-name="Enfoque Digital TV" tvg-logo="https://i.imgur.com/GaJzjt5.png" group-title="General",Enfoque Digital TV (1080p)
 https://5eaccbab48461.streamlock.net:1936/8074/8074/playlist.m3u8
+#EXTINF:-1 tvg-id="EPATV.cl@SD" tvg-country="CL" tvg-name="EPA! TV" tvg-logo="https://cdn.m3u.cl/logo/1649_EPA__TV.png" group-title="General",EPA! TV (720p)
+https://live-evg10.tv360.bitel.com.pe/bitel/epatv/playlist.m3u8
 #EXTINF:-1 tvg-id="EstacionTV.cl@SD" tvg-country="CL" tvg-name="Estacion TV" tvg-logo="https://i.imgur.com/eICyrPP.png" group-title="General",Estacion TV (720p)
 https://unlimited1-cl-isp.dps.live/supersonikatv/supersonikatv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Frecuencia7TV.cl@SD" tvg-country="CL" tvg-name="Frecuencia 7 TV" tvg-logo="https://i.imgur.com/ZhwmWXD.png" group-title="General",Frecuencia 7 TV (720p)
@@ -287,6 +293,8 @@ https://tv.arkeo.cl:19360/8046/8046.m3u8
 https://v2.tustreaming.cl/fantasiatv/index.m3u8
 #EXTINF:-1 tvg-id="RadioFrecuenciaUno.cl@SD" tvg-country="CL" tvg-name="Radio Frecuencia Uno" tvg-logo="https://cdn.m3u.cl/logo/1646_Radio_Frecuencia_Uno.png" group-title="General",Radio Frecuencia Uno (720p)
 https://v1.tustreaming.cl/frecuencia1tv/index.m3u8
+#EXTINF:-1 tvg-id="RadioNuble.cl@SD" tvg-country="CL" tvg-name="Radio Nuble" tvg-logo="https://cdn.m3u.cl/logo/870_Radio_Nuble.png" group-title="General",Radio Nuble (720p)
+https://tv.telselec.cl:3376/live/nublefmlive.m3u8
 #EXTINF:-1 tvg-id="RadioPanoramica.cl@SD" tvg-country="CL" tvg-name="Radio Panoramica" tvg-logo="https://cdn.m3u.cl/logo/1502_Radio_Panoramica.png" group-title="General",Radio Panoramica (720p)
 https://v2.tustreaming.cl/alingeproducciones/index.m3u8
 #EXTINF:-1 tvg-id="RadioPopularTV.cl@SD" tvg-country="CL" tvg-name="Radio Popular TV" tvg-logo="https://i.imgur.com/71U0wTN.png" group-title="General",Radio Popular TV

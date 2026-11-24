@@ -17,10 +17,6 @@ https://sevas.1tvcrimea.ru/legendarniy24.m3u8
 https://live1.1tvcrimea.ru/milletlive.m3u8
 #EXTINF:-1 tvg-id="Mir24.ru@SD" tvg-country="RU" tvg-name="Mir 24" tvg-logo="https://i.imgur.com/dj9c8Yd.png" group-title="News",Mir 24 (1080p)
 https://stream8.cinerama.uz/1219/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="NovorossiyaTV.ru@SD" tvg-country="RU" tvg-name="Novorossiya TV" tvg-logo="https://i.imgur.com/ijmf0bV.png" group-title="News",Novorossiya TV (1080p)
-http://31.131.139.253:9002/novoros/index.m3u8
-#EXTINF:-1 tvg-id="OplotTV.ru@SD" tvg-country="RU" tvg-name="Oplot TV" tvg-logo="https://i.imgur.com/RvUkId2.png" group-title="News",Oplot TV SD (1080p)
-http://31.131.139.253:9002/oplot_hd/index.m3u8
 #EXTINF:-1 tvg-id="RTArabic.ru@SD" tvg-country="RU" tvg-name="RT Arabic" tvg-logo="https://i.imgur.com/G8vGrn1.png" group-title="News",RT Arabic (1080p)
 https://rt-arb.rttv.com/dvr/rtarab/playlist.m3u8
 #EXTINF:-1 tvg-id="RTBalkan.ru@SD" tvg-country="RU" tvg-name="RT Balkan" tvg-logo="https://pbs.twimg.com/media/FiHmjBrWIBsN41d.jpg" group-title="News",RT Balkan (1080p)
@@ -87,8 +83,6 @@ https://cityeden.catcast.tv/content/41333/index.m3u8
 https://cityeden.catcast.tv/content/38398/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoAsia.ru@HD" tvg-country="RU" tvg-name="City Eden KinoAsia" tvg-logo="https://i.imgur.com/gaket4B.png" group-title="Movies",City Eden KinoAsia
 https://cityeden.catcast.tv/content/34393/index.m3u8
-#EXTINF:-1 tvg-id="CityEdenKinoDetektiv.ru@HD" tvg-country="RU" tvg-name="City Eden KinoDetektiv" tvg-logo="https://i.imgur.com/9rKHwBV.png" group-title="Movies",City Eden KinoDetektiv
-https://cityeden.catcast.tv/content/41327/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoDrama.ru@HD" tvg-country="RU" tvg-name="City Eden KinoDrama" tvg-logo="https://i.imgur.com/29ddffh.png" group-title="Movies",City Eden KinoDrama
 https://cityeden.catcast.tv/content/45269/index.m3u8
 #EXTINF:-1 tvg-id="CityEdenKinoFantastika.ru@HD" tvg-country="RU" tvg-name="City Eden KinoFantastika" tvg-logo="https://i.imgur.com/I64FeIO.png" group-title="Movies",City Eden KinoFantastika
@@ -603,6 +597,8 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 https://stream.smotrim.ru/hls/vesti_fm/playlist.m3u8?entity=channel&id=199&sign=7a04ce47ac48dd9b7ee0a99025656417
 #EXTINF:-1 tvg-id="TelekanalZvezda.ru" tvg-country="RU" tvg-name="Звезда" tvg-logo="https://i.imgur.com/c0L0ncA.png" group-title="General",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+#EXTINF:-1 tvg-id="Karusel.ru" tvg-country="RU" tvg-name="Карусель" tvg-logo="https://i.imgur.com/4fFMlVq.png" group-title="General",Карусель
+https://streaming102.interskytech.com/live/232.m3u8
 #EXTINF:-1 tvg-id="OTR.ru" tvg-country="RU" tvg-name="ОТР" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/OTR_2025_logo.svg" group-title="General",ОТР
 https://streaming.televizor-24-tochka.ru/live/12.m3u8
 #EXTINF:-1 tvg-id="Pyatnitsa.ru" tvg-country="RU" tvg-name="Пятница!" tvg-logo="https://i.imgur.com/rS11zVB.png" group-title="General",Пятница!
