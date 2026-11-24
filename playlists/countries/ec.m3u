@@ -43,8 +43,6 @@ https://streamingav.asambleanacional.gob.ec/hls/stream.m3u8
 https://cloud37.ecuatel.com/iglesia2020/Stream1/playlist.m3u8
 #EXTINF:-1 tvg-id="TVUniversalEcuador.ec@SD" tvg-country="EC" tvg-name="TV Universal Ecuador" tvg-logo="https://i.imgur.com/TIsk5zN.png" group-title="Religious",TV Universal Ecuador (720p)
 https://cdn.mycloudstream.io/hls/live/broadcast/uwcedjt2/index.m3u8
-#EXTINF:-1 tvg-id="AmericaEstereoIbarra.ec@SD" tvg-country="EC" tvg-name="America Estereo Ibarra" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",America Estereo Ibarra (720p)
-https://video.makrodigital.com/americaestereoibarra/americaestereoibarra/playlist.m3u8
 #EXTINF:-1 tvg-id="AmericaEstereoQuito.ec@SD" tvg-country="EC" tvg-name="America Estereo Quito" tvg-logo="https://i.imgur.com/gUqKymM.png" group-title="General",America Estereo Quito (1080p)
 https://video.makrodigital.com/americaestereoquito/americaestereoquito/playlist.m3u8
 #EXTINF:-1 tvg-id="AustralTV.ec@SD" tvg-country="EC" tvg-name="Austral TV" tvg-logo="https://i.imgur.com/zgGuCYL.png" group-title="General",Austral TV (1080p)
@@ -53,16 +51,12 @@ https://stmv3.voxtvhd.com.br/australtv/australtv/playlist.m3u8
 https://video.compuwebecuador.com:3783/live/caprichotvlive.m3u8
 #EXTINF:-1 tvg-id="DuendeTv.ec@SD" tvg-country="EC" tvg-name="Duende Tv" tvg-logo="https://i.imgur.com/6125FPV.jpg" group-title="General",Duende Tv (720p)
 https://live.fansplay.tv/livestreams/21.GdPGZIRcwzZ9vgE5.m3u8
-#EXTINF:-1 tvg-id="EcuadorTV.ec@SD" tvg-country="EC" tvg-name="Ecuador TV" tvg-logo="https://i.imgur.com/hj6EYwe.png" group-title="General",Ecuador TV (1080p)
-http://45.224.97.181:9999/EcuadorTV/index.m3u8
 #EXTINF:-1 tvg-id="Ecuavisa.ec@Guayaquil" tvg-country="EC" tvg-name="Ecuavisa" tvg-logo="https://i.imgur.com/Hl5wowk.png" group-title="General",Ecuavisa Guayaquil (1080p)
 https://dai.google.com/linear/hls/event/GyPkTVDZSXGhpOvxPK7m2g/master.m3u8
 #EXTINF:-1 tvg-id="Gamavision.ec@SD" tvg-country="EC" tvg-name="Gamavision" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/94/Gamavisi%C3%B3n2018new.png" group-title="General",Gamavision (1080p)
 http://45.224.97.181:9999/Gamavision/index.m3u8
 #EXTINF:-1 tvg-id="GM7Digital.ec@HD" tvg-country="EC" tvg-name="GM7 Digital" tvg-logo="https://www.vivalivetv.com/public/files/shows/0/1/3708-294x165-FFFFFF.jpg" group-title="General",GM7 Digital
 https://s2.tvdatta.com:3858/live/gm7digitallive.m3u8
-#EXTINF:-1 tvg-id="HechosEcuador.ec@SD" tvg-country="EC" tvg-name="Hechos Ecuador" tvg-logo="https://i.imgur.com/koMQZNX.png" group-title="General",Hechos Ecuador (1080p)
-https://online.hechosecuador.com:5443/WebRTCApp/streams/hechosecuador.m3u8
 #EXTINF:-1 tvg-id="ImperioTVCanal6.ec@SD" tvg-country="EC" tvg-name="Imperio TV Canal 6" tvg-logo="https://i.imgur.com/NrsNljx.png" group-title="General",Imperio TV Canal 6 (720p)
 https://live21.bozztv.com/akamaissh101/ssh101/imperiotvcanal6/playlist.m3u8
 #EXTINF:-1 tvg-id="LoretoTV.ec@SD" tvg-country="EC" tvg-name="Loreto TV" tvg-logo="https://i.imgur.com/3qGSAT3.png" group-title="General",Loreto TV (720p)
@@ -100,8 +94,6 @@ https://cloudpro.servidoresdestream.com:8081/8020/index.m3u8
 #EXTINF:-1 tvg-id="Telesucesos.ec@SD" tvg-country="EC" tvg-name="Telesucesos" tvg-logo="https://i.imgur.com/D1BBTv8.png" group-title="General" http-referrer="https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/play.html?name=UIO-HD",Telesucesos (720p)
 #EXTVLCOPT:http-referrer=https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/play.html?name=UIO-HD
 https://ticsbalancer.ticsecuador.com.ec:4444/TeleSucesos/streams/UIO-HD_adaptive.m3u8
-#EXTINF:-1 tvg-id="TVColorCanal36.ec@SD" tvg-country="EC" tvg-name="TV Color Canal 36" tvg-logo="https://i.imgur.com/QJW6khK.jpg" group-title="General",TV Color Canal 36 (720p)
-https://video.compuwebecuador.com:3067/live/tvcolorlive.m3u8
 #EXTINF:-1 tvg-id="TVC.ec@SD" tvg-country="EC" tvg-name="TVC" tvg-logo="https://i.imgur.com/k6h5Cz2.png" group-title="General",TVC (Ecuador) (1080p)
 http://45.224.97.181:9999/TVC/index.m3u8
 #EXTINF:-1 tvg-id="TvOro.ec@SD" tvg-country="EC" tvg-name="TvOro" tvg-logo="https://i.imgur.com/9d02qUU.jpeg" group-title="General",TvOro (1080p)

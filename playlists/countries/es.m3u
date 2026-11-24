@@ -57,8 +57,6 @@ https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 https://dtsszjrztq9ti.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-yshah5p4v45g1/ToDoNovelas_ES.m3u8
 #EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-country="ES" tvg-name="TVE Star" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/5e/Star_TVE_2026.svg" group-title="Series",TVE Star HD (1080p)
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8
-#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-country="ES" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Series",XPTV US (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-id="CiudadesdelOcioTV.es@SD" tvg-country="ES" tvg-name="Ciudades del Ocio TV" tvg-logo="https://i.imgur.com/CTQgqsM.png" group-title="Entertainment",Ciudades del Ocio TV (720p)
 https://cloudvideo.servers10.com:8081/8024/index.m3u8
 #EXTINF:-1 tvg-id="Energy.es" tvg-country="ES" tvg-name="Energy" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/a/ae/Energy.svg" group-title="Entertainment",Energy Ⓖ
@@ -79,8 +77,6 @@ https://jmp2.uk/stvp-ESBD8000033W
 https://jmp2.uk/stvp-ESBD800004KU
 #EXTINF:-1 tvg-id="UniversTV.es@SD" tvg-country="ES" tvg-name="Univers TV" tvg-logo="https://i.imgur.com/EW2bfix.png" group-title="Entertainment",Univers TV (720p)
 https://cloud2.streaminglivehd.com:1936/universfaller/universfaller/playlist.m3u8
-#EXTINF:-1 tvg-id="XPTV2.es@SD" tvg-country="ES" tvg-name="XPTV2" tvg-logo="https://i.imgur.com/74Z8ATB.png" group-title="Entertainment",XPTV2 (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptv2.m3u8
 #EXTINF:-1 tvg-id="Clan.es@SD" tvg-country="ES" tvg-name="Clan" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Clan_2026.svg" group-title="Kids",Clan (1080p)
 https://lge-lgla2.otteravision.com/lge/lgcla/lgcla.m3u8
 #EXTINF:-1 tvg-id="ClanInternacional.es@SD" tvg-country="ES" tvg-name="Clan Internacional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/63/Clan_2026.svg" group-title="Kids",Clan Internacional (1080p)
@@ -89,6 +85,12 @@ http://168.228.44.241:9999/play/a04j/index.m3u8
 https://streamer1.streamhost.org/salive/logoskidsH/playlist.m3u8
 #EXTINF:-1 tvg-id="SX3.es@SD" tvg-country="ES" tvg-name="SX3" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/SX3_logo.svg/960px-SX3_logo.svg.png" group-title="Kids",SX3 (1080p)
 https://directes-tv-cat.3catdirectes.cat/live-content/super3-hls/master.m3u8
+#EXTINF:-1 tvg-id="TVGCativos.es@SD" tvg-country="ES" tvg-name="TVG Cativos" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Kids",TVG Cativos
+https://crtvg-xabarinr2-schlive.flumotion.cloud/crtvglive/smil:channel7PRG.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGMocinos.es@SD" tvg-country="ES" tvg-name="TVG Mocinos" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Kids",TVG Mocinos
+https://crtvg-xabarinr3-schlive.flumotion.cloud/crtvglive/smil:channel8PRG.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGPequerrechos.es@SD" tvg-country="ES" tvg-name="TVG Pequerrechos" tvg-logo="https://i.imgur.com/rS9i9RL.png" group-title="Kids",TVG Pequerrechos
+https://crtvg-xabarinr1-schlive.flumotion.cloud/crtvglive/smil:channel6PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="AnimeVision.es@SD" tvg-country="ES" tvg-name="Anime Vision" tvg-logo="https://i.imgur.com/pUpKznl.png" group-title="Animation",Anime Vision (1080p)
 https://d1ujfw1zyymzyd.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-a6fukwkbxmex8/live/fast-channel-animevision-64527ec0/fast-channel-animevision-64527ec0.m3u8
 #EXTINF:-1 tvg-id="AnimeVisionClassics.es@SD" tvg-country="ES" tvg-name="Anime Vision Classics" tvg-logo="https://i.imgur.com/mTaiEE1.png" group-title="Animation",Anime Vision Classics (1080p)
@@ -111,16 +113,12 @@ https://rtvelivestream.rtve.es/rtvesec/rne/rne3_main.m3u8
 https://streamtv.mediasector.es/hls/activatv/index.m3u8
 #EXTINF:-1 tvg-id="CadenaElite.es@SD" tvg-country="ES" tvg-name="Cadena Elite" tvg-logo="https://i.imgur.com/3yeGDTP.png" group-title="Music",Cadena Elite (720p)
 https://cloudvideo.servers10.com:8081/8004/index.m3u8
-#EXTINF:-1 tvg-id="LiraTV.es@SD" tvg-country="ES" tvg-name="LiraTV" tvg-logo="https://i.imgur.com/hBswXYZ.png" group-title="Music",LiraTV (720p)
-https://cloud2.streaminglivehd.com:1936/liratv/liratv/playlist.m3u8
 #EXTINF:-1 tvg-id="MolahitsTV.es@SD" tvg-country="ES" tvg-name="Molahits TV" tvg-logo="https://i.imgur.com/FYcLtqT.png" group-title="Music",Molahits TV (720p)
 http://ventdelnord.tv:8080/mola/directe.m3u8
 #EXTINF:-1 tvg-id="MusicTVGranada.es@SD" tvg-country="ES" tvg-name="Music TV Granada" tvg-logo="https://i.ibb.co/Swd9NP7n/music-tv-granada.png" group-title="Music",Music TV Granada (1080p)
 https://cloudvideo.servers10.com:8081/8032/index.m3u8
 #EXTINF:-1 tvg-id="Pequeradio.es@SD" tvg-country="ES" tvg-name="Pequeradio" tvg-logo="https://i.imgur.com/BNqZwxS.png" group-title="Music",Pequeradio (720p)
 https://canadaremar2.todostreaming.es/live/peque-pequetv.m3u8
-#EXTINF:-1 tvg-id="POPWorldTV.es@SD" tvg-country="ES" tvg-name="POP World TV" tvg-logo="https://i.imgur.com/LQB6G3s.jpg" group-title="Music",POP World TV (720p)
-https://janus.xpbroadcasting.com:8443/hls/popworld.m3u8
 #EXTINF:-1 tvg-id="RadioCarnavalTV.es@SD" tvg-country="ES" tvg-name="Radio Carnaval TV" tvg-logo="https://i.imgur.com/cdpbkSo.png" group-title="Music",Radio Carnaval TV (720p)
 https://eu1.servers10.com:8081/8116/index.m3u8
 #EXTINF:-1 tvg-id="RTVVida.es@SD" tvg-country="ES" tvg-name="RTV Vida" tvg-logo="https://i.imgur.com/EqUfEAh.png" group-title="Music",RTV Vida (1080p)
@@ -131,10 +129,8 @@ https://d2glyu450vvghm.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68
 https://cloudvideo.servers10.com:8081/8026/tracks-v1a1/index.m3u8
 #EXTINF:-1 tvg-id="TVOMIX.es@HD" tvg-country="ES" tvg-name="TVOMIX" tvg-logo="https://ugc.production.linktr.ee/7ef61237-c46d-456b-afe3-a42ef49a979e_Mejorado2.png" group-title="Music",TVOMIX (1080p)
 https://cloud.tvomix.com/TVOMIX/index.m3u8
-#EXTINF:-1 tvg-id="XPTV1.es@SD" tvg-country="ES" tvg-name="XPTV1" tvg-logo="https://i.imgur.com/Ty7GkoN.png" group-title="Music",XPTV1 (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptv1.m3u8
 #EXTINF:-1 tvg-id="6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f" tvg-country="ES" tvg-name="Buen Viaje" tvg-logo="https://i.ibb.co/VRP6BnZ/AMC-Living.png" group-title="Lifestyle",Buen Viaje
-https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=14LDdfKaXFF37watHLcs
+https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-666e15a3ce73ed6023b55a0f/?X-Plex-Token=d284Q3xjyuJQxtrTCPCH
 #EXTINF:-1 tvg-id="Divinity.es" tvg-country="ES" tvg-name="Divinity" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Divinity.svg" group-title="Lifestyle",Divinity Ⓖ
 https://directos.divinity.es/orilinear04/live/linear04/main/main.isml/main-audio_spa=128000-video=1500000.m3u8
 #EXTINF:-1 tvg-id="IT12000029J" tvg-country="ES" tvg-name="Viaggi & Sapori" tvg-logo="https://provider-static.plex.tv/epg/cms/production/0a60d1de-0e20-4df9-aa1d-88a5610bac1b/Logo_Viaggi_Sapori_1500x1000_DarkBackground_-_Borja_M__ndez.png" group-title="Lifestyle",Viaggi & Sapori
@@ -216,8 +212,6 @@ https://limited49.todostreaming.es/live/tvbarbastro-livestream.m3u8
 https://media2.streambrothers.com:1936/8140/8140/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal2000.es@SD" tvg-country="ES" tvg-name="Canal 2000" tvg-logo="https://i.imgur.com/9RoBASf.png" group-title="General",Canal 2000 (720p)
 http://canal2000.berkano-systems.net/streaming/streams/canal2000.m3u8
-#EXTINF:-1 tvg-id="CanalDonana.es@SD" tvg-country="ES" tvg-name="Canal Donana" tvg-logo="https://i.imgur.com/0WrKIxm.png" group-title="General",Canal Donana (720p)
-https://secure5.todostreaming.es/live/division-alm.m3u8
 #EXTINF:-1 tvg-id="CanalMalagaRTV.es@SD" tvg-country="ES" tvg-name="Canal Malaga RTV" tvg-logo="https://i.imgur.com/QSUOxtM.png" group-title="General",Canal Malaga RTV (720p)
 https://canalmalaga-tv-live.flumotion.com/playlist.m3u8
 #EXTINF:-1 tvg-id="CanalSanRoque.es@SD" tvg-country="ES" tvg-name="Canal San Roque" tvg-logo="https://i.imgur.com/SN9kFKh.png" group-title="General",Canal San Roque (1080p)
@@ -239,6 +233,8 @@ https://video3.lhdserver.es/empordatv2/live.m3u8
 #EXTINF:-1 tvg-id="EsTuTele.es@SD" tvg-country="ES" tvg-name="EsTuTele" tvg-logo="https://i.imgur.com/bsAbcmC.png" group-title="General" http-referrer="https://player.streamingconnect.com/",EsTuTele (720p)
 #EXTVLCOPT:http-referrer=https://player.streamingconnect.com/
 https://cloud.streamingconnect.tv/hls/estutele/estutele.m3u8
+#EXTINF:-1 tvg-id="FuengirolaTV.es@SD" tvg-country="ES" tvg-name="Fuengirola TV" tvg-logo="https://i.ibb.co/D9LGcNf/Patalla-streaming.png" group-title="General",Fuengirola TV (720p)
+https://streaming004.gestec-video.com/hls/FTV.m3u8
 #EXTINF:-1 tvg-id="FuerteventuraTV.es@SD" tvg-country="ES" tvg-name="Fuerteventura TV" tvg-logo="https://i.ibb.co/MpvjCzC/Fuerteventura-tv-service-webtv-488969d1-1.png" group-title="General",Fuerteventura TV (1080p)
 https://5c0956165db0b.streamlock.net/ftv/directo/.m3u8
 #EXTINF:-1 tvg-id="GoienaEus.es@SD" tvg-country="ES" tvg-name="Goiena Eus" tvg-logo="https://i.imgur.com/eaLIJzK.png" group-title="General",Goiena Eus (720p)
@@ -312,6 +308,8 @@ https://cloud.tvomix.com/TITOTV/index.m3u8
 https://directes3-tv-cat.3catdirectes.cat/live-content/tv3-hls/master.m3u8
 #EXTINF:-1 tvg-id="TV3CAT.es@SD" tvg-country="ES" tvg-name="TV3CAT" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/TV3CAT.svg/960px-TV3CAT.svg.png" group-title="General",TV3CAT (1080p)
 https://directes3-tv-es.3catdirectes.cat/live-content/tvc-hls/master.m3u8
+#EXTINF:-1 tvg-id="TV4LaVall.es@SD" tvg-country="ES" tvg-name="TV4 La Vall" tvg-logo="https://i.imgur.com/NqjFVHp.png" group-title="General",TV4 La Vall (1080p)
+https://valldeuxo.gestec-video.com/hls/lavall.m3u8
 #EXTINF:-1 tvg-id="TVBRICSSpanish.es@HD" tvg-country="ES" tvg-name="TV BRICS Spanish" tvg-logo="https://i.imgur.com/vLpm8tN.png" group-title="General",TV BRICS Spanish (1080p)
 https://espbrics.mediacdn.ru/cdn/brics/spanish/playlist.m3u8
 #EXTINF:-1 tvg-id="TVGirona.es@SD" tvg-country="ES" tvg-name="TV Girona" tvg-logo="https://i.imgur.com/yfiK1Vp.png" group-title="General",TV Girona (1080p)
@@ -326,6 +324,8 @@ https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_1080.m3u8
 https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/tvei_eu_main_dvr_1080.m3u8
 #EXTINF:-1 tvg-id="TVG2.es@SD" tvg-country="ES" tvg-name="TVG2" tvg-logo="https://i.imgur.com/yFy6gxg.png" group-title="General",TVG2 (720p)
 https://crtvg-tvg2.flumotion.cloud/playlist.m3u8
+#EXTINF:-1 tvg-id="TVGMiraRadioGalega.es@SD" tvg-country="ES" tvg-name="TVG Mira Radio Galega" tvg-logo="https://i.imgur.com/dvkzH8n.png" group-title="General",TVG Mira Radio Galega
+https://crtvg-mirarg-schlive.flumotion.cloud/crtvglive/smil:channel1PRG.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="TVMCordoba.es@SD" tvg-country="ES" tvg-name="TVM Cordoba" tvg-logo="https://i.imgur.com/jN5k8Ob.png" group-title="General",TVM Cordoba (1080p)
 http://teledifusion.tv/cordoba/cordobalive/playlist.m3u8
 #EXTINF:-1 tvg-id="TVOJesus.es@SD" tvg-country="ES" tvg-name="TVO Jesus" tvg-logo="https://tvomix.com/Logos/Tvojesus.png" group-title="General",TVO Jesus (720p)

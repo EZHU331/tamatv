@@ -13,6 +13,8 @@ https://telmaco-cdn.akamaized.net/starcgr/default/index.m3u8
 https://av.hellasnet.tv/rst/trt/main_stream.m3u8
 #EXTINF:-1 tvg-id="VerginaTV.gr@SD" tvg-country="GR" tvg-name="Vergina TV" tvg-logo="https://i.imgur.com/abQmFoH.png" group-title="News",Vergina TV (1080p)
 https://verginanews.gr:8443/hls_live/stream1.m3u8
+#EXTINF:-1 tvg-id="ERTSports1.gr" tvg-country="GR" tvg-name="ERT Sports 1" tvg-logo="https://i.imgur.com/EsczO2H.png" group-title="Sports",ERT Sports 1
+https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTSports1/default/index.mpd
 #EXTINF:-1 tvg-id="ERTSports2.gr" tvg-country="GR" tvg-name="ERT Sports 2" tvg-logo="https://i.imgur.com/b2SNQPi.png" group-title="Sports",ERT Sports 2
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTSports2/default/index.mpd
 #EXTINF:-1 tvg-id="ERTSports3.gr" tvg-country="GR" tvg-name="ERT Sports 3" tvg-logo="https://i.imgur.com/HbXg3li.png" group-title="Sports",ERT Sports 3
@@ -63,7 +65,7 @@ https://fr.crystalweb.net:1936/aigaiotv/aigaiotv/playlist.m3u8
 https://itv.streams.ovh/ALEERT/ALEERT/playlist.m3u8
 #EXTINF:-1 tvg-id="AlphaTV.gr@SD" tvg-country="GR" tvg-name="Alpha TV" tvg-logo="https://i.imgur.com/6twzd38.png" group-title="General",Alpha TV (1080p)
 https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
-#EXTINF:-1 tvg-id="ARTTV.gr@SD" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
+#EXTINF:-1 tvg-id="arttv.gr" tvg-country="GR" tvg-name="ART TV" tvg-logo="https://i.imgur.com/8uS0sib.png" group-title="General",ART TV
 https://rtmp.win:3696/live/arttvgrlive.m3u8
 #EXTINF:-1 tvg-id="BestTV.gr@SD" tvg-country="GR" tvg-name="Best TV" tvg-logo="https://i.imgur.com/AeeeDUc.png" group-title="General",Best TV (720p)
 http://push-int.siliconweb.com/bestTV/stream/playlist.m3u8
@@ -105,8 +107,6 @@ http://stream.ioniantv.gr:8081/ionian/live/playlist.m3u8
 https://kontralive.siliconweb.com/live/kontratv/playlist.m3u8
 #EXTINF:-1 tvg-id="KosTV.gr@SD" tvg-country="GR" tvg-name="Kos TV" tvg-logo="https://i.imgur.com/bdJnQ1W.png" group-title="General",Kos TV (720p)
 https://eu1.streams.gr:8081/kostv/index.m3u8
-#EXTINF:-1 tvg-id="Kriti1Tv.gr" tvg-country="GR" tvg-name="Kriti 1" tvg-logo="https://i.imgur.com/C1ucQeC.png" group-title="General",Kriti 1
-https://livetv.streams.ovh:8081/kriti/index.m3u8
 #EXTINF:-1 tvg-id="KritiTV.gr@SD" tvg-country="GR" tvg-name="Kriti TV" tvg-logo="https://i.imgur.com/X7jKwYl.png" group-title="General",Kriti TV (1080p)
 https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
 #EXTINF:-1 tvg-id="LepantoTV.gr@SD" tvg-country="GR" tvg-name="Lepanto TV" tvg-logo="https://static-media.streema.com/media/cache/52/5e/525e3ae49d881cb702f2d4156b3c14a3.jpg" group-title="General",Lepanto TV (1080p)
