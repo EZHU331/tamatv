@@ -25,6 +25,8 @@ http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
 #EXTVLCOPT:http-user-agent=Chrome
 #EXTVLCOPT:http-referrer=http://watch.antennaplus.gr
 https://mcdn.antennaplus.gr/live/media0/Ant1/HLS/Ant1.m3u8
+#EXTINF:-1 tvg-id="ERT3.gr@SD" tvg-country="GR" tvg-name="ERT3" tvg-logo="https://i.imgur.com/f2l9bDR.png" group-title="Entertainment",ERT3 (1080p)
+https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERT3/default/index.m3u8
 #EXTINF:-1 tvg-id="NetmaxTV.gr@SD" tvg-country="GR" tvg-name="Netmax TV" tvg-logo="https://i.imgur.com/dLvRD4k.png" group-title="Entertainment",Netmax TV (720p)
 https://es1.crystalweb.net:1936/netmaxtv/netmaxtv/playlist.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr@SD" tvg-country="GR" tvg-name="Star Channel" tvg-logo="https://i.imgur.com/6NUpxhr.png" group-title="Entertainment",Star Channel (Greece) (1080p)
@@ -91,8 +93,6 @@ https://rtmp.win:3929/live/epiruslive.m3u8
 https://neon.streams.gr:8081/epsilontv/index.m3u8
 #EXTINF:-1 tvg-id="ERTCosmos.gr@SD" tvg-country="GR" tvg-name="ERT Cosmos" tvg-logo="https://www.ert.gr/wp-content/uploads/2026/05/ertcosmos-logo.svg" group-title="General",ERT Cosmos (1080p)
 https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTCosmos/default/index.m3u8
-#EXTINF:-1 tvg-id="ERTSports4.gr" tvg-country="GR" tvg-name="ERT Sports 4" tvg-logo="https://i.imgur.com/gebWmAB.png" group-title="General",ERT Sports 4
-https://ert-ucdn.broadpeak-aas.com/bpk-tv/ERTSports4/default/index.mpd
 #EXTINF:-1 tvg-id="eurotv.gr" tvg-country="GR" tvg-name="Euro" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="General",Euro
 https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="GnomiTV.gr@SD" tvg-country="GR" tvg-name="Gnomi TV" tvg-logo="https://i.ibb.co/ZNCXr79/gnomi-logo.png" group-title="General",Gnomi TV (1080p)
@@ -111,6 +111,8 @@ https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
 https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 #EXTINF:-1 tvg-id="lychnostv.gr" tvg-country="GR" tvg-name="Lychnos" group-title="General",Lychnos
 https://thor.mental-media.gr:19360/imp/imp.m3u8
+#EXTINF:-1 tvg-id="400000301" tvg-country="GR" tvg-name="Mad TV" tvg-logo="https://i.imgur.com/W3sGgWd.png" group-title="General",MADtv
+https://live-manifest.production-public.tubi.io/live/d78316c4-6126-4ade-bdba-c4186d5408d1/playlist.m3u8
 #EXTINF:-1 tvg-id="MakTV.gr" tvg-country="GR" tvg-name="MAK TV" tvg-logo="https://i.imgur.com/90iDHbQ.png" group-title="General",MAK TV
 https://mcdn.antennaplus.gr/live/media0/MAK/HLS/MAK.m3u8
 #EXTINF:-1 tvg-id="MegaChannel.gr" tvg-country="GR" tvg-name="Mega News" tvg-logo="https://i.imgur.com/UsyFADE.png" group-title="General",Mega News
