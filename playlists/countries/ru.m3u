@@ -29,6 +29,8 @@ https://rt-srb.rttv.com/dvr/rtbalkan/playlist.m3u8
 http://31.148.48.15/RT_HD/index.m3u8
 #EXTINF:-1 tvg-id="Russia24.ru@SD" tvg-country="RU" tvg-name="Russia-24" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Rossiya-24_Logo.svg/960px-Rossiya-24_Logo.svg.png" group-title="News",Russia-24 (1080p)
 https://stream8.cinerama.uz/1021/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="Sochi24.ru@SD" tvg-country="RU" tvg-name="Sochi24" tvg-logo="https://i.imgur.com/iwWxkl6.png" group-title="News",Sochi24 (720p)
+http://serv30.vintera.tv:8081/sochi/sochi24_tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Tolk.ru@HD" tvg-country="RU" tvg-name="Tolk" tvg-logo="https://i.imgur.com/l7JZ79P.png" group-title="News",Tolk (720p)
 http://live-tolknews.cdnvideo.ru/tolknews/stream/playlist.m3u8
 #EXTINF:-1 tvg-id="VestiFM.ru@HD" tvg-country="RU" tvg-name="Vesti FM" tvg-logo="https://i.imgur.com/ZBHqSZj.png" group-title="News",Vesti FM (720p)
@@ -303,6 +305,12 @@ https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff09f290affe00013a80a9/720p.m3u8
 http://31.148.48.15/Bridge_TV_HD/index.m3u8
 #EXTINF:-1 tvg-id="BRIDGEJazz.ru@SD" tvg-country="RU" tvg-name="BRIDGE Jazz" tvg-logo="https://bridgemusic.ru/s/img/channels/jazz-white.svg" group-title="Music",BRIDGE Jazz (720p)
 https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0a0390affe00013a80aa/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGERap.ru@SD" tvg-country="RU" tvg-name="BRIDGE Rap" tvg-logo="https://bridgemusic.ru/s/img/channels/rap-logo-dark.svg" group-title="Music",BRIDGE Rap (720p)
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed9990affe00013a80b1/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGERNB.ru@SD" tvg-country="RU" tvg-name="BRIDGE RNB" tvg-logo="https://bridgemusic.ru/s/img/channels/rnb-logo-dark.svg" group-title="Music",BRIDGE RNB (720p)
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affedb990affe00013a80b2/720p.m3u8
+#EXTINF:-1 tvg-id="BRIDGESoul.ru@SD" tvg-country="RU" tvg-name="BRIDGE Soul" tvg-logo="https://bridgemusic.ru/s/img/channels/soul-logo-dark.svg" group-title="Music",BRIDGE Soul (720p)
+https://bridgemedia-hls.cdnvideo.ru/hls/live/6affed7590affe00013a80b0/720p.m3u8
 #EXTINF:-1 tvg-id="BRIDGESymphony.ru@SD" tvg-country="RU" tvg-name="BRIDGE Symphony" tvg-logo="https://bridgemusic.ru/s/img/channels/symphony-white.svg" group-title="Music",BRIDGE Symphony (720p)
 https://bridgemedia-hls.cdnvideo.ru/hls/live/6aff0d2a81d78600017e02c2/720p.m3u8
 #EXTINF:-1 tvg-id="BRIDGEVostok.ru@SD" tvg-country="RU" tvg-name="BRIDGE Vostok" tvg-logo="https://bridgemusic.ru/s/img/channels/vostok-white.svg" group-title="Music",BRIDGE Vostok (720p)
@@ -453,6 +461,8 @@ https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
 http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BST.ru@SD" tvg-country="RU" tvg-name="BST" tvg-logo="https://i.imgur.com/IDotHmQ.png" group-title="General",BST (1080p)
 http://bst.bratsk.ru/hls/bst2/index.m3u8
+#EXTINF:-1 tvg-id="Channel4.ru@SD" tvg-country="RU" tvg-name="Channel 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Channel4_logo.jpg" group-title="General",Channel 4 (Russia) (1080p)
+https://river-3-370.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/60Ro5OWl7WWOswbVMQlqFw/1795975765/c6f66b644424c117f41e48062719ceed/576p_stream.m3u8
 #EXTINF:-1 tvg-id="Channel10.ru@SD" tvg-country="RU" tvg-name="Channel 10" tvg-logo="https://i.imgur.com/k8JjFDw.png" group-title="General",Channel 10 (Russia) (576i)
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
 #EXTINF:-1 tvg-id="Channel12.ru@SD" tvg-country="RU" tvg-name="Channel 12" tvg-logo="https://i.imgur.com/OA9hm6e.png" group-title="General",Channel 12 (1080p)
