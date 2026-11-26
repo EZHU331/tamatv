@@ -1,8 +1,6 @@
 #EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz"
 #EXTINF:-1 tvg-id="HirTV.hu" tvg-country="HU" tvg-name="Hír TV" tvg-logo="https://i.imgur.com/xmIUDRN.png" group-title="News",Hír TV
 https://video11.videa.hu/static/live/8.3754346.2530409.1.0.1.1/index.m3u8
-#EXTINF:-1 tvg-id="M1.hu" tvg-country="HU" tvg-name="M1" tvg-logo="https://i.imgur.com/r4tgKZK.png" group-title="News",M1 Ⓖ
-http://141.94.193.53:80/M1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Arena4.hu@SD" tvg-country="HU" tvg-name="Arena4" tvg-logo="https://i.imgur.com/uAaQDr6.png" group-title="Sports",Arena4
 http://88.212.7.14/live/arena4/index.m3u8
 #EXTINF:-1 tvg-id="Sport1.hu" tvg-country="HU" tvg-name="Sport1" tvg-logo="https://i.imgur.com/X5X3tKC.png" group-title="Sports",Sport1 Ⓖ
@@ -97,6 +95,8 @@ https://icast.connectmedia.hu/4747/mr7.aac
 https://5cd03f21c7193.streamlock.net/darutv/darutvlive/playlist.m3u8
 #EXTINF:-1 tvg-id="DSTV.hu@SD" tvg-country="HU" tvg-name="DSTV" tvg-logo="https://i.imgur.com/xKJoN8L.png" group-title="General",DSTV (Hungary) (720p)
 http://79.120.178.90:1935/dstv/dstvlive/playlist.m3u8
+#EXTINF:-1 tvg-id="DunaWorld.hu" tvg-country="HU" tvg-name="Duna World / M4+ Sport" tvg-logo="https://i.imgur.com/uOBQJZS.png" group-title="General",Duna World / M4+ Sport
+http://141.94.193.53:80/Duna_World_M4_Sport+_HD/index.m3u8
 #EXTINF:-1 tvg-id="EgykerTV.hu@SD" tvg-country="HU" tvg-name="Egyker TV" tvg-logo="https://i.imgur.com/yhMhvPq.png" group-title="General",Egyker TV (1080p)
 https://iptv01.eurocable.co.hu/EC-EGYKERTVHD/index.m3u8
 #EXTINF:-1 tvg-id="EsztergomTV.hu" tvg-country="HU" tvg-name="ES TV (Esztergom)" group-title="General",ES TV (Esztergom)
