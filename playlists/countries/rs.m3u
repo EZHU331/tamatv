@@ -6,8 +6,12 @@ https://edge-rs-01.maksnet.tv/informertv-secure/web/playlist.m3u8
 https://static.am.mediaoutcast.com/storage/nQJnjJkO/nQJnjJkO/stream/O68x4o8g/720p/720p.m3u8
 #EXTINF:-1 tvg-id="SOSKanalPlus.rs@SD" tvg-country="RS" tvg-name="SOS Kanal Plus" tvg-logo="https://i.imgur.com/9SD40uH.png" group-title="Sports",SOS Kanal Plus (720p)
 https://53be5ef2d13aa.streamlock.net/soskanalplus/soskanalplus.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="BlicTV.rs" tvg-country="RS" tvg-name="Blic TV" tvg-logo="https://i.imgur.com/XM5Qz1i.png" group-title="Entertainment",Blic TV
+https://edge-rs-06.maksnet.tv/blictv-secure/smil:blictv-secure.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="RTS2.rs@SD" tvg-country="RS" tvg-name="RTS 2" tvg-logo="https://i.imgur.com/jltAf5h.png" group-title="Culture",RTS 2 (720p)
 https://webtvstream.bhtelecom.ba/rts2.m3u8
+#EXTINF:-1 tvg-id="IDJTV.rs" tvg-country="RS" tvg-name="IDJ TV" tvg-logo="https://i.imgur.com/btvyrzr.png" group-title="Music",IDJ TV
+https://best-str.umn.cdn.united.cloud/stream?stream=hp1400&sp=idjtv&u=idjtv&p=In$trum300na765ta&channel=idjhd&player=m3u8
 #EXTINF:-1 tvg-id="RadioHitFMTV.rs@SD" tvg-country="RS" tvg-name="Radio Hit FM TV" tvg-logo="https://i.imgur.com/gP2OT4S.png" group-title="Music",Radio Hit FM TV (720p)
 https://peer2.tdiradio.com/static/streaming-playlists/hls/bab99862-ec1c-474f-9a02-4f8c8677d565/0.m3u8
 #EXTINF:-1 tvg-id="RadioKarolinaTV.rs@SD" tvg-country="RS" tvg-name="Radio Karolina TV" tvg-logo="https://i.imgur.com/g2HpLX1.png" group-title="Music",Radio Karolina TV (720p)
@@ -28,8 +32,6 @@ https://live.novosadska.tv/hls/mystream.m3u8
 https://stream2.nmih.hu:4102/live.m3u8
 #EXTINF:-1 tvg-id="RTS1.rs@SD" tvg-country="RS" tvg-name="RTS 1" tvg-logo="https://i.imgur.com/S1pKHSR.png" group-title="General",RTS 1 (Serbia) (720p)
 https://webtvstream.bhtelecom.ba/rts1.m3u8
-#EXTINF:-1 tvg-id="RTS3.rs" tvg-country="RS" tvg-name="RTS 3" tvg-logo="https://i.imgur.com/gxuGB4J.png" group-title="General",RTS 3
-https://webtvstream.bhtelecom.ba/rts_sat.m3u8
 #EXTINF:-1 tvg-id="RTSSvet.rs@SD" tvg-country="RS" tvg-name="RTS Svet" tvg-logo="https://i.imgur.com/LjunOdy.png" group-title="General",RTS Svet (720p)
 https://webtvstream.bhtelecom.ba/rts_svet.m3u8
 #EXTINF:-1 tvg-id="RTV1.rs@SD" tvg-country="RS" tvg-name="RTV 1" tvg-logo="https://i.imgur.com/CG44YT3.png" group-title="General",RTV 1 (Serbia) (1080p)

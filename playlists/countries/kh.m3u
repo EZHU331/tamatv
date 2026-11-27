@@ -5,6 +5,8 @@ https://live.eac-news.com/LiveApp/streams/eacnews.m3u8
 http://streaming-android.freshnewsasia.tv:1935/live/ngrp:myStream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="KomsanTV.kh@SD" tvg-country="KH" tvg-name="Komsan TV" tvg-logo="https://i.imgur.com/SNTf2r3.png" group-title="Movies",Komsan TV
 http://tv.cootel.com.kh:8077/streams/d/Komsan/playlist.m3u8
+#EXTINF:-1 tvg-id="iTVHD.kh@SD" tvg-country="KH" tvg-name="iTV HD" tvg-logo="https://i.imgur.com/qIPvw8N.jpg" group-title="Entertainment",iTV HD (720p)
+https://ip.pdtvhd.com/Khmer/streams/ITVHD.m3u8
 #EXTINF:-1 tvg-id="EBCGeneralEducation.kh@SD" tvg-country="KH" tvg-name="EBC General Education" tvg-logo="https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png" group-title="Education",EBC General Education (720p)
 https://iptv.ebc.edu.kh/iptv/channel/1.m3u8
 #EXTINF:-1 tvg-id="EBCLifelongLearning.kh@SD" tvg-country="KH" tvg-name="EBC Lifelong Learning" tvg-logo="https://elearning.ebc.edu.kh/pluginfile.php/1/theme_remui/logo/1770608989/ebc-logo.png" group-title="Education",EBC Lifelong Learning (720p)
@@ -34,5 +36,7 @@ http://43.252.18.195:5080/LiveApp/streams/ntvhd.m3u8
 https://seatv.netlinkbroadcaster.com/hls/test.m3u8
 #EXTINF:-1 tvg-id="TownTV.kh@SD" tvg-country="KH" tvg-name="Town TV" tvg-logo="https://i.imgur.com/9fUGvVG.png" group-title="General",Town TV
 https://stream.pdtvhd.com/LiveApp/streams/Townfullhd.m3u8
+#EXTINF:-1 tvg-id="TV5Cambodia.kh@SD" tvg-country="KH" tvg-name="TV5 Cambodia" tvg-logo="https://i.imgur.com/iMZLyoX.png" group-title="General",TV5 Cambodia
+https://ip.pdtvhd.com/Khmer/streams/CTV5.m3u8
 #EXTINF:-1 tvg-id="TVK.kh@SD" tvg-country="KH" tvg-name="TVK" tvg-logo="https://i.imgur.com/5hPxjcl.png" group-title="General",TVK (Cambodia) (720p)
 https://live.kh.malimarcdn.com/live/tvk.stream/playlist.m3u8

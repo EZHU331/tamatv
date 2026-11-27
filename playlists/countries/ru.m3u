@@ -135,8 +135,6 @@ http://s7.merlive.am/Kinomix/index.m3u8
 https://stream8.cinerama.uz/1057/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Kinopremyera.ru@HD" tvg-country="RU" tvg-name="Kinopremyera" tvg-logo="https://i.imgur.com/s0UYT8T.png" group-title="Movies",Kinopremyera (1080p)
 http://s7.merlive.am/Kinopremera/index.m3u8
-#EXTINF:-1 tvg-id="Kinosvidanie.ru@SD" tvg-country="RU" tvg-name="Kinosvidanie" tvg-logo="https://i.imgur.com/ZRaWqxj.png" group-title="Movies",Kinosvidanie (1080p)
-https://stream8.cinerama.uz/1203/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="Muzhskoy.ru@HD" tvg-country="RU" tvg-name="Muzhskoy" tvg-logo="https://i.imgur.com/xyztpBf.png" group-title="Movies",Muzhskoy HD (1080p)
 https://fonbet.mediacdn.ru/live/muzhskoi/playlist.m3u8
 #EXTINF:-1 tvg-id="NashKinopokaz.ru@HD" tvg-country="RU" tvg-name="Nash Kinopokaz" tvg-logo="https://i.imgur.com/iwTMl8O.png" group-title="Movies",Nash Kinopokaz HD (720p)
@@ -467,6 +465,8 @@ https://belnovosti.cdn.easyhoster.ru:8443/stream.m3u8
 http://live-bigasia.cdnvideo.ru/bigasia/bigasia.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BST.ru@SD" tvg-country="RU" tvg-name="BST" tvg-logo="https://i.imgur.com/IDotHmQ.png" group-title="General",BST (1080p)
 http://bst.bratsk.ru/hls/bst2/index.m3u8
+#EXTINF:-1 tvg-id="Channel4.ru@SD" tvg-country="RU" tvg-name="Channel 4" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/00/Channel4_logo.jpg" group-title="General",Channel 4 (Russia) (1080p)
+https://river-3-370.rtbcdn.ru/stream/genetta-316.m9.rutube.ru/60Ro5OWl7WWOswbVMQlqFw/1795975765/c6f66b644424c117f41e48062719ceed/576p_stream.m3u8
 #EXTINF:-1 tvg-id="Channel10.ru@SD" tvg-country="RU" tvg-name="Channel 10" tvg-logo="https://i.imgur.com/k8JjFDw.png" group-title="General",Channel 10 (Russia) (576i)
 https://bl.rutube.ru/livestream/c9e26bf5c003fd8d477200065ca1a05f/index.m3u8?e=2072611029&s=eqlTXebDP9wSWTZgre6BwQ&scheme=https
 #EXTINF:-1 tvg-id="Channel12.ru@SD" tvg-country="RU" tvg-name="Channel 12" tvg-logo="https://i.imgur.com/OA9hm6e.png" group-title="General",Channel 12 (1080p)
@@ -607,6 +607,8 @@ http://tvzvezda.bonus-tv.ru/cdn/zvezdaplus/playlist.m3u8
 https://stream.smotrim.ru/hls/vesti_fm/playlist.m3u8?entity=channel&id=199&sign=7a04ce47ac48dd9b7ee0a99025656417
 #EXTINF:-1 tvg-id="TelekanalZvezda.ru" tvg-country="RU" tvg-name="Звезда" tvg-logo="https://i.imgur.com/c0L0ncA.png" group-title="General",Звезда
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
+#EXTINF:-1 tvg-id="Karusel.ru" tvg-country="RU" tvg-name="Карусель" tvg-logo="https://i.imgur.com/4fFMlVq.png" group-title="General",Карусель
+https://streaming102.interskytech.com/live/232.m3u8
 #EXTINF:-1 tvg-id="OTR.ru" tvg-country="RU" tvg-name="ОТР" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9c/OTR_2025_logo.svg" group-title="General",ОТР
 https://streaming.televizor-24-tochka.ru/live/12.m3u8
 #EXTINF:-1 tvg-id="Pyatnitsa.ru" tvg-country="RU" tvg-name="Пятница!" tvg-logo="https://i.imgur.com/rS11zVB.png" group-title="General",Пятница!
