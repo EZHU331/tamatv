@@ -4,4 +4,4 @@ This 20-second synthetic color-bar test pattern, counter and 440 Hz test tone we
 
 Add playlist: https://ezhu331.github.io/tamatv/review-samples/review.m3u
 
-In TamaTV: TV > Playlists > Add Playlist. Enter name Review Sample, paste the M3U URL, choose Test Connection, then Save Playlist. Select the playlist and its one test item to play. No login or payment is required inside the app. This optional sample is not included or automatically imported in the app.
+In TamaTV: TV > Add Playlist > Enter Playlist URL. Enter name Review Sample and the M3U URL. Leave EPG URL empty and choose Save Playlist (or Done in the EPG keyboard). Select TamaTV Original Playback Sample. No login or in-app payment is required. This optional sample is not included or automatically imported in the app.
