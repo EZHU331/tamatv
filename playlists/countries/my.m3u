@@ -2,6 +2,8 @@
 #EXTINF:-1 tvg-id="BeritaRTM.my@SD" tvg-country="MY" tvg-name="Berita RTM" tvg-logo="https://i.imgur.com/1Xzxsgl.png" group-title="News" http-referrer="https://rtm-player.glueapi.io/",Berita RTM (1080p)
 #EXTVLCOPT:http-referrer=https://rtm-player.glueapi.io/
 https://d25tgymtnqzu8s.cloudfront.net/smil:berita/playlist.m3u8?id=5
+#EXTINF:-1 tvg-id="CinemaWorld.my@Vietnam" tvg-country="MY" tvg-name="CinemaWorld" tvg-logo="https://i.imgur.com/D2qNVZ7.png" group-title="Movies",CinemaWorld Vietnam (720p)
+http://antm.dynu.net:14285/rtp/232.84.1.44:8244
 #EXTINF:-1 tvg-id="MaahTV.my@SD" tvg-country="MY" tvg-name="Maah TV" tvg-logo="https://i.imgur.com/FkyueH6.png" group-title="Movies",Maah TV (720p)
 https://hls.maahtv.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="Okey.my@SD" tvg-country="MY" tvg-name="Okey" tvg-logo="https://i.imgur.com/V2jREQ5.png" group-title="General" http-referrer="https://rtm-player.glueapi.io/",Okey (1080p)

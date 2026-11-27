@@ -1,7 +1,8 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="ReinoInfantil.mz@SD" tvg-country="MZ" tvg-name="Reino Infantil" tvg-logo="https://i.imgur.com/oAygpDw.png" group-title="Kids",Reino Infantil
 https://www.khuwemultimedia.com/hls/reinoinfantiltv/reinoinfantiltv.m3u8
-#EXTINF:-1 tvg-id="TelevisaoAcademica.mz@SD" tvg-country="MZ" tvg-name="Televisao Academica" tvg-logo="https://i.imgur.com/YmxGoPW.png" group-title="Education",Televisao Academica (576i)
-https://stream-hls.castr-cdn.com/696393a1681ed8469d37aba8/live_9fb9b070eeea11f088034b4b9dd1fd84/index.m3u8
 #EXTINF:-1 tvg-id="TVManaMocambique.mz@SD" tvg-country="MZ" tvg-name="TV Mana Mocambique" tvg-logo="https://i.imgur.com/R5YrV5s.png" group-title="Religious",TV Mana Mocambique (1080p)
 https://w2.manasat.com/tvmana-mz/smil:tvmana-mz.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="EcoTV.mz@SD" tvg-country="MZ" tvg-name="EcoTV" tvg-logo="https://i.imgur.com/1V6VENw.png" group-title="General" http-referrer="https://site.ecotv.co.mz/ecotv-mocambique-online",EcoTV (1080i)
+#EXTVLCOPT:http-referrer=https://site.ecotv.co.mz/ecotv-mocambique-online
+https://streaming.ecotv.co.mz/hls/index.m3u8

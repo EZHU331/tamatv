@@ -22,11 +22,11 @@ https://cafefhls.wns.live/hls/stream.m3u8
 https://ca-rt.onetv.app/EkranMovies/index-0.m3u8?token=onetv202
 #EXTINF:-1 tvg-id="GoldStar.ir@SD" tvg-country="IR" tvg-name="Gold Star" group-title="Movies",Gold Star
 https://moviethls.wns.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="iFilm2.ir" tvg-country="IR" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="Movies",iFilm 2
+#EXTINF:-1 tvg-id="iFilm2.ir@SD" tvg-country="IR" tvg-name="iFilm 2" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/c/ce/Ifilm2logo.png" group-title="Movies",iFilm 2
 https://live.presstv.co.uk/hls/ifilm2.m3u8
-#EXTINF:-1 tvg-id="iFilmArabic.ir" tvg-country="IR" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Arabic
+#EXTINF:-1 tvg-id="iFilmArabic.ir@SD" tvg-country="IR" tvg-name="iFilm Arabic" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Arabic
 https://live.presstv.co.uk/hls/ifilmar.m3u8
-#EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-country="IR" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm English
+#EXTINF:-1 tvg-id="iFilmEnglish.ir@SD" tvg-country="IR" tvg-name="iFilm English" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm English
 https://live.presstv.co.uk/hls/ifilmen.m3u8
 #EXTINF:-1 tvg-id="iFilmPersian.ir@SD" tvg-country="IR" tvg-name="iFilm Persian" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/b/b9/IFILM.png" group-title="Movies",iFilm Persian (1080p)
 https://ncdn.telewebion.ir/ifilm/live/playlist.m3u8
@@ -60,6 +60,8 @@ https://ncdn.telewebion.ir/nasim/live/playlist.m3u8
 https://hls.oxir.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="TVITN.ir@SD" tvg-country="IR" tvg-name="TV ITN" tvg-logo="https://i.imgur.com/U4sKHWy.png" group-title="Entertainment",TV ITN
 https://itnhls.wns.live/hls/stream.m3u8
+#EXTINF:-1 tvg-id="YourTimeTV.ir@SD" tvg-country="IR" tvg-name="YourTime TV" tvg-logo="https://i.imgur.com/X38vWJ1.png" group-title="Entertainment",YourTime TV
+https://hls.yourtime.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="HodHodFarsiTV.ir@SD" tvg-country="IR" tvg-name="HodHod Farsi TV" tvg-logo="https://i.imgur.com/l8XMKTT.png" group-title="Kids",HodHod Farsi TV (1080p)
 https://northtelecom.b-cdn.net/hodhodtv.m3u8
 #EXTINF:-1 tvg-id="IRIBOmid.ir@SD" tvg-country="IR" tvg-name="IRIB Omid" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/IRIB_Omid.svg/500px-IRIB_Omid.svg.png" group-title="Kids",IRIB Omid (1080p)
@@ -140,7 +142,7 @@ https://ncdn.telewebion.ir/amouzesh/live/playlist.m3u8
 https://ncdn.telewebion.ir/mostanad/live/playlist.m3u8
 #EXTINF:-1 tvg-id="SalamatTV.ir" tvg-country="IR" tvg-name="IRIB Salamat" tvg-logo="https://upload.wikimedia.org/wikipedia/fa/f/f0/IRIB_Salamat_Logo.png" group-title="General",IRIB Salamat
 https://ncdn.telewebion.ir/salamat/live/playlist.m3u8
-#EXTINF:-1 tvg-id="IRIBUHD.ir" tvg-country="IR" tvg-name="IRIB UHD-HDR" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_FARATAR_UHD.png/960px-IRIB_FARATAR_UHD.png" group-title="General",IRIB UHD-HDR (2160p)
+#EXTINF:-1 tvg-id="IRIBUHD.ir@4K" tvg-country="IR" tvg-name="IRIB UHD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/IRIB_FARATAR_UHD.png/960px-IRIB_FARATAR_UHD.png" group-title="General",IRIB UHD (2160p)
 https://ncdn.telewebion.ir/faratar/live/playlist.m3u8
 #EXTINF:-1 tvg-id="KermanTV.ir@SD" tvg-country="IR" tvg-name="Kerman TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Kerman_irib_logo_%28blue_version%29.png/960px-Kerman_irib_logo_%28blue_version%29.png" group-title="General",Kerman TV (1080p)
 https://ncdn.telewebion.ir/kerman/live/playlist.m3u8

@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_ES1.xml.gz"
+#EXTM3U url-tvg="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz" x-tvg-url="https://epgshare01.online/epgshare01/epg_ripper_US1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_UK1.xml.gz,https://epgshare01.online/epgshare01/epg_ripper_SA1.xml.gz"
 #EXTINF:-1 tvg-id="3CatPlatsbruts.es@SD" tvg-country="ES" tvg-name="3Cat Plats bruts" tvg-logo="https://i.imgur.com/49ZENis.png" group-title="Series",3Cat Plats bruts (1080p)
 https://fast-tailor.3catdirectes.cat/v1/channel/ccma-channel2/hls.m3u8
 #EXTINF:-1 tvg-id="4everDrama.ua@SD" tvg-country="UA" tvg-name="4ever Drama" tvg-logo="https://i.imgur.com/CD3vZU6.png" group-title="Series",4ever Drama (1080p)
@@ -34,7 +34,7 @@ https://avaserieshls.wns.live/hls/stream.m3u8
 #EXTINF:-1 tvg-id="AWTV.br@HD" tvg-country="BR" tvg-name="AWTV" tvg-logo="https://i.imgur.com/2tdMyef.png" group-title="Series" http-referrer="https://awtv.com.br",AWTV (1080p)
 #EXTVLCOPT:http-referrer=https://awtv.com.br
 https://awtv.nuvemplay.live/hls/stream.m3u8
-#EXTINF:-1 tvg-id="AXNBlack.pl" tvg-country="PL" tvg-name="AXN Black (Poland) (576i)" tvg-logo="https://i.imgur.com/Nqvx6nz.png" group-title="Series",AXN Black (Poland) (576i)
+#EXTINF:-1 tvg-id="AXNBlack.pl@SD" tvg-country="PL" tvg-name="AXN Black" tvg-logo="https://i.imgur.com/Nqvx6nz.png" group-title="Series",AXN Black (Poland) (576i)
 http://92.114.85.87:8014/play/a00h/index.m3u8
 #EXTINF:-1 tvg-id="AzCorazon.mx@SD" tvg-country="MX" tvg-name="Az Corazon" tvg-logo="https://i.imgur.com/KIpSdQC.png" group-title="Series",Az Corazon (720p)
 http://200.115.120.1:8000/play/ca020/index.m3u8
@@ -104,6 +104,8 @@ https://epg.provider.plex.tv/library/parts/6a1610bebdf296985fd95603-66f6b6baac1a
 https://bbc-impossible-1-us.roku.wurl.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="InsideCrime.us@UK" tvg-country="US" tvg-name="Inside Crime" tvg-logo="https://i.imgur.com/wvQYWsj.png" group-title="Series",Inside Crime (1080p)
 https://aenetworks-insidecrime-rakuten.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="JohnnyCarsonTV.us@SD" tvg-country="US" tvg-name="Johnny Carson TV" tvg-logo="https://i.imgur.com/KBTqpJ7.png" group-title="Series",Johnny Carson TV (720p)
+https://vizioaaaa-johnnycarson-vizio-8fyqr.amagi.tv/playlist/vizioAAAA-johnnycarson-vizio/playlist.m3u8
 #EXTINF:-1 tvg-id="JudgeFaith.us@SD" tvg-country="US" tvg-name="Judge Faith" tvg-logo="https://i.imgur.com/BXgfOzW.png" group-title="Series",Judge Faith (1080p)
 https://amg18477-mycode-amg18477c1-vizio-us-9644.playouts.now.amagi.tv/playlist.m3u8
 #EXTINF:-1 tvg-id="JudgeNosey.us@US" tvg-country="US" tvg-name="Judge Nosey" tvg-logo="https://i.imgur.com/S4r98AB.png" group-title="Series",Judge Nosey (1080p)
@@ -233,7 +235,7 @@ https://cdn.rostelekom-tv.xyz/live/DeWr3Sgw1Aj2lJd0.m3u8
 https://cdn.rostelekom-tv.xyz/live/HSxyMqDlSVR54UTN.m3u8
 #EXTINF:-1 tvg-id="VelvetWorldSeries.ru@HD" tvg-country="RU" tvg-name="Velvet. World Series" tvg-logo="https://antiabuse-container.b-cdn.net/mirseriallogo.png" group-title="Series",Velvet. World Series (1080p)
 https://cdn.rostelekom-tv.xyz/live/2RR44py-yGlIWQIp.m3u8
-#EXTINF:-1 tvg-id="ViasatEpicDrama.uk" tvg-country="UK" tvg-name="Viasat Epic Drama Poland" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/Viasat_Epic_Drama_2026.svg" group-title="Series",Viasat Epic Drama Poland (1080p)
+#EXTINF:-1 tvg-id="ViasatEpicDrama.uk@Poland" tvg-country="UK" tvg-name="Viasat Epic Drama" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/e/e1/Viasat_Epic_Drama_2026.svg" group-title="Series",Viasat Epic Drama Poland (1080p)
 http://92.114.85.87:8001/play/a00x/index.m3u8
 #EXTINF:-1 tvg-id="vijuTV1000romantica.ru@HD" tvg-country="RU" tvg-name="viju TV1000 romantica" tvg-logo="https://rnnxdki1nv.a.trbcdn.net/viasat/production/tvchannels/dc243048-c5ad-4ccc-86c6-3a480874ec29/logos/flo59mr6lh1jf68g3021urgwtd5k" group-title="Series",viju TV1000 romantica HD (1080p)
 http://46.53.200.153:7777/play/Viju_Drama/index.m3u8
@@ -243,8 +245,6 @@ http://46.53.200.153:7777/play/Viju_Serial_HD/index.m3u8
 https://r.il.cdn-redge.media/livehls/oil/freetv/live/viva/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="WeTV.us@East" tvg-country="US" tvg-name="We TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Wetv-july-2024-logo.svg/3840px-Wetv-july-2024-logo.svg.png" group-title="Series",We TV (1080p)
 http://23.237.104.106:8080/USA_WE_TV/index.m3u8
-#EXTINF:-1 tvg-id="XPTVUS.es@SD" tvg-country="ES" tvg-name="XPTV US" tvg-logo="https://i.imgur.com/1m7kDmc.png" group-title="Series",XPTV US (720p)
-https://janus.xpbroadcasting.com:8443/hls/xptvUS.m3u8
 #EXTINF:-1 tvg-id="YamTichoni.il@SD" tvg-country="IL" tvg-name="Yam Tichoni" tvg-logo="https://upload.wikimedia.org/wikipedia/he/thumb/5/58/YamTichoniChannel.svg/1280px-YamTichoniChannel.svg.png" group-title="Series",Yam Tichoni (1080p)
 http://stream.mcquack.net/46/index.m3u8
 #EXTINF:-1 tvg-id="CA800004UD" tvg-country="US" tvg-name="Z Nation" tvg-logo="https://provider-static.plex.tv/epg/cms/production/63687b98-1b80-4b25-80b4-4de7fd243311/ZNation_Channel_Logo_White.png" group-title="Series",Z Nation
