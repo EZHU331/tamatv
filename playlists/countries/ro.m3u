@@ -258,8 +258,6 @@ https://live.nasul.tv/live/stream.m3u8
 https://hls01ns.antenaplay.ro/hls/n24-plus-sd/index.m3u8
 #EXTINF:-1 tvg-id="NationalTV.ro@SD" tvg-country="RO" tvg-name="National TV" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/b/bd/National_TV_2025.png" group-title="General",National TV
 https://hls01ns.antenaplay.ro/hls/national-tv-sd/index.m3u8
-#EXTINF:-1 tvg-id="NationalTV2.ro@SD" tvg-country="RO" tvg-name="National TV2" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/a/a8/National_TV_2_2026.png/revision/latest/scale-to-width-down/1000?cb=20260611184456" group-title="General",National TV2 (1080i)
-http://91.235.165.117:8002/play/a098/index.m3u8
 #EXTINF:-1 tvg-id="PrimaTV.ro@SD" tvg-country="RO" tvg-name="Prima TV" tvg-logo="https://i.imgur.com/p2umWAT.png" group-title="General",Prima TV (Romania)
 http://89.44.231.73:7000/primatv
 #EXTINF:-1 tvg-id="ProArena.ro@SD" tvg-country="RO" tvg-name="Pro Arena" tvg-logo="https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/PRO_Arena_Logo_%282022-present%29.svg/960px-PRO_Arena_Logo_%282022-present%29.svg.png" group-title="General",Pro Arena (1080p)
@@ -284,7 +282,7 @@ https://livestream.romaniatv.net/clients/romaniatv/playlist.m3u8
 https://live.senstv.ro/live/senstv_1080p/chunklist.m3u8
 #EXTINF:-1 tvg-id="Tele7ABCHD.ro@SD" tvg-country="RO" tvg-name="Tele7ABC HD" tvg-logo="https://i.imgur.com/CheqyWH.png" group-title="General",Tele7ABC HD (720p)
 https://live.tele7abc.ro/hls/stream/index.m3u8
-#EXTINF:-1 tvg-id="Telestar1.ro" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
+#EXTINF:-1 tvg-id="Telestar1.ro@SD" tvg-country="RO" tvg-name="Telestar1" tvg-logo="https://i.imgur.com/BTKh5ef.png" group-title="General",Telestar1
 https://dvb.tennet.ro/mobile_tv/telestar.m3u8
 #EXTINF:-1 tvg-id="TimelessDiziChannel.ro@SD" tvg-country="RO" tvg-name="Timeless Dizi Channel" tvg-logo="https://i.imgur.com/s3Sqd4L.png" group-title="General",Timeless Dizi Channel (576i)
 https://nosignal1.antenaplay.ro/hls/dzi-int-hd/index.m3u8

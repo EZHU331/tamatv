@@ -17,8 +17,8 @@ http://69.30.245.50/live/cctv1.m3u8
 http://74.91.26.218:82/live/cctv4hd.m3u8
 #EXTINF:-1 tvg-id="CCTV4Europe.cn" tvg-country="CN" tvg-name="CCTV-4 中文国际（欧）" tvg-logo="https://i.imgur.com/HGLFdfk.png" group-title="央视",CCTV-4 中文国际（欧）
 https://dash2.antik.sk/live/test_cctv_tizen/playlist.m3u8
-#EXTINF:-1 tvg-id="CCTV4K.cn@HD" tvg-country="CN" tvg-name="CCTV-4K" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="央视",CCTV-4K HD (2160p)
-http://198.204.240.250:82/live/cctv4k.m3u8
+#EXTINF:-1 tvg-id="CCTV-4k" tvg-country="CN" tvg-name="CCTV-4K" tvg-logo="https://i.imgur.com/fxusYlX.png" group-title="央视",CCTV-4K (2160p)
+https://live-play-hls.cctvnews.cctv.com/CCTVChannel/channel_cctv4k_mbd.m3u8?auth_key=1795932000-1-b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c-84c548ea677bdba4ca53091e45c3b975&yid=b59134a2ead43d7f783f943c8f535e7bb80c5169575b2e8efcd5b3ddea21b41c
 #EXTINF:-1 tvg-id="CCTV5Plus.cn@SD" tvg-country="CN" tvg-name="CCTV-5+" tvg-logo="https://i.imgur.com/OK8mdJV.png" group-title="央视",CCTV-5+ (1080p)
 https://php.jdshipin.com/TVOD/iptv.php?id=cctv5p
 #EXTINF:-1 tvg-id="CCTV6.cn@HD" tvg-country="CN" tvg-name="CCTV-6" tvg-logo="https://i.imgur.com/rFiaef7.png" group-title="央视",CCTV-6 HD (1080p)
@@ -67,6 +67,8 @@ http://38.75.136.137:98/gslb/dsdqpub/sjdl.m3u8?auth=testpub
 http://107.150.60.122/live/cetv3.m3u8
 #EXTINF:-1 tvg-id="CETV-4" tvg-country="CN" tvg-name="CETV-4" tvg-logo="https://i.imgur.com/a1N6wB7.png" group-title="央视",CETV-4
 https://zby.130519.xyz/PLTV/11/224/3221226153/index.m3u8
+#EXTINF:-1 tvg-id="ICS.cn" tvg-country="CN" tvg-name="上海外语" tvg-logo="https://i.imgur.com/iHGKPCO.png" group-title="央视",上海外语
+http://t.061899.xyz/tl/tl.php?id=shics
 #EXTINF:-1 tvg-id="SihaiFishingChannel.cn" tvg-country="CN" tvg-name="四海钓鱼" tvg-logo="https://i.imgur.com/BCJes2k.png" group-title="央视",四海钓鱼
 http://t.061899.xyz/tl/tl.php?id=shdy
 #EXTINF:-1 tvg-id="DragonTV.cn" tvg-country="CN" tvg-name="东方卫视" tvg-logo="https://i.imgur.com/WqM6xnF.png" group-title="卫视",东方卫视 (720p)
@@ -139,7 +141,7 @@ http://live2.rxip.sc96655.com/live/zxs_4000.m3u8?A=&E=&K=&P=&S=&U=
 https://fastlive.cctvplus.com/out/v1/8442c3bfd4c64a3984389328f6087879/index.m3u8
 #EXTINF:-1 tvg-id="FengshangShoppingChannel.cn@SD" tvg-country="CN" tvg-name="Fengshang Shopping Channel" tvg-logo="https://i.imgur.com/WNhfnUR.png" group-title="地方",Fengshang Shopping Channel (1080p)
 http://183.207.248.71/cntv/live1/fengshanggw/fengshanggw
-#EXTINF:-1 tvg-id="GoldenEagleCartoon.cn@SD" tvg-country="CN" tvg-name="Golden Eagle Cartoon" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="地方",Golden Eagle Cartoon
+#EXTINF:-1 tvg-id="GoldenEagleCartoon.cn" tvg-country="CN" tvg-name="Golden_Eagle_Cartoon" tvg-logo="https://i.imgur.com/xfVHrKQ.png" group-title="地方",Golden_Eagle_Cartoon
 http://1.24.190.98:10080/hls/51/index.m3u8
 #EXTINF:-1 tvg-id="GuangxiVarietyTravelChannel.cn@SD" tvg-country="CN" tvg-name="Guangxi Variety & Travel Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/gxzypd.jpg" group-title="地方",Guangxi Variety & Travel Channel
 http://111.59.24.227:8181/tsfile/live/1001_1.m3u8?authid=0&key=txiptv&playlive=1
@@ -159,7 +161,7 @@ http://117.156.28.119/270000001111/1110000149/index.m3u8
 https://p8.vzan.com/slowlive/415983998730568937/live.m3u8
 #EXTINF:-1 tvg-id="HunanNewsChannel.cn@SD" tvg-country="CN" tvg-name="Hunan News Channel" tvg-logo="https://static.tvtropes.org/pmwiki/pub/images/hunantv_logo.png" group-title="地方",Hunan News Channel
 http://35848.hlsplay.aodianyun.com/guangdianyun_35848/tv_channel_346.m3u8
-#EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn@SD" tvg-country="CN" tvg-name="Jiangsu Public & News Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jsgg.jpg" group-title="地方",Jiangsu Public & News Channel
+#EXTINF:-1 tvg-id="JiangsuPublicNewsChannel.cn" tvg-country="CN" tvg-name="Jiangsu_Public_&_News_Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jsgg.jpg" group-title="地方",Jiangsu_Public_&_News_Channel
 https://jiangning-tv-playing-t.cm.jstv.com/jiangning-tv/jnxwzh.m3u8
 #EXTINF:-1 tvg-id="JiangxiChildrensChannel.cn@SD" tvg-country="CN" tvg-name="Jiangxi Children's Channel" tvg-logo="https://www.tvchinese.net/uploads/tv/jxtv6.jpg" group-title="地方",Jiangxi Children's Channel
 https://play-live-hls.jxtvcn.com.cn/live-city/tv_jxtv6.m3u8
@@ -313,6 +315,8 @@ https://stream1.freetv.fun/fd9a43bef6735146ddf93f77ed8c58c90932e0744af45f48cb332
 https://stream1.freetv.fun/fe56dce8b0e5dec04d0e5862e9d8e7383d6ae40ef16fb1045329bc0df164befb.ctv
 #EXTINF:-1 tvg-id="湖北影视" tvg-country="CN" tvg-name="湖北影视" tvg-logo="https://www.tvchinese.net/uploads/tv/hbys.jpg" group-title="电影",湖北影视
 https://stream1.freetv.fun/hu-bei-ying-shi-1.ctv
+#EXTINF:-1 tvg-id="安徽国际" tvg-country="CN" tvg-name="安徽国际" tvg-logo="https://i.imgur.com/mBSoJdv.png" group-title="国际",安徽国际
+https://m.italkbbtv.com/live/6a3a3784260d0d240f66a62c
 #EXTINF:-1 tvg-id="AnhuiTV.cn@SD" tvg-country="CN" tvg-name="Anhui TV" tvg-logo="https://i.imgur.com/gDn101f.png" group-title="其他",Anhui TV (1080p)
 https://restream.pdtvhd.com/memfs/c1cd2ed0-3b2b-4c25-af98-a7fb0b1eb130.m3u8
 #EXTINF:-1 tvg-id="BreadTV.cn@SD" tvg-country="CN" tvg-name="Bread TV" tvg-logo="https://bread-tv.com/uploads/allimg/241202/9_1836542371.png" group-title="其他",Bread TV (720p)
@@ -333,9 +337,9 @@ http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jb
 http://39.134.24.166/dbiptv.sn.chinamobile.com/PLTV/88888890/224/3221226200/index.m3u8
 #EXTINF:-1 tvg-id="JiangxiTV.cn@SD" tvg-country="CN" tvg-name="Jiangxi TV" tvg-logo="https://i.imgur.com/RrLthH3.png" group-title="其他",Jiangxi TV (1080p)
 http://39.134.115.163:8080/PLTV/88888910/224/3221225705/index.m3u8
-#EXTINF:-1 tvg-id="NeiMonggolTV.cn@SD" tvg-country="CN" tvg-name="Nei Monggol TV" tvg-logo="https://i.imgur.com/WeugJBE.png" group-title="其他",Nei Monggol TV
+#EXTINF:-1 tvg-id="NeiMonggolTV.cn" tvg-country="CN" tvg-name="Nei_Monggol_TV" tvg-logo="https://i.imgur.com/WeugJBE.png" group-title="其他",Nei_Monggol_TV
 http://1.24.190.98:10080/hls/39/index.m3u8
-#EXTINF:-1 tvg-id="QinghaiTV.cn@SD" tvg-country="CN" tvg-name="Qinghai TV" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="其他",Qinghai TV
+#EXTINF:-1 tvg-id="QinghaiTV.cn" tvg-country="CN" tvg-name="Qinghai_TV" tvg-logo="https://i.imgur.com/Nyuxo8S.png" group-title="其他",Qinghai_TV
 https://hls-qhmh.lanzhousobey.cn/qhmh/mhds.m3u8
 #EXTINF:-1 tvg-id="ShandongTVLifeChannel.cn@SD" tvg-country="CN" tvg-name="Shandong TV Life Channel" tvg-logo="https://i.imgur.com/bWPiC14.png" group-title="其他",Shandong TV Life Channel (1080p)
 http://livealone302.iqilu.com/iqilu/shpd.m3u8

@@ -61,6 +61,8 @@ https://mcdn.br.de/br/fs/ard_alpha/hls/de/master.m3u8
 https://relay2.cdn.fem-net.de/hls/loop/istuff_live/istuff_live-720p.m3u8
 #EXTINF:-1 tvg-id="NRWision.de@SD" tvg-country="DE" tvg-name="NRWision" tvg-logo="https://i.imgur.com/RkF2Kmx.png" group-title="Education",NRWision (1080p)
 https://fms.nrwision.de/live/ngrp:livestreamHD.stream/playlist.m3u8
+#EXTINF:-1 tvg-id="KulturMD.de@SD" tvg-country="DE" tvg-name="KulturMD" tvg-logo="https://i.imgur.com/io7cJ1Z.png" group-title="Culture",KulturMD (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/kulturmd_high/playlist.m3u8
 #EXTINF:-1 tvg-id="AdriaMusicTelevision.de@SD" tvg-country="DE" tvg-name="Adria Music Television" tvg-logo="https://i.imgur.com/QoDpnKg.png" group-title="Music",Adria Music Television
 https://adriaapp.b-cdn.net/1080p/index.m3u8
 #EXTINF:-1 tvg-id="BibelTVMusik.de@SD" tvg-country="DE" tvg-name="Bibel TV Musik" tvg-logo="https://i.imgur.com/yIqOcP5.png" group-title="Music",Bibel TV Musik (720p)
@@ -171,6 +173,8 @@ https://jmp2.uk/stvp-DE400012YD
 https://5acade5fc0c29.streamlock.net/OKGera/tmbz_live_high.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="AT1100001B5" tvg-country="DE" tvg-name="Landlust TV" tvg-logo="https://tvpnlogopeu.samsungcloud.tv/platform/image/sourcelogo/vc/00/02/34/AT1100001B5_20250107T022137SQUARE.png" group-title="General",Landlust TV
 https://jmp2.uk/stvp-AT1100001B5
+#EXTINF:-1 tvg-id="MDF1.de@SD" tvg-country="DE" tvg-name="MDF.1" tvg-logo="https://i.imgur.com/IFGXK6u.png" group-title="General",MDF.1 (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/mdf1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="MDRFernsehen.de@Sachsen" tvg-country="DE" tvg-name="MDR Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/960px-MDR_Logo_2017.svg.png" group-title="General",MDR Fernsehen (1080p)
 https://mdrtvsnhls.akamaized.net/hls/live/2016928/mdrtvsn/index.m3u8
 #EXTINF:-1 tvg-id="MDRFernsehenSachsen.de" tvg-country="DE" tvg-name="MDR Sachsen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/MDR_Logo_2017.svg/500px-MDR_Logo_2017.svg.png" group-title="General",MDR Sachsen Ⓖ
@@ -213,10 +217,20 @@ https://5864df9ceac85.streamlock.net/germanpictures-live/_definst_/mp4:streamsch
 https://s.ok54.de/abr_ok4/live/playlist.m3u8
 #EXTINF:-1 tvg-id="OK54.de@SD" tvg-country="DE" tvg-name="OK54" tvg-logo="https://ok54.de/wp-content/uploads/2013/04/ok54_logo_schwarz.png" group-title="General",OK54 (720p)
 https://s.ok54.de/ott/webstream/tv/webstream_720p/playlist.m3u8
+#EXTINF:-1 tvg-id="OKDessau.de@SD" tvg-country="DE" tvg-name="OK Dessau" tvg-logo="https://i.imgur.com/nx4Wc8l.png" group-title="General",OK Dessau (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-dessau_high/playlist.m3u8
 #EXTINF:-1 tvg-id="OKKaiserslautern.de@SD" tvg-country="DE" tvg-name="OK Kaiserslautern" tvg-logo="https://i.imgur.com/MRrETTh.png" group-title="General",OK Kaiserslautern (720p)
 https://s.ok54.de/abr_okkl/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKKassel.de@SD" tvg-country="DE" tvg-name="OK Kassel" tvg-logo="https://i.imgur.com/igZ9sx2.png" group-title="General",OK Kassel (720p)
 https://s.ok54.de/mok-ks/kassel/playlist.m3u8
+#EXTINF:-1 tvg-id="OKMagdeburg.de@SD" tvg-country="DE" tvg-name="OK Magdeburg" tvg-logo="https://i.imgur.com/zftoymR.png" group-title="General",OK Magdeburg (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-magdeburg_high/playlist.m3u8
+#EXTINF:-1 tvg-id="OKMerseburgQuerfurt.de@SD" tvg-country="DE" tvg-name="OK Merseburg-Querfurt" tvg-logo="https://i.imgur.com/QfzdESc.png" group-title="General",OK Merseburg-Querfurt (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-merseburg_high/playlist.m3u8
+#EXTINF:-1 tvg-id="OKSalzwedel.de@SD" tvg-country="DE" tvg-name="OK Salzwedel" tvg-logo="https://i.imgur.com/jDmiTOS.png" group-title="General",OK Salzwedel (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-salzwedel_high/playlist.m3u8
+#EXTINF:-1 tvg-id="OKStendal.de@SD" tvg-country="DE" tvg-name="OK Stendal" tvg-logo="https://i.imgur.com/s9wo85l.png" group-title="General",OK Stendal (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ok-stendal_high/playlist.m3u8
 #EXTINF:-1 tvg-id="OKTrier.de@SD" tvg-country="DE" tvg-name="OK Trier" tvg-logo="https://i.imgur.com/nq32HIs.png" group-title="General",OK Trier (720p)
 https://s.ok54.de/ott/webstream/playlist.m3u8
 #EXTINF:-1 tvg-id="OKWernigerode.de@SD" tvg-country="DE" tvg-name="OK Wernigerode" tvg-logo="https://i.imgur.com/3gQvhSy.png" group-title="General",OK Wernigerode (1080p)
@@ -225,18 +239,26 @@ http://58bd5b7a98e04.streamlock.net/medienasa-live/mp4:ok-wernigerode_high/playl
 https://zdf-hls-19.akamaized.net/hls/live/2016502/de/high/master.m3u8
 #EXTINF:-1 tvg-id="ProSieben.de@SD" tvg-country="DE" tvg-name="ProSieben" tvg-logo="https://i.imgur.com/zZOk3nh.png" group-title="General",ProSieben (1080p)
 https://dash4.antik.sk/live/test_pro_sieben_tizen/playlist.m3u8
+#EXTINF:-1 tvg-id="PUNKTumFernsehen.de@SD" tvg-country="DE" tvg-name="PUNKTum Fernsehen" tvg-logo="https://i.imgur.com/3yamOmw.png" group-title="General",PUNKTum Fernsehen (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/punktum_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RadioBremenFernsehen.de@SD" tvg-country="DE" tvg-name="Radio Bremen Fernsehen" tvg-logo="https://i.imgur.com/wsTOcuX.png" group-title="General",Radio Bremen Fernsehen (1080p)
 https://rbhlslive.akamaized.net/hls/live/2020435/rbfs/master.m3u8
+#EXTINF:-1 tvg-id="RAN1.de@SD" tvg-country="DE" tvg-name="RAN1" tvg-logo="https://i.imgur.com/zRg2BEa.png" group-title="General",RAN1 (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/ran1_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RBBBerlin.de" tvg-country="DE" tvg-name="RBB Berlin" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png" group-title="General",RBB Berlin Ⓖ
 https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/master.m3u8
 #EXTINF:-1 tvg-id="RBBBrandenburg.de" tvg-country="DE" tvg-name="RBB Brandenburg" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/500px-Rbb_Fernsehen_Logo_2017.08.svg.png" group-title="General",RBB Brandenburg Ⓖ
 https://rbb-hls-brandenburg.akamaized.net/hls/live/2017825/rbb_brandenburg/master.m3u8
 #EXTINF:-1 tvg-id="rbbFernsehen.de@Berlin" tvg-country="DE" tvg-name="rbb Fernsehen" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Rbb_Fernsehen_Logo_2017.08.svg/960px-Rbb_Fernsehen_Logo_2017.08.svg.png" group-title="General",rbb Fernsehen Berlin (1080p)
 https://rbb-hls-berlin.akamaized.net/hls/live/2017824/rbb_berlin/index.m3u8
+#EXTINF:-1 tvg-id="RBW.de@SD" tvg-country="DE" tvg-name="RBW" tvg-logo="https://i.imgur.com/A0UKdix.png" group-title="General",RBW (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/rbw_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RegioTVBodensee.de@SD" tvg-country="DE" tvg-name="Regio TV Bodensee" tvg-logo="https://i.imgur.com/3koyLef.png" group-title="General",Regio TV Bodensee (1080p)
 https://regiotv-b.iptv-playoutcenter.de/regiotv-b/regiotv-b.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="RegioTVStuttgart.de@SD" tvg-country="DE" tvg-name="Regio TV Stuttgart" tvg-logo="https://i.imgur.com/3koyLef.png" group-title="General",Regio TV Stuttgart (1080p)
 https://regiotv-s.iptv-playoutcenter.de/regiotv-s/regiotv-s.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="RFH.de@SD" tvg-country="DE" tvg-name="RFH" tvg-logo="https://i.imgur.com/8DZa7in.png" group-title="General",RFH (1080p)
+http://58bd5b7a98e04.streamlock.net/medienasa-live/RFH_high/playlist.m3u8
 #EXTINF:-1 tvg-id="RFO.de@SD" tvg-country="DE" tvg-name="RFO" tvg-logo="https://i.imgur.com/902BHGL.png" group-title="General",RFO (1080p)
 https://stream01.stream.welocal.world/stream/fhd-rfo_66876/ngrp:stream_all/playlist.m3u8
 #EXTINF:-1 tvg-id="RiCtoday.de@HD" tvg-country="DE" tvg-name="RiC.today" group-title="General",RiC.today
@@ -249,6 +271,10 @@ https://dash4.antik.sk/live/test_rtl_ger_tizen/playlist.m3u8
 https://s6.hopslan.com/superX/index.m3u8
 #EXTINF:-1 tvg-id="RTLZwei.de@HD" tvg-country="DE" tvg-name="RTL Zwei" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/RTLZWEI_Logo_2019.svg/960px-RTLZWEI_Logo_2019.svg.png" group-title="General",RTL Zwei HD (720p)
 https://s6.hopslan.com/rtl2q/index.m3u8
+#EXTINF:-1 tvg-id="SaarlandFernsehen1.de@SD" tvg-country="DE" tvg-name="Saarland Fernsehen 1" tvg-logo="https://i.imgur.com/OodehFV.png" group-title="General",Saarland Fernsehen 1 (1080p)
+https://saarland1.iptv-playoutcenter.de/saarland1/saarland1.stream_1/playlist.m3u8
+#EXTINF:-1 tvg-id="SaarlandFernsehen2.de@SD" tvg-country="DE" tvg-name="Saarland Fernsehen 2" tvg-logo="https://i.imgur.com/Yv7j4ia.png" group-title="General",Saarland Fernsehen 2 (720p)
+https://saarland2.iptv-playoutcenter.de/saarland2/saarland2.stream_2/playlist.m3u8
 #EXTINF:-1 tvg-id="SachsenEins.de@SD" tvg-country="DE" tvg-name="Sachsen Eins" tvg-logo="https://i.imgur.com/2EXNdd8.png" group-title="General",Sachsen Eins (1080p)
 https://sachsen1.iptv-playoutcenter.de/sachsen1/sachsen1.stream_1/playlist.m3u8
 #EXTINF:-1 tvg-id="SachsenFernsehenChemnitz.de@SD" tvg-country="DE" tvg-name="Sachsen Fernsehen Chemnitz" tvg-logo="https://i.imgur.com/4SEAbVf.png" group-title="General",Sachsen Fernsehen Chemnitz (1080p)
